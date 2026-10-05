@@ -1,11 +1,336 @@
 # Chirurgie éveillée {#sec-chirurgie-eveillee}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Expliquer pourquoi on opère un patient éveillé, et ce que cela exige de lui.
+- Sélectionner les patients et préparer l'intervention en consultation.
+- Comparer les techniques (sédation consciente, endormi-éveillé-endormi) et leurs résultats.
+- Conduire les six étapes du protocole du service, de la pose des voies veineuses à la
+  fermeture.
+- Traiter vite les incidents de la phase éveillée : douleur, somnolence, crise convulsive,
+  malaise vagal, perte de coopération.
 :::
 
-*Chapitre en cours de rédaction.*
+## Pourquoi réveiller le patient ?
+
+Certaines lésions siègent dans ou au contact des **zones éloquentes** : langage, motricité,
+sensibilité, vision, fonctions cognitives. L'imagerie ne suffit pas à savoir où passe la limite
+entre ce que l'on peut enlever et ce qu'il faut garder, car l'organisation fonctionnelle varie
+d'un patient à l'autre et se réorganise autour d'une tumeur lente. La seule façon de le savoir
+est de **tester la fonction pendant la chirurgie** : le chirurgien stimule électriquement le
+cortex puis la substance blanche, pendant que le patient parle, nomme des images, bouge ou
+décrit ce qu'il ressent. Une stimulation qui interrompt la tâche signale une zone à préserver.
+C'est la **cartographie** peropératoire.
+
+Les indications du service :
+
+- les **tumeurs** proches des zones éloquentes, en premier lieu les gliomes ;
+- les lésions responsables d'une **épilepsie pharmacorésistante** au contact de ces zones
+  (cavernome, radionécrose), voir aussi le @sec-epilepsie.
+
+Le bénéfice est démontré pour les gliomes : dans une méta-analyse de plus de 8000 patients, la
+résection avec cartographie par stimulation donnait moins de déficits neurologiques sévères
+définitifs (3,4 % contre 8,2 %) et plus de résections complètes (75 % contre 58 %), alors
+qu'elle concernait davantage de lésions en zone éloquente [@dewitthamer2012].
+
+La phase éveillée comprend un temps de **travail** avec une orthophoniste : exercices de
+dénomination, de lecture, de calcul ou de mouvement, pendant la cartographie puis pendant la
+résection, poursuivie jusqu'aux limites fonctionnelles. Elle dure **1 à 2 heures** hors gliome,
+**2 à 3 heures** pour un gliome. Le rôle de l'anesthésiste est de rendre possible un patient à la
+fois **confortable, immobile, éveillé et coopérant**, puis de l'endormir à nouveau sans délai.
+
+## Sélectionner et préparer le patient
+
+La chirurgie éveillée réussit quand le patient a été bien choisi. Dans une série de 424
+craniotomies éveillées pour tumeur, 6,4 % ont échoué, surtout par **défaut de communication**
+peropératoire (4,2 %) ou **crise convulsive** (2,1 %) ; le défaut de communication était lié à une
+aphasie mixte préopératoire, et l'échec s'accompagnait de moins de résections complètes et de
+plus de déficits du langage à 3 mois [@nossek2013]. La plupart de ces échecs étaient évitables
+par la sélection et par la maîtrise des sédatifs.
+
+En consultation, recherchez ce qui rendrait la phase éveillée impossible ou dangereuse :
+
+- **Une coopération impossible** : aphasie sévère (surtout mixte), confusion, troubles
+  cognitifs, anxiété majeure ou claustrophobie, refus. Le chirurgien et l'orthophoniste
+  évaluent les capacités de travail.
+- **Des voies aériennes à risque** : intubation difficile prévisible, obésité, syndrome
+  d'apnées du sommeil, reflux important. Le patient sera en décubitus latéral, tête fixée en
+  têtière, sans contrôle des voies aériennes : l'accès sera difficile en cas de problème.
+- **Une toux chronique** ou un patient qui ne peut rester immobile plusieurs heures (douleurs
+  rachidiennes, mouvements anormaux).
+- **Une épilepsie mal équilibrée** avec des crises fréquentes : plusieurs antiépileptiques et des
+  antécédents de crises exposent à l'échec par crise peropératoire [@nossek2013].
+- **Une HTIC** ou un effet de masse important : la phase éveillée suppose un cerveau détendu
+  sans osmothérapie lourde ni hyperventilation contrôlée.
+
+Puis préparez :
+
+- **Les antiépileptiques** sont poursuivis jusqu'au matin de l'intervention, **sauf le
+  clobazam** (Urbanyl), arrêté pour son effet sédatif. Il est repris après l'intervention
+  (voir *Après le bloc*).
+- **L'information** est un temps essentiel : le patient doit savoir ce qu'il entendra (la
+  craniotomie est bruyante), ce qu'il sentira (la têtière, le froid, la position), combien de
+  temps durera le travail, et qu'il peut dire à tout moment qu'il a mal ou qu'il est mal
+  installé. Un patient prévenu tolère beaucoup mieux.
+- Le reste du bilan est celui de toute craniotomie programmée (@sec-preop).
+
+## Les techniques
+
+Deux familles de techniques existent [@kulikov2018] :
+
+| | Sédation consciente (MAC) | Endormi-éveillé-endormi (SAS) |
+|---|-----|-----|
+| Principe | Sédation légère à modérée tout au long ; le patient respire seul, sans dispositif sur les voies aériennes | Anesthésie générale avec masque laryngé (ou intubation) pour la craniotomie, réveil complet et retrait du dispositif pour le travail, puis nouvelle anesthésie générale pour la fermeture |
+| Intérêts | Pas de manipulation des voies aériennes en position ; transitions rapides | Confort pendant les temps douloureux ; ventilation contrôlée (capnie, cerveau détendu) |
+| Risques | Hypoventilation et obstruction si la sédation est trop profonde ; douleur si elle est trop légère | Réintroduction du dispositif tête fixée ; toux et agitation au réveil peropératoire ; durée plus longue |
+
+: Sédation consciente et technique endormi-éveillé-endormi {#tbl-techniques-eveillee}
+
+Les deux techniques permettent la cartographie dans la grande majorité des cas. Une
+méta-analyse de 47 études trouvait, toutes techniques confondues, 2 % d'échecs, 8 % de crises
+peropératoires et 2 % de conversions en anesthésie générale, sans différence d'échec entre les
+deux familles [@stevanovic2016]. Une méta-analyse plus récente associe la sédation consciente à
+moins d'échecs (1 % contre 4 %) et à une intervention plus courte, mais à plus de crises
+peropératoires (10 % contre 4 %) ; le niveau de preuve est faible et aucune technique n'est
+supérieure de façon démontrée [@natalini2022].
+
+Pour la sédation consciente, la **dexmédétomidine** fait aussi bien que l'association propofol
+et rémifentanil pour la qualité de la cartographie et le niveau de sédation, avec **moins
+d'événements respiratoires** (0 % contre 20 % dans un essai randomisé), au prix d'une fréquence
+cardiaque plus basse [@goettel2016].
+
+Le **protocole du service** est une sédation consciente modulée : sédation plus profonde pour
+les temps douloureux (têtière, incision, craniotomie), arrêt complet pour le travail, reprise
+pour la fermeture, **sans dispositif sur les voies aériennes**. Il associe la dexmédétomidine,
+le rémifentanil et le propofol en AIVOC, avec une oxygénation à haut débit nasal.
+
+## Matériel et monitorage
+
+| Élément | Protocole du service |
+|--|------|
+| Abords | Deux voies veineuses périphériques ; **cathéter artériel du côté de la lésion** |
+| Sonde urinaire | Posée sous sédation, avec un gel de lidocaïne ; phloroglucinol pour l'inconfort |
+| Oxygénation | Oxygène à haut débit nasal (Optiflow) pendant les phases de sédation |
+| Ventilation | Capnographie par sonde nasale ; **PCO~2~ transcutanée** ; premier gaz du sang pour connaître le gradient entre la PCO~2~ transcutanée, l'EtCO~2~ et la PaCO~2~ |
+| Profondeur de sédation | **BIS** et score clinique **OAA/S** |
+| Seringues | AIVOC propofol ; AIVOC rémifentanil (20 µg/mL) ; dexmédétomidine 200 µg dans 40 mL (5 µg/mL, @tbl-dexmedetomidine) ; noradrénaline diluée (« baby-NAD ») prête |
+| À portée de main | Glucosé 30 %, atropine, lévétiracétam, sérum froid pour le chirurgien ; matériel de contrôle des voies aériennes (masque laryngé, fibroscope) |
+
+: Matériel et monitorage de la chirurgie éveillée (protocole du service) {#tbl-materiel-eveillee}
+
+Le cathéter artériel est placé **du côté de la lésion** parce que le bras opposé, celui que la
+lésion peut atteindre, doit rester libre pour les tests moteurs.
+
+Le score **OAA/S** (*Observer's Assessment of Alertness/Sedation*) se fait au lit en quelques
+secondes, sur la réponse à l'appel du nom [@chernik1990] :
+
+| Score | Réponse |
+|--|------|
+| 5 | Répond tout de suite au nom prononcé normalement |
+| 4 | Répond lentement au nom prononcé normalement |
+| 3 | Ne répond qu'au nom prononcé fort ou répété |
+| 2 | Ne répond qu'à une légère secousse |
+| 1 | Ne répond pas à une légère secousse |
+
+: Score OAA/S (composante réactivité) {#tbl-oaas}
+
+## Le déroulement, étape par étape
+
+### Étape 1 : mise en condition sous sédation
+
+Le patient est en décubitus dorsal. La sédation commence dès la première voie veineuse :
+
+- **dexmédétomidine** : dose de charge de **1 µg/kg en 20 min**, puis **1 µg/kg/h** ;
+- **rémifentanil** en AIVOC, cible **1,5 ng/mL** ;
+- **propofol** en bolus ou en AIVOC titrée.
+
+L'effet de la dexmédétomidine arrive vers la 10^e^ minute de la dose de charge : c'est là que
+le risque de sédation trop profonde, d'apnée et de bradycardie est le plus grand, surtout avec
+le propofol et le rémifentanil (@sec-pharmacologie). Sous cette sédation, posez le cathéter
+artériel, la sonde urinaire et la deuxième voie veineuse, puis **arrêtez la sédation**.
+Administrez l'antibioprophylaxie (céfazoline ; clindamycine en cas d'allergie) et la
+dexaméthasone.
+
+### Étape 2 : installation en décubitus latéral, patient éveillé
+
+Le patient est installé **éveillé**, avec le chirurgien, pour qu'il dise lui-même s'il est
+bien : appuis, coussins, épaule, hanche, position du cou. Le **bras opposé à la lésion** doit
+bouger librement, et le visage doit rester visible et accessible à l'orthophoniste. Une
+position inconfortable, acceptée en début d'intervention, devient intolérable après trois
+heures.
+
+### Étape 3 : têtière, neuronavigation et anesthésie locale
+
+Dès la position validée, **reprenez la dexmédétomidine et le rémifentanil**. Le chirurgien
+infiltre les points de la têtière (association de lidocaïne et de ropivacaïne), pose la
+têtière à pointes, recale la neuronavigation et trace l'incision, puis infiltre la zone
+d'incision avant le badigeon. L'infiltration et le bloc du scalp (nerfs supraorbitaire,
+supratrochléaire, auriculotemporal, zygomaticotemporal, petit et grand occipitaux) assurent
+l'analgésie de la paroi [@osborn2010].
+
+Avant **chaque geste significatif**, vérifiez la profondeur de sédation (OAA/S ou BIS). Après le
+badigeon, posez la sonde nasale de capnographie, la PCO~2~ transcutanée et le BIS, puis faites
+le premier gaz du sang.
+
+::: {.callout-warning title="Piège"}
+L'infiltration du scalp utilise de grands volumes d'anesthésique local, dans une zone très
+vascularisée. Calculez avant l'infiltration la dose maximale de chaque produit, sachant que les
+toxicités de la lidocaïne et de la ropivacaïne s'additionnent, et annoncez-la au chirurgien. Les
+seuils usuels sont de 4,5 mg/kg pour la lidocaïne (7 mg/kg adrénalinée) et de 3 mg/kg pour la
+ropivacaïne. Une toxicité systémique (goût métallique, acouphènes, agitation, convulsion,
+trouble du rythme) chez un patient éveillé se reconnaît tôt, mais une convulsion peut alors être
+prise à tort pour une crise liée à la lésion. L'émulsion lipidique doit être disponible.
+:::
+
+<!-- TODO-VALIDER : `eveillee` parle d'un « protocole d'infiltration en salle (association lidocaine + ropivacaine) » sans concentrations ni volumes. Le livre donne les doses maximales usuelles (lidocaïne 4,5 mg/kg, 7 mg/kg adrénalinée ; ropivacaïne 3 mg/kg) : préciser le protocole local (A_VALIDER n° 20). -->
+
+### Étape 4 : incision, craniotomie, ouverture de la dure-mère
+
+La sédation est maintenue à un niveau « de croisière » jusqu'à la fin de la craniotomie. À
+l'incision, administrez l'analgésie et la prévention des nausées :
+
+- **kétamine 0,25 mg/kg**, paracétamol, phloroglucinol ;
+- ondansétron 4 mg (la dexaméthasone 8 mg a été donnée à l'étape 1).
+
+Préparez le réveil pendant cette phase : **normothermie** (un patient froid frissonne au réveil,
+bouge et consomme de l'oxygène) et **hydratation** suffisante (soif et bouche sèche gênent la
+parole).
+
+Puis, dans l'ordre :
+
+1. **Arrêt de la dexmédétomidine dès la fin de la craniotomie**, et appel de l'orthophoniste à
+   la demande du chirurgien. Sa demi-vie de distribution est courte, mais son effet persiste
+   plusieurs dizaines de minutes.
+2. **Arrêt du propofol et du rémifentanil pour l'ouverture de la dure-mère**, que le chirurgien
+   infiltre au préalable. La dure-mère est innervée (surtout le long des vaisseaux méningés) ;
+   le cerveau lui-même est indolore.
+3. **Retrait de la sonde nasale et arrêt de l'Optiflow** avant le travail : ils gênent la
+   parole.
+
+### Étape 5 : cartographie et résection, le « travail »
+
+Le patient est réveillé, sans sédation, et travaille avec l'orthophoniste. Votre rôle est de
+surveiller la ventilation, l'hémodynamique et le confort, et de répondre sans délai à
+l'incident (@tbl-incidents-eveillee).
+
+| Incident | Conduite du service |
+|--|------|
+| **Douleur** | Fréquente si la lésion est temporale, proche de la vallée sylvienne, de l'insula ou des ventricules latéraux, ou à la traction de la dure-mère et du muscle temporal : **kétamine 10 mg**, ou petite dose de rémifentanil arrêtée dès qu'elle endort ; demander au chirurgien de compléter l'infiltration |
+| **Somnolence, ralentissement** | Éliminer une cause : sédation résiduelle, hypercapnie (PCO~2~ transcutanée), hypoglycémie, crise infraclinique ou postcritique ; protocole : **glucosé 30 %, 1 ampoule IV lente** dans 100 mL de NaCl 0,9 % ; le chirurgien peut irriguer le cortex de sérum tiède |
+| **Crise convulsive** | Arrêt de la stimulation ; **sérum froid** sur le cortex par le chirurgien ; si la crise persiste ou récidive : **lévétiracétam 500 mg** IV puis réévaluation ; protéger le patient (têtière) |
+| **Bradycardie vagale** (stimulation de la dure-mère, douleur) | **Atropine 0,25 mg** dès la moindre bradycardie, pour éviter le malaise vagal complet (bradycardie, hypotension, vomissements) |
+| **Nausées, vomissements** | Tête fixée, latérale : aspiration prête ; ondansétron ; vérifier l'absence de douleur et d'hypotension |
+| **Agitation, perte de coopération** | Rechercher douleur, inconfort de position, vessie, crise, confusion postcritique ; si elle persiste : discussion avec le chirurgien sur la fin du travail et le passage à l'anesthésie générale |
+| **Hypoventilation, obstruction** | Rare sans sédation : stimulation, subluxation, oxygène ; ne pas resédater pour « calmer » un patient hypoxique |
+
+: Incidents de la phase éveillée et conduite à tenir (protocole du service) {#tbl-incidents-eveillee}
+
+<!-- TODO-VALIDER : `eveillee` : « Si somnolence ou ralentissement : G30 % 1 ampoule IVL dans pochon 100 ml de sérum phy » ; l'indication n'est pas précisée (correction d'une hypoglycémie ?) ; le livre conseille de contrôler la glycémie capillaire avant, le patient ayant reçu de la dexaméthasone (A_VALIDER n° 19). -->
+
+Les **crises peropératoires** sont déclenchées par la stimulation corticale. Elles concernaient
+12,6 % des patients dans une série de 477 craniotomies éveillées ; elles étaient plus fréquentes
+chez les patients jeunes, épileptiques, et en cas de lésion frontale, et menaient à l'échec de la
+phase éveillée dans 2,3 % des cas [@nossek2013crises]. Une équipe française rapporte 3,4 % de
+crises, toutes partielles et toutes arrêtées par l'irrigation de sérum froid, avec des
+intensités de stimulation basses [@boetto2015]. Le sérum froid est le premier traitement :
+il agit en quelques secondes et n'endort pas. La benzodiazépine, efficace, compromet la suite du
+travail : elle est réservée à la crise qui dure ou se généralise.
+
+::: {.callout-tip title="Astuce"}
+Un patient qui cesse de parler n'est pas forcément endormi : la stimulation d'une zone du langage
+produit exactement cet effet, et c'est le but de la cartographie. Regardez le chirurgien et
+l'orthophoniste avant d'agir. À l'inverse, des clonies de l'hémiface ou de la main controlatérale
+annoncent une crise : prévenez immédiatement, le sérum froid doit arriver avant la
+généralisation.
+:::
+
+::: {.callout-note title="Pour aller plus loin : la conversion en anesthésie générale" collapse="true"}
+La conversion est rare (environ 2 % [@stevanovic2016]) mais doit être préparée avant
+l'incision : le patient est en décubitus latéral, tête fixée en têtière, volet ouvert, champs en
+place. Ayez prêts un **masque laryngé** (le plus rapide dans cette position), un fibroscope pour
+une intubation à travers le masque laryngé, et un plan partagé avec le chirurgien (qui peut
+devoir protéger le champ). Une crise généralisée qui ne cède pas au sérum froid et au
+lévétiracétam se traite comme un état de mal débutant : benzodiazépine, propofol, contrôle des
+voies aériennes. Le travail s'arrête ; la résection se poursuit, plus prudente, ou est différée.
+:::
+
+### Étape 6 : hémostase et fermeture
+
+À la fin du travail, **reprenez la sédation** (propofol et rémifentanil, avec ou sans
+dexmédétomidine). La fermeture est peu douloureuse, sauf la suture de la dure-mère et du muscle
+temporal. Administrez la **morphine 0,1 mg/kg IV**, et un deuxième bolus de kétamine si le
+patient a eu mal pendant le travail. Arrêtez les sédations au **retrait de la têtière**.
+
+## Après le bloc
+
+- **Lieu et surveillance** : ceux de la craniotomie programmée (@sec-craniotomie) ; examen
+  neurologique comparé à celui de fin de travail, que l'orthophoniste a noté. Un déficit
+  transitoire après une résection au contact des zones éloquentes est fréquent ; un déficit qui
+  s'aggrave impose le scanner.
+- **Analgésie** : paracétamol, titration de morphine IV puis morphine orale.
+- **Corticoïdes** si tumeur (pas en chirurgie de l'épilepsie) : dexaméthasone 8 mg 12 heures
+  après la première injection, avec un inhibiteur de la pompe à protons (lansoprazole 15 mg).
+- **Antiépileptiques** : lévétiracétam majoré et reprise du clobazam (5-5-10 mg per os).
+
+## Cas clinique
+
+Un homme de 38 ans, droitier, 75 kg, est opéré en éveillé d'un gliome de bas grade frontal
+gauche, au contact de l'aire de Broca. Il a fait trois crises partielles l'an dernier, et prend
+du lévétiracétam et du clobazam.
+
+1. Quels traitements poursuivez-vous jusqu'au matin de l'intervention ?
+2. Calculez le débit de la seringue de dexmédétomidine (5 µg/mL) pour la dose de charge sur 20
+   min, puis pour l'entretien à 1 µg/kg/h.
+3. Où posez-vous le cathéter artériel, et pourquoi ?
+4. Pendant la cartographie, il s'arrête de parler, puis sa main droite présente des secousses.
+   Que se passe-t-il, et que faites-vous ?
+5. Une heure plus tard, il devient lent et somnolent. Quelles causes recherchez-vous avant
+   d'appliquer le protocole ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Le **lévétiracétam**, jusqu'au matin ; le **clobazam est arrêté** pour son effet sédatif.
+   Il a des antécédents de crises : risque accru de crise peropératoire, à anticiper
+   [@nossek2013crises].
+2. Dose de charge : 75 µg en 20 min, soit 15 mL en 20 min, donc **45 mL/h pendant 20 min**.
+   Entretien : 75 µg/h, soit **15 mL/h** (@tbl-dexmedetomidine).
+3. Au **bras gauche** (côté de la lésion) : le bras droit doit rester libre pour les tests
+   moteurs.
+4. L'arrêt de la parole peut être l'effet attendu de la stimulation d'une zone du langage ;
+   les secousses de la main droite signent une **crise partielle**. Le chirurgien arrête la
+   stimulation et irrigue le cortex de **sérum froid** ; si la crise persiste ou récidive,
+   **lévétiracétam 500 mg** IV ; benzodiazépine et contrôle des voies aériennes si elle se
+   généralise [@boetto2015].
+5. Une **phase postcritique** (après la crise), une **crise infraclinique**, une **hypercapnie**
+   (PCO~2~ transcutanée), une **hypoglycémie** (glycémie capillaire), une sédation résiduelle,
+   une aggravation neurologique (œdème, saignement). Puis glucosé 30 % selon le protocole, et
+   irrigation tiède du cortex par le chirurgien.
+:::
+
+## Fiche pratique
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Un patient confortable, immobile, éveillé et coopérant pendant le travail (1 à 3 h) ; sédation profonde pour les temps douloureux ; transitions rapides ; incidents traités sans délai |
+| Monitorage | Standard ; 2 VVP ; **KTA côté lésion** (bras controlatéral libre) ; SU (gel de lidocaïne) ; Optiflow + capnographie nasale + **PCO~2~ transcutanée** (premier GDS pour le gradient) ; **BIS + OAA/S** avant chaque geste |
+| Induction et entretien | Dexmédétomidine 1 µg/kg en 20 min puis 1 µg/kg/h ; rémifentanil AIVOC cible 1,5 ; propofol titré ; KTA, SU, VVP puis arrêt ; céfazoline, dexaméthasone 8 mg ; installation latérale **éveillée** ; reprise dex + rémi pour têtière et infiltration ; kétamine 0,25 mg/kg, paracétamol, ondansétron à l'incision ; **arrêt dex à la fin de la craniotomie**, arrêt propofol et rémi pour l'ouverture de la dure-mère ; retrait sonde nasale et Optiflow avant le travail ; reprise sédation pour la fermeture, morphine 0,1 mg/kg |
+| Cibles | Normothermie (frisson), hydratation, normocapnie (PCO~2~ transcutanée), PAM du service (@tbl-cibles-craniotomie) ; dose maximale d'anesthésique local calculée |
+| Pièges | Pic d'effet de la dexmédétomidine vers 10 min (apnée, bradycardie) ; position mal vérifiée ; toxicité des anesthésiques locaux prise pour une crise ; resédater un patient hypoventilant ; benzodiazépine en première intention d'une crise partielle ; poursuivre le clobazam |
+| Incidents | Douleur : kétamine 10 mg ; somnolence : glycémie, capnie, puis G30 % ; crise : **sérum froid**, puis lévétiracétam 500 mg ; bradycardie : **atropine 0,25 mg** précoce ; conversion : masque laryngé prêt |
+| Post-opératoire | Comme la craniotomie ; examen comparé à la fin du travail ; paracétamol, morphine ; dexaméthasone 8 mg à H12 si tumeur (+ IPP) ; lévétiracétam majoré, reprise du clobazam |
+
+: Fiche pratique : chirurgie éveillée {#tbl-fiche-eveillee}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- La chirurgie éveillée teste la fonction pendant la résection : plus de résections complètes,
+  moins de déficits définitifs.
+- Sa réussite tient à la sélection (coopération, langage, voies aériennes, épilepsie) et à
+  l'information du patient.
+- Sédation consciente ou endormi-éveillé-endormi : aucune technique n'est démontrée supérieure ;
+  le service utilise une sédation modulée sans dispositif sur les voies aériennes.
+- Installation éveillée, bras controlatéral libre, cathéter artériel du côté de la lésion.
+- Dexmédétomidine arrêtée à la fin de la craniotomie ; propofol et rémifentanil arrêtés pour
+  l'ouverture de la dure-mère.
+- Crise peropératoire : sérum froid d'abord, lévétiracétam ensuite ; conversion en anesthésie
+  générale préparée avant l'incision.
 :::
