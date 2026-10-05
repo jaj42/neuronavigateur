@@ -1,0 +1,11 @@
+_book/
+.quarto/
+*_files/
+*.log
+/.luatex-cache/
+index.tex
+
+/.quarto/
+**/*.quarto_ipynb
+/Neuro-anesth*.tex
+/site_libs/

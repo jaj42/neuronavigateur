@@ -1,0 +1,56 @@
+# Avant-propos {.unnumbered}
+
+Ce livret accompagne vos premières semaines en neuro-anesthésie-réanimation. Il part de
+l'anatomie et de la physiologie, qui servent à tout comprendre ensuite, avant de passer aux
+situations concrètes du bloc opératoire, de la neuroradiologie interventionnelle et de la
+réanimation.
+
+Chaque chapitre clinique s'appuie sur les protocoles du service, sur les recommandations
+françaises (SFAR et sociétés associées) et sur la littérature internationale récente.
+
+::: {.callout-warning title="Avertissement"}
+Ce document est un outil pédagogique. Il ne remplace ni les protocoles validés du service,
+ni l'avis du senior. En cas de doute, appelez.
+:::
+
+## Mode d'emploi {.unnumbered}
+
+Les chapitres utilisent toujours les mêmes encadrés.
+
+::: {.callout-important title="Objectifs"}
+En tête de chapitre : ce que vous devez savoir faire après l'avoir lu.
+:::
+
+::: {.callout-tip title="Astuce"}
+Un réflexe pratique, une façon de faire qui simplifie la vie.
+:::
+
+::: {.callout-warning title="Piège"}
+Une erreur fréquente ou dangereuse.
+:::
+
+::: {.callout-note title="Pour aller plus loin" collapse="true"}
+Les publications clés et les débats en cours, par exemple l'opposition entre la stratégie de
+Rosner et le concept de Lund dans le traumatisme crânien grave [@robertson1999; @asgeirsson1994].
+:::
+
+::: {.callout-caution title="À retenir"}
+En fin de chapitre : les messages essentiels en quelques lignes.
+:::
+
+Les situations cliniques se terminent par une **fiche pratique** au format fixe :
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|---|---|
+| Objectifs | Ce que l'anesthésie doit obtenir |
+| Monitorage | Standard et spécifique |
+| Induction et entretien | Agents, doses, séquence |
+| Cibles | PAM, PaCO~2~, natrémie, température… |
+| Pièges | Ce qui tue ou aggrave |
+| Post-opératoire | Lieu de surveillance, prescriptions |
+
+: Structure d'une fiche pratique {#tbl-fiche}
+:::
+
+Les abréviations sont regroupées en @sec-abreviations.

@@ -1,0 +1,95 @@
+project:
+  type: book
+  output-dir: _book
+  render:
+    - index.qmd
+    - parties/*.qmd
+    - annexes/*.qmd
+
+lang: fr
+
+book:
+  title: "Neuro-anesthésie-réanimation"
+  subtitle: "Le kit de démarrage de l'interne"
+  author: "Jona JOACHIM"
+  date: today
+  date-format: "MMMM YYYY"
+  chapters:
+    - index.qmd
+    - part: "Bases"
+      chapters:
+        - parties/01-anatomie.qmd
+        - parties/02-physiologie.qmd
+        - parties/03-physiopathologie.qmd
+        - parties/04-pharmacologie.qmd
+        - parties/05-monitorage.qmd
+    - part: "Bloc opératoire"
+      chapters:
+        - parties/06-preop.qmd
+        - parties/07-craniotomie.qmd
+        - parties/08-fosse-posterieure.qmd
+        - parties/09-chirurgie-eveillee.qmd
+        - parties/10-epilepsie.qmd
+        - parties/11-base-du-crane.qmd
+        - parties/12-vasculaire.qmd
+        - parties/13-trijumeau.qmd
+        - parties/14-nri.qmd
+    - part: "Urgences et réanimation"
+      chapters:
+        - parties/15-htic.qmd
+        - parties/16-tc-grave.qmd
+        - parties/17-hsa.qmd
+        - parties/18-avc.qmd
+        - parties/19-dysnatremies-dve.qmd
+    - annexes/references.qmd
+  appendices:
+    - annexes/fiches-memo.qmd
+    - annexes/scores.qmd
+    - annexes/abreviations.qmd
+    - annexes/credits-images.qmd
+
+bibliography: references.bib
+csl: vancouver.csl
+link-citations: true
+
+crossref:
+  fig-prefix: "Figure"
+  tbl-prefix: "Tableau"
+  fig-title: "Figure"
+  tbl-title: "Tableau"
+
+number-sections: true
+toc-depth: 2
+
+format:
+  pdf:
+    pdf-engine: lualatex
+    documentclass: scrbook
+    papersize: a4
+    fontsize: 11pt
+    classoption:
+      - oneside
+      - open=any
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - left=25mm
+      - right=25mm
+    mainfont: "TeX Gyre Pagella"
+    sansfont: "TeX Gyre Heros"
+    monofont: "TeX Gyre Cursor"
+    colorlinks: true
+    toc: true
+    lof: false
+    fig-pos: "htbp"
+    keep-tex: true
+  html:
+    theme:
+      light: [cosmo, styles/custom.scss]
+      dark: [darkly, styles/custom.scss]
+    toc: true
+    toc-depth: 3
+    number-depth: 3
+    smooth-scroll: true
+    reference-location: margin
+    citation-location: document

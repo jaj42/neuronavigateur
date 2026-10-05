@@ -1,0 +1,11 @@
+# Base du crâne, voie endonasale et diabète insipide {#sec-base-du-crane}
+
+::: {.callout-important title="Objectifs"}
+- *À rédiger.*
+:::
+
+*Chapitre en cours de rédaction.*
+
+::: {.callout-caution title="À retenir"}
+- *À rédiger.*
+:::

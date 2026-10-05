@@ -1,0 +1,11 @@
+# Chirurgie de l'épilepsie {#sec-epilepsie}
+
+::: {.callout-important title="Objectifs"}
+- *À rédiger.*
+:::
+
+*Chapitre en cours de rédaction.*
+
+::: {.callout-caution title="À retenir"}
+- *À rédiger.*
+:::

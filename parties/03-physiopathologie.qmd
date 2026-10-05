@@ -1,0 +1,11 @@
+# Physiopathologie de l'agression cérébrale {#sec-physiopathologie}
+
+::: {.callout-important title="Objectifs"}
+- *À rédiger.*
+:::
+
+*Chapitre en cours de rédaction.*
+
+::: {.callout-caution title="À retenir"}
+- *À rédiger.*
+:::

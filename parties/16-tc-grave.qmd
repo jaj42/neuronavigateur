@@ -1,0 +1,11 @@
+# Traumatisme crânien grave {#sec-tc-grave}
+
+::: {.callout-important title="Objectifs"}
+- *À rédiger.*
+:::
+
+*Chapitre en cours de rédaction.*
+
+::: {.callout-caution title="À retenir"}
+- *À rédiger.*
+:::

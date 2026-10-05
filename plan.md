@@ -1,4 +1,4 @@
-# Plan — « Starter kit » neuro-anesthésie-réanimation pour internes (Quarto book → PDF A4)
+# Plan : « Starter kit » neuro-anesthésie-réanimation pour internes (Quarto book → PDF A4)
 
 ## Context
 New anesthesiology interns starting in neurosurgery need a quick reference that also teaches: it should start with general physiology and then cover specific cases. It should be in French and illustrated, with references. Sources:
@@ -6,22 +6,34 @@ New anesthesiology interns starting in neurosurgery need a quick reference that 
 - `additional.txt`: Lund vs Rosner, CPPopt/PRx, key refs (Asgeirsson 1994, Grände 2006, Robertson 1999, Steiner 2002, Aries 2012, COGiTATE 2023).
 - `protocoles/*.qmd`: 18 local protocols (préop, craniotomie, HTIC, HSA, clippage, moya ×2, endonasal, adénome, base du crâne, DI, éveillée, cortectomie, épilepsie SSPI, dexmédétomidine, trijumeau, anévrisme mycotique, AVC thrombolyse).
 
+Author: Jona JOACHIM.
+
 User decisions: rewrite the protocols into teaching chapters, each ending in a "fiche pratique"; remove personal names and phone numbers but keep the local workflow; A4 with LaTeX (lualatex, installed) plus an HTML output; figures generated in the repo plus Wikimedia CC images with attribution.
+
+## Working conventions
+- **Git:** commit directly on the main branch (`master`; there is no `main`). No feature branches.
+- **No em dash** (U+2014) anywhere: book content, notes, comments, commit messages, this plan. Use a colon, a semicolon, commas or parentheses instead. En dashes in numeric ranges (60–70 mmHg) are fine.
+- **No more raw LaTeX than necessary.** Configure the PDF through `_quarto.yml` options (fonts, geometry, class options) and write content in Markdown/Quarto syntax that works for both PDF and HTML. There is no `preamble.tex`. Subscripts are written in Markdown (`PaCO~2~`, `CMRO~2~`, `N~2~O`), because TeX Gyre Pagella has no glyphs for Unicode subscripts (« ₂ » renders as an empty box).
 
 **Gap:** no protocol exists for severe TBI (TC grave). That chapter is written from guidelines (SFAR 2016 TC grave, BTF 2016, SIBICC 2019) and from the extradural case in transcript 1.
 
 ## Project layout (root: `neuro_starter/`)
 ```
-_quarto.yml            # book; lang: fr; pdf (lualatex, A4, scrbook) + html
-index.qmd              # Avant-propos, mode d'emploi, abréviations
-parties/01-...qmd      # chapters (below)
-annexes/*.qmd          # fiches, scores, doses, crédits images
+_quarto.yml            # book; lang: fr; pdf (lualatex, A4, scrbook, TeX Gyre Pagella/Heros) + html (cosmo/darkly)
+                       # project.render limited to index.qmd, parties/, annexes/ (protocoles/ and sources/ are not rendered)
+index.qmd              # Avant-propos, mode d'emploi (shows every box type + fiche pratique)
+parties/NN-slug.qmd    # 19 chapters, ids #sec-<slug> (e.g. #sec-htic), stubs with Objectifs / À retenir
+annexes/*.qmd          # references (bibliography, before the appendices), fiches-memo, scores, abreviations, credits-images
 figures/src/*.py       # matplotlib scripts → figures/*.pdf/.png
 figures/wikimedia/     # downloaded CC images + credits.yml
-sources/transcripts/   # downloaded transcripts (cache, not rendered)
-references.bib         # verified via PubMed MCP
-preamble.tex           # callout colors, headers, French typo (babel/polyglossia)
+scripts/               # sfar_bib.py (to write)
+sources/transcripts/   # t1_neuro_bases.txt, t2_nri.txt (cache, not rendered)
+sources/NOTES.md       # reading notes on every source: content → chapter, transcription errors, names to remove, discrepancies
+references.bib         # verified via PubMed MCP (PMID + DOI fields)
+vancouver.csl          # from zotero.org/styles/vancouver
+styles/custom.scss     # small HTML tweaks only
 protocoles/            # untouched originals
+_book/                 # output (git-ignored, like .quarto/ and the kept .tex)
 ```
 
 ## Book outline
@@ -54,10 +66,12 @@ protocoles/            # untouched originals
 
 ## Pedagogical devices (consistent across chapters)
 - Opening box « Objectifs » (3–5 items) and closing box « À retenir ».
-- Callouts: `tip` = Astuce, `warning` = Piège/Danger, `note` = Pour aller plus loin (key papers).
-- A final « Fiche pratique » for each surgical/ICU situation, in a fixed layout: objectifs / monitorage / induction-entretien / cibles / pièges / post-op.
+- Boxes are standard Quarto callouts with a French `title`, default colors (no custom LaTeX):
+  `important` = Objectifs, `caution` = À retenir, `tip` = Astuce, `warning` = Piège, `note` = Pour aller plus loin (`collapse="true"`).
+- A final « Fiche pratique » for each surgical/ICU situation: a `::: {.fiche-pratique}` div holding a two-column table in a fixed order: objectifs / monitorage / induction-entretien / cibles / pièges / post-op.
 - Short clinical cases with questions; answers in a collapsible block (HTML) or at the end of the chapter (PDF).
 - Inline citations `[@key]`, Vancouver CSL.
+- Cross-references with `@sec-…`, `@fig-…`, `@tbl-…`; Quarto adds the word (« Annexe C », « Tableau 1 »), so don't write it again in the sentence.
 
 ## Figures
 - Matplotlib (`figures/src/*.py`, one script per figure, run by a `make figures` / `figures/build.py` step before render): autoregulation plateau (normal vs shifted vs lost), DSC vs PaCO₂/PaO₂, Langfitt curve, ICP waveform P1/P2/P3 (normal vs poor compliance), DTC waveforms (normal / HTIC / vasospasm), PRx-vs-CPP U-curve (CPPopt), Lund vs Rosner Starling schematic, natremia decision tree.
@@ -73,6 +87,7 @@ protocoles/            # untouched originals
   - SSH: 6 g in `craniotomie` vs ~7 g in `htic`.
   - Transfusion threshold 7–8 g/dL vs TRAIN 2024 (liberal strategy favored in acute brain injury).
   - `clippage_anevrysme` contains "TODO: krenosin".
+  - The full list (15 items so far, incl. the 2013 NRI transcript being outdated for stroke, hypervolemia in `hsa`, ICP threshold 15 vs 22 mmHg, vitamin K dose) is in `sources/NOTES.md` and seeds `A_VALIDER.md`.
 - Every journal reference is checked with the PubMed MCP (`lookup_article_by_citation` / `get_article_metadata`) before it goes into `references.bib`. Nothing is cited from memory alone.
 
 ## Recommandations françaises (SFAR et sociétés associées)
@@ -112,8 +127,9 @@ Rules:
 | Older texts, cited as « historique » only and replaced by newer sources where these exist: monitorage EEG de la profondeur d'anesthésie (2010), NVPO (2007), états de mal épileptiques (2008), MTEV (2011, superseded by 2024) | 4, 7, 10 | URLs from `discovery.json` |
 
 ## Execution order
-1. Download the transcripts to `sources/transcripts/`, then read them in full along with all the protocols.
-2. Scaffold: `_quarto.yml`, `preamble.tex`, `index.qmd`, CSL, empty chapters, a test render.
+1. ✅ Download the transcripts to `sources/transcripts/`, then read them in full along with all the protocols. Notes in `sources/NOTES.md`.
+2. ✅ Scaffold: `_quarto.yml`, `index.qmd`, CSL, stub chapters and annexes, two PubMed-verified test references (robertson1999, asgeirsson1994), clean test render (PDF + HTML).
+   Findings: babel handles French with lualatex (no `babel-french.ldf` needed); always run a full `quarto render`, since rendering one format alone wipes `_book/`.
 3. Build `references.bib`: run `scripts/sfar_bib.py` for the SFAR entries and verify the journal entries via PubMed. Read the relevant sections of each SFAR markdown before writing the chapter that cites it.
 4. Generate the figures and download the Wikimedia images with their credits.
 5. Write Partie I, then II, then III, then the annexes. Render after each part.
@@ -122,6 +138,7 @@ Rules:
 ## Verification
 - `quarto render` gives a clean PDF + HTML: no LaTeX errors, no `?@fig`/`???` unresolved citations or cross-references (grep the log and the `.tex`).
 - Inspect sample pages of the PDF with Read (pages tool) to check figures, callouts, tables, French typography and the fiche layout.
-- `grep -riE "Francine|Chassoux|LEVE|55148"` on the output returns nothing.
+- `grep -riE "Francine|Chassoux|LEVE|55148"` on the output returns nothing (full list of names and numbers in `sources/NOTES.md`).
+- `grep -rnP "\x{2014}"` on everything except `protocoles/` returns nothing.
 - Every journal bib entry has a PMID/DOI that matches PubMed metadata. Every SFAR entry's URL appears verbatim in `discovery.json`, which a script checks.
 - Hand `A_VALIDER.md` to the user for medical sign-off.
