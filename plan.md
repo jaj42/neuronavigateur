@@ -73,12 +73,48 @@ protocoles/            # untouched originals
   - SSH: 6 g in `craniotomie` vs ~7 g in `htic`.
   - Transfusion threshold 7–8 g/dL vs TRAIN 2024 (liberal strategy favored in acute brain injury).
   - `clippage_anevrysme` contains "TODO: krenosin".
-- Every reference is checked with the PubMed MCP (`lookup_article_by_citation` / `get_article_metadata`) before it goes into `references.bib`. Nothing is cited from memory alone.
+- Every journal reference is checked with the PubMed MCP (`lookup_article_by_citation` / `get_article_metadata`) before it goes into `references.bib`. Nothing is cited from memory alone.
+
+## Recommandations françaises (SFAR et sociétés associées)
+Full-text source: `/home/jaj/devel/sfar_recommendations/output/chandra/<année>/<doc>/<doc>.md`. URLs come from `/home/jaj/devel/sfar_recommendations/output/discovery.json`. Match each document on `filename` without its extension, then cite its `landing_url`, or its `download_url` when `landing_url` is null.
+
+Rules:
+- The most recent document wins. When an older SFAR text conflicts with a newer one, or with a recent international guideline or trial, the book follows the newer source and cites the older one only as « historique ».
+- Each recommendation is cited as `@misc` in `references.bib`, with author = société(s), title, year, note = RFE/RPP, url, and urldate. A small script `scripts/sfar_bib.py` builds these entries from `discovery.json` so the URLs are never typed by hand.
+- Key recommendations are quoted in a « Ce que disent les recommandations » box: the wording is paraphrased faithfully and the grade is given (accord fort, G1+/G2+, avis d'experts).
+- Where a local protocol departs from a recommendation, the gap is flagged in `A_VALIDER.md`.
+
+| Doc (année, type) | Chapitre(s) | URL |
+|---|---|---|
+| Prise en charge neurochirurgicale des TCE de l'adulte et de l'enfant à la phase initiale (2025, RPP SFNC/ANARLF/SFAR) + fiche de synthèse | 16 TC grave, 3 | https://sfar.org/prise-en-charge-neurochirurgicales-des-traumatismes-cranio-encephaliques-de-ladulte-et-de-lenfant-a-la-phase-initiale/ |
+| Prise en charge des traumatisés crâniens graves à la phase précoce (2016, RFE) | 15 HTIC, 16 TC grave | https://sfar.org/prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce/ |
+| Traumatisme crânien léger de l'adulte (2022, RPP) | 16 (encadré TC léger / HSD du sujet âgé) | https://sfar.org/prise-en-charge-des-patients-presentant-un-traumatisme-cranien-leger-de-ladulte/ |
+| Traumatisme vertébromédullaire (2019, RFE) + fiche | 16 (rachis cervical du TC), annexe | https://sfar.org/prise-en-charge-des-patients-presentant-ou-a-risque-de-traumatisme-vertebromedullaire/ |
+| Anesthésie pour thrombectomie (2022, RPP) | 14 NRI, 18 AVC | https://sfar.org/prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie/ |
+| HSA grave (2004, RFE) | 17 HSA, historique only; the chapter mainly follows recent international guidelines (NCS 2023, AHA 2023, verified via PubMed) | https://sfar.org/hemorragie-sous-arachnoidienne-hsa-grave/ |
+| Gestion des anticoagulants pour une procédure invasive programmée (2026, RFE GIHP) | 6 préop. INR ≤ 1,2 et vitamine K 2–5 mg la veille for intracranial neurosurgery; arrêt AOD prolongé | https://sfar.org/gestion-des-anticoagulants-pour-une-procedure-invasive-programmee/ |
+| Gestion de l'anticoagulation en contexte d'urgence (2024, RFE) + algorithmes | 15, 16 (réversion immédiate en cas d'hémorragie intracrânienne) | https://sfar.org/gestion-de-lanticoagulation-dans-un-contexte-durgence/ |
+| AAP, procédure programmée (2018, RFE) | 6 préop. Last dose before intracranial surgery: aspirine J-5, clopidogrel/ticagrélor J-7, prasugrel J-9 | https://sfar.org/gestion-agents-antiplaquettaires-procedure-invasive-programmee/ |
+| AAP, procédure non programmée ou hémorragie (2018, RFE) | 15, 16 (transfusion plaquettaire et neurochirurgie urgente) | https://sfar.org/gestion-des-agents-antiplaquettaires-en-cas-de-procedure-invasive-non-programmee-ou-dhemorragie/ |
+| Prévention de la MTEV péri-opératoire (2024, RFE GIHP) | 7, 19 (HBPM post-craniotomie) | https://sfar.org/prevention-de-la-maladie-thromboembolique-veineuse-peri-operatoire/ |
+| Antibioprophylaxie en chirurgie et médecine interventionnelle (2023, v3.0 2026) | 7, 11, 14 (neurochir., endonasal, DVE) | https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/ |
+| Choix du soluté de remplissage en situation critique (2021, RFE): champ « cérébrolésés » | 2, 4, 15, 16 (pas d'hypotoniques, pas d'albumine) | https://sfar.org/choix-du-solute-pour-le-remplissage-vasculaire-en-situation-critique/ |
+| Contrôle ciblé de la température (2016, RFE) | 15, 16 (CCT 35–37 °C chez le TC grave) | https://sfar.org/controle-cible-de-la-temperature-en-reanimation-hors-nouveau-nes/ |
+| Gestion et prévention de l'anémie en soins critiques (2019, RFE) | 16 (seuil transfusionnel; compare with TRAIN 2024 → A_VALIDER) | https://sfar.org/gestion-et-prevention-de-lanemie-hors-hemorragie-aigue-chez-le-patient-adulte-de-soins-critiques/ |
+| Optimisation hémodynamique périopératoire (2024, RFE) | 7 (monitorage du débit, objectifs de PA) | https://sfar.org/optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique/ |
+| Réactualisation douleur postopératoire (2016, RFE) | 7 (analgésie post-craniotomie) | https://sfar.org/reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire/ |
+| Curarisation et décurarisation (2018, RFE) | 4, 7 (monitorage, NIM/PEM sans curare) | https://sfar.org/curarisation-et-decurarisation-en-anesthesie/ |
+| Protection oculaire (2016, RFE) | 7 (installation, procubitus) | https://sfar.org/protection-oculaire-en-anesthesie-et-reanimation/ |
+| Patient diabétique en péri-opératoire (2025, fiches) | 6 (corticothérapie et hyperglycémie) | https://sfar.org/download/prise-en-charge-du-patient-diabetique-en-peri-operatoire/?wpdmdl=122568 |
+| Intubation et extubation du patient de réanimation (2016, RFE) | 16 (ISR du TC grave) | https://sfar.org/intubation-et-extubation-du-patient-de-reanimation/ |
+| Limitation et arrêt des traitements en soins critiques (2025, RFE) | 16 (TC dépassés, décision collégiale) | https://sfar.org/decisions-de-limitation-et-darret-de-traitements-lat-en-soins-critiques-de-ladulte/ |
+| Démarches anticipées en vue de don d'organes (2024, RBP) | 16, 19 (coma grave sans perspective, Maastricht III) | https://sfar.org/wp-content/uploads/2024/10/RBP-deimarches-anticipeies_12_10_24.pdf |
+| Older texts, cited as « historique » only and replaced by newer sources where these exist: monitorage EEG de la profondeur d'anesthésie (2010), NVPO (2007), états de mal épileptiques (2008), MTEV (2011, superseded by 2024) | 4, 7, 10 | URLs from `discovery.json` |
 
 ## Execution order
 1. Download the transcripts to `sources/transcripts/`, then read them in full along with all the protocols.
 2. Scaffold: `_quarto.yml`, `preamble.tex`, `index.qmd`, CSL, empty chapters, a test render.
-3. Build `references.bib` (verified).
+3. Build `references.bib`: run `scripts/sfar_bib.py` for the SFAR entries and verify the journal entries via PubMed. Read the relevant sections of each SFAR markdown before writing the chapter that cites it.
 4. Generate the figures and download the Wikimedia images with their credits.
 5. Write Partie I, then II, then III, then the annexes. Render after each part.
 6. Write `A_VALIDER.md`, then do a final render.
@@ -87,5 +123,5 @@ protocoles/            # untouched originals
 - `quarto render` gives a clean PDF + HTML: no LaTeX errors, no `?@fig`/`???` unresolved citations or cross-references (grep the log and the `.tex`).
 - Inspect sample pages of the PDF with Read (pages tool) to check figures, callouts, tables, French typography and the fiche layout.
 - `grep -riE "Francine|Chassoux|LEVE|55148"` on the output returns nothing.
-- Every bib entry has a PMID/DOI that matches PubMed metadata.
+- Every journal bib entry has a PMID/DOI that matches PubMed metadata. Every SFAR entry's URL appears verbatim in `discovery.json`, which a script checks.
 - Hand `A_VALIDER.md` to the user for medical sign-off.
