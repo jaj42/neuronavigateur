@@ -1,11 +1,312 @@
 # Fosse postérieure, position assise et embolie gazeuse {#sec-fosse-posterieure}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Expliquer pourquoi la fosse postérieure tolère mal le moindre volume supplémentaire, et
+  pourquoi son HTIC se surveille mal.
+- Comparer les positions opératoires (latérale, ventrale, assise) et leurs risques propres.
+- Connaître les conditions de la position assise : sélection du patient, recherche d'un foramen
+  ovale perméable, monitorage, installation.
+- Détecter une embolie gazeuse veineuse le plus tôt possible et la traiter dans le bon ordre.
+- Anticiper un réveil à risque : nerfs crâniens bas, tronc cérébral, hématome, hydrocéphalie.
 :::
 
-*Chapitre en cours de rédaction.*
+## Une loge à part
+
+La fosse postérieure contient le cervelet, le tronc cérébral et les nerfs crâniens bas, sous la
+tente du cervelet (@sec-anatomie). C'est une loge **petite et peu compliante** : quelques
+millilitres de sang ou d'œdème y compriment directement le tronc cérébral, siège des centres
+respiratoires et cardiovasculaires et de la vigilance. Deux conséquences en découlent :
+
+- **L'hydrocéphalie obstructive** : une lésion qui comprime le quatrième ventricule (V4) ou
+  l'aqueduc bloque l'écoulement du LCS et dilate les ventricules en amont. Une dérivation
+  ventriculaire externe est parfois posée avant l'exérèse ou en début d'intervention.
+- **L'engagement** se fait vers le haut (à travers l'incisure de la tente) ou vers le bas
+  (amygdales cérébelleuses dans le trou occipital), avec un risque d'arrêt respiratoire
+  brutal (@sec-physiopathologie).
+
+L'HTIC de la fosse postérieure est **difficile à monitorer** : un capteur de PIC sus-tentoriel
+ne reflète pas la pression sous-tentorielle, et le doppler transcrânien des artères
+sylviennes n'a d'intérêt qu'en cas d'hydrocéphalie par compression du V4. L'examen clinique
+(vigilance, nerfs crâniens, respiration) et l'**imagerie** priment (@sec-monitorage).
+
+Les lésions opérées sont variées : métastases et hémangioblastomes cérébelleux, méningiomes de
+la tente ou de l'angle pontocérébelleux, schwannomes vestibulaires, malformation de Chiari,
+lésions de la région pinéale, tumeurs du V4 (surtout chez l'enfant), décompressions
+vasculaires (@sec-trijumeau).
+
+## Les positions opératoires
+
+Le chirurgien choisit la position selon la lésion et ses habitudes ; l'anesthésiste en connaît
+les risques et le dit avant l'intervention. Trois positions sont utilisées.
+
+| Position | Intérêt chirurgical | Risques principaux |
+|---|-----|------|
+| **Latérale** (dite « park bench ») | Angle pontocérébelleux, voie rétrosigmoïde | Plexus brachial (épaule tirée), compression de l'œil et de l'oreille déclives, jugulaires comprimées par la rotation |
+| **Ventrale** (dite « Concorde ») | Vermis, V4, Chiari, région cervicale | Compression oculaire et neuropathie optique ischémique, compression abdominale (saignement veineux), flexion du cou, accès difficile aux voies aériennes |
+| **Assise ou semi-assise** | Région pinéale, vermis, lésions médianes ; champ exsangue, drainage du sang et du LCS par gravité | Embolie gazeuse veineuse et paradoxale, hypotension, quadriplégie par flexion cervicale, pneumocéphalie compressive, macroglossie |
+
+: Positions opératoires en chirurgie de la fosse postérieure {#tbl-positions-fp}
+
+La position assise a beaucoup reculé, à cause du risque d'embolie gazeuse, mais elle garde des
+avantages réels : dans une série de 260 craniectomies de la fosse postérieure, elle donnait
+plus d'embolies gazeuses détectées par l'EtCO~2~ que les positions horizontales (15,2 %
+contre 1,4 %), mais moins de saignement, une intervention plus courte et une meilleure
+préservation des nerfs crâniens bas, sans différence sur le devenir [@rath2007]. Dans une série
+récente de 1792 interventions en position assise, le taux de complications liées à la
+position était de 1,45 % [@himes2017].
+
+### La position ventrale
+
+- **Les yeux** : têtière à prise osseuse (Mayfield) ou coussin découpé qui garantit l'absence
+  de toute compression du globe ; vérification répétée pendant l'intervention, car c'est le
+  déplacement de la tête qui comprime ; léger proclive plutôt que Trendelenburg pour limiter la
+  pression intraoculaire. Le nerf optique n'a pas d'autorégulation efficace : en chirurgie
+  longue et hémorragique, limitez l'hypotension, l'anémie sévère et l'hypovolémie, surtout chez
+  l'homme obèse, hypertendu ou vasculaire [@sfar_oeil2016].
+- **L'abdomen libre** : une compression abdominale gêne le retour veineux cave, fait chuter le
+  débit cardiaque et augmente le saignement veineux du champ opératoire.
+- **Le cou** : la flexion nécessaire à l'exposition ne doit pas comprimer les jugulaires ni
+  couder la sonde (sonde armée), et la sonde est fixée avant le retournement.
+- **Le retournement** se fait en bloc, monitorage maintenu, tout débranchement court et
+  annoncé ; vérifiez la position de la sonde et les pressions d'insufflation après.
+
+### La position assise
+
+Le patient est assis, tronc relevé, jambes surélevées au niveau du cœur, tête fléchie et fixée
+en têtière à pointes. Les avantages sont la contrepartie des risques : la tête au-dessus du
+cœur draine le sang veineux, mais crée une **pression veineuse négative** au site opératoire.
+
+- **Installation progressive**, en plusieurs minutes, pour limiter l'**hypotension** par
+  séquestration veineuse dans les membres inférieurs : remplissage modéré préalable, jambes
+  surélevées, bandes de contention ou pantalon pneumatique, vasopresseur prêt [@porter1999].
+- **Le cou** : une flexion excessive comprime la moelle cervicale (quadriplégie postopératoire,
+  surtout s'il existe un canal cervical étroit) et les jugulaires. Gardez **au moins deux
+  travers de doigt** entre le menton et le sternum.
+- **La langue** : pas de canule de Guedel volumineuse ni de bloc dentaire épais dans une bouche
+  en flexion forte : risque de **macroglossie** par compression veineuse et lymphatique.
+- **La pression artérielle au niveau du cerveau** : posez le capteur au niveau du conduit
+  auditif externe, ou corrigez la valeur lue. Une colonne de sang de 1 cm vaut environ
+  0,75 mmHg : une tête 30 cm au-dessus du cœur perfuse avec une PAM inférieure d'environ
+  22 mmHg à celle mesurée au cœur.
+- **La pneumocéphalie** : en position assise, le LCS s'écoule et l'air le remplace ; à la
+  fermeture, cet air peut devenir compressif (réveil retardé, céphalées, déficit). Le
+  protoxyde d'azote, qui diffuse dans les cavités aériennes, est contre-indiqué
+  (@sec-pharmacologie).
+
+<!-- TODO-VALIDER : aucun protocole local ne décrit la position assise ni la recherche de FOP ; seul `craniotomie` signale les « risques liés à la position assise d'embolie gazeuse, hypovolémie relative ». Préciser si le service utilise la position assise, la politique de dépistage du FOP, la disponibilité de l'ETO et le type de KTC (A_VALIDER n° 18). -->
+
+## Le foramen ovale perméable
+
+Le **foramen ovale perméable** (FOP) est fréquent : 27 % des cœurs dans une grande série
+autopsique, un peu plus chez le sujet jeune [@hagen1984]. Normalement, la pression de
+l'oreillette gauche dépasse celle de l'oreillette droite et le foramen reste fermé. Mais une
+embolie gazeuse massive élève la pression droite, et l'air passe alors à gauche : c'est
+l'**embolie paradoxale**, qui emporte des bulles vers les artères coronaires et cérébrales.
+
+- Un **dépistage préopératoire** du FOP s'impose avant toute position assise : échographie
+  transthoracique (ou transœsophagienne) avec épreuve de contraste (sérum salé agité injecté
+  pendant le relâchement d'une manœuvre de Valsalva) [@porter1999; @fathi2009].
+- Un **FOP démontré** contre-indique classiquement la position assise ; certaines équipes en
+  proposent la fermeture percutanée lorsque cette position est jugée indispensable
+  [@fathi2009].
+- Un dépistage négatif **ne supprime pas** le risque : dans une série prospective sous ETO,
+  2 patients sur 17 sans FOP détecté avant l'intervention ont pourtant fait une embolie
+  paradoxale [@papadopoulos1994].
+
+## L'embolie gazeuse veineuse
+
+### Le mécanisme
+
+Il faut deux conditions : une **brèche veineuse** ouverte à l'air, et une **pression
+veineuse inférieure à la pression atmosphérique** au niveau de la brèche, c'est-à-dire un site
+opératoire au-dessus de l'oreillette droite. La fosse postérieure cumule les deux : les sinus
+veineux duraux et les veines diploïques et émissaires sont maintenus ouverts par leurs parois
+rigides et ne se collabent pas [@mirski2007].
+
+L'air gagne l'oreillette et le ventricule droits, puis la circulation pulmonaire.
+
+- **De petites bulles** obstruent les capillaires pulmonaires : hausse de l'espace mort (chute
+  de l'EtCO~2~), hypoxémie, bronchoconstriction, hypertension artérielle pulmonaire.
+- **Un grand volume** forme un bouchon d'air dans le ventricule droit (« air lock ») :
+  désamorçage, cœur pulmonaire aigu, collapsus, arrêt circulatoire. Chez l'adulte, le volume
+  létal est estimé à 200–300 mL, ou 3 à 5 mL/kg injectés rapidement [@mirski2007].
+- **L'embolie paradoxale** (FOP, ou passage transpulmonaire massif) donne une ischémie
+  myocardique ou cérébrale.
+
+### La fréquence
+
+Elle dépend surtout de la sensibilité du monitorage. En position assise, l'embolie gazeuse est
+détectée dans 39 % des chirurgies de la fosse postérieure et 12 % des chirurgies cervicales en
+moyenne [@fathi2009], jusqu'à 76 % sous ETO continue pour la fosse postérieure
+[@papadopoulos1994]. Mais la plupart sont minimes : dans une série de 600 patients, l'ETO en
+détectait 25,6 % contre 9,4 % au doppler précordial, avec 3,3 % de retentissement
+(hypoxémie, hypotension) et 0,5 % d'interventions interrompues [@ganslandt2013] ; dans la série
+de 1792 patients, 4,7 % d'embolies détectées et 1,06 % nécessitant un traitement, plus souvent
+pour les abords sous-occipitaux (2,7 %) [@himes2017]. La position latérale ou ventrale n'en
+protège pas totalement, dès que la tête est proclive.
+
+### La détection
+
+Du plus sensible au moins sensible [@mirski2007] :
+
+1. **L'échographie transœsophagienne** (ETO) : voit des bulles minimes et le passage à gauche
+   (embolie paradoxale) ; elle demande un opérateur et peut gêner en flexion cervicale forte.
+2. **Le doppler précordial**, sonde au bord droit du sternum (2^e^ à 4^e^ espace intercostal) :
+   simple, non invasif, signal audible qui change de tonalité (bruit de « roue de moulin » en
+   cas d'embolie massive). Vérifiez sa position par une injection de sérum agité.
+3. **La chute brutale de l'EtCO~2~** (et la hausse de la fraction expirée d'azote, si
+   l'analyseur la mesure) : précoce, toujours disponible, mais non spécifique.
+4. **La désaturation, l'hypotension, les troubles du rythme, l'élévation de la PVC** :
+   signes tardifs d'une embolie déjà importante.
+
+Le **cathéter veineux central** n'est pas un moyen de détection, mais de traitement : un
+cathéter multiperforé, pointe à la jonction de la veine cave supérieure et de l'oreillette
+droite (position contrôlée), permet d'aspirer l'air [@porter1999; @mirski2007].
+
+::: {.callout-tip title="Astuce"}
+Une chute de l'EtCO~2~ de plusieurs mmHg en quelques cycles, à ventilation et débit cardiaque
+constants, chez un patient la tête au-dessus du cœur, est une embolie gazeuse jusqu'à preuve du
+contraire. Dites-le tout de suite au chirurgien : c'est lui qui ferme la porte d'entrée.
+:::
+
+### La conduite à tenir
+
+Dans cet ordre, en parallèle autant que possible :
+
+1. **Prévenir le chirurgien** : il inonde le champ de sérum, couvre les berges osseuses de cire
+   et cherche la veine ou le sinus ouvert.
+2. **Fermer la porte d'entrée** : une **compression bilatérale des jugulaires** élève la pression
+   veineuse au site opératoire, arrête l'entrée d'air et aide le chirurgien à repérer la brèche.
+3. **FiO~2~ à 100 %** ; arrêt du protoxyde d'azote s'il était utilisé (il augmente le volume des
+   bulles).
+4. **Aspirer l'air** par le cathéter central multiperforé.
+5. **Soutenir la circulation** : remplissage, vasopresseur, inotrope (dobutamine,
+   adrénaline) en cas de défaillance ventriculaire droite.
+6. **Abaisser la tête** au-dessous du niveau du cœur dès que possible ; si le patient est
+   mobilisable, un décubitus latéral gauche en Trendelenburg aide à décoller le bouchon d'air
+   de la chambre de chasse du ventricule droit.
+7. **Arrêt circulatoire** : massage cardiaque externe, en décubitus dorsal, qui fragmente aussi
+   le bouchon d'air.
+
+Une **pression expiratoire positive** élevée ne prévient pas l'embolie et peut inverser le
+gradient entre les oreillettes, donc favoriser l'embolie paradoxale : ne l'augmentez pas pour
+traiter [@mirski2007]. Après une embolie paradoxale avec séquelles neurologiques ou
+myocardiques, l'oxygénothérapie hyperbare se discute rapidement.
+
+::: {.callout-warning title="Piège"}
+Une hypotension en position assise n'est pas toujours une hypovolémie. Avant de remplir,
+regardez l'EtCO~2~ et le doppler : une embolie gazeuse se traite d'abord en fermant la brèche,
+et le remplissage seul ne suffit pas.
+:::
+
+## Pendant l'intervention
+
+L'anesthésie suit les principes de la craniotomie programmée (@sec-craniotomie) : propofol et
+rémifentanil en AIVOC, pas de N~2~O, capnie et PAM dans les cibles du service. Quelques
+particularités :
+
+- **Le monitorage neurophysiologique** est fréquent : NIM facial (schwannome vestibulaire,
+  angle pontocérébelleux), potentiels évoqués auditifs, moteurs et somesthésiques. Pas de
+  réinjection de curare, anesthésie intraveineuse stable (@sec-pharmacologie).
+- **La manipulation du tronc cérébral et des nerfs crâniens** donne des réactions
+  cardiovasculaires brutales : bradycardie, voire asystolie (nerf trijumeau, nerf vague),
+  hypertension, arythmies. Prévenez immédiatement le chirurgien, qui interrompt le geste ;
+  l'atropine est rarement nécessaire si la stimulation cesse. Ces réactions sont aussi un
+  signal d'alarme : le tronc est en souffrance.
+- **L'hémostase** doit être parfaite avant la fermeture : un hématome de la fosse postérieure
+  est une urgence vitale. Le chirurgien peut demander une manœuvre de Valsalva pour vérifier
+  l'étanchéité veineuse.
+
+## Le réveil
+
+Le réveil après une chirurgie de la fosse postérieure est plus risqué qu'après une chirurgie
+sus-tentorielle. Avant d'extuber, posez trois questions :
+
+1. **Les nerfs crâniens bas** (IX, X, XII) ont-ils été manipulés ? Une atteinte donne des
+   troubles de la déglutition, une paralysie laryngée et un risque d'inhalation. Testez la
+   toux, la déglutition, et ne réalimentez pas sans évaluation.
+2. **Le tronc cérébral** a-t-il souffert (réactions peropératoires, œdème, dissection
+   longue) ? Le centre respiratoire peut être déprimé : hypoventilation, apnées.
+3. **Les voies aériennes** sont-elles libres ? Macroglossie et œdème facial après une flexion
+   prolongée ou un décubitus ventral.
+
+Au moindre doute, l'extubation est différée et le patient réveillé en réanimation ou en SSPI,
+puis extubé après une fenêtre de sevrage et un examen neurologique. Le réveil doit rester sans
+toux ni poussée hypertensive (@sec-craniotomie).
+
+## Après le bloc
+
+- **Lieu** : USC de neurochirurgie (Chippault) ou réanimation selon le réveil et la chirurgie.
+- **Surveillance** : vigilance, pupilles, nerfs crâniens, fréquence respiratoire et SpO~2~,
+  pression artérielle.
+- **Complications à connaître** : **hématome** de la fosse postérieure (aggravation rapide de la
+  vigilance, troubles respiratoires, bradycardie, HTA : reprise chirurgicale en urgence) ;
+  **hydrocéphalie aiguë** (céphalées, somnolence, troubles oculomoteurs : scanner, dérivation) ;
+  pneumocéphalie compressive ; fuite de LCS ; troubles de la déglutition.
+- **Nausées et vomissements** : très fréquents après chirurgie de la fosse postérieure ;
+  prophylaxie renforcée : dexaméthasone 8 mg, ondansétron 4 mg, **dropéridol 0,625 mg**
+  [@sfar_nvpo2007].
+- **Douleur** : l'abord sous-occipital traverse des muscles épais et fait partie des
+  localisations à risque de douleur sévère : analgésie multimodale (@sec-craniotomie).
+
+## Cas clinique
+
+Une femme de 47 ans est opérée d'un méningiome de la tente du cervelet, en position
+semi-assise. L'échographie transthoracique avec épreuve de contraste n'a pas montré de FOP. Elle
+est monitorée par un cathéter artériel (capteur au niveau du cœur), un cathéter central
+multiperforé, un doppler précordial et un BIS.
+
+1. Après l'installation, la PAM lue passe de 85 à 70 mmHg. Quelle est la pression de
+   perfusion réelle au niveau du cerveau, la tête étant 25 cm au-dessus du capteur ?
+2. Pendant la craniectomie, l'EtCO~2~ chute de 34 à 25 mmHg en une minute, le doppler change de
+   tonalité, la PAM baisse. Que se passe-t-il, et que faites-vous ?
+3. L'épreuve de contraste était négative. Le risque d'embolie paradoxale est-il nul ?
+4. Pendant la dissection, la fréquence cardiaque chute brutalement à 35/min. Que faites-vous ?
+5. En fin d'intervention, la patiente a un réveil lent et des céphalées. Quelle complication
+   propre à la position assise recherchez-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. 25 cm de colonne de sang ≈ 19 mmHg : la PAM au niveau du cerveau est d'environ
+   **51 mmHg**, trop basse. Corrigez la lecture (capteur au conduit auditif externe) et
+   remontez la PAM (vasopresseur, jambes surélevées).
+2. Une **embolie gazeuse veineuse**. Prévenir le chirurgien (sérum sur le champ, cire),
+   compression des jugulaires, FiO~2~ 100 %, aspiration par le cathéter central,
+   vasopresseur ; abaisser la tête si l'embolie persiste ; pas d'augmentation de la PEP
+   [@mirski2007].
+3. Non : le dépistage peut méconnaître un FOP, et une embolie massive peut passer par voie
+   transpulmonaire [@papadopoulos1994]. Au réveil, recherchez un déficit nouveau ; l'ETO
+   peropératoire est le seul moyen de voir un passage d'air à gauche.
+4. Une **réaction du tronc cérébral** ou du nerf trijumeau à la manipulation : prévenir
+   immédiatement le chirurgien, qui interrompt le geste ; atropine si la bradycardie persiste.
+5. Une **pneumocéphalie compressive** : scanner. Et éliminer aussi un hématome ou une
+   hydrocéphalie, ainsi que les causes anesthésiques et systémiques de réveil anormal
+   (@sec-craniotomie).
+:::
+
+## Fiche pratique
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Ceux de la craniotomie (détente, protection, réveil rapide) ; prévenir, détecter et traiter l'embolie gazeuse ; protéger le tronc cérébral et les nerfs crâniens bas ; réveil sûr |
+| Monitorage | Celui de la craniotomie ; capteur de PA au niveau du conduit auditif externe si tête proclive ; position assise : dépistage préopératoire du FOP (ETT ou ETO de contraste), KTC multiperforé (jonction VCS-OD), doppler précordial ou ETO, EtCO~2~ ; NIM, PEA, PEM, PES selon la chirurgie |
+| Induction et entretien | Propofol + rémifentanil en AIVOC ; **pas de N~2~O** ; pas de réinjection de curare si monitorage neurophysiologique ; installation progressive, jambes surélevées, contention ; menton à au moins deux travers de doigt du sternum ; pas de canule volumineuse ; yeux sans aucune compression en ventral |
+| Cibles | Celles de la craniotomie (@tbl-cibles-craniotomie), PAM mesurée au niveau du cerveau |
+| Pièges | PAM lue au cœur ; hypotension prise pour une hypovolémie alors que c'est une embolie ; PEP augmentée pour traiter l'embolie ; flexion cervicale excessive ; compression oculaire ou abdominale en ventral ; extubation trop rapide après atteinte des nerfs crâniens bas |
+| Post-opératoire | USC (Chippault) ou réanimation ; vigilance, nerfs crâniens, respiration ; hématome de fosse postérieure et hydrocéphalie = urgence (scanner, reprise, DVE) ; pneumocéphalie ; déglutition testée avant réalimentation ; NVPO : dexaméthasone, ondansétron, dropéridol |
+
+: Fiche pratique : fosse postérieure et position assise {#tbl-fiche-fosse-posterieure}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- La fosse postérieure est petite : tout volume ajouté comprime le tronc cérébral ;
+  hydrocéphalie et hématome y sont des urgences.
+- L'HTIC sous-tentorielle se surveille par la clinique et l'imagerie, pas par la PIC.
+- Tête au-dessus du cœur : risque d'embolie gazeuse, et PAM au niveau du cerveau plus basse
+  que celle lue au cœur.
+- Position assise : FOP dépisté, KTC multiperforé, doppler ou ETO, pas de N~2~O, flexion
+  cervicale limitée.
+- Embolie gazeuse : chirurgien, jugulaires, FiO~2~ 100 %, aspiration, vasopresseurs, tête
+  basse ; pas de PEP pour la traiter.
+- Réveil : nerfs crâniens bas, tronc cérébral et voies aériennes évalués avant d'extuber.
 :::
