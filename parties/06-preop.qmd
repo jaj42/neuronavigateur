@@ -1,11 +1,333 @@
 # Consultation et évaluation préopératoire {#sec-preop}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Conduire un examen neurologique préopératoire ciblé et le tracer dans le dossier.
+- Repérer sur l'imagerie ce qui change l'anesthésie : effet de masse, œdème, hydrocéphalie,
+  proximité d'un sinus veineux ou d'un gros vaisseau.
+- Gérer les traitements en cours : corticoïdes, antiépileptiques, antidiabétiques et surtout
+  antithrombotiques, avec les délais propres à la neurochirurgie intracrânienne.
+- Estimer le risque hémorragique et le risque neurologique, et en déduire l'abord vasculaire,
+  le monitorage et l'épargne sanguine.
+- Décider du lieu de surveillance postopératoire.
 :::
 
-*Chapitre en cours de rédaction.*
+## Trois questions avant de signer
+
+La consultation de neurochirurgie programmée ressemble aux autres, mais elle doit répondre à
+trois questions de plus :
+
+1. **Quel cerveau ?** Le patient a-t-il une HTIC, un déficit, une épilepsie, un trouble de la
+   déglutition ou un trouble hormonal ? Ces éléments décident de la prudence de
+   l'induction, du risque d'inhalation et de ce que l'on surveillera au réveil.
+2. **Quelle chirurgie ?** Taille et vascularisation de la lésion, voie d'abord, installation,
+   durée, risque hémorragique, monitorage neurophysiologique. La réponse est sur l'imagerie
+   et dans la discussion avec le neurochirurgien.
+3. **Quels traitements ?** La neurochirurgie intracrânienne est la chirurgie où l'hémostase doit
+   être parfaite : la gestion des antithrombotiques y est plus stricte que partout ailleurs.
+
+Le reste de la consultation (voies aériennes, cardiorespiratoire, jeûne) suit les règles
+habituelles.
+
+## L'examen neurologique
+
+L'examen neurologique préopératoire est **à écrire dans le dossier** : c'est la référence qui
+permettra, au réveil, de dire si un déficit est nouveau. Chaque élément a une traduction
+anesthésique.
+
+| Élément | Ce que l'on cherche | Conséquence pour l'anesthésie |
+|---|------|------|
+| Signes d'HTIC | Céphalées matinales, vomissements, troubles visuels, somnolence | Compliance basse : induction sans à-coup de PAM ni de capnie (@sec-physiologie) ; pas de prémédication sédative |
+| Vigilance | Somnolence, confusion | Risque d'inhalation et de déshydratation ; vérifier natrémie et volémie |
+| Nerfs crâniens | Troubles de la déglutition, toux faible, voix bitonale | Risque d'inhalation au réveil ; avis ORL si besoin ; extubation prudente |
+| Déficit sensitivo-moteur | Hémiparésie, aphasie | Référence pour le réveil ; succinylcholine à éviter sur un déficit ancien (hyperkaliémie) |
+| Épilepsie | Type et fréquence des crises, traitement | Traitement à poursuivre sans interruption |
+| Troubles hormonaux | Polyurie, polydipsie (diabète insipide) ; signes d'hypersécrétion | Lésion hypophysaire ou de l'étage antérieur : ionogramme, diurèse (@sec-base-du-crane) |
+
+: L'examen neurologique et ses conséquences anesthésiques {#tbl-examen-preop}
+
+::: {.callout-tip title="Astuce"}
+Pour une lésion de la fosse postérieure ou du tronc cérébral, demandez au patient de boire un
+verre d'eau devant vous et faites-le tousser. Une toux faible ou une fausse route annoncent
+une extubation difficile et parfois une alimentation entérale postopératoire.
+:::
+
+## Lire l'imagerie
+
+Ouvrez le scanner ou l'IRM avec le neurochirurgien, ou relisez le compte rendu en cherchant :
+
+- **l'effet de masse** : déviation de la ligne médiane, effacement des sillons et des citernes,
+  engagement débutant (@sec-physiopathologie). Plus il est marqué, plus la compliance est
+  basse ;
+- **l'œdème péritumoral**, en « doigt de gant » dans la substance blanche : il est vasogénique et
+  répond aux corticoïdes ;
+- **une hydrocéphalie** : une tumeur de la fosse postérieure peut obstruer le quatrième
+  ventricule ; une dérivation externe est parfois posée avant l'exérèse ;
+- **la proximité d'un sinus veineux** (méningiome parasagittal, de la tente, de la fosse
+  postérieure) ou d'un gros vaisseau : risque de saignement brutal et, en position proclive,
+  d'embolie gazeuse (@sec-fosse-posterieure) ;
+- **la vascularisation** de la lésion : méningiome, chordome et hémangioblastome saignent ;
+  une embolisation préopératoire est parfois réalisée en neuroradiologie interventionnelle.
+
+## Les traitements en cours
+
+### Les corticoïdes
+
+Le patient tumoral arrive souvent sous **dexaméthasone à forte dose**, débutée pour l'œdème
+péritumoral, dont l'effet demande environ 48 heures (@sec-pharmacologie). Deux conséquences
+à vérifier en consultation : la **kaliémie** (hypokaliémie fréquente) et la **glycémie**
+(diabète déséquilibré ou découvert). Au bloc, le relais se fait par **dexaméthasone 8 mg à
+l'induction**, qui sert aussi à prévenir les nausées et vomissements ; la décroissance
+postopératoire est prescrite par le neurochirurgien. Ne prescrivez pas d'hydrocortisone en
+plus : la dexaméthasone suffit.
+
+::: {.callout-warning title="Piège"}
+Un patient adressé pour une biopsie d'une lésion profonde, périventriculaire, qui pourrait être
+un **lymphome**, ne doit pas recevoir de corticoïdes avant le prélèvement sans l'accord du
+neurochirurgien : la tumeur peut fondre et la biopsie revenir non contributive. Cela vaut aussi
+pour la dexaméthasone « antiémétique » de l'induction.
+:::
+
+### Les antiépileptiques
+
+Un traitement antiépileptique au long cours se **poursuit sans interruption**, y compris le matin
+de l'intervention, avec un relais intraveineux (lévétiracétam, valproate) si le patient ne peut
+pas avaler. Faut-il en débuter un chez un patient tumoral qui n'a jamais fait de crise ? Non :
+les recommandations neuro-oncologiques déconseillent la prophylaxie chez le patient sans
+antécédent de crise, et ne trouvent pas d'argument suffisant pour la prescrire en péri-opératoire
+[@walbert2021]. Le protocole local laisse cette introduction à discuter au cas par cas avec le
+neurochirurgien. Le risque épileptique est plus élevé pour les lésions **corticales** et pour
+certains types tumoraux : dysplasie corticale, gliome de bas grade, méningiome, métastase.
+
+### Les antidiabétiques
+
+Les règles générales des recommandations françaises s'appliquent [@sfar_diabete2025] :
+
+- objectif glycémique péri-opératoire de **5 à 10 mmol/L** (0,9 à 1,8 g/L) ;
+- HbA1c récente (moins de 3 mois) ; entre 6 et 8 %, l'intervention est possible ; en dehors de
+  cette zone, avis du médecin traitant ou du diabétologue, voire report si la chirurgie le
+  permet ;
+- **inhibiteurs de SGLT2** (gliflozines) : dernière prise **3 jours** avant l'intervention, pour
+  éviter l'acidocétose euglycémique ;
+- **agonistes du GLP-1** : pas d'arrêt, mais vidange gastrique ralentie : échographie gastrique,
+  voire induction en séquence rapide ;
+- chez le diabétique de type 1, **ne jamais arrêter l'insuline lente**.
+
+En neurochirurgie s'ajoute la **corticothérapie**, qui déséquilibre un diabète connu et en révèle
+d'autres : glycémie systématique chez tout patient sous corticoïdes, HbA1c en cas de doute. Une
+hyperglycémie aggrave les lésions ischémiques (@sec-physiopathologie).
+
+### Les antithrombotiques
+
+C'est le point le plus important de la consultation. Toute chirurgie crânienne est à **risque
+hémorragique très élevé** : un hématome de quelques millilitres dans le lit opératoire peut
+suffire à créer un déficit ou un engagement. Les recommandations françaises de 2026 classent
+dans cette catégorie toute la chirurgie crânienne, la chirurgie rachidienne avec ouverture de
+la dure-mère, la pose d'une dérivation ventriculo-péritonéale et la pose d'électrodes de
+stéréo-EEG ; aucune neurochirurgie programmée ne se fait sous anticoagulant à dose curative
+[@gihp_aod2026]. Le protocole local applique les mêmes délais longs aux DVE, aux biopsies, à la
+thermocoagulation et à la chirurgie rachidienne avec compression médullaire.
+
+| Traitement | Dernière prise (J0 = jour de l'intervention) | Contrôle |
+|---|----|----|
+| Warfarine | J-6 | INR la veille : **≤ 1,2** |
+| Fluindione | J-5 | INR la veille : **≤ 1,2** |
+| Acénocoumarol | J-4 | INR la veille : **≤ 1,2** |
+| Apixaban, édoxaban, rivaroxaban, dabigatran | **J-5** (au lieu de J-3 pour les autres chirurgies hémorragiques) | Pas de dosage si le délai est respecté et la fonction rénale normale |
+| Aspirine | **J-5** | Aucun |
+| Clopidogrel, ticagrélor | **J-7** | Aucun |
+| Prasugrel | **J-9** | Aucun |
+
+: Arrêt des antithrombotiques avant neurochirurgie intracrânienne programmée, d'après les
+recommandations françaises [@gihp_aod2026; @gihp_aap2018] {#tbl-antithrombotiques}
+
+::: {.callout-note title="Ce que disent les recommandations"}
+**Anticoagulants** [@gihp_aod2026]. Sous AVK, il est proposé de contrôler l'INR la veille ; s'il
+dépasse le seuil de sécurité, qui est de **1,2** pour la neurochirurgie intracrânienne, il est
+proposé de donner **2 à 5 mg de vitamine K par voie orale** la veille et de recontrôler l'INR le
+lendemain (GRADE 2+, accord fort). La voie orale est préférée, car le rare risque
+anaphylactique est surtout intraveineux. Sous AOD, les experts suggèrent une **dernière prise à
+J-5** pour la neurochirurgie intracrânienne (avis d'experts, accord fort). En cas d'insuffisance
+rénale (DFG < 50 mL/min/1,73 m^2^), les délais dépendent du DFG et de la molécule : appliquez le
+chapitre dédié des recommandations et demandez un avis. Sous AVK, un relais préopératoire par
+HBPM à dose curative est proposé seulement si le risque thrombotique est élevé (valve
+mécanique, FA avec antécédent d'AVC, d'AIT ou d'embolie systémique, EP ou TVP proximale de moins
+de 3 mois) ; il est recommandé de ne pas le faire dans la FA sans antécédent embolique (GRADE 1−).
+Sous AOD, pas de relais dans la FA (GRADE 2−). Après chirurgie intracrânienne, la reprise de
+l'anticoagulation curative se fait le plus souvent **vers J10**.
+
+**Antiplaquettaires** [@gihp_aap2018]. De nombreux actes de neurochirurgie intracrânienne ne
+sont pas réalisables sous antiplaquettaire, même sous aspirine seule. Pour eux, il est proposé
+d'ajouter 2 jours aux délais habituels : aspirine J-5, clopidogrel et ticagrélor J-7, prasugrel
+J-9 (accord fort). Ni HBPM ni AINS en relais d'un antiplaquettaire. La décision d'arrêt et de
+reprise est discutée avec le cardiologue et tracée dans le dossier.
+:::
+
+<!-- TODO-VALIDER : le protocole craniotomie prévoit vitamine K 5 mg PO si INR > 1,2 ; RFE GIHP 2026 : 2 à 5 mg PO la veille (A_VALIDER n° 8). -->
+Le protocole local suit ce schéma : **INR systématique la veille au soir**, vitamine K per os si
+l'INR dépasse 1,2, nouvel INR le matin du geste. Pas de dosage d'AOD ni d'activité anti-Xa si
+les délais ont été respectés. La reprise d'un anticoagulant curatif ou d'un antiplaquettaire
+après l'intervention se décide au cas par cas avec le chirurgien, selon le contrôle
+d'imagerie.
+
+::: {.callout-warning title="Piège"}
+**Le patient coronarien récemment stenté.** Il est sous bithérapie antiplaquettaire, que la
+neurochirurgie intracrânienne ne tolère pas. Il est proposé de reporter la chirurgie à la fin
+de la bithérapie quand ce report ne met pas en jeu le pronostic vital ou fonctionnel. Sinon, pas
+avant le premier mois après la pose du stent, ni avant le sixième mois après un infarctus ou un
+stent à haut risque thrombotique ; la stratégie se décide alors avec le cardiologue
+[@gihp_aap2018]. Ne découvrez pas ce stent la veille au soir : posez la question dès la
+consultation.
+:::
+
+### La prévention thromboembolique
+
+Le patient neurochirurgical cumule les facteurs de risque veineux : cancer, déficit moteur,
+corticoïdes, chirurgie longue. Le risque de thrombose augmente avec la durée de l'intervention ;
+dans un essai randomisé de 108 craniotomies, la **compression pneumatique intermittente**
+peropératoire des mollets a réduit d'environ trois quarts le risque d'événement
+thromboembolique [@prell2019]. Le protocole local associe :
+
+- compression pneumatique intermittente pendant l'intervention ;
+- bas de contention seulement en cas d'insuffisance veineuse connue, puisque les recommandations
+  françaises ne les retiennent pas comme thromboprophylaxie [@gihp_mtev2024] ;
+- **HBPM préventive à la 24^e^ heure** postopératoire, si le contrôle neurochirurgical le permet
+  (@sec-craniotomie).
+
+## Le bilan biologique
+
+| Examen | Pourquoi |
+|---|------|
+| NFS, plaquettes | Anémie (ferriprive, post-chimiothérapie) à corriger avant une chirurgie hémorragique |
+| Ionogramme, créatinine | Hypokaliémie sous corticoïdes ; dysnatrémie (lésion hypophysaire, diurétiques, déshydratation) ; fonction rénale pour les AOD |
+| Glycémie, HbA1c si doute | Diabète méconnu ou déséquilibré par les corticoïdes |
+| Hémostase (TP, TCA) | Référence ; INR la veille au soir sous AVK |
+| Groupe sanguin, RAI | Toute craniotomie |
+
+: Bilan préopératoire de neurochirurgie programmée (protocole local) {#tbl-bilan-preop}
+
+## Évaluer le risque hémorragique
+
+Le saignement en neurochirurgie est difficile à quantifier : il se perd dans les champs et
+l'aspiration, et une hémoconcentration peut masquer l'anémie. Il faut donc l'anticiper. Le
+protocole local retient comme facteurs de risque :
+
+- un **volet large** (chirurgie éveillée, craniectomie décompressive) ;
+- une tumeur **volumineuse** ou **très vascularisée** (méningiome, chordome), proche d'un **sinus
+  veineux** ou d'un gros vaisseau ; une intervention longue ;
+- une **malformation vasculaire** (MAV, rarement opérée et alors souvent petite) ;
+- une **fixation cervicale** associée (chordome de la charnière).
+
+En pratique, quand le risque est élevé :
+
+- **acide tranexamique 15 mg/kg à l'induction**, renouvelé à la quatrième heure si le saignement
+  persiste (@sec-pharmacologie) ;
+- **récupérateur de sang** (*cell saver*) en chirurgie vasculaire ;
+- **deux voies veineuses de bon calibre**, posées avant l'installation : une fois les champs en
+  place, la tête et les bras sont inaccessibles. Si le capital veineux est pauvre, prévoyez un
+  **cathéter veineux central** ;
+- groupe et RAI valides, culots disponibles selon la procédure.
+
+## Évaluer le risque neurologique et préparer le monitorage
+
+Le monitorage se décide en consultation, parce qu'il change l'anesthésie (@sec-monitorage).
+
+- **Standard** : ECG 5 brins, deux voies veineuses, cathéter artériel (presque systématique),
+  sonde urinaire si l'intervention est longue ou si une polyurie est attendue.
+- **Index EEG** (BIS ou PSI), électrodes placées **du côté opposé à la lésion**, hors du champ
+  opératoire : l'anesthésie est intraveineuse et l'on doit pouvoir l'approfondir en cas de
+  rupture vasculaire ou d'HTIC peropératoire, ou vérifier sa profondeur sans curare.
+- **Monitorage du débit cardiaque** (Doppler œsophagien ou autre) si le risque hémorragique est
+  élevé ou l'intervention longue, pour guider le remplissage [@sfar_hemodynamique2024].
+- **NIM et potentiels évoqués moteurs** si la lésion est au contact des nerfs crâniens ou des
+  voies motrices : sonde d'intubation NIM pour une lésion ou une voie d'abord au contact du X
+  ou du XI, y compris dans leur portion cervicale (chordome). Ils imposent une anesthésie
+  intraveineuse et **aucun curare après l'induction** [@sfar_curares2018].
+
+::: {.callout-tip title="Astuce"}
+Chirurgie de la face postérieure de la jonction bulbo-protubérantielle (plancher du quatrième
+ventricule, cavernome du tronc) : la manipulation peut déclencher bradycardie sévère ou
+asystolie. Le protocole local prévoit alors de poser des **électrodes de stimulation cardiaque
+externe** avant l'installation, quand le thorax est encore accessible.
+:::
+
+## Planifier l'installation et l'après
+
+- **L'installation** se définit avant l'intervention, avec le chirurgien : décubitus dorsal,
+  latéral, ventral, ou position assise pour certaines chirurgies de la charnière et de la fosse
+  postérieure. La position assise impose de chercher un foramen ovale perméable (risque
+  d'embolie gazeuse paradoxale) et se discute à part (@sec-fosse-posterieure).
+- **Le lieu de réveil** : tous les patients opérés d'une craniotomie vont en **USC de
+  neurochirurgie** (Chippault). Le réveil se fait en **SSPI** si la chirurgie a été compliquée ou
+  a duré plus de 6 heures.
+- **L'information** : le patient doit savoir qu'il sera réveillé vite pour être examiné, qu'il
+  aura un cathéter artériel et une sonde urinaire, et, en chirurgie éveillée, ce que l'on
+  attendra de lui (@sec-chirurgie-eveillee).
+
+## Cas clinique
+
+Une femme de 71 ans est vue en consultation pour l'exérèse d'un méningiome frontal
+parasagittal droit de 5 cm, au contact du sinus longitudinal supérieur, avec un œdème
+péritumoral marqué. Elle a des céphalées depuis un mois et un discret déficit du membre
+inférieur gauche. Elle est sous dexaméthasone 8 mg × 2/j depuis 10 jours. Antécédents : fibrillation
+atriale sans antécédent d'AVC, sous apixaban 5 mg × 2/j ; stent coronaire actif posé il y a 3 ans,
+sous aspirine 75 mg/j ; diabète de type 2 sous metformine et dapagliflozine. DFG estimé
+75 mL/min/1,73 m^2^. L'intervention est prévue un lundi.
+
+1. Quand doit-elle prendre ses derniers comprimés d'apixaban, d'aspirine et de dapagliflozine ?
+2. Faut-il un relais par HBPM ?
+3. Quels examens demandez-vous, et à quoi êtes-vous attentif sur la biologie ?
+4. Quelles mesures prévoyez-vous contre le saignement ?
+5. Où se réveillera-t-elle ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. J0 = lundi. **Apixaban** : dernière prise à J-5, soit le **mercredi** précédent (neurochirurgie
+   intracrânienne, fonction rénale normale) [@gihp_aod2026]. **Aspirine** : elle est en prévention
+   secondaire et ne serait pas arrêtée pour la plupart des chirurgies, mais une craniotomie est à
+   risque hémorragique élevé : dernière prise à J-5, le **mercredi**, après accord du cardiologue
+   (stent ancien, plus de 6 mois) [@gihp_aap2018]. **Dapagliflozine** : dernière prise à J-3, le
+   **vendredi** [@sfar_diabete2025]. La metformine est seulement suspendue le matin de
+   l'intervention.
+2. **Non.** FA sans antécédent d'AVC, d'AIT ni d'embolie systémique, sous AOD : pas de relais
+   préopératoire [@gihp_aod2026]. Pas d'HBPM ni d'AINS en relais de l'aspirine.
+3. NFS, ionogramme et créatinine, glycémie et HbA1c, TP/TCA, groupe et RAI. Sous dexaméthasone,
+   cherchez une **hypokaliémie** et une **hyperglycémie** ; les gliflozines exposent à
+   l'acidocétose euglycémique : en cas d'arrêt trop tardif, une cétonémie s'impose avant le
+   bloc. Pas de dosage d'apixaban si le délai et la fonction rénale sont ceux prévus.
+4. Méningiome volumineux au contact du sinus : risque hémorragique élevé. Acide tranexamique
+   15 mg/kg à l'induction et à H4, deux voies veineuses de gros calibre (ou cathéter central si
+   le capital veineux est pauvre), cathéter artériel, culots disponibles. Prévoyez aussi le
+   risque d'embolie gazeuse si la tête est surélevée, et l'osmothérapie pour la détente
+   cérébrale (@sec-craniotomie).
+5. En USC de neurochirurgie, comme toute craniotomie, après un passage en SSPI si l'intervention
+   a été longue ou compliquée. HBPM préventive à H24 si le neurochirurgien est d'accord ;
+   reprise de l'apixaban vers J10, après avis chirurgical.
+:::
+
+## Fiche pratique
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Tracer l'examen neurologique ; repérer HTIC, troubles de déglutition, épilepsie, trouble hormonal ; gérer les antithrombotiques ; anticiper le saignement et le monitorage ; décider du lieu de réveil |
+| Monitorage | ECG 5 brins, 2 VVP de bon calibre, cathéter artériel ; BIS/PSI controlatéral à la lésion ; sonde urinaire si longue ou polyurie ; cathéter central si risque hémorragique et capital veineux pauvre ; débit cardiaque si hémorragique ou long ; NIM/PEM selon la lésion ; CPI |
+| Induction et entretien | Dexaméthasone 8 mg à l'induction (pas d'hydrocortisone en plus ; pas avant biopsie d'un possible lymphome) ; antiépileptiques poursuivis ; acide tranexamique 15 mg/kg à l'induction et à H4 si hémorragique ; pas de curare après l'induction si NIM/PEM |
+| Cibles | INR ≤ 1,2 la veille (sinon vitamine K PO, contrôle le matin) ; AOD arrêtés à J-5 ; aspirine J-5, clopidogrel/ticagrélor J-7, prasugrel J-9 ; glycémie 5–10 mmol/L ; kaliémie normale |
+| Pièges | Stent coronaire récent ; corticoïdes avant biopsie d'un lymphome ; gliflozine non arrêtée (acidocétose euglycémique) ; agoniste du GLP-1 (estomac plein) ; toux et déglutition non évaluées avant une chirurgie de fosse postérieure ; voies veineuses insuffisantes une fois les champs posés |
+| Post-opératoire | USC de neurochirurgie (Chippault) ; SSPI si compliquée ou > 6 h ; HBPM préventive à H24 ; reprise des antithrombotiques au cas par cas avec le chirurgien (anticoagulant curatif vers J10) |
+
+: Fiche pratique : consultation de neurochirurgie programmée {#tbl-fiche-preop}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- L'examen neurologique préopératoire est écrit dans le dossier : c'est la référence du réveil.
+- Imagerie : effet de masse, œdème, hydrocéphalie, sinus veineux, vascularisation.
+- Corticoïdes : relais par dexaméthasone 8 mg à l'induction ; surveiller kaliémie et glycémie ;
+  jamais avant la biopsie d'un possible lymphome.
+- Antiépileptiques : poursuivis sans interruption ; pas de prophylaxie systématique chez le
+  patient tumoral sans crise.
+- Neurochirurgie intracrânienne = risque hémorragique très élevé : INR ≤ 1,2, AOD J-5,
+  aspirine J-5, clopidogrel/ticagrélor J-7, prasugrel J-9.
+- Risque hémorragique élevé : acide tranexamique, deux bonnes voies veineuses, voie centrale si
+  besoin, groupe et RAI.
+- Craniotomie : USC de neurochirurgie ; HBPM préventive à H24.
 :::
