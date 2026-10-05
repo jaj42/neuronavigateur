@@ -2,9 +2,9 @@
 
 ## Context
 New anesthesiology interns starting in neurosurgery need a quick reference that also teaches: it should start with general physiology and then cover specific cases. It should be in French and illustrated, with references. Sources:
-- `transcripts_cours.txt` → 2 audio transcripts (≈52 kB: neuro-anatomy, physiology, pathophysiology, anesthetic agents, an extradural hematoma case; ≈60 kB: interventional neuroradiology / NRI). They contain transcription errors, so they're used as a knowledge base to rewrite from, never quoted.
-- `additional.txt`: Lund vs Rosner, CPPopt/PRx, key refs (Asgeirsson 1994, Grände 2006, Robertson 1999, Steiner 2002, Aries 2012, COGiTATE 2023).
-- `protocoles/*.qmd`: 18 local protocols (préop, craniotomie, HTIC, HSA, clippage, moya ×2, endonasal, adénome, base du crâne, DI, éveillée, cortectomie, épilepsie SSPI, dexmédétomidine, trijumeau, anévrisme mycotique, AVC thrombolyse).
+- `sources/transcripts_cours.txt` → 2 audio transcripts (≈52 kB: neuro-anatomy, physiology, pathophysiology, anesthetic agents, an extradural hematoma case; ≈60 kB: interventional neuroradiology / NRI). They contain transcription errors, so they're used as a knowledge base to rewrite from, never quoted.
+- `sources/additional.txt`: Lund vs Rosner, CPPopt/PRx, key refs (Asgeirsson 1994, Grände 2006, Robertson 1999, Steiner 2002, Aries 2012, COGiTATE 2023).
+- `sources/protocoles/*.qmd`: 18 local protocols (préop, craniotomie, HTIC, HSA, clippage, moya ×2, endonasal, adénome, base du crâne, DI, éveillée, cortectomie, épilepsie SSPI, dexmédétomidine, trijumeau, anévrisme mycotique, AVC thrombolyse).
 
 Author: Jona JOACHIM.
 
@@ -20,21 +20,26 @@ User decisions: rewrite the protocols into teaching chapters, each ending in a "
 ## Project layout (root: `neuro_starter/`)
 ```
 _quarto.yml            # book; lang: fr; pdf (lualatex, A4, scrbook, TeX Gyre Pagella/Heros) + html (cosmo/darkly)
-                       # project.render limited to index.qmd, parties/, annexes/ (protocoles/ and sources/ are not rendered)
+                       # project.render limited to index.qmd, parties/, annexes/ (sources/ is not rendered)
 index.qmd              # Avant-propos, mode d'emploi (shows every box type + fiche pratique)
 parties/NN-slug.qmd    # 19 chapters, ids #sec-<slug> (e.g. #sec-htic), stubs with Objectifs / À retenir
 annexes/*.qmd          # references (bibliography, before the appendices), fiches-memo, scores, abreviations, credits-images
 figures/src/*.py       # matplotlib scripts → figures/*.pdf/.png
 figures/wikimedia/     # downloaded CC images + credits.yml
-scripts/               # sfar_bib.py (to write)
-sources/transcripts/   # t1_neuro_bases.txt, t2_nri.txt (cache, not rendered)
-sources/NOTES.md       # reading notes on every source: content → chapter, transcription errors, names to remove, discrepancies
+scripts/               # sfar_bib.py (SFAR @misc entries from discovery.json; --check)
+sources/               # every source document lives here, never at the root; not rendered
+  transcripts_cours.txt  # URLs of the 2 audio transcripts
+  transcripts/         # t1_neuro_bases.txt, t2_nri.txt (downloaded cache)
+  additional.txt       # Lund vs Rosner, CPPopt notes
+  protocoles/          # the 18 local protocols, untouched originals
+  NOTES.md             # reading notes on every source: content → chapter, transcription errors, names to remove, discrepancies
 references.bib         # verified via PubMed MCP (PMID + DOI fields)
 vancouver.csl          # from zotero.org/styles/vancouver
 styles/custom.scss     # small HTML tweaks only
-protocoles/            # untouched originals
 _book/                 # output (git-ignored, like .quarto/ and the kept .tex)
 ```
+
+**Source documents:** all input material (transcripts, protocols, notes, recommendations copied into the repo) goes in `sources/`, never at the project root. The root holds only the book itself (`_quarto.yml`, `index.qmd`, `parties/`, `annexes/`, figures, bib, styles, scripts).
 
 ## Book outline
 **Partie I : Bases** (mostly from transcript 1)
@@ -56,7 +61,7 @@ _book/                 # output (git-ignored, like .quarto/ and the kept .tex)
 14. Neuroradiologie interventionnelle (transcript 2 + `anevrisme_mycotique`).
 
 **Partie III : Urgences et réanimation**
-15. HTIC aiguë (`htic`) + encadré « Lund vs Rosner, CPPopt » (`additional.txt`).
+15. HTIC aiguë (`htic`) + encadré « Lund vs Rosner, CPPopt » (`sources/additional.txt`).
 16. Traumatisme crânien grave : prehospital to ICU, ACSOS targets, tiered ICP therapy (SIBICC), decompressive craniectomy (DECRA/RESCUEicp), tranexamic acid (CRASH-3), hypothermia (Eurotherm/POLAR), transfusion (TRAIN), plus the extradural hematoma case from transcript 1.
 17. HSA anévrysmale (`hsa`): WFNS/Fisher, DVE, vasospasm/DCI, nimodipine.
 18. AVC ischémique : thrombectomy and post-thrombolysis monitoring (`avc`).
@@ -130,7 +135,7 @@ Rules:
 1. ✅ Download the transcripts to `sources/transcripts/`, then read them in full along with all the protocols. Notes in `sources/NOTES.md`.
 2. ✅ Scaffold: `_quarto.yml`, `index.qmd`, CSL, stub chapters and annexes, two PubMed-verified test references (robertson1999, asgeirsson1994), clean test render (PDF + HTML).
    Findings: babel handles French with lualatex (no `babel-french.ldf` needed); always run a full `quarto render`, since rendering one format alone wipes `_book/`.
-3. Build `references.bib`: run `scripts/sfar_bib.py` for the SFAR entries and verify the journal entries via PubMed. Read the relevant sections of each SFAR markdown before writing the chapter that cites it.
+3. ✅ Build `references.bib`: run `scripts/sfar_bib.py` for the SFAR entries and verify the journal entries via PubMed. Read the relevant sections of each SFAR markdown before writing the chapter that cites it.
 4. Generate the figures and download the Wikimedia images with their credits.
 5. Write Partie I, then II, then III, then the annexes. Render after each part.
 6. Write `A_VALIDER.md`, then do a final render.
@@ -139,6 +144,6 @@ Rules:
 - `quarto render` gives a clean PDF + HTML: no LaTeX errors, no `?@fig`/`???` unresolved citations or cross-references (grep the log and the `.tex`).
 - Inspect sample pages of the PDF with Read (pages tool) to check figures, callouts, tables, French typography and the fiche layout.
 - `grep -riE "Francine|Chassoux|LEVE|55148"` on the output returns nothing (full list of names and numbers in `sources/NOTES.md`).
-- `grep -rnP "\x{2014}"` on everything except `protocoles/` returns nothing.
+- `grep -rnP "\x{2014}"` on everything except `sources/protocoles/` returns nothing.
 - Every journal bib entry has a PMID/DOI that matches PubMed metadata. Every SFAR entry's URL appears verbatim in `discovery.json`, which a script checks.
 - Hand `A_VALIDER.md` to the user for medical sign-off.

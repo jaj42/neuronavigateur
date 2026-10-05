@@ -75,7 +75,9 @@ Rosner (autorégulation conservée → PPC haute ≥ 70–80) vs Lund (BHE rompu
 métoprolol + clonidine, albumine, éviter mannitol/hyperventilation/vasopresseurs).
 Robertson 1999 (PPC > 70 → ARDS ×5) ; SAFE-TBI (albumine délétère) ; BTF 2016 PPC 60–70 ;
 PRx, CPPopt = minimum de la courbe en U PRx/PPC (Steiner 2002, Aries 2012), COGiTATE 2023.
-→ encadré chapitre 15 + figure U-curve. Références à vérifier PubMed.
+→ encadré chapitre 15 + figure U-curve. Références vérifiées PubMed (`references.bib`).
+Correction : l'essai COGiTATE (faisabilité, phase II) est publié en 2021 (Tas, J Neurotrauma,
+PMID 34407385), pas en 2023 ; analyse secondaire Beqiri 2024 (Neurocrit Care, PMID 39623160).
 
 ## Protocoles locaux (`protocoles/*.qmd`)
 
