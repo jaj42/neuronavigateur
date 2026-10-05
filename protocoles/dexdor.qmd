@@ -1,0 +1,100 @@
+---
+title: Protocole de sédation par Dexmedetomidine
+format: typst
+---
+
+Indications : IOT sous fibroscopie, trachéotomie sous AL, sédation
+procédurale (évacuation HSD, cimentoplastie max 2 étages)
+
+Action : Alpha 2 agoniste/ Effet sédatif, anxiolytique et analgésique
+par action sur le locus coereleus (TC)/ Réduction du tonus sympathique
+
+Demi-vie de distribution 6 minutes, demi-vie d'élimination terminale 2
+h, métabolisme hépatique+++
+
+Effets secondaires principaux : Hypotension, bradycardie, pas de perte
+de VENTILATION SPONTANEE SAUF sédation profonde et CO ADMINISTRATION DE
+PROPOFOL OU REMIFENTANIL= surveillance FR+++
+
+Terrain particulier : obésité= dose poids réel/ Sujet âgé= réduire dose
+initiale (50%) + titration/ Insuffisance rénale= pas de modification/
+Insuffisance hépatique= réduire les doses
+
+Examen préalable : ECG pour éliminer un trouble de la conduction sévère,
+valvulopathie sténosante sévère
+
+Contre-indications : trouble de la conduction sévère, instabilité
+hémodynamique
+
+Protocole proposé : exemple de l’intubation par fibroscopie en VS
+
+Préparation locale patient (méchage+ aérosol xylocaine) + début de
+l’administration du DEXDOR pour imprégnation (Bolus de 1µg/kg sur 15-20
+min) dans l’idéale ambiance calme pour meilleure imprégnation
+
+Début du geste après dose de charge. Poursuite pendant le geste de la
+dose d’entretien à 1µg/kg/h
+
+Si geste douloureux possibilité d’une titration par kétamine associée
+(pas d’effet psycho dysleptique sous DEXDOR)
+
+Si sédation procédurale : Adaptation de la dose par palier de 10-15 min
+en fonction de l’effet recherché (cf tableau pour adaptation du débit en
+fonction de la dose poids).
+
+Administration IVSE :
+
+Préparation : 1 Ampoule de 200µg dans 40 ml de Sérum physiologique soit
+une concentration de 5µg/ml
+
++-----------+----------+----------+----------+----------+----------+
+| Poids     | 50kg     | 60kg     | 70kg     | 80kg     | 90kg     |
+|           |          |          |          |          |          |
+| Posologie |          |          |          |          |          |
++-----------+----------+----------+----------+----------+----------+
+| 0,1       | 1 ml/h   | 1,2 ml/h | 1,4 ml/h | 1,6 ml/h | 1,8 ml/h |
+| µg/kg/h   |          |          |          |          |          |
++-----------+----------+----------+----------+----------+----------+
+| 0,2       | 2 ml/h   | 2,4ml/h  | 2,8 ml/h | 3,2 ml/h | 3,6 ml/h |
+| µg/kg/h   |          |          |          |          |          |
++-----------+----------+----------+----------+----------+----------+
+| 0,3       | 3 ml/h   | 3,6 ml/h | 4,2 ml/h | 4,8 ml/h | 5,4 ml/h |
+| µg/kg/h   |          |          |          |          |          |
++-----------+----------+----------+----------+----------+----------+
+| 0,4       | 4 ml/h   | 4,8 ml/h | 5,6 ml/h | 6,4 ml/h | 7,2 ml/h |
+| µg/kg/h   |          |          |          |          |          |
++-----------+----------+----------+----------+----------+----------+
+| 0,5       | 5 ml/h   | 6 ml/h   | 7 ml/h   | 8 ml/h   | 9 ml/h   |
+| µg/kg/h   |          |          |          |          |          |
++-----------+----------+----------+----------+----------+----------+
+| 0,6       | 6 ml/h   | 7,2 ml/h | 8,4 ml/h | 9,6 ml/h | 10,8     |
+| µg/kg/h   |          |          |          |          | ml/h     |
++-----------+----------+----------+----------+----------+----------+
+| 0,7       | 7 ml/h   | 8,4 ml/h | 9,8 ml/h | 11,2     | 12,6     |
+| µg/kg/h   |          |          |          | ml/h     | ml/h     |
++-----------+----------+----------+----------+----------+----------+
+| 0,8       | 8 ml/h   | 9,6 ml/h | 11,2     | 12,8     | 14,4     |
+| µg/kg/h   |          |          | ml/h     | ml/h     | ml/h     |
++-----------+----------+----------+----------+----------+----------+
+| 0,9       | 9 ml/h   | 10,8     | 12,6     | 14,4     | 16,2     |
+| µg/kg/h   |          | ml/h     | ml/h     | ml/h     | ml/h     |
++-----------+----------+----------+----------+----------+----------+
+| 1,0       | 10 ml/h  | 12 ml/h  | 14 ml/h  | 16 ml/h  | 18 ml/h  |
+| µg/kg/h   |          |          |          |          |          |
++-----------+----------+----------+----------+----------+----------+
+| 1,2       | 12 ml/h  | 14,4     | 16,8     | 19,2     | 21,6     |
+| µg/kg/h   |          | ml/h     | ml/h     | ml/h     | ml/h     |
++-----------+----------+----------+----------+----------+----------+
+
+Bolus sur 20 min/ A Préparer dans une seringue à part ! A administrer
+pour les procédures de sédation seulement
+
++-----------+-----------+-----------+-----------+-----------+-----------+
+| Poids     | 50 kg     | 60 kg     | 70 kg     | 80 kg     | 90 kg     |
+|           |           |           |           |           |           |
+| Posologie |           |           |           |           |           |
++-----------+-----------+-----------+-----------+-----------+-----------+
+| 0,5 µg/kg | 15 ml/h   | 18 ml/h   | 21 ml/h   | 24 ml/h   | 27 ml/h   |
++-----------+-----------+-----------+-----------+-----------+-----------+
+| 1,0 µg/kg | 30 ml/h   | 36 ml/h   | 42 ml/h   | 48 ml/h   | 54 ml/h   |
++-----------+-----------+-----------+-----------+-----------+-----------+

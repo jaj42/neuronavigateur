@@ -1,0 +1,149 @@
+---
+title: Craniotomie éveillée
+format: typst
+---
+
+-   Indication :
+
+La neurochirurgie éveillée permet d’identifier et de préserver les zones
+corticales et sous corticales impliquée dans les fonctions éloquentes
+durant la résection de tumeurs ou de lésions impliquées dans l’épilepsie
+pharmaco résistante (ex : cavernome, radionécrose). L’intervention, dans
+sa partie éveillée, comprend alors une phase de « travail » durant
+laquelle le patient réalise des exercices avec une orthophoniste ce qui
+permet la réalisation d’une cartographie des zones éloquentes par
+stimulation trans corticale, puis la résection lésionnelle et prise de
+marge (tumeur) sous contrôle clinique et électro physiologique.
+
+-   Intervenants hors anesthésie:
+
+Chirurgien référent : Pr Emmanuel Mandonnet (secrétaire Chadia Draou)
+
+Equipe orthophonistes : Isabelle Poisson, Cécile Prévost, Sophie Letrange
+
+-   Matériel anesthésique :
+
+Monitorage standard / BAT, 2 VVP et KTA côté de la lésion, SU (avec gel
+de xylocaïne)
+
+Optiflow, sonde oxygène nasale (pour capno), PCo2 Transcutanée
+
+BIS + score OAAS (profondeur sédation)
+
+-   Protocole d’anesthésie:
+
+AIVOC Propofol / Remifentanil 20µg/ml + Dexdor 5µg/ml (1 A/40 ml)
+
+BabyNAD
+
+Antibioprophylaxie céfazoline (allergie Clindamycine)
+
+NVPO : dexa 8 mg/ zophren 4 mg
+
+Analgésie : Perfalgan/ spasfon 2 Amp (SU)/ kétamine (0,25 mg/kg)
+
+Autres : G30%/ Atropine
+
+LE PATIENT DOIT POURSUIVRE LES ANTIEPILEPTIQUES SAUF L’URBANYL (effet sédatif)
+
+-   Etapes de l’intervention
+
+Etape 1 : Mise en condition sous sédation
+
+En Décubitus dorsal
+
+Début sédation dès pose VVP : Bolus Dexdor (1µg/kg sur 20 min) puis
+1µg/kg/h + Remifentanil cible 1.5 + bolus propofol+/- AIVOC titration
+(attention à l’arrivée du DEXDOR vers 10 min de perfusion)
+
+Mise en place KTA+SU+2è VVP puis stop sédation
+
+Administration Antibioprophylaxie + dexa
+
+Etape 2 : Installation en décubitus latéral éveillé
+
+Patient éveillé/ avec le chirurgien/ vérifier le confort de la position
+avec le patient et libre mouvement du bras côté opposé à la lésion
+
+AVANT CHAQUE GESTE SIGNIFICATIF VERIFIER PROFONDEUR SEDATION (OAAS ou
+BIS)
+
+Etape 3 : mise en place têtière + neuronavigation + locale cicatrice
+sous sédation
+
+-   Dès la position validée REPRENDRE le dexdor et le rémifentanil pour
+    AL et mise en place de la têtière = protocole d’infiltration en
+    salle (association lidocaine + ropivacaine)
+
+Mise en place têtière + Neuro navigation + tracé de l’incision
+
+Shampoing + AL zone d’incision + badigeon
+
+-   Mise en place sonde CO2/ CO2 Tc + BIS après le badigeon
+
+-   1^(er) GDS pour gradient pCO2 Tc et Et CO2
+
+Etape 4 : Incision + craniotomie + AL dure mère et ouverture de la dure
+mère sous sédation
+
+-   Sédation de « croisière » jusqu’à la craniotomie
+
+-   Administration de la kétamine/ paracétamol/ zophren/ spasfon à
+    l’incision
+
+-   Vérifier normo thermie pour éviter frisson au réveil
+
+-   Hydratation suffisante (confort au réveil)
+
+-   Arrêt du DEXDOR dès la fin de la craniotomie + Appel orthophoniste
+    (à la demande du chir) arrêt propofol/femifentanil pour ouverture de
+    la dure mère
+
+-   Retrait de la sonde nasale avant réveil + arrêt de l’optiflow pour
+    le travail
+
+Etape 5 : Cartographie + résection éveillée « travail »
+
+Durée 1 à 2h (hors gliome) 2 à 3h (gliome)
+
+-   Possible survenue de douleur = lésion temporale/ proche vallée
+    sylvienne / insulaire/ proche ventricules latéraux
+
+= si besoin: refaire kétamine 10mg ou remifentanil petite dose (mais
+arrêt rapide si trop sédatif)
+
+-   Si somnolence ou ralentissement: G30% 1 ampoule IVL dans pochon
+    100ml de serum phy +/- serum tiède sur le cortex cérébral
+    (chirugien)
+
+-   Si crise convulsive :
+
+1/ Sérum froid au contraire
+
+2/ keppra 500 mg puis réévaluation
+
+-   Si bradycardie vagale (ex : stimulation dure mère, douleur) Atropine
+    0,25mg dès la moindre bradycardie associée pour éviter un malaise
+    plus symptomatique par la suite (bradycardie, hypotension
+    vomissements)
+
+Etape 6 : Hémostase + Fermeture
+
+-   Reprise sédation
+
+-   Pas de stimulation douloureuse majeure sauf manipulation de la dure
+    mère ou muscle temporal
+
+-   Morphine IV 0,1 mg/kg +/- 2^(ème) bolus de kétamine si douleurs
+    pendant le travail
+
+-   Arrêt des sédations au retrait têtière
+
+-   Prescription post op :
+
+Analgésie : Paracétamol + titration morphine + morphine per os
+
+Anti œdémateux si tumeur (pas dans la chirurgie de l’épilepsie) : Dexa 8
+mg à H12 de la 1 ère injection (+ lanzoprazole 15mg)
+
+Anti épileptique majoration Keppra + urbanyl 5-5-10mg PO

@@ -1,0 +1,121 @@
+---
+title: Pontage extra-intracrânien pour patients Moya-moya
+format: typst
+---
+
+1) CONSULTATION :
+
+- Standard
+
+- Maintien préopératoire du Kardégic si déjà dans le traitement
+chronique. Pas d’introduction avant J-1 dans les autres cas.
+
+2) VISITE PRE ANESTHESIQUE :
+
+- la veille :
+
+Perfusion la veille pour hydratation IV SSI 1000ml/12h
+
+Confirmer la place en RCP pour le post opératoire USRC
+
+Administration Aspirine 100 mg IVL la veille au soir
+
+S’assurer de l’absence de modification de l’examen neurologique en pré
+opératoire
+
+-le matin:
+
+Aspirine 100 mg IVL le matin de l’intervention
+
+3) PER OPERATOIRE :
+
+OBJECTIF AUCUNE hypotension artérielle = Objectif PAM> 90% de la PAM
+habituelle du patient (MAPA pré opératoire)
+
+Avant induction :
+
+Monitorer
+
+-   la PA non invasive avec pose du KT radial sous AL
+-   la profondeur de l'anesthésie par BIS
+-   Oxygénation cérébrale par NIRS bilatéral
+-   Monitorage débit cardiaque per opératoire pour optimisation volémie
+    (Solutés balancés RL + sérum physiologique)
+
+Protocole d’anesthésie :
+
+-   AIVOC propofol/ Remifentanil progressive
+-   Baby noradrénaline (5µg/ml) DES L’INDUCTION
+-   Curarisation jusqu’au pontage/TOF
+-   Antibioprophylaxie : Céfazoline 2g IVL (4g si obèse), si allergie :
+    LINEZOLIDE 900mg
+-   Compressions pneumatiques intermittentes (CPI) en place
+-   SU + température
+
+Objectifs per opératoire : Neuroprotection/Prévention ischémie :
+
+- Normoglycémie 6-10 mmol/L
+
+- Normocapnie stricte 36-40 mmHg (GDS pour gradient CO2)
+
+- Contrôle strict pression artérielle (90% PAM éveillé)
+
+- Hb 10g/dl
+
+- Normothermie
+
+- Prise en charge de la douleur : Kétamine 0.25mg/kg à
+l’induction/Paracetamol/relais Rémifentanil par morphine 0.1mg/kg 30 min
+avant le réveil
+
+- Demander le lit de réanimation pour post op
+
+Réveil et extubation précoce avant transfert en réanimation +
+Angioscanner avant la remontée en réanimation
+
+4) POST-OP
+
+-Maintien d'une PAM>80mmHg et PAS <160mmHg. Si PAS>160mmhg, privilégier
+les alpha1-bloquant type EUPRESSYL® pour le contrôle tensionnel (moins
+d’impact sur la vasomotricité cérébrale)
+
+-Kardégic 75 mg dès J1
+
+-Si déficit neuro au réveil ou secondaire faire : IRM avec ARM TOF
+diffusion perfusion en Urgence (AVC/ reperfusion)
+
+ Maintien CPI et anticoagulation préventive H24 après accord du
+chirurgien.
+
+5) COMPLICATIONS POST OPERATOIRES :
+
+-   Syndrome d’hyper perfusion 20-30% (radiologique 50%)
+      (Revascularisation territoire en ischémie chronique) :
+
+Evènement neurologique transitoire ou hémorragie (<2%)
+
+Limité par : by pass unique vs double by pass
+
+Contrôle pression artérielle= Eviter poussées hypertensive
+
+Si doute= IRM de perfusion en urgence
+
+-   Hypo perfusion/Ischémie (ou transformation hémorragique) :
+
+5-10%
+
+Dans les 7 j post op
+
+Facteurs favorisants : Hypercapnie/ hypotension/Trouble de l’hématocrite
+
+Infarctus pré opératoire et faible réserve vasculaire pré op
+
+Prévention :
+
+Anti agrégants
+
+Objectif hémodynamiques
+
+-   Epilepsie post op 20%
+
+Liée à la re perfusion/ Pas de prophylaxie systématique

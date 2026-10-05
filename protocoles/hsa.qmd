@@ -1,0 +1,256 @@
+---
+title: Hémorragie méningée anévrysmale
+format: typst
+---
+
+I.  DEFINITION-EPIDEMIOLOGIE-PRONOSTIC
+
+L’HSA correspond à une extravasation de sang dans les espaces sous
+arachnoïdiens (vallée sylvienne, citernes de la base, sillons de la
+région frontale et de la convexité…) liée à la rupture d’un anévrysme
+intra cérébral. Il peut concerner les territoires carotidien et
+vertébral.
+
+[]
+
+C’est une urgence diagnostique et thérapeutique
+
+L’incidence est de 4,5 à 28 pour 100 000 habitants avec des variations
+inter ethniques, et une prépondérance féminine (60%). L’âge moyen de
+survenue est de 50 ans. La mortalité moyenne de l’HSA est élevée : 42%
+(dont 20% avant l’accès aux soins et 10% survenant dans les trois
+premiers jours). Plus de 25% des patients survivants garderont des
+séquelles invalidantes.
+
+II. TABLEAU CLINIQUE
+
+-SYNDROME MENINGE AIGU +++: La céphalée domine le tableau clinique, elle
+est brutale (à l’heure H), intense, souvent totale et d’emblée maximale.
+Les autres signes de syndrome méningé sont souvent associés : raideur
+méningée, nausées, vomissements en jet, phono et photophobie.
+
+-Perte de connaissance brutale ou coma d’emblée, liés à une HTIC brutale
+avec arrêt circulatoire cérébral transitoire (réaction de cushing)
+
+-Crise convulsive
+
+-Signes neurologiques focaux non spécifiques ou en rapport avec un
+hématome intra cérébral.
+
+La gravité clinique est appréciée par la classification World Federation
+of Neurological Surgeons (grade WFNS) 1988
+
++--------------------+--------------------+---------------------------+
+| GRADE              | SCORE DE GLASGOW   | DEFICIT MOTEUR            |
+|                    |                    |                           |
+| WFNS               |                    |                           |
++====================+====================+===========================+
+| I                  | 15                 | Absent                    |
++--------------------+--------------------+---------------------------+
+| II                 | 13-14              | Absent                    |
++--------------------+--------------------+---------------------------+
+| III                | 13-14              | Présent                   |
++--------------------+--------------------+---------------------------+
+| IV                 | 7-12               | Présent ou Absent         |
++--------------------+--------------------+---------------------------+
+| V                  | 3-6                | Présent ou Absent         |
++--------------------+--------------------+---------------------------+
+
+III. EXAMENS COMPLEMENTAIRES
+
+-TDMc sans injection : Il permet le diagnostic positif par la présence
+d’une hyperdensité spontanée dans les espaces sous arachnoïdiens. Elle
+peut parfois être localisatrice (artères sylviennes et communicante
+antérieure). On quantifie la quantité de sang par l’échelle de Fisher
+modifiée, qui est corrélée au risque de vasospasme ultérieur et donc au
+pronostic neurologique.
+
++----------------------+-----------------------------------------------+
+| Grade de FISHER      | Aspect TDM                                    |
++======================+===============================================+
+| 1                    | HSA minime, pas de sang dans les VL           |
+|                      |                                               |
+| 2                    | HSA minime, présence de sang dans les VL      |
+|                      |                                               |
+| 3                    | HSA importante*, pas de sang dans les VL      |
+|                      |                                               |
+| 4                    | HSA importante*, présence de sang dans les VL |
++----------------------+-----------------------------------------------+
+
+  *Hémorragie remplissant au moins une citerne ou une sissure et/ou
+  hématome intraparenchymateux.
+
+[] HSA fisher 2 [Afficher l'image d'origine] HSA ficher 4 avec HIV
+
+Le diagnostic étiologique de l’HSA repose sur l’angioscanner cérébral, à
+la recherche d’un anévrisme artériel intra crânien. Il apparaît comme
+une image d’addition, arrondie, sacciforme, au temps artériel. Les
+anévrysmes siègent électivement au niveau du complexe antérieur du
+polygone de Willis (dans 90% des cas) soit au niveau de la terminaison
+de la carotide interne, de l’artère cérébrale antérieure ou de la
+communicante antérieure. Ils sont situés plus rarement au niveau des
+artères communicantes postérieures ou du tronc basilaire.
+
+-La ponction lombaire n’a aucune indication en première intention et
+lorsque l’HSA est visualisée sur le scanner cérébral. Elle est même
+contre-indiquée en cas d’hématome intracrânien avec effet de masse ou en
+cas d’hydrocéphalie aigue en raison du risque d’engagement cérébral. Son
+indication persiste lorsque le scanner cérébral est normal avec une
+forte suspicion clinique (hémorragie méningée minime ou vue
+tardivement).
+
+Caractéristiques du LCR:
+
+- Examen direct : LCR hypertendu, incoagulable sanglant ou rosé
+(uniforme sur tous les tubes prélevés/diagnostic différentiel avec une
+PL traumatique). Le liquide peut être jaune citrin en cas d’hémorragie
+vieillie. Le surnageant est xanthochromique
+
+- Biochimie: Hyperprotéinorachie, Normoglycorachie, Recherche de
+pigments biliaires positive (produits de l’hémolyse)
+
+- Cytologie : GR/GB supérieur à celui du plasma. Présence de
+sidérophages (macrophages riches en fer). Globules rouges altérés
+
+-DTC : ils permettent d’apprécier le niveau d’HTIC par la mesure de
+l’IPC et constituent une mesure de référence pour le monitorage
+ultérieur.
+
+[] Evolution DTC au cours d’une HTIC
+
+IV. PRINCIPES DE LA PRISE EN CHARGE INITIALE
+
+Bilan initial:
+
+-Examen clinique et neurologique avec score de Glasgow et signes
+neurologiques focaux. Examen cardiovasculaire et état hémodynamique
+systémique et intra cérébral (DTC).
+
+-Bilan d’admission : ionogramme sanguin, NFS, TP, TCA, Fibrinogène,
+Groupe Rh, RAI, troponine, BNP, ECG, DTC.
+
+-ETT si défaillance cardiovasculaire.
+
+Traitement symptomatique :
+
+-Contrôle de l’hypertension artérielle tant que l’anévrysme n’est pas
+sécurisé : Eupressyl ou Loxen
+
+NB : En cas d’HTIC sévère (attention si coma), il conviendra d’adapter
+le niveau de PA aux DTC afin de limiter une potentielle baisse de la
+perfusion cérébrale.
+
+-Prise en charge de la douleur.
+
+-Traitement des convulsions (non spécifique)
+
+-Prise en charge des ACSOS comme dans toute agression cérébrale aigue :
+normocapnie, normoglycémie, natrémie normale, normothermie
+
+Traitement étiologique :
+
+Le traitement de l’anévrysme est une urgence, le risque de resaignement
+est maximal dans les 24 premières heures et entraine le décès dans 50 à
+60% des cas. Le choix de la technique se fait au cas par cas,
+l’embolisation occupe une très large place en traitement de première
+intention.
+
+→ Embolisation de l’anévrisme (coïls) en neuroradiologie
+interventionnelle, sous anesthésie générale.
+
+→ Clippage chirurgical :
+
+-Anévrysmes sylviens ou non accessibles à un geste d’embolisation ou
+complémentaire d’un geste d’embolisation incomplet (collet large)
+
+-Evacuation d’un hématome intra crânien +/- clippage anévrysmal (parfois
+précédé d’une embolisation)
+
+V.  PRISE EN CHARGE DES COMPLICATIONS
+
+-   HTIC sur Hydrocéphalie aigue : fréquente (15% à 25% des patients).
+
+Elle est liée à un défaut de résorption du LCR causé par la présence de
+fibrine et d’éléments figurés du sang dans les espaces sous
+arachnoïdiens. Elle peut être précoce ou secondaire (phénomènes
+inflammatoires et cicatriciels). Elle grève le pronostic par
+augmentation des complications ischémiques cérébrales. Elle doit être
+traitée en urgence par dérivation ventriculaire externe (préalablement à
+l’embolisation anévrysmale si elle est présente sur le scanner initial)
+
+[attention]La DVE en présence d’un anévrysme non sécurisé peut augmenter
+le risque de resaignement. Pour limiter ce risque il convient de:
+
+-Procéder à l’embolisation de l’anévrysme le plus rapidement possible
+(post drainage immédiat si possible)
+
+-Maintenir une certaine « contre pression » via la DVE en gardant un
+niveau au moins supérieur ou égal à +15 cmH20 par rapport au zéro
+(conduit auditif externe). Clamper transitoirement la DVE lors des
+transferts pour limiter le risque de siphonnage du LCR. Cela est également pour les efforts de toux (aspiration)
+
+La dilatation ventriculaire se constitue parfois en cours de procédure
+d’embolisation, il conviendra dans ce cas de s’assurer d’une hémostase
+compatible avec la DVE. Si elle est urgente, l’héparine per procédure
+sera antagonisée par la protamine.
+
+-   Resaignement : Risque important pendant les 4 premiers jours. La
+    récidive hémorragique survient dans 30% des cas, toujours plus grave
+    que l’hémorragie initiale, avec une mortalité très élevée,
+    supérieure à 70%. Elle peut survenir jusqu’au 10ème jour de la prise
+    en charge. Pour cette raison, il est recommandé de traiter
+    l’anévrisme de façon précoce dans les 24h de l'HSA initiale.
+
+-   HTIC sur hématome intra parenchymateux : L’évacuation chirurgicale
+    peut être indiquée.
+
+-   Défaillance cardiocirculatoire : La rupture anévrysmale s’accompagne
+    d’une HTIC aigue qui provoque un réflexe de cushing d’intensité
+    variable responsable d’une importante réaction sympathique avec
+    décharge de catécholamines endogènes. 10% des patients présentent un
+    œdème pulmonaire. Il est d’origine mixte cardiogénique et
+    neurogénique. Les formes les plus graves sont les plus à risque. Le
+    traitement est aspécifique (VNI, contrôle tensionnel)
+
+-   Crises convulsives : Préférentiellement au moment de la rupture
+    anévrysmale, elles constituent un facteur de gravité. Leur prise en
+    charge n’est pas spécifique. Le traitement prophylactique n’est pas
+    systématique.
+
+-   Troubles métaboliques : L’hyponatrémie est une complication
+    fréquente (syndrome de perte de sel, plus rarement SIADH) qui
+    apparait dans les jours suivant (non traitée ici)
+
+-   Le vasospasme : il se produit toujours au niveau des vaisseaux qui
+    sont en contact avec le sang (toxicité des produits de dégradation
+    du sang). Le phénomène est d’intensité variable et peut rester infra
+    clinique. Le risque est important de J3 à J15 post-hémorragie, avec
+    un pic de fréquence autour de J8-J10. Il peut être présent lors de
+    la prise en charge initiale si le patient a saigné quelques jours
+    auparavant. Le vasospasme symptomatique survient dans 15 à 25% des
+    cas et provoque une ischémie cérébrale focale ou plus rarement
+    diffuse. Il grève le pronostic vital et fonctionnel (séquelles
+    neurologiques lourdes).
+
+Il est au mieux mis en évidence par l’artériographie mais peut être
+dépisté par un angioTDM, et suspecté aux dopplers trans craniens
+(augmentation importante des vitesses circulatoires).
+
+[]Aspect DTC au cours du vasospasme
+
+Il se manifeste par l’apparition d’un déficit neurologique et doit être
+suspecté devant tout déficit neurologique après J3, qu’il soit
+progressif, régressif, intermittent ou complet d’emblée. A noter que
+cette complication ischémique retardée est rarement rencontrée au cours
+des hémorragies méningées non anévrismales. Le traitement préventif doit
+débuter dès les premiers jours.
+
+La prévention du vasospasme repose sur l’administration d’un inhibiteur
+calcique de type nimodipine (Nimotop®), vasodilatateur des vaisseaux
+cérébraux (effet indésirable : hypotension artérielle), per os pour une
+durée de 21 jours. Aucun autre médicament n’a montré son efficacité dans
+la prévention du vasospasme.
+
+Une fois l’anévrysme sécurisé, il convient de respecter une hypertension
+artérielle, assurer une volémie adaptée grâce à un apport conséquent de
+solutés isotoniques.

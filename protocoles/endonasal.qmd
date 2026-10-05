@@ -1,0 +1,169 @@
+---
+title: Neurochirurgie par voie endonasale
+format: typst
+---
+
+# Indications
+
+Exérèse de tumeurs de la base du crâne (chordome ++) et chirurgie supra
+sellaire sellaire (adénome/craniopharyngiome).
+
+# Risques :
+
+-   Locale : brèche méningée prévention par position assise prolongée en
+    post opératoire et parfois DLE pour drainage postopératoire (diminue
+    la pression du compartiment du LCR)
+
+-   Infectieux : méningite (brèche méningée)
+
+-   Hémorragique (épistaxis) : précautions à l’extubation
+
+-   Diabète insipide per opératoire si atteinte de la tige pituitaire :
+    surveillance per et post opératoire
+
+# Pré opératoire 
+
+-   Vérifier si vaccination anti pneumocoque et Haemophilus influenzae
+    réalisée (sinon vaccins disponibles à la CAC et première injection
+    peut être réalisée même proche de l’intervention) car risque de
+    méningite post opératoire augmentée liée à une brèche méningée.
+
+-   Recherche de portage nasal SARM et BMR en consultation d’anesthésie
+    (attention résultats disponible en 1 semaine et doit être fait pour
+    l’intervention) pour adaptation de l’antibioprophylaxie :
+    amoxicilline/acide clavulanique si négatif, vancomycine si SARM, si
+    BLSE : à voir avec équipe mobile d’infectiologie (55237)
+
+-   Arrêt des anti agrégants et anticoagulants comme chirurgie intra
+    crânienne/ CARTE DE GROUPE RAI à jour
+
+-   Chirurgie hypophysaire ; vérifier le bilan hormonal pour poursuite
+    des traitements et rechercher rapidement à l’interrogatoire un
+    éventuelle diabète insipide méconnu.
+
+# Per opératoire : Abord trans sphénoïdal par voie endoscopique
+
+-   Monitorage et équipement Ne rien mettre en endonasal !
+
+AG avec IOT et packing pharyngé humidifié à l’eau (rediscuter avec
+chirurgiens)
+
+AIVOC propofol + monitorage de la profondeur d’anesthésie (PSI ou BIS)
+
+KTA : contrôle pression artérielle et iono sang / 2 VVP / Sonde urinaire
+
+Monitorage du débit cardiaque selon terrain et risque hémorragique
+
+Risque hémorragique : selon lésion, proximité carotide interne : carte
+de groupe et RAI à jour
+
+##  Installation :
+
+Décubitus dorsal (couverture chauffante corps entier sous le patient)
+avec têtière à pointe + neuro navigation / Position proclive 10-20° et
+en « transat »
+
+Prélèvement fréquent de tissu adipeux abdominal pour fermeture de la
+brèche : champage abdominal
+
+Installation des chirurgiens à droite du patient donc positionner sonde
+IOT à gauche (préformée non obligatoire ATTENTION si chordome prévoir
+sonde NIM), brassard tension à gauche.
+
+Packing pharyngé humidifié (à rediscuter avec les chirurgiens) pour
+absorption du saignement
+
+Méchage par les chirurgiens (kit) pour limiter le saignement (xylo
+adrénalinée)
+
+## Chirurgie :
+
+Qualité du champ opératoire dépend du saignement donc contrôle de la
+pression artérielle (voir hypotension contrôlée PAM 60-65 mmHg) :
+
+Adapter cibles AIVOC (BIS/PSI) / Analgésie suffisante +/- anti
+hypertenseurs dès le début de la chrirugie
+
+Objectif de PAM à adapter en fonction du terrain : ATTENTION adapter
+objectifs de pression selon terrain (maladie cardiovasculaire,
+insuffisance rénale chronique)
+
+Exacyl si saignement attendu important (chordome)
+
+Normo capnie (GDS)
+
+Surveillance diabète insipide et adaptation des apports en fonction de
+la diurèse et de la natrémie
+
+# Postopératoire :
+Surveillance 2h minimum en SSPI
+
+RETRAIT du packing et aspiration pharyngée avant extubation et
+extubation idéalement en position proclive>45° en limitant les efforts
+de toux (réduire risque de brèche)
+
+Surveillance épistaxis, surveillance neurologique (vigilance, pupilles,
+motricité et sensibilité des membres, troubles visuels)
+
+Surveillance de la diurèse +/- de la densité urinaire (cf protocole
+diabète insipide)
+
+Rappel vaccinal H. influenzae un mois après si non fait en pré
+opératoire
+
+# Spécificités de l’adénome hypophysaire
+
+(référente : Dr LALOI-MICHELIN 55229/ Dr ABBRITTI neurochirurgien)
+
+2 indications :
+
+-   macroadénome « silencieux » avec risque de compression du chiasma
+    optique (hémianopsie bitemporale)
+
+-   microadénome sécrétant des hormones ou entrainant une insuffisance
+
+Objectif : exérèse de l’adénome en respectant l’hypophyse
+
+Habituellement pas de diabète insipide en préopératoire (sauf apoplexie
+hypophysaire)
+
+Risques :
+
+-   déficits hormonaux hypophysaires
+
+-   diabète insipide central : défaut de sécrétion d’ADH
+
+-   risques liés à la voie endonasale
+
+En préopératoire :
+
+Bilan endocrinologique : recherche insuffisance ou hypersécrétion
+hormonale, supplémentation ou freinage stabilisé par l’endocrinologue
+
+-   Axe corticotrope +++ : Cortisol ou ACTH
+
+-   Axe thyréotrope ++ : TSH T3 T4
+
+-   Axe gonadotrope : moins pertinent pour le périopératoire
+
+-   Axe somatotrope : moins pertinent pour le périopératoire, attention
+    aux spécificités anesthésiques du patient acromégale
+
+-   Axe lactotrope : prolactine (souvent élevée : « hyperprolactinémie
+    de déconnexion »), peu pertinent pour le périopératoire
+
+Bilan ophtalmo avec champ visuel (surtout pour les macro adénomes)
+
+En peropératoire :
+
+Surveillance diurèse selon protocole diabète insipide
+
+En postopératoire :
+
+Surveillance diurèse selon protocole diabète insipide en SSPI
+
+Supplémentation systématique en hydrocortisone même en l’absence de
+déficit : HSHC 50 mg x 3/j
+
+Ionogramme et bilan hormonal (cortisolémie) faits par endocrinologue à
+J+1 et suivi endocrinologique au décours

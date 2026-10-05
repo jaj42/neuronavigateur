@@ -1,0 +1,50 @@
+Can you explain the opposing Lund vs Rosner concepts ?
+
+Both are strategies for managing raised ICP after severe head injury, built on opposite assumptions about what the injured brain can still do. Rosner aims for a high CPP, while Lund aims for low hydrostatic pressure.
+
+Rosner (CPP-oriented therapy, 1990s)
+
+Assumption: Autoregulation is preserved, at least partly.
+Logic: This is the cascade from your lecture. A low CPP causes vasodilation, which raises cerebral blood volume and ICP. Raising MAP should therefore cause vasoconstriction, lower blood volume and bring ICP down.
+Practice: Push CPP high (≥70–80 mmHg) with fluids and vasopressors, and treat ICP partly by raising blood pressure.
+Risk: If autoregulation is lost, a high MAP passes straight into the capillaries, causing hyperemia, vasogenic edema and higher ICP. In Robertson's 1999 trial, a CPP above 70 brought about 5× more ARDS (from fluids and vasopressors) with no better neurological outcome.
+
+Lund concept (Sweden, 1990s)
+
+Assumption: In injured areas the blood-brain barrier is disrupted and autoregulation is impaired.
+Logic: With a leaky barrier, water movement follows Starling forces. Capillary hydrostatic pressure drives edema and oncotic pressure holds fluid in. The goal is to reduce transcapillary filtration, accepting a lower CPP.
+Practice:
+Accept a lower CPP (about 50–60 mmHg in adults).
+Lower capillary pressure with metoprolol (β1 blocker) and clonidine (α2 agonist). Low-dose dihydroergotamine was used early on but later mostly dropped.
+Keep oncotic pressure normal with albumin and red cell transfusion, and aim for a neutral to slightly negative fluid balance.
+Avoid mannitol, which can leak through a damaged barrier and cause rebound, and avoid hyperventilation (ischemia risk) and vasopressors.
+Criticism: The evidence comes mostly from small single-center studies. The SAFE-TBI study also linked albumin to higher mortality in head injury, which undermines one of the concept's pillars.
+
+How it's settled today
+Neither won outright. Current guidelines (Brain Trauma Foundation, 2016) target a middle ground, CPP 60–70 mmHg, avoiding both very low and aggressively high values. The modern approach is to individualize based on whether autoregulation is intact:
+
+Intact: Rosner-type reasoning applies, so raising MAP lowers ICP.
+Lost: Lund-type caution applies, since a high CPP mainly worsens edema.
+
+This is exactly the bedside test from your lecture (does ICP drop when MAP rises?). It has been formalized as the pressure reactivity index (PRx), which tracks the MAP–ICP correlation continuously. PRx can be used to find each patient's "optimal CPP" (CPPopt), an approach still being evaluated in trials.
+
+Which is the reference publication for the Lund concept?
+
+The founding paper is:
+
+Asgeirsson B, Grände PO, Nordström CH. A new therapy of post-trauma brain oedema based on haemodynamic principles for brain volume regulation. Intensive Care Med. 1994;20(4):260–267.
+
+For a fuller account of the physiological rationale and the later, revised protocol, the most cited follow-up is Grände's 2006 review, "The 'Lund Concept' for the treatment of severe head trauma – physiological principles and clinical application," Intensive Care Med. 2006;32(10):1475–1484.
+
+Is CPPopt the CPP that comes with the lowest ICP?
+
+No. CPPopt is the CPP at which autoregulation works best, not the one with the lowest ICP.
+
+It's found by plotting PRx (the moving correlation between MAP and ICP) against CPP, usually over the previous few hours. The curve is typically U-shaped, and CPPopt is its minimum: the CPP where PRx is lowest (most negative), meaning the vessels react best to pressure changes. Below it, you're approaching ischemia. Above it, you're approaching hyperemia and passive distension. The concept was described by Steiner et al. (Crit Care Med 2002) and later automated by Aries et al. (Crit Care Med 2012).
+
+The two can differ because:
+
+Different ICP minimum: With intact autoregulation, raising CPP across the plateau causes progressive vasoconstriction and lower blood volume. ICP therefore tends to keep falling toward the upper part of the plateau, while PRx is best nearer its middle.
+Other drivers of ICP: Edema, mass lesions and CSF all affect ICP regardless of vascular reactivity, so the lowest ICP doesn't reliably mark the best cerebrovascular state.
+
+Patients whose actual CPP stays close to their CPPopt have better outcomes in observational studies. The COGiTATE trial (2023) showed that targeting CPPopt is feasible and safe, but a definitive outcome benefit hasn't been proven yet.

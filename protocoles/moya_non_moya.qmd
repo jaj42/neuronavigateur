@@ -1,0 +1,83 @@
+---
+title: Anesthésie du patient Moya-Moya hors pontage
+format: typst
+---
+
+1) CONSULTATION :
+
+- Intervention programmée à distance (sup 6 mois-1an de tout évènement
+ischémique)
+
+- Pathologie « stable » = pas de déficit transitoire récent, imagerie
+stable sur séquelles ischémiques, dans l’idéal une scintigraphie
+cérébrale au Diamox montrant l’absence d’altération de la réserve
+vasculaire (avis centre expert)
+
+- Standard
+
+- Vérifier équilibre tensionnel si HTA connue (sinon MAPA)
+
+- Déterminer les objectifs tensionnels
+
+2) VISITE PREANESTHESIQUE :
+
+- la veille : Limiter la durée du jeun pré opératoire (liquides +++
+Eviter déshydratation)
+
+Si intervention majeure : Perfusion la veille pour hydratation IV SSI
+1000ml/12h
+
+S’assurer de l’absence de modification de l’examen neurologique en pré
+opératoire+++
+
+3) PER OPERATOIRE :
+
+OBJECTIF AUCUNE hypotension artérielle = Objectif PAM> 90% de la PAM
+habituelle du patient
+
+Avant induction :
+
+Monitorer
+
+-   la PA non invasive avec pose du KT radial sous AL/ PA brassard
+    possible si pathologie stable et geste court sans risque de
+    variation hémodynamique important
+
+-   la profondeur de l'anesthésie par BIS
+
+-   Oxygénation cérébrale par NIRS bilatérale = détection des évènements
+    per opératoires
+
+-   Monitorage débit cardiaque per opératoire pour optimisation volémie
+    Doppler œsophagien (Solutés balancés RL + sérum physiologique)
+
+Protocole d’anesthésie :
+
+-   AIVOC propofol (prévention NVPO/ neuroprotection/ élimination
+    rapide)
+
+-   Babynoradrénaline (5µg/ml) DES L’INDUCTION. PAS DE CI à la
+    noradrénaline au contraire objectif maintien tensionnel
+
+Objectifs per opératoire : Neuroprotection classique/Prévention
+ischémie :
+
+- Normoglycémie 6-10 mmol/L
+
+- Normocapnie stricte 36-40 mmHg (GDS pour gradient CO2)
+
+- Contrôle strict pression artérielle (90% PAM éveillé)
+
+- Hb 10g/dl /lutte contre anémie
+
+- Normothermie
+
+4) POST-OP
+
+Ambulatoire à discuter : si geste en première position. Contrôle de la
+gestion de la douleur et reprise de l’alimentation sinon 1 nuit
+d’hospitalisation
+
+Réhabilitation précoce
+
+Surveillance neurologique

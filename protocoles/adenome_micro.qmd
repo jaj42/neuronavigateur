@@ -1,0 +1,82 @@
+---
+title: Neurochirurgie par voie endonasale pour adénome hypophysaire
+format: pdf
+geometry:
+  - top=10mm
+  - bottom=10mm
+  - textwidth=7.5in
+---
+
+# Concerne
+Chirurgie sellaire +/- suprasellaire 
+
+Exérèse de microadénomes (<10mm) ou de macroadénomes (>10mm) de l’hypophyse.
+
+Ces adénomes sont sécrétants dans 40-50% des cas.
+
+Risques opératoires : 
+- Plaie vasculaire carotidienne : exceptionnelle (<1/800)
+- Hématome de la cavité opératoire (0.5%)
+- Fuite de LCR postopératoire (1%)
+- Infectieux : méningite (1%)
+- Epistaxis, nécessitant un traitement en NRI par embolisation (1.8%)
+- Diabète insipide si atteinte de la post-hypophyse ou de la tige : transitoire (12%), permanent (2%)
+
+# Préopératoire 
+Majorité de patients en J0
+
+Vaccination anti pneumocoque et Haemophilus influenzae réalisée au décours de la consultation chirurgicale pour tous les patients. Vérification et possibilité de rattrapage à la consultation d’anesthésie. La première injection peut être réalisée même proche de l'intervention. Privilégier PREVNAR 20® pour la vaccination antipneumococcique afin d'éviter de devoir faire un rappel.
+
+Arrêt des antiagrégants et anticoagulants comme pour toute chirurgie intracrânienne
+
+Pas de Groupe / RAI systématique
+
+L’ensemble du parcours patient est disponible sur Orbis
+
+# Peropératoire
+Durée opératoire: 1h-1h30. Abord transsphénoïdal par voie endoscopique
+
+Patient en J0: vérifier la disponibilité du lit pour le post-opératoire.
+
+AG avec IOT à gauche, de préférence sonde préformée orale.
+
+AIVOC propofol + monitorage de la profondeur d’anesthésie (PSI ou BIS)
+
+Pas de neuronavigation.
+
+1 VVP, pas de KTA, pas de sonde urinaire sauf si indications particulières.
+
+Décubitus dorsal (couverture chauffante corps entier sous le patient)
+
+Position proclive 20-30° et en « transat »
+
+Brassard à tension à gauche de préférence.
+
+Packing en fonction des habitudes chirurgicales.
+
+La qualité du champ opératoire dépend du saignement. Possibilité d’administrer de l’acide tranexamique 1g si besoin.
+
+# Postopératoire
+Retrait du packing si présent et aspiration pharyngée avant extubation et extubation idéalement en position proclive en limitant les efforts de toux.
+
+Surveillance 2h minimum en SSPI puis en USI Chippault ou en salle en fonction du risque de complication postopératoire (information disponible en amont sur Orbis, susceptible d’être modifiée en fonction des constatations opératoires).
+
+Surveillance épistaxis, surveillance neurologique (vigilance, pupilles, motricité et sensibilité des membres, troubles visuels).
+
+Possibilité d’épistaxis à distance par chute d’escarre, indiquant souvent un traitement endovasculaire (artérioembolisation).
+
+#  Particularités selon le terrain
+## Maladie de Cushing (adénome à ACTH)
+Le syndrome de Cushing est une situation clinique causée par un excès de glucocorticoïdes, entraînant plusieurs manifestations telles que l'obésité centrale, la graisse supraclaviculaire, un visage lunaire, une bosse de bison, une hyperglycémie, une alcalose métabolique, une hypokaliémie, une mauvaise cicatrisation, des ecchymoses faciles, une hypertension, une faiblesse musculaire proximale, des extrémités fines, un amincissement de la peau, des irrégularités menstruelles et des vergetures pourpres.
+
+L'anesthésiste doit gérer une potentielle ventilation et une intubation difficiles, des troubles hémodynamiques, une surcharge volumique et une hypokaliémie, une intolérance au glucose et un diabète, tout en maintenant le niveau de cortisol sanguin et en prévenant une carence en glucocorticoïdes.
+
+- IOT difficile à anticiper
+- VVP difficile à anticiper
+- Supplémentation HSHC 100mg à l’induction puis 20mg x 2 à J1, puis 20mg x 3 jusqu’à retour en endocrinologie. La dose post-opératoire est réduite car une supplémentation trop importante peut interférer avec l’interprétation du résultat chirurgical (résection complète).
+- Gestion périopératoire du diabète (cf protocole)
+
+##   Acromégalie (adénome à GH)
+L'acromégalie est une affection causée par une sécrétion excessive d'hormones de croissance. L'hypertrophie du visage et des extrémités peut entraîner un élargissement de la mâchoire inférieure, une macroglossie et un épaississement des tissus mous pharyngés et laryngés. L'hypertrophie des cordes vocales peut provoquer des modifications des voies aériennes supérieures, rendant la gestion des voies aériennes difficile lors de l'intubation trachéale.
+
+- IOT difficile à anticiper

@@ -1,0 +1,9 @@
+---
+title: Chirurgie de la base du Crâne
+format: typst
+---
+
+NIM
+Preop: paires craniennes
+Augmentin postop +/- si gros endonasal
+Vaccinations si endonasal

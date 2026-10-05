@@ -1,0 +1,122 @@
+---
+title: Embolisation préopératoire d'anévrismes mycotiques compliquant une endocardite infectieuse
+format: typst
+---
+
+# Introduction
+Incidence:
+
+- Environ 3 à 10 cas pour 100 000 personnes par an
+- Prédominance masculine, avec un âge moyen supérieur à 65 ans
+- Augmentation des cas liés aux soins de santé (prothèses valvulaires, dispositifs intracardiaques)
+
+Valves affectées  
+
+- Valve mitrale et valve aortique sont les plus touchées
+- Valve tricuspide plus souvent atteinte chez les utilisateurs de drogues injectables
+- Prothèses valvulaires : risque accru, notamment dans la première année après l’implantation
+
+Microorganismes responsables  
+
+- Staphylococcus aureus (30-40 %) : principal germe, surtout dans les infections nosocomiales et chez les toxicomanes IV
+- Streptocoques oraux et du groupe D (entérocoques) : fréquemment associés aux formes subaiguës
+- HACEK (Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella) : agents rares mais à considérer dans les cultures négatives
+
+Complications  
+
+- Insuffisance cardiaque (30-50 %) : principale cause de décès
+- Embolies systémiques (20-50 %) : infarctus cérébral, infarctus splénique, ischémie des membres
+- Abcès myocardique et troubles de conduction (5-10 %)
+- Atteinte rénale : glomérulonéphrite immunologique, abcès rénal ou emboles septiques
+- Mortalité hospitalière : 15-30 %, selon la précocité du diagnostic et l’atteinte valvulaire
+
+# Pré-opératoire
+## Examens complémentaires
+- Échographie cardiaque
+- Troponine / BNP
+
+Faire arrêter les betabloquants
+
+## Valvulopathies
+Les complications valvulaires sont essentiellement des perforations et des régurgitations.
+Cependant, d'autres valvulopathies peuvent préexister et favoriser la greffe bactériennes.
+
+https://www.pac6.ch/fr/chapitres/11-anesthesie-et-valvulopathies/11-anesthesie-et-valvulopathies
+
+### Insuffisance aortique (IA)
+- Éviter les bradycardies
+- Pas d'hypovolémie. Garder une précharge plutôt élevée.
+- Pas de post-charge excessive (PAM 65-75 mmHg)
+
+### Insuffisance mitrale (IM)
+- Éviter les bradycardies
+- Euvolémie
+- PEEP
+- Pas de post-charge excessive (PAM 65-75 mmHg)
+
+### Insuffisance tricuspide (IT)
+- Maintenir la précharge élevée
+- Diminuer la PEEP (2-3 cmH2O)
+- PA plutôt élevée (PAM 90-100 mmHg)
+- Pas d'hypercapnie, plutôt légère hypocapnie pour diminuer les RVP
+
+# Per-opératoire
+## Équipement
+- Cathéter artériel (avant l'induction au moindre doute)
+- Monitorage du débit cardiaque par Doppler œsophagien
+- VVC jugulaire + PVC en cas de signes de choc avant induction et/ou IT importante
+
+## Anesthésie
+Induction prudente accompagnée d'amines
+
+Adrénaline IVSE dès l'induction:
+
+- La tachycardie raccourcit la diastole, donc diminue le temps de régurgitation
+- Diluer 1 ampoule de 1mg dans 10mL (=100 ug/mL) puis diluer 5mL de cette solution dans 50ml pour obtenir une solution à 10 ug/mL.
+- Vitesse 10-50 mL/h (= 100-500 ug/h)
+- Objectif de FC >= la FC de base avant induction, minimum 80 /min
+
+Si bradycardie et patient sous bétabloquants:
+
+- Glucagon 50 ug/kg en dose de charge
+- Puis 1-15 mg/h qsp FC
+
+PEEP plutôt élevée si IA / IM, basse si IT
+
+Euvolémie
+
+- Épreuves de remplissage
+- Comptabiliser les apports en incluant les solutés utilisés par les radiologues
+
+## Block de condution (BAV haut degré)
+Isoprénaline (ISUPREL) dans le réfrigérateur de la neuroradiologie
+
+Diluer 5 ampoules de 0.2mg/mL dans 50mL pour obtenir un solution à 20ug/mL
+
+Début vitesse 20mL/h (dose maximale recommandée) puis baisser qsp FC
+
+Si perfusion prolongée: seringues + tubulures opaques (photosensible)
+
+## Si ACR
+Évoquer rapidement l'indication d'ECMO
+
+DECT senior RMT: 55135
+
+Attention
+
+- ECMO VA + IA = risque d'OAP massif
+- L'hypertension augmente la régurgitation
+- PAM 65 mmHg + PEEP
+- Attention également au syndrome d'Harlequin: SpO2 à droite
+
+# Post-opératoire
+
+Réveil dès que possible
+
+Relais par VNI pour éviter l'OAP à l'extubation
+
+Considérer l'administration de diurétiques si
+
+- Hémodynamique stable
+- Geste long et remplissage important
+- Signes de surcharge

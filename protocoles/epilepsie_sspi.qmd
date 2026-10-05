@@ -1,0 +1,209 @@
+---
+title: Surveillance post-opératoire de la chirurgide de l'épilepsie
+format: typst
+---
+
+Dr Chassoux Neurologue/ Dr LEVE Anesthésiste réanimateur
+
+Interventions :
+
+-   Chirurgie intracrânienne de l’épilepsie réfractaire sous AG
+
+Indication : Épilepsie réfractaire incontrôlable par traitement
+médicamenteux. Une chirurgie peut être proposée.
+
+Lorsque la localisation du ou des foyers est bien délimitée et donne
+lieu à une résection localisée ou un geste bien précis :
+
+- Lobectomie temporale et/ou amygdalo-hippocampectomie (sclérose)
+
+- Lésions focales (Dysplasies, tumeurs bénignes, Cavernome)
+
+- Cortectomie : résection corticale focale
+
+Pré opératoire : Pas d’interruption du traitement antiépileptique
+
+Bilan pré opératoire classique neurochirurgie.
+
+Attention certains anti épileptiques peuvent perturber les bilans
+biologiques (NFS (cytopénie), iono (hyponatrémie) bilan hépatique
+(cytolyse)
+
+Per opératoire :
+
+-   Intervention sous AG, durée 4-5h
+
+-   Protocole anesthésie : AIVOC propofol-Rémifentanil, curare à
+    l’induction puis STOP car possible stimulation corticale per
+    opératoire.
+
+-   SU, 2 VVP, KTA
+
+-   Analgésie : paracétamol-morphine 0,1 mg/kg IV
+
+-   Prévention NVPO Dexa+droleptan
+
+Stimulation du nerf vague
+
+Indication Épilepsie réfractaire incontrôlable par traitement
+médicamenteux seul et chirurgie impossible ou a échoué.
+
+Chirurgie 1 électrodes avec 3 contacts (positif, négatif, point
+d’attache) placée sur le nerf vague gauche (exceptionnellement à droite)
+dans sa portion cervicale moyenne et raccordée à un stimulateur (type
+pacemaker) en sous-cutané dans la région infra claviculaire gauche. Le
+nerf vague gauche ayant moins d’influence sur le nœud sino-atrial et la
+fréquence cardiaque.
+
+Principe : Stimulation de façon intermittente le nerf vague,
+transmission d’influx afférents au SNC, activation de certaines
+structures inhibitrices qui vont augmenter le seuil épileptique.
+
+Complications : Rares, infection peau, paralysie corde vocale gauche,
+rares cas décrit de bradycardie sévère voire asystolie (incidence à
+0,1%) lors du testing peropératoire. Par activation du nerf récurrent et
+du nerf laryngé supérieur, parfois de façon chronique : changement de la
+tonalité de la voix, toux, apparition d’une gêne lors des impulsions.
+
+-   Explorations neurophysiologiques intracrâniennes:
+    Stéréo-électro-encéphalographie (SEEG)=pose électrodes profondes
+    sous AG 
+
+Indication : épilepsie réfractaire incontrôlable par traitement
+médicamenteux dont le foyer n’est pas clairement localisé par le bilan
+non invasif. Discussion pluridisciplinaire.
+
+Chirurgie : Mise en place d’électrodes intra-parenchymateuse pour
+enregistrement cortical direct. L’activité EEG via ces électrodes seront
+enregistrées en postopératoire et le patient sera placé sous vidéo
+continue (corrélation activité électrique - clinique) dans une chambre
+prévue à cet effet à l’USC de Neurochirurgie (Chippault) (Chambre
+EEG-Vidéo). La localisation du foyer épileptique pouvant donner suite à
+une chirurgie de l’épilepsie. Des thermo coagulations au lit du malade
+peuvent être réalisées si la zone est bien limitée.
+
+Complications rares (Hématome sous-dural ou intra-parenchymateux,
+infection, fuite de LCR)
+
+Pré opératoire : Pas d’interruption du traitement antiépileptique
+
+Bilan pré opératoire classique neurochirurgie.
+
+Attention certains anti épileptiques peuvent perturber les bilans
+biologiques (NFS (cytopénie), iono (hyponatrémie) bilan hépatique
+(cytolyse)
+
+Per opératoire :
+
+-   Intervention sous AG, durée 4-5h. Pose de 12 à 15 électrodes
+    profondes
+
+-   Protocole anesthésie : AIVOC propofol-Rémifentanil
+
+-   SU, 1 VVP
+
+-   Analgésie : paracétamol-morphine 0,1 mg/kg IV
+
+-   Prévention NVPO Dexa + droleptan
+
+-   Le retrait des électrodes après enregistrement se fait sous sédation
+    au bloc opératoire (durée 15 min possible au bloc d’urgence).
+
+Surveillance au SSPI :
+
+Durée 2 heures/ Pas d’indication à une surveillance prolongée
+
+Surveillance post opératoire classique neurochirurgie : Conscience,
+examen neurologique
+
+Pas de bilan systématique en l’absence de complications (sujets jeunes
+sans comorbidités)
+
+Particularité : Risque de survenue de crise d’épilepsie (SEEG)= objectif
+enregistrement ++++ ne pas traiter sans avis des neurologues
+
+Prescription post opératoire :
+
+Cortectomie :
+
+Poursuite des traitements antiépileptiques (prescription post op)
+
+Hydratation Serum physiologique/RL 1500ml/24h (pas de KTO)
+
+Prise en charge de la douleur 
+
+Eviction TRAMADOL/ ACUPAN = seuil épileptogène abaissé
+
+Prescription de PARACETAMOL systématique/ titration MORPHINE IV puis
+relais SC en SSPI
+
+Chirurgie de l’épilepsie réfractaire (cortectomie etc…) : Introduction
+de RIVOTRIL IVSE en post opératoire (0,03 à 0,05mg/kg sur 24h) le plus
+souvent dès le retour en USC Chippault
+
+(Arrêt des autres benzodiazépines si dans le traitement antérieur)
+
+SEEG : Patient programmé en première position pour enregistrement EEG
+dès le post opératoire en SSPI. Patient dirigé idéalement au SSPI2
+(petit réveil) pour faciliter l’enregistrement avec équipe spécialisée.
+
+-   Prévenir l’équipe en charge de l’enregistrement dès l’arrivée du
+    patient Tel : 5 56 38 (Dr Chassoux) ou 5 5715 (infirmière
+    coordinatrice, Aicha Idali)
+
+Survenue d’une crise d’épilepsie au SSPI
+
+Rare en post opératoire de chirurgie de l’épilepsie réfractaire :
+rechercher une complication post opératoire= hématome (discuter TDM
+cérébral)
+
+Prévention : vérifier que le traitement a bien été donné avant
+l’intervention
+
+SEEG : Objectif = enregistrement des crises.
+
+Ne pas administrer de benzodiazépines sans l’accord du neurologue (Dr
+CHASSOUX)
+
+Si crise généralisée au SSPI : Appel équipe neurochirurgicale (interne
+55133) /neurochirurgien/neurologue
+
+Noter l’heure de début
+
+Sécuriser le patient : Liberté des VAS (PLS), Barrières de protection,
+canule de Guedel à disposition.
+
+Oxygénothérapie
+
+Bilan : GDS (contrôle pH, glycémie, calcémie, natrémie)
+
+-   Objectif SpO2 95-99%, PaO2 80-95 mmHg
+
+-   PaCO2 35-45 mmHg
+
+-   PAM 70-90 mmHg
+
+-   Scope pour surveiller TDR et TDC
+
+-   Glycémie 1.4-1.8 g
+
+-   Na 135-145 mmol/L
+
+-   Ca 2,2-2,6 mmol/L
+
+-   pH 7,35-7,45
+
+-   Normothermie 36,5-38°C
+
+Prise en charge thérapeutique suivant algorithme (RFE/SFAR 2018) +
+prévenir équipe de réanimation si évolution défavorable 55118/55112
+
+Etat de mal = crise tonico clonique généralisée persistante au-delà de 5
+min ou crise + absence de retour à la conscience normale suivi d’une
+nouvelle crise (différent de l’état post critique ou retour à la
+conscience normale retardé sans nouvelle crise ne nécessitant pas de
+nouvelle intervention thérapeutique hormis prévention de l’inhalation)
+
+cf algorithme
+
+[]

@@ -1,0 +1,212 @@
+---
+title: Craniotomie pour chirurgie intracrânienne
+format: typst
+---
+
+Evaluation pré opératoire :
+
+Examen neurologique pré opératoire : A rapporter dans le dossier++
+
+-   Signes d’HTIC (céphalées, vomissements, troubles visuels…)
+
+-   Vigilance (risques de fausses routes, déshydratation)
+
+-   Paires crâniennes (avis ORL si besoin d’évaluer déglutition, toux)
+
+-   Déficits sensitivo-moteurs périphériques
+
+-   Epilepsie pré opératoire (poursuivre traitements ou discuter
+    introduction)
+
+-   Troubles hormonaux (diabète insipide pré existant, risque per
+    opératoire), diabète méconnu (glycémie systématique, HbA1C si doute)
+
+-  checker effet de masse (TC, tb deglut, NIM)
+
+Traitements pré opératoire :
+
+-   Corticothérapie : réduction œdème péri lésionnel (dysfonction des
+    « tight junctions » sous l’effet de facteur de croissance
+    endothélial vasculaire, imagerie : « en doigt de gant »
+
+Souvent forte dose, efficacité en 48h (attention hypokaliémie et
+déséquilibre glycémique)
+
+Relais au bloc par Dexamethasone 8 mg puis décroissance post opératoire
+par NCH
+
+-   Anti épileptique : à poursuivre sans interruption
+
+-   Anti agrégant plaquettaire-anticoagulant en chirurgie programmée :
+    arrêt prolongé car localisation à risque (cf tableau)
+
+S’applique également pour les DVE, DVA/DVP, Biopsies, SEEG, thermo
+coagulation, chirurgie rachidienne avec compression médullaire
+
+J0 = Jour de la chirurgie
+
+HBPM préventif à H24
+
+CPI per opératoire puis bas anti thrombose si ATCD d’insuffisance
+veineuse
+
+Reprise curatif ou AAP post op= balance bénéfice risque, en accord avec
+le chirurgien.
+
+Biologie pré opératoire :
+
+-   NFS (surtout si chimio, détection anémie ferriprive pré opératoire)
+
+-   Ionogramme sanguin (répercutions thérapies, déshydratation…)
+
+-   Hemostase, groupe sanguin RAI
+
+-   Anticoagulants : pas de dosage pour AOD et HBPM si délais respectés
+
+INR la veille soir systématique et administration de vit K 5 mg per os
+si besoin (INR sup 1,2) + contrôle INR le matin du geste
+
+Evaluation risque hémorragique :
+
+Volet large (chirurgie éveillée, craniectomie décompressive)
+
+Tumeur : taille, vascularisation (chordome, méningiome), localisation
+(proximité sinus veineux ++, gros vaisseaux), durée de l’intervention
+
+Vasculaire : MAV (rarement opérée et sinon de petite taille)
+
+Fixation cervicale associée (chordome)
+
+= EXACYL 15 mg/kg à l’induction et renouveler si saignement H4
+
+Risque neurologique :
+
+-   Chirurgie de la base du crâne : surveillance par NIM (neural
+    integrity monitor) per opératoire si proximité avec paires
+    crâniennes. Sonde NIM endotrachéale si voie d’abord ou lésion
+    proche/contact du X ou XI (y compris portion cervicale= chordome)
+
+Ne pas curariser après induction/ privilégier propofol
+
+-   Risque épileptique : type tumoral : dysplasie corticale, tumeurs
+    gliales de bas grade, méningiome, métastases/ localisation : lésion
+    corticale
+
+-   Déficit périphérique : fonction de la localisation et de l’atteinte
+    pré opératoire
+
+Situation particulière : chirurgie de la face postérieure de la jonction
+bulbo protubérantielle (ex : plancher 4 ème ventricule, cavernome du
+tronc) et risque de troubles végétatifs= possible nécessité de pose de
+patch d’entrainement éléctro systolique externe pré opératoire
+
+Objectif de neuro anesthésie en CHIRURGIE PROGRAMMEE
+
+-   Détente cérébrale
+
+-   Protection cérébrale et prévention des lésion secondaires
+
+Détente cérébrale :
+
+Aide pour le chirurgien, protection cerveau à l’ouverture de la dure
+mère et pendant résection
+
+Obtenue par :
+
+-   Positionnement de la tête (jugulaire libres +/- surélévation)
+
+-   Optimisation CO2 (mesurer gradient PaCO2-EtCO2)
+
+-   Osmothérapie : privilégier SSH (Serum Phy 100ml + NaCl 6 g sur 15
+    min) pour éviter polyurie osmotique du Mannitol (sinon Mannitol
+    15-200 ml)
+
+-   Chirurgien : drainage LCR externe ou ponction directe ventriculaire
+    ou citernes
+
+Protection cérébrale : Réduire la consommation régionale (CMRO2) en per
+opératoire et éviter agression cérébrale secondaire « ACSOS »
+
+-   Eviter hypotension artérielle (objectif 80-90% PAM pré opératoire/
+    Urgence : Si HTIC utilisation DTC pour optimiser la perfusion)
+
+-   Contrôle de la capnie (GDS) objectif PaCO2 36-38 mmHg (détente
+    cérébrale)
+
+-   Lutte contre l’hypoxémie, transport en O2 
+
+-   Anémie : pertes sanguines difficiles à quantifier en per op= sous
+    estimées, hémoconcentration fréquente= surveillance tolérance
+    hémodynamique anémie/Hémocue ou GDS si saignement
+
+-   Contrôle de la natrémie : en chirurgie programmée apport balancés
+    recommandés pour éviter l’hyperchlorémie/ Attention si polyurie et
+    diabète insipide obj 140-145 mmHg
+
+-   Nomothermie : optimiser l’hémostase (éviter T°<35,5) et réduire la
+    CMRO2 (T°< ou = 37°)
+
+  Drogues d’anesthésie :
+
+  Objectif évaluation post opératoire rapide + confort
+
+-   Hypnotique : Propofol AIVOC en 1 ère intention : réduction DSC
+    proportionnelle à la profondeur de l’anesthésie, anti émétique, anti
+    épileptique/ Sevoflurane possible jusqu’à MAC=1
+
+-   Morphiniques : AIVOC Remifentanil (demi vie courte) relais morphine
+    0,1mg/kg
+
+-   Prévention NVPO : surtout lésion fosse postérieure, cérébelleuse,
+    ventriculaire = Dexa, zophren +/- droleptan 0,625 mg
+
+-   Douleurs post opératoire : prévention hyperalgésie par kétamine
+    (chirurgie longue ou douloureuse), paracétamol, morphine IV relais
+    per os, AINS possibles selon terrain et l’absence de choc per
+    opératoire pour durée courte 48-72h, éviter acupan mais possibles si
+    absence de risque d’épilepsie.
+
+Localisation à risque : craniectomie fosse postérieure, voie retro
+sigmoïdienne, volet étendu
+
+En pratique :
+
+Installation +++ : doit être clairement définie avant l’intervention
+
+Chirurgie de longue durée donc vérification des points d’appuis, zone
+d’étirement ou compression, liberté de la langue (surtout flexion de la
+tête)
+
+Accès limités en per opératoire à la tête et haut du corps : sécuriser
+la sonde d’intubation, protection des yeux, vérification des perfusions
+
+Liberté des axes vasculaires notamment veineux (jugulaire) pour ne pas
+gêner le drainage veineux cérébral.
+
+Attention au niveau de surélévation de la tête (chirurgie charnière
+cranio cervicale ou lésions para sagittales = risques liés à la position
+« assise » d’embolie gazeuse, hypovolémie relative)
+
+Monitorage :
+
+-   2 VVP de bon calibre, scope 5 brins, PNI
+
+-   Cathéter artériel presque systématique
+
+-   Cathéter central si risque de saignement et capital veineux limité
+
+-   Monitorage du débit cardiaque : Doppler œsophagien si risque
+    hémorragique, chirurgie longue pour guider le remplissage
+
+-   PSI ou BIS car utilisation AIVOC, variation de la profondeur
+    nécessaire si rupture vasculaire, HTIC per op ou sécuriser l’absence
+    de curarisation.
+
+-   Sonde urinaire : durée longue, polyurie per op, surveillance diabète
+    insipide
+
+L’ensemble des patients sont hospitalisés en USC neurochirurgicale si
+craniectomie (Chippault)
+
+Réveil en SSPI si chirurgie compliquée ou durée du geste chirurgical
+supérieur à 6h

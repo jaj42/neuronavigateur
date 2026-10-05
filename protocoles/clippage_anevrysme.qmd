@@ -1,0 +1,93 @@
+---
+title: Clippage d’anévrysme intracrânien programmé
+format: typst
+---
+
+TODO: krenosin
+
+
+Indications
+
+Anévrysme sur le trajet de l’ACM ou ACA plutôt en distalité non
+accessible à l’embolisation (anatomie du collet, localisation,
+collatérales…)
+
+Discussion commune pluri disciplinaire au staff vasculaire NRI-NCH
+(mardi soir) = décision des modalités du traitement ET évaluation du
+risque de rupture
+
+Terrain et facteurs favorisants : sujets entre 30 et 60 ans (femme ++),
+HTA, tabagisme actif, alcoolisme chronique ou toxicomanie, forme
+familiale (rare)
+
+Parfois maladie associée du tissu conjonctif (Ehlers Danlos, Marfan
+etc…), vasculaire (Moya moya rare) ou polykystose rénale
+
+Risques peropératoires :
+
+-   Hémorragique : si rupture peropératoire de l’anévrysme : hémorragie
+    parfois abondante et difficultés chirurgicales = évaluer risque en
+    pré opératoire (taille anévrysme, anatomie et aspect, syndrome pré
+    fissuraire)
+
+-   Ischémique : spasme artériel per opératoire, clippage collatérales,
+    réseau collatérale athéromateux : optimisation de la pression de
+    perfusion cérébrale et de l’apport artériel en O2, clampage
+    temporaire
+
+Préopératoire (cf protocole craniotomie)
+
+Artériographie quasi-systématique
+
+Recherche et prise en charge des FDR cardiovasculaires en consultation
+d’anesthésie 
+
+Carte de groupe RAI à jour
+
+Per opératoire (cf protocole craniotomie)
+
+-   Installation : DD/ Têtière à pointe/ Neuro navigation (pas
+    systématique mais fréquente)
+
+Infiltration du scalp par le chirurgien
+
+-   Monitorages et protocole d’anesthésie :
+
+AIVOC Propofol/ Remifentanil : Monitorage profondeur anesthésie BIS,
+privilégier une anesthésie profonde (Réduction CMRO2 surtout si clampage
+ou rupture), curarisation jusqu’au clippage si besoin / 2 VVP/SU
+
+KTA systématique Contrôle de la pression artérielle : éviter les à-coup
+hypertensifs et attention hypotension selon terrain +/- monitorage du
+débit cardiaque selon terrain et risque de rupture
+
+Si clampage temporaire de l’artère nourricière : chronomètre,
+augmentation de la pression artérielle pour permettre la perfusion par
+des collatérales sans poussée hypertensive (plutôt baby noradrénaline
+sans bolus)
+
+Vert d’infra cyanine à reconstituer : 25 mg dans 10 ml de solvant (eau
+PPI), injection IVD à la demande du chirurgien de 3 ml, renouvelable une
+fois à la demande du chirurgien
+
+Permet de vérifier la sécurisation complète de l’anévrysme
+
+[]
+
+Angiographie au vert d’infra cyanine en peropératoire d’un clippage
+d’anévrysme (rompu) de l’artère cérébrale moyenne
+
+(A) Vue peropératoire de l’anévrysme (flèches)
+
+(B) Angiographie avant clippage : anévrysme perfusé avant clippage
+    (fluorescence)
+
+(C) Angiographie après clippage : anévrysme non perfusé (non
+    fluorescent) après mise en place du clip
+
+Postopératoire
+
+Idem craniotomie
+
+Surveillance neurologique notamment motricité et sensibilité
+controlatérale à l’anévrysme, langage, vigilance

@@ -1,0 +1,38 @@
+---
+title: Évaluation préopératoire en vue d'une Neurochirurgie
+format: typst
+---
+
+Recherche signes d’HTIC
+
+Recherche signes focaux
+
+Recherche d’antécédent d’épilepsie pour vérifier la poursuite du
+traitement
+
+Recherche de diabète insipide pré opératoire pour lésion volumineuse
+étage antérieure ou hypophysaire
+
+Attention corticothérapie forte dose parfois hypokaliémie, déséquilibre
+diabète
+
+Per opératoire :
+
+Prévention NVPO/ Douleurs post opératoire/ anti oedemateux :
+Dexamethasone 8 mg à l’induction
+
+Ne pas associer HSHC et Dexamethasone = privilégier la dexa
+
+Monitorage standard : ECG 5 brins, KTA, 2 VVP, PSI ou BIS côté opposé à
+la lésion
+
+Attention si intervention à risque hémorragique et abord veineux
+difficile = privilégier la pose d’un KTC car pas d’accès en per op
+
+Interventions à risque de saignement :
+
+Epargne sanguine avec exacyl
+
+Cell saver si chirurgie vasculaire
+
+Monitorage des paires crâniennes et potentiels évoqués moteurs :

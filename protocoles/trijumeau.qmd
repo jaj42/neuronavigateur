@@ -1,0 +1,132 @@
+---
+title: Traitement invasif et neurochirurgicale de la névralgie du trijumeau
+format: typst
+---
+
+
+Particularités anesthésiques
+
+Patients atteints de douleurs chroniques dans le territoire du nerf
+trijumeau avec résistance ou mauvaise tolérance du traitement
+médicamenteux de référence par Carbamazépine (TEGRETOL) (parfois autre
+anti épileptique)
+
+Cette intervention n’est pas une urgence absolue mais ne pas
+sous-estimer l’impact fonctionnel des douleurs qui parfois entrainent
+une incapacité à s’alimenter et s’hydrater correctement ainsi que le
+retentissement psychologique = Véritable «  Etat de mal » névralgique
+
+Les procédures réalisées à Lariboisière sont la thermo coagulation et la
+décompression chirurgicale
+
+A/ Thermo coagulation du ganglion de Gasser sous contrôle scopie
+
+Durée environ 30 min à 1h
+
+Intervention qui permet un soulagement rapide des douleurs et qui peut
+être pratiquée de manière répétée chez des patients fragiles.
+
+A jeun, poursuivre le traitement par TEGRETOL le matin ou antalgiques
+habituels
+
+Installation en DD avec têtière fer à cheval
+
+Conditionnement : 1 VVP, scope 5 brins + fréquence respiratoire,
+brassard à tension, lunette O2 +/- optiflow selon terrain du patient
+
+Contention du patient pendant la perte de conscience
+
+Déroulé de l’intervention et particularités
+
+Vérifier le côté de la thermo coagulation avec le patient
+
+1/ Ponction sous scopie du foramen ovale pour se mettre en contact avec
+le trijumeau (5-10 min)
+
+Sous sédation légère (propofol IV) +/- sufentanil 2,5 à 5µg pour la
+ponction
+
+Une fois en place réveiller le patient
+
+2/ Test patient éveillé du bon positionnement de la sonde de thermo
+coagulation 
+
+Application d’un courant pour déclencher les paresthésies dans le
+territoire douloureux habituellement = V2 ou V3 ou les deux
+
+PAS DE THERMOCOAGULATION du V1 car territoire sensitif de la cornée et
+risque de lésion
+
+3/ Thermo coagulation du nerf
+
+Sous sédation car sensation désagréable durée 1 min 30. Application du
+courant à plus forte intensité pour léser le nerf
+
+4/ Vérification immédiat éveillé de la perte de sensibilité locale qui
+signe le succès de l’intervention
+
+Patient réveillé, stimulation pour vérifier la diminution de la
+sensibilité aux paresthésies dans le bon territoire, test du pic touche
+également
+
+Si ok fin de l’intervention et sortie en SSPI sinon possibilité de
+renouveler la procédure
+
+B/ Décompression micro vasculaire du nerf trijumeau ou intervention de
+Jannetta
+
+Durée 2h30
+
+-   Indication : Conflit neurovasculaire avec compression au niveau de
+    la zone d’entrée du nerf trijumeau dans le tronc cérébral, le plus
+    souvent par l’artère cérébelleuse supérieure ou inférieure
+    (diagnostic IRM). Cette compression entraine une démyélinisation du
+    nerf à l’origine des douleurs de la névralgie.
+
+L’intervention de décompression est indiquée si les douleurs sont
+associées à la présence d’un conflit et difficilement contrôlée par le
+traitement médicamenteux.
+
+-   Principe : libération de l’artère par dissection de l’arachnoïde au
+    niveau du conflit et mise en place d’une plaque en Teflon pour
+    éloigner le nerf trijumeau de l’artère impliquée. Amélioration des
+    douleurs dans 90% des cas et de manière prolongée dans 70% des cas.
+
+-   Risque : hémorragique faible mais petite voie d’abord qui rend
+    l’hémostase compliquée si plaie sinusienne lors de l’ouverture (
+    rare) = groupe RAI 2 deter à jour
+
+  Complications neurologiques (transitoires le plus souvent et rares) :
+  Paralysie faciale, baisse d’audition vertiges, troubles de
+  l’équilibre.
+
+Déroulé de l’intervention et particularités (cf protocole craniectomie)
+
+-   Installation :
+
+Voie rétro sigmoïdienne
+
+Installation en DL (matelas spécial latéral) / vérifier le côté de
+l’intervention car conflit bilatéral possible sans douleur +++
+
+Têtière à pointe/ neuronavigation / infiltration par le chirurgien
+
+ATTENTION : monitorage (NIM) du nerf facial peut être parfois réalisée
+pendant l’intervention : pas de curare après induction
+
+-   Particularités anesthésique et monitorage : (cf protocole
+    craniotomie)
+
+AIVOC propofol/ rémifentanil
+
+Patients douloureux chroniques donc possibilité de faire Kétamine IVSE
+et maintien du traitement antalgique en pré opératoire (TEGRETOL et
+autres anti épileptiques)
+
+2VVP et SU selon durée / KTA
+
+Post opératoire : Souvent évolution rapidement favorable permettant une
+hospitalisation courte (4 jours)
+
+Poursuite des traitements antalgiques en post op spécifiques de la
+névralgie qui seront réduits progressivement par la suite

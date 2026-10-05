@@ -1,0 +1,71 @@
+---
+title: Surveillance AVC ischémique après thrombolyse IV
+format: typst
+---
+
+
+Date : Dr ________________ (neurologue - 55148)
+
+Heure de début thrombolyse : (durée = 1h)
+
+Heure d’arrivée SSPI :
+
+Thrombectomie : oui □ non □
+
+Actilyse (0.9mg/kg) : 10% en bolus puis 90% en IVSE sur une heure
+
+1.  Position 0° > Position décubitus dorsal (strict) ou Position 30° 
+
+2.  A jeun
+
+3.  Base : Nacl 1L sur 24h
+
+4.  Surveillance au scope avec saturation O2 en continu, fréquence
+    cardiaque en continu
+
+5.  Surveillance neurologique (NIH simplifié), FC et TA toutes les 30
+    minutes pendant 2h puis toutes les heures jusqu’à H+6 puis toutes
+    les 2h pendant 24h
+
+6.  Surveillance température et glycémie capillaire H0 puis toutes les
+    2h jusqu’à H+6h puis toutes les 6h
+
+7.  Surveillance diurèse toutes les 2h jusqu’à H+6h puis toutes les 6h
+
+8.  ECG 1x le premier jour ECG 12 Dérivations
+
++ Ne pas administrer d’autre traitement sur la voie de la thrombolyse
+
++ Eviter sondage/geste invasif pendant la perfusion d’Actilyse
+
+Traitement anti HTA à débuter si tension artérielle > 180/105 mmHg
+
+LOXEN IVSE : Adapter la vitesse par palier de 1 mg/h toutes les 30min
+pour obtenir une PAS entre 170 et 180 mmHg
+
+Attention toxicité veineuse, dilution : 1 amp de 10mg/ml dans 40ml de
+NaCl 0,9%, soit 0,2mg/ml dans la seringue (à cette concentration 1mg/h
+correspond à 5ml/h)
+
+Si TAS 170-180 mmHg : poursuivre à la même dose
+
+Si TAS 160-170 mmHg : diminuer de 0,5mg/h
+
+Si TAS < 160 mmHg : arrêter la perfusion
+
+Dose maximale : 6mg/h
+
+Surveiller la tension artérielle toutes les 30min après toute
+modification
+
+Appel médecin si :
+
+-   Tension artérielle systolique >180mmHg ou <85mmHg
+
+-   Aggravation NIHSS (+2 points)
+
+-   Troubles de la vigilance
+
+-   Œdème/allergie
+
+-   Hémorragie extériorisée/extension hématome

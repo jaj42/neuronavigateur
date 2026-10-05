@@ -1,0 +1,166 @@
+---
+title: Hypertension intracrânienne aiguë
+format: typst
+---
+
+# Introduction
+
+La boîte osseuse crânienne et la dure mère sont des structures
+inextensibles donc non compliantes. Ainsi toute, augmentation du volume
+du contenu de cette boîte crânienne entraîne une élévation des pressions
+à l’intérieure : hématome, HSA, œdème, hydrocéphalie, tumeur, infection…
+
+L’hypertension intra cranienne (HTIC) est définie par une pression intra
+crânienne PIC > 15 mmHg chez l’adulte. Les conséquences sont évaluées
+par l’examen clinique (GCS, pupilles) et les doppler transcrâniens (DTC)
+(HTIC si IP > 1,4, mauvaise perfusion cérébrale si Vd < 25cm/s)
+
+Les conséquences d’une HTIC sont :
+
+-   Un écrasement des veines (structure les plus compliantes du système
+    nerveux intra crânien), avec obstacle au flux sanguin cérébral
+    entrainant une ischémie (loi de Monroe-Kellie)
+
+-   Un engagement (sous falcoriel, temporal, amygdalien) avec
+    compression du tronc cérébral et des paires crâniennes
+
+-   In fine, le décès ou des séquelles ischémiques avec handicap.
+
+Les premières lésions surviennent en quelques minutes.
+
+Le traitement aigu d’une HTIC cherche à agir sur chaque composant des
+structures intracérébrales afin de viser à diminuer leur volume total le
+plus rapidement possible « Time is Brain».
+
+A/ Les vaisseaux
+
+Artères
+
+Le but est de diminuer le calibre des artères sans créer d’ischémie :
+
+1.  Augmenter la PA systémique
+
+2 effets :
+
+-   Améliorer la pression de perfusion cérébrale (PPC= PAM-PIC).
+
+-   Autorégulation : vasoconstriction des artères distales pour
+    maintenir un DSC adapté à la CMRO2. Attention la CMRO2 du patient
+    cérébro-lésé est souvent élevée du fait de l’inflammation locale. On
+    dit que « le plateau d’autorégulation est dévié sur la droite ».
+
+Guider par le DTC : viser la PA à partir de laquelle la Vm au doppler
+est stable et une Vd > 25 cm/s
+
+Si absence de DTC : cibler PPC 60 mmHg. Si absence de PIC cibler PAM
+100- 120 mmHg.
+
+Amine de choix : Noradrénaline
+
+2.  Diminuer la CMRO2 : vasoconstriction pour adapter le DSC
+
+-   Sédation : monitorage par EEG et viser Burst Suppression
+
+-   Traiter une éventuelle épilepsie
+
+-   Lutter contre l’hyperthermie (voire provoquer hypothermie pour
+    diminuer le métabolisme)
+
+3.  L’hypocapnie est contre-indiquée. Elle créée une vasoconstriction
+    SANS préserver un DSC adapté et est donc responsable d’ischémie
+
+Veines
+
+Le but est d’optimiser le gradient de pression artère-veine
+
+1.  Position demi assise 30 à 45° si possible (SSPI, transport), ou
+    proclive au bloc opératoire
+
+2.  Axe tête-cou-tronc, libération jugulaire
+
+3.  Maintien d’une POD basse (traiter rapidement les pathologies
+    intrathoraciques associées)
+
+B/ Le parenchyme et l’espace interstitiel
+
+Osmothérapie afin d’émiminer l’eau intracellulaire :
+
+-   Serum salé hypertonique SSH (env 7 g de NaCl) : ajouter 3 ampoules
+    de 10 ml de NaCl 20% dans un pochon de 100mL de NaCl 0,9% et faire
+    passer entièrement un IV rapide
+
+-   Mannitol entre 30 et 60g (150 à 300 mL de Mannitol 20%) en IV rapide
+
+Même efficacité des deux osmothérapies, effet diurétique plus marqué
+pour le Mannitol donc attention si patient instable
+
+Attention effet rebond de l’osmothérapie avec passage des osmoles à
+travers la BHE lésée suivie d’une attraction d’eau locale.
+
+L’indication est donc en urgence, si HTIC avec signe de mal perfusion
+cérébrale (DTC altérés, mydriase), dans l’attente d’une levée pérenne de
+l’HTIC (chirurgie)
+
+Corticothérapie : peut être débutée en accord avec les neurochirurgiens
+pour réduire un œdème, notamment tumoral. (Attention si suspicion
+lymphome, négativation des résultats anatomopathologiques)
+
+C/ Le liquide céphalo-spinal (LCS)
+
+Dérivation du LCS
+
+-   Indication certaine si hydrocéphalie (particularités anesthésiques
+    cf D/ Neurochirurgie de décompression)
+
+-   A discuter même si la cause de l’HTIC n’est pas l’hydrocéphalie
+    compte tenu de la courbe de compliance de Langfitt (diminution
+    importante de la pression pour un faible volume enlevé chez le
+    cérébro lésé). Contre indication si risque d’augmenter le shift
+    cérébral et l’engagement
+
+Les traitements diminuant la production de LCS tels que l’acétazolamide
+n’ont pas leur place dans l’HTIC aiguë et peuvent perturber par la suite
+les épreuves de sevrage de la dérivation du LCS.
+
+D/ Neurochirurgie de décompression
+
+Volet crânien +/- évacuation de la cause d’HTIC +/- plastie de dure mère
+
+Monitorage minimal souhaitable : KTA, EEG, SU. (+/-DC, KTC, Svjo2…)
+Chirurgie urgente ++. Le monitorage ne doit néanmoins pas retarder la
+chirurgie (peut être poser en même temps que champage…).
+
+La neuroréanimation doit se poursuivre au bloc opératoire
+
+AIVOC Propofol sans halogéné. Pas de contre-indication la Ketamine.
+
+Gestion du risque hémorragique :
+
+-   Seuil d’hémoglobine pour transfusion: plutôt 7- 8g/dL sur les études
+    récentes (anciennement 10g/dL).
+
+-   Prévoir transfusion de PSL (PFC, plaquettes) ou de facteurs de
+    coagulation si patient traité par anticoagulation ou antiaggrégation
+    plaquettaire selon les recommandations du GIHP. Attention pas
+    d’indication à transfuser des plaquettes chez un patient traité par
+    antiaggrégation plaquettaire en cas de neurolésion (même hématome
+    spontané) si pas de neurochirurgie prévue (aggravation u pronostic
+    neurologique).
+
+-   Acide tranexamique : indiqué, notamment, en cas d’hématome sous
+    dural ou intra parenchymateux avec ou sans chirurgie.
+
+L’HTIC générant une HTA réflexe, l’ouverture de la dure-mère est
+associée à une instabilité hémodynamique importante. (diminution brutale
+de la PA et du DC) à anticiper 
+
+Cas particuliers :
+
+L’HTIC de la fosse postérieure est difficile à monitorer: pas de PIC,
+DTC supra-tentoriel inutile sauf en cas de compression du V4 causant une
+hydrocéphalie. Recours privilégié à l’imagerie cérébrale.
+
+Les HTIC secondaires au thromboses veineuses cérébrales: l’augmentation
+de la pression artérielle peut aggraver l’œdème et l’HTIC. Monitorage
+multimodale de la PAM cible. Anticoagulation curative indiquée même en
+cas de saignement intracrânien.

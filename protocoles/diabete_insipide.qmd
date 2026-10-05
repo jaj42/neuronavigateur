@@ -1,0 +1,45 @@
+---
+title: Diabète insipide dans le contexte neurochirurgical
+format: typst
+---
+
+DIABETE INSIPIDE POST OPERATOIRE DE NEUROCHIRURGIE
+
+Il peut apparaître en postopératoire de chirurgie hypophysaire, il est
+le plus souvent transitoire.
+
+Déficit en hormone anti-diurétique (ADH) qui permet la réabsorption
+d’eau libre au niveau du tubule rénal. Le DI se traduit par une polyurie
+hypotonique, elle génère des troubles métaboliques dominés par
+l’hyperNa+.
+
+SURVEILLANCE :
+
+Diurèse, bandelette urinaire, densité urinaire
+
+DIAGNOSTIC :
+
+diurèse > 400 mL/3h
+
+densité urinaire < 1005 sans glycosurie
+
+→ Faire une natrémie Si Na+ >145 mmoles/L = DIAGNOSTIC +
+
+TRAITEMENT :
+
+MINIRIN 2µg IVD. A réinjecter toutes les 12h sauf si Na < 135 mmoles/L.
+STOP MINIRIN qd densité >1005 et diurèse <150 mL/3h et
+
+COMPENSATION DE DIURESE vol/vol au-dessus de 400ml/3h par RL +KCL0,5 à 1
+g/500mL
+
+NB boissons libres une fois le minirin débuté
+
+SURVEILLANCE :
+
+Ionogramme sanguin à H12 et H24 et Diurèse / 3h
+
+NB Chez le patient conscient, la soif permet de compenser les pertes
+rénales liées au DI. Le surdosage en minirin peut entraîner une
+hyponatrémie délétère chez le patient neurolésé. Il est recommandé de
+privilégier la dose minimale

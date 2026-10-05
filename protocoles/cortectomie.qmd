@@ -1,0 +1,270 @@
+---
+title: Cortectomie
+format: typst
+---
+
++---------------------+---------------------------+-------------------+
+| Date de création    |                           |                   |
++---------------------+---------------------------+-------------------+
+|                     |                           |                   |
++---------------------+---------------------------+-------------------+
+| Rédaction           | Vérification              | Validation        |
++---------------------+---------------------------+-------------------+
+| Dr Francine         |                           |                   |
+| CHASSOUX            |                           |                   |
+|                     |                           |                   |
+| Neurologue          |                           |                   |
+| Neurochirurgie      |                           |                   |
++---------------------+---------------------------+-------------------+
+
+OBJET ET DOMAINE D’APPLICATION 
+
+Cette procédure définit les modalités de prise en charge des patients
+pour le traitement chirurgical d’une épilepsie focale
+pharmaco-résistante (cortectomie).
+
++-----------------------------------+-----------------------------------+
+| Personnel concerné                | Lieu de diffusion                 |
++-----------------------------------+-----------------------------------+
+|   Médecins, internes              |   Neurochirurgie                  |
+|                                   |                                   |
+|   IDE                             |                                   |
++-----------------------------------+-----------------------------------+
+
+RESPONSABILITES
+
+Les responsables de service veillent à la mise en œuvre effective des
+dispositions du présent document, et si nécessaire, à leur
+actualisation. L’ensemble du personnel concerné doit s’y conformer.
+
+DESCRIPTION DE LA PROCEDURE 
+
+3.1 AVANT L’HOSPITALISATION 
+
+-   Après un bilan approfondi de l’épilepsie et une réunion
+    pluridisciplinaire retenant l’indication chirurgicale, le patient
+    est reçu en consultation par le neurochirurgien et reçoit les
+    informations concernant les bénéfices et les risques de l’opération.
+
+-   Si le patient est mineur (ou majeur protégé), la présence des deux
+    parents (ou tuteur) est nécessaire.
+
+-   Si le patient est majeur, la présence d’un membre de la famille ou
+    d’un proche (personne de confiance) est souhaitée.
+
+-   L’information est tracée dans le dossier du patient et un courrier
+    est adressé au médecin traitant par le neurochirurgien.
+
+-   Un formulaire de consentement est remis au patient (ou aux
+    parents/tuteur si mineur/majeur protégé), qui devra (ont) le
+    retourner, daté et signé, au plus tard la veille de l’intervention.
+
+-   Si le patient est mineur (ou majeur protégé), l’accord des deux
+    parents (ou tuteur) est nécessaire.
+
+-   Une date d’intervention est proposée en fonction des souhaits du
+    patient (ou de la famille) et des disponibilités du programme
+    opératoire.
+
+-   En préalable, une consultation d’anesthésie est réalisée et les
+    examens relatifs à l’intervention sont effectués.
+
+-   Outre les examens usuels pour une anesthésie générale, la recherche
+    de foyers infectieux, en particulier d’origine dentaire et ORL, est
+    systématique.
+
+-   Après accord du patient, l’intervention est programmée selon la
+    procédure en cours dans l’établissement.
+
+-   Il reçoit une convocation écrite pour cette hospitalisation.
+
+-   Il est hospitalisé la veille de son intervention.
+
+LA VEILLE DE L’INTERVENTION
+
+-   Visite du patient par le neurochirurgien
+
+-   Vérification du dossier patient :
+
+    -   Dossier médical et prescriptions médicamenteuses
+
+    -   Dossier d’anesthésie
+
+    -   Formulaire de consentement à l’intervention
+
+    -   Formulaire de consentement à la conservation des prélèvements
+        opératoires et de leur utilisation à des fins de recherche
+
+    -   Feuille d’autorisation d’opérer un mineur ou majeur protégé
+        signée par le représentant légal
+
+    -   Feuille d’autorisation de pratiquer des examens sur un mineur ou
+        majeur protégé signée par le représentant légal
+
+-   Vérification de la réalisation de l’IRM de neuronavigation (si
+      programmée le jour de l’hospitalisation)
+
+-   Préparation du patient pour craniotomie
+
+LE JOUR DE L’INTERVENTION
+
+Pré-opératoire
+
+-   Vérification du dossier patient (cf veille)
+
+-   Préparation du patient pour craniotomie
+
+-   Anticiper le passage en USC en post-opératoire
+
+Post-opératoire
+
+-   En USI, après le passage en SSPI, le patient est surveillé toutes
+    les 2 heures (paramètres hémodynamiques / bilan neurologique /
+    douleur / appareillages : perfusion (sérum physiologique) / sonde
+    vésicale / pansement + système de drainage)
+
+-   Traitement : reprise du traitement habituel le soir même si l’état
+    du patient le permet, protocole antalgie (Paracétamol IV
+    systématique, morphiniques selon EVA), couverture antiépileptique
+    renforcée : RIVOTRIL IVSE 0,03 à 0.05 mg/kg/24h pendant 72 heures
+    puis relai per os (le dosage peut être adapté en fonction de l’état
+    du patient).
+
+  NB : si le patient reçoit des benzodiazépines dans son traitement
+  pré-opératoire, arrêt transitoire pendant la durée du traitement par
+  Rivotril.
+
+-   Evaluation médicale (neurochirurgien, neurologue,)
+
+-   Pas d’imagerie systématique (selon état clinique)
+
+  3.4 SURVEILLANCE POST-OPERATOIRE
+
+  J1 post-opératoire (en USi) 
+
+-   Visite médicale (neurochirurgien)
+
+-   Surveillance/2H : clinique, neurologique (conscience, déficit,
+      crises)
+
+    -   Paramètres hémodynamiques, température, douleur
+
+    -   Prise du traitement habituel + Rivotril IVSE + Antalgiques
+          +Antiémétiques si besoin
+
+    -   Prélèvement du bilan sanguin post-opératoire
+
+    -   Ablation de la sonde vésicale
+
+    -   Surveillance des appareillages
+
+-   Mobilisation avec les kinésithérapeutes (selon prescription sur la
+      feuille post opératoire), bas anti-thrombose
+
+    -   Alimentation légère
+
+    -   Scanner/IRM cérébral(e) post-opératoire si non fait en
+          post-opératoire immédiat
+
+  J2 post-opératoire (en USI) 
+
+-   Visite médicale (neurochirurgien)
+
+-   Surveillance/2H : clinique, neurologique (conscience, déficit,
+      crises)
+
+-   Paramètres hémodynamiques / bilan neurologique / appareillages :
+      perfusion / pansement
+
+-   Prise du traitement habituel, Rivotril IVSE, antalgiques IV,
+      antiémétiques
+
+-   Réfection du pansement selon protocole pansement craniotomie avec
+      ablation du système de drainage
+
+-   Mobilisation par les kinésithérapeutes, bas anti-thrombose
+
+-   Mise en place de l’anticoagulation préventive si aucune complication
+      après scanner post-opératoire
+
+-   Alimentation légère
+
+  J3 post-opératoire 
+
+-   Visite médicale (neurochirurgien)
+
+-   Passage en surveillance classique après validation médicale
+
+-   Déperfusion si le patient s’hydrate et s’alimente suffisamment, en
+      l’absence d’hyperthermie et après validation médicale
+
+    -   Relai per os du RIVOTRIL comprimés à 2mg sur prescription
+          médicale:
+
+  (¼ de cp matin / ¼ de cp midi et ½ cp le soir, 2mg au total sur la
+  journée, dosage qui peut être adapté en fonction de l’état du patient)
+
+-   Continuité de la prise du traitement habituel et antalgiques per os
+
+-   Mobilisation avec les kinésithérapeutes, bas anti-thrombose
+
+-   Alimentation normale
+
+-   Surveillance transit
+
+  Suites opératoires après J3 
+
+-   Visite médicale (neurochirurgien, neurologue)
+
+-   Poursuite de la surveillance clinique : état général, neurologique,
+    psychologique, douleur, crises
+
+-   Surveillance de l’alimentation, transit, mobilisation
+
+-   Surveillance de la cicatrice ; le patient pourra faire un shampoing
+    bétadiné à J4 si la cicatrice est propre et non inflammatoire,
+
+-   Ablation des agrafes à J8
+
+-   Préparation de la sortie avec l’équipe médicale et l’assistante
+    sociale si besoin (conditions de retour à domicile, entourage
+    familial, transfert en SSR selon les suites opératoires, mode de
+    transport)
+
+-   La sortie du patient se fait environ 8 à 10 jours après
+    l’intervention, le plus souvent à domicile
+
+-   Ordonnance de sortie pour 2 mois avec décroissance du Rivotril sur 3
+    semaines (0,5 mg/semaine), antalgiques de niveau 1 (Paracétamol)
+
+-   Arrêt de travail jusqu’à la visite de contrôle
+
+-   Consultation post-opératoire 6 à 8 semaines après l’opération avec
+    EEG systématique, imagerie si besoin
+
+  SURVEILLANCE PARTICULIERE
+
+Conduite à tenir en cas d’hyperthermie : une fièvre parfois élevée peut
+survenir en post-opératoire sans nécessairement l’existence d’une
+complication infectieuse, en rapport avec la présence de sang au niveau
+du foyer opératoire
+
+-   Le paracétamol IV doit être prescrit en systématique, IV ou per os
+
+-   Un bilan est toutefois réalisé pour écarter une infection ou une
+    complication thrombo-embolique : examen clinique, surveillance de la
+    cicatrice, bilan sang (CRP)+ hémocultures + ECBU + discussion d’une
+    ponction lombaire, écho-döppler veineux des MI)
+
+Conduite à tenir en cas de crise épileptique : toute crise d’épilepsie
+en post-opératoire est un événement inattendu et doit faire l’objet
+d’une attention particulière :
+
+-   Prévenir les médecins dès la première crise observée ou rapportée
+    pour adapter le traitement anti- épileptique ou rechercher des
+    complications post-opératoires
+
+-   Décrire les manifestations observées ou rapportées et les comparer
+    aux manifestations pré-opératoires
+
+-   Discussion d’un EEG et/ou d’une IRM
