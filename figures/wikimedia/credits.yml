@@ -1,0 +1,57 @@
+# Images Wikimedia Commons utilisées dans le livre.
+# À la main : id, commons (titre exact de la page), legende.
+# Rempli par scripts/wikimedia.py (ne pas éditer) : fichier, url, auteur, licence, licence_url.
+- id: willis
+  commons: File:Circle of Willis fr.svg
+  legende: Polygone de Willis, vue inférieure.
+  fichier: figures/wikimedia/willis.png
+  url: https://commons.wikimedia.org/wiki/File:Circle_of_Willis_fr.svg
+  auteur: 'Circle of Willis en.svg: Rhcastilhos / derivative work (translation): Petit B'
+  licence: Public domain
+  licence_url: null
+- id: lobes
+  commons: File:Brain diagram fr.svg
+  legende: Lobes du cerveau, vue latérale gauche.
+  fichier: figures/wikimedia/lobes.png
+  url: https://commons.wikimedia.org/wiki/File:Brain_diagram_fr.svg
+  auteur: Mysid, traduit par JDifool
+  licence: Public domain
+  licence_url: null
+- id: meninges
+  commons: File:Meninges-fr.svg
+  legende: 'Enveloppes du cerveau, du scalp au cortex : dure-mère, arachnoïde, pie-mère ; sinus veineux
+    et villosité arachnoïdienne (résorption du LCS).'
+  fichier: figures/wikimedia/meninges.png
+  url: https://commons.wikimedia.org/wiki/File:Meninges-fr.svg
+  auteur: Jmarchn
+  licence: CC BY-SA 3.0
+  licence_url: https://creativecommons.org/licenses/by-sa/3.0
+- id: ventricules
+  commons: File:Blausen 0896 Ventricles Brain.png
+  legende: 'Système ventriculaire, vues latérale et antérieure (légendes en anglais) : ventricules latéraux,
+    foramen interventriculaire (de Monro), troisième ventricule, aqueduc cérébral (de Sylvius), quatrième
+    ventricule, canal central.'
+  fichier: figures/wikimedia/ventricules.png
+  url: https://commons.wikimedia.org/wiki/File:Blausen_0896_Ventricles_Brain.png
+  auteur: BruceBlaus
+  licence: CC BY 3.0
+  licence_url: https://creativecommons.org/licenses/by/3.0
+- id: sinus-veineux
+  commons: File:Gray488.png
+  legende: 'Sinus veineux de la dure-mère, vue latérale (légendes latines) : sinus sagittaux supérieur
+    et inférieur, sinus droit, confluent des sinus, sinus transverse puis sigmoïde, veine jugulaire interne
+    ; en avant, sinus caverneux et sinus pétreux.'
+  fichier: figures/wikimedia/sinus-veineux.png
+  url: https://commons.wikimedia.org/wiki/File:Gray488.png
+  auteur: Henry Vandyke Carter
+  licence: Public domain
+  licence_url: null
+- id: engagements
+  commons: File:Brain herniation types.svg
+  legende: 'Types d''engagement cérébral : 1 uncal (temporal), 2 central (transtentoriel), 3 sous-falcoriel
+    (cingulaire), 4 transcalvarial, 5 transtentoriel ascendant, 6 amygdalien (trou occipital).'
+  fichier: figures/wikimedia/engagements.png
+  url: https://commons.wikimedia.org/wiki/File:Brain_herniation_types.svg
+  auteur: User:Delldot
+  licence: CC BY-SA 3.0
+  licence_url: http://creativecommons.org/licenses/by-sa/3.0/

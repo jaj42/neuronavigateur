@@ -83,6 +83,7 @@ format:
     lof: false
     fig-pos: "htbp"
     keep-tex: true
+    default-image-extension: pdf
   html:
     theme:
       light: [cosmo, styles/custom.scss]
@@ -93,3 +94,4 @@ format:
     smooth-scroll: true
     reference-location: margin
     citation-location: document
+    default-image-extension: png

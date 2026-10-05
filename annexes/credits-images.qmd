@@ -1,3 +1,7 @@
 # Crédits des images {#sec-credits-images}
 
-*Annexe en cours de rédaction.*
+Les courbes et schémas sans mention de source (autorégulation, réactivité au CO~2~, courbe de Langfitt, onde de PIC, Doppler transcrânien, PRx et PPC optimale, Lund et Rosner, arbre des dysnatrémies) sont des figures originales, générées à partir des scripts du dossier `figures/src/`. Ce sont des schémas pédagogiques : les valeurs sont typiques, pas des mesures.
+
+Les illustrations anatomiques proviennent de Wikimedia Commons et sont réutilisées selon leur licence.
+
+{{< include _credits-wikimedia.md >}}

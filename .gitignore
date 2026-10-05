@@ -9,3 +9,4 @@ index.tex
 **/*.quarto_ipynb
 /Neuro-anesth*.tex
 /site_libs/
+__pycache__/
