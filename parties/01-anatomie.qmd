@@ -1,11 +1,249 @@
 # Anatomie utile {#sec-anatomie}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Situer les quatre lobes, la tente du cervelet et la fosse postérieure, et relier une
+  localisation à un déficit.
+- Décrire les méninges et les espaces qu'elles délimitent, et y placer chaque type d'hématome.
+- Dessiner le polygone de Willis et connaître le territoire des trois artères cérébrales.
+- Suivre le sang veineux des sinus jusqu'aux jugulaires, et en tirer les conséquences pour la
+  position de la tête.
+- Suivre le liquide cérébrospinal (LCS) de sa production à sa résorption.
 :::
 
-*Chapitre en cours de rédaction.*
+Le contenu de la boîte crânienne se résume à trois compartiments : le **parenchyme** cérébral,
+le **sang** (artères, capillaires, veines) et le **LCS**. Tout ce que fait l'anesthésiste en
+neurochirurgie consiste à agir sur l'un de ces trois volumes, dans une boîte qui ne se
+dilate pas (@sec-physiologie). Connaître l'anatomie permet aussi de suivre la chirurgie : savoir
+où se trouve le chirurgien, ce qu'il risque de léser et à quel moment.
+
+## Le cerveau et ses lobes
+
+Chaque hémisphère compte quatre lobes : **frontal**, **pariétal**, **temporal** (sous le
+pariétal, séparé de lui par la scissure latérale ou sylvienne) et **occipital**
+(@fig-lobes). Une lame de dure-mère, la **tente du cervelet**, sépare l'étage
+**sus-tentoriel** (les hémisphères) de l'étage **sous-tentoriel**, ou **fosse postérieure**,
+qui contient le cervelet et le tronc cérébral. La fosse postérieure est petite et peu
+compliante : un faible volume y suffit à comprimer le tronc ou à bloquer le quatrième
+ventricule (@sec-fosse-posterieure).
+
+![Lobes du cerveau, vue latérale gauche. Mysid, traduit par JDifool ; Wikimedia Commons,
+domaine public.](../figures/wikimedia/lobes.png){#fig-lobes width=75%}
+
+| Lobe | Fonctions principales | Ce qu'une lésion donne |
+|--|-----|-----|
+| Frontal | Motricité volontaire (aire motrice primaire en avant du sillon central), langage expressif (aire de Broca, hémisphère dominant), comportement, attention | Hémiparésie controlatérale, aphasie motrice, apathie ou désinhibition |
+| Pariétal | Sensibilité, schéma corporel, praxies | Hypoesthésie controlatérale, héminégligence gauche (lésion pariétale droite) |
+| Temporal | Audition, mémoire (hippocampe), compréhension du langage (aire de Wernicke) | Aphasie de compréhension, troubles mnésiques, épilepsie |
+| Occipital | Vision | Hémianopsie latérale homonyme controlatérale |
+| Cervelet | Coordination, équilibre | Syndrome cérébelleux, troubles de déglutition si tronc associé |
+| Tronc cérébral | Noyaux des nerfs crâniens, vigilance, centres cardiorespiratoires | Troubles de conscience, paires crâniennes, instabilité végétative |
+
+: Lobes et étages : fonctions et déficits {#tbl-lobes}
+
+Les **nerfs crâniens** reviennent sans cesse au bloc et en réanimation. Quelques-uns sont à
+connaître d'emblée :
+
+- **III** (oculomoteur) : sa compression par l'uncus temporal donne la **mydriase
+  homolatérale** de l'engagement (@sec-physiopathologie).
+- **V** (trijumeau) : sensibilité de la face ; cible de la thermocoagulation et de la
+  décompression vasculaire (@sec-trijumeau).
+- **VII** (facial) et **VIII** (cochléovestibulaire) : menacés par la chirurgie de l'angle
+  pontocérébelleux, d'où le monitorage électromyographique du facial.
+- **IX, X, XI, XII** (nerfs mixtes et hypoglosse) : déglutition, toux, motricité laryngée.
+  Une atteinte expose à l'inhalation après l'extubation ; c'est la cible de la sonde
+  d'intubation NIM (@sec-monitorage).
+
+## Méninges et espaces
+
+Du crâne vers le cerveau, on traverse trois enveloppes (@fig-meninges) :
+
+- la **dure-mère**, épaisse et inextensible, collée à l'os. Elle forme la **faux du cerveau**
+  entre les deux hémisphères et la **tente du cervelet**, et elle contient entre ses deux
+  feuillets les **sinus veineux** ;
+- l'**arachnoïde**, fine, accolée à la face profonde de la dure-mère ;
+- la **pie-mère**, qui épouse la surface du cortex.
+
+L'arachnoïde et la pie-mère forment les **leptoméninges**. Entre elles, l'**espace
+sous-arachnoïdien** contient le LCS et les grosses artères de la base. Il s'élargit par
+endroits en **citernes** (citernes de la base, citerne ambiante) : leur effacement au scanner
+est un signe d'hypertension intracrânienne (HTIC).
+
+![Enveloppes du cerveau, du scalp au cortex : dure-mère, arachnoïde, pie-mère ; sinus veineux
+et villosité arachnoïdienne (résorption du LCS). Jmarchn ; Wikimedia Commons,
+CC BY-SA 3.0.](../figures/wikimedia/meninges.png){#fig-meninges width=75%}
+
+Chaque espace a son hématome type, avec une histoire clinique différente :
+
+| Espace | Contenu | Hématome type | Ce qu'il faut retenir |
+|---|---|---|-----|
+| Extradural (entre os et dure-mère) | Artère méningée moyenne, sinus | Hématome extradural (HED), en lentille biconvexe | Souvent artériel, sur fracture temporale ; intervalle libre possible ; urgence neurochirurgicale, excellent pronostic si opéré à temps |
+| Sous-dural (entre dure-mère et arachnoïde) | Veines « ponts » corticales | Hématome sous-dural (HSD), en croissant | Aigu chez le traumatisé grave ; chronique chez le sujet âgé sous antithrombotique |
+| Sous-arachnoïdien | LCS, artères du polygone | Hémorragie sous-arachnoïdienne (HSA) | Traumatique ou anévrismale (@sec-hsa) |
+| Intraparenchymateux | Tissu cérébral | Contusion, hématome | Les contusions grossissent dans les premières heures |
+
+: Espaces méningés et hématomes {#tbl-espaces}
+
+## Vascularisation artérielle
+
+Le cerveau reçoit environ 15 à 20 % du débit cardiaque par deux axes :
+
+- l'**axe antérieur**, carotidien : les deux carotides internes ;
+- l'**axe postérieur**, vertébrobasilaire : les deux artères vertébrales s'unissent en un
+  **tronc basilaire**.
+
+À la base du cerveau, ces deux axes sont reliés par le **polygone de Willis** (@fig-willis).
+Chaque carotide interne se divise en **artère cérébrale moyenne** (ACM, ou artère sylvienne)
+et **artère cérébrale antérieure** (ACA). Le tronc basilaire se termine en deux **artères
+cérébrales postérieures** (ACP). Les anastomoses sont :
+
+- **une seule communicante antérieure** (ComA), entre les deux ACA. Le piège classique est
+  d'en dessiner deux ;
+- **deux communicantes postérieures** (ComP), entre chaque carotide interne et l'ACP du même
+  côté.
+
+![Polygone de Willis, vue inférieure. Rhcastilhos, traduction Petit B ; Wikimedia Commons,
+domaine public.](../figures/wikimedia/willis.png){#fig-willis width=70%}
+
+Le polygone est une voie de suppléance quand une artère se bouche lentement. Il est souvent
+incomplet (une communicante grêle ou absente), ce qui explique qu'une même occlusion soit
+bien tolérée chez un patient et catastrophique chez un autre. Les bifurcations du polygone
+sont aussi le siège des **anévrismes** (ComA, ComP, bifurcation sylvienne, terminaison
+basilaire ; @sec-hsa).
+
+| Artère | Territoire | Déficit typique |
+|---|-----|----|
+| Cérébrale antérieure | Face interne des lobes frontaux et pariétaux, jusqu'au lobe occipital par l'artère péricalleuse qui longe le corps calleux | Déficit à prédominance crurale (membre inférieur), troubles du comportement |
+| Cérébrale moyenne (sylvienne) | Face externe des lobes frontal, pariétal et temporal | Hémiplégie à prédominance brachiofaciale, aphasie (hémisphère dominant) ou héminégligence |
+| Cérébrale postérieure | Lobe occipital, face inférieure du temporal, thalamus | Hémianopsie latérale homonyme |
+| Choroïdienne antérieure, lenticulostriées | Noyaux gris centraux, capsule interne, thalamus | Petit infarctus, gros déficit (hémiplégie complète) |
+
+: Territoires artériels {#tbl-territoires}
+
+::: {.callout-tip title="Astuce"}
+Deux petites artères méritent d'être retenues en plus des trois grandes : l'**artère
+choroïdienne antérieure** (née de la carotide interne terminale) et les **artères
+lenticulostriées** (nées de l'ACM proximale). Elles vascularisent des structures centrales où
+tout est condensé. Un infarctus de quelques millimètres y donne un déficit massif : c'est le
+risque redouté au clippage d'un anévrisme carotidien ou sylvien (@sec-vasculaire).
+:::
+
+## Drainage veineux
+
+Le sang veineux cérébral ne circule pas dans des veines ordinaires mais dans des **sinus
+veineux**, creusés dans la dure-mère, rigides et **non collabables** (@fig-sinus) :
+
+- le **sinus sagittal supérieur** (ou longitudinal supérieur) court au sommet de la faux du
+  cerveau ; il reçoit les veines corticales et le LCS résorbé ;
+- le **sinus sagittal inférieur**, au bord libre de la faux, rejoint la **grande veine
+  cérébrale (de Galien)**, qui draine les structures profondes, pour former le **sinus
+  droit** ;
+- tous convergent au **confluent des sinus** (torcular, en regard de la protubérance
+  occipitale interne), d'où partent les deux **sinus transverses**, puis **sigmoïdes**, qui
+  deviennent les **veines jugulaires internes** ;
+- en avant, le **sinus caverneux**, de part et d'autre de la selle turcique, reçoit les veines
+  ophtalmiques et entoure la carotide interne et les nerfs oculomoteurs.
+
+![Sinus veineux de la dure-mère, vue latérale (légendes latines) : sinus sagittaux supérieur
+et inférieur, sinus droit, confluent des sinus, sinus transverse puis sigmoïde, veine jugulaire
+interne ; en avant, sinus caverneux et sinus pétreux. Henry Vandyke Carter (*Gray's
+Anatomy*) ; Wikimedia Commons, domaine public.](../figures/wikimedia/sinus-veineux.png){#fig-sinus width=80%}
+
+Trois conséquences pratiques :
+
+1. **La tête doit drainer.** Une rotation forcée, une flexion excessive, un collier cervical
+   serré ou un lacet de sonde trop tendu gênent le retour jugulaire, augmentent le volume
+   sanguin cérébral et donc la pression intracrânienne (PIC). Le côté du drainage dominant
+   varie d'un patient à l'autre : au confluent, le sang d'un hémisphère peut partir dans
+   l'une ou l'autre jugulaire.
+2. **Les sinus ne se collabent pas.** Ouverts au-dessus du cœur (position assise, proclive
+   marqué, plaie de sinus), ils aspirent de l'air : c'est l'embolie gazeuse
+   (@sec-fosse-posterieure).
+3. **Un sinus peut se thromboser** (thrombose veineuse cérébrale) : HTIC, infarctus veineux
+   souvent hémorragiques. L'anticoagulation reste indiquée même en présence de saignement
+   (@sec-htic).
+
+## Le liquide cérébrospinal
+
+Le LCS est produit à environ 70 % par les **plexus choroïdes**, surtout ceux des ventricules
+latéraux, au rythme de 20 mL/h, soit **500 à 600 mL par jour**. Le volume total n'étant que de
+150 mL environ (dont une centaine dans le crâne), il est renouvelé trois à quatre fois par jour.
+Il suit un trajet fixe (@fig-ventricules) :
+
+1. **ventricules latéraux** (un par hémisphère, avec une corne frontale, une corne occipitale
+   et une **corne temporale** qui descend profondément dans le lobe temporal) ;
+2. **foramens interventriculaires (de Monro)**, un de chaque côté ;
+3. **troisième ventricule**, médian, dont le plancher peut être ouvert par endoscopie
+   (ventriculocisternostomie) ;
+4. **aqueduc cérébral (de Sylvius)**, étroit et facile à obstruer ;
+5. **quatrième ventricule**, dans la fosse postérieure, qui s'ouvre vers les citernes et
+   l'espace sous-arachnoïdien périmédullaire ;
+6. **résorption** dans le sang veineux par les **granulations arachnoïdiennes**, surtout le long
+   du sinus sagittal supérieur (@fig-meninges).
+
+![Système ventriculaire, vues latérale et antérieure (légendes en anglais) : ventricules
+latéraux, foramen interventriculaire (de Monro), troisième ventricule, aqueduc cérébral (de
+Sylvius), quatrième ventricule, canal central. BruceBlaus ; Wikimedia Commons,
+CC BY 3.0.](../figures/wikimedia/ventricules.png){#fig-ventricules width=80%}
+
+Un obstacle sur ce trajet donne une **hydrocéphalie** :
+
+- **obstructive** (ou non communicante) quand le blocage est intraventriculaire (tumeur de la
+  fosse postérieure, sang dans l'aqueduc) : les ventricules en amont se dilatent ;
+- **communicante** quand la résorption est en panne (HSA, méningite) : tout le système se
+  dilate.
+
+::: {.callout-tip title="Astuce"}
+Sur le scanner, regardez les **cornes temporales**. Normalement virtuelles, elles sont les
+premières à se dilater dans une hydrocéphalie aiguë : c'est souvent le premier signe qui fait
+poser une dérivation ventriculaire externe (DVE, @sec-dysnatremies-dve).
+:::
+
+::: {.callout-note title="Pour aller plus loin" collapse="true"}
+Le schéma classique (production par les plexus, résorption par les granulations
+arachnoïdiennes) est aujourd'hui complété. Le LCS circule aussi le long des espaces
+périvasculaires du parenchyme, où il participe à l'élimination des déchets interstitiels
+(système dit « glymphatique ») [@iliff2012], et des vaisseaux lymphatiques ont été décrits
+dans la dure-mère [@louveau2015]. Ces voies, étudiées surtout chez l'animal, n'ont pas encore
+de traduction thérapeutique, mais elles expliquent qu'on ne parle plus d'un cerveau
+« sans lymphatique ».
+:::
+
+## La barrière hématoencéphalique
+
+Dans le cerveau, les cellules endothéliales des capillaires sont soudées par des **jonctions
+serrées** et entourées par les pieds des astrocytes. Cette **barrière hématoencéphalique**
+(BHE) laisse passer l'eau, l'O~2~, le CO~2~ et les molécules liposolubles (dont les agents
+anesthésiques), mais pas le sodium ni les protéines. C'est pourquoi les mouvements d'eau entre
+le sang et le cerveau dépendent de l'**osmolarité** bien plus que de la pression oncotique : la
+natrémie gouverne l'eau cérébrale (@sec-physiologie). Quand la BHE est lésée (traumatisme,
+tumeur, ischémie), cette règle ne s'applique plus dans la zone lésée.
+
+## Cas clinique
+
+Un homme de 67 ans est admis pour une hémiplégie droite à prédominance brachiofaciale et une
+aphasie, apparues brutalement il y a une heure.
+
+1. Quel territoire artériel est en cause ?
+2. Si le déficit prédominait au membre inférieur, quel territoire suspecteriez-vous ?
+3. Le même patient présente six mois plus tard une hémiplégie droite complète et
+   proportionnelle, sans aphasie, avec un infarctus de 1 cm au scanner. Où se situe-t-il ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. L'**artère cérébrale moyenne gauche** : déficit brachiofacial controlatéral et aphasie
+   (hémisphère dominant chez le droitier).
+2. L'**artère cérébrale antérieure gauche** (déficit crural).
+3. Dans la **capsule interne gauche**, territoire des artères lenticulostriées ou de la
+   choroïdienne antérieure : petite lésion, gros déficit (@tbl-territoires).
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- Trois compartiments (parenchyme, sang, LCS) dans une boîte rigide.
+- Hématome extradural : artériel, en lentille, intervalle libre. Sous-dural : veineux, en
+  croissant.
+- Polygone de Willis : une communicante antérieure, deux postérieures ; souvent incomplet.
+- Sinus veineux rigides et non collabables : tête dans l'axe, jugulaires libres, attention à
+  l'embolie gazeuse.
+- LCS : 500 mL/j, ventricules latéraux, Monro, V3, aqueduc, V4 ; cornes temporales dilatées =
+  hydrocéphalie aiguë.
+- La BHE ne laisse pas passer le sodium : la natrémie gouverne l'eau cérébrale.
 :::

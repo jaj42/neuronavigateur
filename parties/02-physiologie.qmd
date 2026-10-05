@@ -1,11 +1,291 @@
 # Physiologie cérébrale {#sec-physiologie}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Expliquer la doctrine de Monro-Kellie et lire la courbe pression-volume (courbe de
+  Langfitt).
+- Calculer la pression de perfusion cérébrale (PPC) et placer correctement les capteurs.
+- Énoncer les trois régulations du débit sanguin cérébral (DSC) : couplage au métabolisme,
+  autorégulation, réactivité au CO~2~.
+- Prédire l'effet d'une baisse de pression artérielle sur la PIC selon que l'autorégulation
+  est conservée ou non.
+- Expliquer pourquoi la natrémie, et non l'albumine, gouverne l'eau cérébrale.
 :::
 
-*Chapitre en cours de rédaction.*
+## Un organe gourmand et sans réserve
+
+Le cerveau pèse 1,4 kg, soit 2 % du poids du corps, mais il reçoit **15 à 20 % du débit
+cardiaque** et consomme environ **20 % de l'oxygène** de l'organisme. Le DSC moyen est d'environ
+**50 mL/100 g/min** (plus élevé dans la substance grise que dans la blanche) et la consommation
+cérébrale d'oxygène (CMRO~2~) d'environ 3,5 mL/100 g/min. Environ 60 % de cette énergie sert à
+l'activité électrique des neurones, et 40 % au maintien de l'intégrité cellulaire (pompes
+ioniques, synthèses).
+
+Le cerveau n'a **aucune réserve** d'oxygène ni presque de glucose. Un arrêt circulatoire fait
+perdre connaissance en une dizaine de secondes. Quand le DSC baisse :
+
+- sous **20 mL/100 g/min** environ, l'activité électrique s'arrête : les neurones se taisent
+  pour économiser l'énergie, mais restent vivants (c'est la **pénombre**, récupérable) ;
+- sous **10 mL/100 g/min** environ, les pompes ioniques s'arrêtent et la mort cellulaire
+  commence ; elle dépend à la fois de la profondeur et de la durée de l'ischémie.
+
+Toute la neuro-anesthésie-réanimation consiste à garder le DSC adapté aux besoins.
+
+## Trois volumes dans une boîte rigide
+
+### La doctrine de Monro-Kellie
+
+Le contenu intracrânien d'un adulte représente environ **1,4 L** : **1,2 L de parenchyme**,
+**100 mL de sang** et **100 mL de LCS** [@lukaszewicz2011]. La boîte crânienne étant
+inextensible, la somme des trois volumes est constante : si l'un augmente (ou si un quatrième
+apparaît : hématome, tumeur, abcès), un autre doit diminuer d'autant, sinon la pression monte.
+C'est la **doctrine de Monro-Kellie** [@mokri2001].
+
+Deux volumes peuvent céder de la place, et vite :
+
+- le **LCS**, chassé vers le sac dural rachidien, qui est extensible ;
+- le **sang veineux**, chassé vers les jugulaires.
+
+Le parenchyme, lui, ne se comprime pas ; il se déplace : c'est l'engagement
+(@sec-physiopathologie).
+
+### La courbe pression-volume
+
+Quand on ajoute du volume dans le crâne, la PIC suit une courbe exponentielle, dite **courbe
+de Langfitt** (@fig-langfitt). On peut la comparer à un ballon de baudruche : les premiers coups
+de pompe ne font presque pas monter la pression, les derniers la font exploser.
+
+![Courbe pression-volume intracrânienne (courbe de Langfitt). Le même petit volume ajouté ne
+change presque rien en phase de compensation, mais fait bondir la PIC quand la compliance est
+épuisée.](../figures/langfitt){#fig-langfitt width=90%}
+
+1. **Phase de compensation** : le LCS et le sang veineux sont chassés ; la PIC reste normale
+   (**5 à 15 mmHg** chez l'adulte couché).
+2. **Compliance épuisée** : les réserves sont consommées ; chaque millilitre supplémentaire
+   fait monter nettement la PIC.
+3. **Décompensation** : quelques millilitres suffisent à faire monter la PIC de plusieurs
+   dizaines de mmHg ; la perfusion cérébrale s'effondre.
+
+La pente de la courbe (ΔP/ΔV) est l'**élastance** ; son inverse (ΔV/ΔP) est la
+**compliance**. Une PIC normale ne dit **pas** où le patient se trouve sur la courbe : un
+patient porteur d'une grosse tumeur peut avoir une PIC à 12 mmHg et ne plus avoir aucune
+réserve. C'est lui qui fera une poussée d'HTIC à la moindre hypercapnie ou à la moindre
+hypotension à l'induction.
+
+::: {.callout-tip title="Astuce"}
+La même courbe se lit dans l'autre sens : chez un patient en haut de la courbe, **retirer
+quelques millilitres** (LCS par une DVE, sang veineux en surélevant la tête, eau par
+l'osmothérapie) fait baisser beaucoup la PIC. C'est le principe de tous les traitements de
+l'HTIC (@sec-htic).
+:::
+
+## La pression de perfusion cérébrale
+
+Le sang entre dans le crâne poussé par la pression artérielle moyenne (PAM) et doit vaincre la
+pression qui règne à l'intérieur. La **pression de perfusion cérébrale** est donc :
+
+$$\text{PPC} = \text{PAM} - \text{PIC}$$
+
+(Plus rigoureusement, on soustrait la plus haute des deux pressions d'aval : PIC ou pression
+veineuse centrale. En pratique, c'est presque toujours la PIC.)
+
+Avec une PAM de 90 mmHg et une PIC de 10 mmHg, la PPC est de 80 mmHg. Avec la même PAM et
+une PIC de 40 mmHg, elle tombe à 50 mmHg : **une HTIC se traite aussi par la pression
+artérielle**.
+
+::: {.callout-warning title="Piège"}
+**Où mettre le zéro ?** Pour calculer la PPC, la PAM doit être mesurée **au niveau du
+cerveau**, donc avec le capteur artériel zéroté au **conduit auditif externe** (tragus), comme
+le capteur de PIC [@rosner1995]. Tête surélevée à 30°, le conduit auditif est 15 à 20 cm
+au-dessus de l'oreillette droite : un capteur laissé au niveau du cœur surestime la pression
+de perfusion de 10 à 15 mmHg. Vérifiez où est le capteur à chaque transfert et à chaque
+changement de position.
+:::
+
+## Les trois régulations du débit sanguin cérébral
+
+Trois phrases reviennent dans toutes les discussions de neuro-anesthésie. Le couplage est-il
+conservé ? L'autorégulation est-elle conservée ? La réactivité au CO~2~ est-elle conservée ?
+
+### Le couplage débit-métabolisme
+
+Le DSC suit l'activité cérébrale : plus le cerveau travaille, plus il reçoit de sang ; plus il
+ralentit, moins il en reçoit. Ce **couplage neurovasculaire** est local et rapide (quelques
+secondes). Il a deux conséquences directes :
+
+- tout ce qui **baisse la CMRO~2~** (hypnotiques, hypothermie) baisse le DSC, donc le volume
+  sanguin cérébral, donc la PIC ;
+- tout ce qui **augmente la CMRO~2~** (crise d'épilepsie, fièvre, douleur, réveil agité)
+  augmente le DSC et la PIC. La CMRO~2~ varie de 6 à 7 % par degré de température.
+
+Le patient anxieux en salle de préparation a un DSC élevé ; endormi, il « descend » sur une
+courbe de débit plus basse.
+
+### L'autorégulation
+
+Sur une large plage de PPC, le DSC reste constant malgré les variations de pression
+(@fig-autoregulation). Le mécanisme est simple : un tuyau dont la pression d'entrée baisse
+laisse passer moins de débit, sauf s'il s'élargit. Les artérioles cérébrales se **dilatent**
+quand la PPC baisse et se **contractent** quand elle monte, pour garder le même débit.
+
+![Autorégulation du DSC. Le plateau est décalé vers la droite chez l'hypertendu chronique ; quand
+l'autorégulation est abolie, le DSC suit passivement la pression.](../figures/autoregulation){#fig-autoregulation width=90%}
+
+- **Sous la limite basse**, les artérioles sont au maximum de leur dilatation : le DSC chute
+  avec la pression ; c'est l'**ischémie**.
+- **Au-dessus de la limite haute**, la vasoconstriction est dépassée : le débit et la pression
+  capillaire augmentent ; c'est l'**hyperhémie**, avec un risque d'œdème vasogénique et
+  d'hémorragie.
+
+Les manuels donnent un plateau de 50 à 150 mmHg de PAM. Ces chiffres sont **pédagogiques** :
+chez l'homme, la limite basse est plus haute (plutôt 60 à 70 mmHg) et très variable d'un
+individu à l'autre [@drummond1997]. Trois situations la modifient :
+
+- l'**hypertension artérielle chronique** décale tout le plateau vers la droite : une PAM
+  « normale » peut être ischémiante chez ce patient ;
+- le **cerveau lésé** (traumatisme, HSA, ischémie) perd son autorégulation, en totalité ou par
+  zones : le DSC devient **passif**, proportionnel à la pression (droite pointillée de
+  @fig-autoregulation). Hypotension et hypertension sont alors toutes deux dangereuses ;
+- les **halogénés à forte dose** et l'**hypercapnie** altèrent l'autorégulation
+  (@sec-pharmacologie).
+
+### Les cascades de Rosner
+
+L'autorégulation explique un comportement paradoxal de la PIC décrit par Rosner
+[@rosner1995]. Chez un patient à **compliance basse** et à **autorégulation conservée**, une
+baisse de PAM déclenche une **cascade vasodilatatrice** :
+
+1. la PAM baisse, donc la PPC baisse ;
+2. les artérioles se dilatent pour maintenir le débit ;
+3. le volume sanguin cérébral augmente ;
+4. en haut de la courbe de Langfitt, ce petit volume fait monter nettement la PIC ;
+5. la PPC baisse encore, ce qui relance la vasodilatation (retour à l'étape 2).
+
+La **cascade vasoconstrictrice** fonctionne en sens inverse : remonter la PAM fait monter la
+PPC, déclenche une vasoconstriction, réduit le volume sanguin cérébral et **fait baisser la
+PIC**.
+
+::: {.callout-warning title="Piège"}
+**Le « V » de l'induction.** Chez un patient banal, la chute de pression qui suit l'induction
+est sans conséquence. Chez un patient en HTIC, elle déclenche la cascade vasodilatatrice : la
+PAM baisse, la PIC monte, la PPC s'effondre. Notez la PAM de départ du patient (celle qui lui
+donne son état neurologique actuel) et considérez-la comme un **plancher** pendant toute
+l'induction ; ayez le vasopresseur prêt avant d'injecter l'hypnotique.
+:::
+
+À l'inverse, si l'autorégulation est **abolie**, remonter la PAM ne fait pas baisser la PIC :
+le surcroît de pression passe dans les capillaires, et la PIC monte ou reste stable. On en tire
+un test au lit du malade : **on monte la PAM ; si la PIC baisse, l'autorégulation est
+conservée ; si elle monte ou ne bouge pas, elle est abolie**. Ce test, automatisé, est devenu
+l'indice PRx (@sec-monitorage).
+
+### La réactivité au CO~2~ et à l'O~2~
+
+Le **CO~2~ est le plus puissant vasodilatateur cérébral**. Entre 20 et 80 mmHg de PaCO~2~, le
+DSC varie d'environ **2 à 4 % par mmHg** (@fig-reactivite) : une hypercapnie à 60 mmHg double
+presque le DSC, une hypocapnie à 25 mmHg le réduit de près de moitié. Le mécanisme passe par le
+pH du liquide extracellulaire, que le CO~2~ traverse librement.
+
+![Réactivité du DSC à la PaCO~2~ (à gauche) et à la PaO~2~ (à
+droite).](../figures/reactivite-co2-o2){#fig-reactivite width=95%}
+
+Cet effet est rapide (quelques minutes) mais **transitoire** : en 6 à 24 heures, le pH du LCS se
+normalise et le DSC revient à sa valeur de départ. Une hyperventilation prolongée perd donc son
+effet sur la PIC, et sa correction brutale provoque un rebond de vasodilatation.
+
+L'**oxygène**, lui, n'agit qu'en dessous de 60 mmHg de PaO~2~ environ : l'hypoxémie entraîne
+une vasodilatation qui augmente le volume sanguin cérébral. Au-dessus, la PaO~2~ ne modifie
+presque pas le DSC.
+
+::: {.callout-warning title="Piège"}
+Un filtre humidificateur obstrué, une hypoventilation après l'intubation, une capnographie mal
+lue : la PaCO~2~ monte, les artérioles se dilatent, la PIC peut passer de 20 à 60 ou 70 mmHg
+chez un cerveau à compliance basse. Le patient se défend par une poussée hypertensive pour
+garder sa perfusion. Changez le filtre, reventilez : la PIC redescend en quelques minutes.
+Avant d'attribuer une HTIC à la maladie, vérifiez la capnie.
+:::
+
+## L'eau et le cerveau
+
+### Les forces de Starling à travers la BHE
+
+Entre un capillaire et le tissu, l'eau se déplace sous l'effet de trois forces :
+
+- la **pression hydrostatique**, qui pousse l'eau du capillaire vers le tissu ;
+- la **pression oncotique**, due aux protéines, qui la retient dans le capillaire ;
+- la **pression osmotique**, due aux petites molécules qui ne traversent pas la paroi, qui
+  attire l'eau vers le compartiment le plus concentré.
+
+Dans les autres organes, la paroi capillaire laisse passer le sodium : seules les protéines
+« comptent », et l'œdème dépend surtout de la pression oncotique. Dans le cerveau, la BHE
+**retient le sodium** : la force osmotique domine. Un écart d'osmolarité de seulement
+**1 mOsm/L** de part et d'autre de la BHE crée un gradient de pression d'environ
+**19 mmHg** [@payen2007]. La pression oncotique (une vingtaine de mmHg au total) pèse
+peu à côté.
+
+Conséquences pratiques :
+
+- un **soluté hypotonique** baisse l'osmolarité plasmatique et fait entrer l'eau dans le
+  cerveau : à proscrire chez le cérébrolésé. Le remplissage se fait avec des **cristalloïdes
+  isotoniques** [@sfar_solutes2021] ;
+- l'**hyponatrémie** est un ACSOS majeur (@sec-dysnatremies-dve) ;
+- l'**albumine** n'apporte rien et a été associée à une surmortalité chez le traumatisé
+  crânien grave [@myburgh2007; @sfar_solutes2021] ;
+- l'**osmothérapie** (mannitol, sérum salé hypertonique) retire l'eau du cerveau sain, là où
+  la BHE est intacte (@sec-pharmacologie).
+
+::: {.callout-note title="Ce que disent les recommandations"}
+Chez le patient cérébrolésé, il n'est probablement pas recommandé d'utiliser des colloïdes,
+en particulier l'albumine (GRADE 2−), et il est probablement recommandé d'utiliser des
+cristalloïdes isotoniques en première intention (GRADE 2+). Les solutés hypotoniques (moins de
+280 mOsm/L) sont à éviter à la phase aiguë [@sfar_solutes2021].
+:::
+
+### Les types d'œdème cérébral
+
+| | Cytotoxique | Vasogénique |
+|--|----|----|
+| Mécanisme | Panne énergétique : les pompes Na^+^/K^+^ s'arrêtent, l'eau entre dans les cellules (surtout les astrocytes) | Rupture de la BHE : l'eau et les protéines passent dans l'interstitium, poussées par la pression hydrostatique |
+| BHE | Intacte au début | Rompue |
+| Situations | Ischémie, arrêt cardiaque, hyponatrémie aiguë | Tumeur, abcès, contusion, hyperhémie |
+| IRM (diffusion) | Coefficient de diffusion abaissé | Coefficient de diffusion augmenté |
+| Ce qui marche | Restaurer la perfusion ; l'osmothérapie agit sur le tissu sain voisin | Corticoïdes (œdème tumoral seulement), contrôle de la pression capillaire |
+
+: Œdème cytotoxique et œdème vasogénique [@lukaszewicz2011] {#tbl-oedemes}
+
+Les deux coexistent souvent : une ischémie donne d'abord un œdème cytotoxique, puis
+vasogénique quand la BHE se rompt [@lukaszewicz2011]. On décrit aussi un œdème
+**interstitiel** (ou hydrocéphalique), par passage transépendymaire du LCS autour des
+ventricules dilatés.
+
+## Cas clinique
+
+Une patiente de 55 ans, hypertendue ancienne mal équilibrée, est opérée d'un volumineux
+méningiome frontal. Sa PAM habituelle est de 115 mmHg. Après l'induction, la PAM est à
+65 mmHg et l'EtCO~2~ à 48 mmHg.
+
+1. Où se situe probablement son plateau d'autorégulation ?
+2. Quel est le risque des deux chiffres relevés chez cette patiente ?
+3. Que faites-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Décalé vers la droite (HTA chronique) : 65 mmHg est sans doute **sous sa limite basse**.
+2. L'hypotension la met en ischémie relative et déclenche une vasodilatation ;
+   l'hypercapnie ajoute sa propre vasodilatation. Avec une tumeur volumineuse (compliance
+   basse), les deux augmentent le volume sanguin cérébral et la PIC : cerveau « tendu » à
+   l'ouverture de la dure-mère.
+3. Remonter la PAM vers 80 à 90 % de la valeur habituelle (vasopresseur) et normaliser la
+   ventilation (EtCO~2~ autour de 35 mmHg, à vérifier par un gaz du sang). Ces objectifs sont
+   détaillés au @sec-craniotomie.
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- Le cerveau consomme 20 % de l'O~2~ et n'a aucune réserve.
+- Monro-Kellie : parenchyme 1,2 L, sang 100 mL, LCS 100 mL ; seuls le LCS et le sang veineux
+  peuvent céder de la place.
+- Une PIC normale ne dit rien de la compliance restante.
+- PPC = PAM − PIC, avec les deux capteurs zérotés au conduit auditif externe.
+- Autorégulation conservée : monter la PAM fait baisser la PIC. Abolie : le DSC suit la
+  pression.
+- PaCO~2~ : 2 à 4 % de DSC par mmHg, effet transitoire. PaO~2~ : seulement sous 60 mmHg.
+- 1 mOsm/L de gradient = 19 mmHg : pas de soluté hypotonique, pas d'albumine.
 :::

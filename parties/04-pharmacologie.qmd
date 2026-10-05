@@ -1,11 +1,284 @@
 # Pharmacologie en neuro-anesthésie {#sec-pharmacologie}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Énoncer le cahier des charges de l'agent anesthésique idéal en neurochirurgie.
+- Comparer les effets cérébraux du propofol, des halogénés, du protoxyde d'azote, de la
+  kétamine, des morphiniques et des curares.
+- Prescrire la dexmédétomidine selon le protocole du service.
+- Prescrire une osmothérapie (mannitol, sérum salé hypertonique) et en connaître les limites.
+- Connaître les indications et contre-indications des corticoïdes, des antiépileptiques et de
+  l'acide tranexamique en neurochirurgie.
 :::
 
-*Chapitre en cours de rédaction.*
+## Le cahier des charges
+
+L'agent anesthésique idéal en neurochirurgie :
+
+- **baisse la CMRO~2~**, et donc le DSC et la PIC, par le couplage ;
+- **maintient la PPC**, donc ne fait pas chuter la PAM ;
+- **respecte l'autorégulation et la réactivité au CO~2~** ;
+- est **anticonvulsivant** ;
+- permet un **réveil rapide**, pour un examen neurologique précoce ;
+- n'est pas cher et ne s'accumule pas.
+
+Aucun agent ne coche toutes les cases. En pratique, l'anesthésie intraveineuse par propofol et
+rémifentanil s'en approche le plus.
+
+## Les hypnotiques et les morphiniques
+
+| Agent | DSC | CMRO~2~ | PIC | Autorégulation | Remarques |
+|-----|-----|----|-----|-----|---------|
+| Propofol | ↓↓ | ↓↓ | ↓ | Conservée | Agent de référence ; hypotension |
+| Thiopental | ↓↓ | ↓↓ | ↓ | Conservée | Coma barbiturique de l'HTIC réfractaire ; accumulation |
+| Étomidate | ↓ | ↓ | ↓ | Conservée | Induction seulement ; stabilité hémodynamique ; insuffisance surrénalienne |
+| Benzodiazépines | ↓ | ↓ | ↔ ou ↓ | Conservée | Réveil retardé |
+| Kétamine | ↑ seule, ↔ associée | ↑ seule | ↔ chez le patient sédaté et ventilé | Conservée | Maintient la PAM ; utile chez le patient instable |
+| Halogénés | ↑ (dose-dépendant) | ↓ | ↑ si > 1 MAC | Altérée si > 1 MAC | Sévoflurane le moins vasodilatateur |
+| Protoxyde d'azote | ↑ | ↑ | ↑ | | À proscrire |
+| Morphiniques | ↔ | ↔ | ↔ si la PAM est maintenue | Conservée | Rémifentanil : réveil rapide |
+| Dexmédétomidine | ↓ | ↔ | ↔ | Conservée | Sédation sans dépression respiratoire |
+
+: Effets cérébraux des agents anesthésiques (↑ augmente, ↓ diminue, ↔ peu d'effet) {#tbl-agents}
+
+### Le propofol
+
+Le propofol répond à presque tout le cahier des charges : il baisse la CMRO~2~ de façon
+dose-dépendante, et le DSC baisse d'autant parce que le couplage, l'autorégulation et la
+réactivité au CO~2~ sont conservés. Il est anticonvulsivant, antiémétique, et permet un réveil
+rapide en mode AIVOC (anesthésie intraveineuse à objectif de concentration). Comparé aux
+halogénés lors de l'exérèse de tumeurs sus-tentorielles, il donne une PIC plus basse, une PPC
+plus haute et moins de gonflement cérébral à l'ouverture de la dure-mère [@petersen2003].
+
+Ses limites : l'**hypotension** à l'induction (le « V » décrit au @sec-physiologie) et
+l'**accumulation** lors des chirurgies très longues. À fortes doses prolongées en réanimation,
+il expose au syndrome de perfusion du propofol (acidose, rhabdomyolyse, défaillance cardiaque).
+
+### Les halogénés
+
+Les halogénés baissent la CMRO~2~ mais dilatent directement les artères cérébrales. Au-delà
+d'environ 1 MAC, la vasodilatation l'emporte : le DSC augmente alors que les besoins baissent
+(c'est un **découplage**), l'autorégulation s'altère et la PIC peut monter chez un patient à
+compliance basse. Le **sévoflurane** est le moins vasodilatateur : à 1,5 MAC, il augmente la
+vitesse dans l'ACM de 17 %, contre 72 % pour l'isoflurane [@matta1999].
+
+En pratique, ils ne sont pas l'agent de première intention, mais ils restent utilisables sans
+HTIC, à dose modérée (≤ 1 MAC) [@petersen2003]. Sur les chirurgies longues, dure-mère ouverte,
+certaines équipes associent le propofol à une demi-MAC de sévoflurane pour limiter
+l'accumulation du propofol. En présence d'une HTIC ou d'un cerveau tendu, on reste en
+anesthésie intraveineuse totale.
+
+### Le protoxyde d'azote
+
+Il a tout faux : il augmente la CMRO~2~, le DSC et la PIC. Il diffuse en plus dans les cavités
+gazeuses : il aggrave une pneumocéphalie et une embolie gazeuse. On ne l'utilise pas en
+neurochirurgie.
+
+### La kétamine
+
+Seule, la kétamine est un stimulant cérébral : elle augmente la CMRO~2~ et le DSC. Mais associée
+à un hypnotique GABAergique (propofol, benzodiazépine) chez un patient ventilé, elle n'augmente
+pas la PIC, et peut même la baisser [@zeiler2014]. Comme elle maintient la PAM, elle est utile
+pour l'induction du patient instable, en particulier le traumatisé crânien en choc, et à faible
+dose pour l'analgésie (prévention de l'hyperalgésie au rémifentanil). Elle augmente l'index
+bispectral (BIS) : ne l'interprétez pas comme un réveil.
+
+### L'étomidate et les benzodiazépines
+
+L'**étomidate** a des effets cérébraux favorables et préserve l'hémodynamique, mais il bloque la
+synthèse du cortisol : on le réserve à l'induction, sans entretien continu. Les
+**benzodiazépines** ont les effets cérébraux du propofol mais un réveil retardé et imprévisible :
+elles ne servent plus guère que pour la sédation de réanimation et le traitement des crises.
+
+### Les morphiniques
+
+Les morphiniques ont peu d'effet sur le DSC et la CMRO~2~, et respectent l'autorégulation. Le
+**rémifentanil**, grâce à sa demi-vie contextuelle courte, s'est imposé en neurochirurgie
+programmée : il permet un réveil rapide et un examen neurologique précoce, au prix d'un relais
+analgésique à anticiper (morphine en fin d'intervention). Le sufentanil est une alternative
+acceptable. Leur seul effet délétère passe par la PAM : un bolus qui fait chuter la pression
+fait monter la PIC.
+
+## La dexmédétomidine
+
+Agoniste α~2~-adrénergique, la dexmédétomidine est sédative, anxiolytique et un peu
+analgésique. Elle agit sur le locus cœruleus et réduit le tonus sympathique. Sa particularité
+est de donner une sédation dont le patient peut être tiré, **sans dépression respiratoire** tant
+qu'elle n'est pas associée au propofol ou au rémifentanil. Elle sert pour l'intubation vigile
+sous fibroscopie, la trachéotomie sous anesthésie locale, la sédation procédurale (évacuation
+d'hématome sous-dural chronique, cimentoplastie) et la chirurgie éveillée
+(@sec-chirurgie-eveillee).
+
+| Élément | Protocole du service |
+|--|-----|
+| Pharmacocinétique | Demi-vie de distribution 6 min, d'élimination 2 h ; métabolisme hépatique |
+| Préparation | 1 ampoule de 200 µg dans 40 mL de NaCl 0,9 %, soit **5 µg/mL** |
+| Dose de charge | **1 µg/kg en 15 à 20 min** (0,5 µg/kg chez le sujet âgé) ; seringue à part, pour la sédation procédurale seulement |
+| Entretien | **0,2 à 1 µg/kg/h** (jusqu'à 1,2), à adapter par paliers de 10 à 15 min |
+| Débit de la seringue | débit (mL/h) = dose (µg/kg/h) × poids (kg) ÷ 5 |
+| Poids | Poids réel chez l'obèse ; pas d'adaptation à la fonction rénale ; réduire en cas d'insuffisance hépatique |
+| Effets indésirables | Hypotension, bradycardie |
+| Contre-indications | Trouble de conduction sévère (ECG préalable), instabilité hémodynamique ; prudence si sténose valvulaire serrée |
+
+: Dexmédétomidine : protocole du service {#tbl-dexmedetomidine}
+
+Exemple : chez un patient de 70 kg, 0,5 µg/kg/h donne 0,5 × 70 ÷ 5 = **7 mL/h** ; la dose de
+charge de 1 µg/kg sur 20 min correspond à 14 mL, soit **42 mL/h pendant 20 min**. Si le geste
+est douloureux, on peut titrer de la kétamine, sans effet psychodysleptique notable sous
+dexmédétomidine.
+
+## Les curares
+
+Les curares non dépolarisants n'ont pas d'effet cérébral direct. Deux points sont propres à la
+neurochirurgie :
+
+- **le monitorage neurophysiologique interdit la curarisation** : les potentiels évoqués
+  moteurs (PEM) et l'électromyographie des nerfs crâniens (NIM) exigent un muscle qui répond. On
+  ne curarise alors qu'à l'induction, avec une dose unique de curare d'action courte ou
+  intermédiaire (@sec-monitorage) ;
+- **le côté parétique trompe le moniteur** : après une lésion centrale, le muscle hémiplégique
+  devient résistant aux curares. Mesurez le train de quatre du côté sain, sinon vous
+  surestimerez la curarisation et surdoserez.
+
+La **succinylcholine** augmente la PIC de façon modeste et transitoire, et cet effet n'a pas été
+retrouvé chez des patients cérébrolésés [@kovarik1994]. Quand elle est indiquée (estomac plein,
+intubation difficile prévue), son indication l'emporte. Elle est en revanche **contre-indiquée
+en cas de déficit moteur chronique** (hémiplégie ancienne, alitement prolongé) : la
+prolifération des récepteurs nicotiniques expose à une hyperkaliémie mortelle, quelques jours
+après le début du déficit [@sfar_curares2018]. Le rocuronium, réversible par le sugammadex, est
+alors l'alternative.
+
+## L'osmothérapie
+
+### Principe
+
+En augmentant l'osmolarité du plasma, on crée un gradient à travers la BHE qui attire l'eau du
+cerveau vers les capillaires (@sec-physiologie). Le volume cérébral baisse, la PIC aussi :
+l'effet est maximal en 10 à 15 minutes et dure 2 à 4 heures [@sfar_tcgrave2016]. Ce gradient
+n'existe que là où la BHE est intacte : l'osmothérapie déshydrate **le cerveau sain**, pas la
+contusion. Le sérum salé hypertonique diminue même le volume du tissu sain tout en augmentant
+celui des contusions [@lescot2006].
+
+### Mannitol ou sérum salé hypertonique
+
+À dose équiosmolaire (environ **250 mOsm**), le mannitol 20 % et le sérum salé hypertonique (SSH)
+ont la même efficacité sur la PIC [@sfar_tcgrave2016]. Ils diffèrent par leurs effets
+indésirables.
+
+| | Mannitol 20 % | Sérum salé hypertonique |
+|--|----|----|
+| Dose | 0,5 à 1 g/kg ; en pratique **150 à 250 mL** (30 à 50 g) en 15 à 20 min | Recette du service : **3 ampoules de NaCl 20 % (10 mL, 2 g chacune) dans 100 mL de NaCl 0,9 %**, en 15 min |
+| Apport osmotique | 250 mL = 50 g ≈ 275 mOsm | 6 g ajoutés + 0,9 g du soluté ≈ 6,9 g de NaCl ≈ 235 mOsm, dans 130 mL (≈ 5 %) |
+| Diurèse | **Diurèse osmotique** : hypovolémie, à compenser | Pas de diurèse osmotique ; expansion volémique |
+| Ionogramme | Hyponatrémie de dilution transitoire, puis hypernatrémie | **Hypernatrémie, hyperchlorémie** |
+| Préférer si | Patient hypervolémique, hypernatrémique | Patient hypovolémique, en choc ; chirurgie programmée (évite la polyurie) |
+
+: Mannitol et sérum salé hypertonique {#tbl-osmotherapie}
+
+<!-- TODO-VALIDER : SSH « 6 g » (craniotomie) vs « env 7 g » (htic) pour la même recette ; ici « 6 g ajoutés, ≈ 6,9 g au total ». Mannitol « 15-200 ml » (craniotomie) lu comme 150–250 mL, cf. htic (150–300 mL). Voir A_VALIDER.md. -->
+
+::: {.callout-warning title="Piège"}
+On lit parfois que cette préparation est « à 7 % ». C'est le poids de sel (près de 7 g), pas la
+concentration : 6,9 g dans 130 mL font environ 5 %. Ce qui compte pour l'effet, c'est la charge
+osmotique (≈ 235 mOsm), comparable à 250 mL de mannitol 20 %.
+:::
+
+### Indications et limites
+
+- L'osmothérapie est un **traitement d'urgence** : HTIC sévère ou signes d'engagement, en
+  attendant un traitement de la cause (chirurgie, DVE), ou pour la **détente cérébrale** au bloc.
+  Elle n'est pas un traitement de fond.
+- Le SSH systématique en préhospitalier, sans signe d'HTIC, n'apporte rien [@bulger2010].
+- On n'induit pas une **hypernatrémie prolongée** pour contrôler la PIC : effet transitoire,
+  risque de rebond à la correction [@sfar_tcgrave2016].
+- Les doses répétées de mannitol finissent par passer à travers la BHE lésée, avec un risque de
+  **rebond** d'œdème. Surveillez la natrémie et l'osmolarité.
+
+::: {.callout-note title="Ce que disent les recommandations"}
+Il faut administrer du mannitol 20 % ou du sérum salé hypertonique (environ 250 mOsm) en 15 à
+20 minutes en traitement d'urgence d'une HTIC sévère ou de signes d'engagement, après contrôle
+des ACSOS (GRADE 1+). Il ne faut probablement pas induire d'hypernatrémie prolongée pour
+contrôler la PIC (GRADE 2−) [@sfar_tcgrave2016].
+:::
+
+## Les corticoïdes
+
+La **dexaméthasone** réduit l'**œdème vasogénique péritumoral** (l'œdème « en doigt de gant » des
+métastases et des gliomes) en restaurant les jonctions serrées de la BHE ; son effet demande
+environ 48 heures. Le patient tumoral arrive souvent sous forte dose ; au bloc, le relais se fait
+par **8 mg à l'induction**, puis la décroissance est prescrite par le neurochirurgien. Ne
+cumulez pas hydrocortisone et dexaméthasone. Effets indésirables à surveiller : hyperglycémie,
+hypokaliémie.
+
+::: {.callout-warning title="Piège"}
+- **Pas de corticoïdes dans le traumatisme crânien** : l'essai CRASH (10 008 patients) a montré
+  une surmortalité sous méthylprednisolone [@crash2004; @sfar_tcgrave2016]. Ils sont aussi
+  inutiles dans l'AVC ischémique et l'hématome intracérébral.
+- **Suspicion de lymphome** : les corticoïdes peuvent faire fondre la tumeur et rendre la biopsie
+  non contributive. Pas de corticoïdes avant d'en avoir parlé au neurochirurgien.
+:::
+
+## Les antiépileptiques
+
+- Un traitement antiépileptique au long cours se **poursuit sans interruption**, y compris le
+  matin de l'intervention et en relais intraveineux si le patient ne peut pas avaler.
+- Le **lévétiracétam** est la molécule de première intention en neurochirurgie : forme
+  intraveineuse, peu d'interactions, bonne tolérance.
+- Après un traumatisme crânien grave, la prophylaxie systématique n'est pas recommandée
+  [@sfar_tcgrave2016]. La phénytoïne prévient les crises de la première semaine, mais pas
+  l'épilepsie post-traumatique tardive [@temkin1990]. La prophylaxie se discute selon le
+  risque (embarrure avec crise, plaie pénétrante avec délabrement cortical) [@sfnc_tce2025].
+- Les inducteurs enzymatiques (carbamazépine, phénytoïne) accélèrent le métabolisme des curares
+  non dépolarisants et de certains morphiniques : les besoins sont augmentés.
+- Certains médicaments abaissent le seuil épileptogène : **tramadol** et **néfopam** sont à
+  éviter chez le patient épileptique (@sec-epilepsie).
+
+## L'acide tranexamique
+
+- **Chirurgie programmée à risque hémorragique** (méningiome, chordome, grand volet, chirurgie
+  vasculaire) : protocole du service, **15 mg/kg à l'induction**, renouvelé à la quatrième heure
+  si le saignement persiste.
+- **Traumatisme crânien** : l'essai CRASH-3 (1 g en 10 min puis 1 g sur 8 h, dans les 3 heures)
+  a réduit les décès d'origine traumatique crânienne chez les traumatisés légers à modérés,
+  pas chez les plus graves (score de Glasgow à 3, mydriase bilatérale) [@crash3_2019].
+- À très fortes doses, l'acide tranexamique est proconvulsivant.
+
+## Les médicaments de la pression artérielle
+
+- **Vasopresseurs** : la noradrénaline est l'amine de référence pour maintenir la PPC ;
+  l'éphédrine et la phényléphrine servent de bolus à l'induction. Avec une BHE intacte, ils
+  n'ont pas d'effet vasoconstricteur cérébral direct.
+- **Antihypertenseurs** : nicardipine et urapidil, titrés. Évitez les dérivés nitrés
+  (nitroglycérine, nitroprussiate), vasodilatateurs cérébraux qui augmentent la PIC.
+
+## Cas clinique
+
+Un patient de 45 ans, 80 kg, porteur d'un glioblastome frontal de 6 cm avec déviation de la
+ligne médiane, sous dexaméthasone 16 mg/j depuis cinq jours, doit être opéré. Il est somnolent
+mais répond aux ordres. Il présente une hémiparésie gauche depuis trois semaines.
+
+1. Quel hypnotique choisissez-vous pour l'entretien ? Et si le chirurgien vous demande d'ajouter
+   du sévoflurane pour « gagner du propofol » ?
+2. Quel curare utilisez-vous, et où placez-vous le capteur de curarisation ?
+3. À l'ouverture, le chirurgien trouve le cerveau tendu. Que proposez-vous comme osmothérapie,
+   et à quel débit ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Propofol en AIVOC avec rémifentanil. Pas d'halogéné tant que le cerveau est à compliance
+   basse (déviation, somnolence) : il ajoute une vasodilatation. Éventuellement à demi-MAC plus
+   tard, dure-mère ouverte, si le cerveau est détendu.
+2. Pas de succinylcholine (déficit de trois semaines, risque d'hyperkaliémie) : rocuronium ou
+   atracurium. Capteur sur la **main droite**, du côté sain.
+3. Avant l'osmothérapie, vérifier les ACSOS : capnie (gaz du sang), PAM, position de la tête,
+   profondeur d'anesthésie. Puis SSH (recette du service) ou mannitol 20 % 250 mL en 15 à 20 min.
+   Sous corticoïdes et en chirurgie programmée, le SSH évite la polyurie osmotique.
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- Propofol et rémifentanil : la base ; halogénés ≤ 1 MAC sans HTIC ; jamais de protoxyde.
+- La kétamine n'augmente pas la PIC chez le patient sédaté et ventilé ; elle maintient la PAM.
+- Pas de curare après l'induction si PEM ou NIM ; train de quatre du côté sain ;
+  succinylcholine contre-indiquée en cas de déficit moteur chronique.
+- Dexmédétomidine : 5 µg/mL ; charge 1 µg/kg en 15–20 min ; entretien 0,2–1 µg/kg/h.
+- Osmothérapie ≈ 250 mOsm en 15–20 min : traitement d'urgence, pas de fond.
+- Dexaméthasone pour l'œdème tumoral ; jamais de corticoïdes dans le traumatisme crânien.
 :::

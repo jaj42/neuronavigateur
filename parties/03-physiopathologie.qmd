@@ -1,11 +1,192 @@
 # Physiopathologie de l'agression cérébrale {#sec-physiopathologie}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Distinguer lésions primaires et lésions secondaires, et dire sur lesquelles l'anesthésiste
+  agit.
+- Citer les agressions cérébrales secondaires d'origine systémique (ACSOS) et leur cible.
+- Reconnaître une HTIC sur la clinique et l'imagerie.
+- Décrire les principaux engagements cérébraux et leurs signes.
+- Interpréter une réaction de Cushing.
 :::
 
-*Chapitre en cours de rédaction.*
+## Lésions primaires et lésions secondaires
+
+Une agression cérébrale (traumatisme, hémorragie, ischémie, chirurgie) produit d'emblée des
+**lésions primaires** : contusion, déchirure axonale, hématome, territoire infarci. Elles sont
+fixées au moment de l'accident ; seule la prévention ou la chirurgie peuvent y faire quelque
+chose.
+
+Dans les heures et les jours qui suivent, autour de ces lésions, du tissu fragile mais encore
+vivant (la pénombre) peut mourir ou survivre. Ce qui le tue, ce sont les **lésions
+secondaires**, dont le mécanisme commun est l'**inadéquation entre l'apport et les besoins en
+oxygène** [@payen2007]. Elles ont deux origines :
+
+- **intracrânienne** : HTIC, engagement, vasospasme, crise d'épilepsie, resaignement,
+  hydrocéphalie ;
+- **systémique** : ce sont les **ACSOS**.
+
+C'est sur les lésions secondaires, et surtout sur les ACSOS, que l'anesthésiste-réanimateur a
+prise. Dès le ramassage, puis au bloc et en réanimation, son rôle est de les prévenir, de les
+détecter et de les corriger [@sfar_tcgrave2016].
+
+## Les ACSOS
+
+Une seule hypotension (pression artérielle systolique, PAS, inférieure à 90 mmHg) à la phase
+initiale d'un traumatisme crânien grave est associée à une **augmentation de la mortalité de
+150 %**, et l'association hypotension et hypoxie est la plus péjorative [@chesnut1993]. Toutes
+les ACSOS agissent par le même mécanisme : soit elles baissent l'apport d'oxygène au cerveau,
+soit elles en augmentent la consommation, soit elles augmentent le volume intracrânien.
+
+| ACSOS | Mécanisme | Cible usuelle |
+|---|----|-----|
+| Hypotension | Baisse de PPC ; cascade vasodilatatrice et HTIC | PAS > 110 mmHg avant monitorage cérébral [@sfar_tcgrave2016] ; ensuite PPC 60–70 mmHg (@sec-tc-grave) |
+| Hypoxémie | Baisse du contenu artériel en O~2~ ; vasodilatation sous 60 mmHg | SpO~2~ > 90 %, PaO~2~ > 60 mmHg |
+| Hypercapnie | Vasodilatation, hausse du volume sanguin et de la PIC | PaCO~2~ 35–40 mmHg |
+| Hypocapnie | Vasoconstriction, ischémie | Pas d'hyperventilation prolongée [@muizelaar1991] |
+| Hyponatrémie, hypo-osmolarité | Entrée d'eau dans le cerveau | Natrémie 135–145 mmol/L, sans baisse rapide (@sec-dysnatremies-dve) |
+| Anémie | Baisse du contenu artériel en O~2~ | Seuil transfusionnel discuté (@sec-tc-grave) |
+| Hyperthermie | Hausse de la CMRO~2~ (6–7 % par °C) | Température 35–37 °C [@srlf_cct2016] |
+| Hyperglycémie | Acidose lactique, aggravation des lésions | Glycémie 1,4–2 g/L (8–11 mmol/L) [@sfar_tcgrave2016] |
+| Hypoglycémie | Panne énergétique directe | Glycémie > 0,8 g/L |
+| Crise d'épilepsie | Hausse de la CMRO~2~ et du DSC | Traitement immédiat, EEG si doute |
+| Coagulopathie | Extension des contusions et hématomes | Correction et réversion précoces (@sec-htic) |
+
+: Les ACSOS et leurs cibles {#tbl-acsos}
+
+L'**hypocapnie** est l'ACSOS la plus fréquente : plus de 80 % des traumatisés crâniens graves ont
+au moins un épisode de PaCO~2~ inférieure à 30 mmHg, souvent par excès de ventilation au
+transport [@payen2007]. Elle « fait baisser la PIC » au prix d'une ischémie. Le seul essai
+randomisé sur le sujet a montré qu'une hyperventilation prolongée (PaCO~2~ 25 mmHg pendant cinq
+jours) aggravait le devenir neurologique [@muizelaar1991]. L'hyperventilation n'est plus qu'un
+geste de sauvetage, bref, en attendant un traitement de la cause d'un engagement.
+
+::: {.callout-note title="Ce que disent les recommandations"}
+Il faut rechercher et traiter les facteurs systémiques d'agression cérébrale secondaire
+(GRADE 1+). Il faut probablement maintenir une PAS supérieure à 110 mmHg avant de disposer d'un
+monitorage cérébral (GRADE 2+). Il ne faut probablement pas faire d'hypocapnie comme traitement
+d'une HTIC (GRADE 2−). La glycémie est à maintenir entre 8 et 10–11 mmol/L (GRADE 1+)
+[@sfar_tcgrave2016].
+:::
+
+::: {.callout-tip title="Astuce"}
+Lorsqu'un patient cérébrolésé s'aggrave, passez la liste des ACSOS en revue avant de demander un
+scanner : pression artérielle, SpO~2~, capnie (gaz du sang), natrémie, hémoglobine, température,
+glycémie. La plupart se corrigent en quelques minutes.
+:::
+
+## L'hypertension intracrânienne
+
+### Définition et causes
+
+L'HTIC est une PIC durablement supérieure à **20–22 mmHg** chez l'adulte : le seuil de
+traitement est de 22 mmHg pour la Brain Trauma Foundation [@carney2017] et de 20 à 25 mmHg
+pour les recommandations françaises [@sfar_tcgrave2016]. Ce qui compte, c'est surtout sa durée
+et son retentissement sur la perfusion (PPC). Ses causes se rangent selon le compartiment qui
+augmente (@sec-anatomie) :
+
+| Compartiment | Causes |
+|--|------|
+| Parenchyme | Œdème (traumatique, tumoral, ischémique, hyponatrémie), contusion |
+| Sang | Vasodilatation (hypercapnie, hypoxémie, hypotension avec autorégulation conservée, crise d'épilepsie, fièvre), obstacle veineux (position, thrombose de sinus) |
+| LCS | Hydrocéphalie obstructive ou communicante |
+| Volume surajouté | Hématome, tumeur, abcès, pneumocéphalie |
+
+: Causes d'HTIC par compartiment {#tbl-causes-htic}
+
+### Signes cliniques
+
+- **Céphalées**, matinales, aggravées par la toux et le décubitus ; **vomissements** en jet.
+- **Troubles de la conscience**, de la somnolence au coma : le signe le plus important, à
+  suivre par le score de Glasgow.
+- **Œdème papillaire** au fond d'œil (HTIC chronique).
+- Signes d'**engagement** (voir plus bas) : anisocorie, mydriase, troubles végétatifs.
+
+Au scanner, les signes évocateurs sont l'**effacement des citernes de la base** (le meilleur
+prédicteur), la **déviation de la ligne médiane de plus de 5 mm**, la disparition des sillons et
+des ventricules, et un hématome de plus de 25 mL [@sfar_tcgrave2016].
+
+### La réaction de Cushing
+
+Quand la PIC approche la PAM, le tronc cérébral devient ischémique et déclenche une décharge
+sympathique massive : **hypertension artérielle**, puis **bradycardie** (réflexe barorécepteur)
+et **troubles du rythme respiratoire**. C'est la triade de Cushing.
+
+::: {.callout-warning title="Piège"}
+La réaction de Cushing est un **signe tardif**, souvent annonciateur d'un engagement, et
+l'hypertension qui la compose est **protectrice** : c'est elle qui maintient la perfusion
+cérébrale. Ne la traitez pas par un antihypertenseur ; traitez l'HTIC (osmothérapie,
+chirurgie). Pour la même raison, la levée brutale de l'HTIC à l'ouverture de la dure-mère
+s'accompagne souvent d'un effondrement de la pression artérielle : anticipez-le.
+:::
+
+## Les engagements cérébraux
+
+Quand la pression n'est pas la même partout, le cerveau se déplace vers les zones de plus
+basse pression : sous la faux du cerveau, à travers l'incisure de la tente du cervelet, ou par le
+trou occipital (@fig-engagements).
+
+![Types d'engagement cérébral : 1 uncal (temporal), 2 central (transtentoriel), 3 sous-falcoriel
+(cingulaire), 4 transcalvarial, 5 transtentoriel ascendant, 6 amygdalien (trou occipital).
+Delldot ; Wikimedia Commons, CC BY-SA 3.0.](../figures/wikimedia/engagements.png){#fig-engagements width=70%}
+
+| Engagement | Mécanisme | Signes |
+|---|----|-----|
+| Sous-falcoriel (cingulaire) | Le gyrus cingulaire passe sous la faux, par une masse hémisphérique | Souvent silencieux ; compression de l'ACA (infarctus frontal) |
+| Temporal (uncal) | L'uncus passe dans l'incisure tentorielle et comprime le III et le mésencéphale | **Mydriase homolatérale aréactive**, puis troubles de conscience et hémiparésie |
+| Central (transtentoriel descendant) | Descente globale du diencéphale et du tronc, par une masse ou un œdème diffus | Aggravation progressive de haut en bas : somnolence, myosis, rigidité de décortication puis de décérébration, mydriase bilatérale |
+| Amygdalien (trou occipital) | Les amygdales cérébelleuses descendent dans le trou occipital et compriment le bulbe | Raideur de nuque, troubles respiratoires, bradycardie, arrêt cardiorespiratoire |
+| Transtentoriel ascendant | Le cervelet remonte à travers l'incisure | Masse de la fosse postérieure, surtout après un drainage ventriculaire trop rapide |
+| Transcalvarial | Le cerveau fait hernie par un défect osseux | Après craniectomie |
+
+: Les engagements cérébraux {#tbl-engagements}
+
+::: {.callout-warning title="Piège"}
+Une **ponction lombaire** chez un patient porteur d'une masse ou d'une hydrocéphalie
+obstructive crée un gradient de pression entre le crâne et le rachis et peut provoquer un
+engagement amygdalien. Pas de ponction lombaire avant un scanner chez un patient suspect d'HTIC.
+:::
+
+Une **mydriase** chez un patient comateux est une urgence absolue : c'est l'indication de
+l'osmothérapie immédiate (mannitol 20 % ou sérum salé hypertonique en 15 à 20 minutes,
+@sec-pharmacologie) en attendant le traitement de la cause [@sfar_tcgrave2016].
+
+## Retentissement extracérébral
+
+L'agression cérébrale grave n'est pas qu'une affaire de cerveau. La décharge catécholaminergique
+peut entraîner une **sidération myocardique** (surtout dans l'HSA), un **œdème pulmonaire
+neurogénique**, une **hyperglycémie**. Les lésions hypothalamo-hypophysaires donnent des
+**dysnatrémies** (diabète insipide, sécrétion inappropriée d'hormone antidiurétique, perte de sel
+d'origine cérébrale ; @sec-dysnatremies-dve). Le tissu cérébral lésé libère du facteur
+tissulaire, d'où une **coagulopathie** fréquente après traumatisme crânien.
+
+## Cas clinique : le fil rouge
+
+Un homme de 18 ans fait une chute avec un choc temporal droit. Il est confus deux heures plus
+tard. Le SAMU le trouve avec un score de Glasgow à 12. À son arrivée, il est à 10, avec une
+pupille droite plus grande que la gauche. Le scanner montre un hématome extradural temporal
+droit avec une déviation de la ligne médiane de 7 mm.
+
+1. Quel est le mécanisme de l'aggravation entre l'accident et l'arrivée ?
+2. Que traduit l'anisocorie ?
+3. Quel traitement médical lancez-vous immédiatement, en attendant le bloc ?
+4. Quelles ACSOS devez-vous prévenir pendant le transfert ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. L'hématome, artériel, grossit. Tant que le LCS et le sang veineux compensent, le patient
+   reste conscient (intervalle libre) ; une fois la compliance épuisée, la PIC monte vite
+   (@fig-langfitt).
+2. Un début d'**engagement temporal** droit : l'uncus comprime le III droit.
+3. Une **osmothérapie** : mannitol 20 % 250 mL ou sérum salé hypertonique en 15 minutes. Elle
+   gagne du temps, elle ne remplace pas l'évacuation chirurgicale, qui est l'urgence.
+4. Hypotension, hypoxémie, hypo- et hypercapnie : la prise en charge anesthésique de ce patient
+   est détaillée au @sec-tc-grave.
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- Les lésions primaires sont fixées ; l'anesthésiste agit sur les lésions secondaires.
+- ACSOS : hypotension, hypoxémie, hypo- et hypercapnie, dysnatrémie, anémie, hyperthermie,
+  dysglycémie, crise, coagulopathie. Une seule hypotension augmente la mortalité.
+- HTIC : PIC > 20–22 mmHg ; au scanner, citernes effacées et déviation de la ligne médiane.
+- Triade de Cushing = signe tardif ; l'HTA est protectrice, on traite l'HTIC.
+- Mydriase chez un comateux : osmothérapie immédiate et chirurgie.
 :::
