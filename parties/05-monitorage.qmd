@@ -1,11 +1,431 @@
 # Monitorage cérébral {#sec-monitorage}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Choisir entre DVE et capteur intraparenchymateux, placer le zéro et repérer les pièges de
+  la mesure de PIC.
+- Lire une onde de PIC et un spectre de Doppler transcrânien (IP, Vd, Vm, indice de
+  Lindegaard).
+- Expliquer ce que mesurent le PRx et la PPC optimale.
+- Interpréter une PtiO~2~, une SvjO~2~ et une NIRS, et connaître leurs seuils.
+- Utiliser un index EEG (BIS, PSI) au bloc et connaître les contraintes anesthésiques des
+  potentiels évoqués moteurs et du NIM.
 :::
 
-*Chapitre en cours de rédaction.*
+## Pourquoi monitorer le cerveau ?
+
+Le meilleur moniteur du cerveau reste l'**examen clinique** : score de Glasgow (avec sa
+composante motrice), pupilles, déficit focal. Chez le patient conscient, il suffit. Mais le
+patient de neuroréanimation est souvent sédaté, et le patient du bloc est endormi : son
+cerveau ne parle plus. Le monitorage cérébral sert alors à détecter une agression
+secondaire (@sec-physiopathologie) **avant** qu'elle ne devienne une lésion, et à régler les traitements
+(PAM, capnie, sédation, osmothérapie) sur la réponse du cerveau plutôt que sur des cibles
+générales.
+
+Aucun moniteur ne mesure tout. Chacun répond à une question :
+
+| Question | Moniteur | Invasif |
+|--|------|--|
+| La pression monte-t-elle ? | PIC (DVE, capteur intraparenchymateux) | Oui |
+| Le cerveau est-il perfusé ? | PPC, Doppler transcrânien | PPC : oui ; DTC : non |
+| L'autorégulation fonctionne-t-elle ? | PRx, PPC optimale | Oui (PIC + PA) |
+| Le cerveau a-t-il assez d'oxygène ? | PtiO~2~ (local), SvjO~2~ (global), NIRS (cortex frontal) | PtiO~2~, SvjO~2~ : oui ; NIRS : non |
+| Que fait le cortex ? | EEG, index dérivés (BIS, PSI) | Non |
+| Les voies motrices et les nerfs crâniens sont-ils intacts ? | PEM, PES, NIM | Non (électrodes) |
+
+: Une question, un moniteur {#tbl-moniteurs}
+
+On parle de **monitorage multimodal** quand on combine plusieurs de ces outils pour
+individualiser les objectifs ; c'est ce que proposent les recommandations françaises chez le
+traumatisé crânien grave [@sfar_tcgrave2016].
+
+### La pupille, version instrumentale
+
+La pupillométrie automatisée mesure la taille de la pupille et la vitesse de sa constriction
+à un flash calibré. Elle en tire un indice, le **NPi** (*Neurological Pupil index*), de 0 à 5 ;
+une valeur **inférieure à 3** est anormale. Dans une cohorte de 514 cérébrolésés (TC, HSA,
+hématome), la fréquence des NPi anormaux était associée à la mortalité et au mauvais devenir
+neurologique [@oddo2023]. Plus reproductible que la lampe de poche, la pupillométrie est
+recommandée pour juger d'une mydriase bilatérale avant une décision neurochirurgicale chez le
+traumatisé crânien grave [@sfnc_tce2025].
+
+## La pression intracrânienne
+
+### Les deux capteurs
+
+| | Dérivation ventriculaire externe (DVE) | Capteur intraparenchymateux |
+|--|-----|-----|
+| Principe | Cathéter dans le ventricule latéral, relié à un capteur externe par une colonne de liquide | Fibre optique ou jauge de contrainte à l'extrémité d'un cathéter, dans la substance blanche frontale |
+| Atouts | Référence ; mesure globale ; **thérapeutique** (drainage du LCS) ; zéro refaisable à tout moment | Pose facile, même si les ventricules sont collabés ; mesure continue même pendant un drainage |
+| Limites | Pose difficile si ventricules petits ou déviés (échec ≈ 10 %) ; ne mesure que **clampée** | Zéro fait **avant** l'insertion, impossible à refaire : dérive au fil des jours ; mesure locale |
+| Infection | ≈ 10 % | ≈ 2,5 % |
+| Hémorragie | 2 à 4 % | 0 à 1 % |
+
+: DVE et capteur intraparenchymateux. Fréquences des complications d'après l'argumentaire des
+recommandations françaises [@sfar_tcgrave2016] {#tbl-capteurs-pic}
+
+Le choix dépend de la question. Une hydrocéphalie (HSA, hémorragie intraventriculaire, tumeur
+de la fosse postérieure) appelle une DVE, qui mesure et traite. Un traumatisé crânien aux
+ventricules écrasés reçoit plutôt un capteur intraparenchymateux, moins risqué
+[@sfar_tcgrave2016]. La gestion de la DVE (hauteur, débit, clampage, transport) est traitée
+au @sec-dysnatremies-dve.
+
+::: {.callout-warning title="Piège"}
+**Une DVE ouverte ne mesure pas la PIC.** Quand le drainage est ouvert, le chiffre affiché
+reflète surtout la hauteur à laquelle on a fixé la chambre de recueil. Pour lire la PIC,
+fermez le drainage vers le sac en laissant le patient relié au capteur, attendez quelques
+minutes, lisez, puis rouvrez si la prescription le demande. Et vérifiez le **zéro au conduit
+auditif externe**, comme celui de la pression artérielle (@sec-physiologie) : tête
+surélevée, un capteur au niveau du cœur fausse la PPC de 10 à 15 mmHg [@rosner1995].
+:::
+
+### Valeurs et seuils
+
+La PIC normale de l'adulte couché est de **5 à 15 mmHg**. Le seuil de traitement est de
+**22 mmHg** pour la Brain Trauma Foundation [@carney2017] et de **20 à 25 mmHg** pour les
+recommandations françaises, qui demandent de commencer à réfléchir dès 20 mmHg
+[@sfar_tcgrave2016].
+<!-- TODO-VALIDER : le protocole local htic définit l'HTIC par une PIC > 15 mmHg ; BTF 2016 : 22 mmHg ; SFAR 2016 : 20-25 mmHg (A_VALIDER n° 6). -->
+Le risque de mauvais devenir est multiplié par 3 environ entre 20 et 40 mmHg, et par 7
+au-delà [@sfar_tcgrave2016]. Mais un chiffre isolé compte moins que :
+
+- la **durée** passée au-dessus du seuil (la « dose » d'HTIC) ;
+- la **PPC** qui en résulte (PPC = PAM − PIC, cible 60 à 70 mmHg en l'absence de monitorage
+  multimodal [@sfar_tcgrave2016]) ;
+- la **réponse** de la PIC aux variations de PAM (@sec-prx).
+
+### Qui monitorer ?
+
+::: {.callout-note title="Ce que disent les recommandations"}
+Après un traumatisme crânien grave, il faut probablement monitorer la PIC (GRADE 2+) en cas
+de signes d'HTIC à l'imagerie, de chirurgie extracrânienne urgente, ou d'examen neurologique
+impossible. Il ne faut probablement pas la monitorer de façon systématique si le scanner
+initial est normal, sans critère clinique de gravité ni anomalie au Doppler transcrânien
+(GRADE 2−). Après évacuation d'un hématome post-traumatique, il faut probablement la
+monitorer si l'un des critères suivants est présent : Glasgow moteur ≤ 5, anisocorie ou
+mydriase bilatérale, instabilité hémodynamique, signes de gravité au scanner préopératoire,
+œdème peropératoire, nouvelles lésions au scanner postopératoire (GRADE 2+). Le monitorage
+doit être posé ou poursuivi pendant une chirurgie (GRADE 2+) [@sfar_tcgrave2016].
+:::
+
+Le monitorage de la PIC n'a jamais fait la preuve, par lui-même, qu'il améliore le pronostic.
+Dans l'essai BEST-TRIP (324 traumatisés crâniens graves en Bolivie et en Équateur), une
+stratégie guidée par la PIC n'a pas fait mieux qu'une stratégie guidée par l'examen clinique
+et des scanners répétés [@chesnut2012]. Ce résultat ne dit pas que la PIC est inutile : il
+dit qu'un chiffre ne soigne pas, et que c'est la façon de s'en servir qui compte.
+
+### L'onde de PIC
+
+Agrandie, la courbe de PIC n'est pas plate : chaque systole y imprime une onde à trois
+pics (@fig-onde-pic) [@czosnyka2004].
+
+- **P1** (onde de percussion) : l'onde artérielle transmise par les plexus choroïdes et les
+  grosses artères.
+- **P2** (onde « tidale ») : le rebond du parenchyme ; elle reflète la **compliance**.
+- **P3** (onde dicrote) : la fermeture de la valve aortique.
+
+![Morphologie de l'onde de PIC. Normalement, P1 > P2 > P3 ; quand la compliance s'épuise, P2
+dépasse P1, parfois avant que la PIC moyenne ne soit franchement
+élevée.](../figures/onde-pic){#fig-onde-pic width=95%}
+
+Une onde où **P2 dépasse P1** signale un cerveau en haut de la courbe de
+Langfitt (@fig-langfitt) : le prochain millilitre fera monter la PIC.
+
+Sur des enregistrements plus longs, on voit aussi des **ondes lentes** décrites par Lundberg
+[@czosnyka2004] :
+
+- les **ondes A** (ou ondes en plateau) : la PIC monte brutalement à 50 mmHg ou plus et y reste
+  5 à 20 minutes, puis redescend. Elles traduisent la cascade vasodilatatrice de Rosner
+  chez un patient à compliance basse et à autorégulation conservée (@sec-physiologie) ; une
+  remontée de la PAM les interrompt souvent ;
+- les **ondes B** : oscillations de quelques mmHg, une demi à deux fois par minute, liées aux
+  variations du volume sanguin cérébral (respiration, tonus vasomoteur). Ce sont elles
+  qu'exploite le PRx.
+
+## Le Doppler transcrânien {#sec-dtc}
+
+### Principe
+
+Une sonde de 2 MHz posée sur la **fenêtre temporale** (au-dessus de l'arcade zygomatique, en
+avant du tragus) mesure la vitesse des globules rouges dans l'**artère cérébrale moyenne**
+(ACM), à 45 à 60 mm de profondeur. Le spectre donne trois vitesses : systolique (Vs),
+diastolique (Vd) et moyenne (Vm, autour de 60 cm/s chez l'adulte). On en tire l'**index de
+pulsatilité** :
+
+$$\text{IP} = \frac{\text{Vs} - \text{Vd}}{\text{Vm}}$$
+
+Le DTC mesure une **vitesse**, pas un débit. Si le diamètre de l'artère ne change pas, la
+vitesse suit le débit ; si l'artère se rétrécit (vasospasme), la vitesse monte alors que le
+débit baisse. Toute l'interprétation repose sur cette distinction.
+
+![Spectres Doppler de l'ACM (vitesses typiques). En HTIC, la diastolique s'effondre et l'IP
+monte ; dans le vasospasme, toutes les vitesses montent.](../figures/dtc){#fig-dtc width=100%}
+
+### La perfusion : IP et Vd
+
+Quand la PIC monte (ou que la PPC baisse), le sang a du mal à entrer en diastole : la **Vd
+s'effondre** et l'**IP augmente** (@fig-dtc). L'IP suit étroitement la PIC : dans une série de
+81 patients, la PIC valait environ 11 × IP − 1 mmHg [@bellner2004]. Mais l'écart entre
+patients reste trop grand pour qu'un IP remplace un capteur.
+
+Les seuils d'alerte retenus chez le traumatisé crânien grave à l'arrivée sont un **IP > 1,4**
+et une **Vd < 20 à 25 cm/s** [@ract2007; @sfar_tcgrave2016]. Dans l'étude de Ract, ces
+patients recevaient immédiatement osmothérapie et noradrénaline jusqu'à normalisation du
+Doppler, avant même le scanner [@ract2007]. Le protocole local retient IP > 1,4 et
+Vd < 25 cm/s, et propose de titrer la PAM au DTC : on monte la pression jusqu'à ce que la Vm
+se stabilise et que la Vd dépasse 25 cm/s (@sec-htic).
+
+::: {.callout-note title="Ce que disent les recommandations"}
+Il faut probablement évaluer la gravité initiale du traumatisé crânien par un Doppler
+transcrânien (GRADE 2+). Les experts proposent un monitorage multimodal (Doppler et/ou PtiO~2~)
+pour optimiser le DSC et l'oxygénation cérébrale (avis d'experts). Le DTC n'est pas un
+monitorage continu de la PIC, mais une aide à la décision ; s'il n'a rien donné au bout de dix
+minutes, on l'abandonne pour les autres outils [@sfar_tcgrave2016].
+:::
+
+### Le vasospasme
+
+Après une HSA, le rétrécissement des artères fait **monter toutes les vitesses**. On parle de
+vasospasme de l'ACM au-delà d'une Vm de **120 cm/s**, de vasospasme sévère au-delà de
+**200 cm/s**. Pour distinguer un vasospasme d'une **hyperhémie** (débit élevé dans une artère
+de calibre normal : fièvre, anémie, hypercapnie, noradrénaline), on rapporte la Vm de l'ACM à
+celle de la carotide interne extracrânienne : c'est l'**indice de Lindegaard**. Il est
+inférieur à 3 dans l'hyperhémie, supérieur à 3 dans le vasospasme (et à 6 quand il est
+sévère) [@lindegaard1989]. La surveillance du vasospasme est détaillée au @sec-hsa.
+
+### Limites
+
+Le DTC est non invasif, répétable au lit et peu coûteux. Mais il dépend de l'opérateur, la
+fenêtre temporale est absente chez environ un patient sur dix (surtout les femmes âgées), et
+il ne voit que les gros troncs. C'est une photographie, pas un film.
+
+## L'autorégulation au lit : PRx et PPC optimale {#sec-prx}
+
+Le test de la PAM (@sec-physiologie) peut être automatisé. Le **PRx** (*pressure reactivity
+index*) est le coefficient de corrélation entre les ondes lentes de PAM et de PIC, calculé en
+continu sur une fenêtre glissante de quelques minutes (40 moyennes de 5 secondes)
+[@czosnyka1997] :
+
+- **PRx négatif ou proche de 0** : quand la PAM monte, la PIC baisse ou ne bouge pas ; les
+  artérioles se contractent : **autorégulation conservée** ;
+- **PRx positif** (au-delà de 0,2 à 0,25) : la PIC suit passivement la PAM ; le lit vasculaire
+  est passif : **autorégulation altérée**. Un PRx durablement positif est associé à une
+  mortalité plus élevée [@czosnyka1997].
+
+Si l'on range les valeurs de PRx des dernières heures par classes de PPC, on obtient souvent
+une **courbe en U** (@fig-prx). Son minimum est la **PPC optimale** (PPCopt) : la pression de
+perfusion à laquelle ce cerveau, aujourd'hui, régule le mieux. À gauche du minimum, la
+perfusion est insuffisante (ischémie) ; à droite, elle est excessive (hyperhémie, œdème)
+[@steiner2002]. Les patients dont la PPC réelle est restée proche de leur PPCopt ont un
+meilleur devenir [@aries2012].
+
+![Courbe PRx en fonction de la PPC (données simulées). Le minimum de la courbe définit la PPC
+optimale, ici autour de 76 mmHg.](../figures/prx-cppopt){#fig-prx width=95%}
+
+L'essai COGiTATE a montré qu'une PPC guidée par la PPCopt était faisable et sans danger, sans
+avoir la puissance pour juger du pronostic [@tas2021]. Les recommandations françaises
+proposent d'individualiser les cibles de PIC et de PPC sur l'autorégulation quand le
+monitorage le permet [@sfar_tcgrave2016]. En pratique, le calcul exige un logiciel dédié et
+plusieurs heures d'enregistrement : il n'est disponible que dans certains centres. L'idée,
+elle, vaut partout : **la bonne PPC dépend du patient et du jour**. Le débat qui l'a précédée
+(PPC haute de Rosner contre PPC basse de Lund) est présenté au @sec-htic.
+
+## L'oxygénation cérébrale
+
+### La PtiO~2~
+
+Une électrode placée dans la substance blanche (souvent avec le capteur de PIC, par le même
+boulon) mesure la **pression partielle d'O~2~ du tissu cérébral** autour de sa pointe. La
+valeur normale est de 25 à 35 mmHg environ ; le **seuil ischémique** se situe entre **15 et
+20 mmHg**, et la durée compte : moins de 5 mmHg pendant 30 minutes, moins de 10 mmHg pendant
+1 h 45 ou moins de 15 mmHg pendant 4 heures sont associés à des lésions [@sfar_tcgrave2016].
+
+La PtiO~2~ dépend de la PaO~2~, de la PPC, du DSC local et de l'hémoglobine. Une PtiO~2~ basse
+fait chercher, dans l'ordre : une hypoxémie, une PPC insuffisante, une hypocapnie, une
+anémie, une HTIC, une crise. C'est aussi un moyen de trouver la PPC minimale qui garde le
+tissu au-dessus du seuil.
+
+Deux essais ont testé une stratégie guidée par la PtiO~2~ en plus de la PIC :
+
+- **BOOST-II** (119 patients, phase II) : la stratégie réduisait le temps passé en hypoxie
+  tissulaire, avec une tendance non significative à un meilleur devenir [@okonkwo2017] ;
+- **OXY-TC** (318 patients, France) : aucun bénéfice sur le devenir à 6 mois, mais plus de
+  dysfonctions de cathéter (8 % contre 1 %) et d'hématomes liés au cathéter (4 % contre 0)
+  [@payen2023].
+
+La PtiO~2~ reste donc un outil de compréhension physiopathologique, utile chez certains
+patients, et non un standard.
+
+::: {.callout-warning title="Piège"}
+La PtiO~2~ est une mesure **locale**, de quelques millimètres cubes. Une sonde posée dans une
+contusion lit un tissu déjà mort ; posée dans un hémisphère sain, elle peut rester normale
+pendant que la zone de pénombre souffre. Regardez sur le scanner de contrôle où est la
+pointe avant d'interpréter le chiffre.
+:::
+
+### La SvjO~2~
+
+Un cathéter introduit **à contre-courant** dans la veine jugulaire interne, jusqu'au **golfe
+de la jugulaire** (contrôle sur un cliché de profil : extrémité au-dessus du bord inférieur
+de C1), mesure la saturation du sang veineux qui sort du cerveau. C'est l'équivalent
+cérébral de la SvO~2~ : un reflet **global** de l'équilibre entre apport et consommation
+d'O~2~.
+
+- **55 à 75 %** : normal.
+- **Moins de 50 à 55 %** : le cerveau extrait plus d'oxygène qu'il n'en reçoit. Cherchez une
+  hypotension, une HTIC, une hypocapnie excessive, une anémie, une hypoxémie, une crise.
+- **Plus de 75 à 80 %** : hyperhémie (le débit dépasse les besoins), ou cerveau qui ne consomme
+  plus (lésions étendues, mort cellulaire).
+
+Chez 116 traumatisés crâniens graves, les épisodes de désaturation (SvjO~2~ < 50 % plus de
+10 minutes) étaient associés à un mauvais devenir : 90 % de mauvais devenir après plusieurs
+épisodes, contre 55 % sans épisode [@gopinath1994]. La SvjO~2~ donne parfois l'alarme avant la
+mydriase [@payen2007], et elle permet de vérifier qu'une hyperventilation brève ne rend pas
+le cerveau ischémique. Ses limites : une mesure globale qui ignore une ischémie focale, une
+contamination par le sang extracrânien si le cathéter est trop bas, des recalibrations
+fréquentes. On la pose du côté dominant du drainage veineux (souvent la droite,
+@sec-anatomie).
+
+### La NIRS
+
+La spectroscopie de proche infrarouge mesure, par deux capteurs collés sur le front, la
+saturation régionale en O~2~ (rSO~2~) du cortex frontal sous-jacent. Elle est non invasive et
+continue, mais elle mesure un mélange de sang surtout veineux, contaminé par le scalp, et ses
+valeurs absolues varient beaucoup d'un patient à l'autre. On suit donc la **tendance** par
+rapport à la valeur de départ de chaque côté, et surtout l'**asymétrie** entre les deux
+hémisphères. Le protocole local l'utilise en bilatéral dans la chirurgie du Moya-moya
+(@sec-vasculaire).
+
+## L'électroencéphalogramme
+
+### Les index EEG au bloc : BIS, PSI
+
+Les moniteurs de profondeur d'anesthésie analysent l'EEG frontal et en tirent un index de 0
+(silence) à 100 (éveil) ; on vise habituellement **40 à 60** sous anesthésie générale. Ils
+affichent aussi le **taux de suppression** (*burst suppression ratio*, BSR ou SR) : la part
+du temps où l'EEG est plat. En neurochirurgie, le protocole local les pose **du côté opposé à
+la lésion**, hors du champ opératoire, chez tout patient sous AIVOC.
+
+Ils servent à trois choses :
+
+- **doser l'hypnotique** sans curare (PEM, NIM), quand le mouvement n'est plus un signe
+  d'anesthésie trop légère qu'on peut laisser venir ;
+- **éviter le surdosage** chez le sujet âgé ou instable ;
+- **détecter une ischémie globale** : un index qui s'effondre avec un taux de suppression qui
+  monte, sans changement d'hypnotique, est une alarme cérébrale.
+
+Les recommandations françaises sur ces moniteurs datent de 2010 et sont citées ici à titre
+historique ; leurs messages sur les limites restent valables [@sfar_eeg2010] :
+
+- la **kétamine** et le **N~2~O** font perdre conscience sans baisser l'index (@sec-pharmacologie) ;
+- l'**ischémie**, l'**hypothermie** et l'**hypoglycémie** ralentissent l'EEG et baissent
+  l'index, indépendamment de l'anesthésie ;
+- l'activité musculaire frontale et le bistouri électrique le font monter ; les curares, en
+  supprimant cette activité musculaire, le font baisser ;
+- les moniteurs ne sont pas interchangeables : un chiffre de BIS ne se transpose pas en PSI.
+
+::: {.callout-tip title="Astuce"}
+En neuroradiologie interventionnelle, un BIS qui tombe à 0 avec un taux de suppression à
+100 % pendant l'embolisation d'un anévrisme, sans aucune modification de l'anesthésie, signe
+une rupture per-procédure : la PIC a rejoint la PAM et le cerveau n'est plus perfusé. Le
+traitement (protamine, contrôle du saignement, osmothérapie, DVE) peut faire remonter le BIS
+à des valeurs d'anesthésie normales (@sec-nri). Regardez le BIS même quand vous ne l'avez pas
+posé pour l'hypnose.
+:::
+
+### L'EEG continu en réanimation
+
+L'EEG continu (plusieurs électrodes, lu par un neurophysiologiste) cherche deux choses chez le
+patient sédaté :
+
+- des **crises non convulsives**, fréquentes après un TC, une HSA ou un hématome, et
+  invisibles sous sédation ; elles augmentent la CMRO~2~, le DSC et la PIC ;
+- la **profondeur de la sédation** dans l'HTIC réfractaire, quand on vise une **suppression
+  de bouffées** (*burst suppression*) pour réduire la CMRO~2~ au minimum (@sec-htic).
+
+## Le monitorage neurophysiologique peropératoire
+
+Pendant l'exérèse d'une tumeur proche de la voie motrice, de la moelle ou des nerfs crâniens,
+le neurophysiologiste vérifie en direct que les voies nerveuses fonctionnent. Ces mesures
+imposent des contraintes à l'anesthésie.
+
+### Potentiels évoqués moteurs et somesthésiques
+
+- **PEM** : une stimulation électrique transcrânienne (ou corticale directe) déclenche une
+  réponse musculaire enregistrée aux membres. Ils explorent la voie pyramidale.
+- **PES** : une stimulation d'un nerf périphérique (médian, tibial postérieur) produit une
+  réponse corticale. Ils explorent les voies sensitives.
+
+| Facteur | Effet | Conduite |
+|--|----|-----|
+| Curares | Abolissent les PEM | Curare à l'induction seulement, dose unique (@sec-pharmacologie) |
+| Halogénés, N~2~O | Dépriment PEM et PES de façon dose-dépendante | AIVOC propofol-rémifentanil |
+| Bolus d'hypnotique | Baisse brutale des amplitudes, faux positif | Débits stables ; prévenir le neurophysiologiste avant tout changement |
+| Hypotension, hypothermie, anémie | Baissent les amplitudes | Maintenir PAM, température, Hb |
+| Stimulation transcrânienne | Contraction des masséters : morsure de langue | Cales dentaires bilatérales, molaires |
+
+: Contraintes anesthésiques des potentiels évoqués {#tbl-pem}
+
+Une baisse d'amplitude des PEM fait d'abord éliminer une cause anesthésique ou systémique ;
+s'il n'y en a pas, le chirurgien arrête son geste ou retire un écarteur.
+
+### Le NIM et l'EMG des nerfs crâniens
+
+L'électromyographie des nerfs crâniens repère les nerfs pendant la dissection et alerte quand
+ils sont étirés :
+
+- le **nerf facial** (VII), par des aiguilles plantées dans les muscles de la face, dans la
+  chirurgie de l'angle pontocérébelleux (@sec-fosse-posterieure) ;
+- les **nerfs mixtes** (IX, X), par une **sonde d'intubation NIM** dont les électrodes doivent
+  être au contact des cordes vocales. Le protocole local la prévoit quand la lésion ou la voie
+  d'abord touche le X ou le XI, y compris dans leur portion cervicale (chordome).
+
+::: {.callout-warning title="Piège"}
+La sonde NIM ne pardonne pas l'approximation. Intubez sous vidéolaryngoscope pour voir les
+électrodes au niveau des cordes, sans anesthésique local sur la glotte ni gel sur les
+électrodes, et revérifiez la position après l'installation de la tête : une rotation ou une
+flexion suffit à la faire remonter. Et, comme pour les PEM, pas de curare après l'induction.
+:::
+
+## Cas clinique
+
+Un homme de 32 ans est en réanimation à J2 d'un traumatisme crânien grave (contusions
+frontales bilatérales). Il est sédaté (propofol, sufentanil), porte un capteur de PIC
+intraparenchymateux et un cathéter artériel. Il est installé tête surélevée à 30°, le capteur
+artériel fixé au niveau de l'oreillette droite. Vous relevez : PAM 80 mmHg, PIC 26 mmHg,
+EtCO~2~ 30 mmHg, température 38,6 °C. Au DTC, l'IP est à 1,6 et la Vd à 18 cm/s.
+
+1. Quelle est la PPC réelle ?
+2. Comment interprétez-vous le Doppler ?
+3. Quelles causes d'aggravation cherchez-vous avant tout traitement spécifique de l'HTIC ?
+4. Le service dispose du PRx. À quoi vous servirait-il ici ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Le capteur artériel est au niveau du cœur, 15 à 20 cm sous le conduit auditif : la PAM
+   cérébrale est plus basse que les 80 mmHg affichés, d'environ 10 à 15 mmHg. La PPC n'est pas
+   de 54 mais plutôt de **40 à 45 mmHg**. Remettez le zéro au tragus.
+2. IP > 1,4 et Vd < 20 à 25 cm/s : hypoperfusion cérébrale, cohérente avec la PPC basse.
+3. Les ACSOS : hypocapnie trop profonde à 30 mmHg (vérifier la PaCO~2~ au gaz du sang),
+   fièvre (CMRO~2~ augmentée), position de la tête et compression jugulaire, sédation
+   insuffisante, crise non convulsive (EEG), natrémie, hémoglobine, glycémie. Puis remonter la
+   PAM (noradrénaline) en suivant le DTC jusqu'à ce que la Vd dépasse 25 cm/s.
+4. À savoir si l'autorégulation est conservée (PRx négatif : remonter la PAM fera aussi baisser
+   la PIC) ou abolie (PRx positif : la PIC suivra la PAM), et à situer sa PPC optimale du
+   moment pour fixer une cible individuelle, plutôt que la cible générale de 60 à 70 mmHg.
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- Aucun moniteur ne remplace l'examen clinique ; la pupillométrie (NPi < 3) le rend plus
+  reproductible.
+- PIC normale 5 à 15 mmHg ; seuil de traitement 20 à 22 mmHg ; ce qui compte, c'est la durée et
+  la PPC.
+- Tous les zéros (PIC, PA) au conduit auditif externe. Une DVE ouverte ne mesure pas la PIC.
+- Onde de PIC : P2 > P1 = compliance épuisée.
+- DTC : IP > 1,4 et Vd < 20 à 25 cm/s = hypoperfusion ; Vm > 120 cm/s avec Lindegaard > 3 =
+  vasospasme.
+- PRx positif = autorégulation altérée ; le minimum de la courbe PRx/PPC est la PPC optimale.
+- PtiO~2~ < 20 mmHg et SvjO~2~ < 55 % = ischémie à chercher ; ni l'une ni l'autre n'a prouvé
+  qu'elle améliore le pronostic.
+- BIS/PSI : 40 à 60 ; une chute brutale avec suppression, sans changement d'anesthésie, est une
+  alarme cérébrale.
+- PEM et NIM : AIVOC, pas de curare après l'induction, cales dentaires, débits stables.
 :::

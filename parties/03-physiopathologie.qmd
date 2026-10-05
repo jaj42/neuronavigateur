@@ -147,8 +147,8 @@ engagement amygdalien. Pas de ponction lombaire avant un scanner chez un patient
 :::
 
 Une **mydriase** chez un patient comateux est une urgence absolue : c'est l'indication de
-l'osmothérapie immédiate (mannitol 20 % ou sérum salé hypertonique en 15 à 20 minutes,
-@sec-pharmacologie) en attendant le traitement de la cause [@sfar_tcgrave2016].
+l'osmothérapie immédiate (mannitol 20 % ou sérum salé hypertonique en 15 à 20
+minutes, @sec-pharmacologie) en attendant le traitement de la cause [@sfar_tcgrave2016].
 
 ## Retentissement extracérébral
 
