@@ -1,0 +1,175 @@
+# Water, water, everywhere: sodium and water balance and the injured brain
+
+Anne Claire Lukaszewicz, Benjamin Soyer and Didier Payen
+
+Department of Anesthesiology & Critical Care, Hôpital Lariboisière, Assistance Publique-Hôpitaux de Paris, Université Paris 7 Denis Diderot, France
+
+Correspondence to Didier Payen, MD, PhD,  
+Department of Anesthesiology & Critical Care, Hôpital Lariboisière, 2 Rue Ambroise Paré, 75010 Paris, France  
+E-mail: dpayen1234@orange.fr
+
+**Current Opinion in Anesthesiology** 2011,  
+24:138–143
+
+## Purpose of review
+
+This review focuses on water shift and oedema in acute brain injury, with particular aspects on pathophysiology of water movements, the role of aquaporins and the potential of new therapies. This review reports on update of both significant experimental and clinical findings on factors implicated in oedema formation.
+
+## Recent findings
+
+The main inputs came from the demonstrated role of aquaporins (especially AQP4) in brain oedema control. The absence of aquaporin agonist or antagonist does not help to clarify the net effect of aquaporins on brain oedema. The clinical practice of osmotherapy, especially with hypertonic saline failed to improve neurological outcome in a large randomized clinical trial. Colloid treatment was not proven efficient and potentially dangerous. Some hopes might come from targeting inflammatory cascade and neurogenic mediators to reduce lesion severity and to limit the blood–brain barrier dysrupture.
+
+## Summary
+
+Water content control and partition can be better assessed in clinic with NMR helping to make decisions, but with limited proven therapies. The timing for such interventions might be crucial and future biomarkers might be very helpful.
+
+## Keywords
+
+aquaporin, brain oedema, clinical results, osmotherapy, water shifts
+
+Curr Opin Anesthesiol 24:138–143  
+© 2011 Wolters Kluwer Health | Lippincott Williams & Wilkins  
+0952-7907
+
+## Introduction
+
+Brain injury concerns very different diseases and conditions, which might be acute, sub-acute or chronic injuries. This review will focus on acute brain injury with rapid brain oedema formation, for which neuro-intensivists are concerned to limit the amplitude of oedema formation and elevated intra-cranial pressure (ICP). The noncontrol of swollen brain is compressed against the surrounding noncompliant dura and skull, which causes the ICP to rise, leading to brain ischaemia, herniation, and ultimately death.
+
+Two major types of brain oedema were defined by Igor Klatzo [1]: cytotoxic and vasogenic. Cytotoxic oedema occurs when brain cells are damaged and the Na–K ATPase fails, to maintain trans-membrane ion gradients, but with a still intact blood–brain barrier (BBB). The cells swell from influx of fluid from the vascular compartment, which contracts the interstitial compartment as confirmed by the decrease in diffusion coefficient on MRI. Although all brain cell types swell in cytotoxic oedema, the astrocytes contribute the most of the brain swelling [2], being specifically settled with plasma cell
+
+membrane transporters especially aquaporin 4 (AQP4) [2,3].
+
+Vasogenic oedema occurs when the BBB becomes disrupted (vascular leak) causing a net flux of water driven by hydrostatic pressure gradient from the blood to the brain (Fig. 1). The excess filtrated water with plasma proteins and electrolytes expands the interstitial compartment [4], thus increasing the apparent diffusion coefficient on MRI. In clinical conditions, most of intra-cranial pathologies have cytotoxic and vasogenic oedema components. For example, cerebral ischaemia produces cytotoxic oedema initially, followed by vasogenic oedema when the vascular endothelium functions are severely altered.
+
+The acute care performed by neurointensivist aims to limit the development of oedema and to create the best conditions for adequate perfusion of brain parenchyma to avoid ischaemia. This strategy targets the secondary ischaemic lesions related to oedema and rise in ICP, which participates in long-term outcome determination. Despite a better understanding of the mechanisms for water shift from vascular compartment to interstitialand/or cellular compartment, relatively few therapeutic options have emerged for clinical practice.
+
+### Oedema in injured brain results from a dysfunction on water movement control
+
+The brain has no lymphatic system and therefore brain oedema fluid is eliminated into the ventricular cerebrospinal fluid (CSF) and through the BBB into the blood [3] with a contribution related to surface area of each barrier and ICP. Since the focus of such review concerns new aspects, only a brief summary of important aspects is given. In physiology, the 1.41 of human intracranial volume comprises 1.21 for brain parenchyma, 100 ml for intravascular and 100 ml for CSF [3]. Water distribution is essentially intracellular (1.1 l), with only 100 ml in interstitium. Because of the noncompliant skull, if the total volume remains constant, partition may shift. Such a noncompliant container is well demonstrated by the exponential ICP/volume curve. This implies a rapid increase in ICP for small volume variation when the low-pressure intravenous and CSF compartments reserve are overwhelmed.
+
+Despite continuous imbalance, the cell volume and extracellular osmolarity are tightly controlled. Trans-
+
+### Key points
+
+- • The review lists the keystones for cerebral oedema types, mechanisms and water compartmentalization.
+- • The role of aquaporins especially AQP4 in cytotoxic and vasogenic oedema is discussed.
+- • Arguments for inflammation-induced BBB damage are shown with special mention on metalloproteases with potential therapies.
+- • The interest of some therapeutic approaches such as hypertonic saline solution, colloid therapy, erythropoietin and statins are discussed.
+
+membrane osmotic gradients and particle movements are well compensated to maintain cell homeostasis and compartment volumes. The control of brain water balance between different compartments is mainly maintained by astrocytes via aquaporins (AQP) [4,5<sup>•</sup>]. These membrane proteins belong with the family of pores that may increase cellular membrane to osmotic permeability by 5–20-fold [6<sup>•</sup>]. Ten AQPs have been identified in mammals, among these three types AQP1, AQP4 and AQP9 were found highly expressed in the brain [6<sup>•</sup>]. Mammalian AQPs are divided into two groups: those that
+
+**Figure 1** Overview of the water movements in physiological condition (upper part) and during brain lesions (lower part)
+
+Upper part: aquaporins 4 (A) are expressed on astrocytes, which participates in synaptic glutamate (Glu) recapture, via the glutamate receptor (G) to be recycled into glutamine (Gln). Glu intake is coupled with three molecules of sodium (3Na<sup>+</sup>) compensated by Na/K ATPase pumps (P). These osmolyte transfers result in water movement which are balanced. Lower part: in brain lesion, vasogenic oedema favours astrocytic oedema via increase in aquaporin expression. In core lesion, increased extracellular Glu stimulates the metabotropic glutamate receptor (R) resulting in an increase in aquaporin permeability with further astrocyte oedema. Energy deficit impairs Na/K ATPase activity amplifying oedema.only transport water and those that also transport glycerol and other small molecules such as lactic acid, termed aquaglyceroporins. Since no known AQP inhibitors exist, knowledge of AQP functions in mammals largely comes from experiments using AQP knock-out mice pioneered by Alan Verkman [7] in San Francisco. The most studied is AQP4 that is located and expressed in a strategic position in astrocyte foot processes, at the perivascular space and glia limitans or periependymal space [3,6<sup>•</sup>]. AQP1 is present in the choroid plexus and may play a role in the formation of CSF [8]. AQP1 was found expressed in pathological brain tumour endothelium when AQP4 expression on astrocyte foot in contact has disappeared [9]. Knowledge on AQP9, a glycerol-aquaporin, is limited since no good anti-AQP9 antibodies are available [10–12]. AQP9 is essentially expressed in neurons and is part of the control of energetic brain homeostasis, allowing fluxes of glycerol and lactate [13].
+
+Cytotoxic oedema is the consequence of oxygen and glucose supply interruption leading to energy failure with impact on the transmembrane ionic gradients. The net intracellular accumulation of electrolytes, as sodium, calcium and chloride, induce several alterations of cell homeostasis as water influx, depolarization of cells, and glutamate and potassium efflux. The large amount of extracellular glutamate and potassium clearance is ensured by surrounding astrocytes, which drives water influx, creating further ‘normal’ swelling of astrocytes. Such a control of extracellular glutamate level prevents excitatory and neuronal death [5<sup>•</sup>]. These electrolyte movements are compensated by two mechanisms: first, an acute electrolytes efflux or influx (with co-transporters  $\text{Na}^+/\text{K}^+/\text{Cl}^-$  and  $\text{K}^+/\text{Cl}^-$ , exchangers  $\text{Na}^+/\text{H}^+$ ,  $\text{HCO}_3^-/\text{Cl}^-$  and  $\text{K}^+$  and  $\text{Cl}^-$  channels) are coupled with AQP4 activation; second, the organic osmolytes efflux (as taurine, myoinositol or creatine), limiting cell swelling.
+
+AQP4 might participate in the water accumulation in ischaemic brain, as suggested by AQP4 expression increase on astrocyte end-foot [14] in human brain infarction. It is also supported by experimental data showing a limited ischaemic oedema in AQP4 null mice models [15]. AQPs, by sensing cell volume variations, could have a key role in control of osmolytes efflux pathways and cell volume adjustments in pathology. Modulation of the permeability of this channel could be the target of signalling cascade elicited by the increase in glutamate extracellular level [16] activated by increased glial metabotropic glutamate receptor (Fig. 1).
+
+In case of trauma, shear and mechanical injury of cell membrane constitute an additional mechanism of osmolytes permeability alterations. Furthermore, presence of blood products as thrombin secondary to vessel rupture or haemorrhage may potentiate glutamate efflux from astro-
+
+cytes [17]. If glutamate extracellular increase is associated with excitotoxicity and cell death, taurine is discussed as a protective component with anti-inflammatory properties, reducing calcium influx through deteriorated membrane.
+
+Vasogenic oedema is generated by the hydrostatic forces through BBB when perfusion is re-established or maintained in the lesion. This reflects the alterations in endothelial and astrocyte properties permitting the shift of water, ions and small molecules from the vasculature to the parenchyma [18]. In clinical practice, this oedema has been observed by MRI techniques showing an increased water diffusion distance. This vascular contribution to brain water content is considered as determinant in common clinical situation with acute brain injury. Several mechanisms might be critical in the generation of vasogenic oedema. Passage of blood components as red cells, haemoglobin, coagulation factors or white cells may alter dramatically BBB permeability. Presence of haemoglobin aggravates the lesion and worsens its evolution as shown in an experimental model comparing the brain lesions obtained by blood infusion or inert fluid [19<sup>•</sup>]. Blood collection caused a 56% larger lesion at 24–48 h, remarkable by the early reduction of glucose metabolism and more severe oedema and histological abnormalities. The coagulation factors and principally thrombin are highly activated in tissue lesion and may have certain toxicity for surrounding cells especially endothelium. The severity of the vascular disruption was visualized in a model of transient ischaemia followed by a reperfusion with thrombin by fluorescein isothiocyanate-dextran extravasation [20]. The addition of thrombin inhibitor ameliorated the lesion.
+
+Numerous inflammatory mediators have been implicated in BBB opening as matrix metalloproteinase (MMP), or kinins and bradykinins [21,22]. MMPs are tight zinc-dependent endopeptidases from microglial cells. They are released in ischaemic brain injury (upregulation of MMP 2, 3, 9 and 13) after activation of inflammatory pathways and responsible for BBB disruption. Later, MMPs (especially MMP 2, 3, 9) are involved in tissue remodelling and neurovascular recovery.
+
+Some antagonists of these mediators have been tested in animal models with controversial effects in relation with the timing of administration, since during the process of healing these mediators could be beneficial on neurogenesis and vascular remodelling.
+
+Neurogenic inflammation constitutes a new approach by studying the impact of the release of neuropeptides by perivascular neurons as substance P or calcitonin gene-related peptide (CGRP) for increase in BBB permeability. High levels of substance P have been observedin human brain in autopsy study after brain trauma [23]. Experimental studies with antagonist showed promising results on limitation of BBB opening and oedema [24].
+
+As discussed above, the deficiency in AQP4 in mice model of brain ischaemia seemed beneficial in terms of brain water content limitation and functional outcome. In contrast, oedema was exacerbated in knock-out mice in a model of cold lesion suggesting the importance of AQP4 for resolution of vasogenic oedema [4]. Some experimental studies based on trauma model have shown an association between aggravation of oedema and outcome and the decrease in AQP4 expression. Such AQP4 reduced expression might be critical in water clearance especially at the glia limitans level [21]. AQP4 polymorphism has been detected in humans associated with different channel permeability [25]. A specific polymorphism of AQP4 correlated with the development of severe brain oedema in middle cerebral artery occlusion [26]. If there are some evidences about the role of AQP4 in brain oedema control, it remains unclear if AQP4 favours oedema formation or elimination.
+
+### Therapeutic targets in the water shift
+
+In clinical conditions both types of oedema formation co-exist, even their relative contribution is difficult to assess. This implies strategies for oedema treatment testing the different mechanisms with stable sedation and haemodynamic conditions on ICP level.
+
+Osmotherapy remains the cornerstone of medical therapy for cerebral oedema. Hypertonic fluids have been shown to decrease ICP and improve cerebral perfusion [27]. Intravenous osmotic diuretics as mannitol or hyperosmolar saline are largely used to reduce brain oedema in emergency as a salvage therapy. The goal is to move water from brain parenchyma to the intravascular compartment. Such benefit might function essentially in the noninjured part of the brain [28] and not in areas with impaired BBB. Among the osmotherapy possibilities, hypertonic saline has been extensively investigated. Recently, using a rat model of brain injury it was shown that time delay to administer hypertonic saline is important. The tissue loss was better reduced when hypertonic saline is given 1 h after the injury compared to immediate administration [29]. The downregulation of AQP4 expression in perivascular astrocytes in peri-ischaemic brain tissue could be another mechanism explaining the limitation of oedema related to hypertonic saline [30,31]. Recent studies proposed hypertonic saline as a single osmotic agent to decrease ICP, since it improves brain perfusion and tissue oxygen tension ( $PtO_2$ ) in patients with severe traumatic brain injury [32], with potential benefit on outcome. A recent large randomized clinical trial tested the very early (out-of-hospital) hypertonic
+
+resuscitation following severe traumatic brain injury (TBI) [33••]. This trial failed to show a benefit in 6-months neurologic outcome or survival. The rapid hypertonicity was achieved since a higher serum sodium level during the first 24 h was observed after hypertonic saline (mean 146 mEq/l) compared to normal saline (mean 139 mEq), but without benefit on elevated ICP incidence, on additional osmotherapy, ventriculostomy (~10%), craniotomy (~10%) or hyperventilation (~2%).
+
+Macromolecules as colloid or albumin may maintain the transvascular oncotic gradient in injured brain and reduce the early oedema as proposed in the animal study [34]. A 5% albumin versus isotonic crystalloids was tested with a benefit in injured cortex oedema. However, the attached editorial from Drummond [35•] covered well the unanswered questions, especially the clearance of albumin crossing the BBB in severe brain injury. He concluded that more data have to be shown before making a decision to use albumin to limit or control brain oedema. The recently published SAFE study on trauma brain injury patients [36] reported a higher mortality among patients with severe TBI (GCS 3–8) who received albumin and no difference among those with a moderately severe head injury (GCS 9–13).
+
+Since secondary ischaemic lesions impact neurological outcome, another target for the clinician may concern drugs having an impact in brain oxygen demand such as propofol. Propofol is admitted to have 'neuroprotective' with a convenient pharmacokinetic for brain injured patients. Propofol has been shown to inhibit AQP4 expression increase in a rat model of ischaemia/reperfusion [37]. Such overexpression in AQP4 seems to relate to a PKC-dependent pathway [38].
+
+The reperfusion after ischaemia induces also brain lesion in relation of oxidative stress from adhering leukocytes inducing BBB damage. In animal models of ischaemia or trauma brain injury, antioxidant molecules as vitamin E analogues and ascorbic acid have been shown beneficial on these injury mechanistic components [39,40]. In the same line, inhibitors of nitric oxide synthase may also have a potential benefit on oxidative stress consequences. Other pathways are under investigation using different drugs interfering with cellular injury mechanisms. Erythropoietin hormone (EPO) has been shown capable to inhibit astrocyte swelling, AQP4 water permeability with potential tissue salvation effect [41]. EPO effects would be mediated by antagonistic properties of the group I metabotropic glutamate receptor, an upstream factor of the signalling pathway leading to increased AQP4 permeability in astrocyte. Conversely to other neuroprotective properties of EPO [42] implicating genomic regulation, this effect is rapid and is then adapted to the emergency context.As mentioned above, taurine and thrombin inhibitors may have neuroprotective effects. Inhibitors of MMP (TIMP-1 or minocycline) are potential new therapeutics but the later role of MMP in brain tissue remodelling can limit their long-term effectiveness [43]. Statin seems in animal models to have anti-NMDA, antiglutamate and anti-inflammatory effects (on calcitonin gene-related peptide and substance P), as anticalcineurin (as cyclosporin A) [44,45]. All these therapeutics have potential to limit cytotoxic or vasogenic oedema formation and then the shift of water and the sodium movement in the brain injury.
+
+## Conclusion
+
+Brain oedema has complex cellular and molecular mechanisms, which are not yet fully understood. The recent acquisition on AQP4 role and receptors agonists with consequences on water shift within compartments can be seen as potential therapeutic targets. The large use of hyperosmotic treatment seems to be inefficient on neurologic outcome in clinical trial. The investigation of new molecules or new pathways to limit neurone damage might help to protect brain tissue from secondary lesions related to ischaemia or reperfusion.
+
+## Acknowledgements
+
+The work was partially supported by a Université Paris 7 Diderot Grant, Equipe d'Accueil (EA 5309). All of the authors had neither conflict of interest nor sponsorship.
+
+## References and recommended reading
+
+Papers of particular interest, published within the annual period of review, have been highlighted as:
+
+- • of special interest
+- •• of outstanding interest
+
+Additional references related to this topic can also be found in the Current World Literature section in this issue (pp. 226–227).
+
+1. 1 Klatzo I. Evolution of brain edema concepts. *Acta Neurochir Suppl (Wien)* 1994; 60:3–6.
+2. 2 Liang D, Bhatta S, Gerzanich V, Simard JM. Cytotoxic edema: mechanisms of pathological cell swelling. *Neurosurg Focus* 2007; 22:E2.
+3. 3 Tait MJ, Saadoun S, Bell BA, Papadopoulos MC. Water movements in the brain: role of aquaporins. *Trends Neurosci* 2008; 31:37–43.
+4. 4 Papadopoulos MC, Manley GT, Krishna S, Verkman AS. Aquaporin-4 facilitates reabsorption of excess fluid in vasogenic brain edema. *Faseb J* 2004; 18:1291–1293.
+5. 5 Pasantes-Morales H, Cruz-Rangel S. Brain volume regulation: osmolytes and aquaporin perspectives. *Neuroscience* 168:871–884.
+6. The review is well documented and didactical showing the complexity of cellular mechanisms in brain oedema, but with understandable presentation.
+7. 6 Saadoun S, Papadopoulos MC. Aquaporin-4 in brain and spinal cord oedema. *Neuroscience* 2010; 168:1036–1046.
+8. Well documented and clear review on AQP4 both in brain and spinal cord oedema. Figures are well done and summarize the concepts.
+9. 7 Verkman AS. Knock-out models reveal new aquaporin functions. *Handb Exp Pharmacol* 2009; 359–381.
+10. 8 Oshio K, Watanabe H, Song Y, et al. Reduced cerebrospinal fluid production and intracranial pressure in mice lacking choroid plexus water channel Aquaporin-1. *FASEB J* 2005; 19:76–78.
+11. 9 Saadoun S, Papadopoulos MC, Hara-Chikuma M, Verkman AS. Impairment of angiogenesis and cell migration by targeted aquaporin-1 gene disruption. *Nature* 2005; 434:786–792.
+
+1. 10 Badaut J, Brunet JF, Petit JM, et al. Induction of brain aquaporin 9 (AQP9) in catecholaminergic neurons in diabetic rats. *Brain Res* 2008; 1188:17–24.
+2. 11 Badaut J, Ashwal S, Tone B, et al. Temporal and regional evolution of aquaporin-4 expression and magnetic resonance imaging in a rat pup model of neonatal stroke. *Pediatr Res* 2007; 62:248–254.
+3. 12 Badaut J, Petit JM, Brunet JF, et al. Distribution of Aquaporin 9 in the adult rat brain: preferential expression in catecholaminergic neurons and in glial cells. *Neuroscience* 2004; 128:27–38.
+4. 13 Amiry-Moghaddam M, Hoddevik EH, Ottersen OP. Aquaporins: multifarious roles in brain. *Neuroscience* 2010; 168:859–861.
+5. 14 Aoki K, Uchiyama T, Tsuchiya K, et al. Enhanced expression of aquaporin 4 in human brain with infarction. *Acta Neuropathol* 2003; 106:121–124.
+6. 15 Papadopoulos MC, Verkman AS. Aquaporin-4 and brain edema. *Pediatr Nephrol* 2007; 22:778–784.
+7. 16 Gunnarson E, Zelenina M, Axehult G, et al. Identification of a molecular target for glutamate regulation of astrocyte water permeability. *Glia* 2008; 56:587–596.
+8. 17 Vazquez-Juarez E, Hernandez-Benitez R, Lopez-Dominguez A, Pasantes-Morales H. Thrombin potentiates D-aspartate efflux from cultured astrocytes under conditions of K<sup>+</sup> homeostasis disruption. *J Neurochem* 2009; 111:1398–1408.
+9. 18 Chen B, Cheng Q, Yang K, Lyden PD. Thrombin mediates severe neurovascular injury during ischemia. *Stroke* 2010; 41:2348–2352.
+10. 19 Baechli H, Behzad M, Schreckenberg M, et al. Blood constituents trigger brain swelling, tissue death, and reduction of glucose metabolism early after acute subdural hematoma in rats. *J Cereb Blood Flow Metab* 2010; 30:576–585.
+11. This work points out the impact of blood products degradation on the evolution of hemorrhagic lesion independently from the volume, questioning the interest of a rapid surgical procedure.
+12. 20 Chen B, Cheng Q, Yang K, Lyden PD. Thrombin mediates severe neurovascular injury during ischemia. *Stroke* 41:2348–2352.
+13. 21 Donkin JJ, Vink R. Mechanisms of cerebral edema in traumatic brain injury: therapeutic developments. *Curr Opin Neurol* 2010; 23:293–299.
+14. 22 Morancho A, Rosell A, Garcia-Bonilla L, Montaner J. Metalloproteinase and stroke infarct size: role for anti-inflammatory treatment? *Ann N Y Acad Sci* 2010; 1207:123–133.
+15. 23 Zacest AC, Vink R, Manavis J, et al. Substance P immunoreactivity increases following human traumatic brain injury. *Acta Neurochir Suppl* 2010; 106:211–216.
+16. 24 Donkin JJ, Nimmo AJ, Cernak I, et al. Substance P is associated with the development of brain edema and functional deficits after traumatic brain injury. *J Cereb Blood Flow Metab* 2009; 29:1388–1398.
+17. 25 Sorani MD, Zador Z, Hurowitz E, et al. Novel variants in human Aquaporin-4 reduce cellular water permeability. *Hum Mol Genet* 2008; 17:2379–2389.
+18. 26 Kleffner I, Bungeroth M, Schifffbauer H, et al. The role of aquaporin-4 polymorphisms in the development of brain edema after middle cerebral artery occlusion. *Stroke* 2008; 39:1333–1335.
+19. 27 Ziai WC, Toung TJ, Bhardwaj A. Hypertonic saline: first-line therapy for cerebral edema? *J Neurol Sci* 2007; 261:157–166.
+20. 28 Lescot T, Degos V, Zouaoui A, et al. Opposed effects of hypertonic saline on contusions and noncontused brain tissue in patients with severe traumatic brain injury. *Crit Care Med* 2006; 34:3029–3033.
+21. 29 Elliott MB, Jallo JJ, Barbe MF, Tuma RF. Hypertonic saline attenuates tissue loss and astrocyte hypertrophy in a model of traumatic brain injury. *Brain Res* 2009; 1305:183–191.
+22. 30 Zeng HK, Wang QS, Deng YY, et al. Hypertonic saline ameliorates cerebral edema through downregulation of aquaporin-4 expression in the astrocytes. *Neuroscience* 2010; 166:878–885.
+23. 31 Zeynalov E, Chen CH, Froehner SC, et al. The perivascular pool of aquaporin-4 mediates the effect of osmotherapy in postischemic cerebral edema. *Crit Care Med* 2008; 36:2634–2640.
+24. 32 Rockswold GL, Solid CA, Paredes-Andrade E, et al. Hypertonic saline and its effect on intracranial pressure, cerebral perfusion pressure, and brain tissue oxygen. *Neurosurgery* 2009; 65:1035–1041; discussion 41–42.
+25. 33 Bulger EM, May S, Brasel KJ, et al. Out-of-hospital hypertonic resuscitation following severe traumatic brain injury: a randomized controlled trial. *J Am Med Assoc* 2010; 304:1455–1464.
+
+This recent large randomized placebo control clinical trial is the largest trial on the early use of hypertonic solution after severe trauma brain injury. Hypertonic solution did not improve the 6-month neurologic outcome nor survival rate nor incidence of later invasive procedures to manage brain injury. These results suggest that osmotherapy might only be a rescue therapy to control intracranial hypertension and oedema, before decision for more aggressive intervention.34 Jungner M, Grande PO, Mattiasson G, Bentzer P. Effects on brain edema of crystalloid and albumin fluid resuscitation after brain trauma and hemorrhage in the rat. *Anesthesiology* 2010; 112:1194–1203.
+
+35 Drummond JC. Colloid osmotic pressure and the formation of posttraumatic cerebral edema [editorial]. *Anesthesiology* 2010; 112:1079–1081.  
+A clear statement of the questions and uncertainties to demonstrate a benefit of colloids to limit cerebral oedema.
+
+36 Myburgh J, Cooper DJ, Finfer S, *et al.* Saline or albumin for fluid resuscitation in patients with traumatic brain injury. *N Engl J Med* 2007; 357:874–884.
+
+37 Zheng YY, Lan YP, Tang HF, Zhu SM. Propofol pretreatment attenuates aquaporin-4 over-expression and alleviates cerebral edema after transient focal brain ischemia reperfusion in rats. *Anesth Analg* 2008; 107:2009–2016.
+
+38 Zhu SM, Xiong XX, Zheng YY, Pan CF. Propofol inhibits aquaporin 4 expression through a protein kinase C-dependent pathway in an astrocyte model of cerebral ischemia/reoxygenation. *Anesth Analg* 2009; 109:1493–1499.
+
+39 Perez-Asensio FJ, de la Rosa X, Jimenez-Altayo F, *et al.* Antioxidant CR-6 protects against reperfusion injury after a transient episode of focal brain ischemia in rats. *J Cereb Blood Flow Metab* 2010; 30:638–652.
+
+40 Lin JL, Huang YH, Shen YC, *et al.* Ascorbic acid prevents blood-brain barrier disruption and sensory deficit caused by sustained compression of primary somatosensory cortex. *J Cereb Blood Flow Metab* 2010; 30:1121–1136.
+
+41 Gunnarson E, Song Y, Kowalewski JM, *et al.* Erythropoietin modulation of astrocyte water permeability as a component of neuroprotection. *Proc Natl Acad Sci U S A* 2009; 106:1602–1607.
+
+42 Valable S, Francony G, Bouzat P, *et al.* The impact of erythropoietin on short-term changes in phosphorylation of brain protein kinases in a rat model of traumatic brain injury. *J Cereb Blood Flow Metab* 2010; 30:361–369.
+
+43 Elgebaly MM, Prakash R, Li W, *et al.* Vascular protection in diabetic stroke: role of matrix metalloprotease-dependent vascular remodeling. *J Cereb Blood Flow Metab* 2010; 30:1928–1938.
+
+44 Cui L, Zhang X, Yang R, *et al.* Neuroprotection of early and short-time applying atorvastatin in the acute phase of cerebral ischemia: down-regulated 12/15-LOX, p38MAPK and cPLA2 expression, ameliorated BBB permeability. *Brain Res* 2010; 1325:164–173.
+
+45 Wang L, Zhang X, Liu L, *et al.* Atorvastatin protects rat brains against permanent focal ischemia and downregulates HMGB1, HMGB1 receptors (RAGE and TLR4), NF-kappaB expression. *Neurosci Lett* 2010; 471:152–156.

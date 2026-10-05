@@ -79,6 +79,72 @@ PRx, CPPopt = minimum de la courbe en U PRx/PPC (Steiner 2002, Aries 2012), COGi
 Correction : l'essai COGiTATE (faisabilité, phase II) est publié en 2021 (Tas, J Neurotrauma,
 PMID 34407385), pas en 2023 ; analyse secondaire Beqiri 2024 (Neurocrit Care, PMID 39623160).
 
+## Articles (`papers/chandra/<nom>/<nom>.md`, conversions des PDF)
+Les 4 articles sont lus en entier ; clés bib entre parenthèses. Les images `.webp` de Rosner sont
+des figures sous copyright : on s'en inspire, on ne les reproduit pas.
+
+**Payen 2007, ACSOS (`payen2007`)** → chap. 3, 15, 16
+- Définition des ACSOS : inadéquation apport/consommation d'O~2~ ; simplifiée en couple
+  DSC/CMRO~2~ ; CMRO~2~ liée à 80 % à l'activité électrique corticale.
+- ACSOS par fréquence décroissante : hypocapnie, hypotension, acidose, hypoxie, hyperglycémie,
+  hyperthermie, HTIC, hypothermie, hypercapnie, coagulopathie, épilepsie.
+- Hypocapnie profonde (PaCO~2~ < 30) chez > 80 % des patients, hypercapnie < 20 % ; corriger
+  lentement (collapsus de reventilation) ; hyperventilation seulement brève et monitorée
+  (`muizelaar1991` : hyperventilation prolongée délétère, PaCO~2~ 25 vs 35).
+- Osmolarité : ↓ 1 mOsm/L → gradient transcapillaire de 19,3 mmHg ; natrémie = déterminant
+  principal → bon chiffre pédagogique (chap. 2, 19).
+- Coagulopathie/AAP/AC aggravent les contusions → réversion précoce.
+- Hypotension : Payen écrit « multiplie la mortalité par dix » ; la source primaire
+  (`chesnut1993`, 717 patients TCDB) dit hypotension (PAS < 90) chez 34,6 %, +150 % de mortalité.
+  Citer Chesnut pour le chiffre.
+- Cibles RPC 1998 : PAS > 90 préhosp., SpO~2~ > 90 %, PaO~2~ > 60, PaCO~2~ 35–40, PPC > 70.
+  **PPC > 70 est historique** (BTF 2016 : 60–70 ; Robertson 1999) : ne pas reprendre comme cible.
+- Arbre décisionnel multimodal (Fig. 1, déjà en Mermaid dans le .md) : base possible de
+  l'algorithme Mermaid du chap. 16 (stable ? → sédation/restriction, sinon DTC, SvjO~2~, PIC/PPC,
+  capnie, EEG, bilan hydrique → correction ciblée → TDM → chirurgie ?).
+- Filière : centre avec neurochirurgie = mortalité divisée par 2, même non opérés (Patel 2005) ;
+  SvjO~2~ = alarme plus précoce que la mydriase ; DTC = triage précoce (Jaffres 2005).
+
+**Rosner 1995, PPC (`rosner1995`)** → chap. 2, 15 (encadré Lund vs Rosner)
+- Cascade vasodilatatrice (↓PPC → vasodilatation autorégulatrice → ↑VSC → ↑PIC → ↓PPC) et
+  vasoconstrictrice (↑PPC → vasoconstriction → ↓VSC → ↓PIC) : schéma à refaire nous-mêmes
+  (chap. 2/15), cohérent avec le « V » d'induction du transcript 1.
+- 158 TC GCS ≤ 7 ; PPC ≥ 70 (cible 80–90+ si PIC plus basse à PPC haute ou ondes A/B) ;
+  PPC moyenne 83, PIC 27 ; mortalité 29 % vs TCDB ; pas de barbituriques, ni hyperventilation,
+  ni hypothermie, ni craniectomie.
+- Relation PIC/PPC en U (minimum de PIC ≈ 85–90 mmHg chez un patient, 112 sur le groupe) :
+  précurseur de l'idée de PPC optimale (lien avec PRx/CPPopt, figure `prx-cppopt`).
+- Capteurs PA et PIC zérotés au **conduit auditif externe** : point de technique pour chap. 5.
+- Mannitol 0,5–1 g/kg en 10–20 min, utilisé comme expanseur/rhéologique, diurèse compensée.
+- Éléments historiques à **ne pas** reprendre : tête à plat, dopamine « rénale », albumine,
+  hypervolémie modérée (PCP 12–15), PPC ≥ 70 systématique (cf. Robertson 1999 : SDRA ×5).
+
+**Eker 1998, concept de Lund (`eker1998`)** → chap. 15 (encadré)
+- Étude non randomisée, contrôles historiques : 53 TC GCS < 8, PIC > 25 malgré traitement ;
+  mortalité 8 % vs 47 % (1982–86). Biais à souligner aux internes.
+- Principes : ↓ pression hydrostatique capillaire (métoprolol 0,2–0,3 mg/kg/24 h + clonidine
+  0,4–0,8 µg/kg × 4–6/j), pression oncotique normale (albumine ~40 g/L, Hb 125–140 g/L),
+  bilan hydrique neutre ou négatif (furosémide), ↓ VSC (thiopental faible dose 0,5–3 mg/kg/h,
+  dihydroergotamine dégressive sur 5 j), PPC 60–70 (50 toléré adulte, 40 enfant), pas de DVE
+  continue en phase aiguë, nutrition entérale 15–20 kcal/kg/j.
+- Critique du conventionnel : hyperventilation, mannitol répété (rebond), thiopental fort,
+  vasopresseurs (stress catécholaminergique, microcirculation).
+- Albumine contredite depuis par SAFE-TBI (`myburgh2007`) ; DHE : historique.
+
+**Lukaszewicz 2011, eau et cerveau lésé (`lukaszewicz2011`)** → chap. 2, 3, 4, 19
+- Volumes : contenu intracrânien 1,4 L = parenchyme 1,2 L + sang 100 mL + LCS 100 mL ; eau
+  surtout intracellulaire (1,1 L), interstitium 100 mL → chiffres pour Monro-Kellie (chap. 2).
+- Œdème cytotoxique (BHE intacte, panne Na/K-ATPase, astrocytes surtout, ↓ ADC en IRM) vs
+  vasogénique (BHE rompue, gradient hydrostatique, ↑ ADC) ; les deux coexistent (ischémie :
+  cytotoxique puis vasogénique). Pas de lymphatique cérébral (texte de 2011, avant la
+  description du système glymphatique/lymphatique méningé : formuler prudemment).
+- Aquaporines : AQP4 (pieds astrocytaires), AQP1 (plexus choroïdes, LCS), AQP9 (neurones) ;
+  rôle encore débattu → un « Pour aller plus loin » au plus.
+- Osmothérapie : agit surtout sur le cerveau sain à BHE intacte ; SSH augmente le volume des
+  contusions et réduit celui du tissu sain (`lescot2006`) ; SSH préhospitalier sans bénéfice
+  (`bulger2010`) → osmothérapie = traitement de sauvetage de l'HTIC, pas prophylactique.
+- Albumine : SAFE-TBI, surmortalité si GCS 3–8.
+
 ## Protocoles locaux (`protocoles/*.qmd`)
 
 | Fichier | Points clés | Chap. |

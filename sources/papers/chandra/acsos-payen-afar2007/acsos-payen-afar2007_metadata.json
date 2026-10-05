@@ -1,0 +1,69 @@
+{
+  "file_name": "acsos-payen-afar2007.pdf",
+  "num_pages": 5,
+  "total_token_count": 9722,
+  "total_chunks": 65,
+  "total_images": 0,
+  "pages": [
+    {
+      "page_num": 0,
+      "page_box": [
+        0,
+        0,
+        1587,
+        2118
+      ],
+      "token_count": 2103,
+      "num_chunks": 28,
+      "num_images": 0
+    },
+    {
+      "page_num": 1,
+      "page_box": [
+        0,
+        0,
+        1587,
+        2118
+      ],
+      "token_count": 2176,
+      "num_chunks": 13,
+      "num_images": 0
+    },
+    {
+      "page_num": 2,
+      "page_box": [
+        0,
+        0,
+        1587,
+        2118
+      ],
+      "token_count": 1846,
+      "num_chunks": 8,
+      "num_images": 0
+    },
+    {
+      "page_num": 3,
+      "page_box": [
+        0,
+        0,
+        1587,
+        2118
+      ],
+      "token_count": 1993,
+      "num_chunks": 13,
+      "num_images": 0
+    },
+    {
+      "page_num": 4,
+      "page_box": [
+        0,
+        0,
+        1587,
+        2118
+      ],
+      "token_count": 1604,
+      "num_chunks": 3,
+      "num_images": 0
+    }
+  ]
+}

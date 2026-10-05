@@ -1,0 +1,81 @@
+{
+  "file_name": "water_brain_injury-lukaszewicz-coanesth2011.pdf",
+  "num_pages": 6,
+  "total_token_count": 11051,
+  "total_chunks": 74,
+  "total_images": 0,
+  "pages": [
+    {
+      "page_num": 0,
+      "page_box": [
+        0,
+        0,
+        1566,
+        2086
+      ],
+      "token_count": 1772,
+      "num_chunks": 23,
+      "num_images": 0
+    },
+    {
+      "page_num": 1,
+      "page_box": [
+        0,
+        0,
+        1566,
+        2086
+      ],
+      "token_count": 1474,
+      "num_chunks": 12,
+      "num_images": 0
+    },
+    {
+      "page_num": 2,
+      "page_box": [
+        0,
+        0,
+        1566,
+        2086
+      ],
+      "token_count": 1695,
+      "num_chunks": 11,
+      "num_images": 0
+    },
+    {
+      "page_num": 3,
+      "page_box": [
+        0,
+        0,
+        1566,
+        2086
+      ],
+      "token_count": 1601,
+      "num_chunks": 11,
+      "num_images": 0
+    },
+    {
+      "page_num": 4,
+      "page_box": [
+        0,
+        0,
+        1566,
+        2086
+      ],
+      "token_count": 3367,
+      "num_chunks": 14,
+      "num_images": 0
+    },
+    {
+      "page_num": 5,
+      "page_box": [
+        0,
+        0,
+        1566,
+        2086
+      ],
+      "token_count": 1142,
+      "num_chunks": 3,
+      "num_images": 0
+    }
+  ]
+}

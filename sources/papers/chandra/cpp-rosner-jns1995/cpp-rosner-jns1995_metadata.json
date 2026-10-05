@@ -1,0 +1,177 @@
+{
+  "file_name": "cpp-rosner-jns1995.pdf",
+  "num_pages": 14,
+  "total_token_count": 38790,
+  "total_chunks": 219,
+  "total_images": 3,
+  "pages": [
+    {
+      "page_num": 0,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 1865,
+      "num_chunks": 18,
+      "num_images": 0
+    },
+    {
+      "page_num": 1,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 1881,
+      "num_chunks": 13,
+      "num_images": 1
+    },
+    {
+      "page_num": 2,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 2746,
+      "num_chunks": 18,
+      "num_images": 0
+    },
+    {
+      "page_num": 3,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 3153,
+      "num_chunks": 21,
+      "num_images": 0
+    },
+    {
+      "page_num": 4,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 3394,
+      "num_chunks": 28,
+      "num_images": 0
+    },
+    {
+      "page_num": 5,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 2892,
+      "num_chunks": 18,
+      "num_images": 1
+    },
+    {
+      "page_num": 6,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 1875,
+      "num_chunks": 18,
+      "num_images": 1
+    },
+    {
+      "page_num": 7,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 4769,
+      "num_chunks": 12,
+      "num_images": 0
+    },
+    {
+      "page_num": 8,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 3822,
+      "num_chunks": 12,
+      "num_images": 0
+    },
+    {
+      "page_num": 9,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 2888,
+      "num_chunks": 20,
+      "num_images": 0
+    },
+    {
+      "page_num": 10,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 2105,
+      "num_chunks": 16,
+      "num_images": 0
+    },
+    {
+      "page_num": 11,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 3029,
+      "num_chunks": 13,
+      "num_images": 0
+    },
+    {
+      "page_num": 12,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 3069,
+      "num_chunks": 4,
+      "num_images": 0
+    },
+    {
+      "page_num": 13,
+      "page_box": [
+        0,
+        0,
+        1560,
+        2088
+      ],
+      "token_count": 1302,
+      "num_chunks": 8,
+      "num_images": 0
+    }
+  ]
+}
