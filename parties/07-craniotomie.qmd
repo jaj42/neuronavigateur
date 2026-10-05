@@ -1,11 +1,375 @@
 # Craniotomie programmée {#sec-craniotomie}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Énoncer les deux objectifs de la neuro-anesthésie programmée : la détente cérébrale et la
+  protection cérébrale.
+- Installer le patient pour une longue intervention sans gêner le retour veineux cérébral.
+- Conduire une induction et un entretien sans à-coup de pression artérielle ni de capnie, avec
+  les cibles du service.
+- Réagir devant un cerveau tendu à l'ouverture de la dure-mère, dans le bon ordre.
+- Organiser un réveil rapide, calme et examinable, et reconnaître un réveil anormal.
 :::
 
-*Chapitre en cours de rédaction.*
+## Deux objectifs
+
+Une craniotomie programmée est une chirurgie longue, sur un organe sans réserve énergétique,
+enfermé dans une boîte rigide. L'anesthésiste y poursuit deux objectifs, qui découlent
+directement de la physiologie (@sec-physiologie) :
+
+1. **La détente cérébrale.** Un cerveau détendu facilite l'exposition, réduit la pression des
+   écarteurs sur le cortex et protège le cerveau à l'ouverture de la dure-mère. Elle s'obtient
+   en jouant sur les trois volumes de Monro-Kellie : le sang (veineux et artériel), l'eau du
+   parenchyme et le LCS.
+2. **La protection cérébrale.** Baisser la CMRO~2~ par l'anesthésie et, surtout, éviter les
+   agressions secondaires d'origine systémique, les ACSOS (@sec-physiopathologie) :
+   hypotension, hypoxémie, hypo- ou hypercapnie, anémie, dysnatrémie, hyperglycémie,
+   hyperthermie.
+
+S'y ajoute un objectif pratique : **réveiller vite** un patient calme, capable d'être examiné,
+parce que l'examen neurologique au réveil est le premier monitorage postopératoire.
+
+## L'installation
+
+L'installation se définit avant l'intervention, avec le chirurgien (@sec-preop). Une fois les
+champs posés, la tête et souvent les bras sont inaccessibles pour plusieurs heures : ce qui
+n'est pas fait avant ne sera pas fait.
+
+- **La têtière à pointes** (type Mayfield) est un stimulus douloureux intense, comparable à
+  l'incision. Anticipez : approfondissement de l'anesthésie ou bolus de rémifentanil, voire
+  infiltration des points de fixation par le chirurgien. Une poussée hypertensive à ce moment
+  augmente le volume sanguin cérébral et, chez un patient à compliance basse, la PIC.
+- **Le retour veineux cérébral** doit rester libre : pas de flexion ni de rotation excessive du
+  cou, qui écrasent les jugulaires ; pas de lien de sonde trop serré autour du cou. Une
+  **légère surélévation de la tête** aide le drainage veineux.
+- **La proclive marquée** (chirurgie de la charnière craniocervicale, lésion parasagittale,
+  position assise) expose à l'**embolie gazeuse** par les sinus veineux ouverts et à une
+  hypovolémie relative. Ces situations sont traitées au @sec-fosse-posterieure.
+- **Points d'appui et étirements** : vérifiez chaque point d'appui, le plexus brachial (épaule
+  tirée vers le bas en décubitus latéral ou pour une voie rétrosigmoïde), la liberté de la
+  langue (une flexion forte de la tête avec une canule de Guedel ou une sonde volumineuse
+  peut donner une macroglossie postopératoire).
+- **Les yeux** : occlusion palpébrale par bandes adhésives dès la perte du réflexe ciliaire ;
+  pour la chirurgie de la tête, gel aqueux sans conservateur en plus, pas de pommade grasse ;
+  aucun appui sur le globe, en particulier en décubitus ventral [@sfar_oeil2016].
+- **La sonde d'intubation** est fixée solidement, le circuit vérifié, les perfusions et leurs
+  robinets accessibles par des prolongateurs : vous ne les verrez plus.
+
+## Le monitorage
+
+Le monitorage a été décidé en consultation (@sec-preop, @sec-monitorage). Pour une craniotomie
+réglée : ECG 5 brins, deux voies veineuses de bon calibre, **cathéter artériel** posé avant ou
+juste après l'induction selon la compliance, index EEG (BIS ou PSI) du côté opposé à la lésion,
+sonde urinaire si l'intervention est longue ou si une polyurie est attendue, température. On y
+ajoute selon le patient un monitorage du débit cardiaque [@sfar_hemodynamique2024], un cathéter
+central, le NIM ou les potentiels évoqués moteurs.
+
+Posez le capteur de pression artérielle au même niveau que le reste du monitorage et notez sa
+hauteur : en proclive, c'est la pression **au niveau du cerveau** (conduit auditif externe) qui
+compte pour la perfusion cérébrale, et elle est plus basse qu'au niveau du cœur.
+
+Faites un **gaz du sang** tôt, une fois la ventilation stable : il donne le **gradient
+PaCO~2~-EtCO~2~** du patient, qui peut atteindre 5 à 10 mmHg chez le sujet âgé, le fumeur ou en
+décubitus latéral. Sans lui, l'EtCO~2~ ne dit pas la capnie réelle.
+
+## L'induction
+
+L'induction est le premier moment à risque : elle cumule une chute de PAM (hypnotique), une
+hausse de PAM (laryngoscopie) et une variation de capnie, chez un patient dont la compliance
+est parfois basse (@sec-physiologie).
+
+- **Propofol en AIVOC** et **rémifentanil en AIVOC**, titrés pour éviter le « V » tensionnel :
+  une chute de PAM fait monter la PIC par vasodilatation autorégulatrice, une poussée
+  hypertensive à la laryngoscopie aussi. Vasopresseur prêt (éphédrine, phényléphrine,
+  noradrénaline en seringue si le terrain le justifie).
+- **Curare** à l'induction pour l'intubation ; pas de réinjection si un NIM ou des PEM sont
+  prévus (@sec-pharmacologie). Train de quatre du côté sain en cas de déficit.
+- **Ventilation** dès la perte de conscience : pas d'apnée prolongée, pas d'hypercapnie.
+- **Dexaméthasone 8 mg**, sauf suspicion de lymphome (@sec-preop).
+- **Antibioprophylaxie** : céfazoline **2 g IV**, au plus tôt 60 minutes avant et au plus tard
+  avant l'incision, réinjection de **1 g** si l'intervention dure plus de 4 heures, puis toutes
+  les 4 heures, pas de prolongation après la fin de l'intervention. En cas d'allergie aux
+  bêtalactamines : clindamycine 900 mg IV. Une biopsie cérébrale ne justifie pas
+  d'antibioprophylaxie [@sfar_atb2023].
+- **Acide tranexamique** 15 mg/kg si le risque hémorragique est élevé, renouvelé à la
+  quatrième heure si le saignement persiste (@sec-preop).
+
+## L'entretien
+
+### Les agents
+
+L'anesthésie intraveineuse totale par **propofol et rémifentanil en AIVOC** est le choix de
+première intention : elle baisse la CMRO~2~ et le DSC, respecte l'autorégulation et la réactivité
+au CO~2~, prévient les crises et les nausées, et permet un réveil rapide
+(@sec-pharmacologie). Le sévoflurane reste possible jusqu'à 1 MAC chez un patient sans HTIC ;
+à l'ouverture, il donne un cerveau un peu plus tendu que le propofol [@petersen2003]. Le
+protoxyde d'azote n'a pas sa place. La profondeur se guide sur l'index EEG, qui permet aussi
+d'approfondir l'anesthésie en cas de rupture vasculaire ou d'HTIC peropératoire.
+
+### Les cibles
+
+| Paramètre | Cible du service | Commentaire |
+|---|----|------|
+| PAM | **80 à 90 % de la PAM préopératoire** | Mesurée au niveau du cerveau en proclive ; noradrénaline plutôt que remplissage excessif |
+| PaCO~2~ | **36 à 38 mmHg** | Contrôlée par gaz du sang (gradient PaCO~2~-EtCO~2~) ; légère hypocapnie pour la détente |
+| Oxygénation | SpO~2~ ≥ 95 %, PaO~2~ normale | Pas d'hyperoxie inutile |
+| Hémoglobine | Selon la tolérance | Pertes sous-estimées : HemoCue ou gaz du sang si saignement |
+| Natrémie | Stable, normale ; **140 à 145 mmol/L** si diabète insipide | Pas de soluté hypotonique |
+| Glycémie | 5 à 10 mmol/L | Sous corticoïdes, contrôle peropératoire |
+| Température | **35,5 à 37 °C** | Au-dessous de 35,5 °C, l'hémostase se dégrade ; pas d'hyperthermie |
+
+: Cibles peropératoires de la craniotomie programmée (protocole local) {#tbl-cibles-craniotomie}
+
+<!-- TODO-VALIDER : le protocole craniotomie écrit « objectif 80-90% PAM pré opératoire » ; RFE SFAR 2024 : PAM > 90 % de la valeur habituelle ou > 70 mmHg chez l'hypertendu chronique, PAM ≥ 60–70 mmHg sinon. Seuil bas à préciser (A_VALIDER n° 17). -->
+<!-- TODO-VALIDER : natrémie cible « 140-145 mmHg » corrigée en mmol/L (A_VALIDER n° 1). -->
+
+::: {.callout-note title="Ce que disent les recommandations"}
+**Pression artérielle** [@sfar_hemodynamique2024]. Il est probablement recommandé d'éviter une
+PAM peropératoire inférieure à 60–70 mmHg chez le patient non hypertendu (GRADE 2+, accord
+fort). Chez l'hypertendu chronique, les experts suggèrent de cibler une PAM supérieure à 90 % de
+sa valeur habituelle, ou supérieure à 70 mmHg (avis d'experts). Ces chiffres sont des
+**planchers** pour la chirurgie en général ; en neurochirurgie, la PPC dépend aussi de la PIC et
+du niveau du capteur.
+
+**Solutés** [@sfar_solutes2021]. Chez le patient cérébrolésé, il est probablement recommandé
+d'utiliser des **cristalloïdes isotoniques** en première intention (GRADE 2+) ; les solutés
+hypotoniques (moins de 280 mOsm/L) sont à éviter. Les experts ne tranchent pas entre NaCl 0,9 %
+et solutés équilibrés isotoniques ; ces derniers réduisent l'hyperchlorémie.
+:::
+
+### Les solutés
+
+En chirurgie programmée, le protocole local recommande des **apports balancés**, pour éviter
+l'hyperchlorémie que donnent les grands volumes de NaCl 0,9 %. Attention au mot « balancé » :
+le **Ringer lactate** est un soluté équilibré, mais **hypotonique** (moins de 280 mOsm/L). Il fait entrer l'eau dans le cerveau là où la BHE est intacte et a été
+associé à une surmortalité chez le traumatisé crânien [@sfar_solutes2021]. Le soluté de base est
+donc un **cristalloïde équilibré isotonique** (type Plasmalyte ou Isofundine), ou du NaCl 0,9 %.
+Pas de glucosé hors besoin précis, pas d'albumine.
+
+<!-- TODO-VALIDER : le protocole dit « apports balancés » sans préciser ; le Ringer lactate est hypotonique (< 280 mOsm/L) et déconseillé chez le cérébrolésé (RFE solutés 2021). Le livre recommande un équilibré isotonique (A_VALIDER n° 16). -->
+
+### Le saignement
+
+Les pertes sanguines sont **sous-estimées** : le sang part dans les champs et l'aspiration,
+mélangé au sérum de lavage, et l'hémoconcentration fréquente (osmothérapie, diurèse) masque
+l'anémie. Surveillez la tolérance hémodynamique, mesurez l'hémoglobine (HemoCue, gaz du sang)
+dès que le saignement est notable, et prévenez le chirurgien d'une tendance hémorragique
+diffuse (hypothermie, dilution, fibrinogène bas).
+
+## La détente cérébrale
+
+### Les moyens
+
+Chaque levier agit sur l'un des trois volumes intracrâniens :
+
+- **Le sang veineux** : tête légèrement surélevée, cou dans l'axe, jugulaires libres ; pas de
+  pression expiratoire positive excessive ; pas de toux sur la sonde (profondeur suffisante,
+  curarisation si elle est permise).
+- **Le sang artériel** : PAM dans la cible (ni trop basse, qui dilate par autorégulation, ni
+  trop haute) ; capnie contrôlée ; anesthésie intraveineuse plutôt qu'halogénée ; profondeur
+  suffisante (le propofol baisse le DSC en proportion de la CMRO~2~).
+- **L'eau** : osmothérapie. Le protocole local privilégie le **sérum salé hypertonique**
+  (3 ampoules de NaCl 20 % dans 100 mL de NaCl 0,9 %, en 15 min), qui évite la polyurie
+  osmotique du mannitol ; sinon, **mannitol 20 % 150 à 250 mL** (@sec-pharmacologie). Pour la
+  détente cérébrale, le SSH donne un peu moins de cerveaux tendus que le mannitol, dans des
+  essais de qualité modeste et sans différence démontrée sur le devenir
+  [@prabhakar2014; @menegazdealmeida2024].
+- **Le LCS** : c'est le chirurgien qui agit, par un drainage lombaire ou ventriculaire externe
+  posé en début d'intervention, ou par la ponction d'un ventricule ou l'ouverture d'une
+  citerne.
+
+<!-- TODO-VALIDER : SSH « NaCl 6 g » (craniotomie) vs « env 7 g » (htic) ; mannitol « 15-200 ml » lu 150–250 mL (A_VALIDER n° 2 et 3). -->
+
+L'**hyperventilation** est le levier le plus rapide. Dans un essai randomisé croisé de
+275 craniotomies pour tumeur sus-tentorielle, une PaCO~2~ de 25 mmHg améliorait la détente
+jugée par le chirurgien par rapport à 37 mmHg (8 patients à hyperventiler pour en détendre un)
+et baissait la PIC sous-durale de 16 à 12 mmHg [@gelb2008]. Mais l'hypocapnie vasoconstricte
+aussi le cerveau sain et le tissu péri-lésionnel, dont la perfusion est déjà précaire
+(@sec-physiologie). Elle se réserve donc à une **courte durée**, le temps d'agir sur la cause.
+
+### Devant un cerveau tendu
+
+Le chirurgien ouvre la dure-mère et le cerveau bombe. Avant tout médicament, cherchez une cause
+simple, dans cet ordre :
+
+1. **La tête** : flexion, rotation, lien de sonde, billot. Un réajustement de quelques degrés
+   suffit parfois.
+2. **La capnie** : gaz du sang. Un filtre encombré, une sonde coudée ou un bronchospasme
+   donnent une hypercapnie que l'EtCO~2~ ne montre pas toujours.
+3. **La pression artérielle** : une hypotension (vasodilatation autorégulatrice) comme une
+   hypertension (hyperhémie) peuvent faire gonfler le cerveau.
+4. **L'anesthésie** : trop légère (index EEG élevé), ou halogénée : passez en tout intraveineux,
+   approfondissez le propofol. Pas de toux, pas d'effort contre le respirateur.
+5. **L'oxygénation et la pression des voies aériennes** : hypoxémie, PEP élevée, pression de
+   plateau haute.
+6. **L'osmothérapie** : SSH ou mannitol en 15 min ; effet en 10 à 15 min.
+7. **Une hyperventilation brève** (PaCO~2~ 30 à 35 mmHg), en relais, pendant que le reste agit.
+8. **Le chirurgien** : drainage du LCS, et parfois une cause chirurgicale (hématome
+   controlatéral ou à distance, gonflement aigu) qui impose une imagerie ou une
+   décompression.
+
+::: {.callout-warning title="Piège"}
+Un cerveau qui gonfle brutalement en cours d'intervention, sans cause anesthésique, peut
+signer un **hématome à distance** (controlatéral, sous la têtière, dans le lit d'une biopsie
+antérieure) ou une **thrombose veineuse**. Dites-le au chirurgien : l'osmothérapie gagne du
+temps, mais seule l'imagerie fera le diagnostic.
+:::
+
+## Le réveil
+
+### Un réveil rapide et calme
+
+L'objectif est un patient **extubé en salle, calme, normotherme, normocapnique**, qui obéit aux
+ordres et peut être examiné. Le rémifentanil le permet, à condition d'avoir anticipé
+l'analgésie (voir plus loin). Les conditions d'un réveil rapide : pas d'hypothermie, pas de
+curarisation résiduelle (monitorage, décurarisation), pas de surdosage en propofol sur une
+intervention très longue.
+
+### La pression artérielle au réveil
+
+Le réveil s'accompagne volontiers d'une **poussée hypertensive** (douleur, toux, sonde, frissons,
+vessie pleine). Or l'hématome du lit opératoire est la complication la plus grave de la
+craniotomie, et il est associé à l'hypertension : dans une étude cas-témoins, 62 % des patients
+qui ont saigné avaient été hypertendus (≥ 160/90 mmHg) dans les 12 premières heures, contre 25 %
+des témoins [@basali2000]. Il faut donc :
+
+- traiter la cause (douleur, vessie, frissons) ;
+- extuber **sans toux** : aspiration sous anesthésie, rémifentanil maintenu à faible dose
+  jusqu'à l'extubation ;
+- titrer un antihypertenseur (urapidil, nicardipine) si la cause est traitée et la pression
+  reste haute, selon la cible fixée avec le chirurgien.
+
+### Le réveil anormal
+
+Un patient qui ne se réveille pas, ou se réveille avec un nouveau déficit, impose une démarche
+rapide :
+
+1. éliminer une cause **anesthésique** : curarisation résiduelle, surdosage, hypothermie ;
+2. éliminer une cause **systémique** : hypoxémie, hypercapnie, hypoglycémie, hyponatrémie,
+   hypotension ;
+3. penser à une **crise non convulsive** (regard dévié, clonies discrètes) : EEG si possible ;
+4. sinon, **scanner cérébral sans délai** : hématome, œdème, pneumocéphalie compressive,
+   ischémie, hydrocéphalie.
+
+Un déficit **attendu** (chirurgie au contact d'une zone fonctionnelle) se compare à l'examen
+préopératoire tracé dans le dossier : d'où l'importance de cet examen (@sec-preop).
+
+## Nausées, vomissements et douleur
+
+### Les nausées et vomissements
+
+Ils sont fréquents après une craniotomie, surtout après une chirurgie de la **fosse postérieure**,
+du cervelet ou des ventricules, et ils sont dangereux : un effort de vomissement fait monter la
+PIC et la pression artérielle. Le protocole local associe, chez les patients à risque :
+
+- **dexaméthasone 8 mg** à l'induction (déjà donnée le plus souvent) ;
+- **ondansétron 4 mg** en fin d'intervention ;
+- **dropéridol 0,625 mg** en plus pour la fosse postérieure.
+
+L'association de plusieurs antiémétiques est plus efficace chez le patient à risque élevé
+[@sfar_nvpo2007]. L'anesthésie au propofol est elle-même antiémétique.
+
+### La douleur
+
+La douleur après craniotomie est plus fréquente qu'on ne le croit : jusqu'aux deux tiers des
+patients ont une douleur modérée à sévère [@guilfoyle2013], surtout après un abord
+sous-occipital ou temporal, qui traverse les muscles. Le protocole local :
+
+- **paracétamol** systématique ;
+- **morphine 0,1 mg/kg** en fin d'intervention en relais du rémifentanil, puis morphine
+  intraveineuse titrée et relais per os ;
+- **kétamine** à faible dose pour les interventions longues ou douloureuses, pour prévenir
+  l'hyperalgésie au rémifentanil [@sfar_douleur2016] ;
+- **dexaméthasone 8 mg**, qui réduit aussi la douleur postopératoire [@sfar_douleur2016] ;
+- **AINS** possibles sur une courte durée (48 à 72 h), selon le terrain, en l'absence
+  d'instabilité peropératoire et après accord du chirurgien sur le risque hémorragique ;
+- **néfopam** : il abaisse le seuil épileptogène ; à éviter s'il existe un risque épileptique
+  (lésion corticale, épilepsie connue).
+
+<!-- TODO-VALIDER : néfopam « possible si absence de risque d'épilepsie » (craniotomie) vs « éviction » (epilepsie_sspi) ; dropéridol 0,625 mg (A_VALIDER n° 13). -->
+
+Le **bloc du scalp** ou l'infiltration de la cicatrice par un anesthésique local réduit la douleur
+des premières heures et la consommation de morphiniques [@guilfoyle2013] : demandez au
+chirurgien d'infiltrer avant l'incision ou à la fermeture.
+
+::: {.callout-tip title="Astuce"}
+L'opioïde n'est pas l'ennemi de l'examen neurologique : un patient douloureux et agité est
+hypertendu, s'examine mal et saigne plus. Titrez la morphine, par petits bolus, chez un patient
+réveillé et surveillé.
+:::
+
+## Après le bloc
+
+- **Lieu** : USC de neurochirurgie (Chippault) pour toute craniotomie ; réveil en SSPI si la
+  chirurgie a été compliquée ou a duré plus de 6 heures.
+- **Surveillance** : score de Glasgow, pupilles et déficit, à intervalles fixés ; pression
+  artérielle ; diurèse, natrémie et densité urinaire si la lésion est proche de l'hypophyse
+  (diabète insipide, @sec-base-du-crane) ; glycémie sous corticoïdes.
+- **Complications à connaître** : hématome du lit opératoire (le plus souvent dans les
+  premières heures), crise d'épilepsie, œdème, pneumocéphalie, troubles de la natrémie
+  (@sec-dysnatremies-dve). Toute aggravation neurologique conduit au scanner.
+- **Thrombose** : compression pneumatique intermittente, puis **HBPM préventive à H24** si le
+  contrôle neurochirurgical le permet [@gihp_mtev2024].
+- **Corticoïdes** : décroissance prescrite par le neurochirurgien.
+- **Antiépileptiques** : poursuivis, sans interruption.
+
+## Cas clinique
+
+Un homme de 58 ans, 85 kg, hypertendu traité (PA habituelle 145/85 mmHg, PAM ≈ 105 mmHg), est
+opéré d'une métastase pariétale droite de 4 cm avec un œdème péritumoral et une déviation de la
+ligne médiane de 6 mm. Il est sous dexaméthasone depuis une semaine et n'a jamais fait de crise.
+L'intervention est prévue en décubitus latéral gauche, tête fixée en têtière à pointes.
+
+1. Quelle PAM visez-vous pendant l'intervention ?
+2. À la pose de la têtière, la PA monte à 190/110 mmHg. Pourquoi est-ce gênant chez ce patient,
+   et comment l'éviter ?
+3. À l'ouverture de la dure-mère, le cerveau bombe. L'EtCO~2~ est à 33 mmHg. Que faites-vous ?
+4. L'intervention se termine après 4 h 30 ; avez-vous oublié quelque chose ?
+5. À l'extubation, le patient tousse et la PA atteint 180/100 mmHg. Quel est le risque, et que
+   faites-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Il est hypertendu chronique : PAM d'au moins 90 % de la valeur habituelle, soit **au moins
+   95 mmHg** environ [@sfar_hemodynamique2024], ce qui correspond au haut de la cible du service
+   (80 à 90 % de la PAM préopératoire). La PAM se lit avec le capteur au niveau de la tête.
+   Noradrénaline plutôt que remplissage pour la tenir.
+2. La compliance est basse (masse, œdème, déviation) : la poussée hypertensive augmente le
+   volume sanguin cérébral et la PIC, avant même l'ouverture. Il faut approfondir l'anesthésie
+   (bolus de rémifentanil, hausse de la cible) avant la pose, et demander une infiltration des
+   points de fixation.
+3. Ne pas se fier à l'EtCO~2~ : gaz du sang (le gradient peut être de 5 à 10 mmHg en décubitus
+   latéral, la PaCO~2~ peut être à 40). Vérifier la tête et les jugulaires, la PAM, la profondeur
+   d'anesthésie (pas d'halogéné), l'oxygénation et la pression des voies aériennes. Puis SSH en
+   15 min (ou mannitol), et une hyperventilation brève en relais.
+4. La **réinjection de céfazoline** : 1 g à la quatrième heure [@sfar_atb2023]. Et l'acide
+   tranexamique à H4 si le saignement persiste.
+5. Risque d'**hématome du lit opératoire**, associé à l'hypertension périopératoire
+   [@basali2000]. Traiter la cause (toux, douleur, vessie), titrer urapidil ou nicardipine,
+   puis examen neurologique ; tout déficit nouveau conduit au scanner.
+:::
+
+## Fiche pratique
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Détente cérébrale ; protection cérébrale (pas d'ACSOS) ; réveil rapide, calme et examinable |
+| Monitorage | ECG 5 brins, 2 VVP, cathéter artériel (capteur au niveau de la tête en proclive), BIS/PSI controlatéral, température, sonde urinaire si longue ; gaz du sang précoce (gradient PaCO~2~-EtCO~2~) ; débit cardiaque, KTC, NIM/PEM selon le patient |
+| Induction et entretien | Propofol + rémifentanil en AIVOC ; sévoflurane ≤ 1 MAC seulement sans HTIC ; pas de N~2~O ; curare à l'induction (pas de réinjection si NIM/PEM) ; dexaméthasone 8 mg ; céfazoline 2 g avant l'incision, 1 g toutes les 4 h ; acide tranexamique 15 mg/kg si hémorragique ; bolus avant la têtière à pointes ; cristalloïde isotonique (pas de Ringer lactate) |
+| Cibles | PAM 80–90 % de la PAM préop (≥ 90 % de l'habituelle chez l'hypertendu) ; PaCO~2~ 36–38 mmHg ; SpO~2~ ≥ 95 % ; natrémie stable (140–145 mmol/L si DI) ; glycémie 5–10 mmol/L ; T 35,5–37 °C |
+| Pièges | Jugulaires comprimées ; EtCO~2~ prise pour la PaCO~2~ ; Ringer lactate ; réinjection d'antibiotique oubliée ; pertes sanguines sous-estimées ; cerveau tendu traité par osmothérapie sans chercher la cause simple ; toux et HTA au réveil |
+| Post-opératoire | USC de neurochirurgie (Chippault), SSPI si > 6 h ou compliquée ; examen neuro répété, tout déficit nouveau = scanner ; PA contrôlée ; NVPO : dexaméthasone, ondansétron, dropéridol si fosse postérieure ; paracétamol, morphine titrée, kétamine, AINS courts si accord ; néfopam évité si risque épileptique ; HBPM à H24 |
+
+: Fiche pratique : craniotomie programmée {#tbl-fiche-craniotomie}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- Deux objectifs : détente cérébrale et protection cérébrale ; un troisième : réveiller vite.
+- Installation : jugulaires libres, tête légèrement surélevée, yeux protégés, tout vérifié
+  avant les champs.
+- Propofol et rémifentanil en AIVOC ; pas de N~2~O ; sévoflurane ≤ 1 MAC sans HTIC.
+- PaCO~2~ 36–38 mmHg contrôlée par gaz du sang ; PAM 80–90 % de la préopératoire.
+- Céfazoline 2 g avant l'incision, 1 g toutes les 4 h.
+- Cerveau tendu : tête, capnie, PAM, anesthésie, ventilation, puis osmothérapie et
+  hyperventilation brève.
+- Réveil sans toux ni HTA : l'hématome du lit opératoire est la complication à prévenir.
 :::

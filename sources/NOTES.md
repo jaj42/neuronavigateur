@@ -192,3 +192,5 @@ Téléphones : 55148, 55237, 55229, 55135, 5 56 38, 5 5715, 55133, 55118, 55112.
 13. `preop` : NVPO : dropéridol en neurochirurgie ; néfopam (Acupan) abaisse le seuil épileptique : formulations `craniotomie` (« possible ») vs `epilepsie_sspi` (« éviction ») à harmoniser.
 14. Transcript 2 (2013) : stratégie AG vs AL pour thrombectomie et PAS 140–180 à actualiser (RPP SFAR 2022).
 15. Stratégie AAP en NRI (VerifyNow, clopidogrel 150 mg) : pratique Rothschild 2013 ; vérifier la pratique locale actuelle (ticagrélor ?).
+16. `craniotomie` : « apports balancés recommandés » sans préciser le soluté ; le Ringer lactate est équilibré mais hypotonique (< 280 mOsm/L), à éviter chez le cérébrolésé (RFE solutés 2021, R3.2). Le livre recommande un cristalloïde équilibré isotonique (Plasmalyte, Isofundine) ou NaCl 0,9 %.
+17. `craniotomie` : « objectif 80-90% PAM pré opératoire » ; RFE hémodynamique 2024 : PAM ≥ 60–70 mmHg (non hypertendu, R1.1), > 90 % de l'habituelle ou > 70 mmHg chez l'hypertendu chronique (R1.2). Préciser s'il s'agit d'un plancher à 80 % ou à 90 %.
