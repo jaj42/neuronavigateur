@@ -1,11 +1,423 @@
 # Base du crâne, voie endonasale et diabète insipide {#sec-base-du-crane}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Situer la selle turcique et ses voisins (chiasma, carotides, sinus caverneux, tige
+  pituitaire) pour comprendre les risques de la chirurgie hypophysaire.
+- Mener la consultation d'un patient porteur d'un adénome : axes hormonaux, maladie de Cushing,
+  acromégalie, vaccinations, dépistage du portage nasal.
+- Conduire l'anesthésie par voie endonasale : rien dans le nez, champ opératoire sec, réveil
+  sans toux.
+- Diagnostiquer et traiter un diabète insipide central postopératoire, sans provoquer
+  d'hyponatrémie.
+- Connaître les particularités des autres chirurgies de la base du crâne : chordome,
+  monitorage des nerfs crâniens.
 :::
 
-*Chapitre en cours de rédaction.*
+## La région sellaire
+
+L'**hypophyse** est logée dans la selle turcique, creusée dans l'os sphénoïde, sous le
+diaphragme sellaire. Elle a deux parties :
+
+- l'**antéhypophyse**, glande endocrine qui sécrète ACTH, TSH, GH, prolactine, LH et FSH sous
+  le contrôle de l'hypothalamus ;
+- la **posthypophyse**, qui ne fabrique rien : elle stocke et libère l'**hormone
+  antidiurétique** (ADH, vasopressine) produite par les noyaux supraoptiques et
+  paraventriculaires de l'hypothalamus, et acheminée le long de la **tige pituitaire**.
+
+Ses voisins expliquent les risques de la chirurgie (@sec-anatomie) : au-dessus, le **chiasma
+optique** (une tumeur qui le comprime par en dessous donne une hémianopsie bitemporale) ; de
+chaque côté, les **sinus caverneux**, traversés par la **carotide interne** et les nerfs
+oculomoteurs ; en avant et en bas, le sinus sphénoïdal, porte d'entrée de la voie endonasale.
+
+### Les lésions et les voies d'abord
+
+| Lésion | Particularités pour l'anesthésiste |
+|---|------|
+| **Adénome hypophysaire** | Le plus fréquent. Microadénome (< 10 mm), souvent sécrétant ; macroadénome (> 10 mm), souvent non sécrétant, révélé par une compression du chiasma. 40 à 50 % sont sécrétants : prolactine, GH (acromégalie), ACTH (maladie de Cushing), rarement TSH |
+| **Craniopharyngiome** | Tumeur suprasellaire au contact de l'hypothalamus et de la tige : risque élevé de diabète insipide et d'insuffisance hypophysaire, parfois déjà présents avant la chirurgie |
+| **Kyste de la poche de Rathke** | Bénin ; risque de diabète insipide plus élevé que l'adénome |
+| **Chordome du clivus** | Tumeur osseuse de la ligne médiane, au contact des carotides et du tronc cérébral : chirurgie longue, hémorragique, avec monitorage des nerfs crâniens |
+| **Méningiomes, schwannomes de la base** | Souvent par voie transcrânienne (ptérionale, rétrosigmoïde, translabyrinthique) : principes de la craniotomie et de la fosse postérieure |
+
+: Lésions de la base du crâne et de la région sellaire {#tbl-lesions-base}
+
+La **voie endonasale endoscopique** (transsphénoïdale) est la voie habituelle de la chirurgie
+hypophysaire : le chirurgien passe par une narine, ouvre le sinus sphénoïdal puis le plancher
+de la selle. Sans craniotomie ni rétraction cérébrale, elle est bien tolérée ; une exérèse
+d'adénome dure 1 h à 1 h 30. Les voies **élargies** (clivus, étage antérieur, région
+suprasellaire) sont plus longues, plus hémorragiques et ouvrent largement la dure-mère.
+
+## Les risques de la voie endonasale
+
+Les chiffres du protocole local pour l'adénome donnent les ordres de grandeur.
+
+| Risque | Fréquence (adénome) | Mécanisme et prévention |
+|---|--|------|
+| **Plaie de la carotide interne** | < 1/800 | Paroi latérale de la selle ; carte de groupe et RAI à jour pour les lésions au contact |
+| **Hématome de la loge opératoire** | 0,5 % | Compression du chiasma : baisse visuelle postopératoire = urgence |
+| **Fuite de LCS** (brèche ostéoméningée) | 1 % | Rhinorrhée claire ; fermeture par graisse abdominale, lambeau ; position demi-assise, dérivation lombaire externe |
+| **Méningite** | 1 % | Favorisée par la brèche ; vaccinations, antibioprophylaxie |
+| **Épistaxis** nécessitant une embolisation | 1,8 % | Branches de l'artère sphénopalatine ; parfois à distance (chute d'escarre) |
+| **Diabète insipide** | 12 % transitoire, 2 % permanent | Atteinte de la tige ou de la posthypophyse |
+| **Insuffisance hypophysaire** | Variable | Surtout corticotrope : substitution en hydrocortisone |
+
+: Risques de la chirurgie endonasale de l'adénome hypophysaire (protocole local) {#tbl-risques-endonasal}
+
+Dans une série de 881 patients, le diabète insipide postopératoire immédiat touchait 18 % des
+patients, 12 % recevaient de la desmopressine et 2 % gardaient un traitement au long cours. Le
+risque était plus élevé en cas de **fuite de LCS peropératoire** (33 % de formes
+transitoires), de **craniopharyngiome**, de **kyste de Rathke**, de **microadénome** et de
+**maladie de Cushing** [@nemergut2005di].
+
+## La consultation
+
+Les principes généraux s'appliquent (@sec-preop) : arrêt des antiagrégants et des
+anticoagulants comme pour toute chirurgie intracrânienne, examen neurologique tracé. Quatre
+points sont propres à cette chirurgie.
+
+### Le bilan hormonal
+
+Il est fait et interprété par l'endocrinologue, qui a déjà substitué les déficits ou freiné
+les hypersécrétions. L'anesthésiste vérifie que c'est fait et que le traitement est stable.
+
+| Axe | Ce qu'on vérifie | Pourquoi c'est important au bloc |
+|---|---|------|
+| **Corticotrope** +++ | Cortisol, ACTH | Une insuffisance non substituée donne un collapsus réfractaire et une hypoglycémie : insuffisance surrénale aiguë |
+| **Thyréotrope** ++ | TSH, T4 (T3) | Une hypothyroïdie profonde ralentit le réveil, donne bradycardie, hypothermie, hyponatrémie |
+| Somatotrope | GH, IGF-1 | Acromégalie : voies aériennes, cœur, apnées du sommeil |
+| Lactotrope | Prolactine | Souvent élevée par compression de la tige (« hyperprolactinémie de déconnexion ») ; peu d'importance au bloc |
+| Gonadotrope | LH, FSH | Peu d'importance au bloc |
+
+: Bilan hormonal avant chirurgie hypophysaire {#tbl-axes-hypophyse}
+
+::: {.callout-tip title="Astuce"}
+Chez un patient qui a à la fois une insuffisance corticotrope et une insuffisance thyréotrope,
+l'hydrocortisone est commencée **avant** la lévothyroxine : les hormones thyroïdiennes
+accélèrent le catabolisme du cortisol et peuvent démasquer une insuffisance surrénale aiguë.
+:::
+
+Recherchez aussi à l'interrogatoire un **diabète insipide méconnu** : soif nocturne, polyurie,
+polydipsie. Il est rare avant la chirurgie d'un adénome (sauf apoplexie hypophysaire), plus
+fréquent avec un craniopharyngiome. Un **champ visuel** récent documente l'atteinte du chiasma,
+surtout pour les macroadénomes : c'est la référence pour juger d'une baisse visuelle
+postopératoire.
+
+### La maladie de Cushing (adénome à ACTH)
+
+L'excès de cortisol donne une obésité facio-tronculaire, une HTA, un diabète, une hypokaliémie,
+une peau fine et fragile, une amyotrophie proximale et une ostéoporose [@nemergut2005].
+
+- **Intubation et ventilation au masque** potentiellement difficiles (visage lunaire, bosse de
+  bison, obésité) ; **voie veineuse** difficile.
+- **Peau fragile** : protection des points d'appui, fixation douce des cathéters.
+- **Glycémie** et **kaliémie** à contrôler et corriger (@sec-preop).
+- **Hydrocortisone selon le protocole local** : 100 mg à l'induction, puis 20 mg × 2 à J1,
+  puis 20 mg × 3 jusqu'au retour en endocrinologie. La dose postopératoire est volontairement
+  basse : une supplémentation trop forte gênerait l'interprétation du cortisol postopératoire,
+  qui sert à juger si l'exérèse est complète.
+
+### L'acromégalie (adénome à GH)
+
+L'excès de GH épaissit les tissus mous : mâchoire inférieure en avant (prognathisme),
+**macroglossie**, épiglotte et replis aryépiglottiques épais, cordes vocales hypertrophiées,
+parfois glotte rétrécie. Dans une série prospective de 128 acromégales, la laryngoscopie était
+difficile (Cormack-Lehane III) chez 26 % des patients et l'intubation difficile chez 10 % ; un
+Mallampati 3 ou 4 était prédictif, mais l'examen méconnaissait une partie des difficultés
+[@schmitt2000].
+
+- **Préparez une intubation difficile** : vidéolaryngoscope, mandrin long, grand masque ;
+  l'intubation vigile sous fibroscopie se discute si l'examen est inquiétant.
+- Cherchez une **cardiomyopathie** (hypertrophie ventriculaire, troubles du rythme), une HTA,
+  un diabète et un **syndrome d'apnées du sommeil**, fréquent et souvent sévère.
+- Les extrémités épaisses rendent l'abord veineux et artériel plus difficile, et le brassard
+  standard peut être trop petit.
+
+::: {.callout-warning title="Piège"}
+L'apnée du sommeil de l'acromégale pose un vrai problème après une chirurgie endonasale : la
+ventilation en pression positive au masque nasal (PPC) est souvent proscrite les premiers jours
+à cause du risque de pneumocéphalie par la brèche. Discutez-le avec le chirurgien **avant**
+l'intervention, et prévoyez une surveillance continue de la SpO~2~ au réveil [@nemergut2005].
+:::
+
+### Le risque infectieux : vaccins et portage nasal
+
+Une brèche ostéoméningée met le LCS en contact avec la flore nasale. Le protocole local prévoit :
+
+- **Vaccinations antipneumococcique et anti-*Haemophilus influenzae*** pour tous les patients,
+  faites au décours de la consultation chirurgicale, vérifiées et rattrapées si besoin à la
+  consultation d'anesthésie ; la première injection peut être faite même peu de temps avant
+  l'intervention. Le vaccin antipneumococcique conjugué 20-valent (Prevenar 20) évite un rappel ;
+  le rappel *Haemophilus* se fait un mois après si la vaccination n'était pas faite avant.
+- **Dépistage du portage nasal de SARM et de BMR** à la consultation d'anesthésie, pour adapter
+  l'antibioprophylaxie ; le résultat demande environ une semaine, d'où un prélèvement
+  suffisamment tôt.
+
+## L'antibioprophylaxie
+
+Selon le protocole local, elle dépend du portage : **amoxicilline-acide clavulanique** si le
+dépistage est négatif, **vancomycine** en cas de portage de SARM, avis de l'équipe mobile
+d'infectiologie en cas de BLSE.
+
+::: {.callout-note title="Ce que disent les recommandations"}
+**Antibioprophylaxie** [@sfar_atb2023]. Pour la neurochirurgie par voie trans-sphénoïdale ou
+translabyrinthique, les experts proposent la **céfazoline 2 g IVL**, avec une réinjection de 1 g
+si l'intervention dépasse 4 h, puis toutes les 4 h jusqu'à la fin de la chirurgie (avis
+d'experts). En cas d'allergie aux bêtalactamines, la clindamycine 900 mg IV remplace la
+céfazoline. La pose d'une dérivation lombaire ou ventriculaire externe ne justifie pas
+d'antibioprophylaxie (avis d'experts), et une fuite de LCS post-traumatique non plus.
+L'antibioprophylaxie ne se prolonge pas après la fin de l'intervention.
+:::
+
+<!-- TODO-VALIDER : `endonasal` prescrit l'amoxicilline-acide clavulanique (vancomycine si SARM) et `skullbase` « Augmentin postop » pour les gros abords endonasaux, alors que la RFE SFAR 2023 (v3.0 2026) propose la céfazoline 2 g pour la voie trans-sphénoïdale, sans prolongation postopératoire (A_VALIDER n° 24 et 25). -->
+
+## Pendant l'intervention
+
+### Rien dans le nez
+
+Tout ce qui passe habituellement par le nez passe par la bouche, ou ne passe pas : **pas de
+sonde gastrique nasale, pas de sonde thermique nasale, pas d'intubation nasotrachéale**. La
+température se mesure en œsophagien, la sonde gastrique éventuelle est orale.
+
+### Installation et monitorage
+
+- **Décubitus dorsal**, tête fixée en têtière à pointes s'il y a une neuronavigation, **proclive
+  de 10 à 30°** et jambes fléchies (position « transat ») : le proclive réduit le saignement
+  veineux du champ.
+- Le chirurgien se place à **droite** du patient : **sonde d'intubation à gauche** (sonde
+  préformée orale de préférence), **brassard à tension à gauche**.
+- **Champage abdominal** fréquent : de la graisse abdominale est prélevée pour fermer une
+  brèche.
+- **Couverture chauffante** sous le patient : les bras sont le long du corps et peu
+  accessibles.
+- **Adénome simple** : une seule voie veineuse, pas de cathéter artériel ni de sonde urinaire en
+  dehors d'indications particulières. **Abord élargi ou lésion au contact de la carotide**
+  (chordome, craniopharyngiome) : cathéter artériel (pression et ionogramme), deux voies
+  veineuses, sonde urinaire, monitorage du débit cardiaque selon le terrain, carte de groupe et
+  RAI à jour.
+- **Sonde d'intubation avec électrodes** (type NIM) pour un chordome, si le chirurgien veut
+  surveiller les nerfs crâniens bas : pas de réinjection de curare (@sec-pharmacologie).
+
+### Le packing pharyngé et le méchage
+
+- Un **packing pharyngé** humidifié absorbe le sang qui coule dans le pharynx et limite son
+  inhalation et sa déglutition (vomissements de sang au réveil). Son usage dépend des habitudes
+  chirurgicales. S'il est posé, **annoncez-le et notez-le** : un packing oublié obstrue les voies
+  aériennes après l'extubation.
+- Le chirurgien **mèche les fosses nasales** avec un vasoconstricteur (xylocaïne adrénalinée) :
+  l'absorption muqueuse peut donner une tachycardie et une poussée hypertensive transitoires.
+
+### Un champ opératoire sec
+
+La qualité de la vue endoscopique dépend du **saignement** : quelques millilitres de sang
+suffisent à aveugler l'endoscope. L'anesthésie vise un patient profondément analgésié, sans
+poussée hypertensive :
+
+- **AIVOC de propofol** avec monitorage de la profondeur d'anesthésie (BIS ou PSI) et
+  **rémifentanil** ; analgésie suffisante dès l'incision, antihypertenseur si besoin.
+- **Hypotension contrôlée** demandée par le protocole pour les abords élargis : **PAM
+  60–65 mmHg**, à adapter au terrain (HTA, coronaropathie, insuffisance rénale chronique).
+- **Acide tranexamique** : 1 g si besoin pour l'adénome ; systématique si un saignement
+  important est attendu (chordome).
+- **Normocapnie**, contrôlée par un gaz du sang si un cathéter artériel est en place.
+
+::: {.callout-note title="Ce que disent les recommandations"}
+**Pression artérielle peropératoire** [@sfar_hemodynamique2024]. Il est probablement recommandé
+d'éviter une PAM inférieure à 60–70 mmHg chez le patient non hypertendu (GRADE 2+) ; chez
+l'hypertendu chronique, les experts suggèrent de garder une PAM supérieure à 90 % de sa valeur
+habituelle, ou supérieure à 70 mmHg. Une « hypotension contrôlée » à 60–65 mmHg est donc un
+plancher chez le sujet sain, pas une cible à imposer à tous.
+:::
+
+<!-- TODO-VALIDER : `endonasal` recommande une hypotension contrôlée à PAM 60–65 mmHg « selon le terrain » ; chez l'hypertendu chronique, la RFE hémodynamique 2024 suggère PAM > 90 % de la valeur habituelle ou > 70 mmHg. Préciser le plancher pour l'hypertendu (A_VALIDER n° 27). -->
+
+### Les complications peropératoires
+
+- **Plaie carotidienne** : saignement artériel massif dans le champ. Le chirurgien comprime
+  (tamponnement) ; l'anesthésiste appelle à l'aide, transfuse, et **maintient une pression de
+  perfusion normale** pour perfuser le cerveau par les collatérales : l'hypotension contrôlée
+  n'a plus lieu d'être. Une artériographie en urgence (@sec-nri) suit, pour traiter la plaie par
+  voie endovasculaire et rechercher un faux anévrisme.
+- **Diabète insipide peropératoire** : une diurèse abondante et claire en fin d'intervention
+  doit faire mesurer la natrémie (voir plus loin).
+- **Manœuvre de Valsalva** : le chirurgien peut demander une pression d'insufflation maintenue
+  pour vérifier l'étanchéité de la fermeture (issue de LCS) ou faire descendre une tumeur
+  suprasellaire.
+
+## Le réveil et l'extubation
+
+Le patient se réveille avec les **fosses nasales méchées** ou tamponnées : il ne respire que
+par la bouche. Prévenez-le dès la consultation, c'est plus facile à accepter. Le réveil vise à
+éviter la toux et l'effort, qui augmentent la pression du LCS et menacent la fermeture.
+
+1. **Retirez le packing pharyngé** et aspirez le pharynx sous laryngoscopie (caillots) avant
+   l'extubation.
+2. **Extubez en proclive**, idéalement au-delà de 45°, sur un patient réveillé, en limitant les
+   efforts de toux (rémifentanil maintenu à faible débit jusqu'à l'extubation, lidocaïne selon
+   les habitudes).
+3. **Évitez la ventilation au masque en pression positive** après l'extubation : l'air peut
+   passer par la brèche dans le crâne (pneumocéphalie) [@nemergut2005]. Une canule de Guedel
+   aide si le patient obstrue.
+4. **Antiémétiques** : un vomissement de sang dégluti est fréquent et met en pression la
+   fermeture : prophylaxie systématique (@sec-craniotomie).
+
+## Après le bloc
+
+- **Lieu** : SSPI au moins 2 h, puis USI Chippault ou salle selon le risque, décidé en amont et
+  noté dans Orbis, et modifiable selon les constatations opératoires.
+- **Surveillance neurologique** : vigilance, pupilles, motricité, sensibilité, et surtout
+  **vision** (acuité, champ visuel grossier). Une baisse visuelle est un **hématome** de la loge
+  jusqu'à preuve du contraire : imagerie et reprise en urgence.
+- **Épistaxis** : immédiate, ou à distance par chute d'escarre ; une épistaxis abondante
+  relève souvent d'une **embolisation** en NRI.
+- **Fuite de LCS** : rhinorrhée claire, surtout à l'antéflexion de la tête, goût salé dans la
+  gorge. Position demi-assise, pas de mouchage ni d'effort ; le chirurgien décide d'une
+  dérivation lombaire externe ou d'une reprise. Après une large ouverture dure-mérienne en voie
+  endonasale élargie, une dérivation lombaire réduisait les fuites postopératoires de
+  21 % à 8 % dans un essai randomisé [@zwagerman2019].
+- **Méningite** : fièvre, céphalées, raideur de nuque dans les jours qui suivent ; ponction
+  lombaire après imagerie.
+- **Hydrocortisone** : le protocole local la prescrit de façon **systématique**, même en
+  l'absence de déficit connu : **hémisuccinate d'hydrocortisone 50 mg × 3/j** (schéma propre à
+  la maladie de Cushing, voir plus haut). Cortisolémie et ionogramme à J1 par l'endocrinologue,
+  puis suivi endocrinologique.
+- **Diurèse et natrémie** : selon le protocole diabète insipide.
+
+<!-- TODO-VALIDER : `endonasal` prescrit HSHC 50 mg × 3/j systématique après chirurgie d'adénome ; `adenome_micro` ne mentionne que le schéma Cushing (100 mg à l'induction, puis 20 mg × 2 → 20 × 3) ; la revue AACE 2015 (Woodmansee) admet une stratégie d'épargne cortisonique si l'axe corticotrope préopératoire est normal. Préciser la dose d'induction hors Cushing et le schéma retenu (A_VALIDER n° 26). -->
+
+## Le diabète insipide central
+
+### Mécanisme
+
+Sans ADH, le tubule collecteur rénal ne réabsorbe plus l'eau libre : le patient émet de grands
+volumes d'**urines diluées** (polyurie hypotonique) et perd de l'eau, ce qui élève la
+**natrémie**. Chez un patient conscient qui a accès à l'eau, la **soif** compense : il boit, et
+la natrémie reste longtemps normale. Chez le patient sédaté, confus, ou sans accès à l'eau,
+l'hypernatrémie s'installe vite.
+
+### L'évolution « triphasique »
+
+Après une agression de la tige pituitaire, le trouble suit souvent trois phases :
+
+1. **Diabète insipide** précoce (J1–J2), par sidération des neurones.
+2. **Phase antidiurétique** vers J7–J10, par libération incontrôlée de l'ADH stockée dans la
+   posthypophyse qui dégénère : **hyponatrémie** de type SIADH.
+3. Retour à la normale, ou **diabète insipide permanent** si les neurones sont détruits.
+
+Dans une étude prospective, 75 % des patients opérés d'un adénome avaient un trouble de l'eau et
+du sodium : diabète insipide maximal à J2, hyponatrémie au plus bas vers J9–J10, le plus souvent
+transitoires [@kristof2009]. Le patient est souvent rentré chez lui quand l'hyponatrémie
+apparaît : l'ionogramme de la fin de première semaine, prescrit par l'endocrinologue, compte
+autant que celui de J1.
+
+### Diagnostic (protocole local)
+
+Surveillance : diurèse toutes les 3 h, bandelette urinaire, densité urinaire.
+
+- **Diurèse > 400 mL en 3 h**, et
+- **densité urinaire < 1005**, sans glycosurie : faites une **natrémie**.
+- **Na^+^ > 145 mmol/L** : le diagnostic est posé.
+
+Une polyurie postopératoire n'est pas toujours un diabète insipide. Les autres causes sont
+l'élimination des **solutés peropératoires** (urines moins diluées, natrémie normale ou basse),
+la **diurèse osmotique** par le glucose (hyperglycémie sous corticoïdes : glycosurie à la
+bandelette) ou par le mannitol. D'où les trois critères à réunir.
+
+### Traitement (protocole local)
+
+- **Desmopressine (Minirin) 2 µg IVD**, à réinjecter toutes les 12 h, **sauf si
+  Na^+^ < 135 mmol/L**.
+- Arrêt de la desmopressine quand la **densité > 1005** et la **diurèse < 150 mL en 3 h**.
+- **Compensation de la diurèse volume pour volume** au-delà de 400 mL en 3 h par Ringer lactate
+  additionné de KCl (0,5 à 1 g pour 500 mL).
+- **Boissons libres** une fois la desmopressine débutée.
+- **Ionogramme sanguin** à H12 et H24, diurèse toutes les 3 h.
+
+::: {.callout-warning title="Piège"}
+Le surdosage en desmopressine est plus dangereux que le diabète insipide. Un patient sous
+desmopressine qui continue à boire ou à recevoir des solutés ne peut plus éliminer l'eau :
+**hyponatrémie**, œdème cérébral, convulsions. D'où la dose minimale, la réinjection seulement
+si la polyurie reprend et si la natrémie le permet, et l'ionogramme à H12. Et vers J7, une
+phase de SIADH peut se superposer à un traitement encore en cours.
+:::
+
+Les dysnatrémies du cérébrolésé (diabète insipide, SIADH, perte de sel cérébrale) sont
+reprises en réanimation au @sec-dysnatremies-dve. Pendant une craniotomie au contact de
+l'hypothalamus ou de l'hypophyse, la cible de natrémie passe à 140–145 mmol/L s'il existe un
+diabète insipide (@tbl-cibles-craniotomie).
+
+## Les autres chirurgies de la base du crâne
+
+Les abords transcrâniens de la base (ptérional, sous-frontal, rétrosigmoïde,
+translabyrinthique) suivent les règles de la craniotomie (@sec-craniotomie) et, pour l'angle
+pontocérébelleux et le clivus, celles de la fosse postérieure (@sec-fosse-posterieure).
+Trois points les distinguent :
+
+- **L'examen préopératoire des nerfs crâniens**, noté avec précision : oculomotricité, face
+  (V, VII), audition, déglutition et voix (IX, X), langue (XII). Un déficit préexistant des
+  nerfs bas annonce une extubation difficile.
+- **Le monitorage neurophysiologique** (NIM facial, nerfs bas, potentiels évoqués) : pas de
+  réinjection de curare, anesthésie intraveineuse stable (@sec-monitorage).
+- **Le chordome** cumule la durée, le saignement et la proximité des carotides et du tronc
+  cérébral : cathéter artériel, deux voies veineuses, acide tranexamique, sang disponible, et
+  réveil prudent si les nerfs crâniens bas ont été disséqués.
+
+## Cas clinique
+
+Un homme de 52 ans, acromégale, est opéré d'un macroadénome à GH par voie endonasale. Il ronfle
+et sa femme décrit des pauses respiratoires nocturnes. Mallampati 3.
+
+1. Quels sont les deux problèmes d'anesthésie liés à l'acromégalie, et comment les
+   préparez-vous ?
+2. L'infirmière d'anesthésie vous propose une sonde thermique nasale. Que répondez-vous ?
+3. À la fin de l'intervention, le chirurgien signale une fuite de LCS colmatée par de la graisse
+   abdominale. Qu'est-ce que cela change pour le réveil et pour les jours suivants ?
+4. En SSPI, il émet 600 mL d'urines claires en 2 h. Densité urinaire 1002, pas de glycosurie,
+   natrémie 147 mmol/L. Diagnostic et traitement ?
+5. Il rentre à domicile à J4 sous desmopressine orale. À J8, il consulte pour céphalées et
+   nausées. Qu'évoquez-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Les **voies aériennes** : laryngoscopie difficile chez un quart des acromégales, Mallampati
+   prédictif mais imparfait [@schmitt2000] : vidéolaryngoscope, mandrin, intubation vigile si
+   l'examen est inquiétant. L'**apnée du sommeil** : surveillance de la SpO~2~ au réveil,
+   prudence avec les morphiniques, et PPC postopératoire discutée à l'avance avec le
+   chirurgien.
+2. Non : **rien dans le nez**. Température œsophagienne, sonde gastrique orale si besoin.
+3. Une fuite peropératoire augmente le risque de diabète insipide [@nemergut2005di] et de
+   fistule postopératoire. Réveil sans toux, extubation en proclive, **pas de ventilation au
+   masque en pression positive**, PPC nocturne différée ; position demi-assise, pas de mouchage ;
+   surveillance d'une rhinorrhée et d'une méningite ; dérivation lombaire selon le chirurgien.
+4. **Diabète insipide central** (diurèse > 400 mL/3 h, densité < 1005, Na^+^ > 145 mmol/L).
+   Desmopressine 2 µg IVD, compensation de la diurèse au-delà de 400 mL/3 h, boissons libres,
+   ionogramme à H12.
+5. Une **hyponatrémie** : phase antidiurétique de J7–J10 [@kristof2009], aggravée par une
+   desmopressine poursuivie. Ionogramme en urgence, arrêt de la desmopressine, restriction
+   hydrique, avis endocrinologique.
+:::
+
+## Fiche pratique
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Champ opératoire sec (pas de poussée hypertensive) ; réveil calme sans toux ni effort ; dépister et traiter le diabète insipide ; substituer l'axe corticotrope |
+| Monitorage | Adénome : 1 VVP, BIS ou PSI, pas de KTA ni de sonde urinaire en routine ; abord élargi ou chordome : KTA, 2 VVP, sonde urinaire, débit cardiaque selon terrain, groupe et RAI ; sonde NIM si nerfs crâniens bas ; **rien dans le nez** (température œsophagienne) |
+| Induction et entretien | Consultation : axes corticotrope et thyréotrope, champ visuel, vaccins pneumocoque et *Haemophilus*, dépistage SARM ; intubation difficile chez l'acromégale et le Cushing ; hydrocortisone 100 mg à l'induction si Cushing ; sonde et brassard à gauche ; proclive « transat » ; propofol + rémifentanil en AIVOC ; antibioprophylaxie selon le protocole local ; acide tranexamique si saignement |
+| Cibles | PAM basse pour le champ (60–65 mmHg selon le protocole local) mais adaptée au terrain ; normocapnie ; normothermie ; diurèse surveillée |
+| Pièges | Sonde nasale ; packing pharyngé oublié ; ventilation au masque en pression positive après l'extubation ; plaie carotidienne traitée en hypotension ; polyurie postopératoire prise d'emblée pour un diabète insipide ; surdosage en desmopressine |
+| Post-opératoire | SSPI ≥ 2 h puis USI Chippault ou salle ; vision, épistaxis, rhinorrhée, méningite ; HSHC 50 mg × 3/j (Cushing : 20 mg × 2 puis × 3) ; diurèse/3 h, densité, natrémie ; diabète insipide : desmopressine 2 µg IV si diurèse > 400 mL/3 h + densité < 1005 + Na^+^ > 145, compensation vol/vol, iono H12 et H24 ; ionogramme vers J7 (SIADH) ; rappel *Haemophilus* à 1 mois |
+
+: Fiche pratique : chirurgie endonasale et diabète insipide {#tbl-fiche-base-du-crane}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- La selle est entourée du chiasma, des carotides et des sinus caverneux : baisse visuelle et
+  saignement artériel sont les urgences de cette chirurgie.
+- En consultation : axes corticotrope et thyréotrope substitués, champ visuel, vaccins,
+  dépistage du portage nasal ; intubation difficile chez l'acromégale.
+- Rien dans le nez ; champ sec par une anesthésie profonde et une PAM basse adaptée au terrain.
+- Réveil sans toux, en proclive, packing retiré, sans ventilation au masque en pression positive.
+- Diabète insipide = diurèse > 400 mL/3 h + densité < 1005 + Na^+^ > 145 mmol/L ;
+  desmopressine à dose minimale, ionogramme à H12.
+- Après la phase de diabète insipide, une hyponatrémie peut survenir vers J7–J10.
 :::
