@@ -1,11 +1,359 @@
 # Chirurgie de l'épilepsie {#sec-epilepsie}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Situer la chirurgie dans le parcours d'un patient épileptique pharmacorésistant.
+- Distinguer les quatre interventions du service : chirurgie de résection, pose
+  d'électrodes de stéréo-EEG (SEEG), retrait des électrodes, stimulation du nerf vague.
+- Adapter l'anesthésie à l'enregistrement et à la stimulation corticale peropératoires.
+- Organiser le réveil : antiépileptiques, clonazépam, analgésie sans médicament
+  proconvulsivant.
+- Reconnaître et traiter une crise en SSPI, en sachant quand **ne pas** la traiter (SEEG).
 :::
 
-*Chapitre en cours de rédaction.*
+## Pourquoi opérer une épilepsie ?
+
+Certaines épilepsies restent mal contrôlées malgré les médicaments. Quand deux traitements
+bien conduits et bien tolérés ont échoué, on parle d'épilepsie **pharmacorésistante**, et un
+troisième ou un quatrième médicament a peu de chances de faire mieux. Si les crises naissent
+d'une zone limitée du cortex (le **foyer épileptogène**), son ablation peut guérir le patient.
+Le premier essai randomisé l'a montré dans l'épilepsie du lobe
+temporal : à un an, 58 % des patients opérés n'avaient plus de crises avec altération de la
+conscience, contre 8 % des patients sous traitement médical optimisé, avec une meilleure qualité
+de vie [@wiebe2001].
+
+Le parcours est long et se fait en amont du bloc :
+
+- **bilan non invasif** : vidéo-EEG de longue durée, IRM, imagerie fonctionnelle, bilan
+  neuropsychologique ;
+- **réunion pluridisciplinaire** (neurologues, neurochirurgiens, neurophysiologistes,
+  neuroradiologues) qui retient ou non l'indication ;
+- si le foyer n'est pas assez bien localisé : **exploration invasive** par SEEG, puis nouvelle
+  discussion ;
+- consultation de neurochirurgie : information sur les bénéfices et les risques, consentement
+  écrit rendu au plus tard la veille. Pour un mineur ou un majeur protégé, les **deux parents**
+  ou le tuteur doivent être présents et donner leur accord ;
+- consultation d'anesthésie, avec une **recherche systématique de foyers infectieux** dentaires
+  et ORL (le matériel implanté et la craniotomie exposent à l'infection) ;
+- hospitalisation la veille, IRM de neuronavigation si besoin.
+
+Le patient type est **jeune, sans comorbidité**, et connaît bien sa maladie et ses crises.
+C'est une chirurgie fonctionnelle et programmée : le risque accepté doit rester faible.
+
+## Les interventions
+
+| | Chirurgie de résection | SEEG (pose) | Stimulation du nerf vague |
+|---|-----|-----|-----|
+| Principe | Ablation du foyer : lobectomie temporale, amygdalo-hippocampectomie (sclérose hippocampique), lésionectomie (dysplasie, cavernome, tumeur bénigne), cortectomie | 12 à 15 électrodes profondes implantées en conditions stéréotaxiques pour enregistrer les crises en vidéo-EEG pendant plusieurs jours | Électrode spiralée sur le **nerf vague gauche** au cou, reliée à un stimulateur sous-claviculaire gauche ; épilepsie non opérable ou échec de la chirurgie |
+| Durée | 4 à 5 h | 4 à 5 h | Courte |
+| Anesthésie | AIVOC propofol et rémifentanil ; **curare à l'induction seulement** | AIVOC propofol et rémifentanil | Anesthésie générale standard |
+| Abords | 2 VVP, **KTA**, sonde urinaire | 1 VVP, sonde urinaire | Standard |
+| Réveil | SSPI puis **USC de neurochirurgie** (Chippault) | **SSPI 2**, enregistrement EEG dès le réveil, puis chambre EEG-vidéo de l'USC | SSPI |
+| Risque propre | Ceux de la craniotomie ; déficit selon la zone | Hématome, infection, fuite de LCS (≈ 1 % au total) | **Bradycardie, asystolie** au test peropératoire ; paralysie récurrentielle |
+
+: Les interventions de chirurgie de l'épilepsie (protocole du service) {#tbl-interventions-epilepsie}
+
+Quand le foyer est au contact d'une zone éloquente, la résection peut se faire en éveillé, avec
+cartographie (@sec-chirurgie-eveillee). Le **retrait des électrodes de SEEG** se fait au bloc
+sous courte sédation (environ 15 minutes, parfois au bloc des urgences). Quand le foyer est
+petit et bien délimité, l'équipe peut aussi le détruire par **thermocoagulation** à travers les
+électrodes, au lit du patient, sans anesthésie.
+
+## Avant le bloc
+
+Le bilan est celui de toute craniotomie programmée (@sec-preop). Trois points sont propres à ces
+patients.
+
+**Les antiépileptiques ne s'arrêtent jamais.** Ils sont donnés le matin de l'intervention, à
+l'heure habituelle ; une crise au réveil fait d'abord vérifier qu'ils l'ont bien été. Le retard
+d'une prise suffit à déclencher une crise chez un patient pharmacorésistant. Toute adaptation
+ultérieure du traitement, en particulier pendant l'enregistrement d'une SEEG, relève du
+neurologue.
+
+**Les antiépileptiques perturbent la biologie.** Ils peuvent donner une **cytopénie**, une
+**hyponatrémie** (carbamazépine, oxcarbazépine) ou une **cytolyse hépatique** (valproate) : une
+anomalie modérée et ancienne est souvent iatrogène, à comparer aux bilans antérieurs plutôt qu'à
+corriger en urgence.
+
+**Les antiépileptiques modifient l'anesthésie.** Les inducteurs enzymatiques (carbamazépine,
+phénytoïne, phénobarbital) raccourcissent l'action des curares non dépolarisants et augmentent
+les besoins en morphiniques (@sec-pharmacologie). Un patient sous benzodiazépine au long cours
+(clobazam, clonazépam) est tolérant : ne pas l'arrêter brutalement, au risque d'une crise de
+sevrage.
+
+## Anesthésie et enregistrement peropératoire
+
+### Pourquoi l'anesthésie gêne le neurophysiologiste
+
+Pendant la chirurgie de résection, l'équipe peut enregistrer l'activité électrique directement
+à la surface du cortex (**électrocorticographie**, ECoG) pour délimiter la zone qui produit des
+pointes et vérifier la résection, et **stimuler le cortex** pour repérer les zones motrices
+[@chui2013]. Or presque tous les agents anesthésiques modifient l'EEG : à dose suffisante, ils
+suppriment les pointes, et certains en font apparaître ailleurs. Une revue de 58 études conclut
+[@kacarbayram2021] :
+
+- **rémifentanil** et **dexmédétomidine** : données favorables, peu d'effet sur l'ECoG ;
+- **propofol**, **sévoflurane** et **isoflurane** : données insuffisantes ou contradictoires ;
+  l'effet dépend de la dose, la suppression des pointes est nette aux fortes concentrations ;
+- **à éviter** : protoxyde d'azote, étomidate, kétamine, thiopental, midazolam, fentanyl et
+  alfentanil, qui suppriment ou au contraire induisent des pointes trompeuses.
+
+### Le protocole du service
+
+- **AIVOC propofol et rémifentanil**, monitorage standard, BIS si l'électrode ne gêne pas le
+  champ, cathéter artériel et deux voies veineuses pour la résection.
+- **Curare à l'induction seulement**, puis plus de réinjection : la stimulation corticale doit
+  pouvoir déclencher une réponse motrice visible, et le relâchement musculaire n'est pas
+  nécessaire au geste. Vérifiez au curamètre (TOF) que la curarisation est levée avant la
+  stimulation, comme pour les potentiels évoqués moteurs (@sec-preop). Une anesthésie suffisamment profonde, entretenue par le
+  rémifentanil, prévient la toux et les mouvements.
+- **Avant l'enregistrement**, le neurophysiologiste demande d'alléger : baissez la cible de
+  propofol (en gardant le rémifentanil), attendez quelques minutes que l'EEG se stabilise, et
+  notez l'heure et les concentrations. Un tracé de **burst-suppression** rend l'ECoG
+  ininterprétable.
+- **Pas de benzodiazépine** en prémédication ni en peropératoire : elle supprime les pointes
+  pendant des heures.
+- Le reste suit la craniotomie programmée (@sec-craniotomie) : céfazoline, cibles de PA et de
+  PaCO~2~ (@tbl-cibles-craniotomie), normothermie, cerveau détendu.
+
+::: {.callout-tip title="Astuce"}
+La stimulation corticale peut déclencher une **crise** sur la table, même sous anesthésie
+générale : tachycardie, hypertension, mouvements d'un membre, montée brutale du BIS. Le
+chirurgien irrigue le cortex de sérum froid, comme en chirurgie éveillée ; si la crise persiste,
+un bolus de propofol l'arrête. Prévenez le neurophysiologiste : la crise renseigne sur le foyer.
+:::
+
+::: {.callout-note title="Pour aller plus loin : l'activation pharmacologique" collapse="true"}
+Quand l'ECoG est pauvre en pointes, certaines équipes provoquent l'activité épileptique par un
+médicament administré en bolus (**activation pharmacologique**) [@chui2013]. Les agents
+utilisés sont justement ceux que l'on évite le reste du temps parce qu'ils font apparaître des
+pointes, comme l'alfentanil [@kacarbayram2021]. Cette activation n'est faite qu'à la demande explicite du
+neurophysiologiste, au moment qu'il choisit, et elle expose à une crise peropératoire. Elle n'est
+pas pratiquée de façon systématique dans le service.
+:::
+
+### SEEG : la pose des électrodes
+
+L'implantation se fait en conditions stéréotaxiques (cadre ou robot), à travers de petits
+orifices de trépanation, sans volet. L'anesthésie est la même (AIVOC propofol et rémifentanil),
+avec une seule voie veineuse : il n'y a pas de saignement attendu ni de craniotomie. La
+complication principale est l'**hématome**, rare. Dans une méta-analyse de 57 séries, les
+complications concernaient 1,3 % des patients, surtout hémorragiques (1,0 %) et infectieuses
+(0,8 %), et la mortalité était de 0,3 % [@mullin2016].
+
+Le patient est programmé **en première position** pour que l'enregistrement commence dès le
+réveil. Il est dirigé si possible en **SSPI 2** (petit réveil) ; prévenez l'équipe
+d'enregistrement dès son arrivée.
+
+### Stimulation du nerf vague
+
+Le nerf vague gauche est choisi parce qu'il innerve moins le nœud sinusal que le droit. Au moment
+du **test de l'électrode** au bloc, une bradycardie sévère, voire une **asystolie**, peut
+survenir, par diffusion du courant aux branches cardiaques. Le fabricant l'estimait à environ un
+cas sur 875 implantations (0,1 %) [@asconape1999]. Avant le test : scope visible, **atropine
+prête**, et accord avec le chirurgien pour arrêter la stimulation immédiatement. Après
+l'implantation, les stimulations peuvent modifier la voix, faire tousser ou donner une gêne
+laryngée ; une paralysie de la corde vocale gauche est possible.
+
+## Après le bloc
+
+### Surveillance et lieu
+
+- **Résection** : SSPI puis **USC de neurochirurgie** (Chippault), surveillance toutes les 2
+  heures (hémodynamique, examen neurologique, crises, douleur, drainage) pendant 48 heures,
+  puis secteur à J3. Pas d'imagerie systématique le soir même : scanner ou IRM à J1, plus tôt si
+  l'examen s'aggrave. Sortie vers J8 à J10.
+- **SEEG** : SSPI environ 2 heures, puis chambre EEG-vidéo de l'USC. Pas de bilan biologique
+  systématique en l'absence de complication.
+
+### Prescriptions
+
+| Domaine | Protocole du service |
+|--|------|
+| Antiépileptiques | **Poursuivis** dès le soir même, aux horaires habituels |
+| Clonazépam (résection) | **Rivotril IVSE 0,03 à 0,05 mg/kg/24 h pendant 72 h**, dès le retour en USC ; arrêt des autres benzodiazépines pendant ce temps ; relais oral à J3 (2 mg/j : ¼ cp matin, ¼ cp midi, ½ cp soir, comprimés à 2 mg), puis décroissance de 0,5 mg par semaine après la sortie |
+| Hydratation | NaCl 0,9 % 1500 mL/24 h, arrêtée à J3 si le patient boit et mange |
+| Analgésie | **Paracétamol systématique** ; titration de morphine IV en SSPI puis morphine sous-cutanée ; **ni tramadol ni néfopam** (ils abaissent le seuil épileptogène) |
+| NVPO | Dexaméthasone et dropéridol en peropératoire (@sec-craniotomie) |
+| Thrombose | Voir l'encadré ci-dessous |
+
+: Prescriptions après chirurgie de l'épilepsie (protocole du service) {#tbl-prescriptions-epilepsie}
+
+<!-- TODO-VALIDER : `epilepsie_sspi` prescrit « Serum physiologique/RL 1500ml/24h » ; le Ringer lactate est hypotonique (RFE solutés 2021, R3.2) ; le livre ne retient que le NaCl 0,9 % (voir A_VALIDER n° 16). -->
+
+<!-- TODO-VALIDER : `cortectomie` : relais oral du Rivotril à 2 mg/j puis « décroissance sur 3 semaines (0,5 mg/semaine) » : de 2 mg/j, 0,5 mg par semaine mène à l'arrêt en 4 semaines ; préciser le schéma (A_VALIDER n° 22). -->
+
+Le **clonazépam** couvre la période où le cortex opéré est irritable et où les prises orales
+sont incertaines. Il est sédatif : un patient trop somnolent sous Rivotril doit faire baisser le débit
+(le protocole permet de l'adapter), après avoir éliminé une complication.
+
+::: {.callout-note title="Ce que disent les recommandations : thrombose après craniotomie"}
+Les recommandations du GIHP 2024 proposent, après chirurgie intracrânienne, la compression
+pneumatique intermittente et une HBPM préventive à partir de la 24^e^ heure si le contrôle
+neurochirurgical le permet ; les bas de contention ne sont pas recommandés en prévention
+[@gihp_mtev2024]. Le protocole `cortectomie` du service prévoit des bas anti-thrombose et
+l'HBPM à J2, après un scanner sans complication. Appliquez la prescription du neurochirurgien et
+discutez-la avec lui (@sec-preop).
+:::
+
+<!-- TODO-VALIDER : `cortectomie` : « bas anti-thrombose », HBPM préventive à J2 « si aucune complication après scanner » vs RFE GIHP 2024 (CPI, HBPM à H24, pas de bas de contention en prévention) ; harmoniser avec la craniotomie (A_VALIDER n° 23). -->
+
+### La fièvre postopératoire
+
+Une **fièvre**, parfois élevée, est fréquente dans les jours qui suivent une résection, sans
+infection : elle est liée au sang dans le site opératoire. Elle reste un diagnostic
+d'élimination. Le paracétamol est systématique, et le bilan recherche une infection ou une
+thrombose : examen de la cicatrice, CRP, hémocultures, ECBU, ponction lombaire discutée avec le
+neurochirurgien, écho-Doppler veineux des membres inférieurs.
+
+## La crise en SSPI
+
+### Deux situations opposées
+
+**Après une résection**, une crise est **inattendue**. Elle fait rechercher :
+
+- un **oubli** ou un retard des antiépileptiques (vérifiez la feuille de prescription et
+  l'heure de la dernière prise) ;
+- une **complication** : hématome, œdème, pneumocéphalie, désordre métabolique (natrémie,
+  glycémie, calcémie). Un scanner se discute dès la première crise.
+
+Décrivez-la précisément (début, côté, durée, conscience) et comparez-la aux crises habituelles
+du patient, que lui ou sa famille connaissent bien. Prévenez le neurochirurgien et le
+neurologue dès la première crise.
+
+**Après une SEEG**, la crise est **recherchée** : c'est le but de l'implantation. **Ne donnez pas
+de benzodiazépine sans l'accord du neurologue**, car elle supprimerait les crises que l'on veut
+enregistrer et ferait perdre plusieurs jours d'exploration. Notez l'heure, protégez le patient,
+et appelez l'équipe d'enregistrement. Cette règle cède devant l'**état de mal** ou une
+défaillance vitale.
+
+### Conduite à tenir devant une crise généralisée
+
+1. **Noter l'heure de début.** Une crise tonico-clonique qui dure plus de **5 minutes** est un
+   **état de mal** et se traite comme tel ; au-delà de 30 minutes, elle expose à des lésions
+   neuronales durables [@trinka2015]. L'état de mal comprend aussi les crises qui se répètent
+   sans retour à la conscience entre elles. À l'inverse, un réveil lent après une crise unique
+   (phase postcritique) n'appelle pas d'antiépileptique supplémentaire.
+2. **Protéger le patient** : position latérale de sécurité, liberté des voies aériennes,
+   barrières, canule oropharyngée à portée de main, **oxygène**.
+3. **Appeler** l'interne et le senior de neurochirurgie, le neurologue, et l'équipe de
+   réanimation si l'évolution est défavorable.
+4. **Contrôler les agressions cérébrales** : glycémie capillaire tout de suite, gaz du sang
+   (pH, natrémie, calcémie), scope pour les troubles du rythme et de la conduction.
+
+| Paramètre | Cible du service |
+|--|------|
+| SpO~2~ / PaO~2~ | 95–99 % / 80–95 mmHg |
+| PaCO~2~ | 35–45 mmHg (pas d'hyperventilation) |
+| PAM | 70–90 mmHg |
+| Glycémie | 1,4–1,8 g/L (pas d'hypoglycémie) |
+| Natrémie | 135–145 mmol/L |
+| Calcémie | 2,2–2,6 mmol/L |
+| pH | 7,35–7,45 |
+| Température | 36,5–38 °C |
+
+: Cibles physiologiques pendant une crise en SSPI (protocole du service) {#tbl-cibles-crise}
+
+### Traiter l'état de mal
+
+Le traitement de l'état de mal tonico-clonique généralisé se fait par paliers, sans attendre :
+
+| Délai | Traitement |
+|--|--------|
+| 5 min | **Benzodiazépine** IV lente : clonazépam 0,015 mg/kg (1 mg chez l'adulte), à répéter une fois à 5 min si la crise persiste [@srlf_eme2008] |
+| Échec des benzodiazépines | **Un antiépileptique de deuxième ligne** IV en 10 min : lévétiracétam 60 mg/kg (max 4500 mg), fosphénytoïne 20 mg EP/kg (max 1500 mg EP), ou valproate 40 mg/kg (max 3000 mg) [@kapur2019] |
+| Persistance | **État de mal réfractaire** : anesthésie générale (propofol, midazolam ou thiopental), intubation en séquence rapide, réanimation, EEG continu [@srlf_eme2008] |
+
+: Traitement de l'état de mal tonico-clonique généralisé de l'adulte {#tbl-eme}
+
+Dans l'essai ESETT, chez 384 patients en état de mal résistant aux benzodiazépines, le
+lévétiracétam, la fosphénytoïne et le valproate arrêtaient l'état de mal dans environ la moitié
+des cas (47 %, 45 % et 46 %), sans différence d'efficacité ni de tolérance [@kapur2019]. Le
+choix tient au terrain : fosphénytoïne évitée en cas de trouble de conduction ou de cardiopathie
+sévère (hypotension, bradycardie), valproate évité en cas d'hépatopathie, et molécule déjà prise
+au long cours privilégiée si un sous-dosage est probable.
+
+Pour l'intubation d'un patient en état de mal, la séquence rapide est la règle ; évitez les
+curares de longue durée, qui masquent les convulsions sans arrêter la crise électrique
+[@srlf_eme2008]. Ensuite, seul l'EEG peut dire si la crise est arrêtée.
+
+<!-- TODO-VALIDER : `epilepsie_sspi` renvoie à un « algorithme (RFE/SFAR 2018) » qui n'est ni dans les sources ni dans le corpus SFAR (seule la RFE SRLF 2008 y figure). Le livre s'appuie sur l'ILAE 2015 (définition), ESETT 2019 (deuxième ligne) et la RFE 2008 (historique) ; fournir l'algorithme local pour aligner les doses (A_VALIDER n° 21). -->
+
+::: {.callout-warning title="Piège"}
+Le patient opéré d'une épilepsie reçoit déjà du clonazépam en continu et ses antiépileptiques
+habituels. Une crise sous ce traitement signale plus souvent une **complication** qu'un
+sous-dosage : on ne se contente pas d'un bolus supplémentaire, on cherche l'hématome. Et un
+patient qui ne se réveille pas après une crise apparemment terminée peut être en **état de mal
+non convulsif** : l'EEG tranche.
+:::
+
+## Cas cliniques
+
+**Cas 1.** Une femme de 26 ans, 60 kg, est opérée d'une amygdalo-hippocampectomie gauche pour
+une sclérose hippocampique. Elle prend du lévétiracétam, de la lamotrigine et du clobazam.
+
+1. Que faites-vous de ses traitements le matin de l'intervention ?
+2. Quelle curarisation prévoyez-vous, et pourquoi ?
+3. Le neurophysiologiste va enregistrer l'ECoG. Que faites-vous ?
+4. Que prescrivez-vous pour la nuit en USC ?
+
+**Cas 2.** Un homme de 31 ans arrive en SSPI 2 après la pose de 14 électrodes de SEEG. Vingt
+minutes après le réveil, il présente une crise tonico-clonique généralisée.
+
+1. Faites-vous une benzodiazépine ?
+2. À 6 minutes, la crise continue. Que faites-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+**Cas 1.**
+
+1. **Tous ses traitements sont donnés** le matin, à l'heure habituelle, y compris le clobazam (il
+   n'y a pas de phase éveillée ici, et l'arrêter exposerait à une crise de sevrage).
+2. **Curare à l'induction seulement**, pas de réinjection : la stimulation corticale doit
+   pouvoir donner une réponse motrice ; TOF contrôlé avant la stimulation. Le lévétiracétam et
+   la lamotrigine ne sont pas inducteurs enzymatiques.
+3. Baisser la cible de propofol en gardant le rémifentanil, attendre la stabilisation de l'EEG,
+   noter l'heure et les cibles ; pas de benzodiazépine, de kétamine ni d'étomidate
+   [@kacarbayram2021].
+4. Antiépileptiques habituels le soir même ; **clonazépam IVSE** 0,03 à 0,05 mg/kg/24 h (soit
+   1,8 à 3 mg/24 h), avec **arrêt du clobazam** pendant les 72 heures ; paracétamol et morphine,
+   ni tramadol ni néfopam ; NaCl 0,9 % 1500 mL/24 h.
+
+**Cas 2.**
+
+1. **Non, pas d'emblée** : la crise est l'objet de l'enregistrement. Notez l'heure, protégez le
+   patient (PLS, oxygène, barrières), appelez l'équipe d'enregistrement et le neurologue.
+2. Une crise généralisée de plus de 5 minutes est un **état de mal** [@trinka2015] : la règle
+   « pas de benzodiazépine » cède. Clonazépam 1 mg IV lente, glycémie capillaire, gaz du sang,
+   appel du neurologue et du neurochirurgien ; si la crise persiste après la deuxième dose, un
+   antiépileptique de deuxième ligne [@kapur2019] ; scanner pour éliminer un hématome sur le
+   trajet d'une électrode [@mullin2016].
+:::
+
+## Fiche pratique
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Antiépileptiques sans interruption ; anesthésie compatible avec l'ECoG et la stimulation corticale ; réveil rapide pour l'examen et l'enregistrement ; pas de médicament proconvulsivant |
+| Monitorage | Résection : standard, 2 VVP, **KTA**, SU, BIS si possible ; SEEG : 1 VVP, SU ; nerf vague : scope visible, **atropine prête** au test de l'électrode |
+| Induction et entretien | AIVOC propofol et rémifentanil ; **curare à l'induction seulement** (TOF avant stimulation) ; pas de benzodiazépine ; céfazoline ; dexaméthasone et dropéridol (NVPO) ; allègement du propofol à la demande avant l'ECoG ; paracétamol, morphine 0,1 mg/kg |
+| Cibles | Celles de la craniotomie (@tbl-cibles-craniotomie) ; en cas de crise : SpO~2~ 95–99 %, PaCO~2~ 35–45, PAM 70–90, glycémie 1,4–1,8 g/L, Na 135–145, normothermie |
+| Pièges | Antiépileptique oublié le matin ; curare réinjecté ; burst-suppression pendant l'ECoG ; asystolie au test du nerf vague ; benzodiazépine après une SEEG sans avis du neurologue ; crise après résection prise pour un sous-dosage (chercher l'hématome) ; tramadol, néfopam |
+| Crise | Heure de début ; PLS, O~2~, glycémie, GDS ; > 5 min = état de mal : clonazépam 0,015 mg/kg, puis lévétiracétam 60 mg/kg, fosphénytoïne 20 mg EP/kg ou valproate 40 mg/kg ; réfractaire : AG et intubation |
+| Post-opératoire | Résection : USC Chippault, surveillance /2 h, **Rivotril IVSE 0,03–0,05 mg/kg/24 h × 72 h** (autres benzodiazépines arrêtées), relais oral à J3 ; SEEG : SSPI 2, enregistrement dès le réveil ; NaCl 0,9 % 1500 mL/24 h ; fièvre aseptique fréquente mais diagnostic d'élimination ; thrombose selon le neurochirurgien |
+
+: Fiche pratique : chirurgie de l'épilepsie {#tbl-fiche-epilepsie}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- La chirurgie guérit une partie des épilepsies pharmacorésistantes focales ; le patient est
+  jeune, et le risque accepté doit rester faible.
+- Les antiépileptiques ne s'arrêtent jamais, et une crise au réveil fait d'abord vérifier qu'ils
+  ont été donnés.
+- Curare à l'induction seulement, pas de benzodiazépine, propofol allégé pour l'ECoG ;
+  rémifentanil et dexmédétomidine gênent peu l'enregistrement.
+- Après une SEEG, la crise est le but de l'exploration : pas de benzodiazépine sans le
+  neurologue, sauf état de mal.
+- Après une résection, une crise est une complication jusqu'à preuve du contraire.
+- État de mal à 5 minutes : benzodiazépine, puis lévétiracétam, fosphénytoïne ou valproate,
+  d'efficacité équivalente.
 :::
