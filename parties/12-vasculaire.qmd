@@ -1,11 +1,448 @@
 # Chirurgie vasculaire programmée : clippage et moya-moya {#sec-vasculaire}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Comprendre pourquoi un anévrysme non rompu est clippé, et ce que cela implique pour
+  l'anesthésie : une craniotomie programmée sous la menace d'une rupture.
+- Préparer l'anesthésiste aux deux temps critiques du clippage : le clampage temporaire et la
+  rupture peropératoire.
+- Expliquer la physiopathologie de la maladie de moya-moya : un cerveau dont la réserve
+  vasculaire est épuisée, qui dépend de la pression artérielle et de la capnie.
+- Conduire l'anesthésie d'un pontage extra-intracrânien : aucune hypotension, normocapnie
+  stricte, antiagrégation maintenue.
+- Reconnaître les complications du pontage : hyperperfusion, ischémie, crises.
 :::
 
-*Chapitre en cours de rédaction.*
+Ces deux chirurgies vasculaires programmées ont un point commun : le cerveau y est sain ou
+presque au début de l'intervention, et c'est l'anesthésie qui doit le garder ainsi. Elles
+reprennent les principes de la craniotomie (@sec-craniotomie) en y ajoutant une exigence :
+**tenir la pression artérielle** dans une fenêtre étroite, sans à-coup dans un sens ni dans
+l'autre.
+
+## Le clippage d'un anévrysme non rompu
+
+### Qui opère-t-on, et pourquoi ?
+
+La plupart des anévrysmes intracrâniens sont découverts **fortuitement**, sur une imagerie
+faite pour autre chose. Leur risque de rupture est faible mais pas nul : dans une cohorte
+japonaise de 5720 patients, il était de 0,95 % par an, et augmentait avec la **taille**
+(risque multiplié par 3 entre 7 et 9 mm, par 9 entre 10 et 24 mm, comparé aux anévrysmes de
+3 à 4 mm), la **localisation** (communicantes antérieure et postérieure) et une **forme
+irrégulière** (sac secondaire) [@ucas2012]. Le score PHASES (population, hypertension, âge,
+taille, antécédent d'HSA, localisation) estime le risque de rupture à 5 ans, de 0,25 % à plus
+de 15 % selon le profil [@greving2014].
+
+Le terrain est celui de l'HSA (@sec-hsa) : sujet de 30 à 60 ans, plus souvent une femme, avec
+une **HTA**, un **tabagisme actif**, un alcoolisme ou une toxicomanie ; parfois une forme
+familiale, une maladie du tissu conjonctif (Ehlers-Danlos, Marfan), une polykystose rénale ou
+une maladie de moya-moya.
+
+La décision de traiter, et le choix entre **embolisation** (@sec-nri) et **clippage
+chirurgical**, se prend au **staff vasculaire NRI-neurochirurgie du mardi soir**, qui évalue
+aussi le risque de rupture. Le clippage est surtout proposé pour les anévrysmes que
+l'embolisation traite mal : anévrysmes de l'artère cérébrale moyenne ou distaux de l'artère
+cérébrale antérieure, collet large, branches naissant du sac.
+
+Ce chapitre traite de l'anévrysme **non rompu**, opéré à froid. Le clippage d'un anévrysme
+rompu, à la phase aiguë d'une HSA, cumule ces risques avec ceux d'un cerveau agressé : voir
+le @sec-hsa.
+
+### Deux risques peropératoires
+
+| Risque | Mécanisme | Ce que fait l'anesthésiste |
+|---|----|------|
+| **Hémorragique** | Rupture peropératoire, à la dissection ou à la pose du clip ; saignement parfois abondant, qui gêne le chirurgien | Évaluer le risque en préopératoire (taille, forme, saignement « préfissuraire ») ; deux voies veineuses, sang disponible ; éviter toute poussée hypertensive |
+| **Ischémique** | Clampage temporaire de l'artère porteuse, clip qui prend une branche ou une perforante, spasme peropératoire, collatérales athéromateuses | Maintenir la pression de perfusion et l'oxygénation ; remonter la pression artérielle pendant un clampage temporaire |
+
+: Les deux risques du clippage programmé (protocole local) {#tbl-risques-clippage}
+
+Dans une série de 1694 anévrysmes, une rupture peropératoire survenait dans 7,9 % des
+interventions, fuites minimes comprises, et dans 3,8 % si on ne compte que les ruptures
+significatives. Elle était près de neuf fois plus fréquente sur un anévrysme rompu que sur un anévrysme
+non rompu (10,7 % contre 1,2 %), et moins fréquente quand le chirurgien utilisait un clampage
+temporaire (3,1 % contre 8,6 %) [@leipzig2005].
+
+### La consultation
+
+Elle suit la consultation de toute craniotomie (@sec-preop), avec trois points propres :
+
+- l'**artériographie**, presque toujours faite, qui précise la taille, le collet et les
+  branches ;
+- les **facteurs de risque cardiovasculaire**, fréquents sur ce terrain : HTA à équilibrer
+  (une HTA mal contrôlée rend la fenêtre de pression plus difficile à tenir), coronaropathie,
+  tabac ;
+- une **carte de groupe et des RAI** à jour : une rupture peut demander une transfusion rapide.
+
+### L'anesthésie
+
+Le protocole est celui de la craniotomie (@sec-craniotomie), avec quelques particularités.
+
+- **Installation** : décubitus dorsal, têtière à pointes, neuronavigation fréquente.
+  L'infiltration du scalp par le chirurgien atténue la réponse hémodynamique aux pointes et à
+  l'incision.
+- **Monitorage** : **cathéter artériel systématique**, posé avant l'induction si le risque de
+  rupture est élevé ; BIS ou PSI ; **deux voies veineuses** de bon calibre et sonde urinaire ;
+  débit cardiaque selon le terrain et le risque de rupture.
+- **Entretien** : **propofol et rémifentanil en AIVOC**, avec une anesthésie plutôt
+  **profonde** pour réduire la CMRO~2~, surtout en prévision d'un clampage temporaire ou d'une
+  rupture. Curarisation entretenue jusqu'au clippage si besoin.
+- **Pression artérielle** : ni poussée hypertensive (laryngoscopie, pointes, incision), qui
+  augmente la pression transmurale du sac, ni hypotension, qui menace les territoires d'aval.
+- Les cibles de capnie, de natrémie, de glycémie et de température sont celles de la
+  craniotomie (@tbl-cibles-craniotomie).
+
+::: {.callout-note title="Pour aller plus loin" collapse="true"}
+**Faut-il refroidir ou « protéger » le cerveau pendant le clippage ?** L'essai IHAST a
+randomisé 1001 patients opérés d'un anévrysme rompu, en bon grade, entre une hypothermie
+peropératoire à 33 °C et la normothermie : pas de différence de devenir neurologique à 3 mois
+(66 % contre 63 % de bon devenir), mais plus de bactériémies dans le groupe hypothermie
+[@todd2005]. Chez les 441 patients de cet essai qui ont eu un clampage temporaire, ni
+l'hypothermie ni un agent « protecteur » supplémentaire (thiopental ou étomidate) n'étaient
+associés à un meilleur devenir, quelle que soit la durée du clampage [@hindman2010]. La
+**normothermie** est donc la règle. L'anesthésie profonde demandée par le protocole local
+réduit la CMRO~2~, mais aucun agent n'a fait la preuve d'une protection clinique.
+:::
+
+### Le clampage temporaire
+
+Pour disséquer le collet et poser le clip sans risque de rupture, le chirurgien peut clamper
+temporairement l'**artère porteuse** en amont. Le territoire d'aval n'est plus perfusé que par
+les **collatérales** (polygone de Willis, anastomoses leptoméningées), dont le débit dépend de
+la pression artérielle.
+
+1. **Déclenchez un chronomètre** à la pose du clamp et annoncez la durée à voix haute,
+   régulièrement.
+2. **Remontez la pression artérielle** pour perfuser les collatérales, par une
+   **noradrénaline diluée** (5 µg/mL) en titration continue, **sans bolus** : une poussée
+   brutale au moment où le sac n'est pas encore exclu n'a aucun intérêt.
+3. Vérifiez la profondeur d'anesthésie, la normocapnie et l'oxygénation.
+4. **Au déclampage**, revenez à la pression de base : le territoire réperfusé n'a plus besoin
+   d'une pression élevée.
+
+La tolérance dépend de la durée. Dans une série de 100 clampages temporaires, une occlusion de
+moins de 14 minutes était habituellement tolérée ; au-delà de 31 minutes, tous les patients
+avaient un infarctus. Les patients de plus de 61 ans et ceux en mauvais grade toléraient moins
+bien l'occlusion [@samson1994].
+
+### L'adénosine : un arrêt circulatoire de quelques secondes
+
+Quand le clampage temporaire est impossible (collet profond, artère porteuse inaccessible),
+certaines équipes vident l'anévrysme par un **arrêt circulatoire transitoire** à
+l'**adénosine** (Krenosin), qui bloque la conduction auriculoventriculaire. Une dose de 0,3 à
+0,4 mg/kg de poids idéal donne environ 45 à 60 secondes de pression systolique inférieure à
+60 mmHg [@bebawy2010]. Les complications rapportées sont rares : fibrillation auriculaire
+transitoire, élévation de troponine, et un cas d'hypotension prolongée après des
+réinjections rapprochées, qui a demandé de brèves compressions thoraciques [@guinn2011].
+Prérequis : patchs de défibrillation posés, ECG lisible, absence d'asthme sévère ou de trouble
+conductif, et une coordination parfaite avec le chirurgien.
+
+<!-- TODO-VALIDER : `clippage_anevrysme` contient « TODO: krenosin » sans protocole ; préciser si l'adénosine est utilisée localement, la dose de départ et les prérequis (A_VALIDER n° 5). -->
+
+::: {.callout-warning title="Piège"}
+Le protocole local ne décrit pas l'utilisation de l'adénosine. Ne l'improvisez pas :
+l'indication, la dose et le moment se décident avec le chirurgien et le senior avant
+l'intervention, jamais dans l'urgence d'une rupture.
+:::
+
+### La rupture peropératoire
+
+Elle survient surtout pendant la dissection du collet ou la pose du clip. Le champ se remplit
+de sang ; le chirurgien aspire et cherche à poser un clamp temporaire.
+
+1. **Annoncez-la et appelez à l'aide** (senior, deuxième IADE).
+2. **Compensez la perte sanguine** : remplissage, transfusion (sang et carte de groupe déjà
+   prêts), récupérateur de sang selon les habitudes ; HemoCue ou gaz du sang.
+3. **Pression artérielle** : une baisse brève peut aider le chirurgien à contrôler le
+   saignement, à sa demande et seulement jusqu'au clampage ; ensuite, **revenez à une pression
+   normale ou haute** pour perfuser le cerveau par les collatérales.
+4. **Approfondissez l'anesthésie** (réduction de la CMRO~2~) et gardez la normocapnie.
+5. Après le contrôle du saignement, la stratégie est celle du clampage temporaire.
+
+### La vérification au vert d'indocyanine
+
+Une fois le clip posé, le chirurgien vérifie que le sac est exclu et que les branches et
+perforantes restent perméables par une **angiographie au vert d'indocyanine** sous microscope
+(fluorescence infrarouge). Dans une série prospective, cette vérification modifiait la
+conduite chirurgicale, le plus souvent un repositionnement du clip, dans 9 % des cas
+[@raabe2005].
+
+- **Préparation** : 25 mg de poudre dans **10 mL d'eau pour préparations injectables**.
+- **Injection** : **3 mL en IVD** à la demande du chirurgien, renouvelable **une fois**.
+
+### Après le clippage
+
+La surveillance est celle de la craniotomie (@sec-craniotomie). L'examen neurologique au
+réveil cherche un déficit dans le territoire de l'artère porteuse : **motricité et sensibilité
+controlatérales**, **langage**, **vigilance**. Un déficit nouveau évoque un clip qui prend une
+branche ou une perforante, un hématome, ou une ischémie liée au clampage : imagerie en urgence
+et avis du chirurgien.
+
+## La maladie de moya-moya
+
+### Ce qu'est le moya-moya
+
+La maladie de moya-moya est une **sténose progressive des carotides internes terminales** et
+de l'origine des artères cérébrales antérieures et moyennes. Pour compenser, un réseau de
+**petites collatérales** se développe à la base du cerveau ; à l'angiographie, il a l'aspect
+d'une « bouffée de fumée », *moya-moya* en japonais [@scott2009].
+
+- On parle de **maladie** quand l'atteinte est isolée (plus fréquente en Asie de l'Est), de
+  **syndrome** de moya-moya quand elle accompagne une autre affection : drépanocytose,
+  neurofibromatose de type 1, trisomie 21, antécédent de radiothérapie cérébrale.
+- Elle touche surtout l'**enfant**, chez qui elle se révèle par des **accidents ischémiques**,
+  et l'**adulte jeune**, chez qui elle se révèle aussi par des **hémorragies** (rupture des
+  collatérales fragiles) [@scott2009].
+- Le traitement des formes symptomatiques est chirurgical : **revascularisation** directe
+  (pontage entre l'artère temporale superficielle et une branche de l'artère cérébrale
+  moyenne) ou indirecte (un tissu bien vascularisé, muscle temporal ou artère temporale, est
+  apposé sur le cortex et y développe des néovaisseaux).
+
+### Un cerveau sans réserve
+
+Dans les territoires atteints, les artérioles sont **déjà dilatées au maximum** pour maintenir
+le débit malgré la sténose : la **réserve vasculaire est épuisée**, l'autorégulation est à sa
+limite (@sec-physiologie). Trois conséquences guident toute l'anesthésie [@parray2011] :
+
+- **La pression artérielle** : le débit cérébral suit passivement la pression. Toute
+  hypotension, même modérée et brève, peut donner une ischémie.
+- **L'hypocapnie** contracte les vaisseaux sains et les collatérales réactives et réduit le
+  débit dans des territoires déjà limites. Chez l'enfant, les pleurs et l'hyperventilation qui
+  les accompagne déclenchent des accidents ischémiques transitoires [@scott2009].
+- **L'hypercapnie** n'est pas meilleure : elle dilate les territoires sains, qui « volent » le
+  sang des territoires malades, incapables de se dilater davantage (vol intracérébral).
+
+D'où la règle : **normocapnie stricte**, contrôlée par gaz du sang, et **aucune hypotension**.
+S'y ajoutent l'**hématocrite** (une anémie réduit le transport d'O~2~, une
+hémoconcentration augmente la viscosité), la **normothermie** et la **normoglycémie**.
+
+### Le pontage extra-intracrânien
+
+#### La consultation et la veille
+
+- **Aspirine** : si le patient la prend au long cours, elle est **maintenue** ; sinon, elle
+  est introduite **la veille** (100 mg IVL le soir de la veille et le matin de
+  l'intervention), pas avant J-1. C'est une exception délibérée à la règle d'arrêt de
+  l'aspirine avant la chirurgie intracrânienne (@sec-preop) : le pontage et les collatérales
+  risquent de se thromboser.
+- **Pression artérielle habituelle** : elle est documentée par une **MAPA** (mesure
+  ambulatoire de la pression artérielle) ; la cible peropératoire en découle.
+- **Hydratation** : perfusion de **NaCl 0,9 %, 1000 mL sur 12 h** la veille, pour éviter
+  l'hypovolémie du jeûne.
+- **Examen neurologique** noté la veille et vérifié le matin : il servira de référence au
+  réveil.
+- **Lit de réanimation** confirmé pour le postopératoire, dès la veille.
+
+<!-- TODO-VALIDER : `moya` maintient ou introduit l'aspirine la veille d'un pontage, alors que la RFE GIHP 2018 range « de nombreux actes de neurochirurgie intracrânienne » parmi les procédures non réalisables sous aspirine (dernière prise à J-5, chapitre 6). Confirmer qu'il s'agit d'une décision chirurgicale systématique pour le pontage (A_VALIDER n° 29). -->
+
+#### Le monitorage, posé avant l'induction
+
+- **Cathéter artériel radial sous anesthésie locale**, avant l'induction : c'est à
+  l'induction que l'hypotension survient.
+- **BIS** pour la profondeur d'anesthésie.
+- **NIRS bilatérale** (oxygénation cérébrale régionale, @sec-monitorage) : une baisse
+  unilatérale ou bilatérale alerte sur un événement ischémique.
+- **Monitorage du débit cardiaque** pour guider le remplissage, par un cristalloïde
+  isotonique (NaCl 0,9 % ou soluté balancé isotonique, @sec-craniotomie).
+- Sonde urinaire, température, compressions pneumatiques intermittentes.
+
+<!-- TODO-VALIDER : `moya` et `moya_non_moya` prescrivent « solutés balancés RL + sérum physiologique » ; le Ringer lactate est hypotonique, à éviter chez le cérébrolésé (RFE solutés 2021, même remarque que n° 16) (A_VALIDER n° 30). -->
+
+#### L'induction et l'entretien
+
+- **Propofol et rémifentanil en AIVOC**, induction **progressive**.
+- **Noradrénaline diluée** (5 µg/mL) branchée **dès l'induction** : elle n'est pas
+  contre-indiquée, au contraire, c'est l'outil qui tient la cible de pression.
+- **Curarisation** entretenue jusqu'au pontage, guidée par le TOF.
+- **Antibioprophylaxie** : céfazoline 2 g IVL.
+- **Analgésie** : kétamine 0,25 mg/kg à l'induction, paracétamol, et relais du rémifentanil
+  par la morphine 0,1 mg/kg 30 minutes avant le réveil.
+
+<!-- TODO-VALIDER : `moya` prescrit céfazoline « 4 g si obèse » et « linézolide 900 mg » en cas d'allergie ; la RFE SFAR antibioprophylaxie 2023 (v3.0 2026) ne recommande pas d'augmenter la dose de céfazoline chez l'obèse sauf IMC > 50 kg/m² (R1.5.1) et propose la clindamycine 900 mg en cas d'allergie pour la craniotomie ; 900 mg n'est pas une dose usuelle de linézolide (A_VALIDER n° 28). -->
+
+::: {.callout-note title="Ce que disent les recommandations"}
+**Antibioprophylaxie** [@sfar_atb2023]. Pour une craniotomie, la céfazoline 2 g IVL est
+réinjectée à 1 g si l'intervention dépasse 4 h, puis toutes les 4 h jusqu'à la fin de la
+chirurgie. Il n'est probablement pas recommandé d'augmenter la dose unitaire de céphalosporine
+chez l'obèse, sauf cas particuliers comme un IMC supérieur à 50 kg/m² (GRADE 2−). En cas
+d'allergie aux bêtalactamines, les experts proposent la clindamycine 900 mg IV.
+
+**Pression artérielle peropératoire** [@sfar_hemodynamique2024]. Chez l'hypertendu chronique,
+les experts suggèrent de garder une PAM supérieure à 90 % de sa valeur habituelle. Le
+protocole moya-moya applique ce seuil à **tous** les patients, hypertendus ou non.
+:::
+
+#### Les cibles peropératoires
+
+| Paramètre | Cible (protocole local) | Pourquoi |
+|---|---|------|
+| PAM | **> 90 % de la PAM habituelle éveillée** (MAPA) ; **aucune hypotension** | Débit cérébral pression-dépendant |
+| PaCO~2~ | **36 à 40 mmHg**, normocapnie stricte, contrôlée par gaz du sang (gradient PaCO~2~-EtCO~2~) | Hypocapnie : vasoconstriction ; hypercapnie : vol |
+| Hémoglobine | **10 g/dL** | Transport d'O~2~ dans un territoire limite |
+| Glycémie | **6 à 10 mmol/L** | L'hyperglycémie aggrave l'ischémie |
+| Température | Normothermie | |
+
+: Cibles peropératoires du patient moya-moya (protocole local) {#tbl-cibles-moya}
+
+<!-- TODO-VALIDER : `moya` et `moya_non_moya` visent Hb 10 g/dL ; `htic` 7–8 g/dL ; TRAIN 2024 et RFE SFAR anémie 2019 (A_VALIDER n° 4). -->
+
+#### Le réveil
+
+Le patient est **réveillé et extubé tôt**, au bloc, pour être examiné. Un
+**angioscanner** est fait avant la montée en réanimation : il vérifie la perméabilité du
+pontage et l'absence d'hématome. Au réveil, la douleur, l'agitation et les pleurs exposent à
+l'hyperventilation : l'analgésie doit être prête avant l'extubation.
+
+#### En réanimation
+
+- **PAM > 80 mmHg et PAS < 160 mmHg**. Si la PAS dépasse 160 mmHg, le protocole préfère un
+  **alpha-1-bloquant** (urapidil, Eupressyl), qui modifie peu la vasomotricité cérébrale.
+- **Aspirine 75 mg** dès J1.
+- **Compressions pneumatiques** maintenues, HBPM préventive à H24 **après accord du
+  chirurgien**.
+- **Déficit neurologique** au réveil ou secondaire : **IRM en urgence** (diffusion,
+  perfusion, ARM) pour distinguer une ischémie d'une hyperperfusion, dont les traitements sont
+  opposés.
+
+#### Les complications
+
+| Complication | Fréquence (protocole local) | Mécanisme et conduite |
+|---|--|------|
+| **Hyperperfusion** | 20–30 % (50 % à l'imagerie) ; hémorragie < 2 % | Le territoire revascularisé, en ischémie chronique, a perdu son autorégulation et reçoit brutalement un débit élevé : déficit transitoire, rarement hémorragie. Moins fréquente avec un pontage unique qu'un double pontage. **Éviter les poussées hypertensives** ; IRM de perfusion en cas de doute |
+| **Ischémie** (ou transformation hémorragique) | 5–10 %, dans les 7 premiers jours | Favorisée par l'hypercapnie, l'hypotension, un trouble de l'hématocrite, un infarctus préopératoire et une réserve faible. Prévention : antiagrégants, cibles hémodynamiques |
+| **Crises d'épilepsie** | 20 % | Liées à la reperfusion ; pas de prophylaxie systématique |
+
+: Complications du pontage pour moya-moya {#tbl-complications-moya}
+
+Dans une étude prospective de pontages directs (58 patients, 80 hémisphères), 27,5 % des
+hémisphères opérés avaient une
+hyperperfusion symptomatique, toujours transitoire sous contrôle tensionnel ; le risque était
+plus élevé chez l'adulte et quand la maladie s'était révélée par une hémorragie
+[@fujimura2009]. Dans une série de 368 revascularisations, les accidents ischémiques
+postopératoires (3,8 %) dépendaient surtout de la sévérité de la maladie (AIT fréquents) et du
+type de chirurgie, plus que de l'anesthésie [@sakamoto1997].
+
+::: {.callout-warning title="Piège"}
+Hyperperfusion et ischémie donnent le même tableau, un déficit focal après le pontage, mais
+appellent des traitements opposés : baisser la pression pour l'une, la remonter pour l'autre.
+Ne traitez pas à l'aveugle : **IRM de perfusion d'abord**, et en attendant, restez dans la
+fenêtre PAM > 80 mmHg, PAS < 160 mmHg.
+:::
+
+### Le patient moya-moya opéré d'autre chose
+
+Un patient moya-moya peut être opéré d'une chirurgie sans rapport avec sa maladie. Les
+principes sont les mêmes, adaptés à l'ampleur du geste.
+
+- **À distance** de tout événement : au moins **6 mois à 1 an** après un accident ischémique.
+- **Maladie stable** : pas de déficit transitoire récent, imagerie stable (séquelles
+  ischémiques seulement), et dans l'idéal une **scintigraphie cérébrale au Diamox**
+  (acétazolamide) montrant une réserve vasculaire préservée, sur avis du centre expert.
+- **Objectifs tensionnels** fixés en consultation : HTA équilibrée, MAPA si besoin.
+- **Jeûne court** pour les liquides clairs, afin d'éviter la déshydratation ; perfusion de
+  NaCl 0,9 % (1000 mL sur 12 h) la veille si l'intervention est lourde.
+- **Monitorage** : cathéter artériel sous anesthésie locale avant l'induction, ou simple
+  brassard si la maladie est stable et le geste court, sans variation hémodynamique attendue ;
+  BIS ; NIRS bilatérale pour détecter un événement peropératoire ; débit cardiaque (Doppler
+  œsophagien) pour une chirurgie lourde.
+- **Anesthésie** : AIVOC de propofol (prévention des NVPO, réveil rapide) ; noradrénaline
+  diluée dès l'induction.
+- **Mêmes cibles** que pour le pontage (@tbl-cibles-moya).
+- **Après** : ambulatoire possible si le patient est opéré en première position, que la
+  douleur est contrôlée et l'alimentation reprise ; sinon une nuit d'hospitalisation.
+  Réhabilitation précoce et surveillance neurologique.
+
+## Cas cliniques
+
+### Cas 1 : le clampage temporaire
+
+Une femme de 54 ans, hypertendue et fumeuse, est opérée d'un anévrysme non rompu de 8 mm de
+la bifurcation de l'artère cérébrale moyenne gauche. Le staff vasculaire a retenu le clippage
+(collet large, branche naissant du sac).
+
+1. Quel monitorage posez-vous, et quand ?
+2. Pendant la dissection, le chirurgien annonce un clampage temporaire de l'artère cérébrale
+   moyenne. Que faites-vous ?
+3. Le clampage dure depuis 15 minutes. Quel message donnez-vous au chirurgien ?
+4. Au réveil, elle ne trouve plus ses mots et ne bouge plus la main droite. Qu'évoquez-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Cathéter artériel (avant l'induction si le risque de rupture est élevé), BIS ou PSI, deux
+   voies veineuses de bon calibre, sonde urinaire ; carte de groupe et RAI à jour ; débit
+   cardiaque selon le terrain.
+2. Chronomètre déclenché et durée annoncée ; noradrénaline diluée en titration, sans bolus,
+   pour remonter la pression et perfuser les collatérales ; vérification de la profondeur
+   d'anesthésie, de la normocapnie et de l'oxygénation ; retour à la pression de base au
+   déclampage.
+3. Annoncez la durée : au-delà de 14 minutes environ, le risque d'infarctus augmente
+   [@samson1994]. Le chirurgien peut relâcher le clamp pour reperfuser avant de reprendre.
+4. Une aphasie et un déficit droit dans le territoire de l'artère cérébrale moyenne gauche :
+   clip sur une branche ou une perforante, ischémie liée au clampage, hématome. Imagerie en
+   urgence et appel du chirurgien.
+:::
+
+### Cas 2 : le pontage pour moya-moya
+
+Un homme de 38 ans, moya-moya révélé par une hémorragie intraventriculaire il y a un an, est
+opéré d'un pontage temporal superficiel-cérébral moyen droit. Sa PAM habituelle, à la MAPA,
+est de 95 mmHg.
+
+1. Quelle est votre cible de PAM peropératoire, et comment la tenez-vous ?
+2. Une heure après l'induction, l'EtCO~2~ est à 30 mmHg et le gaz du sang montre une
+   PaCO~2~ à 33 mmHg. Que faites-vous, et pourquoi ?
+3. Pourquoi ce patient a-t-il un risque plus élevé d'hyperperfusion ?
+4. À H6 en réanimation, il a une hémiparésie gauche, PA 175/95 mmHg. Que faites-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. PAM > 90 % de 95, soit **plus de 85 mmHg**, sans aucune hypotension : cathéter artériel
+   posé sous anesthésie locale avant l'induction, induction progressive, noradrénaline diluée
+   branchée dès l'induction, remplissage guidé par le débit cardiaque.
+2. Baissez la ventilation minute pour revenir à 36–40 mmHg : l'hypocapnie contracte les
+   vaisseaux réactifs et réduit le débit dans des territoires sans réserve. Contrôlez par un
+   nouveau gaz du sang.
+3. C'est un adulte, et sa maladie s'est révélée par une hémorragie : deux facteurs de risque
+   d'hyperperfusion symptomatique après pontage [@fujimura2009].
+4. Un déficit focal après pontage : hyperperfusion ou ischémie. IRM de perfusion en urgence.
+   En attendant, la PAS dépasse 160 mmHg : urapidil pour la ramener sous 160 mmHg, sans
+   descendre sous une PAM de 80 mmHg.
+:::
+
+## Fiches pratiques
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Éviter la rupture (pas de poussée hypertensive) et l'ischémie (pas d'hypotension) ; tenir la fenêtre de pression ; réveil rapide et examinable |
+| Monitorage | KTA systématique (avant l'induction si risque de rupture élevé) ; BIS ou PSI ; 2 VVP de bon calibre ; SU ; débit cardiaque selon le terrain ; carte de groupe et RAI à jour |
+| Induction et entretien | Propofol + rémifentanil en AIVOC, anesthésie plutôt profonde ; curare jusqu'au clippage si besoin ; infiltration du scalp ; céfazoline 2 g ; **clampage temporaire** : chronomètre, noradrénaline diluée sans bolus, retour à la base au déclampage ; **vert d'indocyanine** 25 mg/10 mL EPPI, 3 mL IVD, une fois renouvelable |
+| Cibles | Celles de la craniotomie ; normothermie (pas d'hypothermie) |
+| Pièges | Poussée hypertensive à la laryngoscopie ou aux pointes ; clampage temporaire non chronométré ; adénosine improvisée ; hypotension maintenue après le contrôle d'une rupture |
+| Post-opératoire | Comme la craniotomie ; examen ciblé sur le territoire de l'artère porteuse (motricité et sensibilité controlatérales, langage, vigilance) ; déficit nouveau = imagerie en urgence |
+
+: Fiche pratique : clippage d'un anévrysme non rompu {#tbl-fiche-clippage}
+:::
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Aucune hypotension ; normocapnie stricte ; prévenir l'ischémie et l'hyperperfusion |
+| Monitorage | KTA sous AL **avant l'induction** ; BIS ; NIRS bilatérale ; débit cardiaque ; SU, température ; CPI |
+| Induction et entretien | Veille : NaCl 0,9 % 1000 mL/12 h, aspirine 100 mg IVL le soir et le matin ; propofol + rémifentanil en AIVOC, induction progressive ; **noradrénaline diluée dès l'induction** ; curare jusqu'au pontage (TOF) ; céfazoline 2 g ; kétamine 0,25 mg/kg, paracétamol, morphine 0,1 mg/kg 30 min avant le réveil |
+| Cibles | PAM > 90 % de la PAM habituelle (MAPA) ; PaCO~2~ 36–40 mmHg (gaz du sang) ; Hb 10 g/dL ; glycémie 6–10 mmol/L ; normothermie |
+| Pièges | Hypotension à l'induction ; hypocapnie (ventilation, douleur, pleurs) ; hypercapnie ; déficit postopératoire traité sans imagerie (hyperperfusion ou ischémie) |
+| Post-opératoire | Extubation précoce, angioscanner avant la réanimation ; PAM > 80, PAS < 160 mmHg (urapidil) ; aspirine 75 mg à J1 ; CPI, HBPM à H24 après accord du chirurgien ; déficit = IRM diffusion-perfusion en urgence ; crises (20 %) sans prophylaxie |
+
+: Fiche pratique : pontage pour moya-moya {#tbl-fiche-moya}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- Un anévrysme non rompu est opéré sous la menace de deux risques : la rupture (pas de poussée
+  hypertensive) et l'ischémie (pas d'hypotension).
+- Clampage temporaire : chronomètre, pression remontée par une noradrénaline titrée sans bolus,
+  retour à la base au déclampage ; au-delà de 14 minutes environ, le risque d'infarctus monte.
+- Rupture peropératoire : appel à l'aide, transfusion, baisse tensionnelle brève à la demande
+  du chirurgien seulement, puis pression normale ou haute.
+- Ni l'hypothermie ni un agent « protecteur » n'ont amélioré le devenir : normothermie.
+- Moya-moya : réserve vasculaire épuisée ; PAM > 90 % de l'habituelle dès l'induction,
+  normocapnie stricte (ni hypo- ni hypercapnie), Hb et volémie maintenues.
+- Après un pontage, un déficit focal est une hyperperfusion ou une ischémie : IRM de perfusion
+  avant de toucher à la pression artérielle.
 :::
