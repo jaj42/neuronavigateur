@@ -1,11 +1,561 @@
 # AVC ischémique : thrombectomie et thrombolyse {#sec-avc}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Comprendre pourquoi chaque minute compte, et ce que cela change pour l'anesthésiste appelé
+  au déchocage ou en salle de NRI.
+- Connaître les indications, les doses et les contre-indications de la thrombolyse
+  intraveineuse, en particulier chez le patient opéré du cerveau.
+- Surveiller un patient thrombolysé et reconnaître ses deux complications aiguës : l'hémorragie
+  intracrânienne et l'angio-œdème.
+- Fixer la cible de pression artérielle avant et après la thrombolyse, puis après la
+  thrombectomie.
+- Conduire la réanimation des premiers jours et reconnaître l'infarctus malin, sylvien ou
+  cérébelleux, qui relève de la chirurgie.
 :::
 
-*Chapitre en cours de rédaction.*
+## Le temps, c'est du cerveau
+
+L'occlusion d'une artère cérébrale crée un **cœur** d'infarctus, déjà perdu, entouré d'une
+**pénombre** : un tissu hypoperfusé, électriquement silencieux, mais encore vivant. Son débit
+dépend des collatérales et suit passivement la PAM, car l'autorégulation y est
+abolie (@sec-physiologie) ; le cœur grossit aux dépens de la pénombre tant que l'artère reste
+fermée (@sec-nri). Tout le traitement de l'AVC ischémique tient en deux idées : **rouvrir l'artère le
+plus vite possible**, et **protéger la pénombre** en attendant (pas d'hypotension, pas
+d'hypoxie, pas d'hyperglycémie, pas de fièvre).
+
+Le bénéfice des deux traitements de reperfusion décroît avec le temps :
+
+- **thrombolyse intraveineuse** : dans la méta-analyse des neuf essais de l'altéplase
+  (6756 patients), la proportion de patients sans handicap significatif à 3–6 mois passait de
+  23,1 à 32,9 % quand le traitement était donné avant 3 h, de 30,1 à 35,3 % entre 3 et 4,5 h, et
+  le bénéfice n'était plus significatif au-delà [@emberson2014] ;
+- **thrombectomie** : dans la méta-analyse HERMES, le bénéfice restait significatif jusqu'à
+  7 h 18 après le début des symptômes, et chaque heure de
+  retard à la reperfusion aggravait le handicap [@prabhakaran2026].
+
+Ce chapitre suit les recommandations américaines de 2026 [@prabhakaran2026], dont on donne la
+**classe** (1 : recommandé ; 2a : raisonnable ; 2b : peut être envisagé ; 3 : sans bénéfice ou
+délétère) et le niveau de preuve, et celles de l'*European Stroke Organisation* (ESO), cotées
+selon GRADE (forte ou faible) [@berge2021; @alamowitch2023; @sandset2026; @vanderworp2021;
+@turc2019]. La RPP française de 2022 encadre la thrombectomie [@sfar_thrombectomie2022] ; les
+recommandations de la HAS de 2009 [@has_avc2009] restent utiles pour l'organisation de la
+filière, mais elles sont **historiques** pour le reste (elles ne recommandaient pas encore la
+thrombectomie). Le seul protocole du service est la feuille de surveillance après thrombolyse.
+
+L'anesthésie pour thrombectomie (sédation ou anesthésie générale, cibles per-procédure) est
+traitée au @sec-nri ; ce chapitre couvre ce qui l'entoure.
+
+## La filière : de l'alerte à l'unité neurovasculaire
+
+### L'alerte
+
+Tout déficit neurologique brutal est une urgence absolue, même s'il régresse. Le grand public
+apprend le message **FAST** (*Face, Arm, Speech, Time*) : visage, bras, parole, et l'heure ;
+l'appel va au SAMU (15), qui oriente le patient avec le neurologue de l'unité neurovasculaire
+(UNV) la plus proche [@has_avc2009]. La donnée la plus précieuse est l'**heure de début** des
+symptômes, ou, si elle est inconnue (réveil, patient trouvé), l'**heure à laquelle le patient a
+été vu normal pour la dernière fois**.
+
+À l'arrivée, sans retarder l'imagerie :
+
+- **glycémie capillaire** avant toute thrombolyse : une hypo- ou une hyperglycémie sévère peut
+  mimer un AVC ; si le déficit invalidant persiste après correction, on thrombolyse (classe 1)
+  [@prabhakaran2026] ;
+- score **NIHSS** et examen daté ;
+- traitements en cours (anticoagulants, antiagrégants), poids, antécédents ;
+- pas d'oxygène systématique : seulement pour maintenir la SpO~2~ au-dessus de 94 % (classe 1 ;
+  sans bénéfice chez le patient non hypoxémique, classe 3) [@prabhakaran2026].
+
+### L'imagerie
+
+L'IRM (diffusion, FLAIR, écho de gradient) est l'examen le plus performant ; à défaut, le
+scanner sans injection élimine une hémorragie [@has_avc2009]. L'angioscanner ou l'ARM cherche
+une **occlusion d'un gros tronc** (carotide interne, M1, tronc basilaire), qui fait discuter la
+thrombectomie. Pour une thrombolyse dans les 4,5 heures, le scanner sans injection suffit : on
+ne retarde pas le traitement pour obtenir une imagerie multimodale (classe 1) [@prabhakaran2026].
+
+Au-delà de 4,5 heures, ou si l'heure de début est inconnue, l'imagerie de perfusion ou le
+**mismatch diffusion-FLAIR** (lésion visible en diffusion mais pas encore en FLAIR, donc
+récente) sélectionne les patients qui peuvent encore être thrombolysés : recommandation forte
+de l'ESO pour l'AVC du réveil avec mismatch diffusion-FLAIR, et pour un mismatch de perfusion
+entre 4,5 et 9 heures, quand la thrombectomie n'est pas prévue [@berge2021].
+
+::: {.callout-warning title="Piège : l'AVC du patient hospitalisé en neurochirurgie"}
+L'interne d'anesthésie rencontre l'AVC surtout chez un patient déjà hospitalisé : réveil
+anormal en SSPI, aphasie à J3 d'une craniotomie, déficit après une artériographie. Le réflexe
+est le même (heure de début, glycémie, imagerie, appel du neurologue), mais la thrombolyse
+obéit à des règles particulières [@prabhakaran2026] :
+
+- chirurgie **intracrânienne ou rachidienne de moins de 14 jours** : contre-indication absolue ;
+  entre 14 jours et 3 mois, décision individuelle avec le neurochirurgien ;
+- **AVC au cours ou au décours immédiat d'une angiographie** : la thrombolyse doit être
+  envisagée, son bénéfice dépassant probablement le risque ;
+- anévrysme non rompu, moya-moya, tumeur **extra-axiale** (méningiome) : la thrombolyse reste
+  possible ; tumeur **intra-axiale** : contre-indication.
+
+Quand la thrombolyse est interdite, la **thrombectomie** reste possible : il faut donc toujours
+chercher une occlusion proximale.
+:::
+
+## La thrombolyse intraveineuse
+
+### Pour qui ?
+
+La thrombolyse est indiquée chez l'adulte qui a un **déficit invalidant** depuis moins de
+4,5 heures, quel que soit son score NIHSS, et le plus tôt possible (classe 1) [@prabhakaran2026].
+L'âge n'est pas une limite : l'ESO la recommande au-delà de 80 ans (recommandation forte)
+[@berge2021]. Un déficit **mineur et non invalidant** (par exemple un trouble sensitif isolé)
+ne se thrombolyse pas : la double antiagrégation fait aussi bien avec moins d'hémorragies
+(classe 3, sans bénéfice) [@prabhakaran2026]. La frontière est clinique, pas numérique : une
+hémianopsie complète, une aphasie sévère ou une faiblesse qui empêche de marcher sont
+invalidantes même avec un NIHSS bas [@prabhakaran2026].
+
+### Quel produit, quelle dose ?
+
+| Produit | Dose | Administration |
+|---|---|------|
+| **Altéplase** (Actilyse) | 0,9 mg/kg, maximum 90 mg | 10 % en bolus IV sur 1 min, puis 90 % à la seringue électrique sur 60 min |
+| **Ténectéplase** (Metalyse) | 0,25 mg/kg, maximum 25 mg | Bolus unique IV de 5 à 10 s |
+
+: Les deux thrombolytiques de l'AVC ischémique [@prabhakaran2026] {#tbl-thrombolytiques}
+
+Les deux produits sont recommandés au même niveau (classe 1) ; la dose de 0,4 mg/kg de
+ténectéplase est sans bénéfice et plus hémorragique (classe 3) [@prabhakaran2026]. L'ESO
+privilégie la ténectéplase en cas d'occlusion d'un gros tronc candidate à la thrombectomie
+(recommandation forte) [@alamowitch2023]. Son avantage pratique est majeur pour un transfert
+vers la NRI : pas de perfusion d'une heure à surveiller pendant le trajet. **Attention** : la
+seringue graduée de la ténectéplase a été conçue pour l'infarctus du myocarde, à la dose de
+0,5 mg/kg ; la dose de l'AVC est deux fois moindre [@alamowitch2023].
+
+Le protocole du service est écrit pour l'altéplase.
+
+<!-- TODO-VALIDER : protocole avc écrit pour l'altéplase (Actilyse) seulement ; AHA 2026 : ténectéplase 0,25 mg/kg (max 25 mg) recommandée au même niveau (classe 1, A) ; ESO 2023 : ténectéplase préférée si occlusion proximale avant thrombectomie. Préciser le produit utilisé localement (A_VALIDER n° 39). -->
+
+### Les contre-indications
+
+Les listes de contre-indications de l'autorisation de mise sur le marché de 2009 (âge > 80 ans,
+délai > 3 h, AVC sévère, diabète avec antécédent d'AVC) [@has_avc2009] sont dépassées. Les
+recommandations américaines de 2026 classent les situations en trois groupes, du moins au plus
+risqué [@prabhakaran2026] :
+
+| Groupe | Situations |
+|----|---------------|
+| **Bénéfice supérieur au risque** (thrombolyse à envisager) | Dissection cervicale extracrânienne ; tumeur extra-axiale ; AVC per- ou post-angiographie ; anévrysme non rompu ; moya-moya ; antécédent ancien d'hémorragie digestive ou d'infarctus du myocarde ; doute diagnostique avec un « mime » d'AVC ; prise d'un ou de deux antiagrégants (classe 1) |
+| **Contre-indications relatives** (décision individuelle) | Anticoagulant oral direct pris depuis moins de 48 h ; AVC ischémique de moins de 3 mois ; antécédent d'hémorragie intracérébrale ; traumatisme majeur extracrânien de moins de 14 jours ; chirurgie majeure extracrânienne de moins de 10 jours ; hémorragie digestive de moins de 21 jours ; dissection intracrânienne ; malformation vasculaire non traitée ; infarctus du myocarde ST+ de moins de 3 mois ; grossesse ; ponction artérielle non compressible de moins de 7 jours ; TC ou neurochirurgie entre 14 jours et 3 mois |
+| **Contre-indications absolues** | Hémorragie au scanner ; hypodensité franche et étendue ; TC modéré ou grave de moins de 14 jours ; **chirurgie intracrânienne ou rachidienne de moins de 14 jours** ; lésion médullaire de moins de 3 mois ; tumeur intra-axiale ; endocardite infectieuse ; dissection de la crosse aortique ; plaquettes < 100 G/L, INR > 1,7, TCA > 40 s ou TP > 15 s ; anomalies d'imagerie liées à une immunothérapie anti-amyloïde (ARIA) |
+
+: Thrombolyse : situations particulières (d'après le tableau 8 de l'AHA 2026) {#tbl-ci-thrombolyse}
+
+Quelques précisions utiles :
+
+- **Biologie** : sans raison de suspecter une anomalie (pas d'anticoagulant, pas d'hémopathie),
+  on n'attend pas les résultats pour commencer (classe 2a) [@prabhakaran2026] ; on arrête si
+  l'INR dépasse 1,7 ou si le TCA est allongé.
+- **AVK** : thrombolyse si l'INR est ≤ 1,7, pas au-dessus, ni si l'INR est inconnu
+  (recommandations fortes de l'ESO) [@berge2021].
+- **Anticoagulant oral direct** pris dans les 48 h : sans dosage spécifique, pas de thrombolyse
+  selon l'ESO (recommandation forte) ; une activité anti-Xa < 0,5 UI/mL ou un temps de thrombine
+  < 60 s la rendent discutable ; sous dabigatran, la plupart des experts proposent
+  l'idarucizumab puis la thrombolyse [@berge2021]. L'AHA laisse une décision individuelle
+  [@prabhakaran2026].
+- **Pression artérielle** : elle doit être abaissée sous **185/110 mmHg** avant la thrombolyse
+  (classe 1) [@prabhakaran2026] ; si elle reste au-dessus malgré le traitement, on ne
+  thrombolyse pas (ESO, recommandation forte) [@berge2021].
+- **Crise convulsive** au début : elle n'interdit pas la thrombolyse s'il n'y a pas de doute
+  diagnostique ni de traumatisme crânien (ESO, recommandation faible) [@berge2021].
+
+### Pendant et après la perfusion
+
+La surveillance est celle d'un patient qui peut saigner dans le crâne à tout moment. Le
+protocole du service et les recommandations américaines diffèrent sur la fréquence :
+
+| | Protocole du service | AHA 2026 [@prabhakaran2026] |
+|----|------|------|
+| Examen neurologique et PA | Toutes les 30 min pendant 2 h, toutes les heures jusqu'à H6, toutes les 2 h jusqu'à H24 | Toutes les 15 min pendant la perfusion et les 2 h suivantes, toutes les 30 min pendant 6 h, puis toutes les heures jusqu'à H24 |
+| Cible de PA | Traitement si PA > 180/105 mmHg | PA < 180/105 mmHg pendant au moins 24 h (classe 1) |
+| Gestes invasifs | Éviter sondage et geste invasif pendant la perfusion | Différer sonde gastrique, sonde urinaire et cathéter artériel si l'on peut s'en passer |
+| Antithrombotiques | Non précisé | Imagerie de contrôle à H24 avant tout antiagrégant ou anticoagulant |
+
+: Surveillance après thrombolyse {#tbl-surveillance-thrombolyse}
+
+<!-- TODO-VALIDER : protocole avc : surveillance neurologique et PA toutes les 30 min pendant 2 h, puis toutes les heures jusqu'à H6, puis toutes les 2 h ; AHA 2026 (tableau 7) : toutes les 15 min pendant et 2 h après la thrombolyse, toutes les 30 min pendant 6 h, puis toutes les heures jusqu'à H24. Le protocole ne mentionne pas non plus l'imagerie de H24 avant les antithrombotiques (A_VALIDER n° 39). -->
+
+Le reste du protocole du service :
+
+- décubitus dorsal à 0° ou tête à 30° : les deux se valent ; dans l'essai HeadPoST
+  (11 093 patients), le décubitus strict pendant 24 h n'a pas amélioré le handicap à 3 mois
+  [@anderson2017], et la position à 0° en routine est sans bénéfice (classe 3)
+  [@prabhakaran2026] ;
+- à jeun, avec un **test de déglutition** avant toute prise orale (classe 1) [@prabhakaran2026] ;
+- NaCl 0,9 % 1 L/24 h ;
+- scope avec SpO~2~ et fréquence cardiaque continues, ECG 12 dérivations le premier jour ;
+- température et glycémie capillaire à H0, toutes les 2 h jusqu'à H6, puis toutes les 6 h ;
+  diurèse toutes les 2 h jusqu'à H6, puis toutes les 6 h ;
+- aucun autre traitement sur la voie de la thrombolyse.
+
+Pas d'**antithrombotique dans les 24 heures** qui suivent la thrombolyse (ESO, recommandation
+forte) [@berge2021] ; l'AHA juge ce risque incertain et l'admet seulement si une autre
+indication l'impose (classe 2b) [@prabhakaran2026].
+
+### La pression artérielle : la nicardipine du service
+
+Viser plus bas que 180 mmHg n'apporte rien : dans l'essai ENCHANTED (2196 patients), une PAS
+cible de 130–140 mmHg réduisait un peu les hémorragies intracrâniennes (14,8 contre 18,7 %)
+sans améliorer le pronostic fonctionnel [@anderson2019] ; une baisse intensive sous 140 mmHg
+n'est donc pas recommandée (classe 3) [@prabhakaran2026; @sandset2026]. Aucun antihypertenseur
+n'est préféré par les recommandations [@sandset2026].
+
+Le protocole du service utilise la **nicardipine** (Loxen) :
+
+- **dilution** : une ampoule de 10 mg (10 mL) complétée à 50 mL de NaCl 0,9 %, soit
+  **0,2 mg/mL** ; 1 mg/h = 5 mL/h ; veinotoxique ;
+- **début** si la PA dépasse 180/105 mmHg ;
+- **titration** par paliers de 1 mg/h toutes les 30 min pour obtenir une **PAS entre 170 et
+  180 mmHg** ; PAS 160–170 : baisser de 0,5 mg/h ; PAS < 160 : arrêter ; **dose maximale
+  6 mg/h** (30 mL/h) ;
+- PA toutes les 30 min après chaque modification ;
+- **appel du médecin** si PAS > 180 ou < 85 mmHg, aggravation du NIHSS de 2 points ou plus,
+  trouble de vigilance, œdème ou allergie, saignement extériorisé.
+
+<!-- TODO-VALIDER : protocole avc : (a) « 1 amp de 10mg/ml dans 40ml » : l'ampoule de Loxen contient 10 mg/10 mL ; 10 mg dans 50 mL au total = 0,2 mg/mL, cohérent avec « 1 mg/h = 5 mL/h » ; corriger l'énoncé ; (b) dose de départ de la nicardipine non précisée ; (c) seuil d'appel « PAS < 85 mmHg » très bas pour une pénombre dépendante de la pression ; (d) la même feuille sert après thrombectomie (case « thrombectomie oui/non ») alors que la RPP SFAR 2022 vise PAS 130–160 mmHg après une recanalisation TICI ≥ 2b (A_VALIDER n° 39). -->
+
+### Les deux complications aiguës
+
+**L'hémorragie intracrânienne symptomatique** est la complication redoutée. Dans l'essai NINDS,
+elle touchait 6,4 % des patients thrombolysés contre 0,6 % sous placebo [@ninds1995] ; dans la
+méta-analyse des essais de l'altéplase, 6,8 % contre 1,3 % (hématome parenchymateux de type 2
+dans les 7 jours), avec 2,7 % d'hémorragies mortelles contre 0,4 % [@emberson2014]. On y pense
+devant une **céphalée** brutale, des **nausées ou vomissements**, une **poussée hypertensive**
+ou une **aggravation neurologique** pendant ou après la perfusion. La conduite proposée par
+l'AHA [@prabhakaran2026] :
+
+1. **arrêter la perfusion** d'altéplase ;
+2. **scanner** cérébral en urgence ;
+3. bilan : NFS, TP/INR, TCA, **fibrinogène**, groupe et RAI ;
+4. corriger la fibrinolyse : **fibrinogène** (cryoprécipité dans le texte américain, pour viser
+   un fibrinogène ≥ 1,5 g/L) et **acide tranexamique 1 g** IV en 10 min ;
+5. avis hématologique et neurochirurgical ;
+6. traitement symptomatique : PA, PIC, PPC, température, glycémie (@sec-htic).
+
+<!-- TODO-VALIDER : aucun protocole local pour l'hémorragie après thrombolyse ; l'AHA 2026 (tableau 5) propose cryoprécipité 10 U pour un fibrinogène ≥ 150 mg/dL et acide tranexamique 1 g. Préciser le produit utilisé localement (concentré de fibrinogène ?) et la dose (A_VALIDER n° 39). -->
+
+**L'angio-œdème orolingual** touchait 5,1 % des patients thrombolysés dans une série
+prospective ; il était souvent modéré, transitoire, controlatéral à l'hémisphère ischémié, et
+surtout lié aux **inhibiteurs de l'enzyme de conversion** (risque relatif 13,6) [@hill2003].
+C'est l'affaire de l'anesthésiste [@prabhakaran2026] :
+
+- **voies aériennes** d'abord : un œdème limité à la partie antérieure de la langue et aux lèvres
+  ne demande souvent pas d'intubation ; un œdème du larynx, du palais, du plancher buccal ou de
+  l'oropharynx qui progresse en moins de 30 min expose à l'intubation, de préférence **vigile
+  au fibroscope** ; la voie nasale fait saigner après une thrombolyse, et la
+  cricothyroïdotomie est rarement nécessaire mais elle aussi dangereuse ;
+- arrêter la perfusion d'altéplase et l'IEC ;
+- **méthylprednisolone 125 mg** IV, un antihistaminique H~1~ IV (diphénhydramine 50 mg dans le
+  texte américain) et un anti-H~2~ IV ;
+- si l'œdème progresse : **adrénaline** 0,3 mg IM (ou en nébulisation) ; icatibant 30 mg SC en
+  cas d'angio-œdème bradykinique sous IEC.
+
+## La thrombectomie
+
+### Les indications
+
+La thrombectomie concerne les **occlusions proximales** : carotide interne, segment M1 de
+l'artère cérébrale moyenne, tronc basilaire. Les recommandations de 2026 l'étendent largement
+[@prabhakaran2026] :
+
+| Situation | Indication |
+|------|-------|
+| Carotide interne ou M1, < 6 h, NIHSS ≥ 6, autonome (mRS 0–1), ASPECTS 3 à 10 | Recommandée (classe 1, A) |
+| Même occlusion, 6 à 24 h, ASPECTS ≥ 6 | Recommandée (classe 1, A) |
+| Même occlusion, 6 à 24 h, ASPECTS 3 à 5, âge < 80 ans, sans effet de masse | Recommandée (classe 1, A) |
+| Même occlusion, < 6 h, ASPECTS 0 à 2, âge < 80 ans, sans effet de masse | Raisonnable (classe 2a) |
+| Tronc basilaire, < 24 h, NIHSS ≥ 10, PC-ASPECTS ≥ 6 | Recommandée (classe 1, A) |
+| Branche M2 dominante proximale, < 6 h | Raisonnable, bénéfice incertain (classe 2a) |
+| Occlusions distales (M2 non dominante, M3, cérébrale antérieure ou postérieure) | Sans bénéfice (classe 3) |
+
+: Indications de la thrombectomie chez l'adulte (AHA 2026) {#tbl-indications-thrombectomie}
+
+L'ASPECTS (*Alberta Stroke Program Early CT Score*) cote de 10 à 0 l'étendue des signes précoces
+d'ischémie dans le territoire sylvien : plus il est bas, plus l'infarctus est étendu. Les
+« gros cœurs » (ASPECTS 3 à 5) ont fait l'objet d'essais dédiés en 2023 : dans SELECT2, 20 % des patients thrombectomisés étaient indépendants à 3 mois contre
+7 % sous traitement médical [@sarraj2023] ; dans ANGEL-ASPECT, le bénéfice fonctionnel
+s'accompagnait de plus d'hémorragies symptomatiques (6,1 contre 2,7 %) [@huo2023]. Ces
+patients sont ceux qui feront ensuite un œdème malin (voir plus loin).
+
+### Thrombolyse et thrombectomie
+
+Quand le patient est éligible aux deux, on fait **les deux** : la thrombolyse d'abord, sans
+attendre d'en voir l'effet ni retarder la ponction (classe 1) [@prabhakaran2026], y compris quand
+le patient arrive directement dans un centre de thrombectomie (ESO-ESMINT, recommandation forte)
+[@turc2022]. Un patient thrombolysé dans un centre sans NRI est transféré aussitôt [@turc2022].
+
+### L'anesthésie
+
+Anesthésie générale ou sédation conviennent toutes deux (classe 1) [@prabhakaran2026] ; les
+critères de la RPP française pour choisir l'anesthésie générale, les cibles per-procédure et la
+conduite de l'induction sont au @sec-nri [@sfar_thrombectomie2022]. Deux rappels : pas
+d'**hypotension** avant la recanalisation (ESO, recommandation forte contre les chutes de PAS)
+[@sandset2026], et pas d'héparine systémique après une thrombolyse [@sfar_thrombectomie2022].
+
+## La pression artérielle après la thrombectomie
+
+Une fois l'artère rouverte, le risque change : la pénombre est sauvée ou perdue, et le tissu
+reperfusé peut saigner. Il était donc tentant de baisser franchement la PA. Les essais ont
+montré l'inverse :
+
+| Essai | Patients | Comparaison (PAS) | Résultat |
+|----|---|----|-----|
+| BP-TARGET [@mazighi2021] | 324, France | 100–129 contre 130–185 mmHg | Hémorragie intraparenchymateuse 42 contre 43 % : pas de différence |
+| ENCHANTED2/MT [@yang2022] | 821, Chine | < 120 contre 140–180 mmHg, 72 h | Arrêté précocement : pronostic **plus mauvais** sous baisse intensive |
+| OPTIMAL-BP [@nam2023] | 306, Corée | < 140 contre 140–180 mmHg, 24 h | Arrêté précocement : indépendance 39,4 contre 54,4 % |
+| BEST-II [@mistry2023] | 120, États-Unis | < 140, < 160 ou ≤ 180 mmHg | Faible probabilité de bénéfice des cibles basses |
+
+: Baisser la PA après une thrombectomie réussie : les essais {#tbl-essais-pa-thrombectomie}
+
+::: {.callout-note title="Ce que disent les recommandations"}
+**Après thrombectomie** :
+
+- AHA 2026 [@prabhakaran2026] : PA ≤ 180/105 mmHg pendant la procédure et les 24 h suivantes
+  (classe 2a) ; viser une PAS < 140 mmHg après une recanalisation réussie (TICI 2b à 3) est
+  **délétère** (classe 3, niveau A).
+- ESO 2025 [@sandset2026] : PA < 180/105 mmHg (recommandation faible) ; pas de baisse active
+  sous 140 mmHg pendant les 24 premières heures après une recanalisation réussie
+  (recommandation forte, preuves de haute qualité) ; éviter les chutes de PAS (recommandation
+  forte) ; pas d'hypertension induite après une recanalisation complète (TICI 3, consensus
+  d'experts).
+- RPP SFAR 2022 [@sfar_thrombectomie2022] : PAS **130–180 mmHg** si la recanalisation est
+  incomplète (TICI < 2b) ; **130–160 mmHg** si elle est bonne (TICI ≥ 2b) (avis d'experts,
+  accord fort).
+:::
+
+La RPP française est antérieure à ENCHANTED2/MT et à OPTIMAL-BP : sa borne basse de 130 mmHg
+est aujourd'hui trop basse. En pratique, après une **bonne recanalisation**, on vise une **PAS
+entre 140 et 160 mmHg**, ce qui respecte les trois textes ; après une recanalisation
+incomplète, une PAS entre 140 et 180 mmHg. Ces cibles se décident avec le neuroradiologue, qui
+connaît le résultat et le risque hémorragique (gros cœur, occlusion en tandem avec stent).
+
+<!-- TODO-VALIDER : cible de PAS après thrombectomie : RPP SFAR 2022 130–160 mmHg si TICI ≥ 2b ; AHA 2026 et ESO 2025 déconseillent une cible < 140 mmHg (OPTIMAL-BP, ENCHANTED2/MT). Le livre propose 140–160 mmHg après bonne recanalisation et 140–180 mmHg sinon ; la feuille locale (titration à 170–180) n'est pas adaptée à la bonne recanalisation. Fixer la cible locale (A_VALIDER n° 39). -->
+
+## Les premiers jours en soins critiques
+
+Le patient thrombolysé ou thrombectomisé est surveillé en soins critiques, de préférence en
+**unité de soins intensifs neurovasculaires** (USINV), au moins jusqu'à l'imagerie de H24
+[@sfar_thrombectomie2022]. La réanimation se discute au cas par cas, surtout pour les troubles
+de conscience et la protection des voies aériennes, en respectant les souhaits du patient
+[@has_avc2009; @sfar_thrombectomie2022].
+
+| Paramètre | Cible ou conduite | Niveau |
+|----|-------|---|
+| Voies aériennes | Intubation si troubles de conscience ou atteinte bulbaire | Classe 1 [@prabhakaran2026] |
+| Oxygène | SpO~2~ > 94 % ; pas d'O~2~ chez le patient non hypoxémique | Classe 1 ; classe 3 [@prabhakaran2026] |
+| PA sans reperfusion | Ne pas traiter sous 220/120 mmHg les 48–72 premières heures ; au-dessus, baisser d'environ 15 % ; corriger hypotension et hypovolémie | Classe 3 ; 2b ; 1 [@prabhakaran2026] |
+| Température | Traiter l'hyperthermie et sa cause ; pas d'hypothermie induite | Classe 1 ; classe 3 [@prabhakaran2026] |
+| Glycémie | Traiter l'hypoglycémie (< 3,3 mmol/L) ; hyperglycémie persistante : viser 7,8–10 mmol/L ; pas d'insuline IV pour 4,4–7,2 mmol/L | Classe 1 ; 2a ; 3 [@prabhakaran2026] |
+| Déglutition | Test avant toute prise orale | Classe 1 [@prabhakaran2026] |
+| MTEV | Compression pneumatique intermittente ; HBPM ou HNF préventive raisonnable ; **pas de bas de contention** (délétères) | Classe 1 ; 2a ; 3 [@prabhakaran2026] |
+| Crises | Pas de prophylaxie antiépileptique | Classe 3 [@prabhakaran2026] |
+| Aspirine | Dans les 48 h (après l'imagerie de H24 si thrombolyse) | Classe 1 [@prabhakaran2026] |
+
+: Réanimation des premiers jours de l'AVC ischémique {#tbl-acsos-avc}
+
+L'**hyperglycémie** mérite un mot : elle est associée à un plus mauvais pronostic, mais la
+corriger intensivement ne sert à rien. Dans l'essai SHINE (1151 patients), l'insuline IV visant
+4,4–7,2 mmol/L n'a pas fait mieux que l'insuline sous-cutanée visant moins de 10 mmol/L, et elle
+seule a donné des hypoglycémies sévères (2,6 %) [@johnston2019]. La RPP de 2022 demande de
+traiter l'hyperglycémie sans provoquer d'hypoglycémie [@sfar_thrombectomie2022].
+
+L'**anticoagulation** d'une fibrillation atriale peut être précoce chez les AVC peu ou
+moyennement sévères (classe 2a) [@prabhakaran2026] : dans l'essai ELAN, débuter un anticoagulant
+oral direct dans les 48 h (ou à J6–J7 pour un AVC sévère) ne faisait pas plus d'hémorragies
+intracrâniennes symptomatiques (0,2 % dans les deux groupes) [@fischer2023]. En revanche,
+l'héparine précoce « pour empêcher l'aggravation » est sans bénéfice (classe 3)
+[@prabhakaran2026].
+
+## L'infarctus malin
+
+### L'infarctus sylvien malin
+
+Un infarctus étendu de l'artère cérébrale moyenne (plus de la moitié ou des deux tiers du
+territoire) devient « malin » quand l'œdème cytotoxique fait engager l'hémisphère, dans les
+premiers jours et jusqu'au 7^e^ jour au moins [@vanderworp2021]. Sans chirurgie, la
+mortalité avoisine 80 % [@vahedi2007]. L'aggravation se voit d'abord sur la **vigilance**
+[@prabhakaran2026].
+
+Ce qu'il faut faire tôt [@prabhakaran2026] :
+
+- surveiller la vigilance et les pupilles de près les premiers jours (classe 1) ; ne pas sédater
+  « pour protéger le cerveau » : la sédation masque l'aggravation et n'améliore pas le
+  pronostic (consensus de l'ESO) [@vanderworp2021] ;
+- transférer tôt vers un centre avec neurochirurgie et réanimation (classe 1) ;
+- **parler tôt avec la famille** des options et du pronostic (classe 1).
+
+La **craniectomie décompressive** est le seul traitement efficace. Dans l'analyse poolée de
+DECIMAL, DESTINY et HAMLET (patients de 18 à 60 ans opérés dans les 48 h), la survie passait de
+29 à 78 % et la survie avec un mRS ≤ 4 de 24 à 75 % : il suffit d'opérer deux patients pour
+éviter un décès [@vahedi2007]. Après 60 ans (DESTINY II), la chirurgie double la survie sans
+handicap très sévère (38 contre 18 %), mais **aucun survivant n'est indépendant** et la
+plupart ont besoin d'aide pour les gestes de la vie quotidienne [@juttler2014].
+
+::: {.callout-note title="Ce que disent les recommandations"}
+**Craniectomie décompressive de l'infarctus sylvien malin** :
+
+- ≤ 60 ans, dans les 48 h : **recommandée** (AHA classe 1, A ; ESO recommandation forte), après
+  une décision partagée sur le risque de survie avec un handicap lourd
+  [@prabhakaran2026; @vanderworp2021].
+- > 60 ans, dans les 48 h : **peut être envisagée** pour réduire la mortalité (AHA classe 2b ;
+  ESO recommandation faible) [@prabhakaran2026; @vanderworp2021].
+- Au-delà de 48 h : à envisager si le décès par engagement paraît probable (consensus de
+  l'ESO) [@vanderworp2021].
+- La baisse de vigilance attribuée à l'œdème est un déclencheur raisonnable (classe 2a) ;
+  une thrombolyse préalable ne l'interdit pas (classe 2b) [@prabhakaran2026].
+- Volet d'au moins 12 cm de diamètre ; l'aphasie (hémisphère dominant) n'est pas une
+  contre-indication (consensus de l'ESO) [@vanderworp2021].
+:::
+
+En attendant la chirurgie, et seulement comme pont [@prabhakaran2026; @vanderworp2021] :
+
+- **osmothérapie** en bolus devant une aggravation (classe 2a), pas en continu ni en
+  prévention ;
+- **hyperventilation** brève, seulement devant un engagement ;
+- **pas** d'hypothermie, de barbituriques ni de corticoïdes (classe 3, délétères) ; pas de
+  glibenclamide (classe 3) ;
+- pas de monitorage systématique de la PIC (consensus de l'ESO) : l'engagement précède souvent
+  la montée de la PIC mesurée dans l'hémisphère opposé [@vanderworp2021].
+
+L'anesthésie de la craniectomie décompressive (induction, effondrement de la PA à l'ouverture
+de la dure-mère) est décrite au @sec-htic.
+
+### L'infarctus cérébelleux
+
+Dans la fosse postérieure, l'œdème d'un infarctus cérébelleux peut comprimer le tronc cérébral
+et le quatrième ventricule [@vanderworp2021] (@sec-fosse-posterieure). L'aggravation (céphalée, vomissements,
+baisse de vigilance, signes du tronc) impose un scanner et un avis neurochirurgical
+[@has_avc2009] :
+
+- **hydrocéphalie obstructive** : **DVE** (classe 1), avec ou sans craniectomie selon la taille
+  de l'infarctus et la compression du tronc [@prabhakaran2026] ;
+- **compression du tronc** ou infarctus ≥ 35 mL : **craniectomie sous-occipitale** avec
+  plastie durale (classe 1) [@prabhakaran2026].
+
+Dans les séries observationnelles, la mortalité était de 43 % sans chirurgie contre 18 à 27 %
+avec [@vanderworp2021].
+
+## Cas cliniques
+
+### Cas 1 : l'aphasie à J4 d'une craniotomie
+
+Un homme de 66 ans, en fibrillation atriale sous apixaban arrêté 5 jours avant l'intervention,
+est à J4 de l'exérèse d'un méningiome frontal gauche. À 10 h, l'infirmière le trouve aphasique
+avec une hémiplégie droite ; il allait bien à 9 h 30. NIHSS 17, glycémie 7 mmol/L, PA
+172/94 mmHg. Le scanner n'a pas de saignement ; l'angioscanner montre une occlusion du segment
+M1 gauche.
+
+1. Peut-on le thrombolyser ?
+2. Que proposez-vous ?
+3. La thrombectomie se fait sous anesthésie générale ; quelles sont vos cibles pendant la
+   procédure ?
+4. La recanalisation est complète (TICI 3). Quelle PA visez-vous les 24 heures suivantes ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. **Non** : une chirurgie intracrânienne de moins de 14 jours est une contre-indication absolue
+   à la thrombolyse [@prabhakaran2026; @berge2021]. Le déficit est invalidant, l'heure de début
+   est connue (dernière fois vu normal à 9 h 30), mais le risque d'hématome du site opératoire
+   est prohibitif.
+2. Une **thrombectomie** en urgence : occlusion de M1, moins de 6 h, NIHSS ≥ 6 (classe 1)
+   [@prabhakaran2026]. On appelle le neuroradiologue et le neurochirurgien ; l'anticoagulation
+   de la fibrillation atriale attendra.
+3. Aphasie et NIHSS ≥ 15 : anesthésie générale avec intubation selon la RPP
+   [@sfar_thrombectomie2022]. Induction sans hypotension (noradrénaline prête), EtCO~2~
+   35–40 mmHg, SpO~2~ ≥ 95 %, glycémie contrôlée ; aucune chute de PAS avant la recanalisation
+   (@sec-nri).
+4. Une PAS entre **140 et 160 mmHg** : pas au-dessus de 160 après une bonne recanalisation
+   [@sfar_thrombectomie2022], pas de cible sous 140 mmHg, délétère [@nam2023; @yang2022;
+   @prabhakaran2026]. Puis USINV, extubation dès que possible, imagerie à H24.
+:::
+
+### Cas 2 : la langue qui gonfle
+
+Une femme de 74 ans, hypertendue sous ramipril, reçoit de l'altéplase pour une hémiparésie
+gauche avec négligence (NIHSS 9), 2 h après le début. Elle pèse 70 kg. À la 40^e^ minute de la
+perfusion, sa langue gonfle du côté droit ; elle parle encore et respire bien. PA
+188/102 mmHg.
+
+1. Quelle dose d'altéplase a-t-elle reçue, et comment ?
+2. Que faites-vous pour la langue ?
+3. Et pour la PA, avec le protocole du service ?
+4. Deux heures plus tard, elle vomit, se plaint d'une céphalée violente et devient somnolente.
+   Quelle est votre conduite ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. 0,9 mg/kg × 70 kg = **63 mg** : 6,3 mg en bolus sur 1 min, puis 56,7 mg sur 60 min
+   [@prabhakaran2026].
+2. Un **angio-œdème** lié à l'IEC [@hill2003]. On évalue les voies aériennes (œdème antérieur
+   isolé ou atteinte du plancher buccal, du palais, du larynx, progression rapide ?), on arrête
+   l'altéplase et l'IEC, on donne méthylprednisolone 125 mg, un antihistaminique H~1~ et un
+   anti-H~2~ IV ; adrénaline si l'œdème progresse ; on prépare une intubation vigile au
+   fibroscope, en évitant la voie nasale [@prabhakaran2026].
+3. PA > 180/105 : **nicardipine** à 0,2 mg/mL, en augmentant de 1 mg/h (5 mL/h) toutes les
+   30 min jusqu'à une PAS entre 170 et 180 mmHg, sans dépasser 6 mg/h ; arrêt si la PAS passe
+   sous 160 (protocole du service). La cible est une PA < 180/105 mmHg
+   [@prabhakaran2026].
+4. Une **hémorragie intracrânienne** jusqu'à preuve du contraire : perfusion arrêtée si elle
+   coule encore, **scanner** en urgence, NFS, TP, TCA, fibrinogène, groupe ; fibrinogène et
+   acide tranexamique 1 g ; avis neurochirurgical ; protection des voies aériennes si la
+   vigilance baisse ; contrôle de la PA [@prabhakaran2026].
+:::
+
+### Cas 3 : la somnolence à J2
+
+Un homme de 52 ans est à J2 d'un infarctus sylvien droit complet sur une occlusion carotidienne
+non recanalisée. Ce matin, il est somnolent (Glasgow 12, contre 14 la veille), la pupille droite
+est un peu plus large. Le scanner montre un effet de masse avec une déviation de la ligne
+médiane.
+
+1. Quel est le diagnostic, et quelle est la question urgente ?
+2. Que faites-vous en attendant ?
+3. Sa femme demande ce qu'il peut espérer. Que lui dites-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Un **infarctus sylvien malin**. Il a moins de 60 ans et il est dans les 48 h : la
+   **craniectomie décompressive** est recommandée (classe 1 ; ESO, recommandation forte)
+   [@prabhakaran2026; @vanderworp2021]. On appelle le neurochirurgien maintenant ; la baisse de
+   vigilance est le déclencheur [@prabhakaran2026].
+2. Normocapnie, normothermie, normoglycémie, SpO~2~ > 94 % ; un bolus
+   d'osmothérapie comme pont vers le bloc ; intubation si la vigilance continue de baisser ;
+   hyperventilation brève seulement devant un engagement ; ni corticoïdes ni hypothermie
+   [@prabhakaran2026; @vanderworp2021].
+3. Sans chirurgie, environ 4 patients sur 5 meurent ; avec la chirurgie avant 60 ans, environ
+   3 sur 4 survivent sans handicap très sévère (mRS ≤ 4), mais moins de la moitié ont un
+   handicap au plus modéré (mRS ≤ 3) [@vahedi2007]. La décision se prend avec lui si possible, avec sa famille sinon, en parlant
+   franchement du risque de survie avec un handicap lourd [@vanderworp2021].
+:::
+
+## Fiche pratique
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Recanaliser vite (thrombolyse < 4,5 h si déficit invalidant ; thrombectomie si occlusion proximale) ; protéger la pénombre ; dépister l'hémorragie, l'angio-œdème et l'œdème malin |
+| Monitorage | NIHSS et PA (protocole du service : /30 min pendant 2 h, /h jusqu'à H6, /2 h jusqu'à H24 ; AHA : /15 min pendant 2 h, /30 min pendant 6 h, /h jusqu'à H24) ; scope, SpO~2~ ; glycémie, température ; vigilance et pupilles pour l'infarctus étendu ; imagerie à H24 |
+| Induction et entretien | Thrombectomie : sédation ou AG selon la RPP (@sec-nri), sans hypotension, EtCO~2~ 35–40 mmHg ; craniectomie : @sec-htic ; altéplase 0,9 mg/kg (max 90 mg, 10 % en bolus) ou ténectéplase 0,25 mg/kg (max 25 mg) |
+| Cibles | Avant thrombolyse < 185/110 mmHg ; après thrombolyse < 180/105 mmHg pendant 24 h ; après thrombectomie réussie PAS 140–160 mmHg (jamais de cible < 140) ; sans reperfusion, ne pas traiter < 220/120 ; SpO~2~ > 94 % ; glycémie 7,8–10 mmol/L ; normothermie |
+| Pièges | Thrombolyse après une neurochirurgie de moins de 14 jours ; attendre l'effet de la thrombolyse avant la thrombectomie ; seringue de ténectéplase graduée pour l'infarctus du myocarde ; hypotension à l'induction ; baisse intensive de la PA ; antithrombotique avant l'imagerie de H24 ; voie nasale chez un thrombolysé ; sédation qui masque l'engagement ; corticoïdes pour l'œdème |
+| Post-opératoire | USINV ; test de déglutition ; compression pneumatique, pas de bas ; aspirine après l'imagerie de H24 ; anticoagulation précoce possible si FA ; craniectomie avant 48 h si infarctus sylvien malin ; DVE ou craniectomie sous-occipitale si infarctus cérébelleux compressif |
+
+: Fiche pratique : AVC ischémique en soins critiques {#tbl-fiche-avc}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- Le bénéfice de la thrombolyse et de la thrombectomie décroît avec le temps : heure de début
+  ou dernière heure vu normal, glycémie, imagerie, sans délai inutile.
+- Thrombolyse < 4,5 h si le déficit est invalidant : altéplase 0,9 mg/kg ou ténectéplase
+  0,25 mg/kg ; jamais dans les 14 jours d'une chirurgie intracrânienne, mais la thrombectomie
+  reste possible.
+- PA < 185/110 mmHg avant la thrombolyse, < 180/105 mmHg pendant 24 h ; pas d'antithrombotique
+  avant l'imagerie de H24.
+- Céphalée, vomissements, HTA, aggravation sous thrombolyse : arrêt, scanner, fibrinogène,
+  acide tranexamique. Langue qui gonfle sous IEC : voies aériennes d'abord.
+- Après une thrombectomie réussie, ne pas viser une PAS < 140 mmHg (délétère) ; PAS 140–160 mmHg.
+- Infarctus sylvien malin : craniectomie avant 48 h, recommandée jusqu'à 60 ans, à discuter
+  au-delà ; osmothérapie seulement comme pont ; ni corticoïdes, ni hypothermie.
 :::

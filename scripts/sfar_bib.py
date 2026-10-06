@@ -37,6 +37,7 @@ SOCIETIES = {
     "SFD": "Société francophone du diabète (SFD)",
     "SOFMER": "Société française de médecine physique et de réadaptation (SOFMER)",
     "ABM": "Agence de la biomédecine",
+    "HAS": "Haute Autorité de santé (HAS)",
 }
 
 # key, file stem, societies (authoring ones only, in title-page order), note
@@ -100,6 +101,8 @@ DOCS = [
      ["SFAR"], "RFE, historique"),
     ("srlf_eme2008", "3_REANIMATION_Prise-en-charge-en-situation-durgence-et-en-reanimation-des-etats-de-mal-epileptiques-de-ladulte-et-de-lenfant",
      ["SRLF"], "RFE, historique"),
+    ("has_avc2009", "2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce",
+     ["HAS"], "RBP, historique"),
     ("sfar_mtev2011", "2_AFAR_Prevention-de-la-maladie-thromboembolique-veineuse-postoperatoire-copie",
      ["SFAR"], "RFE, historique"),
 ]
