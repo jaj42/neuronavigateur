@@ -185,12 +185,11 @@ minutes, on l'abandonne pour les autres outils [@sfar_tcgrave2016].
 ### Le vasospasme
 
 Après une HSA, le rétrécissement des artères fait **monter toutes les vitesses**. On parle de
-vasospasme de l'ACM au-delà d'une Vm de **120 cm/s**, de vasospasme sévère au-delà de
-**200 cm/s**. Pour distinguer un vasospasme d'une **hyperhémie** (débit élevé dans une artère
+vasospasme de l'ACM au-delà d'une Vm de **120 cm/s** [@sfar_hsa2004; @hoh2023]. Pour distinguer un vasospasme d'une **hyperhémie** (débit élevé dans une artère
 de calibre normal : fièvre, anémie, hypercapnie, noradrénaline), on rapporte la Vm de l'ACM à
 celle de la carotide interne extracrânienne : c'est l'**indice de Lindegaard**. Il est
 inférieur à 3 dans l'hyperhémie, supérieur à 3 dans le vasospasme (et à 6 quand il est
-sévère) [@lindegaard1989]. La surveillance du vasospasme est détaillée au @sec-hsa.
+sévère) [@lindegaard1989; @sfar_hsa2004]. La surveillance du vasospasme est détaillée au @sec-hsa.
 
 ### Limites
 
