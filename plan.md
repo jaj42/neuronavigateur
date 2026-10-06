@@ -164,6 +164,12 @@ Rules:
    - list every threshold, dose and target in the book (`grep` for mmHg, mmol/L, g/dL, mg, cm/s, %) and make sure each has a source (recommendation with grade, trial, local protocol, or historical SFAR text) or is explicitly labelled as practice or proposal to validate, with a `TODO-VALIDER` and an entry in `A_VALIDER.md`;
    - French SFAR texts were read in full while writing, but spot-check the R-numbers and grades quoted;
    - render, then record the corrections in this plan and in `sources/NOTES.md`.
+8. Illustration pass over the whole book, after the citation audit: add figures where they help understanding, never as decoration.
+   - Go through chapters 1–19 and the annexes and list the places where a figure would explain better than text: a mechanism (physiology, pathophysiology), a curve or a relationship between two variables, a decision algorithm, an anatomical landmark, a monitoring trace, a timeline (e.g. vasospasm window, DCI), a positioning or device set-up (DVE, PIC, positions in neurosurgery).
+   - Use the existing channels of the « Figures » section: a Matplotlib script in `figures/src/` for curves and schematics, a Mermaid or other diagram for algorithms (Chromium question still open), a Wikimedia Commons CC/PD image for anatomy and imaging, with its license in `figures/wikimedia/credits.yml`.
+   - Any number drawn on a figure (threshold, target, dose) must come from a source already cited in the text; the caption names it.
+   - Every figure has a caption, a `@fig-` label and is referenced in the text; check that it reads well in the PDF (size, legibility in black and white) and in the HTML.
+   - Propose the list to the user before drawing, then render and record the added figures in this plan.
 
 ## Verification
 - `quarto render` gives a clean PDF + HTML: no LaTeX errors, no `?@fig`/`???` unresolved citations or cross-references (grep the log and the `.tex`).
