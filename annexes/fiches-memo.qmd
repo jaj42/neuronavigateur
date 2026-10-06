@@ -1,3 +1,132 @@
 # Fiches mémo {#sec-fiches-memo}
 
-*Annexe en cours de rédaction.*
+Ces tableaux regroupent les cibles, les seuils et les doses des chapitres. Ils ne remplacent
+pas les chapitres : chaque valeur y est discutée et sourcée (recommandation et grade, essai,
+protocole du service), et le chapitre dit quand la pratique locale s'écarte d'une
+recommandation. Les mentions « protocole local » signalent les valeurs propres au service.
+
+## Les cibles
+
+### Les ACSOS, pour tout cerveau agressé
+
+| Paramètre | Cible | Voir |
+|---|-----|--|
+| PA | PAS > 110 mmHg avant tout monitorage cérébral (TC grave), puis PPC 60–70 mmHg | @sec-tc-grave |
+| Oxygénation | SpO~2~ ≥ 95 %, PaO~2~ > 60 mmHg, sans hyperoxie inutile | @sec-physiopathologie |
+| Capnie | PaCO~2~ 35–40 mmHg, contrôlée au gaz du sang ; pas d'hypocapnie prolongée | @sec-htic |
+| Natrémie | 135–145 mmol/L, sans variation rapide ; moitié haute (140–145) chez le TC grave | @sec-dysnatremies-dve |
+| Glycémie | TC grave : 8 à 10–11 mmol/L (1,4 à 1,8–2 g/L) ; jamais d'hypoglycémie | @sec-tc-grave |
+| Température | 35–37 °C ; traiter la fièvre | @sec-htic |
+| Position | Tête à 30°, cou dans l'axe, jugulaires libres | @sec-htic |
+| Hémoglobine | Pas de seuil unique validé : discuté selon la situation | @sec-tc-grave, @sec-hsa |
+
+: Cibles communes à toute agression cérébrale {#tbl-memo-acsos}
+
+### Les cibles par situation
+
+| Situation | Cibles propres | Voir |
+|---|------|--|
+| Craniotomie programmée (protocole local) | PAM 80–90 % de la PAM préopératoire (≥ 90 % de l'habituelle chez l'hypertendu), mesurée au niveau de la tête ; PaCO~2~ 36–38 mmHg ; glycémie 5–10 mmol/L ; T 35,5–37 °C ; natrémie 140–145 mmol/L si diabète insipide | @tbl-cibles-craniotomie |
+| Voie endonasale (protocole local) | PAM basse pour un champ sec (60–65 mmHg), adaptée au terrain | @sec-base-du-crane |
+| Pontage pour moya-moya (protocole local) | PAM > 90 % de l'habituelle ; PaCO~2~ 36–40 mmHg ; Hb 10 g/dL ; glycémie 6–10 mmol/L ; après : PAM > 80, PAS < 160 mmHg | @sec-vasculaire |
+| Crise d'épilepsie en SSPI (protocole local) | SpO~2~ 95–99 % ; PaCO~2~ 35–45 mmHg ; PAM 70–90 mmHg ; glycémie 1,4–1,8 g/L ; Na 135–145 mmol/L | @tbl-cibles-crise |
+| HTIC, TC grave | PPC 60–70 mmHg (ou PPC optimale si monitorage multimodal) ; traiter une PIC > 20–22 mmHg ; Doppler : Vd > 25 cm/s | @tbl-cibles-tc |
+| HSA, avant exclusion | Ni HTA, ni hypotension, ni variabilité ; PAM jamais < 65 mmHg ; DVE à +15 cmH~2~O | @tbl-cibles-hsa |
+| HSA, après exclusion | Euvolémie ; pas d'HTA prophylactique ; HTA induite seulement si ischémie retardée ; natrémie 135–145 mmol/L, sans restriction hydrique | @tbl-cibles-hsa |
+| Thrombectomie, pendant le geste | Pas d'hypotension ; EtCO~2~ 35–40 mmHg ; SpO~2~ ≥ 95 % | @sec-nri |
+| AVC, avant et après thrombolyse | < 185/110 mmHg pour thrombolyser ; < 180/105 mmHg pendant 24 h | @sec-avc |
+| AVC, après thrombectomie réussie | PAS 140–160 mmHg ; jamais de cible < 140 mmHg | @sec-avc |
+| AVC sans reperfusion | Ne pas traiter sous 220/120 mmHg ; SpO~2~ > 94 % ; glycémie 7,8–10 mmol/L | @tbl-acsos-avc |
+
+: Cibles par situation {#tbl-memo-cibles}
+
+## Les seuils du monitorage
+
+| Mesure | Normal | Alerte | Voir |
+|---|--|-----|--|
+| PIC | 5–15 mmHg | Traitement au-delà de 20–22 mmHg (seuil local : 15 mmHg) ; c'est la durée qui compte | @sec-monitorage |
+| PPC = PAM − PIC | | Cible 60–70 mmHg ; PAM mesurée au niveau du conduit auditif externe | @sec-monitorage |
+| Doppler transcrânien | Vm ≈ 60 cm/s | IP > 1,4 et Vd < 20–25 cm/s : hypoperfusion | @sec-dtc |
+| Vasospasme au Doppler | | Vm de l'ACM > 120 cm/s avec indice de Lindegaard > 3 | @sec-dtc |
+| PtiO~2~ | 25–35 mmHg | Seuil ischémique 15–20 mmHg ; la durée compte | @sec-monitorage |
+| SvjO~2~ | 55–75 % | < 50–55 % : ischémie à chercher ; > 75–80 % : hyperhémie ou cerveau qui ne consomme plus | @sec-monitorage |
+| Natrémie, vitesse de correction | | Hyponatrémie : + 10 mmol/L au maximum les premières 24 h, puis + 8 mmol/L par 24 h ; hypernatrémie : baisse ≤ 12 mmol/L par 24 h | @sec-dysnatremies-dve |
+
+: Seuils du monitorage {#tbl-memo-seuils}
+
+## Les doses et les dilutions
+
+Vérifiez toujours la dose dans le protocole du service et le résumé des caractéristiques du
+produit : une erreur de recopie est toujours possible.
+
+### Cerveau et pression artérielle
+
+| Produit | Préparation | Dose | Voir |
+|---|----|-----|--|
+| Sérum salé hypertonique (protocole local) | 3 ampoules de 10 mL de NaCl 20 % dans 100 mL de NaCl 0,9 % (≈ 6,9 g de NaCl, ≈ 235 mOsm) | La poche entière, IV rapide ; en bolus, jamais en continu | @sec-htic |
+| Mannitol 20 % | Prêt à l'emploi | 150–300 mL (30–60 g) IV rapide, en 15–20 min | @sec-htic |
+| NaCl 3 % (hyponatrémie avec symptômes sévères) | Prêt à l'emploi | 150 mL en 20 min, jusqu'à 2 fois ; cible + 5 mmol/L | @sec-dysnatremies-dve |
+| Nicardipine (protocole local, AVC) | 10 mg (10 mL) complétés à 50 mL de NaCl 0,9 % : 0,2 mg/mL (1 mg/h = 5 mL/h) | Paliers de 1 mg/h toutes les 30 min ; maximum 6 mg/h | @sec-avc |
+| Nimodipine | | 60 mg toutes les 4 h par voie entérale, 21 jours | @sec-hsa |
+| Dexmédétomidine | 200 µg dans 40 mL : 5 µg/mL | Charge 1 µg/kg en 15–20 min ; entretien 0,2–1 µg/kg/h | @sec-pharmacologie |
+| Dexaméthasone (œdème tumoral) | | 8 mg à l'induction ; jamais dans le traumatisme crânien | @sec-preop |
+
+: Doses et dilutions : cerveau et pression artérielle {#tbl-memo-cerveau}
+
+### Hémostase et thrombolyse
+
+| Situation | Traitement | Voir |
+|---|------|--|
+| AVK et hémorragie intracrânienne | CCP selon l'INR (25 UI/kg si INR indisponible) + vitamine K 10 mg ; INR à 30 min | @sec-htic |
+| Anti-Xa (apixaban, rivaroxaban, édoxaban) | CCP 50 UI/kg sans attendre le dosage | @sec-htic |
+| Dabigatran | Idarucizumab 5 g | @sec-htic |
+| Héparine (rupture en NRI) | Protamine IV directe : 1 mg neutralise 100 UI d'héparine | @sec-nri |
+| Chirurgie hémorragique programmée | Acide tranexamique 15 mg/kg à l'induction et à H4 | @sec-preop |
+| INR > 1,2 la veille d'une chirurgie intracrânienne | Vitamine K 2–5 mg per os, INR de contrôle le matin | @sec-preop |
+| Thrombolyse par altéplase | 0,9 mg/kg (maximum 90 mg) : 10 % en bolus sur 1 min, 90 % en 60 min | @tbl-thrombolytiques |
+| Thrombolyse par ténectéplase | 0,25 mg/kg (maximum 25 mg) en bolus unique | @tbl-thrombolytiques |
+
+: Doses : hémostase et thrombolyse {#tbl-memo-hemostase}
+
+### Crises et état de mal
+
+| Moment | Traitement | Voir |
+|---|------|--|
+| Crise peropératoire en chirurgie éveillée | Sérum froid sur le cortex, puis lévétiracétam 500 mg | @sec-chirurgie-eveillee |
+| État de mal, 5 min | Clonazépam 0,015 mg/kg (1 mg chez l'adulte), à répéter une fois à 5 min | @tbl-eme |
+| Échec des benzodiazépines | Lévétiracétam 60 mg/kg (max 4500 mg), **ou** fosphénytoïne 20 mg EP/kg (max 1500 mg EP), **ou** valproate 40 mg/kg (max 3000 mg), en 10 min | @tbl-eme |
+| État de mal réfractaire | Anesthésie générale, intubation, EEG continu | @tbl-eme |
+| Après chirurgie de l'épilepsie (protocole local) | Clonazépam IVSE 0,03–0,05 mg/kg/24 h pendant 72 h | @sec-epilepsie |
+
+: Doses : crises et état de mal {#tbl-memo-crises}
+
+### Bloc opératoire
+
+| Produit | Dose | Voir |
+|---|------|--|
+| Céfazoline | 2 g avant l'incision, puis 1 g toutes les 4 h | @sec-craniotomie |
+| Rocuronium (séquence rapide) | 1–1,2 mg/kg | @sec-tc-grave |
+| Kétamine (épargne morphinique) | 0,25 mg/kg ; 10 mg si douleur en chirurgie éveillée | @sec-chirurgie-eveillee |
+| Atropine (bradycardie vagale, chirurgie éveillée) | 0,25 mg, dès la moindre bradycardie | @sec-chirurgie-eveillee |
+| Vert d'indocyanine (protocole local) | 25 mg dans 10 mL d'EPPI ; 3 mL IV directe, une fois renouvelable | @sec-vasculaire |
+| Desmopressine (diabète insipide, protocole local) | 2 µg IV directe si diurèse > 400 mL/3 h, densité < 1005 et Na > 145 mmol/L | @sec-base-du-crane |
+| Hydrocortisone (chirurgie hypophysaire) | 100 mg à l'induction si Cushing ; 50 mg × 3/j après | @sec-base-du-crane |
+
+: Doses au bloc opératoire {#tbl-memo-bloc}
+
+## Les délais
+
+| Situation | Délai | Voir |
+|---|------|--|
+| Arrêt avant chirurgie intracrânienne | AOD J-5 ; aspirine J-5 ; clopidogrel et ticagrélor J-7 ; prasugrel J-9 ; fluindione J-5 avec INR ≤ 1,2 la veille | @sec-preop |
+| HBPM préventive après craniotomie | H24 | @sec-preop |
+| Thrombolyse intraveineuse | < 4,5 h après le début des symptômes | @sec-avc |
+| Thrombectomie | Jusqu'à 24 h selon l'imagerie | @tbl-indications-thrombectomie |
+| Contre-indication de la thrombolyse | Chirurgie intracrânienne de moins de 14 jours | @sec-avc |
+| HSA : exclusion de l'anévrysme | Dans les 24 h | @sec-hsa |
+| HSA : ischémie cérébrale retardée | J3 à J14 (pic J8–J10) | @tbl-calendrier-hsa |
+| Infarctus sylvien malin | Craniectomie avant 48 h | @sec-avc |
+| État de mal | Traitement dès 5 min de crise | @tbl-eme |
+| SIADH après chirurgie hypophysaire | J7–J10 : ionogramme de fin de première semaine | @sec-base-du-crane |
+
+: Les délais {#tbl-memo-delais}

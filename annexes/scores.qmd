@@ -1,3 +1,135 @@
 # Scores et échelles {#sec-scores}
 
-*Annexe en cours de rédaction.*
+Ces échelles se cotent sur un patient dont les ACSOS sont corrigées, et toujours avec
+l'heure. Notez ce qui empêche de les coter (sédation, intubation, aphasie, curare) plutôt
+que d'inventer une valeur.
+
+## Le score de Glasgow
+
+Le score de Glasgow (*Glasgow Coma Scale*) cote trois réponses. On retient pour chacune la
+**meilleure réponse observée**, après un appel à voix normale puis forte, puis une stimulation
+physique : pression sur l'ongle, pincement du trapèze ou pression sur l'incisure sus-orbitaire
+[@gcs_aide2015].
+
+| Réponse | Critère observé | Cotation |
+|---|-----|:-:|
+| **Ouverture des yeux (Y)** | Spontanée, avant toute stimulation | 4 |
+| | À l'appel, parlé ou crié | 3 |
+| | À la pression | 2 |
+| | Aucune, sans facteur interférent | 1 |
+| | Yeux fermés par une cause locale (œdème, pansement) | NT |
+| **Réponse verbale (V)** | Orientée : donne son nom, le lieu et la date | 5 |
+| | Confuse : non orientée, mais communique de façon cohérente | 4 |
+| | Mots isolés compréhensibles | 3 |
+| | Sons : gémissements, grognements | 2 |
+| | Aucune, sans facteur interférent | 1 |
+| | Facteur qui empêche la communication (intubation) | NT |
+| **Réponse motrice (M)** | Obéit à un ordre en deux temps | 6 |
+| | Localise : la main monte au-dessus de la clavicule vers la stimulation de la tête ou du cou | 5 |
+| | Flexion normale : rapide, variable, bras écarté du corps | 4 |
+| | Flexion anormale : lente, stéréotypée, bras ramené sur le thorax, avant-bras en rotation, pouce fermé, jambe en extension | 3 |
+| | Extension du bras au coude | 2 |
+| | Aucune, aux bras comme aux jambes, sans facteur interférent | 1 |
+| | Paralysie ou autre facteur limitant | NT |
+
+: Score de Glasgow, d'après l'aide à l'évaluation de ses auteurs [@gcs_aide2015] {#tbl-glasgow}
+
+Chez un patient donné, **décrivez les trois composantes** (« Y3 V3 M5 ») plutôt que le total
+de 3 à 15 : le total sert à décrire des groupes de patients [@teasdale2014]. La réponse
+motrice est la plus informative chez le traumatisé crânien (@sec-tc-grave). Chez le patient
+intubé, la réponse verbale se cote « NT » (non testable), pas « 1 » [@gcs_aide2015].
+
+## Le score FOUR
+
+Le score FOUR (*Full Outline of UnResponsiveness*) a été conçu pour pallier deux limites du
+Glasgow : la réponse verbale, impossible à coter chez le patient intubé, et l'absence des
+réflexes du tronc cérébral. Il reconnaît aussi un syndrome de verrouillage (*locked-in*)
+[@wijdicks2005]. Chaque composante vaut de 0 à 4, le total de 0 à 16 [@iyer2009].
+
+| Composante | Cotation |
+|---|-------|
+| **Yeux (E)** | 4 : paupières ouvertes ou ouvertes sur ordre, poursuite ou clignement à la demande ; 3 : paupières ouvertes sans poursuite ; 2 : paupières fermées, s'ouvrent à la voix forte ; 1 : paupières fermées, s'ouvrent à la douleur ; 0 : restent fermées à la douleur |
+| **Motricité (M)** | 4 : pouce levé, poing ou signe de la paix ; 3 : localise la douleur ; 2 : flexion à la douleur ; 1 : extension à la douleur ; 0 : aucune réponse à la douleur ou état de mal myoclonique |
+| **Tronc cérébral (B)** | 4 : réflexes photomoteurs et cornéens présents ; 3 : une pupille dilatée et fixe ; 2 : réflexes photomoteurs ou cornéens absents ; 1 : réflexes photomoteurs et cornéens absents ; 0 : réflexes photomoteurs, cornéens et de toux absents |
+| **Respiration (R)** | 4 : non intubé, rythme régulier ; 3 : non intubé, respiration de Cheyne-Stokes ; 2 : non intubé, respiration irrégulière ; 1 : intubé, respire au-dessus de la fréquence du ventilateur ; 0 : respire à la fréquence du ventilateur, ou apnée |
+
+: Score FOUR [@iyer2009] {#tbl-four}
+
+## Les échelles de l'HSA
+
+L'échelle **WFNS** repose sur le score de Glasgow et le déficit moteur [@teasdale1988] ; elle
+se cote après correction des ACSOS et, si possible, après drainage d'une hydrocéphalie. Les
+grades III à V définissent l'HSA grave [@sfar_hsa2004].
+
+| Grade WFNS | Score de Glasgow | Déficit moteur |
+|:-:|:-:|:-:|
+| I | 15 | Absent |
+| II | 13–14 | Absent |
+| III | 13–14 | Présent |
+| IV | 7–12 | Présent ou absent |
+| V | 3–6 | Présent ou absent |
+
+: Échelle WFNS [@teasdale1988] {#tbl-wfns-annexe}
+
+L'échelle de **Fisher modifiée** cote le sang au scanner initial et prédit le vasospasme
+[@frontera2006]. Les définitions sont celles du protocole du service (@sec-hsa).
+
+| Grade | Sang sous-arachnoïdien | Sang dans les ventricules latéraux |
+|:-:|------|---|
+| 1 | Minime | Non |
+| 2 | Minime | Oui |
+| 3 | Important (remplit au moins une citerne ou une scissure, ou hématome intraparenchymateux) | Non |
+| 4 | Important | Oui |
+
+: Échelle de Fisher modifiée (définitions du protocole du service) {#tbl-fisher-annexe}
+
+## Le score NIHSS
+
+Le NIHSS (*National Institutes of Health Stroke Scale*) compte 15 items [@brott1989]. Il se
+cote **dans l'ordre**, sans revenir en arrière, sur ce que le patient **fait** et non sur ce
+que l'examinateur pense qu'il peut faire, et sans l'aider ; seule la première réponse compte
+[@ninds_nihss2003]. Le total va de 0 à 42.
+
+| Item | Cotation |
+|---|-------|
+| **1a. Vigilance** | 0 : vigilant ; 1 : non vigilant, réveillable par une stimulation mineure ; 2 : stimulations répétées ou douloureuses nécessaires pour obtenir des mouvements (non stéréotypés) ; 3 : réponses réflexes seulement, ou aucune réponse, flasque, aréflexique |
+| **1b. Questions** (le mois, son âge) | 0 : deux bonnes réponses ; 1 : une ; 2 : aucune. Aphasique ou stuporeux : 2 ; intubé, dysarthrie sévère, barrière de langue : 1 |
+| **1c. Ordres** (ouvrir et fermer les yeux, serrer et relâcher la main non parétique) | 0 : deux ordres exécutés ; 1 : un ; 2 : aucun. Une tentative nette compte |
+| **2. Oculomotricité** (horizontale seulement) | 0 : normale ; 1 : paralysie partielle, ou déviation conjuguée vaincue par la volonté ou le réflexe oculocéphalique, ou atteinte isolée d'un nerf III, IV ou VI ; 2 : déviation forcée ou paralysie totale non vaincue par l'oculocéphalique |
+| **3. Champ visuel** | 0 : normal ; 1 : hémianopsie partielle (y compris quadranopsie, ou extinction à la double stimulation) ; 2 : hémianopsie complète ; 3 : cécité bilatérale, y compris corticale |
+| **4. Paralysie faciale** | 0 : normale ; 1 : mineure (sillon nasogénien effacé, asymétrie du sourire) ; 2 : partielle (paralysie totale ou presque de la face inférieure) ; 3 : complète, d'un côté ou des deux (faces supérieure et inférieure) |
+| **5a, 5b. Motricité du membre supérieur** gauche, puis droit (90° assis, 45° couché, 10 s) | 0 : pas de chute ; 1 : chute avant 10 s, sans toucher le lit ; 2 : effort contre la pesanteur, retombe sur le lit ; 3 : aucun effort contre la pesanteur ; 4 : aucun mouvement ; NT : amputation ou ankylose de l'épaule |
+| **6a, 6b. Motricité du membre inférieur** gauche, puis droit (30°, couché, 5 s) | 0 : pas de chute ; 1 : chute avant 5 s, sans toucher le lit ; 2 : effort contre la pesanteur, retombe sur le lit ; 3 : aucun effort contre la pesanteur ; 4 : aucun mouvement ; NT : amputation ou ankylose de la hanche |
+| **7. Ataxie** (doigt-nez, talon-genou, yeux ouverts) | 0 : absente ; 1 : un membre ; 2 : deux membres. Cotée seulement si elle dépasse le déficit moteur ; absente chez le patient paralysé ou qui ne comprend pas |
+| **8. Sensibilité** (piqûre) | 0 : normale ; 1 : hypoesthésie légère à modérée ; 2 : anesthésie sévère ou totale (ne sent pas qu'on le touche). Coma (1a = 3) : 2 |
+| **9. Langage** (décrire une image, nommer, lire) | 0 : normal ; 1 : aphasie légère à modérée ; 2 : aphasie sévère, communication fragmentaire ; 3 : mutisme, aphasie globale. Coma (1a = 3) : 3 ; intubé : faire écrire |
+| **10. Dysarthrie** | 0 : normale ; 1 : légère à modérée, comprise avec difficulté ; 2 : sévère, inintelligible, ou anarthrie ; NT : intubé ou obstacle physique |
+| **11. Extinction et négligence** | 0 : aucune ; 1 : inattention ou extinction dans une modalité sensorielle ; 2 : hémi-négligence profonde ou dans plusieurs modalités, ne reconnaît pas sa main |
+
+: Score NIHSS, d'après le formulaire du NINDS [@ninds_nihss2003] {#tbl-nihss}
+
+Les seuils qui comptent en pratique (thrombectomie si NIHSS ≥ 6 pour une occlusion
+proximale, aggravation de 2 points ou plus après thrombolyse) sont au @sec-avc.
+
+## L'échelle de Rankin modifiée
+
+L'échelle de Rankin modifiée (mRS) cote le handicap. C'est le critère de jugement habituel des
+essais d'AVC (@sec-avc).
+
+| mRS | Définition |
+|:-:|------|
+| 0 | Aucun symptôme |
+| 1 | Pas de handicap notable malgré des symptômes |
+| 2 | Handicap léger : ne peut plus faire tout ce qu'il faisait avant |
+| 3 | Handicap modéré : a besoin d'aide, mais marche sans assistance |
+| 4 | Handicap modérément sévère : ne marche pas et ne subvient pas à ses besoins sans assistance |
+| 5 | Handicap sévère : alité, incontinent, soins infirmiers permanents |
+| 6 | Décès |
+
+: Échelle de Rankin modifiée [@iyer2009] {#tbl-rankin}
+
+## Les autres échelles du livre
+
+- Le score de sédation **OAA/S**, utilisé en chirurgie éveillée : @tbl-oaas.
+- L'**ASPECTS**, qui cote l'étendue de l'ischémie précoce au scanner : @sec-avc.
+- Les signes d'HTIC et d'engagement : @sec-htic et @sec-physiopathologie.
