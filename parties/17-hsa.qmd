@@ -1,11 +1,522 @@
-# Hémorragie sous-arachnoïdienne anévrismale {#sec-hsa}
+# Hémorragie sous-arachnoïdienne anévrysmale {#sec-hsa}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Reconnaître une HSA et en coter la gravité (WFNS) et le risque de vasospasme (Fisher
+  modifié).
+- Connaître le calendrier de la maladie : resaignement les premiers jours, hydrocéphalie à
+  tout moment, ischémie cérébrale retardée de J3 à J14.
+- Conduire les premières heures : pression artérielle avant l'exclusion, DVE, transfert vers
+  la NRI ou le bloc dans les 24 heures.
+- Prescrire la nimodipine et savoir ce qui n'a pas fait ses preuves (hypervolémie, statines,
+  magnésium, acide tranexamique).
+- Dépister et traiter l'ischémie cérébrale retardée.
 :::
 
-*Chapitre en cours de rédaction.*
+## Une maladie en trois temps
+
+L'hémorragie sous-arachnoïdienne (HSA) anévrysmale est l'irruption de sang artériel dans les
+espaces sous-arachnoïdiens (citernes de la base, vallée sylvienne, sillons de la convexité) à
+la rupture d'un anévrysme du polygone de Willis (@fig-willis). Elle touche des sujets jeunes,
+50 ans en moyenne, plus souvent des femmes (60 %) ; ses facteurs de risque sont
+l'**hypertension artérielle** et le **tabagisme** [@sfar_hsa2004]. Son incidence en France est
+de 5 à 7 pour 100 000 habitants par an. La mortalité globale avoisine 40 %, dont une partie
+avant l'arrivée à l'hôpital, et plus d'un quart des survivants gardent des séquelles
+invalidantes.
+
+Pour le réanimateur, l'HSA se déroule en trois temps, et chaque temps a sa complication :
+
+| Période | Complication dominante | Ce qu'on fait |
+|--|----|-----|
+| **Rupture** (minutes) | HTIC brutale, PPC transitoirement nulle, perte de connaissance ; réaction de Cushing ; sidération myocardique, œdème pulmonaire | Réanimation, intubation si coma, scanner |
+| **J0–J3** | **Resaignement**, maximal dans les 24 premières heures ; **hydrocéphalie aiguë** | Contrôle de la PA, DVE, exclusion de l'anévrysme **dans les 24 h** |
+| **J3–J14** | **Ischémie cérébrale retardée** (pic J7–J10) ; hyponatrémie ; hydrocéphalie | Nimodipine, euvolémie, Doppler quotidien, traitement de sauvetage |
+| Après J14 | Hydrocéphalie chronique (dérivation définitive) ; séquelles cognitives | Sevrage de la DVE, rééducation |
+
+: Le calendrier de l'HSA anévrysmale {#tbl-calendrier-hsa}
+
+Ce chapitre suit le protocole du service et les recommandations internationales de 2023
+[@hoh2023; @treggiari2023]. La conférence d'experts française de 2004 [@sfar_hsa2004] reste une
+bonne lecture, mais elle est **historique** sur un point capital : la « triple H »
+(hypervolémie, hypertension, hémodilution) n'est plus recommandée.
+
+Les deux autres chapitres qui touchent à l'anévrysme : l'embolisation et la rupture
+per-procédure sont au @sec-nri, le clippage programmé au @sec-vasculaire.
+
+## Reconnaître l'HSA
+
+### La clinique
+
+Le maître symptôme est la **céphalée brutale**, « en coup de tonnerre », maximale en quelques
+secondes, inhabituelle, souvent suivie de **vomissements**. S'y ajoutent selon les cas :
+
+- une **perte de connaissance**, ou un coma d'emblée : à la rupture, la PIC rejoint la PAM et
+  la perfusion cérébrale s'arrête un instant (@sec-nri) ; une perte de connaissance prolongée
+  est de mauvais pronostic ;
+- une **crise convulsive**, très évocatrice quand elle accompagne la céphalée ;
+- un **syndrome méningé** (raideur de nuque, photophobie), qui peut n'apparaître qu'après
+  quelques heures : son absence aux urgences n'élimine rien ;
+- des **signes focaux** : hématome intracérébral, ou paralysie du III (mydriase, ptosis) sur un
+  anévrysme de la communicante postérieure.
+
+Une céphalée brutale inhabituelle est une HSA jusqu'à preuve du contraire. Les « céphalées
+sentinelles » des jours précédents sont souvent de petites fissurations.
+
+### La gravité clinique : l'échelle WFNS
+
+La gravité s'apprécie par l'échelle de la *World Federation of Neurosurgical Societies*, fondée
+sur le score de Glasgow et la présence d'un déficit moteur [@teasdale1988]. Elle se cote
+**après** correction des ACSOS et, si possible, après drainage d'une hydrocéphalie : un patient
+WFNS IV à l'arrivée peut redevenir WFNS II une fois sa DVE posée. On parle d'**HSA grave** pour
+les grades III à V [@sfar_hsa2004].
+
+| Grade WFNS | Score de Glasgow | Déficit moteur |
+|:-:|:-:|:-:|
+| I | 15 | Absent |
+| II | 13–14 | Absent |
+| III | 13–14 | Présent |
+| IV | 7–12 | Présent ou absent |
+| V | 3–6 | Présent ou absent |
+
+: Échelle WFNS {#tbl-wfns}
+
+L'échelle de Hunt et Hess, plus ancienne et plus subjective, se rencontre encore dans les
+comptes rendus ; la WFNS lui est préférée [@sfar_hsa2004].
+
+### Le scanner et l'échelle de Fisher modifiée
+
+Le **scanner sans injection**, fait en urgence, porte le diagnostic : hyperdensité spontanée
+dans les citernes et les sillons, dont la topographie oriente parfois vers l'anévrysme. Il
+montre aussi ce qui presse : hydrocéphalie (dilatation des cornes temporales), hématome
+intracérébral, inondation ventriculaire. Toute aggravation neurologique ultérieure impose un
+nouveau scanner [@sfar_hsa2004].
+
+La quantité de sang prédit le **vasospasme**. L'échelle utilisée, que le protocole du service
+appelle « Fisher », est en réalité l'**échelle de Fisher modifiée**, qui tient compte du sang
+épais dans les citernes et du sang intraventriculaire [@frontera2006] :
+
+| Grade | Sang sous-arachnoïdien | Sang intraventriculaire | Vasospasme symptomatique |
+|:-:|------|--|:--:|
+| 0 | Aucun | Non | |
+| 1 | Fin ou focal | Non | ≈ 24 % |
+| 2 | Fin ou focal | **Oui** | ≈ 33 % |
+| 3 | **Épais** (remplit une citerne ou une scissure) | Non | ≈ 33 % |
+| 4 | **Épais** | **Oui** | ≈ 40 % |
+
+: Échelle de Fisher modifiée et risque de vasospasme symptomatique (d'après Frontera 2006) {#tbl-fisher}
+
+Dans la cohorte de Frontera (1355 patients), l'échelle modifiée prédisait le vasospasme
+symptomatique mieux que l'échelle de Fisher originale, qui n'était plus significative après
+ajustement [@frontera2006]. Les pourcentages du tableau sont arrondis et donnés pour fixer les
+idées : le sang intraventriculaire et le sang épais s'additionnent.
+
+### L'angioscanner et la ponction lombaire
+
+L'**angioscanner** recherche l'anévrysme : image d'addition arrondie au temps artériel, siégeant
+dans 90 % des cas sur la partie antérieure du polygone (terminaison carotidienne, artère
+cérébrale antérieure, communicante antérieure, artère cérébrale moyenne). L'**artériographie**,
+en NRI, précise l'anatomie et permet souvent de traiter dans le même temps.
+
+La **ponction lombaire** n'a aucune indication quand le scanner montre l'HSA ; elle est même
+dangereuse en cas d'hématome avec effet de masse ou d'hydrocéphalie (risque d'engagement). Elle
+garde une place quand le scanner est normal et la suspicion forte (scanner tardif, petite
+HSA) : LCS uniformément rosé sur les tubes successifs, surnageant **xanthochromique** après
+centrifugation, ce qui le distingue d'une ponction traumatique [@sfar_hsa2004].
+
+## Les premières heures
+
+### Orientation et bilan
+
+L'HSA se soigne dans un centre qui réunit neurochirurgie, neuroradiologie interventionnelle et
+neuroréanimation ; le transfert se décide de senior à senior [@sfar_hsa2004]. À l'arrivée :
+
+- examen neurologique daté : Glasgow, pupilles, déficit, grade WFNS ;
+- **bilan** : ionogramme, NFS, hémostase (TP, TCA, fibrinogène), groupe et RAI, **troponine**,
+  BNP, ECG ; Doppler transcrânien de référence ;
+- **échocardiographie** si la troponine est élevée ou si l'hémodynamique est instable ;
+- recherche d'un traitement **antithrombotique**, à réverser sans délai s'il s'agit d'un
+  anticoagulant [@sfmu_anticoagurgence2024].
+
+Le patient comateux (Glasgow ≤ 8), qui vomit ou qui ne protège plus ses voies aériennes,
+s'intube, avec les précautions décrites plus loin : ni poussée hypertensive, ni hypotension.
+
+### La pression artérielle avant l'exclusion
+
+Tant que l'anévrysme n'est pas exclu, une poussée hypertensive augmente la **pression
+transmurale** sur un sac qui ne tient que par son caillot (@sec-nri). Le protocole du service
+contrôle donc l'hypertension avant la sécurisation, par **urapidil** (Eupressyl) ou
+**nicardipine** (Loxen), en bolus puis en continu.
+
+Mais l'HTA est aussi, souvent, la réponse d'un cerveau en HTIC qui défend sa perfusion
+(réaction de Cushing). La baisser sans discernement chez un patient comateux crée de
+l'ischémie. Le traitement de l'HTA est donc un **compromis** entre resaignement et
+hypoperfusion [@sfar_hsa2004], qui se règle au lit du malade :
+
+- patient conscient (WFNS I–II), sans HTIC : on traite l'HTA franche ; une cible souvent
+  utilisée est une **PAS inférieure à 160 mmHg**, sans chercher la normotension ;
+- patient comateux ou en HTIC : la cible se fixe sur le **Doppler transcrânien** (ou la PIC si
+  une DVE est en place) ; on ne baisse pas une PA qui maintient la PPC.
+
+Les recommandations de 2023 jugent raisonnable de traiter l'HTA avant l'exclusion, mais aucun
+seuil n'a été validé par un essai [@hoh2023]. La douleur, l'agitation et le globe vésical font
+monter la PA : on les traite avant de prescrire un antihypertenseur.
+
+<!-- TODO-VALIDER : protocole hsa : « contrôle de l'HTA » par urapidil ou nicardipine sans cible chiffrée ; le livre propose PAS < 160 mmHg chez le patient conscient sans HTIC, cible guidée par le Doppler ou la PIC sinon (A_VALIDER n° 38). -->
+
+### Le resaignement
+
+Le resaignement est la complication la plus grave des premiers jours : il est **plus grave que
+le saignement initial** et tue plus de 70 % des patients qui le font [@sfar_hsa2004]. Son risque
+est maximal dans les **24 premières heures**, et reste élevé jusqu'à l'exclusion. Dans l'essai
+ULTRA, 14 % des patients du groupe témoin ont resaigné entre l'admission et le traitement de
+l'anévrysme [@post2021]. D'où la règle du service et des recommandations : **traiter
+l'anévrysme dans les 24 heures** [@hoh2023].
+
+::: {.callout-note title="Pour aller plus loin : l'acide tranexamique" collapse="true"}
+Un antifibrinolytique réduit le resaignement : c'était l'idée de l'essai ULTRA (955 patients).
+L'acide tranexamique, donné dès le diagnostic (1 g, puis 1 g toutes les 8 h, au plus 24 h,
+arrêté juste avant le traitement de l'anévrysme), a réduit un peu les resaignements (10 % contre
+14 %, non significatif) mais **pas amélioré le devenir à 6 mois** (bon devenir 60 % contre 64 %)
+[@post2021]. Il n'a pas de place en routine [@hoh2023]. Ne pas confondre avec le traumatisme
+crânien (@sec-tc-grave).
+:::
+
+### L'hydrocéphalie aiguë et la DVE
+
+Le sang dans les espaces sous-arachnoïdiens et les ventricules bloque la résorption du LCS :
+une **hydrocéphalie aiguë** complique 15 à 25 % des HSA, plus encore en cas d'hémorragie
+intraventriculaire ou d'anévrysme de la circulation postérieure. Elle aggrave la conscience et
+le risque ischémique. Au scanner, les premiers signes sont discrets : dilatation des cornes
+temporales, augmentation de l'index bicaudé [@sfar_hsa2004].
+
+Une hydrocéphalie symptomatique se traite par **dérivation ventriculaire externe en urgence**
+[@hoh2023]. Trois règles, propres à l'anévrysme non exclu :
+
+- **la DVE se pose avant l'embolisation** si l'hydrocéphalie est présente sur le premier
+  scanner : après, l'héparine de la procédure rend le geste hémorragique, et il faudrait
+  antagoniser par la protamine [@sfar_hsa2004] ;
+- **contre-pression** : la DVE est maintenue à **au moins +15 cmH~2~O** au-dessus du zéro
+  (conduit auditif externe) jusqu'à l'exclusion ; un drainage brutal fait chuter la PIC et
+  monter la pression transmurale ;
+- **clampage transitoire** pendant les transferts et les efforts de toux (aspirations
+  trachéales), pour éviter le siphonnage.
+
+Si l'hydrocéphalie apparaît pendant l'embolisation, la DVE se pose une fois l'hémostase
+compatible : si elle est urgente, l'héparine est antagonisée par la protamine. La gestion
+quotidienne de la DVE (hauteur, débit, infection, sevrage) est au @sec-dysnatremies-dve.
+
+### Le cœur et le poumon
+
+La rupture s'accompagne d'une décharge de catécholamines. Elle peut donner des **troubles du
+rythme**, des anomalies de l'ECG (ondes T, QT long), une **sidération myocardique** (élévation
+de troponine, akinésie segmentaire qui ne correspond pas à un territoire coronaire, parfois
+aspect de Tako-tsubo) et un **œdème pulmonaire**, d'origine mixte, cardiogénique et
+neurogénique, chez environ 10 % des patients selon le protocole du service. Ces complications sont d'autant
+plus fréquentes que l'HSA est grave [@sfar_hsa2004] ; elles sont en règle réversibles en quelques jours.
+
+Une troponine élevée fait faire une échocardiographie. Le traitement est symptomatique :
+ventilation (VNI ou ventilation invasive avec PEP, en surveillant la PaCO~2~), dobutamine ou
+noradrénaline si la sidération entraîne un bas débit. Une défaillance cardiaque ou respiratoire
+sévère peut faire **différer l'exclusion** de l'anévrysme jusqu'à stabilisation, mais ne
+retarde jamais une DVE [@sfar_hsa2004].
+
+### Les crises
+
+Les crises surviennent surtout à la rupture ; elles sont un facteur de gravité. Elles se
+traitent comme toute crise (@sec-epilepsie). Il n'y a **pas de prophylaxie systématique**
+[@sfar_hsa2004; @hoh2023] ; la **phénytoïne** en prophylaxie prolongée est associée à un moins
+bon devenir et s'évite [@hoh2023]. Une prophylaxie courte peut se discuter chez les patients à
+haut risque (hématome, sang cortical abondant). Chez le patient comateux, un **EEG** recherche un
+état de mal non convulsif (@sec-monitorage).
+
+## Exclure l'anévrysme : embolisation ou clippage
+
+L'exclusion est une urgence : elle supprime le risque de resaignement et autorise ensuite à
+monter la PA si une ischémie survient. Le choix de la technique se fait au cas par cas, entre
+neuroradiologue, neurochirurgien et anesthésiste-réanimateur :
+
+- **embolisation** en première intention dans la majorité des cas : dans l'essai ISAT, pour les
+  anévrysmes rompus accessibles aux deux techniques, elle donnait moins de décès ou de
+  dépendance à un an que le clippage (23,7 % contre 30,6 %) [@molyneux2002] ;
+- **clippage** pour les anévrysmes mal adaptés à l'embolisation (sylviens, collet large,
+  branches naissant du sac), en complément d'une embolisation incomplète, et quand un
+  **hématome compressif** doit être évacué dans le même temps [@sfar_hsa2004].
+
+### L'anesthésie de l'anévrysme rompu
+
+Les objectifs sont les mêmes en NRI et au bloc [@sfar_hsa2004] :
+
+- **pas de poussée hypertensive** à la laryngoscopie, à la pose de la têtière ou à l'incision :
+  induction profonde, morphinique (rémifentanil) suffisant avant chaque stimulation ;
+- **pas d'hypotension** chez un patient dont la PIC est élevée : la PPC est déjà limite ;
+- **anesthésie intraveineuse** (propofol, rémifentanil) en cas d'HTIC ; normocapnie ;
+  normothermie ;
+- **immobilité absolue** en NRI ; cathéter artériel avant l'induction chez le patient grave ;
+- DVE en place : on la **ferme** pour l'induction, on draine prudemment, et seulement à la
+  demande du chirurgien après l'ouverture de la dure-mère.
+
+Le détail de l'induction « sans pic de pression » et de la rupture per-procédure est au
+@sec-nri ; le clampage temporaire, la vidéoangiographie au vert d'indocyanine et l'arrêt
+circulatoire par adénosine au @sec-vasculaire. Au bloc, deux particularités de l'anévrysme
+rompu : le cerveau est souvent **tendu** (un volet large, une DVE et les leviers de détente
+cérébrale décrits au @sec-craniotomie sont nécessaires) et la **rupture peropératoire** est
+bien plus fréquente que sur un anévrysme non rompu. Pendant un clampage temporaire, la PA se
+**remonte**, jamais ne se baisse ; l'hypotension contrôlée n'a de place qu'en sauvetage d'une
+rupture incontrôlable [@sfar_hsa2004].
+
+## L'ischémie cérébrale retardée
+
+### Vasospasme et ischémie retardée
+
+Le **vasospasme** est un rétrécissement des artères baignées par le sang, causé par les
+produits de dégradation de l'hémoglobine. Il est visible à l'artériographie chez 30 à 70 % des
+patients, entre J4 et J14 avec un pic vers J7–J10, mais ne se traduit cliniquement que chez une
+partie d'entre eux [@sfar_hsa2004].
+
+On parle aujourd'hui d'**ischémie cérébrale retardée** (*delayed cerebral ischemia*, DCI) :
+une aggravation neurologique (déficit focal, baisse d'au moins 2 points du Glasgow) d'au moins
+une heure, qui n'est pas présente juste après l'exclusion de l'anévrysme et que n'explique
+aucune autre cause ; ou un infarctus au scanner ou à l'IRM qui n'est pas lié à la procédure
+[@vergouwen2010]. Le vasospasme en est la cause principale, pas la seule : microthromboses,
+dépolarisations corticales envahissantes et dysfonction de l'autorégulation y contribuent, ce
+qui explique qu'un traitement qui lève le spasme n'améliore pas toujours le devenir
+[@macdonald2011].
+
+### La prévention : nimodipine et euvolémie
+
+La **nimodipine** est le seul médicament qui ait prouvé son efficacité. Dans l'essai
+britannique (554 patients), **60 mg per os toutes les 4 heures pendant 21 jours** réduisaient
+les infarctus cérébraux (22 % contre 33 %) et les mauvais devenirs (20 % contre 33 %)
+[@pickard1989]. Elle est recommandée par voie entérale chez tous les patients [@hoh2023;
+@treggiari2023]. Curieusement, elle n'agit pas en levant le spasme angiographique : son effet
+passe probablement par une neuroprotection.
+
+- **Voie orale** (ou par la sonde gastrique), 360 mg/j pendant 21 jours, débutée dès le
+  diagnostic ; la conférence française admettait de l'abréger à 15 jours [@sfar_hsa2004].
+- **Voie intraveineuse** (1 à 2 mg/h selon le poids), alternative courante en France, avec
+  davantage d'hypotension : on l'augmente progressivement [@sfar_hsa2004].
+- Son effet indésirable est l'**hypotension** : elle se corrige, et il vaut mieux fractionner la
+  dose orale (30 mg toutes les 2 heures) que l'arrêter.
+
+L'autre pilier est l'**euvolémie**. L'hypovolémie est fréquente (natriurèse, vomissements,
+jeûne) et favorise l'ischémie ; mais l'**hypervolémie prophylactique** n'apporte rien et expose à
+l'œdème pulmonaire : elle n'est plus recommandée, pas plus que l'HTA prophylactique [@hoh2023;
+@treggiari2023]. On vise donc une volémie normale, avec un cristalloïde isotonique, un bilan
+entrées-sorties quotidien et une évaluation hémodynamique en cas de doute ; pas de soluté
+hypotonique [@sfar_solutes2021].
+
+<!-- TODO-VALIDER : protocole hsa : « respecter une hypertension artérielle, assurer une volémie adaptée grâce à un apport conséquent de solutés isotoniques » après sécurisation. NCS 2023 et AHA 2023 : euvolémie, ni hypervolémie ni HTA prophylactiques ; HTA induite seulement en cas d'ischémie retardée (A_VALIDER n° 9). Nimodipine : dose et voie non précisées dans le protocole (A_VALIDER n° 38). -->
+
+Ce qui n'a **pas** fait ses preuves, et ne se prescrit pas en routine :
+
+| Traitement | Essai | Résultat |
+|--|---|----|
+| Sulfate de magnésium IV | MASH-2 (1204 patients) | Pas de bénéfice sur le devenir (RR 1,03) [@dorhoutmees2012] |
+| Simvastatine 40 mg | STASH (803 patients) | Pas de bénéfice à 6 mois [@kirkpatrick2014] |
+| Clazosentan (antagoniste de l'endothéline) | CONSCIOUS-2 (1157 patients) | Réduit le vasospasme angiographique (essai de phase 2), mais pas la morbidité liée au vasospasme ni le mauvais devenir ; plus d'hypotension, d'anémie et de complications pulmonaires [@macdonald2011] |
+| Acide tranexamique précoce | ULTRA (955 patients) | Pas de bénéfice sur le devenir [@post2021] |
+| Hypervolémie, « triple H » | Aucun essai positif | Œdème pulmonaire ; abandonnée [@hoh2023; @treggiari2023] |
+
+: Ce qui ne prévient pas l'ischémie retardée {#tbl-echecs-hsa}
+
+Le **drainage lombaire** du LCS est une piste récente : dans l'essai EARLYDRAIN (287 patients),
+un drain lombaire posé **après l'exclusion** (5 mL/h) réduisait les infarctus secondaires (28,5 %
+contre 39,9 %) et les devenirs défavorables à 6 mois (32,6 % contre 44,8 %) [@wolf2023]. Ce
+n'est pas encore une pratique générale ; elle suppose une hydrocéphalie non obstructive et
+l'absence d'effet de masse.
+
+### Le dépistage
+
+L'ischémie retardée se cherche **chaque jour**, de J3 à J14 :
+
+- **l'examen neurologique** répété (Glasgow, déficit, langage), le meilleur outil chez le
+  patient conscient. Toute aggravation après J3, progressive, fluctuante ou brutale, fait
+  évoquer une ischémie retardée ; elle s'accompagne souvent de fièvre, d'HTA, d'hyponatrémie ;
+- le **Doppler transcrânien quotidien** : vasospasme de l'ACM au-delà d'une Vm de 120 cm/s,
+  sévère au-delà de 200 cm/s ; un **index de Lindegaard** > 3 distingue le vasospasme de
+  l'hyperhémie (> 6 : sévère) ; une hausse de plus de 50 cm/s en 24 h est un signe d'alerte
+  [@lindegaard1989; @sfar_hsa2004] (@sec-dtc, @fig-dtc) ;
+- chez le patient **sédaté ou de grade élevé**, l'examen ne dit plus rien : le monitorage
+  multimodal (PtiO~2~, EEG continu) et l'imagerie de perfusion (scanner de perfusion) prennent
+  le relais [@sfar_hsa2004; @treggiari2023].
+
+Devant une aggravation, éliminez d'abord les autres causes, qui se traitent autrement :
+**hydrocéphalie**, **resaignement**, **hyponatrémie**, hypoxémie, **crise** infraclinique,
+infection, complication de la procédure. D'où un **scanner** systématique (avec angioscanner et
+perfusion), un ionogramme et, au moindre doute, un EEG.
+
+### Le traitement
+
+L'ischémie retardée symptomatique est une urgence : chaque heure compte.
+
+1. **Corriger** ce qui aggrave : hypovolémie, hyponatrémie, hypoxémie, fièvre, anémie ;
+   remplissage par un cristalloïde isotonique si le patient est hypovolémique.
+2. **Hypertension induite** par noradrénaline, anévrysme exclu : on remonte la PA par paliers
+   (par exemple de 10 à 20 % de la PAM) en réévaluant l'examen à chaque palier ; la conférence
+   française admettait une PAM jusqu'à 100–120 mmHg en l'absence d'infarctus constitué
+   [@sfar_hsa2004]. Son efficacité repose sur des séries de cas ; le seul essai randomisé,
+   HIMALAIA, arrêté prématurément (41 patients), n'a pas montré de bénéfice et a trouvé plus
+   d'effets indésirables graves [@gathier2018]. Les recommandations la jugent raisonnable
+   malgré la faiblesse des preuves [@hoh2023] ; on l'interrompt si l'examen ne s'améliore pas.
+3. **Traitement endovasculaire** si le déficit persiste ou que le spasme est sévère :
+   **angioplastie au ballon** des segments proximaux, **vasodilatateur intra-artériel**
+   (nimodipine, milrinone) pour les segments distaux. Son efficacité dépend de sa précocité
+   [@sfar_hsa2004]. Pour l'anesthésiste, c'est une NRI en urgence chez un patient fragile : PA
+   maintenue haute, normocapnie (@sec-nri).
+
+Certaines équipes utilisent la **milrinone intraveineuse** en continu dans le vasospasme réfractaire ;
+elle n'a pas été évaluée par un essai randomisé et fait baisser la PA.
+
+::: {.callout-warning title="Piège"}
+**Monter la PA chez un patient dont l'anévrysme n'est pas exclu**, ou qui a un autre anévrysme
+non traité, expose au resaignement. Vérifiez toujours, avant de lancer la noradrénaline, ce que
+le neuroradiologue a traité et ce qu'il a laissé.
+:::
+
+## La réanimation de J3 à J21
+
+### Les cibles
+
+| Paramètre | Cible | Commentaire |
+|--|---|-----|
+| PA avant exclusion | Pas de poussée ; PAS < 160 mmHg chez le patient conscient sans HTIC | Doppler ou PIC chez le patient comateux |
+| PA après exclusion | Valeurs habituelles du patient, sans hypotension | HTA induite seulement si ischémie retardée |
+| Volémie | **Euvolémie** | Ni hypovolémie, ni hypervolémie [@hoh2023] |
+| Natrémie | 135–145 mmol/L | Dosage au moins quotidien ; pas de restriction hydrique |
+| PaCO~2~ | 35–40 mmHg | Pas d'hyperventilation prolongée |
+| Glycémie | Éviter hyperglycémie et hypoglycémie | Comme toute agression cérébrale (@tbl-acsos) |
+| Température | Normothermie ; traiter la fièvre | La fièvre est fréquente et aggrave le pronostic |
+| Hémoglobine | Voir plus loin | [@english2025; @taccone2024] |
+| DVE | +15 cmH~2~O avant exclusion | Puis selon la PIC et le débit (@sec-dysnatremies-dve) |
+
+: Cibles de réanimation de l'HSA {#tbl-cibles-hsa}
+
+### La natrémie
+
+L'**hyponatrémie** est fréquente, surtout entre J4 et J10. Elle relève le plus souvent d'un
+**syndrome de perte de sel** (*cerebral salt wasting*) : natriurèse abondante **et
+hypovolémie** ; plus rarement d'une sécrétion inappropriée d'ADH. La distinction compte, parce
+que la **restriction hydrique**, traitement de la SIADH, est **dangereuse** dans l'HSA : elle
+aggrave l'hypovolémie et l'ischémie. On compense donc les pertes en eau et en sel (NaCl 0,9 %,
+sel per os, SSH si besoin) ; la **fludrocortisone** ou l'**hydrocortisone** peuvent limiter la
+natriurèse [@sfar_hsa2004; @hoh2023]. Une hyponatrémie symptomatique se corrige vite au début.
+L'arbre décisionnel est au @sec-dysnatremies-dve.
+
+### Le seuil transfusionnel
+
+L'anémie est fréquente et associée à un mauvais devenir. Deux essais récents :
+
+- **SAHaRA** (742 HSA anévrysmales anémiques) : transfuser sous 10 g/dL plutôt que sous 8 g/dL
+  n'a pas réduit significativement les devenirs défavorables à 12 mois (33,5 % contre 37,7 %,
+  RR 0,88, IC 95 % 0,72–1,09) ; pas plus d'effets indésirables [@english2025] ;
+- **TRAIN** (850 cérébrolésés, dont des HSA) : moins de devenirs défavorables en transfusant
+  sous 9 g/dL plutôt que sous 7 g/dL [@taccone2024].
+
+Aucun des deux ne justifie un seuil restrictif à 7 g/dL chez l'HSA ; un seuil autour de 8 à
+9 g/dL est raisonnable. Le protocole du service ne fixe
+pas de seuil pour l'HSA.
+
+<!-- TODO-VALIDER : protocole hsa : pas de seuil transfusionnel. SAHaRA 2025 (≤ 10 vs ≤ 8 g/dL : non significatif), TRAIN 2024 (< 9 favorable). Le livre propose 8–9 g/dL (A_VALIDER n° 4 et 38). -->
+
+### Le reste de la réanimation
+
+- **Analgésie** : la céphalée de l'HSA est intense et dure plusieurs jours. Paracétamol,
+  morphiniques titrés chez le patient conscient en surveillant la vigilance ; les AINS se
+  discutent (risque hémorragique, DVE) [@sfar_hsa2004].
+- **Thromboprophylaxie** : compression pneumatique intermittente dès l'admission ;
+  anticoagulation préventive après l'exclusion de l'anévrysme, au moment fixé avec le
+  neurochirurgien (DVE en place).
+- **Nutrition** entérale précoce ; contrôle de la glycémie.
+- **Sevrage de la DVE** à partir de la deuxième semaine ; une hydrocéphalie chronique impose une
+  dérivation définitive chez une partie des patients (@sec-dysnatremies-dve).
+
+## Cas cliniques
+
+### Cas 1 : la céphalée et l'hydrocéphalie
+
+Une femme de 48 ans, fumeuse et hypertendue, est amenée par le SAMU pour une céphalée brutale
+suivie d'une perte de connaissance brève. À l'arrivée : Glasgow 11 (Y3 V3 M5), pas de déficit,
+PA 185/100 mmHg, FC 58/min. Le scanner montre une HSA épaisse dans les citernes de la base, du
+sang dans les ventricules latéraux et une dilatation des cornes temporales. L'angioscanner
+montre un anévrysme de la communicante antérieure.
+
+1. Quels sont ses grades WFNS et de Fisher modifié ? Qu'en déduisez-vous ?
+2. Faut-il baisser sa PA ?
+3. Quel est le premier geste, et dans quel ordre s'enchaînent les suivants ?
+4. Une heure après la pose de la DVE, l'infirmière la trouve à 0 cmH~2~O, « pour mieux drainer ».
+   Qu'en pensez-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Glasgow 11 sans déficit : **WFNS IV**. Sang épais et intraventriculaire : **Fisher modifié 4**,
+   risque de vasospasme symptomatique le plus élevé (≈ 40 %) [@frontera2006]. Mais le grade
+   WFNS se réévalue après traitement de l'hydrocéphalie, qui explique peut-être à elle seule les
+   troubles de conscience.
+2. Pas à l'aveugle : une PA haute avec une FC à 58/min chez une patiente somnolente avec une
+   hydrocéphalie évoque une **réaction de Cushing**. On évalue la perfusion cérébrale (Doppler
+   transcrânien) ; on supprime la douleur et l'agitation ; on traite l'HTA franche par urapidil
+   ou nicardipine titrés sans faire chuter la PA, et l'HTA se corrige souvent avec le drainage.
+3. **DVE en urgence**, avant l'embolisation (l'héparine rendrait la pose dangereuse ensuite)
+   [@sfar_hsa2004] ; puis embolisation **dans les 24 h** [@hoh2023], sous anesthésie générale
+   sans poussée hypertensive ; nimodipine dès le diagnostic.
+4. Avant l'exclusion, la DVE reste **à +15 cmH~2~O** : un drainage brutal fait chuter la PIC et
+   augmente la pression transmurale, au risque d'un resaignement. On la remonte, et on la clampe
+   pendant les transports et les aspirations.
+:::
+
+### Cas 2 : l'aphasie à J7
+
+Un homme de 55 ans est à J7 d'une HSA WFNS II, Fisher modifié 3, par rupture d'un anévrysme
+sylvien gauche embolisé à J0. Il reçoit de la nimodipine per os. Ce matin, il cherche ses mots,
+et sa main droite est maladroite. PA 128/72 mmHg, température 38,2 °C, natrémie 129 mmol/L,
+diurèse 4 L/24 h. Au Doppler, la Vm de l'ACM gauche est passée de 110 à 190 cm/s en 24 h,
+index de Lindegaard 5.
+
+1. Quel est votre diagnostic, et que faut-il éliminer ?
+2. Son interne propose une restriction hydrique pour l'hyponatrémie. Qu'en pensez-vous ?
+3. Quel traitement entreprenez-vous ?
+4. Le déficit persiste malgré une PAM remontée à 115 mmHg. Et maintenant ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Une **ischémie cérébrale retardée** sur vasospasme de l'ACM gauche : déficit après J3,
+   territoire concordant, accélération Doppler (> 50 cm/s en 24 h, Lindegaard > 3)
+   [@lindegaard1989; @sfar_hsa2004]. Il faut éliminer une hydrocéphalie, un resaignement, une
+   crise : **scanner** (avec angioscanner et perfusion), EEG au moindre doute.
+2. **Non** : diurèse abondante, natriurèse, fièvre et probable hypovolémie évoquent un
+   **syndrome de perte de sel**. La restriction hydrique aggraverait l'hypovolémie et l'ischémie.
+   On compense l'eau et le sel (NaCl 0,9 %, voire SSH), on discute la fludrocortisone
+   [@hoh2023].
+3. Corriger l'hypovolémie et l'hyponatrémie, traiter la fièvre ; poursuivre la nimodipine (en
+   fractionnant si elle fait baisser la PA) ; **hypertension induite** par noradrénaline par
+   paliers, l'anévrysme étant exclu, en réévaluant l'examen à chaque palier.
+4. **Artériographie** en urgence pour un traitement endovasculaire : angioplastie au ballon ou
+   vasodilatateur intra-artériel, d'autant plus efficaces qu'ils sont précoces [@sfar_hsa2004].
+:::
+
+## Fiche pratique
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Pas de resaignement : PA contrôlée, exclusion de l'anévrysme dans les 24 h ; hydrocéphalie drainée ; dépister et traiter l'ischémie retardée de J3 à J14 ; aucune ACSOS |
+| Monitorage | Glasgow, déficit, langage, pupilles répétés ; grade WFNS et Fisher modifié notés ; PA invasive chez le patient grave ; Doppler transcrânien quotidien (Vm ACM, Lindegaard) ; PIC par la DVE ; EEG si coma ; natrémie et bilan entrées-sorties quotidiens ; troponine, ECG, échocardiographie si besoin |
+| Induction et entretien | Induction profonde sans poussée hypertensive ni hypotension (rémifentanil, propofol) ; cathéter artériel avant l'induction si grave ; AIVOC si HTIC ; normocapnie ; immobilité en NRI ; DVE fermée à l'induction, drainage à la demande du chirurgien ; clampage temporaire : PA remontée |
+| Cibles | Avant exclusion : pas de poussée, PAS < 160 mmHg si conscient sans HTIC, sinon selon Doppler ou PIC ; après exclusion : euvolémie, PA habituelle, HTA induite seulement si ischémie retardée ; natrémie 135–145 mmol/L ; PaCO~2~ 35–40 mmHg ; normothermie ; Hb ≈ 8–9 g/dL ; DVE à +15 cmH~2~O avant exclusion ; nimodipine 60 mg × 6/j pendant 21 j |
+| Pièges | HTA de Cushing traitée à l'aveugle ; DVE à 0 cmH~2~O avant exclusion ; DVE posée après l'héparine ; hypervolémie (« triple H ») ; restriction hydrique sur une hyponatrémie de perte de sel ; aggravation après J3 attribuée à la fatigue ; HTA induite sur un anévrysme non exclu ; nimodipine arrêtée pour une hypotension au lieu d'être fractionnée ; magnésium, statine, acide tranexamique en routine |
+| Post-opératoire | Réanimation neurochirurgicale ; scanner après la procédure et à toute aggravation ; Doppler quotidien jusqu'à J14 ; CPI puis anticoagulation préventive après exclusion ; sevrage de la DVE ; dérivation définitive si hydrocéphalie chronique |
+
+: Fiche pratique : HSA anévrysmale {#tbl-fiche-hsa}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- Céphalée brutale inhabituelle = HSA jusqu'à preuve du contraire : scanner sans injection,
+  puis angioscanner ; PL seulement si le scanner est normal.
+- WFNS pour la gravité (grave = III à V), Fisher modifié pour le risque de vasospasme.
+- Resaignement : maximal les 24 premières heures, plus grave que la rupture ; anévrysme exclu
+  dans les 24 h, pas de poussée hypertensive, mais pas d'hypotension en cas d'HTIC.
+- Hydrocéphalie : DVE en urgence, avant l'embolisation, à +15 cmH~2~O tant que l'anévrysme
+  n'est pas exclu.
+- Nimodipine 60 mg toutes les 4 h pendant 21 jours ; euvolémie ; ni hypervolémie, ni magnésium,
+  ni statine, ni acide tranexamique.
+- Toute aggravation après J3 est une ischémie retardée jusqu'à preuve du contraire : scanner,
+  correction des ACSOS, HTA induite, traitement endovasculaire.
+- Hyponatrémie de l'HSA : perte de sel, jamais de restriction hydrique.
 :::
