@@ -1,11 +1,532 @@
 # Traumatisme crânien grave {#sec-tc-grave}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Évaluer un traumatisé crânien grave en quelques minutes : Glasgow (réponse motrice),
+  pupilles, scanner, Doppler transcrânien.
+- Prévenir les ACSOS dès le préhospitalier : intubation, normocapnie, PAS > 110 mmHg,
+  rachis cervical protégé.
+- Connaître les indications neurochirurgicales urgentes (hématome extradural, sous-dural
+  aigu, embarrure, hydrocéphalie) et anesthésier pour une évacuation en urgence.
+- Fixer les cibles des 24 premières heures et savoir quand poser un capteur de PIC.
+- Situer les grands essais (craniectomie, hypothermie, acide tranexamique, transfusion) et
+  connaître le cadre des décisions de limitation.
 :::
 
-*Chapitre en cours de rédaction.*
+## Une maladie du temps qui passe
+
+Le traumatisme crânien grave (TC grave) se définit par un **score de Glasgow ≤ 8** après
+correction des fonctions vitales. C'est la première cause de décès et de handicap du sujet
+jeune ; c'est aussi, de plus en plus, une maladie du sujet âgé qui chute sous
+antithrombotique.
+
+Les **lésions primaires** (contusion, hématome, lésions axonales diffuses) sont fixées au
+moment du choc. Tout ce que fait l'équipe, du SAMU à la réanimation, vise les **lésions
+secondaires** : l'ischémie créée par les ACSOS, l'HTIC, l'expansion d'un hématome
+(@sec-physiopathologie, @tbl-acsos). Une seule hypotension à la phase initiale augmente la
+mortalité de 150 % [@chesnut1993]. Le pronostic se joue donc pour une large part dans les
+premières heures, et il se joue aussi sur l'**orientation** : un TC grave doit être régulé
+par le SAMU et adressé dès que possible dans un centre doté d'une neurochirurgie (GRADE 1+,
+R2.1), où il est mieux soigné même s'il n'est pas opéré [@sfar_tcgrave2016].
+
+Aucun protocole du service ne traite spécifiquement du TC grave : ce chapitre s'appuie sur les
+recommandations françaises [@sfar_tcgrave2016; @sfnc_tce2025], la Brain Trauma Foundation
+[@carney2017] et le consensus SIBICC [@hawryluk2019]. Le traitement de l'HTIC, commun à toutes
+les causes, est au @sec-htic.
+
+<!-- TODO-VALIDER : aucun protocole local sur le TC grave ; chapitre écrit d'après SFAR 2016, SFNC 2025, BTF 2016, SIBICC 2019. Préciser les pratiques locales : type de capteur de PIC, seuil transfusionnel, prophylaxie antiépileptique, délai de l'HBPM (A_VALIDER n° 37). -->
+
+## Les lésions et leur urgence
+
+| Lésion | Mécanisme et scanner | Ce qui presse |
+|--|----|-----|
+| Hématome extradural | Entre l'os et la dure-mère ; souvent artériel (artère méningée moyenne, fracture temporale) ; lentille biconvexe | **Intervalle libre** puis aggravation rapide : urgence chirurgicale absolue |
+| Hématome sous-dural aigu | Entre la dure-mère et l'arachnoïde ; veines ponts ; croissant ; souvent associé à des contusions | Évacuation si critères (@tbl-chirurgie-tc) ; pronostic lié aux lésions sous-jacentes |
+| Contusions | Lésions du parenchyme, souvent frontales et temporales (coup et contrecoup) | Elles **grossissent** dans les 24 à 72 premières heures (scanner de contrôle) |
+| Lésions axonales diffuses | Cisaillement par accélération-décélération ; scanner peu parlant, IRM | Coma profond avec un scanner « presque normal » |
+| HSA traumatique | Sang dans les sillons de la convexité | Facteur de risque d'HTIC [@sfar_tcgrave2016] ; ce n'est pas un anévrisme rompu (@sec-hsa) |
+| Embarrure, brèche ostéoméningée | Fracture enfoncée ; issue de LCS par le nez ou l'oreille | Chirurgie dans les 24 h si plaie ou effet de masse ; risque de méningite |
+| Œdème diffus, gonflement | Citernes effacées, ventricules collabés | HTIC précoce : PIC |
+
+: Les principales lésions du traumatisme crânien {#tbl-lesions-tc}
+
+## L'évaluation initiale
+
+Trois éléments, notés à l'arrivée et à chaque réévaluation (GRADE 1+, R1.1)
+[@sfar_tcgrave2016] :
+
+- le **score de Glasgow**, en rapportant toujours sa **réponse motrice** (la seule
+  interprétable chez un patient intubé ou dont les yeux sont fermés par un œdème) ;
+  l'échelle est en annexe ;
+- la **taille et la réactivité des pupilles**, idéalement au pupillomètre (@sec-monitorage) ;
+- les **signes de localisation** (déficit moteur, asymétrie).
+
+Ces scores se notent **après** correction de l'hypotension et de l'hypoxie, et avant la
+sédation si possible : un Glasgow « à 3 » chez un patient en choc hémorragique ne dit rien du
+cerveau.
+
+Le **Doppler transcrânien**, fait dès l'arrivée au déchocage, repère les patients dont la
+perfusion cérébrale est déjà menacée (GRADE 2+, R1.4) [@sfar_tcgrave2016] : un index de
+pulsatilité élevé et une vitesse diastolique basse poussent à monter la PAM et à osmothérapie
+avant même le scanner (@sec-dtc). Les biomarqueurs sanguins n'ont pas de place dans
+l'évaluation du TC grave (GRADE 2−, R1.5).
+
+L'imagerie se fait **sans délai** : scanner cérébral et du rachis cervical sans injection
+(GRADE 1+, R3.1). Un **angioscanner** des troncs supra-aortiques et des vaisseaux intracrâniens
+recherche une dissection en présence de facteurs de risque (GRADE 2+, R3.2) : fracture du rachis
+cervical, déficit focal non expliqué par l'imagerie, syndrome de Claude Bernard-Horner, fracture
+faciale Le Fort II ou III, fracture de la base du crâne, lésion des parties molles du cou
+[@sfar_tcgrave2016]. Au scanner cérébral, la **compression des citernes de la base** est le
+meilleur signe d'HTIC : leur disparition s'accompagne d'une PIC supérieure à 30 mmHg dans plus
+de 70 % des cas [@sfar_tcgrave2016].
+
+## Du préhospitalier au déchocage
+
+### Les voies aériennes et la ventilation
+
+Le TC grave s'**intube**, se ventile et se monitore par capnographie dès la prise en charge
+préhospitalière (GRADE 1+, R2.3) [@sfar_tcgrave2016]. L'intubation se fait en **séquence
+rapide** : le patient a l'estomac plein, et chaque minute d'hypoxie ou d'hypercapnie fait
+monter la PIC.
+
+- **Hypnotique** : étomidate, kétamine ou propofol, choisi selon l'hémodynamique (GRADE 2+,
+  R3.1) [@sfar_intubation2016]. Chez le traumatisé hypotendu, la kétamine ou l'étomidate ; le
+  propofol à pleine dose fait chuter la PAM. La kétamine n'augmente pas la PIC chez le patient
+  ventilé et maintient la PAM (@sec-pharmacologie).
+- **Curare** : succinylcholine en première intention (GRADE 2+, R3.2) ; rocuronium **1 à
+  1,2 mg/kg** en cas de contre-indication, avec du sugammadex disponible (GRADE 1+, R3.3)
+  [@sfar_intubation2016].
+- **Vasopresseur prêt** et branché avant l'induction (noradrénaline, ou phényléphrine et
+  éphédrine en bolus), sur une voie périphérique si besoin [@sfar_tcgrave2016].
+
+Après l'intubation, **ventilez tout de suite** et réglez la ventilation sur la capnographie :
+une EtCO~2~ autour de **30 à 35 mmHg** au départ [@sfar_tcgrave2016], puis une **PaCO~2~ de 35 à
+40 mmHg** dès le premier gaz du sang, qui donne le gradient PaCO~2~-EtCO~2~ (souvent élargi
+chez le polytraumatisé). L'hypocapnie est l'ACSOS la plus fréquente, souvent créée au transport
+par un ballon trop généreux [@payen2007] : elle est aussi délétère que l'hypercapnie
+(@sec-htic). Une PEP modérée, une SpO~2~ ≥ 95 %.
+
+### Le rachis cervical
+
+Tout TC grave a une lésion du rachis cervical jusqu'à preuve du contraire. Le rachis est
+immobilisé dès le ramassage (GRADE 2+, R1.1) [@sfar_tvm2019]. Pour l'intubation :
+
+- **stabilisation manuelle en ligne** par un aide, avec **retrait de la partie antérieure du
+  collier** pendant la laryngoscopie (avis d'experts, R2.1) ;
+- en préhospitalier, laryngoscopie directe avec un **long mandrin** de type Eschmann, sans
+  manœuvre de Sellick (GRADE 2+, R2.2) ; à l'hôpital, **vidéolaryngoscope** en première
+  intention (GRADE 2+, R8.1) [@sfar_tvm2019].
+
+Le collier se remet après l'intubation, mais sans serrer : comprimées, les jugulaires font
+monter la PIC (@sec-htic). Il s'enlève dès que le scanner du rachis est lu et normal.
+
+### La pression artérielle et le remplissage
+
+Avant tout monitorage cérébral, maintenez une **PAS > 110 mmHg** (GRADE 2+, R2.2)
+[@sfar_tcgrave2016]. Le moyen le plus efficace est un **vasopresseur** (noradrénaline,
+phényléphrine), en attendant l'effet du remplissage si le patient est hypovolémique.
+
+- **Soluté** : NaCl 0,9 % ou cristalloïde balancé **isotonique** ; pas de soluté hypotonique
+  (Ringer lactate, glucosé), qui fait entrer de l'eau dans le cerveau [@sfar_solutes2021].
+- **Pas d'albumine** (GRADE 2−, R7.5) : dans le sous-groupe des TC graves de l'étude SAFE, elle
+  était associée à une surmortalité à 2 ans (41,8 % contre 22,2 %) [@myburgh2007;
+  @sfar_tcgrave2016].
+- **Pas de SSH « préventif »** : en préhospitalier, le sérum salé hypertonique n'a pas
+  amélioré le devenir neurologique [@bulger2010]. L'osmothérapie se réserve aux signes
+  d'engagement ou d'HTIC sévère.
+
+::: {.callout-warning title="Piège"}
+**Le polytraumatisé hypotendu.** Chez un TC grave en choc hémorragique, l'hémostase passe
+avant le scanner cérébral : les lésions à opérer sont bien plus souvent extracrâniennes
+(21 %) que neurochirurgicales (2,5 %) [@sfar_tcgrave2016]. Stabilisez d'abord, puis scanner
+corps entier (avis d'experts, R8.1). Mais la stratégie d'hypotension permissive du choc
+hémorragique ne s'applique **pas** au TC grave : la cible reste une PAS > 110 mmHg, ce qui
+impose souvent la noradrénaline tôt.
+:::
+
+### L'osmothérapie d'urgence
+
+Devant des **signes d'engagement** (mydriase, aggravation motrice) ou une HTIC sévère, après
+correction des ACSOS : **mannitol 20 %** ou **SSH**, en 15 à 20 minutes (GRADE 1+, R7.3)
+[@sfar_tcgrave2016]. Les recettes du service sont au @sec-htic. L'osmothérapie gagne du temps
+jusqu'au bloc ; elle ne remplace pas l'évacuation de l'hématome.
+
+### L'acide tranexamique
+
+Dans l'essai CRASH-3 (12 737 TC, Glasgow ≤ 12 ou saignement intracrânien, sans hémorragie
+extracrânienne majeure), l'acide tranexamique (**1 g en 10 min, puis 1 g sur 8 h**) donné
+**dans les 3 heures** n'a pas réduit significativement les décès d'origine crânienne dans
+l'ensemble (18,5 % contre 19,8 %), mais les a réduits chez les traumatisés **légers à
+modérés** (RR 0,78) ; aucun effet chez les TC graves, et pas plus d'événements thrombotiques
+[@crash3_2019]. Chez le TC grave, il est sans danger mais son bénéfice n'est pas démontré ; il
+est de toute façon indiqué si le patient saigne ailleurs.
+
+<!-- TODO-VALIDER : indications locales de l'acide tranexamique (protocole htic : tout HSD ou hématome intraparenchymateux) vs CRASH-3 (bénéfice dans le TC léger à modéré, dans les 3 h ; pas chez le TC grave) (A_VALIDER n° 36). -->
+
+### Les antithrombotiques
+
+Le traitement antithrombotique se cherche à l'interrogatoire des proches, dans l'ordonnance,
+au besoin par un dosage. Un anticoagulant (AVK, AOD) devant un saignement intracrânien se
+**réverse sans attendre** la biologie ; un antiagrégant ne se neutralise par des plaquettes
+que si l'on opère. Les doses sont au @sec-htic [@sfmu_anticoagurgence2024;
+@gihp_aapurgence2018].
+
+## Les indications neurochirurgicales
+
+Les recommandations de 2025 ont précisé quand opérer en urgence
+[@sfnc_tce2025; @sfnc_tce2025_fiche]. Ce sont des avis d'experts : la décision se prend avec le
+neurochirurgien, au cas par cas.
+
+| Lésion | Chirurgie en urgence si | Sinon |
+|--|-----|----|
+| Hématome extradural | Glasgow ≤ 8, **ou** mydriase, **ou** volume > 30 mL, **ou** déviation de la ligne médiane > 5 mm, **ou** compression du tronc, **ou** saignement actif au scanner (*swirl sign*) (R6.1) | Surveillance en centre neurochirurgical, scanner de contrôle à la 6^e^ heure si le premier a été fait avant, ou plus tôt si aggravation (R6.4, R6.5) ; hématome veineux : au cas par cas (R6.3) |
+| Hématome sous-dural aigu | Âge < 65 ans (65–80 ans si peu fragile) **et** troubles de conscience (Glasgow ≤ 8, ou ≤ 12 avec une perte rapide de 2 points) ou HTIC réfractaire **et** épaisseur > 10 mm ou déviation > 5 mm (R7.1) | Traitement conservateur ; scanner de contrôle en urgence si aggravation, à J7–10 avant de reprendre un antithrombotique, à 3–4 semaines sinon (R7.3) |
+| Embarrure | Dans les 24 h si plaie complexe ou contaminée, brèche durale, effet de masse, autre lésion à opérer (R8.1) | Pas d'antibiotique ni d'antiépileptique systématiques |
+| Brèche ostéoméningée | Dans les 24 h si défaut dural majeur avec liquorrhée abondante ; différée si la fuite persiste au-delà de 7 jours (R9.1, R9.2) | Proclive 30°, laxatifs, antitussifs, antiémétiques ; vaccins pneumocoque, *Haemophilus*, méningocoque (R9.3, R9.4) |
+| Hydrocéphalie aiguë | Dérivation ventriculaire externe [@sfar_tcgrave2016] | |
+| Contusion avec effet de masse | À discuter après échec du traitement de première ligne de l'HTIC [@sfar_tcgrave2016] | |
+
+: Indications neurochirurgicales urgentes du TC (d'après la RPP SFNC 2025) {#tbl-chirurgie-tc}
+
+Pour l'hématome sous-dural aigu, faut-il reposer le volet ? Dans l'essai RESCUE-ASDH (450
+patients), la craniectomie décompressive d'emblée n'a pas fait mieux que la craniotomie
+classique à 12 mois ; elle évitait des réinterventions (6,9 % contre 14,6 %) au prix de plus de
+complications de cicatrice (12,2 % contre 3,9 %) [@hutchinson2023]. Le choix revient au
+chirurgien, au vu de l'état du cerveau au moment de fermer.
+
+::: {.callout-note title="Ce que disent les recommandations"}
+Un TC grave qui relève théoriquement d'une craniotomie urgente, mais dont la situation paraît
+« dépassée », ne se récuse pas seul : l'**abstention neurochirurgicale précoce** (avant 72 h)
+doit faire l'objet d'une **décision collégiale** de trois médecins seniors, idéalement un
+neurochirurgien, un anesthésiste-réanimateur et un médecin rééducateur, ou d'au moins deux
+seniors pendant la permanence des soins (avis d'experts, R1.1, R1.2). Sont des facteurs de
+mauvais pronostic, à ne jamais utiliser isolément : la **fragilité** (Clinical Frailty Scale
+≥ 4, modified Frailty Index-5 ≥ 2), une **mydriase bilatérale aréactive** non régressive,
+surtout si elle dure depuis plus de 2 heures, un **anticoagulant** (AVK ou AOD), en particulier
+après 65 ans. Le délai de prise en charge seul et l'aspirine seule n'en sont pas
+(R2–R5) [@sfnc_tce2025].
+:::
+
+## Anesthésier pour une évacuation en urgence
+
+C'est la situation du « fil rouge » ouvert au @sec-physiopathologie : un hématome extradural
+qui s'aggrave, un patient à l'estomac plein, peut-être porteur d'une lésion du rachis, dont le
+cerveau a épuisé sa compliance. Le principe tient en une phrase : **pendant l'induction et
+jusqu'à l'ouverture du crâne, ce cerveau ne tolère ni baisse de PAM ni hausse de CO~2~**.
+
+### Avant l'induction : noter la PAM de référence
+
+Notez la PAM du patient **à son arrivée**, quand son état neurologique est celui que vous
+connaissez. C'est elle qui maintient la perfusion actuelle de son cerveau : elle devient le
+**plancher** de toute l'induction. Sur la partie raide de la courbe pression-volume, une baisse
+de PAM entraîne une vasodilatation, une hausse de la PIC et une chute de la PPC
+(@fig-langfitt, @fig-autoregulation) ; l'HTA, si elle est réflexe (réaction de Cushing), ne se traite pas.
+
+### L'induction et l'intubation
+
+- **Séquence rapide**, en stabilisation manuelle du rachis si le scanner du rachis n'est pas
+  fait ou pas lu.
+- Hypnotique **titré** pour ne pas passer sous la PAM de référence : kétamine et propofol à
+  dose réduite, ou étomidate ; succinylcholine ou rocuronium.
+- **Vasopresseur en même temps que l'hypnotique** (phényléphrine, éphédrine, noradrénaline),
+  plutôt que du remplissage en excès.
+- **Ventilation immédiate** après l'intubation, EtCO~2~ 30 à 35 mmHg, puis gaz du sang. Ne
+  laissez pas le patient en apnée pendant qu'on fixe la sonde.
+
+### L'entretien et le monitorage
+
+- **Propofol** (AIVOC) et morphinique en continu, sans bolus brutaux ; **curarisation**
+  continue une fois intubé (pas de toux, pas d'effort) ; pas de N~2~O, pas d'halogéné au-delà
+  de 1 MAC (@sec-pharmacologie).
+- **Tête à 30°**, cou dans l'axe, jugulaires libres.
+- **Cathéter artériel** et sonde urinaire pendant l'installation : ils ne doivent **pas
+  retarder** l'incision. Capteur artériel au niveau du conduit auditif externe.
+- **Bilan** : groupe et RAI, hémostase (TP, TCA, fibrinogène, plaquettes) ; produits sanguins
+  commandés si le patient est sous antithrombotique ou polytraumatisé.
+- Un monitorage intracérébral déjà en place est **poursuivi** pendant toute chirurgie, et mis
+  en place si nécessaire (GRADE 2+, R8.3) [@sfar_tcgrave2016].
+
+### À la décompression
+
+Quand le chirurgien lève le volet et évacue l'hématome, la **PIC tombe à zéro** : la **PPC
+devient égale à la PAM**. Deux conséquences :
+
+1. la réaction de Cushing disparaît et la **PAM peut s'effondrer** : anticipez (vasopresseur,
+   sédation allégée si elle était profonde) ;
+2. une PAM maintenue « très haute » (100 à 120 mmHg) parce qu'on vous a dit de la garder
+   haute devient une **PPC de 100 à 120 mmHg** sur un cerveau lésé dont l'autorégulation est
+   altérée : risque d'**hyperhémie**, d'œdème et de saignement. Redescendez la cible, autour
+   d'une **PAM de 70 à 90 mmHg**, selon le Doppler et la PIC une fois le volet refermé.
+
+### Après l'évacuation : faut-il un capteur de PIC ?
+
+Après évacuation d'un hématome post-traumatique (extradural, sous-dural ou intraparenchymateux),
+un monitorage de la PIC est probablement indiqué si **un seul** des critères suivants est
+présent (GRADE 2+, R6.3) [@sfar_tcgrave2016] :
+
+- réponse motrice préopératoire ≤ 5 ;
+- anisocorie ou mydriase bilatérale préopératoire ;
+- instabilité hémodynamique préopératoire ;
+- signes de gravité au scanner préopératoire (citernes effacées, déviation ≥ 5 mm, autres
+  lésions intracrâniennes) ;
+- œdème cérébral peropératoire ;
+- nouvelles lésions sur le scanner postopératoire.
+
+Après l'évacuation, un hématome intraparenchymateux apparaît chez 50 à 70 % des patients, et
+plus de 40 % font une HTIC difficile à contrôler [@sfar_tcgrave2016] : le capteur se pose
+souvent dans le même temps opératoire.
+
+## Les 24 premières heures en réanimation
+
+### Monitorer la PIC
+
+Un monitorage de la PIC est probablement indiqué (GRADE 2+, R6.1) [@sfar_tcgrave2016] :
+
+- devant des **signes d'HTIC à l'imagerie** ;
+- quand une **chirurgie extracrânienne urgente** (hors risque vital) impose une anesthésie
+  prolongée ;
+- quand l'**examen neurologique est impossible** (sédation nécessaire pour une autre raison).
+
+Il ne l'est probablement pas si le scanner initial est normal, sans signe de gravité clinique
+ni anomalie au Doppler (GRADE 2−, R6.2). La PIC n'est pas une fin en soi : dans l'essai
+BEST-TRIP, une stratégie guidée par la PIC n'a pas fait mieux qu'une stratégie guidée par
+l'examen et des scanners répétés [@chesnut2012] ; elle sert à guider un traitement. Le Doppler
+et la PtiO~2~ complètent le tableau (avis d'experts, R6.4) ; leurs seuils sont au
+@sec-monitorage.
+
+### Les cibles
+
+| Paramètre | Cible | Source |
+|--|----|---|
+| PAS avant monitorage cérébral | > 110 mmHg | GRADE 2+, R2.2 [@sfar_tcgrave2016] |
+| PPC | **60 à 70 mmHg** sans monitorage multimodal ; individualisée selon l'autorégulation sinon | GRADE 2+, R7.1, R7.2 [@sfar_tcgrave2016] ; @sec-prx |
+| PIC | Traitement au-delà de 20–22 mmHg | [@carney2017; @hawryluk2019] |
+| PaCO~2~ | 35–40 mmHg ; pas d'hypocapnie thérapeutique | GRADE 2−, R7.4 [@sfar_tcgrave2016] |
+| SpO~2~, PaO~2~ | SpO~2~ ≥ 95 %, PaO~2~ > 60 mmHg | @tbl-acsos |
+| Natrémie | Normale haute (140–145 mmol/L) ; pas d'hypernatrémie prolongée induite | GRADE 2−, R10.1 [@sfar_tcgrave2016] |
+| Glycémie | **1,4 à 1,8 g/L** (8 à 10 mmol/L) ; pas de contrôle strict | GRADE 1+, R10.3 [@sfar_tcgrave2016] |
+| Température | 35 à 37 °C ; 34 à 35 °C si HTIC malgré un traitement bien conduit | GRADE 2+, R12.1–R12.3 [@srlf_cct2016] |
+| Hémoglobine | Voir plus loin | [@sfar_anemie2019; @taccone2024; @turgeon2024] |
+| Position | Tête à 30°, cou dans l'axe | @sec-htic |
+
+: Cibles des 24 premières heures du TC grave {#tbl-cibles-tc}
+
+### Sédation, crises, corticoïdes
+
+- **Sédation-analgésie** : sans HTIC ni état de mal, les règles sont celles de tout patient de
+  réanimation (avis d'experts, R5.1). L'**arrêt quotidien** de la sédation peut aggraver
+  l'hémodynamique cérébrale sans bénéfice démontré : chez le patient en HTIC, on ne réveille
+  pas « pour voir » [@sfar_tcgrave2016].
+- **Antiépileptiques** : pas de prophylaxie primaire systématique (GRADE 2−, R9.1)
+  [@sfar_tcgrave2016]. La phénytoïne réduit les crises de la première semaine, pas l'épilepsie
+  tardive [@temkin1990]. Si l'on choisit une prophylaxie (facteurs de risque, plaie corticale
+  importante), le lévétiracétam est préféré ; une crise se traite comme ailleurs
+  (@sec-epilepsie). Les TC pénétrants avec délabrement cortical reçoivent une prophylaxie d'au
+  moins 7 jours (R10.4) [@sfnc_tce2025].
+- **Corticoïdes** : jamais à forte dose (GRADE 1−, R10.2) ; dans l'essai CRASH, la
+  méthylprednisolone augmentait la mortalité [@crash2004; @sfar_tcgrave2016].
+
+### L'HTIC
+
+Le traitement est celui décrit au @sec-htic, par paliers (@tbl-paliers-htic) : ACSOS, sédation,
+osmothérapie en bolus, drainage du LCS par DVE (GRADE 2+, R4.1), puis craniectomie
+décompressive en cas d'HTIC réfractaire, après discussion multidisciplinaire (GRADE 2+, R4.2)
+[@sfar_tcgrave2016].
+
+## Ce que disent les grands essais
+
+Le TC grave est le terrain de quelques grands essais randomisés, souvent **négatifs**, qui ont
+fixé les pratiques actuelles. Il faut les connaître : on vous les opposera au staff.
+
+| Essai | Question | Résultat | Ce qu'on en retient |
+|--|---|----|---|
+| CRASH (10 008 TC) | Méthylprednisolone à forte dose | Surmortalité [@crash2004] | Pas de corticoïdes |
+| SAFE-TBI (460 patients) | Albumine 4 % contre NaCl 0,9 % | Surmortalité à 2 ans sous albumine chez les TC graves [@myburgh2007] | Pas d'albumine |
+| BEST-TRIP (324 patients) | PIC contre examen et scanners répétés | Pas de différence [@chesnut2012] | La PIC guide un protocole, elle ne soigne pas |
+| DECRA (155 patients) | Craniectomie bifrontale précoce pour une HTIC résistant aux traitements de premier palier | PIC plus basse, séjour plus court, mais **devenir plus défavorable** (OR 2,21) ; mortalité identique (19 % contre 18 %) [@cooper2011] | Pas de craniectomie précoce pour une HTIC modérée |
+| RESCUEicp (408 patients) | Craniectomie contre poursuite du traitement médical (barbituriques possibles) pour une HTIC réfractaire > 25 mmHg | Mortalité à 6 mois 26,9 % contre 48,9 %, mais plus d'états végétatifs (8,5 % contre 2,1 %) et de handicaps sévères ; bons résultats comparables [@hutchinson2016] | La craniectomie sauve des vies, pas toujours dans un état que le patient aurait accepté : décision collégiale |
+| RESCUE-ASDH (450 patients) | Craniectomie contre craniotomie pour un HSD aigu | Pas de différence à 12 mois [@hutchinson2023] | Choix du chirurgien |
+| Eurotherm (387 patients) | Hypothermie 32–35 °C pour une PIC > 20 mmHg | **Devenir plus défavorable** (bon devenir 26 % contre 37 %), arrêt prématuré [@andrews2015] | Pas d'hypothermie profonde |
+| POLAR (511 patients) | Hypothermie prophylactique précoce 33–35 °C | Aucun bénéfice (bon devenir 48,8 % contre 49,1 %) [@cooper2018] | Normothermie contrôlée |
+| CRASH-3 (12 737 patients) | Acide tranexamique dans les 3 h | Bénéfice chez les TC légers à modérés, pas chez les graves [@crash3_2019] | Tôt, chez les moins graves |
+
+: Les essais qui ont fixé la prise en charge du TC grave {#tbl-essais-tc}
+
+### La craniectomie décompressive
+
+Les deux grands essais ne se contredisent pas : ils ne posent pas la même question. DECRA
+opérait **tôt** des patients dont l'HTIC était modérée et aurait peut-être cédé au traitement
+médical ; RESCUEicp opérait **en dernier recours**, quand tout avait échoué. La craniectomie
+est donc un traitement du **palier 3**, qui transforme une partie des décès en survies avec un
+handicap lourd [@hutchinson2016]. D'où la recommandation d'une **discussion
+multidisciplinaire** avant de la décider, au mieux avec ce que l'on sait des souhaits du patient
+(GRADE 2+, R4.2) [@sfar_tcgrave2016]. Une craniectomie impose ensuite une cranioplastie, et la
+surveillance d'une hydrocéphalie et d'un syndrome du « trépané ».
+
+### La température
+
+L'hypothermie baisse la PIC, mais ni l'hypothermie thérapeutique pour l'HTIC [@andrews2015] ni
+l'hypothermie prophylactique [@cooper2018] n'améliorent le devenir. Ce qui reste : **pas de
+fièvre**, un contrôle ciblé de la température **entre 35 et 37 °C**, et 34 à 35 °C seulement
+si l'HTIC résiste au traitement médical bien conduit (GRADE 2+, R12.1–R12.3)
+[@srlf_cct2016; @sfar_tcgrave2016].
+
+### Le seuil transfusionnel
+
+L'anémie baisse le transport d'oxygène vers un cerveau qui en manque déjà ; la transfusion a ses
+propres risques. Trois sources, qui ne disent pas exactement la même chose :
+
+- les **recommandations françaises** (2019) laissent chez le cérébrolésé une fourchette
+  d'**hémoglobine de 7 à 10 g/dL** et déconseillent une stratégie libérale au-delà de 10 g/dL
+  [@sfar_anemie2019] ;
+- l'essai **TRAIN** (850 cérébrolésés aigus : TC, HSA, hématome) a trouvé moins de devenirs
+  défavorables à 6 mois en transfusant sous **9 g/dL** plutôt que sous 7 g/dL (62,6 % contre
+  72,6 %), et moins d'ischémies cérébrales [@taccone2024] ;
+- l'essai **HEMOTION** (742 TC modérés ou graves) n'a pas trouvé de différence significative
+  entre un seuil à 10 g/dL et un seuil à 7 g/dL (devenir défavorable 68,4 % contre 73,5 %),
+  avec plus de SDRA dans le groupe libéral (3,3 % contre 0,8 %) [@turgeon2024].
+
+Les deux essais vont dans le même sens sans être tous deux concluants. Le seuil restrictif de
+7 g/dL, valable pour la réanimation générale, n'est plus soutenu chez le cérébrolésé ; un seuil
+autour de **9 g/dL** est cohérent avec les données récentes. Le protocole du service retient
+plutôt 7 à 8 g/dL : ce point est à trancher.
+
+<!-- TODO-VALIDER : seuil transfusionnel 7–8 g/dL (htic) vs SFAR anémie 2019 (7–10 g/dL), TRAIN 2024 (< 9 g/dL favorable) et HEMOTION 2024 (≤ 10 vs ≤ 7 g/dL : non significatif, plus de SDRA). Le chapitre 16 propose ~9 g/dL (A_VALIDER n° 4). -->
+
+## Le polytraumatisé cérébrolésé
+
+Le TC grave s'accompagne souvent d'autres lésions. Les règles :
+
+- **l'hémostase d'abord** chez le patient instable, puis scanner corps entier (avis
+  d'experts, R8.1) ;
+- **pas de chirurgie hémorragique non vitale en présence d'une HTIC** (avis d'experts, R8.2) :
+  l'hypotension, la transfusion et le remplissage aggravent l'œdème cérébral. Les gestes peu
+  hémorragiques (ostéosynthèse simple) restent possibles dans les 24 premières heures chez un
+  TC stabilisé sans HTIC [@sfar_tcgrave2016] ;
+- **monitorage cérébral pendant la chirurgie** (PIC, Doppler), qui se pose avant si une
+  chirurgie extracrânienne longue est prévue (R6.1, R8.3) : 26 à 74 % des patients ont une PPC
+  < 70 mmHg au bloc [@sfar_tcgrave2016] ;
+- **lésion médullaire associée** : pas de corticoïdes (GRADE 1−, R5.1) et PAM > 70 mmHg pendant
+  la première semaine (avis d'experts, R3.2) [@sfar_tvm2019].
+
+::: {.callout-note title="Pour aller plus loin : le TC léger sous antithrombotique" collapse="true"}
+Le TC « léger » (Glasgow 13 à 15) du sujet âgé sous anticoagulant est l'une des portes d'entrée
+les plus fréquentes du TC grave : un hématome sous-dural qui grossit en quelques heures. Les
+recommandations de 2022 proposent de **réverser immédiatement** un AVK ou un AOD dès qu'une
+lésion hémorragique intracrânienne est visible (avis d'experts, R2.6.1, R2.6.2), de discuter
+collégialement le cas des valves mécaniques (R2.6.3), et de **ne pas neutraliser l'aspirine**
+(R2.7). Un Doppler transcrânien après un scanner anormal aide à repérer le risque d'aggravation
+précoce (R2.3) [@sfmu_tcleger2022]. Les critères de reprise chirurgicale de l'hématome
+sous-dural sont ceux de @tbl-chirurgie-tc ; le scanner de contrôle se fait à J7–10 si l'on veut
+reprendre l'antithrombotique [@sfnc_tce2025].
+:::
+
+## Limitation des traitements et don d'organes
+
+Certains TC graves n'ont pas de perspective de récupération acceptable. Trois règles :
+
+- **la décision n'est jamais individuelle** : elle est collégiale, tracée dans le dossier,
+  après recherche des directives anticipées et de la volonté du patient auprès des proches
+  [@sfar_lat2025; @sfnc_tce2025] ;
+- **elle ne se prend pas trop tôt** sur un seul élément : ni l'âge, ni le délai, ni une
+  mydriase de moins de 2 heures ne suffisent (voir l'encadré des recommandations plus haut) ;
+- **le soulagement** du patient est assuré dans tous les cas, même s'il ne peut pas être évalué.
+
+Chez un patient en **coma grave**, sans perspective thérapeutique après avis spécialisé, avec une
+forte probabilité d'évolution vers la mort encéphalique, une **démarche anticipée** peut
+conduire à l'admettre ou à le maintenir en réanimation dans le seul but d'un possible
+prélèvement d'organes, après décision collégiale et information des proches
+[@abm_demarches2024]. Si la mort encéphalique ne survient pas, les traitements de maintien en
+vie sont arrêtés selon la loi, et un prélèvement après arrêt circulatoire (Maastricht III)
+peut se discuter avec la coordination hospitalière des prélèvements. Le don se discute **après**
+la décision de limitation, jamais avant.
+
+## Cas cliniques
+
+### Le fil rouge : l'hématome extradural au bloc
+
+Reprenons le jeune homme de 18 ans rencontré au @sec-physiopathologie : choc temporal droit, intervalle
+libre, Glasgow 12 puis 10, pupille droite plus grande que la gauche, hématome extradural
+temporal droit avec déviation de 7 mm. Il a reçu 250 mL de mannitol 20 % en 15 minutes et
+arrive au bloc en urgence, en ventilation spontanée. PA 150/85 mmHg (PAM 107), FC 64/min,
+SpO~2~ 97 % sous oxygène. Il a mangé une heure avant l'accident. Le rachis cervical n'a pas
+été imagé.
+
+1. Quelle PAM visez-vous pendant l'induction ?
+2. Comment l'intubez-vous ?
+3. Après l'intubation, l'interne fixe la sonde et vérifie l'installation ; l'EtCO~2~ est à
+   52 mmHg. Qu'en pensez-vous ?
+4. Le chirurgien lève le volet et évacue l'hématome. La PA est à 165/95 mmHg sous
+   noradrénaline, « parce qu'il faut garder une PAM haute ». Que faites-vous ?
+5. Faut-il un capteur de PIC en fin d'intervention ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Sa PAM actuelle, **107 mmHg**, est le plancher : c'est elle qui assure la perfusion de son
+   cerveau à compliance épuisée. Une hypotension à l'induction ferait monter la PIC et pourrait
+   achever l'engagement.
+2. **Séquence rapide** (estomac plein) en **stabilisation manuelle en ligne**, partie
+   antérieure du collier ôtée, vidéolaryngoscope : hypnotique titré (kétamine et propofol à
+   dose réduite, ou étomidate), succinylcholine ou rocuronium 1 à 1,2 mg/kg, vasopresseur
+   injecté avec l'hypnotique pour rester au-dessus de la PAM de référence
+   [@sfar_intubation2016; @sfar_tvm2019].
+3. Une **hypercapnie** : vasodilatation, hausse du volume sanguin cérébral, hausse de la PIC,
+   sur un patient en train de s'engager. On **ventile d'abord**, on fixe ensuite : EtCO~2~ 30
+   à 35 mmHg, puis PaCO~2~ 35 à 40 mmHg au gaz du sang.
+4. Le crâne est ouvert : **PIC ≈ 0, PPC = PAM**. Une PAM de 118 mmHg est une PPC de 118 mmHg
+   sur un cerveau dont l'autorégulation est altérée : risque d'hyperhémie, d'œdème et de
+   saignement. Baisser la noradrénaline, viser une PAM de 70 à 90 mmHg.
+5. Oui : il avait une **anisocorie préopératoire**, un seul critère suffit (R6.3)
+   [@sfar_tcgrave2016].
+:::
+
+### Le polytraumatisé
+
+Un motard de 25 ans est pris en charge par le SAMU après une sortie de route. Glasgow 7 (Y1 V2
+M4), pupilles égales et réactives, PA 78/40 mmHg, FC 128/min, abdomen distendu.
+
+1. Quelles sont vos priorités, dans l'ordre ?
+2. Quelle cible de pression artérielle retenez-vous ?
+3. Le scanner corps entier montre une rupture de rate, des contusions frontales bilatérales et
+   des citernes de la base comprimées. L'orthopédiste veut fixer dans la foulée une fracture
+   du fémur et du bassin. Qu'en pensez-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Intubation en séquence rapide avec stabilisation du rachis, ventilation en normocapnie,
+   **hémostase** (le choc est d'abord hémorragique : la rate passe avant le cerveau), puis
+   scanner corps entier une fois le patient stabilisé (R8.1) [@sfar_tcgrave2016]. Acide
+   tranexamique pour le saignement extracrânien.
+2. **PAS > 110 mmHg**, pas d'hypotension permissive : noradrénaline tôt, transfusion,
+   cristalloïde isotonique, pas d'albumine ni de soluté hypotonique.
+3. Les citernes comprimées annoncent une HTIC. Pas de chirurgie hémorragique non vitale tant
+   que l'HTIC n'est pas contrôlée (R8.2) ; si un geste est indispensable (fixation externe du
+   bassin), il se fait **avec un capteur de PIC** posé avant et suivi pendant l'intervention
+   (R6.1, R8.3) [@sfar_tcgrave2016].
+:::
+
+## Fiche pratique
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Aucune ACSOS dès le préhospitalier ; orientation vers un centre neurochirurgical ; évacuer sans délai ce qui doit l'être (@tbl-chirurgie-tc) ; PPC adaptée au cerveau du patient |
+| Monitorage | Glasgow (réponse motrice) et pupilles répétés ; capnographie, PA invasive (zéro au conduit auditif externe) ; Doppler transcrânien dès l'arrivée ; PIC si imagerie d'HTIC, examen impossible ou chirurgie extracrânienne ; PIC après évacuation si un critère R6.3 ; gaz du sang, natrémie, glycémie, Hb, hémostase |
+| Induction et entretien | Séquence rapide, stabilisation manuelle en ligne, vidéolaryngoscope ; hypnotique titré (kétamine, étomidate ou propofol réduit) ; succinylcholine ou rocuronium 1–1,2 mg/kg ; vasopresseur avec l'hypnotique ; PAM d'arrivée = plancher ; ventilation immédiate ; propofol + morphinique continus, curare ; monitorage sans retarder l'incision |
+| Cibles | PAS > 110 mmHg avant monitorage ; PPC 60–70 mmHg ; PaCO~2~ 35–40 mmHg (EtCO~2~ 30–35 au départ) ; SpO~2~ ≥ 95 % ; natrémie 140–145 mmol/L ; glycémie 1,4–1,8 g/L ; température 35–37 °C ; Hb à discuter (≈ 9 g/dL) ; tête à 30° |
+| Pièges | Hypocapnie du transport ; hypotension à l'induction ; hypotension permissive du polytraumatisé appliquée au cerveau ; collier serré ; Ringer lactate ou albumine ; corticoïdes ; PAM haute gardée après la décompression (PPC = PAM) ; chirurgie hémorragique non vitale en HTIC ; anticoagulant non réversé ; limitation décidée seul ou trop tôt |
+| Post-opératoire | Réanimation neurochirurgicale ; scanner de contrôle (contusions qui grossissent) ; paliers de l'HTIC (@tbl-paliers-htic) ; pas de prophylaxie antiépileptique systématique ; décisions de limitation collégiales et tracées |
+
+: Fiche pratique : TC grave {#tbl-fiche-tc-grave}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- TC grave = Glasgow ≤ 8 : intubation, capnographie, centre neurochirurgical.
+- Glasgow avec réponse motrice et pupilles ; scanner cérébral et cervical sans délai ;
+  Doppler dès l'arrivée.
+- PAS > 110 mmHg avant monitorage, puis PPC 60–70 mmHg ; ni hypo- ni hypercapnie.
+- Rachis cervical : stabilisation en ligne, collier ouvert pour l'intubation, desserré ensuite.
+- Hématome extradural symptomatique : bloc sans délai ; la PAM d'arrivée est le plancher de
+  l'induction ; après la décompression, PPC = PAM, on redescend.
+- Ni albumine, ni corticoïdes, ni hypothermie profonde, ni prophylaxie antiépileptique
+  systématique.
+- La craniectomie sauve des vies au prix de handicaps : décision collégiale, comme toute
+  limitation des traitements.
 :::

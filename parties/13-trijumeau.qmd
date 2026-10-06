@@ -1,11 +1,390 @@
 # Névralgie du trijumeau {#sec-trijumeau}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Reconnaître la névralgie du trijumeau et mesurer son retentissement : un patient qui ne mange
+  plus et ne boit plus est un patient à préparer, pas seulement à endormir.
+- Connaître les implications anesthésiques de la carbamazépine.
+- Conduire la sédation « en accordéon » de la thermocoagulation du ganglion de Gasser : endormi
+  pour la ponction et la lésion, réveillé pour les tests.
+- Anesthésier pour une décompression microvasculaire (intervention de Jannetta) : abord
+  rétrosigmoïde, NIM facial sans curare, patient douloureux chronique.
+- Anticiper et traiter le réflexe trigémino-cardiaque.
 :::
 
-*Chapitre en cours de rédaction.*
+## La maladie
+
+### Une douleur à part
+
+La névralgie du trijumeau est une douleur **paroxystique, en décharge électrique**, brève
+(quelques secondes), strictement unilatérale, dans le territoire d'une ou plusieurs branches du
+nerf trijumeau, le plus souvent V2 (maxillaire) et V3 (mandibulaire). Elle est **déclenchée**
+par des stimulations banales de la face ou de la bouche : parler, mâcher, se brosser les dents,
+se raser, un courant d'air. Entre les accès, le patient est soulagé, mais il vit dans la crainte
+du suivant. Le nerf trijumeau (V) est présenté au @sec-anatomie.
+
+La classification actuelle distingue trois formes [@cruccu2016; @bendtsen2019] :
+
+- **Classique** : un **conflit neurovasculaire** déforme la racine du nerf à son entrée dans le
+  tronc cérébral ; c'est la forme que traite la décompression microvasculaire. L'artère en cause
+  est le plus souvent l'artère cérébelleuse supérieure, parfois l'artère cérébelleuse
+  antéro-inférieure ou une veine. Le contact pulsatile démyélinise la racine, d'où les décharges.
+- **Secondaire** : une autre maladie neurologique est en cause, surtout la **sclérose en
+  plaques** et les tumeurs de l'angle pontocérébelleux.
+- **Idiopathique** : ni conflit déformant ni cause retrouvée.
+
+Une **IRM** avec séquences de haute résolution fait partie du bilan, car aucun signe clinique
+n'exclut une forme secondaire. Un contact vasculaire sans déformation est fréquent chez les
+sujets sains : il ne confirme pas le diagnostic, mais il aide à décider d'une chirurgie
+[@bendtsen2019].
+
+### Le traitement médical d'abord
+
+La **carbamazépine** (Tégrétol) ou l'oxcarbazépine sont les traitements de première intention ;
+la lamotrigine, la gabapentine, la prégabaline, le baclofène ou la toxine botulique peuvent être
+ajoutés ou substitués. Une chirurgie est proposée quand la douleur reste mal contrôlée ou que le
+traitement est mal toléré (somnolence, ataxie, hyponatrémie, troubles cognitifs du sujet âgé).
+La **décompression microvasculaire** est la chirurgie de première intention de la forme
+classique ; les techniques **lésionnelles** (thermocoagulation, compression par ballonnet,
+rhizolyse au glycérol, radiochirurgie) sont préférées quand l'IRM ne montre pas de conflit, ou
+chez le patient trop fragile pour une craniotomie [@bendtsen2019].
+
+À Lariboisière, deux interventions sont réalisées : la **thermocoagulation du ganglion de
+Gasser** et la **décompression microvasculaire**.
+
+### Un « état de mal » névralgique
+
+L'intervention n'est pas une urgence absolue, mais il ne faut pas sous-estimer le retentissement
+d'une crise prolongée : quand chaque bouchée et chaque gorgée déclenchent une décharge, le patient
+cesse de **s'alimenter et de s'hydrater**, maigrit, se déshydrate, s'isole ; le retentissement
+psychologique est lourd. Lors d'une exacerbation aiguë, la recommandation européenne propose une
+perfusion de **fosphénytoïne** ou de **lidocaïne** en attendant mieux, ainsi qu'un soutien
+psychologique [@bendtsen2019].
+
+## La consultation
+
+Quelle que soit l'intervention, l'anesthésiste vérifie cinq points.
+
+1. **L'état d'hydratation et de nutrition** : poids, fonction rénale, natrémie. Un patient qui
+   ne boit plus depuis des jours arrive hypovolémique, et la sédation le rendra hypotendu.
+2. **La carbamazépine et ses effets** : **hyponatrémie** (effet de type SIADH, aggravé par la
+   déshydratation et les diurétiques), leucopénie, cytolyse. Une anomalie ancienne et stable est
+   souvent iatrogène (@sec-epilepsie).
+3. **Les interactions** : la carbamazépine est un **inducteur enzymatique** ; elle raccourcit
+   l'action des curares non dépolarisants et augmente les besoins en morphiniques
+   (@sec-pharmacologie). Elle accélère aussi le métabolisme de nombreux médicaments
+   (anticoagulants oraux, certains antiarythmiques, contraceptifs).
+4. **Le traitement est poursuivi**, y compris le matin de l'intervention : carbamazépine et
+   antalgiques habituels. Un arrêt brutal ferait revenir la douleur, et d'autres antiépileptiques
+   (clonazépam, prégabaline) exposent à un sevrage.
+5. **Le terrain** : la thermocoagulation est souvent proposée à des patients âgés et fragiles,
+   justement parce qu'elle évite la craniotomie. La question des antithrombotiques se pose
+   comme pour toute ponction proche de vaisseaux intracrâniens (@sec-preop).
+
+::: {.callout-tip title="Astuce"}
+Examinez la face avec délicatesse et prévenez avant de toucher : effleurer la zone gâchette
+déclenche une décharge. Pendant l'induction, le masque facial peut faire de même ; posez-le
+quand le patient dort déjà.
+:::
+
+## La thermocoagulation du ganglion de Gasser
+
+### Le principe
+
+Une aiguille est introduite à travers la joue jusqu'au **foramen ovale**, sous contrôle
+radioscopique, pour atteindre le ganglion de Gasser (ganglion trigéminal) dans la fosse
+crânienne moyenne. Une électrode y délivre d'abord un **courant de stimulation**, qui provoque
+des paresthésies chez le patient éveillé : leur topographie confirme que l'électrode est dans le
+bon territoire. Puis un **courant de lésion** chauffe les fibres et les détruit partiellement.
+
+L'intervention dure 30 minutes à 1 heure, soulage rapidement et peut être **répétée**. Dans une
+série de 1600 patients, le soulagement immédiat était obtenu dans 97,6 % des cas ; après une
+seule procédure, 57,7 % des patients étaient complètement soulagés à 5 ans, et la récidive se
+traitait par une nouvelle procédure [@kanpolat2001].
+
+### Les complications
+
+Elles découlent de la lésion volontaire d'un nerf sensitif et de la proximité du sinus caverneux
+[@kanpolat2001] :
+
+| Complication | Fréquence | Ce qu'il faut savoir |
+|---|--|-----|
+| Diminution du réflexe cornéen | 5,7 % | Risque de **kératite** (0,6 %) : l'œil anesthésié ne se protège plus |
+| Faiblesse du masséter | 4,1 % | Atteinte de la racine motrice (V3) |
+| Dysesthésies | 1 % | Sensations désagréables permanentes dans le territoire traité |
+| Anesthésie douloureuse | 0,8 % | Douleur dans une zone insensible, très difficile à traiter |
+| Paralysie transitoire du III ou du VI | 0,8 % | Diffusion de la lésion vers le sinus caverneux |
+| Fistule carotido-caverneuse, fuite de LCS, méningite aseptique | Exceptionnelles | Ponction trop profonde ou mal orientée |
+
+: Complications de la thermocoagulation du ganglion de Gasser (1600 patients) {#tbl-complications-gasser}
+
+C'est pourquoi **le territoire V1 (ophtalmique) n'est pas thermocoagulé** dans le service : il
+porte la sensibilité de la cornée.
+
+### L'anesthésie : endormir, réveiller, endormir, réveiller
+
+La procédure alterne deux temps douloureux, pendant lesquels le patient doit dormir, et deux
+temps de test, pendant lesquels il doit être **réveillé, calme et capable de répondre** en
+quelques secondes. La sédation doit donc être **profonde et très brève**, avec un réveil rapide :
+des bolus titrés de propofol, ± un petit bolus de morphinique pour la ponction. Dans la série
+de 1600 patients, l'anesthésie reposait déjà sur des benzodiazépines et des morphiniques à
+faible dose, pour la même raison : garder un patient coopérant [@kanpolat2001].
+
+**Installation et matériel** (protocole du service) :
+
+- À jeun ; carbamazépine ou antalgiques habituels pris le matin.
+- Décubitus dorsal, tête sur une **têtière en fer à cheval** ; le chirurgien et l'amplificateur
+  de brillance occupent la face.
+- Une voie veineuse périphérique, scope 5 brins avec **fréquence respiratoire**, brassard à
+  tension, **lunettes à oxygène** ou **Optiflow** selon le terrain.
+- **Contention** du patient : à la perte de conscience, certains patients s'agitent, alors que
+  l'aiguille est au contact du foramen ovale.
+- **Atropine prête**, et de quoi ventiler au masque.
+- **Vérifier le côté** avec le patient avant la sédation.
+
+**Le déroulement**, en quatre temps :
+
+| Temps | Durée | État du patient | Ce que fait l'anesthésiste |
+|---|--|---|------|
+| 1. Ponction du foramen ovale sous scopie | 5–10 min | **Endormi** | Sédation légère au propofol IV ± sufentanil 2,5–5 µg ; surveiller la ventilation et la fréquence cardiaque |
+| 2. Test de stimulation | Quelques minutes | **Réveillé** | Laisser le patient se réveiller ; il décrit où il ressent les paresthésies (V2, V3 ou les deux) |
+| 3. Thermocoagulation | Environ 1 min 30 | **Endormi** | Nouveau bolus de propofol : la lésion est très désagréable |
+| 4. Vérification | Quelques minutes | **Réveillé** | Le chirurgien teste la sensibilité (stimulation, piqué-touché) dans le territoire visé |
+
+: Déroulement de la thermocoagulation du ganglion de Gasser (protocole du service) {#tbl-deroulement-gasser}
+
+Si la perte de sensibilité est obtenue dans le bon territoire, l'intervention est terminée et le
+patient part en SSPI ; sinon, la séquence peut être renouvelée.
+
+<!-- TODO-VALIDER : le protocole `trijumeau` ne donne pas de dose de propofol (« sédation légère ») et ne mentionne ni le réflexe trigémino-cardiaque ni l'atropine ; le livre écrit « bolus titrés » et ajoute l'atropine prête (A_VALIDER n° 31). -->
+
+### Les deux dangers : les voies aériennes et le réflexe trigémino-cardiaque
+
+**Les voies aériennes.** Le bolus de propofol peut donner une apnée ou une obstruction, et la
+face est occupée par l'aiguille et le chirurgien : la subluxation de la mâchoire est gênée, et
+une canule oropharyngée est souvent impossible. Titrez par petits bolus, surveillez la
+capnographie (lunettes avec prélèvement de CO~2~) et la SpO~2~, et convenez avec le chirurgien
+de ce qui se passe si vous devez ventiler au masque.
+
+**Le réflexe trigémino-cardiaque.** La stimulation du nerf trijumeau, à n'importe quel point de
+son trajet, peut déclencher une réponse vagale brutale : **bradycardie**, parfois jusqu'à
+l'asystolie, **hypotension**, voire apnée [@schaller1999]. Pendant la thermocoagulation, il
+survient surtout à la ponction du foramen ovale et pendant la lésion. Le traitement est simple :
+**demander l'arrêt de la stimulation** ; la fréquence remonte en quelques secondes. Si la
+bradycardie persiste ou se répète, **atropine** (0,5 mg chez l'adulte). À l'inverse, la douleur de
+la ponction chez un patient trop peu sédaté donne une poussée hypertensive et tachycarde.
+
+::: {.callout-warning title="Piège"}
+La dexmédétomidine semble une bonne idée pour une sédation chez un patient fragile : elle ne
+déprime pas la ventilation. Mais elle se prête mal à cette procédure. Son délai de réveil ne
+permet pas les allers-retours rapides entre sommeil et test, et elle s'ajoute au réflexe
+trigémino-cardiaque : dans une série rétrospective de 517 thermocoagulations, la bradycardie
+était deux fois plus fréquente sous dexmédétomidine (59,8 % contre 29,0 %), avec quatre fois
+plus de recours à l'atropine [@tang2026].
+:::
+
+### Après la thermocoagulation
+
+- **SSPI** : surveillance habituelle après sédation ; la douleur est faible.
+- **L'œil** : si le territoire traité s'étend vers V1, vérifier le réflexe cornéen ; un œil
+  insensible se protège (larmes artificielles, consigne de ne pas se frotter l'œil) et toute
+  rougeur ou douleur oculaire impose un avis ophtalmologique (kératite).
+- **La mastication** : prévenir le patient d'une faiblesse possible du masséter du côté traité.
+- **Le traitement** : poursuivi, puis diminué progressivement par le neurologue ou le
+  neurochirurgien selon le résultat.
+- **Antibioprophylaxie** : aucune (voir l'encadré « Ce que disent les recommandations » plus loin).
+
+## La décompression microvasculaire (intervention de Jannetta)
+
+### Le principe
+
+Par une petite craniotomie **rétrosigmoïde** (en arrière du sinus sigmoïde, dans la fosse
+postérieure), le chirurgien rejoint l'angle pontocérébelleux, dissèque l'arachnoïde, libère
+l'artère qui comprime la racine du trijumeau et interpose une **plaque de Teflon** entre les deux.
+Le nerf n'est pas lésé : la sensibilité de la face est conservée.
+
+C'est l'intervention la plus efficace à long terme. Dans la série historique de 1185 patients,
+70 % étaient sans douleur et sans traitement 10 ans après ; les récidives survenaient surtout
+dans les deux premières années [@barker1996]. Le protocole du service retient une amélioration
+dans 90 % des cas, durable dans 70 %.
+
+Les risques sont faibles mais réels [@barker1996] : décès 0,2 %, infarctus du tronc cérébral
+0,1 %, **surdité homolatérale** 1 %. Le protocole local cite aussi la paralysie faciale, les
+vertiges et les troubles de l'équilibre, le plus souvent transitoires. La voie d'abord est petite
+et longe le sinus latéral : une **plaie sinusienne**, rare, saigne et rend l'hémostase difficile.
+
+### L'anesthésie
+
+Elle suit le protocole de la craniotomie programmée (@sec-craniotomie) et les règles de la fosse
+postérieure (@sec-fosse-posterieure). Durée : environ 2 h 30.
+
+- **Le côté** : un conflit peut exister des deux côtés alors qu'un seul est douloureux.
+  Vérifiez le côté avec le patient, le dossier et l'IRM.
+- **Le groupe sanguin** : deux déterminations et une RAI à jour (risque de plaie sinusienne).
+- **Installation** : décubitus latéral (matelas latéral spécial ; voir @tbl-positions-fp pour les
+  points d'appui), têtière à pointes, neuronavigation. Le chirurgien infiltre la zone
+  d'incision.
+- **Abords** : deux voies veineuses périphériques, cathéter artériel, sonde urinaire selon la
+  durée prévue.
+- **Entretien** : propofol et rémifentanil en AIVOC.
+- **Le NIM facial** : un monitorage du nerf facial (VII) est parfois réalisé, car le nerf est
+  voisin dans l'angle pontocérébelleux. **Pas de réinjection de curare après l'induction**
+  (@sec-pharmacologie). Chez un patient sous carbamazépine, le curare d'induction est d'ailleurs
+  éliminé plus vite.
+- **Le patient douloureux chronique** : une **kétamine IVSE** peropératoire est possible (protocole
+  du service). Chez des patients douloureux chroniques dépendants des opioïdes, une perfusion de
+  kétamine (bolus de 0,5 mg/kg puis 10 µg/kg/min jusqu'à la fermeture) a réduit la consommation
+  de morphine postopératoire [@loftus2010]. Les traitements antiépileptiques antalgiques sont
+  maintenus.
+
+::: {.callout-note title="Ce que disent les recommandations"}
+**Antibioprophylaxie** [@sfar_atb2023]. La thermocoagulation percutanée du nerf trijumeau ne
+justifie **pas d'antibioprophylaxie** (avis d'experts). La décompression microvasculaire est une
+craniotomie : céfazoline 2 g IVL, réinjectée à 1 g si l'intervention dépasse 4 h, puis toutes
+les 4 h (GRADE 2).
+
+**Prise en charge de la névralgie** [@bendtsen2019]. Carbamazépine ou oxcarbazépine en première
+intention. Chirurgie proposée si la douleur est insuffisamment contrôlée ou
+le traitement mal toléré ; décompression microvasculaire en première intention dans la forme
+classique ; technique lésionnelle de préférence en l'absence de conflit à l'IRM. Fosphénytoïne
+ou lidocaïne IV possibles lors d'une exacerbation aiguë. Soutien psychologique et infirmier
+proposé en plus du traitement médical ou chirurgical.
+:::
+
+### Pendant la dissection : le tronc cérébral et le trijumeau
+
+La dissection se fait au contact du tronc cérébral et de la racine du trijumeau : le **réflexe
+trigémino-cardiaque** y est fréquent. Dans une série de 125 chirurgies de l'angle
+pontocérébelleux, 11 % des patients ont fait une bradycardie avec hypotension pendant la
+dissection près de la racine du trijumeau ; la fréquence cardiaque chutait de 38 % et la PAM de
+48 %, et tout rentrait dans l'ordre à l'arrêt de la manipulation [@schaller1999].
+
+La conduite à tenir est la même que pendant la thermocoagulation : **prévenir le chirurgien**, qui
+interrompt le geste ; atropine si la bradycardie persiste. Une bradycardie qui se répète est
+aussi un message : le tronc cérébral est sollicité, le chirurgien doit le savoir.
+
+### Le réveil et l'après
+
+- **Réveil** : calme, sans toux ni poussée hypertensive (@sec-craniotomie) ; un examen des nerfs
+  crâniens (V, VII, VIII, nerfs bas) avant de quitter la SSPI.
+- **Nausées et vomissements** : fréquents après chirurgie de la fosse postérieure, et aggravés
+  par les vertiges : prophylaxie renforcée (@sec-fosse-posterieure).
+- **Douleur** : l'abord rétrosigmoïde traverse les muscles de la nuque ; analgésie multimodale.
+- **Complications à rechercher** : paralysie faciale, hypoacousie, vertiges et ataxie,
+  **hématome de la fosse postérieure** (urgence), fuite de LCS par la cicatrice ou le nez,
+  méningite aseptique.
+- **Évolution** : souvent rapidement favorable, hospitalisation courte (environ 4 jours).
+- **Le traitement de la névralgie** n'est pas arrêté brutalement, même si la douleur a
+  disparu : il sera diminué progressivement par la suite. Une douleur qui ne cède pas tout de
+  suite après l'intervention est d'ailleurs un facteur de récidive [@barker1996].
+
+## Comparer les deux interventions
+
+| | Thermocoagulation du Gasser | Décompression microvasculaire |
+|---|---|---|
+| Anesthésie | Sédation intraveineuse alternée, patient réveillé pour les tests | Anesthésie générale (AIVOC) |
+| Durée | 30 min à 1 h | Environ 2 h 30 |
+| Patient type | Âgé, fragile, pas de conflit à l'IRM, récidive | Forme classique (conflit neurovasculaire), patient opérable |
+| Sensibilité de la face | Volontairement diminuée | Conservée |
+| Efficacité | Immédiate ; récidives traitées par une nouvelle procédure | Prolongée : 70 % sans douleur ni traitement à 10 ans |
+| Risques principaux | Kératite, dysesthésies, anesthésie douloureuse | Surdité, paralysie faciale, hématome de fosse postérieure |
+| Antibioprophylaxie | Aucune | Céfazoline (craniotomie) |
+
+: Thermocoagulation et décompression microvasculaire [@kanpolat2001; @barker1996; @sfar_atb2023] {#tbl-comparaison-trijumeau}
+
+## Cas cliniques
+
+### Cas 1 : la thermocoagulation
+
+Une femme de 81 ans, hypertendue, est hospitalisée pour une névralgie V2-V3 droite qui résiste à
+la carbamazépine 1200 mg/j. Depuis une semaine, elle ne mange presque plus et boit peu.
+L'IRM ne montre pas de conflit. Une thermocoagulation est programmée. Natrémie 127 mmol/L,
+créatinine 110 µmol/L (75 µmol/L il y a trois mois).
+
+1. Faut-il arrêter la carbamazépine avant l'intervention ? Que pensez-vous de la biologie ?
+2. Pendant la ponction du foramen ovale, la fréquence cardiaque passe de 72 à 34/min. Que se
+   passe-t-il, et que faites-vous ?
+3. Après le bolus de propofol pour la lésion, la SpO~2~ descend à 88 % ; la capnographie ne
+   montre plus de courbe. Quelles sont vos options, la face étant occupée ?
+4. Pourquoi ne pas lui proposer une sédation continue à la dexmédétomidine, pour son confort ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. **Non** : on la poursuit le matin de l'intervention, sinon la douleur revient. La biologie
+   associe une **hyponatrémie** (carbamazépine, aggravée par la déshydratation) et une
+   **insuffisance rénale fonctionnelle** : réhydratation intraveineuse prudente au
+   NaCl 0,9 % avant la procédure, contrôle de la natrémie, et une hypotension à prévoir sous
+   sédation.
+2. Un **réflexe trigémino-cardiaque** : demander au chirurgien d'interrompre la ponction ; la
+   fréquence remonte en général en quelques secondes. Atropine 0,5 mg si la bradycardie persiste
+   ou se répète [@schaller1999].
+3. Stimuler la patiente, subluxer la mâchoire (en demandant au chirurgien de lâcher un instant si
+   nécessaire), augmenter le débit d'oxygène ; si l'apnée persiste, ventiler au masque, quitte à
+   faire retirer l'aiguille. L'apnée au propofol est courte : la prévention passe par des bolus
+   plus petits et une titration.
+4. Parce que la procédure exige des réveils rapides pour les tests, et que la dexmédétomidine
+   majore la bradycardie du réflexe trigémino-cardiaque [@tang2026].
+:::
+
+### Cas 2 : la décompression microvasculaire
+
+Un homme de 54 ans est opéré d'une décompression microvasculaire gauche pour un conflit avec
+l'artère cérébelleuse supérieure. Il prend de la carbamazépine et de la prégabaline. Le
+chirurgien prévoit un NIM facial.
+
+1. Quel curare utilisez-vous, et quand ?
+2. À la dissection, la PAM tombe de 85 à 45 mmHg et la fréquence cardiaque de 70 à 40/min.
+   Votre réaction ?
+3. À J1, le patient n'a plus mal. Il demande s'il peut arrêter ses traitements. Que lui
+   répondez-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Un curare non dépolarisant à l'induction seulement, pour l'intubation ; pas de réinjection,
+   pour ne pas gêner le NIM. La carbamazépine, inducteur enzymatique, raccourcit d'ailleurs son
+   action.
+2. Un **réflexe trigémino-cardiaque** pendant la manipulation de la racine du trijumeau :
+   prévenir le chirurgien, qui arrête la dissection ; tout rentre dans l'ordre en quelques
+   secondes [@schaller1999]. Atropine si la bradycardie persiste.
+3. Pas d'arrêt brutal : la carbamazépine et la prégabaline seront diminuées progressivement par
+   l'équipe de neurochirurgie ou le neurologue ; un arrêt brutal de la prégabaline expose à un
+   sevrage.
+:::
+
+## Fiches pratiques
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Patient endormi pour la ponction et la lésion, **réveillé et coopérant** pour les tests ; ventilation et fréquence cardiaque sous contrôle |
+| Monitorage | Scope 5 brins, fréquence respiratoire, PNI, SpO~2~, capnographie aux lunettes ; lunettes à O~2~ ou Optiflow selon le terrain ; une VVP |
+| Induction et entretien | Côté vérifié avec le patient ; contention ; bolus titrés de propofol ± sufentanil 2,5–5 µg pour la ponction ; réveil pour le test ; nouveau bolus pour la lésion (≈ 1 min 30) ; réveil pour la vérification ; pas d'antibioprophylaxie |
+| Cibles | Fréquence cardiaque et PA proches des valeurs de base ; SpO~2~ > 94 % |
+| Pièges | Réflexe trigémino-cardiaque (arrêt de la stimulation, atropine prête) ; apnée au propofol avec une face inaccessible ; patient déshydraté et hyponatrémique ; dexmédétomidine (réveil lent, bradycardie) ; pas de lésion du V1 |
+| Post-opératoire | SSPI ; réflexe cornéen et protection de l'œil ; faiblesse du masséter ; traitement poursuivi puis diminué progressivement |
+
+: Fiche pratique : thermocoagulation du ganglion de Gasser {#tbl-fiche-gasser}
+:::
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Ceux de la craniotomie (détente, protection, réveil rapide) ; NIM facial interprétable ; prise en charge du douloureux chronique |
+| Monitorage | Celui de la craniotomie ; cathéter artériel ; deux VVP ; sonde urinaire selon la durée ; NIM facial parfois |
+| Induction et entretien | Côté vérifié (conflit bilatéral possible) ; groupe et RAI à jour ; céfazoline 2 g ; propofol + rémifentanil en AIVOC ; **curare à l'induction seulement** ; kétamine IVSE possible ; décubitus latéral, têtière à pointes |
+| Cibles | Celles de la craniotomie (@tbl-cibles-craniotomie) |
+| Pièges | Réflexe trigémino-cardiaque à la dissection (prévenir le chirurgien) ; plaie du sinus latéral ; curare réinjecté sous NIM ; carbamazépine (inducteur : curares et morphiniques raccourcis) |
+| Post-opératoire | USC (Chippault) ; nerfs crâniens V, VII, VIII ; hématome de fosse postérieure = urgence ; NVPO (prophylaxie renforcée) ; fuite de LCS ; traitement de la névralgie diminué progressivement ; sortie vers J4 |
+
+: Fiche pratique : décompression microvasculaire {#tbl-fiche-jannetta}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- La névralgie du trijumeau peut empêcher de manger et de boire : réhydratez, vérifiez la
+  natrémie (carbamazépine) avant d'endormir.
+- La carbamazépine est poursuivie le matin de l'intervention ; c'est un inducteur enzymatique
+  (curares et morphiniques raccourcis).
+- Thermocoagulation : sédation brève au propofol, réveil pour chaque test, pas d'antibiotique,
+  pas de lésion du V1.
+- Décompression microvasculaire : craniotomie de fosse postérieure, curare à l'induction
+  seulement si NIM facial, kétamine possible.
+- Réflexe trigémino-cardiaque (bradycardie, hypotension) : arrêt de la stimulation d'abord,
+  atropine ensuite.
 :::

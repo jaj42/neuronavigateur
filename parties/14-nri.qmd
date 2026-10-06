@@ -1,11 +1,527 @@
 # Neuroradiologie interventionnelle {#sec-nri}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Comprendre ce que fait le neuroradiologue, et pourquoi cela impose une immobilité stricte, une
+  anticoagulation forte et, souvent, des antiagrégants plaquettaires.
+- Gérer les antiagrégants autour d'un stent intracrânien : non-répondeurs, interactions, risque
+  hémorragique et risque thrombotique.
+- Endormir un patient porteur d'un anévrysme rompu sans le faire resaigner.
+- Reconnaître et traiter une rupture per-procédure : c'est souvent l'anesthésiste qui la voit en
+  premier.
+- Choisir la technique anesthésique d'une thrombectomie et en connaître les cibles.
 :::
 
-*Chapitre en cours de rédaction.*
+## Une spécialité au carrefour
+
+La neuroradiologie interventionnelle (NRI) regroupe les techniques mini-invasives, guidées par
+les rayons X, qui traitent ou explorent les maladies vasculaires du système nerveux central par
+voie endovasculaire. Elle est née d'une branche de la radiologie diagnostique et a pris son essor
+au début des années 1990 avec les **spires détachables de Guglielmi** (*Guglielmi detachable
+coils*, GDC) : de petits ressorts de platine poussés dans l'anévrysme par un microcathéter, puis
+détachés par électrolyse [@guglielmi1991]. En 2002, l'essai ISAT a montré, pour les anévrysmes
+rompus accessibles aux deux techniques, moins de décès ou de dépendance à un an après
+embolisation qu'après clippage (23,7 % contre 30,6 %) [@molyneux2002]. Depuis 2015, la
+**thrombectomie** de l'AVC ischémique a fait de la NRI une activité d'urgence, 24 heures sur 24
+[@goyal2016].
+
+Pour l'anesthésiste, la NRI a deux particularités. D'abord, la qualité de la prise en charge se
+voit tout de suite : une hypertension à l'induction peut faire resaigner un anévrysme, une
+hypotension peut étendre un infarctus. Ensuite, la technique évolue sans cesse et nous a obligés
+à apprendre des sujets nouveaux, à commencer par la pharmacologie des antiagrégants plaquettaires.
+
+| Indication | Ce que fait le neuroradiologue | Ce qui compte pour l'anesthésiste |
+|----|-----|------|
+| Anévrysme non rompu | Embolisation à froid : spires, ballon, stent, *flow diverter*, WEB | Immobilité, héparine, antiagrégants si stent |
+| Anévrysme rompu (HSA) | Embolisation en urgence, dans les 24 h | Pas de poussée hypertensive avant l'exclusion ; HTIC ; DVE |
+| AVC ischémique | Thrombectomie mécanique | Rapidité, PA, choix AG ou sédation (@sec-avc) |
+| Malformation artérioveineuse, fistule durale | Embolisation (colle, Onyx), seule ou avant chirurgie | Procédures longues ; contrôle de la PA |
+| Sténose intracrânienne ou carotidienne | Angioplastie, stent | Antiagrégants ; bradycardie au gonflement du ballon carotidien |
+| Tumeur hypervascularisée (méningiome) | Embolisation préopératoire | Prépare une chirurgie moins hémorragique |
+| Rétinoblastome de l'enfant | Chimiothérapie intra-artérielle dans l'artère ophtalmique | Anesthésie pédiatrique hors bloc, répétée |
+| Métastase vertébrale | Vertébroplastie | Procubitus, sédation ou AG |
+
+: Principales indications de la neuroradiologie interventionnelle {#tbl-indications-nri}
+
+## La salle et ses contraintes
+
+### Pourquoi le patient ne doit pas bouger
+
+Le neuroradiologue travaille sur une image virtuelle. Il injecte du produit de contraste,
+l'angiographe numérisé soustrait l'image osseuse et fige le réseau artériel en blanc : c'est la
+**carte de route** (*roadmap*). Il guide ensuite microcathéter et guide en temps réel, et ce
+matériel radio-opaque s'affiche par-dessus la carte. Si la tête bouge entre la prise de la carte
+et la navigation, le microcathéter paraît hors du vaisseau, et le geste devient dangereux dans des
+artères de quelques millimètres. Pour l'embolisation d'un anévrysme, l'immobilité stricte impose
+une **anesthésie générale avec intubation**. La thrombectomie est un cas à part (voir plus loin).
+
+### Travailler loin du bloc
+
+- **La salle** : l'arceau tourne autour de la tête, l'anesthésiste est relégué au pied ou sur le
+  côté, loin des voies aériennes. Prolongateurs sur les voies veineuses et la ligne artérielle,
+  tuyaux du respirateur assez longs, tout vérifié avant que la table ne bouge.
+- **Les rayons** : tablier plombé, cache-thyroïde, paravent, dosimètre ; s'éloigner du tube
+  pendant les acquisitions. Les doses reçues par le patient sont élevées : une alopécie
+  transitoire est possible après une procédure longue.
+- **Le produit de contraste** : volumes importants, à compter dans le bilan entrée-sortie, comme
+  le liquide de rinçage hépariné des cathéters. Chez l'insuffisant rénal (la polykystose rénale
+  est associée aux anévrysmes), une hydratation préalable et une salle **biplan** (face et profil
+  acquis en même temps, donc deux fois moins de contraste) suffisent en général.
+- **Le BIS** : ses électrodes sont radiotransparentes, mais pas le connecteur, qu'on fait sortir
+  hors du champ. Il sert ici autant de monitorage cérébral que de monitorage de l'hypnose
+  (@sec-monitorage).
+
+### Une anticoagulation forte
+
+Pendant l'embolisation d'un anévrysme, le patient est **hépariné**, surveillé par l'ACT
+(*activated clotting time*, le même appareil qu'en chirurgie cardiaque). La cible de 2 à 3 fois
+le témoin, enseignée dans le cours dont ce chapitre est issu, correspond à un TCA incoagulable.
+Conséquence directe : **aucun geste traumatique** pendant et juste après la procédure. Pas
+d'aspiration nasale, pas de sonde nasogastrique, pas de voie centrale sauf nécessité : une simple
+aspiration du nez en fin d'intervention peut déclencher une épistaxis grave chez un patient
+hépariné et sous double antiagrégation.
+
+<!-- TODO-VALIDER : cible d'ACT (2–3 × témoin), dose d'héparine et poursuite post-procédure tirées du cours de NRI de 2013 (Fondation Rothschild) ; préciser la pratique de la NRI de Lariboisière (A_VALIDER n° 33). -->
+
+::: {.callout-note title="Ce que disent les recommandations"}
+**Antibioprophylaxie** [@sfar_atb2023]. Angiographie, stent, angioplastie des artères cervicales
+et cérébrales, embolisation d'anévrysme ou de malformation artérioveineuse : **pas
+d'antibioprophylaxie** (avis d'experts). Les infections après NRI sont exceptionnelles et
+localisées au point de ponction.
+:::
+
+## L'anévrysme non rompu, embolisé à froid
+
+L'anévrysme intracrânien est fréquent (1 à 5 % de la population), siège aux bifurcations
+artérielles, là où les contraintes hémodynamiques sont maximales, et se révèle de trois façons :
+la rupture (HSA, @sec-hsa), un effet de masse (paralysie du III sur un anévrysme de la
+communicante postérieure) ou une découverte fortuite sur une imagerie faite pour autre chose.
+La décision de traiter et le choix entre embolisation et clippage se prennent au staff vasculaire
+NRI-neurochirurgie du mardi (@sec-vasculaire).
+
+### Les techniques, et ce qu'elles impliquent
+
+| Technique | Principe | Antiagrégants |
+|----|------|---|
+| Spires seules (*coiling* simple) | Les spires remplissent 70 à 90 % du sac ; la thrombose qui suit exclut l'anévrysme. Exige un collet étroit | Non |
+| Remodelage au ballon (*remodeling*) | Un ballon gonflé dans l'artère porteuse devant le collet retient les premières spires, qui forment une cage | Non (le ballon est retiré) |
+| Stent et spires | Un stent à larges mailles couvre le collet ; les spires sont poussées à travers les mailles | **Oui** : double antiagrégation |
+| Diverteur de flux (*flow diverter*) | Stent à mailles serrées, sans spire : le flux est détourné, le sac stagne, thrombose et se rétracte en quelques mois | **Oui** : double antiagrégation, prolongée |
+| Dispositif intrasacculaire (WEB) | Une petite « cage » de métal tressé placée dans le sac, sans matériel dans l'artère porteuse | En général non |
+
+: Techniques d'embolisation d'un anévrysme {#tbl-techniques-embolisation}
+
+Le message pour l'anesthésiste tient en une ligne : **dès qu'il y a un stent, il y a des
+antiagrégants**, et le patient se trouve sur une ligne de crête entre le risque hémorragique et le
+risque de thrombose du stent.
+
+### Les antiagrégants : le cœur du problème
+
+**Tous les patients ne répondent pas.** Selon le test utilisé, 5 à 30 % des patients sont mauvais
+répondeurs à l'aspirine ou au clopidogrel ; dans une série de 96 stents neurovasculaires, 36,5 %
+étaient résistants au clopidogrel, et cette résistance était associée aux complications
+thromboemboliques péri-procédurales [@fifi2013]. Un stent qui thrombose dans le tronc basilaire,
+c'est un infarctus du tronc cérébral.
+
+D'où trois règles, issues de l'expérience des équipes de NRI :
+
+1. **Tester la réponse.** Des tests au lit (VerifyNow, par exemple) mesurent l'inhibition
+   plaquettaire en une demi-heure, avec des cartouches propres à l'aspirine ou aux anti-P2Y12.
+   Un exemple, décrit dans le cours de 2013 : clopidogrel 75 mg/j, test après une semaine
+   (traitement d'entretien), passage à 150 mg/j si la réponse est insuffisante, nouveau test une
+   semaine plus tard ; on ne pose pas de stent chez un patient qui reste non répondeur.
+2. **Se méfier de la dose de charge isolée.** Une dose de charge rend le patient répondeur le jour
+   de la pose, mais la dose d'entretien peut ne pas suffire : le stent thrombose deux semaines plus
+   tard, à la maison. C'est la réponse sous **traitement d'entretien** qu'il faut connaître.
+3. **Traquer les interactions.** L'oméprazole réduit l'effet du clopidogrel (interaction sur le
+   CYP2C19), démontré dans un essai randomisé [@gilard2008] ; certaines statines à forte dose
+   (atorvastatine) aussi. Un patient qui a vraiment besoin d'un IPP est testé sous l'association.
+
+Les autres anti-P2Y12 ont leurs propres compromis. Le **prasugrel** donne une inhibition plus
+constante, au prix de plus d'hémorragies ; le **ticagrélor** n'est pas une prodrogue, agit vite
+et s'élimine vite (deux prises par jour), ce qui facilite un arrêt temporaire en cas de
+saignement. Le choix revient aux neuroradiologues et aux neurologues vasculaires ; l'anesthésiste
+doit connaître la molécule et sa dernière prise.
+
+<!-- TODO-VALIDER : stratégie AAP (test VerifyNow, seuil, clopidogrel 150 mg, ticagrélor) issue du cours de 2013 ; décrire la stratégie actuelle de la NRI de Lariboisière (A_VALIDER n° 15). -->
+
+**Dépister ce qui va saigner.** Avant d'exposer un patient à de fortes doses d'héparine et à
+deux antiagrégants, on recherche ce qui peut saigner : ulcère (une douleur épigastrique réapparue
+à l'arrêt d'un IPP justifie une fibroscopie d'abord), lésion digestive, troubles de l'hémostase.
+Un saignement sous héparine, aspirine et clopidogrel, avec un stent qu'on ne veut pas voir
+thromboser, est une situation sans bonne solution. La gestion des antithrombotiques au long cours
+suit le @sec-preop.
+
+### L'anesthésie
+
+- **Consultation** : comme pour une craniotomie (@sec-preop), plus les antiagrégants (molécule,
+  dose, résultat du test), la fonction rénale et l'allergie à l'iode ou au produit de contraste.
+- **Monitorage** : scope, PNI, SpO~2~, capnographie, BIS ; **cathéter artériel** (radial, ou par
+  l'introducteur fémoral posé par le neuroradiologue) selon le terrain et le risque.
+- **Induction** : douce, sans poussée hypertensive à la laryngoscopie ; curare pour l'intubation.
+- **Entretien** : propofol et rémifentanil en AIVOC, ou halogéné ≤ 1 MAC ; **normocapnie** ;
+  normothermie ; PA proche des valeurs habituelles.
+- **Pendant le geste** : rien ne bouge, et c'est le signe que tout va bien. Une poussée
+  hypertensive avec tachycardie n'est pas un réveil tant qu'on n'a pas éliminé une rupture
+  (voir plus loin).
+- **Réveil** : calme, sans toux ni poussée hypertensive ; examen neurologique en salle, comparé à
+  celui d'avant.
+- **Après** : point de ponction fémoral (compression ou dispositif de fermeture, jambe tendue),
+  hydratation, examen neurologique répété ; une aggravation fait rechercher une thrombose ou un
+  saignement.
+
+## L'anévrysme rompu
+
+### La pression transmurale
+
+La paroi d'un anévrysme rompu tient grâce à un petit caillot. La force qui s'exerce sur elle est
+la **pression transmurale** : la pression artérielle moyenne à l'intérieur du sac, moins la PIC à
+l'extérieur. C'est la même soustraction que la PPC (@sec-physiologie). Une poussée hypertensive à
+la laryngoscopie, chez un patient mal anesthésié, augmente brutalement cette pression et peut
+chasser le caillot : c'est le **resaignement à l'induction**, plus grave que le saignement
+initial. Pour la même raison, baisser brutalement la PIC avant l'exclusion (drainage rapide du
+LCS par une DVE) augmente la pression transmurale.
+
+### Endormir sans faire monter la pression
+
+Toute technique qui empêche la poussée hypertensive convient : lidocaïne IV, fortes doses de
+morphinique, propofol, bêtabloquant de courte durée ; le rémifentanil est un choix simple et
+maîtrisé. Ce qui compte, c'est que la PA ne bouge pas, ni vers le haut (resaignement), ni vers le
+bas chez un patient dont la PIC est élevée (ischémie).
+
+C'est l'une des rares situations où l'on injecte **le morphinique avant l'hypnotique chez un
+patient à estomac plein**, avec l'anévrysme de l'aorte abdominale rompu et la pré-éclampsie : on
+accepte une induction plus lente pour éviter la poussée tensionnelle. L'induction en séquence
+rapide reste possible ; elle doit simplement être profonde avant la laryngoscopie.
+
+La prise en charge de l'HSA elle-même (cibles de PA avant et après sécurisation, hydrocéphalie,
+DVE, vasospasme, nimodipine) est décrite au @sec-hsa.
+
+## La rupture per-procédure
+
+### La reconnaître
+
+La rupture complique 4,1 % des embolisations d'anévrysme rompu et 0,5 % des embolisations à
+froid ; elle entraîne un décès ou un handicap permanent dans un tiers des cas environ [@cloft2002].
+
+Le neuroradiologue la voit parfois directement (extravasation de contraste, spire hors du sac).
+Mais c'est souvent **l'anesthésiste qui la voit en premier** : une procédure de NRI est
+habituellement d'une stabilité parfaite, et brutalement la PA et la fréquence cardiaque montent.
+Le patient, sous anesthésie légère parce que le geste n'est pas douloureux, ressent la céphalée
+brutale de l'HSA ; puis la PIC monte et déclenche la réaction de Cushing (@sec-physiopathologie).
+Dites-le tout de suite au neuroradiologue : « il se passe quelque chose ».
+
+Au moment de la rupture, la lumière de l'anévrysme communique avec les espaces
+sous-arachnoïdiens : la PIC rejoint la PAM et la **PPC tombe à zéro**. C'est ce qui fait perdre connaissance lors
+d'une HSA spontanée, et c'est aussi ce qui permet au caillot de se former, puisque le sac n'est
+plus perfusé. Le BIS peut tomber à 0 avec un taux de suppression de 100 % : le cerveau n'est plus
+perfusé (@sec-monitorage).
+
+### La traiter, dans l'ordre
+
+1. **Protamine** immédiatement, dose pour dose (1 mg neutralise 100 UI d'héparine), en IV
+   directe. Ne pas attendre l'ACT.
+2. **Le neuroradiologue arrête le saignement** : le ballon est toujours prêt dans l'artère
+   porteuse ; il le gonfle, puis termine l'embolisation le plus vite possible.
+3. **Traiter l'HTIC** : osmothérapie (mannitol ou SSH, @sec-htic), sédation approfondie,
+   normocapnie, tête surélevée si la table le permet.
+4. **Maintenir la PPC** : la poussée hypertensive initiale est une réponse à l'HTIC ; ne pas la
+   casser tant que la PIC est élevée. Le Doppler transcrânien, ou la PIC si une DVE est en place,
+   guide la cible.
+5. **DVE en urgence** si une inondation ventriculaire ou une HTIC réfractaire l'impose. C'est
+   l'exception à la règle des plaquettes : sous aspirine, on **transfuse des plaquettes** avant de
+   poser la DVE, sinon on crée un hématome le long du trajet.
+6. **Scanner** dès que le patient est transportable, puis réanimation.
+
+Le pronostic n'est pas toujours mauvais : le cours de NRI dont ce chapitre s'inspire rapportait
+un patient dont le BIS était à 0 (suppression 100 %), revenu à 52 après protamine, osmothérapie et
+exclusion de l'anévrysme, sorti à J10 et revenu au travail un mois plus tard.
+
+::: {.callout-warning title="Piège"}
+Une poussée hypertensive et tachycarde en NRI chez un patient endormi n'est pas un réveil
+jusqu'à preuve du contraire. Approfondir l'anesthésie ou donner un antihypertenseur sans prévenir
+le neuroradiologue, c'est traiter le symptôme d'une rupture et laisser saigner l'anévrysme.
+:::
+
+## Les complications hémorragiques extracrâniennes
+
+Sous héparine, avec une ou deux molécules antiagrégantes, tout peut saigner :
+
+| Complication | Comment elle se présente | Traitement |
+|---|----|----|
+| Hématome au point de ponction | Cuisse qui gonfle, hématome extériorisé | Compression (par l'équipe de NRI) |
+| **Hématome rétropéritonéal** | Retardé : douleur abdominale ou lombaire en SSPI, puis choc ; parfois marbrures des membres inférieurs (compression cave) | Protamine, angioscanner (fuite de contraste), embolisation de la brèche par le neuroradiologue ; réanimation du choc |
+| Épistaxis | Après une aspiration nasale, une sonde, un traumatisme minime | Méchage par l'ORL |
+| Hémorragie digestive | Révélée par l'anticoagulation | Endoscopie en urgence ; IPP choisi sans interaction avec le clopidogrel |
+
+: Complications hémorragiques extracrâniennes en NRI {#tbl-hemorragies-nri}
+
+**La question des plaquettes.** Chez un patient qui vient de recevoir un stent intracrânien, une
+transfusion de plaquettes expose à la thrombose du stent, aux conséquences souvent plus graves
+qu'un choc hémorragique bien réanimé. La règle enseignée est donc : **protamine, hémostase locale
+ou embolisation, culots et plasma si nécessaire, pas de plaquettes**, sauf geste neurochirurgical
+urgent (DVE, évacuation d'hématome). Cette décision se prend avec le neuroradiologue.
+
+<!-- TODO-VALIDER : « pas de plaquettes sous stent sauf DVE » et poursuite de l'héparine post-procédure « à la demande des neuroradiologues » viennent du cours de 2013 ; confirmer la pratique locale (A_VALIDER n° 33). -->
+
+## La thrombectomie de l'AVC ischémique
+
+Depuis 2015, la thrombectomie mécanique des occlusions proximales de la circulation antérieure
+est un traitement validé : dans la méta-analyse des cinq essais fondateurs, il suffisait de
+traiter 2,6 patients pour réduire le handicap d'au moins un niveau sur l'échelle de Rankin à
+3 mois [@goyal2016]. C'est une urgence absolue, à toute heure, souvent après une thrombolyse
+intraveineuse. Le parcours du patient, la thrombolyse et la surveillance ultérieure sont décrits
+au @sec-avc ; ce qui suit concerne la salle.
+
+### Pourquoi la PA et le CO~2~ comptent autant
+
+Autour du cœur de l'infarctus, la **pénombre** est un tissu peu perfusé mais encore vivant ; il
+meurt d'autant plus vite que son débit est bas (au-dessous d'environ 20 mL/100 g/min). Son
+autorégulation est abolie : son débit suit **passivement la PAM** (@sec-physiologie). Il dépend
+aussi des **collatérales leptoméningées**, qui revascularisent à rebours le territoire occlus et
+sont très variables d'un patient à l'autre. Une hypotension à l'induction, ou une hypocapnie par
+hyperventilation (vasoconstriction), réduit le débit de la pénombre et agrandit l'infarctus.
+
+### Anesthésie générale ou sédation ?
+
+Les premières études rétrospectives associaient l'anesthésie générale à un pronostic plus mauvais
+[@abouchebl2010]. Mais les patients endormis étaient les plus graves, et les pratiques variaient
+d'un centre à l'autre au point de se confondre avec l'effet de la technique : un biais de
+sélection et un effet centre majeurs. Les essais randomisés, avec une anesthésie conduite par des
+équipes entraînées et une PA contrôlée, ont corrigé cette image : à 3 mois, le pronostic n'est
+pas plus mauvais sous anesthésie générale, et plutôt meilleur dans la méta-analyse des trois
+premiers essais monocentriques [@schonenberger2019] ; les essais multicentriques français ne
+trouvent pas de différence [@maurice2022; @chabanne2023]. L'anesthésie générale donne plus
+d'hypotension [@schonenberger2019] et un peu plus de délai, mais une recanalisation plus souvent
+complète [@maurice2022].
+
+Le cours de 2013 qui a servi à ce chapitre proposait l'anesthésie locale d'emblée pour les
+occlusions carotidiennes et une PAS de 140 à 180 mmHg : ce sont les recommandations françaises de
+2022 qu'il faut suivre aujourd'hui.
+
+::: {.callout-note title="Ce que disent les recommandations"}
+**Thrombectomie** [@sfar_thrombectomie2022] (RPP, toutes avis d'experts, accord fort) :
+
+- **Anesthésie générale avec intubation** plutôt qu'anesthésie locale seule en cas de circulation
+  postérieure, de navigation difficile prévue, de NIHSS ≥ 15, de trouble de vigilance, de
+  défaillance respiratoire, d'agitation ou de vomissements (R1.1.1).
+- En dehors de ces situations, ne pas privilégier l'anesthésie générale par rapport à une
+  anesthésie locale ou à une sédation procédurale, **conduites par une équipe d'anesthésie**
+  (R1.1.2, R1.2).
+- SpO~2~ ≥ 95 % (R2.2) ; sous anesthésie générale, EtCO~2~ entre **35 et 40 mmHg** (R2.3) ;
+  sous sédation, capnographie continue (R2.4) ; traiter l'hyperglycémie sans provoquer
+  d'hypoglycémie (R2.5).
+- Après la procédure : PAS **130–180 mmHg** si la recanalisation est incomplète (TICI < 2b),
+  **130–160 mmHg** si elle est bonne (TICI ≥ 2b) (R2.1).
+- Pas d'héparinisation systémique après une thrombolyse IV (R3.1) ; pas d'aspirine
+  per-procédure (R3.3) ; si un stent est posé, antiagrégation, mais introduite après l'imagerie
+  de contrôle qui élimine une hémorragie (R3.4).
+- Arrêter les agents d'anesthésie dès la fin du geste et **extuber immédiatement** si les
+  conditions habituelles sont réunies et que le patient ouvre les yeux (Glasgow Y ≥ 3), sans
+  exiger la réponse aux ordres ; vérifier toux et déglutition après une atteinte postérieure
+  (R4.1).
+- Surveillance en soins critiques, de préférence en USINV, au moins jusqu'à l'imagerie de H24
+  (R4.2).
+:::
+
+Les doses d'héparine pendant une thrombectomie ne sont pas anodines : dans l'essai MR CLEAN-MED,
+l'héparine à dose modérée et l'aspirine augmentaient les hémorragies intracrâniennes
+symptomatiques sans améliorer le pronostic [@vandersteen2022].
+
+### En pratique
+
+- **Ne pas retarder la recanalisation** : l'anesthésiste prépare et endort pendant que le
+  neuroradiologue prépare sa table et ponctionne.
+- **Sédation** : légère, capnographie aux lunettes, patient calme et capable de rester immobile.
+  Si la sédation ne suffit pas, on n'empile pas les bolus chez un patient à estomac plein aux
+  réflexes altérés : on convertit en anesthésie générale. La conversion en urgence est associée à
+  un plus mauvais pronostic [@sfar_thrombectomie2022], d'où l'intérêt de bien choisir dès le départ.
+- **Anesthésie générale** : induction en séquence rapide, avec un hypnotique qui préserve la PA
+  (étomidate, ou propofol à dose réduite) ; succinylcholine possible à la phase aiguë du déficit ;
+  **noradrénaline prête**, voire débutée avant l'induction, sur la voie veineuse périphérique ;
+  cathéter artériel sans retarder le geste. Pas de voie centrale chez un patient thrombolysé.
+- **Cibles** : pas d'hypotension (une baisse de plus de 20 % de la PAS est fréquente sous AG
+  [@schonenberger2019]) ; normocapnie, avec un gaz du sang pour connaître le gradient
+  PaCO~2~–EtCO~2~ ; SpO~2~ ≥ 95 % ; glycémie contrôlée ; normothermie.
+- **Après la recanalisation** : la PA cible baisse (voir l'encadré), car le risque devient la
+  transformation hémorragique d'un territoire reperfusé.
+- **Orientation** : pas de retour immédiat vers le centre adresseur après le geste ; USINV ou
+  réanimation (@sec-avc).
+
+## L'anévrysme mycotique de l'endocardite
+
+### Le contexte
+
+L'endocardite infectieuse touche environ 3 à 10 personnes pour 100 000 par an, surtout des hommes
+de plus de 65 ans, et de plus en plus souvent après des soins (prothèses valvulaires, dispositifs
+intracardiaques). Le staphylocoque doré en est le premier germe (30 à 40 %), devant les
+streptocoques oraux et les entérocoques. Ses complications sont l'insuffisance cardiaque (première
+cause de décès), les **embolies systémiques**, dont cérébrales, les abcès et troubles conductifs,
+et l'atteinte rénale ; la mortalité hospitalière reste de 15 à 30 % (protocole du service). Sa
+prise en charge est collégiale, au sein d'une équipe d'endocardite [@delgado2023].
+
+Une embolie septique dans une artère cérébrale distale peut fragiliser sa paroi et former un
+**anévrysme infectieux** (dit « mycotique », même quand le germe est une bactérie). Dans une revue
+de 499 patients, un sur cinq avait plusieurs anévrysmes, plus d'un tiers des anévrysmes étaient
+rompus, et l'embolisation y était de plus en plus utilisée ; quand une chirurgie valvulaire était
+prévue, l'anévrysme était traité **avant** dans 85 % des cas [@ragulojan2019]. La raison est
+simple : la circulation extracorporelle impose une héparinisation totale, sous laquelle un
+anévrysme non traité peut rompre. C'est cette embolisation **préopératoire** que décrit le
+protocole du service.
+
+### Le vrai problème : le cœur
+
+Le patient vient en NRI pour sa tête, mais c'est sa valve qui fait le risque de l'anesthésie.
+
+- **Avant** : échocardiographie récente, troponine et BNP. Le protocole local demande d'arrêter
+  les bêtabloquants (une bradycardie allonge la diastole et donc la régurgitation) ; cet arrêt se
+  discute, car il expose à un rebond.
+- **Les objectifs dépendent de la fuite**, résumés dans le @tbl-valvulopathies-mycotique.
+- **Monitorage** : cathéter artériel, posé avant l'induction au moindre doute ; débit cardiaque
+  (Doppler œsophagien) ; voie veineuse centrale jugulaire et PVC si le patient est en choc avant
+  l'induction ou si l'insuffisance tricuspide est importante.
+- **Induction prudente, avec des amines** : **adrénaline IVSE dès l'induction**. La tachycardie
+  raccourcit la diastole, donc le temps de régurgitation. Objectif : fréquence cardiaque au moins
+  égale à celle d'avant l'induction, et au minimum 80/min.
+- **Euvolémie** : épreuves de remplissage guidées par le débit ; compter les solutés des
+  neuroradiologues (rinçage, contraste).
+
+| Valvulopathie | Fréquence cardiaque | Précharge | PA et postcharge | Ventilation |
+|---|--|---|---|---|
+| Insuffisance aortique | Éviter la bradycardie | Plutôt élevée, pas d'hypovolémie | Pas de postcharge excessive : PAM 65–75 mmHg | PEEP plutôt élevée |
+| Insuffisance mitrale | Éviter la bradycardie | Euvolémie | PAM 65–75 mmHg | PEEP |
+| Insuffisance tricuspide | | Maintenue élevée | PA plutôt élevée : PAM 90–100 mmHg | PEEP basse (2–3 cmH~2~O) ; légère hypocapnie plutôt qu'hypercapnie, pour baisser les résistances pulmonaires |
+
+: Objectifs hémodynamiques selon la valvulopathie (protocole du service) {#tbl-valvulopathies-mycotique}
+
+::: {.callout-tip title="Astuce"}
+Préparations du protocole local, à vérifier avant l'induction :
+
+- **Adrénaline** : 1 mg dans 10 mL (100 µg/mL), puis 5 mL de cette solution dilués à 50 mL,
+  soit **10 µg/mL** ; débit 10–50 mL/h (100–500 µg/h), à adapter à la fréquence cardiaque.
+- **Isoprénaline** (Isuprel, dans le réfrigérateur de la NRI), en cas de bloc auriculoventriculaire
+  de haut degré : 5 ampoules de 0,2 mg dans 50 mL, soit **20 µg/mL** ; débit initial 20 mL/h
+  (dose maximale recommandée), puis diminué selon la fréquence. Seringue et tubulure opaques si
+  la perfusion se prolonge (produit photosensible).
+- **Glucagon** si bradycardie chez un patient sous bêtabloquant : 50 µg/kg en charge, puis
+  1–15 mg/h selon la fréquence.
+:::
+
+<!-- TODO-VALIDER : arrêt des bêtabloquants (A_VALIDER n° 12) ; isoprénaline débutée à la dose maximale ; PAM 90–100 mmHg dans l'insuffisance tricuspide sans justification dans le protocole (A_VALIDER n° 32). -->
+
+**Si l'arrêt cardiaque survient**, évoquer tôt l'**ECMO** et appeler le senior de réanimation
+(DECT). Deux pièges : une ECMO veino-artérielle sur une **insuffisance aortique** majore la
+régurgitation et donne un œdème pulmonaire massif (garder une PAM vers 65 mmHg, de la PEEP, et
+éviter l'hypertension) ; et le **syndrome d'Arlequin** (cerveau et membre supérieur droit
+perfusés par un sang mal oxygéné venu du cœur natif) se surveille par une SpO~2~ à droite.
+
+**Après** : réveil dès que possible ; relais par **VNI** à l'extubation pour prévenir l'œdème
+pulmonaire ; diurétique si l'hémodynamique est stable après un geste long et un remplissage
+important, ou en cas de surcharge.
+
+## Cas cliniques
+
+### Cas 1 : la poussée hypertensive
+
+Une femme de 52 ans est embolisée en urgence, à J1 d'une HSA (WFNS 2), pour un anévrysme de la
+communicante antérieure. Anesthésie générale (propofol, rémifentanil), BIS 45, PA stable à
+125/70 mmHg depuis une heure. Brusquement, la PA monte à 190/105 mmHg et la fréquence cardiaque
+de 70 à 115/min ; quelques minutes plus tard, le BIS chute à 5, avec un taux de suppression de
+95 %.
+
+1. Quelle est votre hypothèse, et quel est votre premier geste ?
+2. Faut-il traiter la poussée hypertensive ?
+3. Que demandez-vous au neuroradiologue, et quelles sont les étapes suivantes ?
+4. Le neurochirurgien veut poser une DVE en urgence. La patiente a reçu de l'aspirine au début de
+   la procédure. Que faites-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Une **rupture per-procédure**, jusqu'à preuve du contraire : prévenir immédiatement le
+   neuroradiologue. Le BIS effondré signe l'arrêt de la perfusion cérébrale (PIC = PAM). Premier
+   geste : **protamine** dose pour dose, en IV directe [@cloft2002].
+2. Pas dans un premier temps : elle maintient une PPC face à une PIC qui vient de monter
+   brutalement. On la contrôle quand l'anévrysme est exclu et l'HTIC traitée.
+3. Gonfler le ballon dans l'artère porteuse et terminer l'embolisation au plus vite. De votre
+   côté : osmothérapie, sédation approfondie, normocapnie, Doppler transcrânien, puis scanner et
+   réanimation.
+4. Transfuser des plaquettes avant la DVE : c'est l'exception à la règle « pas de plaquettes »,
+   car une DVE posée sous aspirine saigne dans le ventricule.
+:::
+
+### Cas 2 : la thrombectomie
+
+Un homme de 74 ans arrive 2 h après une hémiplégie droite avec aphasie (NIHSS 18), thrombolysé
+par altéplase, pour une thrombectomie d'une occlusion de l'artère cérébrale moyenne gauche. Il est
+agité et ne comprend pas les consignes. PA 175/95 mmHg.
+
+1. Sédation ou anesthésie générale ?
+2. Comment conduisez-vous l'induction ?
+3. Le neuroradiologue propose un bolus d'héparine. Qu'en pensez-vous ?
+4. La recanalisation est complète (TICI 3). Quelle cible de PA, et que faites-vous de
+   l'intubation ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. **Anesthésie générale avec intubation** : NIHSS ≥ 15, agitation et aphasie empêchant la
+   coopération sont trois critères de la RPP (R1.1.1) [@sfar_thrombectomie2022].
+2. Séquence rapide, sans retarder le geste ; hypnotique à dose réduite, noradrénaline prête ou
+   débutée, PAS maintenue au niveau d'avant l'induction, EtCO~2~ 35–40 mmHg, SpO~2~ ≥ 95 %.
+3. Après une thrombolyse IV, pas d'héparinisation systémique (R3.1) [@sfar_thrombectomie2022;
+   @vandersteen2022].
+4. PAS entre 130 et 160 mmHg (R2.1.2). Arrêt des agents d'anesthésie à la fin du geste et
+   extubation immédiate s'il ouvre les yeux et que les conditions habituelles sont réunies
+   (R4.1) ; puis USINV, imagerie de contrôle à H24.
+:::
+
+## Fiches pratiques
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Immobilité stricte ; PA stable ; pas de saignement provoqué ; réveil rapide pour l'examen neurologique |
+| Monitorage | Scope, PNI, SpO~2~, capnographie, BIS ; cathéter artériel selon le terrain ; prolongateurs sur toutes les lignes ; ACT |
+| Induction et entretien | Molécules antiagrégantes, dose, dernier test ; pas d'antibioprophylaxie ; induction douce, intubation ; propofol + rémifentanil en AIVOC ; héparine selon le neuroradiologue |
+| Cibles | PA proche de l'habituelle ; normocapnie ; normothermie |
+| Pièges | Poussée hypertensive et tachycarde = rupture jusqu'à preuve du contraire (protamine) ; aspiration nasale, SNG, voie centrale sous héparine ; IPP et clopidogrel ; plaquettes sous stent |
+| Post-opératoire | Point de ponction ; douleur abdominale ou choc retardé = hématome rétropéritonéal ; examen neurologique répété ; hydratation (contraste) |
+
+: Fiche pratique : embolisation d'un anévrysme non rompu {#tbl-fiche-embolisation}
+:::
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Recanaliser vite ; protéger la pénombre (PA, CO~2~, O~2~, glycémie) ; immobilité suffisante |
+| Monitorage | Scope, PNI rapprochée puis cathéter artériel (sans retarder le geste), SpO~2~, capnographie (y compris sous sédation) ; glycémie ; gaz du sang |
+| Induction et entretien | AG avec intubation si circulation postérieure, NIHSS ≥ 15, vigilance altérée, détresse respiratoire, agitation, vomissements ou navigation difficile ; sinon sédation ou AL par l'équipe d'anesthésie ; séquence rapide ; noradrénaline prête sur VVP |
+| Cibles | Pas d'hypotension pendant le geste ; EtCO~2~ 35–40 mmHg ; SpO~2~ ≥ 95 % ; hyperglycémie traitée ; après : PAS 130–180 (TICI < 2b) ou 130–160 mmHg (TICI ≥ 2b) |
+| Pièges | Hypotension à l'induction ; hyperventilation ; bolus de sédatifs empilés chez un patient à estomac plein ; héparine après thrombolyse ; voie centrale chez un thrombolysé |
+| Post-opératoire | Extubation immédiate si Glasgow Y ≥ 3 ; toux et déglutition si atteinte postérieure ; USINV ; imagerie à H24 (@sec-avc) |
+
+: Fiche pratique : thrombectomie de l'AVC ischémique [@sfar_thrombectomie2022] {#tbl-fiche-thrombectomie}
+:::
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Emboliser l'anévrysme infectieux avant la chirurgie valvulaire ; tenir la valvulopathie |
+| Monitorage | Cathéter artériel avant l'induction au moindre doute ; débit cardiaque (Doppler œsophagien) ; VVC jugulaire et PVC si choc ou IT importante |
+| Induction et entretien | ETT, troponine, BNP ; question des bêtabloquants ; induction prudente ; **adrénaline IVSE dès l'induction** (10 µg/mL, 10–50 mL/h) ; isoprénaline (frigo de la NRI) si BAV ; glucagon si bradycardie sous bêtabloquant |
+| Cibles | FC ≥ FC de base et ≥ 80/min ; IA, IM : PAM 65–75 mmHg ; IT : PAM 90–100 mmHg, PEEP basse ; euvolémie, solutés de la NRI comptés |
+| Pièges | Bradycardie (régurgitation) ; postcharge excessive ; surcharge à l'extubation ; ECMO VA sur IA (OAP massif) ; syndrome d'Arlequin (SpO~2~ à droite) |
+| Post-opératoire | Réveil précoce ; VNI à l'extubation ; diurétique si remplissage important ; chirurgie valvulaire ensuite |
+
+: Fiche pratique : embolisation d'un anévrysme mycotique (protocole du service) {#tbl-fiche-mycotique}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- La NRI exige l'immobilité (AG pour l'embolisation d'un anévrysme), sous héparine forte : aucun
+  geste traumatique, ni aspiration nasale, ni sonde, ni voie centrale.
+- Stent ou diverteur de flux = double antiagrégation : connaître la molécule, la réponse sous
+  traitement d'entretien et les interactions (oméprazole et clopidogrel).
+- Anévrysme rompu : la pression transmurale est PAM − PIC ; pas de poussée hypertensive à
+  l'induction, le morphinique peut précéder l'hypnotique même à estomac plein.
+- Poussée hypertensive et tachycarde, BIS qui s'effondre : rupture per-procédure ; prévenir le
+  neuroradiologue, protamine, ballon, osmothérapie ; plaquettes seulement pour une DVE.
+- Thrombectomie : AG selon les critères de la RPP 2022, sinon sédation ; pas d'hypotension,
+  EtCO~2~ 35–40, SpO~2~ ≥ 95 % ; PAS 130–160 après bonne recanalisation ; extubation immédiate.
+- Anévrysme mycotique : c'est la valve qui fait le risque ; adrénaline dès l'induction, FC ≥ 80.
 :::

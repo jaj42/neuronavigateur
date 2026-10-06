@@ -9,6 +9,7 @@
 - Prédire l'effet d'une baisse de pression artérielle sur la PIC selon que l'autorégulation
   est conservée ou non.
 - Expliquer pourquoi la natrémie, et non l'albumine, gouverne l'eau cérébrale.
+- Opposer les raisonnements de Rosner et de Lund, et dire de quoi dépend le bon choix.
 :::
 
 ## Un organe gourmand et sans réserve
@@ -257,6 +258,29 @@ vasogénique quand la BHE se rompt [@lukaszewicz2011]. On décrit aussi un œdè
 **interstitiel** (ou hydrocéphalique), par passage transépendymaire du LCS autour des
 ventricules dilatés.
 
+## Rosner contre Lund : deux lectures de la même physiologie
+
+Les deux mécanismes de ce chapitre, l'autorégulation et les forces de Starling, ont donné
+dans les années 1990 deux stratégies opposées pour traiter l'HTIC du traumatisé crânien grave.
+
+- **Rosner** part d'une autorégulation **conservée** : une PPC basse entretient la cascade
+  vasodilatatrice, il faut donc une PPC **haute** (70 mmHg au moins, souvent plus), obtenue par
+  le remplissage et les vasopresseurs [@rosner1995].
+- **Lund** part d'une BHE **rompue** dans les zones lésées : la pression hydrostatique
+  capillaire pousse l'eau dans le tissu (œdème vasogénique). Il faut donc **baisser** la
+  pression capillaire (métoprolol, clonidine, pas de vasopresseur) et accepter une PPC plus
+  basse, jusqu'à 50 mmHg chez l'adulte [@asgeirsson1994; @grande2006].
+
+Chacun a raison dans son hypothèse et tort en dehors. Si l'autorégulation est abolie, une PPC
+haute passe dans les capillaires et aggrave l'œdème : dans l'essai de Robertson, viser une
+PPC > 70 mmHg multipliait par cinq les SDRA, sans bénéfice neurologique [@robertson1999]. Le
+concept de Lund, lui, repose sur des séries monocentriques à contrôles historiques
+[@eker1998], et l'albumine qu'il préconisait s'est révélée délétère [@myburgh2007]. Les
+recommandations ont tranché au milieu, avec une PPC de 60 à 70 mmHg [@carney2017], et la
+vraie question devient : **l'autorégulation de ce patient est-elle conservée ?** C'est le test
+« on monte la PAM, que fait la PIC ? », devenu le PRx et la PPC optimale (@sec-monitorage).
+Les deux stratégies sont détaillées au @sec-htic.
+
 ## Cas clinique
 
 Une patiente de 55 ans, hypertendue ancienne mal équilibrée, est opérée d'un volumineux
@@ -288,4 +312,6 @@ méningiome frontal. Sa PAM habituelle est de 115 mmHg. Après l'induction, la P
   pression.
 - PaCO~2~ : 2 à 4 % de DSC par mmHg, effet transitoire. PaO~2~ : seulement sous 60 mmHg.
 - 1 mOsm/L de gradient = 19 mmHg : pas de soluté hypotonique, pas d'albumine.
+- Rosner (autorégulation conservée : PPC haute) contre Lund (BHE rompue : pression capillaire
+  basse) : le bon choix dépend de l'autorégulation du patient ; consensus PPC 60 à 70 mmHg.
 :::
