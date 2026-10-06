@@ -1,11 +1,531 @@
 # Dysnatrémies et dérivation ventriculaire externe {#sec-dysnatremies-dve}
 
 ::: {.callout-important title="Objectifs"}
-- *À rédiger.*
+- Comprendre pourquoi une variation de natrémie de quelques mmol/L compte chez le cérébrolésé.
+- Devant une hyponatrémie, éliminer les fausses hyponatrémies, juger de la gravité, chercher la
+  cause (SIADH, perte de sel, insuffisance corticotrope, apports) et corriger sans dépasser les
+  limites de vitesse.
+- Reconnaître un diabète insipide et traiter une hypernatrémie sans faire d'œdème.
+- Prescrire et surveiller une DVE : hauteur, débit, clampage, mesure de la PIC, transport.
+- Prévenir, reconnaître et traiter ses complications (hyperdrainage, obstruction, hémorragie,
+  ventriculite), puis la sevrer.
 :::
 
-*Chapitre en cours de rédaction.*
+## Le sodium et l'eau du cerveau
+
+La barrière hémato-encéphalique (BHE) laisse passer l'eau mais pas le sodium : c'est donc la
+**natrémie**, et non l'albumine, qui fixe l'osmolalité de part et d'autre de la barrière et
+gouverne l'eau cérébrale (@sec-physiologie) [@lukaszewicz2011]. Une baisse de l'osmolarité
+plasmatique de 1 mOsm/L seulement crée un gradient de pression de 19,3 mmHg à travers la
+BHE [@payen2007] : l'eau entre dans le cerveau.
+
+- Une **hyponatrémie** fait gonfler le cerveau. Chez un patient dont la compliance est déjà
+  épuisée (contusion, hématome, HSA), quelques millilitres d'œdème suffisent à faire monter la
+  PIC (@sec-physiopathologie). C'est un ACSOS (@tbl-acsos).
+- Une **hypernatrémie** déshydrate le cerveau sain. Si elle s'installe en quelques jours, les
+  cellules fabriquent des osmoles pour retrouver leur volume ; la corriger trop vite fait
+  alors entrer l'eau dans des cellules hyperosmolaires : c'est le **rebond** décrit pour
+  l'osmothérapie (@sec-pharmacologie).
+- La **vitesse** compte autant que le chiffre : le cerveau supporte mal les variations
+  rapides, dans un sens comme dans l'autre.
+
+Chez le cérébrolésé, la natrémie se mesure au moins une fois par jour, plus souvent sous
+osmothérapie, sous desmopressine ou pendant une correction. Elle s'interprète avec la
+**diurèse**, le **bilan entrées-sorties**, la **volémie** et, au besoin, l'ionogramme
+urinaire. La cible usuelle est une natrémie normale (135–145 mmol/L), plutôt dans la moitié
+haute chez le traumatisé crânien grave (@sec-tc-grave) et à 140–145 mmol/L pendant une
+chirurgie avec diabète insipide (@sec-craniotomie). Les solutés hypotoniques (glucosé seul,
+Ringer lactate) n'ont pas leur place [@sfar_solutes2021].
+
+## L'hyponatrémie
+
+### Fréquente, surtout après une HSA
+
+Dans une série de 316 HSA, 57 % des patients ont eu une natrémie < 135 mmol/L et 20 % une
+natrémie < 130 mmol/L ; une fois sur cinq, l'hyponatrémie apparaissait après J7, parfois
+après la sortie de réanimation [@sherlock2006]. Elle complique aussi les traumatismes
+crâniens, la chirurgie hypophysaire (phase de SIADH vers J7–J10, @sec-base-du-crane), les
+méningites et les tumeurs. Elle est presque toujours **acquise à l'hôpital** : il faut donc
+la chercher.
+
+### Trois questions avant de traiter
+
+**1. Est-ce une vraie hyponatrémie hypotonique ?** Une hyperglycémie ou une perfusion de
+mannitol attirent l'eau des cellules vers le plasma et abaissent la natrémie sans
+hypo-osmolalité : il faut corriger la natrémie pour la glycémie et mesurer l'osmolalité
+plasmatique [@spasovski2014]. Un patient qui vient de recevoir du mannitol peut avoir une
+natrémie basse et un cerveau déshydraté.
+
+**2. Est-elle grave ?** La gravité tient aux **symptômes**, qui traduisent l'œdème cérébral,
+plus qu'au chiffre [@spasovski2014] :
+
+| Gravité | Symptômes |
+|--|------|
+| Modérément sévère | Nausées sans vomissements, confusion, céphalées |
+| Sévère | Vomissements, détresse cardiorespiratoire, somnolence anormale et profonde, convulsions, coma (Glasgow ≤ 8) |
+
+: Symptômes de l'hyponatrémie selon le guide européen [@spasovski2014]. Chez le cérébrolésé,
+ces signes ont souvent une autre cause (lésion, hydrocéphalie, vasospasme) : on les attribue à
+l'hyponatrémie avec prudence, mais on ne laisse pas une natrémie basse aggraver une HTIC.
+{#tbl-symptomes-hyponatremie}
+
+Le chiffre classe l'hyponatrémie en **légère** (130–135 mmol/L), **modérée** (125–129) ou
+**profonde** (< 125). Elle est **aiguë** si elle s'est installée en moins de 48 h,
+**chronique** au-delà ; dans le doute, on la considère comme chronique [@spasovski2014].
+Chez le patient sédaté, l'examen ne dit rien : c'est la PIC, le Doppler et l'imagerie qui
+renseignent.
+
+**3. Quelle est la cause ?** Le guide européen part de l'**osmolalité urinaire** (sur un
+échantillon) : ≤ 100 mOsm/kg signe un excès d'apport d'eau ; au-delà, la **natriurèse**
+oriente. Une natriurèse ≤ 30 mmol/L évoque une hypovolémie efficace ; une natriurèse
+> 30 mmol/L fait examiner la volémie et chercher un diurétique [@spasovski2014]. Chez le
+cérébrolésé, la natriurèse est presque toujours > 30 mmol/L, et la question devient : SIADH
+ou perte de sel ?
+
+### SIADH ou perte de sel ?
+
+Les deux associent hyponatrémie, urines concentrées et natriurèse élevée. Ce qui les
+sépare, c'est la **volémie** :
+
+| | SIADH | Perte de sel (*cerebral salt wasting*) |
+|--|----|----|
+| Mécanisme | Sécrétion d'ADH non freinée : rétention d'eau | Natriurèse excessive (peptides natriurétiques ?) : perte d'eau et de sel |
+| Volémie | Normale | **Diminuée** |
+| Bilan sodé | Équilibré | **Négatif** |
+| Diurèse | Basse | Élevée |
+| Urée | Normale ou basse | Normale ou haute |
+| Pression artérielle, PVC | Normales | Hypotension orthostatique, PVC basse |
+| Traitement | Traiter la cause ; apports d'eau limités à distance de la phase aiguë | **Remplacer l'eau et le sel** |
+
+: SIADH et perte de sel, d'après le guide européen (tableau 11, adapté de Sherlock)
+[@spasovski2014; @sherlock2006]. Natriurèse > 30 mmol/L dans les deux cas.
+{#tbl-siadh-csw}
+
+Leur fréquence relative est discutée. La conférence d'experts française de 2004 tenait la
+SIADH pour « souvent évoquée à tort » après une HSA grave [@sfar_hsa2004]. Les études
+irlandaises disent l'inverse : dans la série rétrospective, les hyponatrémies < 130 mmol/L
+étaient des SIADH dans 69 % des cas et des pertes de sel dans 6,5 % [@sherlock2006] ; dans une
+cohorte prospective de 100 HSA de grade faible ou modéré, avec dosage de l'ADH et du BNP,
+on comptait 71 % de SIADH, 8 % d'insuffisance corticotrope aiguë, 10 % d'erreurs de
+perfusion, 10 % d'hypovolémie et aucune perte de sel [@hannon2014]. Le guide européen
+juge la perte de sel rare et probablement surdiagnostiquée [@spasovski2014].
+
+En pratique, la distinction compte moins qu'un principe : **chez le cérébrolésé à la phase
+aiguë, on ne crée pas d'hypovolémie**. Après une HSA, 26 patients hyponatrémiques ont été
+traités par restriction hydrique ; 21 ont fait un infarctus cérébral [@wijdicks1985]. La
+restriction hydrique est proscrite dans l'HSA [@sfar_hsa2004], et le guide européen, qui la
+propose en première ligne dans la SIADH en général, cite ce travail comme un signal de danger
+[@spasovski2014].
+
+::: {.callout-warning title="Piège : l'insuffisance corticotrope"}
+Une insuffisance surrénalienne aiguë donne exactement le tableau d'une SIADH. Elle est
+fréquente après un traumatisme crânien (cortisolémie inappropriée chez 78 % des patients,
+associée à la mortalité [@hannon2013]) et explique une partie des hyponatrémies de l'HSA
+[@hannon2014], de la chirurgie hypophysaire (@sec-base-du-crane) et des patients sous
+corticoïdes au long cours. Avant de parler de SIADH : **cortisolémie**, et hydrocortisone si
+elle est basse ou si le patient est instable.
+:::
+
+![Arbre décisionnel des dysnatrémies du cérébrolésé. La restriction hydrique dans la SIADH
+ne se discute qu'à distance de la phase aiguë, chez un patient stable et euvolémique ; elle
+est proscrite dans l'HSA.](../figures/arbre-natremie){#fig-arbre-natremie width=100%}
+
+### Corriger, sans dépasser la limite
+
+Le risque d'une correction trop rapide d'une hyponatrémie chronique est la **myélinolyse
+osmotique** (démyélinisation pontique et extrapontique), qui apparaît quelques jours plus tard
+et peut laisser un handicap grave. D'où des règles simples [@spasovski2014] :
+
+| Situation | Conduite | Grade |
+|--|-----|--|
+| **Symptômes sévères** (aiguë ou chronique) | **150 mL de NaCl 3 % en 20 min** ; natrémie à 20 min et deuxième bolus ; répéter jusqu'à + 5 mmol/L (2 mL/kg si poids très atypique) | 1D, 2D |
+| Amélioration après + 5 mmol/L | Arrêter le soluté hypertonique ; garder la voie avec un minimum de NaCl 0,9 % ; traiter la cause ; natrémie à H6, H12 puis quotidienne | 1D, 2D |
+| Pas d'amélioration | Poursuivre le NaCl 3 % pour + 1 mmol/L par heure ; arrêter dès que les symptômes cèdent, à + 10 mmol/L, ou à 130 mmol/L ; chercher une autre cause aux symptômes ; natrémie toutes les 4 h | 1D, 2D |
+| **Symptômes modérément sévères** | Un seul bolus de 150 mL de NaCl 3 % ; viser + 5 mmol/L par 24 h ; natrémie à H1, H6, H12 | 2D |
+| Hypovolémie (perte de sel) | NaCl 0,9 % ou cristalloïde balancé, 0,5 à 1 mL/kg/h (chez le cérébrolésé : NaCl 0,9 % ou balancé isotonique, pas de Ringer lactate) ; une instabilité hémodynamique prime sur la vitesse de correction | 1B |
+| **Limite de vitesse** (toutes situations) | **+ 10 mmol/L au maximum les premières 24 h, puis + 8 mmol/L par 24 h** jusqu'à 130 mmol/L | 1D |
+| Correction trop rapide | Arrêter le traitement ; avis spécialisé pour glucosé 10 mL/kg en 1 h, voire desmopressine 2 µg IV (pas plus souvent que toutes les 8 h) | 1D |
+
+: Traitement de l'hyponatrémie hypotonique selon le guide européen [@spasovski2014].
+{#tbl-hyponatremie-traitement}
+
+<!-- Le PDF de Spasovski 2014 (7.5.1.4) écrit « desmopressin 2 mg » : coquille évidente (la dose IV est de quelques microgrammes, comme dans le protocole local du diabète insipide). -->
+
+Le bolus est préférable à la perfusion continue : dans l'essai SALSA (178 hyponatrémies
+symptomatiques ≤ 125 mmol/L), les bolus répétés de NaCl 3 % ne surcorrigeaient pas plus que
+la perfusion continue (17 % contre 24 %), atteignaient plus souvent la cible de la première
+heure et demandaient moins souvent un traitement pour faire redescendre la natrémie
+[@baek2021].
+
+::: {.callout-tip title="Astuce : 150 mL de NaCl 3 %"}
+150 mL de NaCl 3 % contiennent 4,5 g de NaCl, soit 77 mmol de sodium. La recette locale de
+sérum salé hypertonique pour l'HTIC (3 × 2 g de NaCl dans 100 mL de NaCl 0,9 %, environ
+6,9 g dans 130 mL, @sec-htic) en contient davantage : ce n'est pas la même prescription.
+Chez un cérébrolésé en HTIC et hyponatrémique, un bolus d'osmothérapie corrige aussi la
+natrémie, et compte dans la limite des 24 h.
+:::
+
+<!-- TODO-VALIDER : disponibilité d'une poche prête de NaCl 3 % (150 mL) dans le service, ou recette validée par la pharmacie ; le guide européen recommande des poches préparées à l'avance (A_VALIDER, n° 40). -->
+
+::: {.callout-warning title="Piège : la correction qui s'emballe"}
+Dès que la cause disparaît, le rein se remet à éliminer l'eau et la natrémie monte toute
+seule : arrêt de la desmopressine ou d'un médicament (carbamazépine, oxcarbazépine,
+thiazidique), cortisol substitué, hypovolémie corrigée (l'ADH n'est plus stimulée). Le signe
+d'alerte est une **diurèse abondante d'urines claires**. Surveillez la diurèse horaire et la
+natrémie toutes les 4 à 6 h pendant la correction.
+:::
+
+### Les traitements de la cause
+
+- **Perte de sel ou hypovolémie** : on remplace le sel et l'eau perdus (NaCl 0,9 %, sel par
+  la sonde gastrique, NaCl hypertonique si la natrémie baisse malgré tout). La
+  **fludrocortisone** réduit la natriurèse : dans un essai randomisé de 91 HSA, la proportion
+  de bilans sodés négatifs passait de 63 à 38 % [@hasan1989] ; dans un autre (30 patients,
+  0,3 mg/j), elle évitait l'hyponatrémie, au prix d'hypokaliémies transitoires [@mori1999].
+  L'AHA la juge raisonnable dans l'HSA, la NCS estime les preuves insuffisantes (@sec-hsa)
+  [@hoh2023; @treggiari2023].
+- **SIADH** : traiter la cause (médicament, douleur, nausées, infection pulmonaire), arrêter
+  les solutés hypotoniques, apporter du sel. Le guide européen place en deuxième ligne l'urée
+  (0,25 à 0,50 g/kg/j) ou l'association diurétique de l'anse à faible dose et sel oral, et
+  déconseille les antagonistes des récepteurs de la vasopressine dans les hyponatrémies
+  modérées ou profondes [@spasovski2014].
+- **Insuffisance corticotrope** : hydrocortisone.
+
+<!-- TODO-VALIDER : le livre propose de ne pas restreindre les apports hydriques chez le cérébrolésé à la phase aiguë (HSA, TC, HTIC), même en cas de SIADH, et de traiter par le sel ; le guide européen propose la restriction en première ligne de la SIADH en population générale (2D). Préciser la politique du service (A_VALIDER, n° 40). -->
+
+## L'hypernatrémie
+
+### Les causes
+
+- **Le diabète insipide central** : traumatisme crânien grave, chirurgie de la région
+  sellaire (@sec-base-du-crane), HSA, engagement et mort encéphalique. Après un traumatisme
+  crânien, le diabète insipide est associé à la mortalité [@hannon2013].
+- **L'osmothérapie** : le sérum salé hypertonique élève la natrémie, le mannitol fait perdre
+  de l'eau libre par diurèse osmotique.
+- **L'eau qui manque** : patient sédaté qui ne boit pas, fièvre, pertes digestives, apports
+  uniquement isotoniques pendant des jours.
+
+Dans une cohorte de 130 traumatisés crâniens graves, la moitié des patients ont eu au moins
+une hypernatrémie (> 145 mmol/L deux fois dans la journée), le plus souvent modérée
+(médiane 150 mmol/L). Elle était associée à une surmortalité (risque × 3 après ajustement),
+expliquée en partie par les diabètes insipides, plus fréquents chez les patients les plus
+graves [@maggiore2009].
+
+### Le diabète insipide
+
+Le diagnostic repose sur trois critères réunis : **polyurie** (protocole local : > 400 mL en
+3 h), **urines diluées** (densité < 1005, sans glycosurie) et **natrémie > 145 mmol/L**. Le
+traitement local associe desmopressine 2 µg IV, à réinjecter seulement si la polyurie reprend
+et si la natrémie est ≥ 135 mmol/L, et compensation de la diurèse (@sec-base-du-crane). Les
+pièges sont les mêmes partout : une polyurie n'est pas toujours un diabète insipide (solutés
+peropératoires, mannitol, glycosurie), et la desmopressine expose à l'**hyponatrémie** si les
+apports continuent.
+
+::: {.callout-warning title="Piège : le diabète insipide qui annonce l'engagement"}
+Chez un traumatisé crânien grave ou après une HSA, un diabète insipide qui apparaît sans
+chirurgie hypophysaire peut traduire une souffrance de l'hypothalamus et de la tige par
+engagement. Réexaminez les pupilles et le Doppler, contrôlez la PIC, discutez une imagerie.
+:::
+
+### Corriger lentement
+
+On apporte de l'**eau libre** (eau par la sonde gastrique, soluté glucosé à 5 %) et l'on
+traite la cause. Chez le cérébrolésé, la baisse de la natrémie ne doit pas dépasser
+**12 mmol/L par 24 h**, car elle peut majorer une HTIC [@sfar_hsa2004]. Ce chiffre vient d'un
+avis d'experts de 2004 ; en réanimation générale, une correction plus rapide n'était pas
+associée à une surmortalité ni à des œdèmes cérébraux dans une étude rétrospective
+[@chauhan2019], mais les cérébrolésés à compliance épuisée n'y étaient pas étudiés à part :
+on reste prudent.
+
+Une hypernatrémie **voulue** (osmothérapie) se gère autrement : on n'induit pas
+d'hypernatrémie prolongée pour contrôler la PIC (GRADE 2−, R10.1) [@sfar_tcgrave2016], et
+l'on ne fait pas non plus chuter brutalement une natrémie haute chez un patient dont la PIC
+est encore fragile : on cesse les bolus, puis on laisse la natrémie redescendre lentement
+(@sec-pharmacologie).
+
+## La dérivation ventriculaire externe
+
+### Le système
+
+La DVE est un cathéter introduit par un trou de trépan frontal (point de Kocher) dans la
+corne frontale du ventricule latéral, tunnélisé sous la peau, puis relié à une ligne qui
+porte un **robinet**, un **capteur de pression** et une **chambre de recueil graduée** en
+cmH~2~O, elle-même reliée à une **poche**. Le système est clos.
+
+- Le **zéro** de la graduation se règle au niveau du **conduit auditif externe** (repère du
+  trou de Monro), comme le zéro de la pression artérielle (@sec-monitorage).
+- La **hauteur** prescrite est la hauteur du point d'écoulement de la chambre au-dessus de ce
+  zéro. Le LCS ne s'écoule que si la pression dans le ventricule dépasse cette hauteur :
+  **la hauteur est un seuil de pression**. 1 mmHg = 1,36 cmH~2~O ; une DVE à +15 cmH~2~O
+  draine au-delà d'environ 11 mmHg.
+- Les plexus choroïdes produisent environ **20 mL de LCS par heure** (@sec-anatomie) : un
+  débit très supérieur pendant plusieurs heures traduit un hyperdrainage ou un siphonnage ; un
+  débit nul, une obstruction ou une hauteur trop haute.
+
+La DVE est à la fois un **monitorage** (la PIC, quand elle est fermée) et un **traitement**
+(le drainage de l'hydrocéphalie, ou d'un peu de LCS pour baisser la PIC, @sec-htic). Le
+drainage lombaire externe, utilisé pour les fuites de LCS après une chirurgie de la base du
+crâne (@sec-base-du-crane), ne se pose jamais en présence d'une masse ou d'une hydrocéphalie
+obstructive (risque d'engagement, @sec-physiopathologie).
+
+### La pose
+
+La pose est un geste neurochirurgical, au bloc ou au lit selon la situation du patient
+(recommandation conditionnelle, faible niveau de preuve) [@fried2016]. Pour l'anesthésiste,
+trois points :
+
+- **L'hémostase** : hors extrême urgence, la coagulopathie et les antithrombotiques sont
+  corrigés avant la pose, selon le protocole de l'établissement [@fried2016]. Le protocole
+  local applique aux DVE les délais d'arrêt de la chirurgie intracrânienne (@sec-preop) ;
+  en urgence, on suit les recommandations de réversion (@sec-htic). Sous antiagrégant, une DVE
+  en urgence justifie une transfusion de plaquettes, exception à la règle « pas de
+  plaquettes » (@sec-nri). Une hémorragie est visible au scanner après 7 % des poses, mais
+  n'a de conséquence clinique que dans moins de 1 % des cas [@bauer2011].
+- **L'antibioprophylaxie** : les textes divergent. La SFAR ne recommande pas
+  d'antibioprophylaxie pour la pose d'une DVE ou d'un drain lombaire chez l'adulte (avis
+  d'experts) [@sfar_atb2023] ; la NCS suggère une dose unique avant la pose (conditionnelle,
+  faible) [@fried2016] et l'IDSA la recommande (forte, modérée) [@tunkel2017]. Tous
+  s'accordent sur un point : **pas d'antibiotique pendant toute la durée de la DVE**, qui
+  n'apporte rien et sélectionne des bactéries résistantes et des colites à *C. difficile*
+  (NCS forte ; IDSA forte) [@fried2016; @tunkel2017].
+- **L'HSA non exclue** : la DVE se pose avant l'embolisation et se règle à **+15 cmH~2~O** au
+  moins jusqu'à l'exclusion de l'anévrysme (@sec-hsa).
+
+<!-- TODO-VALIDER : antibioprophylaxie à la pose d'une DVE : SFAR 2023 (pas d'ABP, avis d'experts) contre NCS 2016 (dose unique, conditionnelle) et IDSA 2017 (recommandée, forte) ; préciser la pratique locale, et si le service utilise des cathéters imprégnés (A_VALIDER, n° 41). -->
+
+### La prescription quotidienne
+
+Une DVE se prescrit chaque jour, par écrit :
+
+1. **Le mode** : ouverte en continu à une hauteur donnée, ou fermée avec ouverture si la PIC
+   dépasse un seuil.
+2. **La hauteur** en cmH~2~O au-dessus du conduit auditif externe.
+3. **Le débit attendu** et les seuils qui imposent d'appeler (débit nul, débit excessif).
+4. **La surveillance** : PIC (DVE fermée), aspect du LCS, oscillations, examen neurologique,
+   pansement.
+
+<!-- TODO-VALIDER : aucun protocole local de surveillance infirmière de la DVE dans les sources : hauteur par défaut hors HSA, seuils de débit horaire et journalier qui déclenchent un appel, fréquence de la mesure de la PIC, conduite en cas de débit nul (A_VALIDER, n° 41). -->
+
+::: {.callout-warning title="Piège : une DVE ouverte ne mesure pas la PIC"}
+Ouverte, la DVE affiche à peu près la hauteur de la chambre. Pour lire la PIC, on ferme le
+drainage vers la poche en laissant le capteur relié au ventricule, on attend quelques minutes,
+on lit, puis on rouvre si la prescription le demande (@sec-monitorage).
+:::
+
+### Mobiliser et transporter un patient porteur de DVE
+
+Toute modification de la position de la tête par rapport à la chambre change la hauteur
+réelle. Si la poche ou la chambre tombe sous le niveau de la tête, le LCS est **siphonné** :
+le ventricule se vide en quelques minutes.
+
+- **Clamper** la DVE avant toute mobilisation, toilette, transfert, transport au scanner, et
+  pendant les aspirations trachéales et les efforts de toux (protocole du service).
+- **Refaire le zéro** et la hauteur une fois le patient réinstallé, puis **déclamper** : une
+  DVE oubliée fermée chez un patient hydrocéphale fait une HTIC.
+- Noter l'heure du clampage et du déclampage.
+
+::: {.callout-note title="Ce que disent les recommandations"}
+Consensus de la Neurocritical Care Society sur la DVE [@fried2016] :
+
+- cathéters **imprégnés d'antimicrobiens** dans le cadre d'un protocole de gestion
+  (recommandation forte, niveau modéré) ;
+- **pas de prélèvement de LCS systématique** : seulement sur indication clinique
+  (conditionnelle, faible) ; l'IDSA déconseille aussi les prélèvements quotidiens hors
+  indication (forte, faible) [@tunkel2017], comme la conférence d'experts française de 2004
+  [@sfar_hsa2004] ;
+- **pas de changement systématique** du cathéter (forte, modérée) ;
+- un **protocole de pose et de gestion** (« bundle ») : asepsie de pose, système clos
+  manipulé le moins possible, pansements et sevrage standardisés (forte, modérée) ;
+- **prévention de la maladie thromboembolique** pendant toute l'immobilisation (forte,
+  faible) : compression pneumatique si l'héparine est contre-indiquée, héparine une fois
+  l'hémorragie intracrânienne exclue ou stable ;
+- **retrait dès que possible** (déclaration de bonne pratique).
+:::
+
+### Les complications
+
+**L'hyperdrainage.** Un drainage trop rapide fait collaber les ventricules et peut
+provoquer un hématome sous-dural par traction sur les veines ; il expose à un **engagement
+ascendant** en cas de lésion de la fosse postérieure (@sec-htic) et à un **resaignement**
+d'un anévrysme non exclu (@sec-hsa). Céphalées en position assise, débit élevé, ventricules
+fins au scanner : on remonte la DVE.
+
+**L'obstruction.** Pas de LCS, plus d'oscillations, PIC qui monte, patient qui s'aggrave :
+caillot, débris, cathéter sorti du ventricule, robinet mal tourné. On vérifie le système de la
+tête à la poche (robinets, coudure, hauteur) et l'on appelle le neurochirurgien. **On ne
+rince pas** une DVE soi-même : l'irrigation est un facteur de risque d'infection
+[@lozier2002; @tunkel2017].
+
+**L'hémorragie** : à la pose (voir plus haut) ou au retrait ; scanner à toute aggravation.
+
+**L'infection (ventriculite).** Elle survient dans environ 11 cas pour 1000 jours de
+cathéter. Les facteurs de risque sont le sang intraventriculaire ou sous-arachnoïdien, la
+fracture avec fuite de LCS, la craniotomie, l'irrigation et la durée de drainage
+[@tunkel2017; @lozier2002]. Dans un essai randomisé, les cathéters imprégnés de minocycline
+et de rifampicine divisaient par sept les cultures de LCS positives (1,3 % contre 9,4 %)
+[@zabramski2003]. Le changement systématique du cathéter au bout de quelques jours ne
+diminue pas le risque [@lozier2002; @fried2016].
+
+::: {.callout-warning title="Piège : diagnostiquer une ventriculite"}
+Le diagnostic est difficile : la fièvre a mille causes en neuroréanimation, et le sang dans
+le LCS en modifie la cellularité, la glycorachie et la protéinorachie. Ni un LCS anormal ne
+prouve l'infection, ni un LCS normal ne l'exclut ; un examen direct négatif non plus,
+surtout sous antibiotique [@tunkel2017]. Ce qui fait suspecter l'infection : une fièvre
+nouvelle, une altération de la vigilance, une cellularité **qui augmente** d'un prélèvement
+à l'autre. Ce qui la prouve : la **culture**.
+
+- Prélever sur le **site de prélèvement de la ligne**, en asepsie, jamais dans la poche ;
+  hémocultures ; prélèvements avant l'antibiotique si l'état du patient le permet.
+- Demander une culture prolongée (au moins 10 jours) pour les germes lents
+  (*Cutibacterium acnes*) [@tunkel2017].
+- Traitement probabiliste : **vancomycine et bêtalactamine antipyocyanique** (céfépime,
+  ceftazidime ou méropénème), selon l'écologie locale [@tunkel2017], puis adaptation à
+  l'antibiogramme ; **retrait ou changement de la DVE infectée** (forte) ; antibiotique
+  intraventriculaire si l'infection répond mal au traitement intraveineux ou si le germe est
+  multirésistant, avec l'infectiologue (DVE clampée 15 à 60 min après l'injection)
+  [@tunkel2017; @fried2016] ; durée de 10 à 14 jours le plus souvent [@tunkel2017].
+:::
+
+### Le sevrage
+
+La DVE se retire **dès qu'elle n'est plus utile**, car le risque infectieux augmente avec le
+temps [@fried2016]. On commence quand le patient est stable, que le LCS s'éclaircit et que
+le débit diminue. Deux stratégies :
+
+- **Sevrage progressif** : on remonte la DVE par paliers sur plusieurs jours, puis on la
+  clampe.
+- **Clampage direct**, avec réouverture si la PIC dépasse un seuil ou si le patient
+  s'aggrave.
+
+Le seul essai randomisé (91 HSA) ne trouvait pas de différence de dérivation définitive
+(62,5 % contre 63,4 %), mais 2,8 jours de réanimation en plus avec le sevrage progressif
+[@fried2016]. Des études observationnelles associent le drainage intermittent et le sevrage
+rapide à moins de dérivations définitives, moins de DVE dysfonctionnelles et des séjours plus
+courts [@rao2020; @chung2022]. Dans une cohorte française de 407 HSA (cinq centres), le
+clampage direct échouait plus souvent (46 % contre 35 %) mais raccourcissait les séjours ; un
+échec du clampage était associé à un drainage et à un séjour en réanimation plus longs
+[@lomo2025]. La NCS 2023 ne tranche pas pour l'HSA (@sec-hsa) [@treggiari2023].
+
+En 2004, les experts français proposaient de sevrer en dehors du sevrage ventilatoire et du
+vasospasme, de surveiller la PIC pendant 48 h après le clampage (ondes en plateau,
+notamment nocturnes), de faire un **scanner avant le retrait**, d'arrêter les anticoagulants
+12 h avant le retrait et de les reprendre 24 h après, et de poser une dérivation définitive si
+la PIC dépasse 20 mmHg ou si des ondes en plateau apparaissent [@sfar_hsa2004] (historique).
+Une hydrocéphalie chronique symptomatique impose une dérivation définitive
+ventriculopéritonéale (@sec-hsa) [@hoh2023].
+
+<!-- TODO-VALIDER : stratégie de sevrage de la DVE du service (progressive ou clampage direct, seuil de PIC de réouverture, scanner avant retrait) ; délai HBPM et retrait (A_VALIDER, n° 41). -->
+
+## Cas cliniques
+
+### Cas 1 : la polyurie du traumatisé crânien
+
+Un homme de 34 ans est en réanimation à J2 d'un traumatisme crânien grave (contusions
+bifrontales, PIC 18 mmHg sous sédation). Il a reçu deux bolus de sérum salé hypertonique la
+veille. Depuis 4 h, la diurèse est de 300 mL/h d'urines très claires. Natrémie 154 mmol/L
+(148 mmol/L à 6 h).
+
+1. Quelles causes évoquez-vous, et comment les distinguer ?
+2. Le diagnostic de diabète insipide est retenu. Que faites-vous ?
+3. Le lendemain, la natrémie est à 131 mmol/L. Que s'est-il passé ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. L'hypernatrémie peut venir du sérum salé hypertonique, mais celui-ci ne donne pas une
+   polyurie d'urines diluées. Une diurèse osmotique (mannitol, glycosurie) donne des urines
+   peu diluées. Un **diabète insipide** associe polyurie, densité < 1005 sans glycosurie et
+   natrémie > 145 mmol/L. Chez un traumatisé crânien grave, il est associé à la mortalité
+   [@hannon2013] et peut annoncer un engagement : examen des pupilles, Doppler, PIC.
+2. Desmopressine 2 µg IV selon le protocole, compensation de la diurèse, ionogramme à H12 et
+   H24 et diurèse toutes les 3 h (@sec-base-du-crane). On fait baisser la natrémie
+   **lentement**, sans dépasser 12 mmol/L par 24 h [@sfar_hsa2004] : la PIC est encore
+   fragile.
+3. Une baisse de 23 mmol/L en 24 h : la desmopressine a coupé la polyurie pendant que la
+   compensation et les apports continuaient. C'est une **intoxication par l'eau** chez un
+   cerveau œdémateux : arrêt des apports d'eau libre, pas de réinjection de desmopressine sous
+   135 mmol/L, natrémie rapprochée, contrôle de la PIC ; NaCl hypertonique si la PIC monte.
+:::
+
+### Cas 2 : l'hyponatrémie de J6
+
+Une femme de 56 ans est à J6 d'une HSA embolisée (WFNS II). Elle est plus confuse. Natrémie
+127 mmol/L (134 mmol/L à J4). Diurèse 3,5 L/24 h, PA 105/60 mmHg, natriurèse 110 mmol/L,
+osmolalité urinaire 480 mOsm/kg. Le Doppler est stable.
+
+1. La confusion est-elle due à l'hyponatrémie ?
+2. SIADH ou perte de sel ? Quel traitement ?
+3. L'interne propose une restriction hydrique à 1 L/j. Qu'en pensez-vous ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. Peut-être, mais à J6 d'une HSA une confusion est une **ischémie cérébrale retardée**
+   jusqu'à preuve du contraire, ou une hydrocéphalie (@sec-hsa) : scanner, angioscanner et
+   perfusion selon le protocole. La confusion est un symptôme modérément sévère de
+   l'hyponatrémie (@tbl-symptomes-hyponatremie) : un bolus de 150 mL de NaCl 3 % est raisonnable
+   [@spasovski2014], ce qui corrige aussi un facteur d'œdème.
+2. Diurèse abondante, natriurèse élevée et PA basse évoquent une **perte de sel** avec
+   hypovolémie, même si une SIADH reste plus fréquente dans les séries prospectives
+   [@hannon2014]. On contrôle aussi la cortisolémie. Traitement : NaCl 0,9 % pour l'euvolémie,
+   sel, fludrocortisone à discuter [@hasan1989; @hoh2023], sans dépasser + 10 mmol/L le
+   premier jour [@spasovski2014].
+3. **Non.** Après une HSA, la restriction hydrique est associée à l'infarctus cérébral
+   [@wijdicks1985] et elle est proscrite [@sfar_hsa2004] : l'hypovolémie aggrave l'ischémie
+   retardée.
+:::
+
+### Cas 3 : la DVE du transfert
+
+Un homme de 62 ans est porteur d'une DVE pour une hémorragie intraventriculaire. Prescription :
+DVE ouverte à +10 cmH~2~O. On l'emmène au scanner. Au retour, il est somnolent, la chambre
+est restée ouverte pendant le trajet, posée sur le lit à côté de ses jambes. À J8, il a
+38,6 °C.
+
+1. Que s'est-il passé pendant le transport ?
+2. Comment l'éviter ?
+3. Comment explorez-vous la fièvre de J8 ?
+
+::: {.callout-note title="Réponses" collapse="true"}
+1. La chambre se trouvait bien sous le niveau de la tête : le LCS a été **siphonné**. Risque
+   de ventricules collabés, d'hématome sous-dural, d'aggravation neurologique. Scanner (il est
+   justement fait) et réglage de la DVE.
+2. **Clamper** la DVE avant la mobilisation et le transport, la fixer au patient, refaire le
+   zéro et la hauteur au retour, puis **déclamper** et noter les horaires
+   (protocole du service).
+3. Une ventriculite est possible (sang intraventriculaire, J8) mais la fièvre a d'autres
+   causes (pneumopathie, cathéters, fièvre centrale, thrombose). Examen, hémocultures, LCS
+   prélevé en asepsie sur le site de prélèvement de la ligne (cellularité comparée aux
+   précédentes, culture prolongée), imagerie [@tunkel2017]. Si l'infection est probable :
+   vancomycine et bêtalactamine antipyocyanique, discussion du changement de DVE avec le
+   neurochirurgien, et un sevrage le plus rapide possible.
+:::
+
+## Fiche pratique
+
+::: {.fiche-pratique}
+| Rubrique | Contenu |
+|--|------|
+| Objectifs | Natrémie normale et stable (135–145 mmol/L ; moitié haute chez le TC grave) ; aucune variation rapide ; pas d'hypovolémie ; DVE qui draine ce qui est prescrit, sans infection, retirée dès que possible |
+| Monitorage | Natrémie au moins quotidienne, toutes les 4 à 6 h pendant une correction ou sous desmopressine ; glycémie, osmolalité ; diurèse horaire, densité, bilan entrées-sorties, poids ; natriurèse et osmolalité urinaire ; cortisolémie si hyponatrémie ; DVE : hauteur, débit horaire, aspect du LCS, oscillations, PIC (DVE fermée), pansement |
+| Traitement | Hyponatrémie avec symptômes sévères : NaCl 3 % 150 mL en 20 min, jusqu'à 2 fois, cible + 5 mmol/L ; perte de sel : NaCl 0,9 %, sel, ± fludrocortisone ; diabète insipide : desmopressine 2 µg IV et compensation (protocole local) ; hypernatrémie : eau libre ; DVE : prescription écrite quotidienne (mode, hauteur, débit, seuils d'appel) |
+| Cibles | Hyponatrémie : + 10 mmol/L au maximum les premières 24 h, puis + 8 mmol/L par 24 h ; hypernatrémie : baisse ≤ 12 mmol/L par 24 h ; DVE à +15 cmH~2~O tant qu'un anévrysme rompu n'est pas exclu |
+| Pièges | Pseudo-hyponatrémie (glycémie, mannitol) ; insuffisance corticotrope prise pour une SIADH ; restriction hydrique après une HSA ; correction qui s'emballe à la reprise de la diurèse ; desmopressine avec apports continus ; diabète insipide qui annonce l'engagement ; DVE ouverte lue comme une PIC ; transport sans clampage (siphonnage) ; DVE oubliée clampée ; rinçage de la DVE ; prélèvements de LCS systématiques ; antibiotique pendant toute la durée de la DVE |
+| Post-opératoire | Ionogramme de fin de première semaine après chirurgie hypophysaire (SIADH de J7–J10) ; sevrage de la DVE quand le patient est stable ; scanner avant le retrait ; dérivation définitive si hydrocéphalie chronique ; thromboprophylaxie pendant toute l'immobilisation |
+
+: Fiche pratique : dysnatrémies et DVE en réanimation {#tbl-fiche-dysnatremies-dve}
+:::
 
 ::: {.callout-caution title="À retenir"}
-- *À rédiger.*
+- La BHE ne laisse pas passer le sodium : la natrémie gouverne l'eau du cerveau, et sa vitesse
+  de variation compte autant que sa valeur.
+- Devant une hyponatrémie : éliminer une hyperglycémie ou un mannitol, juger la gravité sur
+  les symptômes, chercher la cause par l'osmolalité urinaire, la natriurèse et la volémie,
+  doser la cortisolémie.
+- Symptômes sévères : 150 mL de NaCl 3 % en 20 min, jusqu'à 2 fois, pour + 5 mmol/L. Jamais
+  plus de + 10 mmol/L les premières 24 h, puis + 8 mmol/L par 24 h.
+- Chez le cérébrolésé à la phase aiguë, pas d'hypovolémie : pas de restriction hydrique après
+  une HSA ; on donne du sel.
+- Diabète insipide : polyurie, urines diluées, natrémie > 145 mmol/L ; desmopressine à dose
+  minimale et natrémie rapprochée ; baisse ≤ 12 mmol/L par 24 h.
+- La hauteur d'une DVE est un seuil de pression mesuré depuis le conduit auditif externe ;
+  une DVE ouverte ne mesure pas la PIC ; on clampe pour mobiliser, on déclampe après.
+- Ventriculite : cultures, pas d'antibiotique continu en prévention, pas de prélèvements ni de
+  changements systématiques ; la DVE se retire dès qu'elle ne sert plus.
 :::
