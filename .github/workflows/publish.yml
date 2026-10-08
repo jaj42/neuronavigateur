@@ -23,11 +23,17 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 1.8.27
-          tinytex: true
 
-      # Fonts used by the PDF (mainfont/sansfont/monofont in _quarto.yml)
-      - name: Install TeX Gyre fonts
-        run: tlmgr install tex-gyre
+      # Distribution TeX Live, same packages as the local machine.
+      # fonts-texgyre: Pagella/Heros/Cursor (mainfont/sansfont/monofont in _quarto.yml)
+      # texlive-fonts-extra: fontawesome5, used by Quarto's PDF callouts
+      - name: Install TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            texlive-luatex texlive-latex-recommended texlive-latex-extra \
+            texlive-fonts-recommended texlive-fonts-extra texlive-lang-french \
+            fonts-texgyre fonts-texgyre-math
 
       - name: Render book (PDF + HTML)
         run: quarto render
