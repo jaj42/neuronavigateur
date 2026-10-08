@@ -1,7 +1,8 @@
 # Abréviations {#sec-abreviations}
 
 Les noms d'essais cliniques (CRASH-3, DECRA, TRAIN…) sont développés dans les chapitres qui
-les citent.
+les citent. Les jours et les heures sont notés J et H à partir de l'événement (J0, H24), et les
+recommandations par la lettre R suivie de leur numéro dans le texte cité (R2.1).
 
 | Abréviation | Signification |
 |--|------|
@@ -20,26 +21,34 @@ les citent.
 | AIVOC | Anesthésie intraveineuse à objectif de concentration |
 | AL | Anesthésie locale |
 | AOD | Anticoagulant oral direct |
+| ARM | Angiographie par résonance magnétique |
+| ASA | *American Stroke Association* |
 | ASPECTS | *Alberta Stroke Program Early CT Score* |
 | AVC | Accident vasculaire cérébral |
 | AVK | Antivitamine K |
 | BAV | Bloc auriculoventriculaire |
 | BHE | Barrière hématoencéphalique |
 | BIS | Index bispectral |
+| BLSE | Bêtalactamase à spectre étendu |
+| BNP | Peptide natriurétique de type B |
 | BSR | *Burst suppression ratio*, taux de suppression |
 | BTF | *Brain Trauma Foundation* |
 | CCP | Concentré de complexe prothrombinique |
 | CMRO~2~ | Consommation cérébrale d'oxygène |
 | ComA, ComP | Artère communicante antérieure, postérieure |
 | CPI | Compression pneumatique intermittente |
+| CRP | Protéine C réactive |
 | DCI | *Delayed cerebral ischemia*, ischémie cérébrale retardée |
 | DFG | Débit de filtration glomérulaire |
 | DSC | Débit sanguin cérébral |
 | DTC | Doppler transcrânien |
 | DVE | Dérivation ventriculaire externe |
+| ECBU | Examen cytobactériologique des urines |
+| ECG | Électrocardiogramme |
 | ECMO | Oxygénation par membrane extracorporelle |
 | ECoG | Électrocorticographie |
 | EEG | Électroencéphalogramme |
+| EMG | Électromyogramme |
 | EP | Équivalent phénytoïne |
 | EPPI | Eau pour préparation injectable |
 | ESO | *European Stroke Organisation* |
@@ -47,10 +56,14 @@ les citent.
 | ETO, ETT | Échocardiographie transœsophagienne, transthoracique |
 | FA | Fibrillation atriale |
 | FC | Fréquence cardiaque |
+| FLAIR | *Fluid-attenuated inversion recovery* (séquence d'IRM) |
 | FOP | Foramen ovale perméable |
 | FOUR | *Full Outline of UnResponsiveness* (@tbl-four) |
 | GDS | Gaz du sang |
+| GH, IGF-1 | Hormone de croissance, *insulin-like growth factor 1* |
 | GIHP | Groupe d'intérêt en hémostase périopératoire |
+| GLP-1 | *Glucagon-like peptide 1* (agonistes : analogues du GLP-1) |
+| HAS | Haute Autorité de santé |
 | HBPM | Héparine de bas poids moléculaire |
 | HED | Hématome extradural |
 | HNF | Héparine non fractionnée |
@@ -59,9 +72,12 @@ les citent.
 | HSHC | Hémisuccinate d'hydrocortisone |
 | HTA | Hypertension artérielle |
 | HTIC | Hypertension intracrânienne |
+| IA, IM, IT | Insuffisance aortique, mitrale, tricuspide |
 | IADE | Infirmier anesthésiste |
+| IC 95 % | Intervalle de confiance à 95 % |
 | IDSA | *Infectious Diseases Society of America* |
 | IEC | Inhibiteur de l'enzyme de conversion |
+| IMC | Indice de masse corporelle |
 | INR | *International normalized ratio* |
 | IP | Index de pulsatilité (Doppler transcrânien) |
 | IPP | Inhibiteur de la pompe à protons |
@@ -69,12 +85,15 @@ les citent.
 | IVD, IVL, IVSE | Intraveineux direct, lent, à la seringue électrique |
 | KTA | Cathéter artériel |
 | KTC | Cathéter veineux central |
-| LCS | Liquide cérébrospinal |
+| LCR | Liquide céphalo-rachidien |
+| LH, FSH | Hormone lutéinisante, hormone folliculostimulante |
 | MAC | Concentration alvéolaire minimale ; en chirurgie éveillée, *monitored anesthesia care* (sédation consciente) |
 | MAPA | Mesure ambulatoire de la pression artérielle |
+| MAV | Malformation artérioveineuse |
 | mRS | Échelle de Rankin modifiée (@tbl-rankin) |
 | MTEV | Maladie thromboembolique veineuse |
 | NCS | *Neurocritical Care Society* |
+| NFS | Numération-formule sanguine |
 | NIHSS | *National Institutes of Health Stroke Scale* (@tbl-nihss) |
 | NIM | Monitorage peropératoire des nerfs crâniens (sonde d'intubation à électrodes) |
 | NIRS | Spectroscopie dans le proche infrarouge |
@@ -82,24 +101,35 @@ les citent.
 | NRI | Neuroradiologie interventionnelle |
 | NVPO | Nausées et vomissements postopératoires |
 | OAA/S | *Observer's Assessment of Alertness/Sedation* (@tbl-oaas) |
+| OAP | Œdème aigu du poumon |
+| OR | *Odds ratio*, rapport des cotes |
+| ORL | Oto-rhino-laryngologie |
 | PA, PAM, PAS | Pression artérielle, artérielle moyenne, artérielle systolique |
 | PaCO~2~, PaO~2~ | Pressions partielles artérielles en CO~2~ et en O~2~ |
 | PEA, PEM, PES | Potentiels évoqués auditifs, moteurs, somesthésiques |
 | PEP | Pression expiratoire positive |
 | PIC | Pression intracrânienne |
 | PL | Ponction lombaire |
+| PLS | Position latérale de sécurité |
+| PNI | Pression artérielle non invasive |
 | PPC, PPCopt | Pression de perfusion cérébrale, PPC optimale |
 | PRx | *Pressure reactivity index*, indice de réactivité vasculaire |
 | PSI | *Patient State Index* |
 | PtiO~2~ | Pression tissulaire cérébrale en oxygène |
+| PVC | Pression veineuse centrale |
 | RAI | Recherche d'agglutinines irrégulières |
 | RFE | Recommandations formalisées d'experts |
 | RPP | Recommandations pour la pratique professionnelle |
+| RR | Risque relatif |
+| SAMU | Service d'aide médicale urgente |
+| SARM | *Staphylococcus aureus* résistant à la méticilline |
 | SAS | Technique endormi-éveillé-endormi (*asleep-awake-asleep*) |
+| SDRA | Syndrome de détresse respiratoire aiguë |
 | SEEG | Stéréo-électroencéphalographie |
 | SFAR | Société française d'anesthésie et de réanimation |
 | SFMU | Société française de médecine d'urgence |
 | SFNC | Société française de neurochirurgie |
+| SGLT2 | Cotransporteur sodium-glucose de type 2 (inhibiteurs : gliflozines) |
 | SIADH | Sécrétion inappropriée d'hormone antidiurétique |
 | SIBICC | *Seattle International Severe Traumatic Brain Injury Consensus Conference* |
 | SNG | Sonde nasogastrique |
@@ -113,8 +143,13 @@ les citent.
 | TICI | *Thrombolysis in Cerebral Infarction* (grade de recanalisation) |
 | TOF | *Train of four*, train de quatre |
 | TP | Taux de prothrombine |
+| TSH | Thyréostimuline |
+| TVP | Thrombose veineuse profonde |
+| UI | Unité internationale |
+| UNV | Unité neurovasculaire |
 | USC | Unité de surveillance continue |
 | USI, USINV | Unité de soins intensifs, de soins intensifs neurovasculaires |
+| VCS, OD | Veine cave supérieure, oreillette droite |
 | Vd, Vm, Vs | Vitesses diastolique, moyenne, systolique (Doppler transcrânien) |
 | VNI | Ventilation non invasive |
 | VVC, VVP | Voie veineuse centrale, périphérique |

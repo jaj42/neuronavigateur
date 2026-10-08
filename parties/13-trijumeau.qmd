@@ -20,7 +20,13 @@ La névralgie du trijumeau est une douleur **paroxystique, en décharge électri
 nerf trijumeau, le plus souvent V2 (maxillaire) et V3 (mandibulaire). Elle est **déclenchée**
 par des stimulations banales de la face ou de la bouche : parler, mâcher, se brosser les dents,
 se raser, un courant d'air. Entre les accès, le patient est soulagé, mais il vit dans la crainte
-du suivant. Le nerf trijumeau (V) est présenté au @sec-anatomie.
+du suivant. Le nerf trijumeau (V) est présenté au @sec-anatomie ; son ganglion et ses trois
+branches sont sur la @fig-trijumeau.
+
+![Nerf trijumeau, vue latérale (légendes anglaises) : ganglion trigéminal (de Gasser,
+« semilunar ganglion ») et ses trois branches, 1 ophtalmique (V1), 2 maxillaire (V2),
+3 mandibulaire (V3). D'après Gray ; Lipothymia, Wikimedia Commons, CC BY-SA
+3.0.](../figures/wikimedia/trijumeau.png){#fig-trijumeau width=55%}
 
 La classification actuelle distingue trois formes [@cruccu2016; @bendtsen2019] :
 
@@ -33,8 +39,8 @@ La classification actuelle distingue trois formes [@cruccu2016; @bendtsen2019] :
 - **Idiopathique** : ni conflit déformant ni cause retrouvée.
 
 Une **IRM** avec séquences de haute résolution fait partie du bilan, car aucun signe clinique
-n'exclut une forme secondaire. Un contact vasculaire sans déformation est fréquent chez les
-sujets sains : il ne confirme pas le diagnostic, mais il aide à décider d'une chirurgie
+n'exclut une forme secondaire. Un contact vasculaire sans déformation est fréquent, y compris du
+côté non douloureux : il ne confirme pas le diagnostic, mais il aide à décider d'une chirurgie
 [@bendtsen2019].
 
 ### Le traitement médical d'abord
@@ -45,8 +51,9 @@ ajoutés ou substitués. Une chirurgie est proposée quand la douleur reste mal 
 traitement est mal toléré (somnolence, ataxie, hyponatrémie, troubles cognitifs du sujet âgé).
 La **décompression microvasculaire** est la chirurgie de première intention de la forme
 classique ; les techniques **lésionnelles** (thermocoagulation, compression par ballonnet,
-rhizolyse au glycérol, radiochirurgie) sont préférées quand l'IRM ne montre pas de conflit, ou
-chez le patient trop fragile pour une craniotomie [@bendtsen2019].
+rhizolyse au glycérol, radiochirurgie) sont préférées quand l'IRM ne montre pas de conflit, et
+proposées au patient qui ne peut pas ou ne veut pas subir une craniotomie [@bendtsen2019] ;
+le protocole du service souligne qu'elles peuvent être répétées chez le patient fragile.
 
 À Lariboisière, deux interventions sont réalisées : la **thermocoagulation du ganglion de
 Gasser** et la **décompression microvasculaire**.
@@ -92,7 +99,7 @@ quand le patient dort déjà.
 
 Une aiguille est introduite à travers la joue jusqu'au **foramen ovale**, sous contrôle
 radioscopique, pour atteindre le ganglion de Gasser (ganglion trigéminal) dans la fosse
-crânienne moyenne. Une électrode y délivre d'abord un **courant de stimulation**, qui provoque
+crânienne moyenne (@fig-trijumeau). Une électrode y délivre d'abord un **courant de stimulation**, qui provoque
 des paresthésies chez le patient éveillé : leur topographie confirme que l'électrode est dans le
 bon territoire. Puis un **courant de lésion** chauffe les fibres et les détruit partiellement.
 
@@ -113,7 +120,7 @@ Elles découlent de la lésion volontaire d'un nerf sensitif et de la proximité
 | Dysesthésies | 1 % | Sensations désagréables permanentes dans le territoire traité |
 | Anesthésie douloureuse | 0,8 % | Douleur dans une zone insensible, très difficile à traiter |
 | Paralysie transitoire du III ou du VI | 0,8 % | Diffusion de la lésion vers le sinus caverneux |
-| Fistule carotido-caverneuse, fuite de LCS, méningite aseptique | Exceptionnelles | Ponction trop profonde ou mal orientée |
+| Fistule carotido-caverneuse, fuite de LCR, méningite aseptique | Exceptionnelles | Ponction trop profonde ou mal orientée |
 
 : Complications de la thermocoagulation du ganglion de Gasser (1600 patients) {#tbl-complications-gasser}
 
@@ -167,19 +174,23 @@ de ce qui se passe si vous devez ventiler au masque.
 
 **Le réflexe trigémino-cardiaque.** La stimulation du nerf trijumeau, à n'importe quel point de
 son trajet, peut déclencher une réponse vagale brutale : **bradycardie**, parfois jusqu'à
-l'asystolie, **hypotension**, voire apnée [@schaller1999]. Pendant la thermocoagulation, il
-survient surtout à la ponction du foramen ovale et pendant la lésion. Le traitement est simple :
-**demander l'arrêt de la stimulation** ; la fréquence remonte en quelques secondes. Si la
-bradycardie persiste ou se répète, **atropine** (0,5 mg chez l'adulte). À l'inverse, la douleur de
+l'asystolie, **hypotension**, voire apnée [@schaller1999]. Pendant la thermocoagulation, la
+ponction du foramen ovale et la lésion stimulent directement le nerf : c'est là qu'il faut
+l'attendre. Le traitement est simple : **demander l'arrêt de la stimulation** ; dans la série
+de Schaller, la fréquence et la pression revenaient à leur niveau de départ à l'arrêt de la
+manipulation [@schaller1999]. Si la bradycardie persiste ou se répète, **atropine** (dose
+usuelle de 0,5 mg chez l'adulte ; le protocole local n'en parle pas). À l'inverse, la douleur de
 la ponction chez un patient trop peu sédaté donne une poussée hypertensive et tachycarde.
 
 ::: {.callout-warning title="Piège"}
 La dexmédétomidine semble une bonne idée pour une sédation chez un patient fragile : elle ne
-déprime pas la ventilation. Mais elle se prête mal à cette procédure. Son délai de réveil ne
-permet pas les allers-retours rapides entre sommeil et test, et elle s'ajoute au réflexe
-trigémino-cardiaque : dans une série rétrospective de 517 thermocoagulations, la bradycardie
-était deux fois plus fréquente sous dexmédétomidine (59,8 % contre 29,0 %), avec quatre fois
-plus de recours à l'atropine [@tang2026].
+déprime pas la ventilation. Mais elle s'ajoute au réflexe trigémino-cardiaque : dans une série
+rétrospective de 517 thermocoagulations, la bradycardie était deux fois plus fréquente sous
+dexmédétomidine (59,8 % contre 29,0 %), avec près de quatre fois plus de recours à l'atropine
+(18,1 % contre 4,8 %) [@tang2026]. Les auteurs la jugent pourtant utilisable, sous monitorage
+et à dose adaptée, car elle réduisait les besoins en propofol et en midazolam. Le protocole du
+service, qui alterne sommeil et réveil en quelques minutes, repose sur le propofol, dont l'effet
+se dissipe plus vite.
 :::
 
 ### Après la thermocoagulation
@@ -233,7 +244,7 @@ postérieure (@sec-fosse-posterieure). Durée : environ 2 h 30.
 - **Le patient douloureux chronique** : une **kétamine IVSE** peropératoire est possible (protocole
   du service). Chez des patients douloureux chroniques dépendants des opioïdes, une perfusion de
   kétamine (bolus de 0,5 mg/kg puis 10 µg/kg/min jusqu'à la fermeture) a réduit la consommation
-  de morphine postopératoire [@loftus2010]. Les traitements antiépileptiques antalgiques sont
+  de morphine postopératoire après chirurgie du rachis lombaire [@loftus2010]. Les traitements antiépileptiques antalgiques sont
   maintenus.
 
 ::: {.callout-note title="Ce que disent les recommandations"}
@@ -242,12 +253,15 @@ justifie **pas d'antibioprophylaxie** (avis d'experts). La décompression microv
 craniotomie : céfazoline 2 g IVL, réinjectée à 1 g si l'intervention dépasse 4 h, puis toutes
 les 4 h (GRADE 2).
 
-**Prise en charge de la névralgie** [@bendtsen2019]. Carbamazépine ou oxcarbazépine en première
-intention. Chirurgie proposée si la douleur est insuffisamment contrôlée ou
-le traitement mal toléré ; décompression microvasculaire en première intention dans la forme
-classique ; technique lésionnelle de préférence en l'absence de conflit à l'IRM. Fosphénytoïne
-ou lidocaïne IV possibles lors d'une exacerbation aiguë. Soutien psychologique et infirmier
-proposé en plus du traitement médical ou chirurgical.
+**Prise en charge de la névralgie** [@bendtsen2019] (méthode GRADE). IRM dans le bilan
+(recommandation forte). Carbamazépine ou oxcarbazépine en première intention (recommandation
+forte). Chirurgie proposée si la douleur est insuffisamment contrôlée ou le traitement mal
+toléré (preuves de très faible qualité) ; dans la forme classique, décompression
+microvasculaire préférée à la radiochirurgie (recommandation forte) et aux autres techniques
+lésionnelles (recommandation faible) ; technique lésionnelle de préférence en l'absence de
+conflit à l'IRM. Fosphénytoïne ou lidocaïne IV lors d'une exacerbation aiguë, avec
+réhydratation (recommandation faible). Soutien psychologique et infirmier proposé en plus du
+traitement médical ou chirurgical.
 :::
 
 ### Pendant la dissection : le tronc cérébral et le trijumeau
@@ -270,7 +284,7 @@ aussi un message : le tronc cérébral est sollicité, le chirurgien doit le sav
   par les vertiges : prophylaxie renforcée (@sec-fosse-posterieure).
 - **Douleur** : l'abord rétrosigmoïde traverse les muscles de la nuque ; analgésie multimodale.
 - **Complications à rechercher** : paralysie faciale, hypoacousie, vertiges et ataxie,
-  **hématome de la fosse postérieure** (urgence), fuite de LCS par la cicatrice ou le nez,
+  **hématome de la fosse postérieure** (urgence), fuite de LCR par la cicatrice ou le nez,
   méningite aseptique.
 - **Évolution** : souvent rapidement favorable, hospitalisation courte (environ 4 jours).
 - **Le traitement de la névralgie** n'est pas arrêté brutalement, même si la douleur a
@@ -321,7 +335,7 @@ créatinine 110 µmol/L (75 µmol/L il y a trois mois).
    faire retirer l'aiguille. L'apnée au propofol est courte : la prévention passe par des bolus
    plus petits et une titration.
 4. Parce que la procédure exige des réveils rapides pour les tests, et que la dexmédétomidine
-   majore la bradycardie du réflexe trigémino-cardiaque [@tang2026].
+   s'associe à deux fois plus de bradycardies pendant la thermocoagulation [@tang2026].
 :::
 
 ### Cas 2 : la décompression microvasculaire
@@ -356,7 +370,7 @@ chirurgien prévoit un NIM facial.
 | Objectifs | Patient endormi pour la ponction et la lésion, **réveillé et coopérant** pour les tests ; ventilation et fréquence cardiaque sous contrôle |
 | Monitorage | Scope 5 brins, fréquence respiratoire, PNI, SpO~2~, capnographie aux lunettes ; lunettes à O~2~ ou Optiflow selon le terrain ; une VVP |
 | Induction et entretien | Côté vérifié avec le patient ; contention ; bolus titrés de propofol ± sufentanil 2,5–5 µg pour la ponction ; réveil pour le test ; nouveau bolus pour la lésion (≈ 1 min 30) ; réveil pour la vérification ; pas d'antibioprophylaxie |
-| Cibles | Fréquence cardiaque et PA proches des valeurs de base ; SpO~2~ > 94 % |
+| Cibles | Fréquence cardiaque et PA proches des valeurs de base ; pas de désaturation |
 | Pièges | Réflexe trigémino-cardiaque (arrêt de la stimulation, atropine prête) ; apnée au propofol avec une face inaccessible ; patient déshydraté et hyponatrémique ; dexmédétomidine (réveil lent, bradycardie) ; pas de lésion du V1 |
 | Post-opératoire | SSPI ; réflexe cornéen et protection de l'œil ; faiblesse du masséter ; traitement poursuivi puis diminué progressivement |
 
@@ -371,7 +385,7 @@ chirurgien prévoit un NIM facial.
 | Induction et entretien | Côté vérifié (conflit bilatéral possible) ; groupe et RAI à jour ; céfazoline 2 g ; propofol + rémifentanil en AIVOC ; **curare à l'induction seulement** ; kétamine IVSE possible ; décubitus latéral, têtière à pointes |
 | Cibles | Celles de la craniotomie (@tbl-cibles-craniotomie) |
 | Pièges | Réflexe trigémino-cardiaque à la dissection (prévenir le chirurgien) ; plaie du sinus latéral ; curare réinjecté sous NIM ; carbamazépine (inducteur : curares et morphiniques raccourcis) |
-| Post-opératoire | USC (Chippault) ; nerfs crâniens V, VII, VIII ; hématome de fosse postérieure = urgence ; NVPO (prophylaxie renforcée) ; fuite de LCS ; traitement de la névralgie diminué progressivement ; sortie vers J4 |
+| Post-opératoire | Comme la craniotomie de fosse postérieure ; nerfs crâniens V, VII, VIII ; hématome de fosse postérieure = urgence ; NVPO (prophylaxie renforcée) ; fuite de LCR ; traitement de la névralgie diminué progressivement ; sortie vers J4 |
 
 : Fiche pratique : décompression microvasculaire {#tbl-fiche-jannetta}
 :::

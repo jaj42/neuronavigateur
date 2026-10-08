@@ -19,7 +19,7 @@ directement de la physiologie (@sec-physiologie) :
 1. **La détente cérébrale.** Un cerveau détendu facilite l'exposition, réduit la pression des
    écarteurs sur le cortex et protège le cerveau à l'ouverture de la dure-mère. Elle s'obtient
    en jouant sur les trois volumes de Monro-Kellie : le sang (veineux et artériel), l'eau du
-   parenchyme et le LCS.
+   parenchyme et le LCR.
 2. **La protection cérébrale.** Baisser la CMRO~2~ par l'anesthésie et, surtout, éviter les
    agressions secondaires d'origine systémique, les ACSOS (@sec-physiopathologie) :
    hypotension, hypoxémie, hypo- ou hypercapnie, anémie, dysnatrémie, hyperglycémie,
@@ -42,7 +42,7 @@ n'est pas fait avant ne sera pas fait.
   cou, qui écrasent les jugulaires ; pas de lien de sonde trop serré autour du cou. Une
   **légère surélévation de la tête** aide le drainage veineux.
 - **La proclive marquée** (chirurgie de la charnière craniocervicale, lésion parasagittale,
-  position assise) expose à l'**embolie gazeuse** par les sinus veineux ouverts et à une
+  fosse postérieure) expose à l'**embolie gazeuse** par les sinus veineux ouverts et à une
   hypovolémie relative. Ces situations sont traitées au @sec-fosse-posterieure.
 - **Points d'appui et étirements** : vérifiez chaque point d'appui, le plexus brachial (épaule
   tirée vers le bas en décubitus latéral ou pour une voie rétrosigmoïde), la liberté de la
@@ -111,10 +111,10 @@ d'approfondir l'anesthésie en cas de rupture vasculaire ou d'HTIC peropératoir
 |---|----|------|
 | PAM | **80 à 90 % de la PAM préopératoire** | Mesurée au niveau du cerveau en proclive ; noradrénaline plutôt que remplissage excessif |
 | PaCO~2~ | **36 à 38 mmHg** | Contrôlée par gaz du sang (gradient PaCO~2~-EtCO~2~) ; légère hypocapnie pour la détente |
-| Oxygénation | SpO~2~ ≥ 95 %, PaO~2~ normale | Pas d'hyperoxie inutile |
+| Oxygénation | SpO~2~ ≥ 94 %, PaO~2~ normale | Le protocole ne chiffre pas : seuil du cérébrolésé [@hawryluk2019] ; pas d'hyperoxie inutile |
 | Hémoglobine | Selon la tolérance | Pertes sous-estimées : HemoCue ou gaz du sang si saignement |
 | Natrémie | Stable, normale ; **140 à 145 mmol/L** si diabète insipide | Pas de soluté hypotonique |
-| Glycémie | 5 à 10 mmol/L | Sous corticoïdes, contrôle peropératoire |
+| Glycémie | 5 à 10 mmol/L | Cible péri-opératoire du diabétique [@sfar_diabete2025] ; sous corticoïdes, contrôle peropératoire |
 | Température | **35,5 à 37 °C** | Au-dessous de 35,5 °C, l'hémostase se dégrade ; pas d'hyperthermie |
 
 : Cibles peropératoires de la craniotomie programmée (protocole local) {#tbl-cibles-craniotomie}
@@ -173,7 +173,7 @@ Chaque levier agit sur l'un des trois volumes intracrâniens :
   détente cérébrale, le SSH donne un peu moins de cerveaux tendus que le mannitol, dans des
   essais de qualité modeste et sans différence démontrée sur le devenir
   [@prabhakar2014; @menegazdealmeida2024].
-- **Le LCS** : c'est le chirurgien qui agit, par un drainage lombaire ou ventriculaire externe
+- **Le LCR** : c'est le chirurgien qui agit, par un drainage lombaire ou ventriculaire externe
   posé en début d'intervention, ou par la ponction d'un ventricule ou l'ouverture d'une
   citerne.
 
@@ -189,7 +189,7 @@ aussi le cerveau sain et le tissu péri-lésionnel, dont la perfusion est déjà
 ### Devant un cerveau tendu
 
 Le chirurgien ouvre la dure-mère et le cerveau bombe. Avant tout médicament, cherchez une cause
-simple, dans cet ordre :
+simple, dans cet ordre (@fig-cerveau-tendu) :
 
 1. **La tête** : flexion, rotation, lien de sonde, billot. Un réajustement de quelques degrés
    suffit parfois.
@@ -203,9 +203,12 @@ simple, dans cet ordre :
    plateau haute.
 6. **L'osmothérapie** : SSH ou mannitol en 15 min ; effet en 10 à 15 min.
 7. **Une hyperventilation brève** (PaCO~2~ 30 à 35 mmHg), en relais, pendant que le reste agit.
-8. **Le chirurgien** : drainage du LCS, et parfois une cause chirurgicale (hématome
+8. **Le chirurgien** : drainage du LCR, et parfois une cause chirurgicale (hématome
    controlatéral ou à distance, gonflement aigu) qui impose une imagerie ou une
    décompression.
+
+![Devant un cerveau tendu : les causes simples d'abord, dans l'ordre, puis les traitements,
+puis la cause chirurgicale.](../figures/cerveau-tendu){#fig-cerveau-tendu width=100%}
 
 ::: {.callout-warning title="Piège"}
 Un cerveau qui gonfle brutalement en cours d'intervention, sans cause anesthésique, peut
@@ -265,8 +268,8 @@ PIC et la pression artérielle. Le protocole local associe, chez les patients à
 - **ondansétron 4 mg** en fin d'intervention ;
 - **dropéridol 0,625 mg** en plus pour la fosse postérieure.
 
-L'association de plusieurs antiémétiques est plus efficace chez le patient à risque élevé
-[@sfar_nvpo2007]. L'anesthésie au propofol est elle-même antiémétique.
+Chez le patient à risque élevé, les recommandations françaises (texte de 2007, historique)
+associent à la dexaméthasone un sétron et/ou le dropéridol (grade 1+) [@sfar_nvpo2007]. L'anesthésie au propofol est elle-même antiémétique.
 
 ### La douleur
 
@@ -278,8 +281,11 @@ sous-occipital ou temporal, qui traverse les muscles. Le protocole local :
 - **morphine 0,1 mg/kg** en fin d'intervention en relais du rémifentanil, puis morphine
   intraveineuse titrée et relais per os ;
 - **kétamine** à faible dose pour les interventions longues ou douloureuses, pour prévenir
-  l'hyperalgésie au rémifentanil [@sfar_douleur2016] ;
-- **dexaméthasone 8 mg**, qui réduit aussi la douleur postopératoire [@sfar_douleur2016] ;
+  l'hyperalgésie ; les recommandations françaises en font l'antihyperalgésique de première
+  intention en chirurgie à risque de douleur intense et chez le patient sous opioïdes au long
+  cours (R3.8, GRADE 1+) [@sfar_douleur2016] ;
+- **dexaméthasone 8 mg**, qui réduit aussi la douleur postopératoire (R3.7, GRADE 2+)
+  [@sfar_douleur2016] ;
 - **AINS** possibles sur une courte durée (48 à 72 h), selon le terrain, en l'absence
   d'instabilité peropératoire et après accord du chirurgien sur le risque hémorragique ;
 - **néfopam** : il abaisse le seuil épileptogène ; à éviter s'il existe un risque épileptique
@@ -308,7 +314,9 @@ réveillé et surveillé.
   premières heures), crise d'épilepsie, œdème, pneumocéphalie, troubles de la natrémie
   (@sec-dysnatremies-dve). Toute aggravation neurologique conduit au scanner.
 - **Thrombose** : compression pneumatique intermittente, puis **HBPM préventive à H24** si le
-  contrôle neurochirurgical le permet [@gihp_mtev2024].
+  contrôle neurochirurgical le permet (protocole local) ; en chirurgie programmée, les
+  recommandations françaises font débuter l'anticoagulant préventif entre H12 et H24 (GRADE 2+)
+  [@gihp_mtev2024].
 - **Corticoïdes** : décroissance prescrite par le neurochirurgien.
 - **Antiépileptiques** : poursuivis, sans interruption.
 
@@ -355,7 +363,7 @@ L'intervention est prévue en décubitus latéral gauche, tête fixée en têti�
 | Objectifs | Détente cérébrale ; protection cérébrale (pas d'ACSOS) ; réveil rapide, calme et examinable |
 | Monitorage | ECG 5 brins, 2 VVP, cathéter artériel (capteur au niveau de la tête en proclive), BIS/PSI controlatéral, température, sonde urinaire si longue ; gaz du sang précoce (gradient PaCO~2~-EtCO~2~) ; débit cardiaque, KTC, NIM/PEM selon le patient |
 | Induction et entretien | Propofol + rémifentanil en AIVOC ; sévoflurane ≤ 1 MAC seulement sans HTIC ; pas de N~2~O ; curare à l'induction (pas de réinjection si NIM/PEM) ; dexaméthasone 8 mg ; céfazoline 2 g avant l'incision, 1 g toutes les 4 h ; acide tranexamique 15 mg/kg si hémorragique ; bolus avant la têtière à pointes ; cristalloïde isotonique (pas de Ringer lactate) |
-| Cibles | PAM 80–90 % de la PAM préop (≥ 90 % de l'habituelle chez l'hypertendu) ; PaCO~2~ 36–38 mmHg ; SpO~2~ ≥ 95 % ; natrémie stable (140–145 mmol/L si DI) ; glycémie 5–10 mmol/L ; T 35,5–37 °C |
+| Cibles | PAM 80–90 % de la PAM préop (≥ 90 % de l'habituelle chez l'hypertendu) ; PaCO~2~ 36–38 mmHg ; SpO~2~ ≥ 94 % ; natrémie stable (140–145 mmol/L si diabète insipide) ; glycémie 5–10 mmol/L ; T 35,5–37 °C |
 | Pièges | Jugulaires comprimées ; EtCO~2~ prise pour la PaCO~2~ ; Ringer lactate ; réinjection d'antibiotique oubliée ; pertes sanguines sous-estimées ; cerveau tendu traité par osmothérapie sans chercher la cause simple ; toux et HTA au réveil |
 | Post-opératoire | USC de neurochirurgie (Chippault), SSPI si > 6 h ou compliquée ; examen neuro répété, tout déficit nouveau = scanner ; PA contrôlée ; NVPO : dexaméthasone, ondansétron, dropéridol si fosse postérieure ; paracétamol, morphine titrée, kétamine, AINS courts si accord ; néfopam évité si risque épileptique ; HBPM à H24 |
 

@@ -135,6 +135,13 @@ secondes, sur la réponse à l'appel du nom [@chernik1990] :
 
 ## Le déroulement, étape par étape
 
+Le protocole du service se déroule en six étapes, avec des sédations qui s'arrêtent et
+reprennent selon les temps douloureux (@fig-deroule-eveillee).
+
+![Chirurgie éveillée selon le protocole du service : sédations et périodes d'éveil au fil des
+six étapes. Durées non proportionnelles ; la dexmédétomidine est facultative à la
+fermeture.](../figures/deroule-eveillee){#fig-deroule-eveillee width=100%}
+
 ### Étape 1 : mise en condition sous sédation
 
 Le patient est en décubitus dorsal. La sédation commence dès la première voie veineuse :

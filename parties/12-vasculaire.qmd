@@ -79,8 +79,9 @@ Le protocole est celui de la craniotomie (@sec-craniotomie), avec quelques parti
 - **Installation** : décubitus dorsal, têtière à pointes, neuronavigation fréquente.
   L'infiltration du scalp par le chirurgien atténue la réponse hémodynamique aux pointes et à
   l'incision.
-- **Monitorage** : **cathéter artériel systématique**, posé avant l'induction si le risque de
-  rupture est élevé ; BIS ou PSI ; **deux voies veineuses** de bon calibre et sonde urinaire ;
+- **Monitorage** : **cathéter artériel systématique** (le protocole ne précise pas le moment ;
+  le poser avant l'induction quand le risque de rupture est élevé est une pratique proposée) ;
+  BIS ou PSI ; **deux voies veineuses** de bon calibre et sonde urinaire ;
   débit cardiaque selon le terrain et le risque de rupture.
 - **Entretien** : **propofol et rémifentanil en AIVOC**, avec une anesthésie plutôt
   **profonde** pour réduire la CMRO~2~, surtout en prévision d'un clampage temporaire ou d'une
@@ -118,10 +119,13 @@ la pression artérielle.
 4. **Au déclampage**, revenez à la pression de base : le territoire réperfusé n'a plus besoin
    d'une pression élevée.
 
-La tolérance dépend de la durée. Dans une série de 100 clampages temporaires, une occlusion de
+La tolérance dépend de la durée. Dans une série de 100 patients clampés temporairement, une occlusion de
 moins de 14 minutes était habituellement tolérée ; au-delà de 31 minutes, tous les patients
 avaient un infarctus. Les patients de plus de 61 ans et ceux en mauvais grade toléraient moins
-bien l'occlusion [@samson1994].
+bien l'occlusion [@samson1994] (@fig-clampage).
+
+![Clampage temporaire de l'artère porteuse : tolérance selon la durée de l'occlusion, d'après
+une série de 100 patients [@samson1994], et gestes de l'anesthésiste.](../figures/clampage-temporaire){#fig-clampage width=100%}
 
 ### L'adénosine : un arrêt circulatoire de quelques secondes
 
@@ -130,7 +134,7 @@ certaines équipes vident l'anévrysme par un **arrêt circulatoire transitoire*
 l'**adénosine** (Krenosin), qui bloque la conduction auriculoventriculaire. Une dose de 0,3 à
 0,4 mg/kg de poids idéal donne environ 45 à 60 secondes de pression systolique inférieure à
 60 mmHg [@bebawy2010]. Les complications rapportées sont rares : fibrillation auriculaire
-transitoire, élévation de troponine, et un cas d'hypotension prolongée après des
+transitoire, élévation de troponine [@bebawy2010], et un cas d'hypotension prolongée après des
 réinjections rapprochées, qui a demandé de brèves compressions thoraciques [@guinn2011].
 Prérequis : patchs de défibrillation posés, ECG lisible, absence d'asthme sévère ou de trouble
 conductif, et une coordination parfaite avec le chirurgien.
@@ -146,7 +150,11 @@ l'intervention, jamais dans l'urgence d'une rupture.
 ### La rupture peropératoire
 
 Elle survient surtout pendant la dissection du collet ou la pose du clip. Le champ se remplit
-de sang ; le chirurgien aspire et cherche à poser un clamp temporaire.
+de sang ; le chirurgien aspire et cherche à poser un clamp temporaire. Le protocole local
+n'en décrit pas la conduite à tenir : la séquence ci-dessous est une pratique proposée, à
+valider avec l'équipe.
+
+<!-- TODO-VALIDER : conduite à tenir devant une rupture peropératoire (baisse tensionnelle brève à la demande du chirurgien, puis pression normale ou haute) absente de `clippage_anevrysme` ; même remarque pour la pose du KTA avant l'induction (A_VALIDER n° 5). -->
 
 1. **Annoncez-la et appelez à l'aide** (senior, deuxième IADE).
 2. **Compensez la perte sanguine** : remplissage, transfusion (sang et carte de groupe déjà
@@ -188,9 +196,10 @@ d'une « bouffée de fumée », *moya-moya* en japonais [@scott2009].
 - On parle de **maladie** quand l'atteinte est isolée (plus fréquente en Asie de l'Est), de
   **syndrome** de moya-moya quand elle accompagne une autre affection : drépanocytose,
   neurofibromatose de type 1, trisomie 21, antécédent de radiothérapie cérébrale.
-- Elle touche surtout l'**enfant**, chez qui elle se révèle par des **accidents ischémiques**,
-  et l'**adulte jeune**, chez qui elle se révèle aussi par des **hémorragies** (rupture des
-  collatérales fragiles) [@scott2009].
+- Elle a deux pics de fréquence : l'**enfant** (vers 5 ans), chez qui elle se révèle par des
+  **accidents ischémiques**, et l'**adulte** (vers 45 ans), chez qui elle se révèle aussi par
+  des **hémorragies** (rupture des collatérales fragiles ; 20 % des adultes contre 2,8 % des
+  enfants) [@scott2009].
 - Le traitement des formes symptomatiques est chirurgical : **revascularisation** directe
   (pontage entre l'artère temporale superficielle et une branche de l'artère cérébrale
   moyenne) ou indirecte (un tissu bien vascularisé, muscle temporal ou artère temporale, est

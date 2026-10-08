@@ -19,7 +19,7 @@ L'occlusion d'une artère cérébrale crée un **cœur** d'infarctus, déjà per
 **pénombre** : un tissu hypoperfusé, électriquement silencieux, mais encore vivant. Son débit
 dépend des collatérales et suit passivement la PAM, car l'autorégulation y est
 abolie (@sec-physiologie) ; le cœur grossit aux dépens de la pénombre tant que l'artère reste
-fermée (@sec-nri). Tout le traitement de l'AVC ischémique tient en deux idées : **rouvrir l'artère le
+fermée (@sec-nri, @fig-penombre). Tout le traitement de l'AVC ischémique tient en deux idées : **rouvrir l'artère le
 plus vite possible**, et **protéger la pénombre** en attendant (pas d'hypotension, pas
 d'hypoxie, pas d'hyperglycémie, pas de fièvre).
 
@@ -32,6 +32,11 @@ Le bénéfice des deux traitements de reperfusion décroît avec le temps :
 - **thrombectomie** : dans la méta-analyse HERMES, le bénéfice restait significatif jusqu'à
   7 h 18 après le début des symptômes, et chaque heure de
   retard à la reperfusion aggravait le handicap [@prabhakaran2026].
+
+![À gauche, le cœur d'infarctus, déjà perdu, et la pénombre, hypoperfusée mais vivante, qu'il
+gagne tant que l'artère reste fermée (schéma). À droite, la proportion de patients sans handicap
+significatif à 3–6 mois, avec ou sans altéplase, selon le délai de traitement, dans la
+méta-analyse des neuf essais [@emberson2014].](../figures/penombre-delai){#fig-penombre width=100%}
 
 Ce chapitre suit les recommandations américaines de 2026 [@prabhakaran2026], dont on donne la
 **classe** (1 : recommandé ; 2a : raisonnable ; 2b : peut être envisagé ; 3 : sans bénéfice ou
@@ -64,7 +69,8 @@ symptômes, ou, si elle est inconnue (réveil, patient trouvé), l'**heure à la
 - score **NIHSS** et examen daté ;
 - traitements en cours (anticoagulants, antiagrégants), poids, antécédents ;
 - pas d'oxygène systématique : seulement pour maintenir la SpO~2~ au-dessus de 94 % (classe 1 ;
-  sans bénéfice chez le patient non hypoxémique, classe 3) [@prabhakaran2026].
+  sans bénéfice chez le patient non hypoxémique qui n'est pas candidat à la thrombectomie,
+  classe 3) [@prabhakaran2026].
 
 ### L'imagerie
 
@@ -115,7 +121,7 @@ invalidantes même avec un NIHSS bas [@prabhakaran2026].
 | Produit | Dose | Administration |
 |---|---|------|
 | **Altéplase** (Actilyse) | 0,9 mg/kg, maximum 90 mg | 10 % en bolus IV sur 1 min, puis 90 % à la seringue électrique sur 60 min |
-| **Ténectéplase** (Metalyse) | 0,25 mg/kg, maximum 25 mg | Bolus unique IV de 5 à 10 s |
+| **Ténectéplase** (Metalyse) | 0,25 mg/kg, maximum 25 mg | Bolus IV unique |
 
 : Les deux thrombolytiques de l'AVC ischémique [@prabhakaran2026] {#tbl-thrombolytiques}
 
@@ -186,6 +192,9 @@ Le reste du protocole du service :
   (11 093 patients), le décubitus strict pendant 24 h n'a pas amélioré le handicap à 3 mois
   [@anderson2017], et la position à 0° en routine est sans bénéfice (classe 3)
   [@prabhakaran2026] ;
+
+<!-- TODO-VALIDER : protocole avc : « Position 0° > Position décubitus dorsal (strict) ou Position 30° » : si le « > » marque une préférence pour 0°, écart avec l'AHA 2026 (0° en routine : classe 3, sans bénéfice ; HeadPoST). Préciser (A_VALIDER n° 39 i). -->
+
 - à jeun, avec un **test de déglutition** avant toute prise orale (classe 1) [@prabhakaran2026] ;
 - NaCl 0,9 % 1 L/24 h ;
 - scope avec SpO~2~ et fréquence cardiaque continues, ECG 12 dérivations le premier jour ;
@@ -347,7 +356,7 @@ de conscience et la protection des voies aériennes, en respectant les souhaits 
 | Paramètre | Cible ou conduite | Niveau |
 |----|-------|---|
 | Voies aériennes | Intubation si troubles de conscience ou atteinte bulbaire | Classe 1 [@prabhakaran2026] |
-| Oxygène | SpO~2~ > 94 % ; pas d'O~2~ chez le patient non hypoxémique | Classe 1 ; classe 3 [@prabhakaran2026] |
+| Oxygène | SpO~2~ > 94 % ; pas d'O~2~ chez le patient non hypoxémique (hors thrombectomie) | Classe 1 ; classe 3 [@prabhakaran2026] |
 | PA sans reperfusion | Ne pas traiter sous 220/120 mmHg les 48–72 premières heures ; au-dessus, baisser d'environ 15 % ; corriger hypotension et hypovolémie | Classe 3 ; 2b ; 1 [@prabhakaran2026] |
 | Température | Traiter l'hyperthermie et sa cause ; pas d'hypothermie induite | Classe 1 ; classe 3 [@prabhakaran2026] |
 | Glycémie | Traiter l'hypoglycémie (< 3,3 mmol/L) ; hyperglycémie persistante : viser 7,8–10 mmol/L ; pas d'insuline IV pour 4,4–7,2 mmol/L | Classe 1 ; 2a ; 3 [@prabhakaran2026] |
@@ -375,11 +384,12 @@ l'héparine précoce « pour empêcher l'aggravation » est sans bénéfice (cla
 
 ### L'infarctus sylvien malin
 
-Un infarctus étendu de l'artère cérébrale moyenne (plus de la moitié ou des deux tiers du
-territoire) devient « malin » quand l'œdème cytotoxique fait engager l'hémisphère, dans les
+Un infarctus étendu de l'artère cérébrale moyenne (au moins les deux tiers du territoire,
+selon la définition de l'ESO) devient « malin » quand l'œdème cytotoxique fait engager l'hémisphère, dans les
 premiers jours et jusqu'au 7^e^ jour au moins [@vanderworp2021]. Sans chirurgie, la
-mortalité avoisine 80 % [@vahedi2007]. L'aggravation se voit d'abord sur la **vigilance**
-[@prabhakaran2026].
+mortalité avoisine 80 % [@vahedi2007]. Près de 70 % des aggravations surviennent dans les
+48 premières heures, et c'est la baisse de **vigilance** attribuée à l'œdème qui fait poser
+l'indication chirurgicale [@prabhakaran2026].
 
 Ce qu'il faut faire tôt [@prabhakaran2026] :
 
@@ -464,7 +474,7 @@ M1 gauche.
 2. Une **thrombectomie** en urgence : occlusion de M1, moins de 6 h, NIHSS ≥ 6 (classe 1)
    [@prabhakaran2026]. On appelle le neuroradiologue et le neurochirurgien ; l'anticoagulation
    de la fibrillation atriale attendra.
-3. Aphasie et NIHSS ≥ 15 : anesthésie générale avec intubation selon la RPP
+3. NIHSS ≥ 15 (ici 17) : anesthésie générale avec intubation selon la RPP
    [@sfar_thrombectomie2022]. Induction sans hypotension (noradrénaline prête), EtCO~2~
    35–40 mmHg, SpO~2~ ≥ 95 %, glycémie contrôlée ; aucune chute de PAS avant la recanalisation
    (@sec-nri).

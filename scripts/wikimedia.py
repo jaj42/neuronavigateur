@@ -6,7 +6,9 @@ rendering (SVGs are rasterised by Commons), save it as figures/wikimedia/<id>.pn
 and write author, licence and URLs back into credits.yml, so credits are never
 typed by hand. Also writes annexes/_credits-wikimedia.md, the table included by
 the « Crédits des images » annex. --check only verifies that every entry has its image and credits; --annex only
-rewrites the annex table from credits.yml.
+rewrites the annex table from credits.yml; --new only fetches entries whose image is missing
+(Commons answers 429 when every image is fetched again). An optional recadrage field
+[gauche, haut, droite, bas], in fractions of the image, crops it.
 """
 
 import re
@@ -27,7 +29,7 @@ WIDTH = 1600
 FIELDS = ("fichier", "url", "auteur", "licence", "licence_url")
 HEADER = """\
 # Images Wikimedia Commons utilisées dans le livre.
-# À la main : id, commons (titre exact de la page), legende.
+# À la main : id, commons (titre exact de la page), legende, recadrage (facultatif).
 # Rempli par scripts/wikimedia.py (ne pas éditer) : fichier, url, auteur, licence, licence_url.
 """
 
@@ -63,6 +65,11 @@ def fetch(entry):
     out = DIR / f"{entry['id']}.png"
     out.write_bytes(img.content)
     flatten(out)
+    if entry.get("recadrage"):
+        im = Image.open(out)
+        l, t, r, b = entry["recadrage"]
+        im.crop((round(l * im.width), round(t * im.height),
+                 round(r * im.width), round(b * im.height))).save(out, optimize=True)
     entry.update({
         "fichier": f"figures/wikimedia/{out.name}",
         "url": info["descriptionurl"],
@@ -95,6 +102,8 @@ def main():
         sys.exit(f"incomplet : {', '.join(bad)}" if bad else 0)
     if "--annex" not in sys.argv:
         for e in entries:
+            if "--new" in sys.argv and (ROOT / e.get("fichier", "-")).is_file():
+                continue
             fetch(e)
     annex(entries)
     CREDITS.write_text(HEADER + yaml.safe_dump(entries, allow_unicode=True, sort_keys=False,

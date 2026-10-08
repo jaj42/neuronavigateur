@@ -61,8 +61,9 @@ d'environ 1 MAC, la vasodilatation l'emporte : le DSC augmente alors que les bes
 compliance basse. Le **sévoflurane** est le moins vasodilatateur : à 1,5 MAC, il augmente la
 vitesse dans l'ACM de 17 %, contre 72 % pour l'isoflurane [@matta1999].
 
-En pratique, ils ne sont pas l'agent de première intention, mais ils restent utilisables sans
-HTIC, à dose modérée (≤ 1 MAC) [@petersen2003]. Sur les chirurgies longues, dure-mère ouverte,
+En pratique, ils ne sont pas l'agent de première intention [@petersen2003], mais ils restent
+utilisables sans HTIC, à dose modérée (≤ 1 MAC) : à 0,5 MAC, le sévoflurane n'augmente la
+vitesse dans l'ACM que de 4 % [@matta1999]. Sur les chirurgies longues, dure-mère ouverte,
 certaines équipes associent le propofol à une demi-MAC de sévoflurane pour limiter
 l'accumulation du propofol. En présence d'une HTIC ou d'un cerveau tendu, on reste en
 anesthésie intraveineuse totale.
@@ -113,7 +114,7 @@ d'hématome sous-dural chronique, cimentoplastie) et la chirurgie éveillée
 | Pharmacocinétique | Demi-vie de distribution 6 min, d'élimination 2 h ; métabolisme hépatique |
 | Préparation | 1 ampoule de 200 µg dans 40 mL de NaCl 0,9 %, soit **5 µg/mL** |
 | Dose de charge | **1 µg/kg en 15 à 20 min** (0,5 µg/kg chez le sujet âgé) ; seringue à part, pour la sédation procédurale seulement |
-| Entretien | **0,2 à 1 µg/kg/h** (jusqu'à 1,2), à adapter par paliers de 10 à 15 min |
+| Entretien | **0,1 à 1,2 µg/kg/h** (1 µg/kg/h pendant une intubation vigile), à adapter par paliers de 10 à 15 min |
 | Débit de la seringue | débit (mL/h) = dose (µg/kg/h) × poids (kg) ÷ 5 |
 | Poids | Poids réel chez l'obèse ; pas d'adaptation à la fonction rénale ; réduire en cas d'insuffisance hépatique |
 | Effets indésirables | Hypotension, bradycardie |
@@ -237,9 +238,10 @@ hypokaliémie.
 - **Chirurgie programmée à risque hémorragique** (méningiome, chordome, grand volet, chirurgie
   vasculaire) : protocole du service, **15 mg/kg à l'induction**, renouvelé à la quatrième heure
   si le saignement persiste.
-- **Traumatisme crânien** : l'essai CRASH-3 (1 g en 10 min puis 1 g sur 8 h, dans les 3 heures)
-  a réduit les décès d'origine traumatique crânienne chez les traumatisés légers à modérés,
-  pas chez les plus graves (score de Glasgow à 3, mydriase bilatérale) [@crash3_2019].
+- **Traumatisme crânien** : dans l'essai CRASH-3 (1 g en 10 min puis 1 g sur 8 h, dans les
+  3 heures), le critère principal (décès d'origine traumatique crânienne) n'était pas
+  significativement réduit (RR 0,94 ; IC 95 % 0,86–1,02). La réduction portait sur les
+  traumatisés légers à modérés (RR 0,78), pas sur les TC graves (RR 0,99) [@crash3_2019].
 - À très fortes doses, l'acide tranexamique est proconvulsivant.
 
 ## Les médicaments de la pression artérielle
@@ -278,7 +280,7 @@ mais répond aux ordres. Il présente une hémiparésie gauche depuis trois sema
 - La kétamine n'augmente pas la PIC chez le patient sédaté et ventilé ; elle maintient la PAM.
 - Pas de curare après l'induction si PEM ou NIM ; train de quatre du côté sain ;
   succinylcholine contre-indiquée en cas de déficit moteur chronique.
-- Dexmédétomidine : 5 µg/mL ; charge 1 µg/kg en 15–20 min ; entretien 0,2–1 µg/kg/h.
+- Dexmédétomidine : 5 µg/mL ; charge 1 µg/kg en 15–20 min ; entretien 0,1–1,2 µg/kg/h.
 - Osmothérapie ≈ 250 mOsm en 15–20 min : traitement d'urgence, pas de fond.
 - Dexaméthasone pour l'œdème tumoral ; jamais de corticoïdes dans le traumatisme crânien.
 :::

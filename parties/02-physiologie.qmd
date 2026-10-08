@@ -36,14 +36,14 @@ Toute la neuro-anesthésie-réanimation consiste à garder le DSC adapté aux be
 ### La doctrine de Monro-Kellie
 
 Le contenu intracrânien d'un adulte représente environ **1,4 L** : **1,2 L de parenchyme**,
-**100 mL de sang** et **100 mL de LCS** [@lukaszewicz2011]. La boîte crânienne étant
+**100 mL de sang** et **100 mL de LCR** [@lukaszewicz2011]. La boîte crânienne étant
 inextensible, la somme des trois volumes est constante : si l'un augmente (ou si un quatrième
 apparaît : hématome, tumeur, abcès), un autre doit diminuer d'autant, sinon la pression monte.
 C'est la **doctrine de Monro-Kellie** [@mokri2001].
 
 Deux volumes peuvent céder de la place, et vite :
 
-- le **LCS**, chassé vers le sac dural rachidien, qui est extensible ;
+- le **LCR**, chassé vers le sac dural rachidien, qui est extensible ;
 - le **sang veineux**, chassé vers les jugulaires.
 
 Le parenchyme, lui, ne se comprime pas ; il se déplace : c'est l'engagement
@@ -59,7 +59,7 @@ de pompe ne font presque pas monter la pression, les derniers la font exploser.
 change presque rien en phase de compensation, mais fait bondir la PIC quand la compliance est
 épuisée.](../figures/langfitt){#fig-langfitt width=90%}
 
-1. **Phase de compensation** : le LCS et le sang veineux sont chassés ; la PIC reste normale
+1. **Phase de compensation** : le LCR et le sang veineux sont chassés ; la PIC reste normale
    (**5 à 15 mmHg** chez l'adulte couché).
 2. **Compliance épuisée** : les réserves sont consommées ; chaque millilitre supplémentaire
    fait monter nettement la PIC.
@@ -74,7 +74,7 @@ hypotension à l'induction.
 
 ::: {.callout-tip title="Astuce"}
 La même courbe se lit dans l'autre sens : chez un patient en haut de la courbe, **retirer
-quelques millilitres** (LCS par une DVE, sang veineux en surélevant la tête, eau par
+quelques millilitres** (LCR par une DVE, sang veineux en surélevant la tête, eau par
 l'osmothérapie) fait baisser beaucoup la PIC. C'est le principe de tous les traitements de
 l'HTIC (@sec-htic).
 :::
@@ -138,8 +138,9 @@ l'autorégulation est abolie, le DSC suit passivement la pression.](../figures/a
   d'hémorragie.
 
 Les manuels donnent un plateau de 50 à 150 mmHg de PAM. Ces chiffres sont **pédagogiques** :
-chez l'homme, la limite basse est plus haute (plutôt 60 à 70 mmHg) et très variable d'un
-individu à l'autre [@drummond1997]. Trois situations la modifient :
+chez l'adulte normotendu non anesthésié, la limite basse est en moyenne d'au moins 70 mmHg, avec
+d'énormes variations d'un individu à l'autre ; une estimation plus individuelle la place à
+environ 25 % sous la PAM de repos du patient [@drummond1997]. Trois situations la modifient :
 
 - l'**hypertension artérielle chronique** décale tout le plateau vers la droite : une PAM
   « normale » peut être ischémiante chez ce patient ;
@@ -153,7 +154,7 @@ individu à l'autre [@drummond1997]. Trois situations la modifient :
 
 L'autorégulation explique un comportement paradoxal de la PIC décrit par Rosner
 [@rosner1995]. Chez un patient à **compliance basse** et à **autorégulation conservée**, une
-baisse de PAM déclenche une **cascade vasodilatatrice** :
+baisse de PAM déclenche une **cascade vasodilatatrice** (@fig-cascades) :
 
 1. la PAM baisse, donc la PPC baisse ;
 2. les artérioles se dilatent pour maintenir le débit ;
@@ -164,6 +165,10 @@ baisse de PAM déclenche une **cascade vasodilatatrice** :
 La **cascade vasoconstrictrice** fonctionne en sens inverse : remonter la PAM fait monter la
 PPC, déclenche une vasoconstriction, réduit le volume sanguin cérébral et **fait baisser la
 PIC**.
+
+![Les cascades de Rosner, chez un patient à compliance basse et à autorégulation conservée :
+une baisse de PAM entretient un cercle vicieux (à gauche) ; remonter la PAM fait baisser la PIC
+(à droite). D'après Rosner [@rosner1995].](../figures/cascades-rosner){#fig-cascades width=95%}
 
 ::: {.callout-warning title="Piège"}
 **Le « V » de l'induction.** Chez un patient banal, la chute de pression qui suit l'induction
@@ -189,7 +194,7 @@ pH du liquide extracellulaire, que le CO~2~ traverse librement.
 ![Réactivité du DSC à la PaCO~2~ (à gauche) et à la PaO~2~ (à
 droite).](../figures/reactivite-co2-o2){#fig-reactivite width=95%}
 
-Cet effet est rapide (quelques minutes) mais **transitoire** : en 6 à 24 heures, le pH du LCS se
+Cet effet est rapide (quelques minutes) mais **transitoire** : en 6 à 24 heures, le pH du LCR se
 normalise et le DSC revient à sa valeur de départ. Une hyperventilation prolongée perd donc son
 effet sur la PIC, et sa correction brutale provoque un rebond de vasodilatation.
 
@@ -255,7 +260,7 @@ cristalloïdes isotoniques en première intention (GRADE 2+). Les solutés hypot
 
 Les deux coexistent souvent : une ischémie donne d'abord un œdème cytotoxique, puis
 vasogénique quand la BHE se rompt [@lukaszewicz2011]. On décrit aussi un œdème
-**interstitiel** (ou hydrocéphalique), par passage transépendymaire du LCS autour des
+**interstitiel** (ou hydrocéphalique), par passage transépendymaire du LCR autour des
 ventricules dilatés.
 
 ## Rosner contre Lund : deux lectures de la même physiologie
@@ -269,7 +274,7 @@ dans les années 1990 deux stratégies opposées pour traiter l'HTIC du traumati
 - **Lund** part d'une BHE **rompue** dans les zones lésées : la pression hydrostatique
   capillaire pousse l'eau dans le tissu (œdème vasogénique). Il faut donc **baisser** la
   pression capillaire (métoprolol, clonidine, pas de vasopresseur) et accepter une PPC plus
-  basse, jusqu'à 50 mmHg chez l'adulte [@asgeirsson1994; @grande2006].
+  basse, jusqu'à 50 mmHg chez l'adulte [@asgeirsson1994; @eker1998; @grande2006].
 
 Chacun a raison dans son hypothèse et tort en dehors. Si l'autorégulation est abolie, une PPC
 haute passe dans les capillaires et aggrave l'œdème : dans l'essai de Robertson, viser une
@@ -304,7 +309,7 @@ méningiome frontal. Sa PAM habituelle est de 115 mmHg. Après l'induction, la P
 
 ::: {.callout-caution title="À retenir"}
 - Le cerveau consomme 20 % de l'O~2~ et n'a aucune réserve.
-- Monro-Kellie : parenchyme 1,2 L, sang 100 mL, LCS 100 mL ; seuls le LCS et le sang veineux
+- Monro-Kellie : parenchyme 1,2 L, sang 100 mL, LCR 100 mL ; seuls le LCR et le sang veineux
   peuvent céder de la place.
 - Une PIC normale ne dit rien de la compliance restante.
 - PPC = PAM − PIC, avec les deux capteurs zérotés au conduit auditif externe.

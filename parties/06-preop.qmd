@@ -237,11 +237,13 @@ Le monitorage se décide en consultation, parce qu'il change l'anesthésie (@sec
   opératoire : l'anesthésie est intraveineuse et l'on doit pouvoir l'approfondir en cas de
   rupture vasculaire ou d'HTIC peropératoire, ou vérifier sa profondeur sans curare.
 - **Monitorage du débit cardiaque** (Doppler œsophagien ou autre) si le risque hémorragique est
-  élevé ou l'intervention longue, pour guider le remplissage [@sfar_hemodynamique2024].
+  élevé ou l'intervention longue, pour guider le remplissage ; chez les patients à risque élevé,
+  les recommandations françaises proposent un monitorage du volume d'éjection systolique (R2.1.1,
+  GRADE 2) [@sfar_hemodynamique2024].
 - **NIM et potentiels évoqués moteurs** si la lésion est au contact des nerfs crâniens ou des
   voies motrices : sonde d'intubation NIM pour une lésion ou une voie d'abord au contact du X
-  ou du XI, y compris dans leur portion cervicale (chordome). Ils imposent une anesthésie
-  intraveineuse et **aucun curare après l'induction** [@sfar_curares2018].
+  ou du XI, y compris dans leur portion cervicale (chordome). Le protocole local impose alors
+  une anesthésie intraveineuse (propofol) et **aucun curare après l'induction**.
 
 ::: {.callout-tip title="Astuce"}
 Chirurgie de la face postérieure de la jonction bulbo-protubérantielle (plancher du quatrième
@@ -253,9 +255,8 @@ externe** avant l'installation, quand le thorax est encore accessible.
 ## Planifier l'installation et l'après
 
 - **L'installation** se définit avant l'intervention, avec le chirurgien : décubitus dorsal,
-  latéral, ventral, ou position assise pour certaines chirurgies de la charnière et de la fosse
-  postérieure. La position assise impose de chercher un foramen ovale perméable (risque
-  d'embolie gazeuse paradoxale) et se discute à part (@sec-fosse-posterieure).
+  latéral, trois-quarts ventral ou ventral pour la fosse postérieure et la charnière. La
+  position assise n'est plus utilisée chez l'adulte en France (@sec-fosse-posterieure).
 - **Le lieu de réveil** : tous les patients opérés d'une craniotomie vont en **USC de
   neurochirurgie** (Chippault). Le réveil se fait en **SSPI** si la chirurgie a été compliquée ou
   a duré plus de 6 heures.

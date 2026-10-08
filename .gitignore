@@ -8,5 +8,6 @@ index.tex
 /.quarto/
 **/*.quarto_ipynb
 /Neuro-anesth*.tex
+/le-neuronavigateur.tex
 /site_libs/
 __pycache__/

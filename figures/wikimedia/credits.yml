@@ -1,5 +1,5 @@
 # Images Wikimedia Commons utilisées dans le livre.
-# À la main : id, commons (titre exact de la page), legende.
+# À la main : id, commons (titre exact de la page), legende, recadrage (facultatif).
 # Rempli par scripts/wikimedia.py (ne pas éditer) : fichier, url, auteur, licence, licence_url.
 - id: willis
   commons: File:Circle of Willis fr.svg
@@ -20,7 +20,7 @@
 - id: meninges
   commons: File:Meninges-fr.svg
   legende: 'Enveloppes du cerveau, du scalp au cortex : dure-mère, arachnoïde, pie-mère ; sinus veineux
-    et villosité arachnoïdienne (résorption du LCS).'
+    et villosité arachnoïdienne (résorption du LCR).'
   fichier: figures/wikimedia/meninges.png
   url: https://commons.wikimedia.org/wiki/File:Meninges-fr.svg
   auteur: Jmarchn
@@ -55,3 +55,44 @@
   auteur: User:Delldot
   licence: CC BY-SA 3.0
   licence_url: http://creativecommons.org/licenses/by-sa/3.0/
+- id: hed
+  commons: File:EpiduralHematoma.jpg
+  legende: 'Hématome extradural au scanner (flèche) : lentille biconvexe, avec fracture en regard.'
+  fichier: figures/wikimedia/hed.png
+  url: https://commons.wikimedia.org/wiki/File:EpiduralHematoma.jpg
+  auteur: James Heilman, MD
+  licence: CC BY-SA 4.0
+  licence_url: https://creativecommons.org/licenses/by-sa/4.0
+- id: hsd
+  commons: File:Trauma subdural.jpg
+  legende: 'Hématome sous-dural aigu au scanner : croissant le long de la convexité, avec déviation de
+    la ligne médiane.'
+  fichier: figures/wikimedia/hsd.png
+  url: https://commons.wikimedia.org/wiki/File:Trauma_subdural.jpg
+  auteur: Glitzy queen00 at English Wikipedia
+  licence: Public domain
+  licence_url: null
+- id: trijumeau
+  commons: File:Gray778 Trigeminal.png
+  legende: 'Nerf trijumeau (légendes anglaises) : ganglion trigéminal (de Gasser, « semilunar ganglion
+    ») et ses trois branches, 1 ophtalmique, 2 maxillaire, 3 mandibulaire.'
+  fichier: figures/wikimedia/trijumeau.png
+  url: https://commons.wikimedia.org/wiki/File:Gray778_Trigeminal.png
+  auteur: No machine-readable author provided. Lipothymia assumed (based on copyright claims).
+  licence: CC BY-SA 3.0
+  licence_url: http://creativecommons.org/licenses/by-sa/3.0/
+- id: selle-sagittale
+  commons: File:Gray994.png
+  legende: 'Coupe sagittale de la face (légendes anglaises) : l''hypophyse (« hypophysis ») dans la selle
+    turcique, juste au-dessus et en arrière du sinus sphénoïdal, que la voie endonasale traverse depuis
+    la fosse nasale.'
+  recadrage:
+  - 0
+  - 0
+  - 1
+  - 0.47
+  fichier: figures/wikimedia/selle-sagittale.png
+  url: https://commons.wikimedia.org/wiki/File:Gray994.png
+  auteur: Henry Vandyke Carter
+  licence: Public domain
+  licence_url: null

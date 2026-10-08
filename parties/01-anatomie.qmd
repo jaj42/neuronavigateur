@@ -7,11 +7,11 @@
 - Dessiner le polygone de Willis et connaître le territoire des trois artères cérébrales.
 - Suivre le sang veineux des sinus jusqu'aux jugulaires, et en tirer les conséquences pour la
   position de la tête.
-- Suivre le liquide cérébrospinal (LCS) de sa production à sa résorption.
+- Suivre le liquide céphalo-rachidien (LCR) de sa production à sa résorption.
 :::
 
 Le contenu de la boîte crânienne se résume à trois compartiments : le **parenchyme** cérébral,
-le **sang** (artères, capillaires, veines) et le **LCS**. Tout ce que fait l'anesthésiste en
+le **sang** (artères, capillaires, veines) et le **LCR**. Tout ce que fait l'anesthésiste en
 neurochirurgie consiste à agir sur l'un de ces trois volumes, dans une boîte qui ne se
 dilate pas (@sec-physiologie). Connaître l'anatomie permet aussi de suivre la chirurgie : savoir
 où se trouve le chirurgien, ce qu'il risque de léser et à quel moment.
@@ -64,12 +64,12 @@ Du crâne vers le cerveau, on traverse trois enveloppes (@fig-meninges) :
 - la **pie-mère**, qui épouse la surface du cortex.
 
 L'arachnoïde et la pie-mère forment les **leptoméninges**. Entre elles, l'**espace
-sous-arachnoïdien** contient le LCS et les grosses artères de la base. Il s'élargit par
+sous-arachnoïdien** contient le LCR et les grosses artères de la base. Il s'élargit par
 endroits en **citernes** (citernes de la base, citerne ambiante) : leur effacement au scanner
 est un signe d'hypertension intracrânienne (HTIC).
 
 ![Enveloppes du cerveau, du scalp au cortex : dure-mère, arachnoïde, pie-mère ; sinus veineux
-et villosité arachnoïdienne (résorption du LCS). Jmarchn ; Wikimedia Commons,
+et villosité arachnoïdienne (résorption du LCR). Jmarchn ; Wikimedia Commons,
 CC BY-SA 3.0.](../figures/wikimedia/meninges.png){#fig-meninges width=75%}
 
 Chaque espace a son hématome type, avec une histoire clinique différente :
@@ -78,7 +78,7 @@ Chaque espace a son hématome type, avec une histoire clinique différente :
 |---|---|---|-----|
 | Extradural (entre os et dure-mère) | Artère méningée moyenne, sinus | Hématome extradural (HED), en lentille biconvexe | Souvent artériel, sur fracture temporale ; intervalle libre possible ; urgence neurochirurgicale, excellent pronostic si opéré à temps |
 | Sous-dural (entre dure-mère et arachnoïde) | Veines « ponts » corticales | Hématome sous-dural (HSD), en croissant | Aigu chez le traumatisé grave ; chronique chez le sujet âgé sous antithrombotique |
-| Sous-arachnoïdien | LCS, artères du polygone | Hémorragie sous-arachnoïdienne (HSA) | Traumatique ou anévrismale (@sec-hsa) |
+| Sous-arachnoïdien | LCR, artères du polygone | Hémorragie sous-arachnoïdienne (HSA) | Traumatique ou anévrismale (@sec-hsa) |
 | Intraparenchymateux | Tissu cérébral | Contusion, hématome | Les contusions grossissent dans les premières heures |
 
 : Espaces méningés et hématomes {#tbl-espaces}
@@ -133,7 +133,7 @@ Le sang veineux cérébral ne circule pas dans des veines ordinaires mais dans d
 veineux**, creusés dans la dure-mère, rigides et **non collabables** (@fig-sinus) :
 
 - le **sinus sagittal supérieur** (ou longitudinal supérieur) court au sommet de la faux du
-  cerveau ; il reçoit les veines corticales et le LCS résorbé ;
+  cerveau ; il reçoit les veines corticales et le LCR résorbé ;
 - le **sinus sagittal inférieur**, au bord libre de la faux, rejoint la **grande veine
   cérébrale (de Galien)**, qui draine les structures profondes, pour former le **sinus
   droit** ;
@@ -155,16 +155,16 @@ Trois conséquences pratiques :
    sanguin cérébral et donc la pression intracrânienne (PIC). Le côté du drainage dominant
    varie d'un patient à l'autre : au confluent, le sang d'un hémisphère peut partir dans
    l'une ou l'autre jugulaire.
-2. **Les sinus ne se collabent pas.** Ouverts au-dessus du cœur (position assise, proclive
-   marqué, plaie de sinus), ils aspirent de l'air : c'est l'embolie gazeuse
+2. **Les sinus ne se collabent pas.** Ouverts au-dessus du cœur (tête en proclive,
+   plaie de sinus), ils aspirent de l'air : c'est l'embolie gazeuse
    (@sec-fosse-posterieure).
 3. **Un sinus peut se thromboser** (thrombose veineuse cérébrale) : HTIC, infarctus veineux
    souvent hémorragiques. L'anticoagulation reste indiquée même en présence de saignement
    (@sec-htic).
 
-## Le liquide cérébrospinal
+## Le liquide céphalo-rachidien
 
-Le LCS est produit à environ 70 % par les **plexus choroïdes**, surtout ceux des ventricules
+Le LCR est produit à environ 70 % par les **plexus choroïdes**, surtout ceux des ventricules
 latéraux, au rythme de 20 mL/h, soit **500 à 600 mL par jour**. Le volume total n'étant que de
 150 mL environ (dont une centaine dans le crâne), il est renouvelé trois à quatre fois par jour.
 Il suit un trajet fixe (@fig-ventricules) :
@@ -200,7 +200,7 @@ poser une dérivation ventriculaire externe (DVE, @sec-dysnatremies-dve).
 
 ::: {.callout-note title="Pour aller plus loin" collapse="true"}
 Le schéma classique (production par les plexus, résorption par les granulations
-arachnoïdiennes) est aujourd'hui complété. Le LCS circule aussi le long des espaces
+arachnoïdiennes) est aujourd'hui complété. Le LCR circule aussi le long des espaces
 périvasculaires du parenchyme, où il participe à l'élimination des déchets interstitiels
 (système dit « glymphatique ») [@iliff2012], et des vaisseaux lymphatiques ont été décrits
 dans la dure-mère [@louveau2015]. Ces voies, étudiées surtout chez l'animal, n'ont pas encore
@@ -237,13 +237,13 @@ aphasie, apparues brutalement il y a une heure.
 :::
 
 ::: {.callout-caution title="À retenir"}
-- Trois compartiments (parenchyme, sang, LCS) dans une boîte rigide.
+- Trois compartiments (parenchyme, sang, LCR) dans une boîte rigide.
 - Hématome extradural : artériel, en lentille, intervalle libre. Sous-dural : veineux, en
   croissant.
 - Polygone de Willis : une communicante antérieure, deux postérieures ; souvent incomplet.
 - Sinus veineux rigides et non collabables : tête dans l'axe, jugulaires libres, attention à
   l'embolie gazeuse.
-- LCS : 500 mL/j, ventricules latéraux, Monro, V3, aqueduc, V4 ; cornes temporales dilatées =
+- LCR : 500 mL/j, ventricules latéraux, Monro, V3, aqueduc, V4 ; cornes temporales dilatées =
   hydrocéphalie aiguë.
 - La BHE ne laisse pas passer le sodium : la natrémie gouverne l'eau cérébrale.
 :::

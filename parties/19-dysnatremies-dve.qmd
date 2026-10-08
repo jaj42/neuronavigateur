@@ -32,8 +32,8 @@ BHE [@payen2007] : l'eau entre dans le cerveau.
 Chez le cérébrolésé, la natrémie se mesure au moins une fois par jour, plus souvent sous
 osmothérapie, sous desmopressine ou pendant une correction. Elle s'interprète avec la
 **diurèse**, le **bilan entrées-sorties**, la **volémie** et, au besoin, l'ionogramme
-urinaire. La cible usuelle est une natrémie normale (135–145 mmol/L), plutôt dans la moitié
-haute chez le traumatisé crânien grave (@sec-tc-grave) et à 140–145 mmol/L pendant une
+urinaire. La cible usuelle est une natrémie normale (135–145 mmol/L), sans aucune
+hyponatrémie chez le traumatisé crânien grave (@sec-tc-grave), et à 140–145 mmol/L pendant une
 chirurgie avec diabète insipide (@sec-craniotomie). Les solutés hypotoniques (glucosé seul,
 Ringer lactate) n'ont pas leur place [@sfar_solutes2021].
 
@@ -92,7 +92,7 @@ sépare, c'est la **volémie** :
 | Mécanisme | Sécrétion d'ADH non freinée : rétention d'eau | Natriurèse excessive (peptides natriurétiques ?) : perte d'eau et de sel |
 | Volémie | Normale | **Diminuée** |
 | Bilan sodé | Équilibré | **Négatif** |
-| Diurèse | Basse | Élevée |
+| Diurèse | Normale ou basse | Élevée |
 | Urée | Normale ou basse | Normale ou haute |
 | Pression artérielle, PVC | Normales | Hypotension orthostatique, PVC basse |
 | Traitement | Traiter la cause ; apports d'eau limités à distance de la phase aiguë | **Remplacer l'eau et le sel** |
@@ -207,7 +207,7 @@ natrémie toutes les 4 à 6 h pendant la correction.
 
 Dans une cohorte de 130 traumatisés crâniens graves, la moitié des patients ont eu au moins
 une hypernatrémie (> 145 mmol/L deux fois dans la journée), le plus souvent modérée
-(médiane 150 mmol/L). Elle était associée à une surmortalité (risque × 3 après ajustement),
+(moyenne 150 mmol/L). Elle était associée à une surmortalité (risque × 3 après ajustement),
 expliquée en partie par les diabètes insipides, plus fréquents chez les patients les plus
 graves [@maggiore2009].
 
@@ -215,8 +215,9 @@ graves [@maggiore2009].
 
 Le diagnostic repose sur trois critères réunis : **polyurie** (protocole local : > 400 mL en
 3 h), **urines diluées** (densité < 1005, sans glycosurie) et **natrémie > 145 mmol/L**. Le
-traitement local associe desmopressine 2 µg IV, à réinjecter seulement si la polyurie reprend
-et si la natrémie est ≥ 135 mmol/L, et compensation de la diurèse (@sec-base-du-crane). Les
+traitement local associe desmopressine 2 µg IV, à réinjecter toutes les 12 h sauf si la
+natrémie est < 135 mmol/L et à arrêter quand la densité dépasse 1005 avec une diurèse
+< 150 mL en 3 h, et compensation de la diurèse (@sec-base-du-crane). Les
 pièges sont les mêmes partout : une polyurie n'est pas toujours un diabète insipide (solutés
 peropératoires, mannitol, glycosurie), et la desmopressine expose à l'**hyponatrémie** si les
 apports continuent.
@@ -250,21 +251,26 @@ est encore fragile : on cesse les bolus, puis on laisse la natrémie redescendre
 La DVE est un cathéter introduit par un trou de trépan frontal (point de Kocher) dans la
 corne frontale du ventricule latéral, tunnélisé sous la peau, puis relié à une ligne qui
 porte un **robinet**, un **capteur de pression** et une **chambre de recueil graduée** en
-cmH~2~O, elle-même reliée à une **poche**. Le système est clos.
+cmH~2~O, elle-même reliée à une **poche**. Le système est clos (@fig-dve).
 
 - Le **zéro** de la graduation se règle au niveau du **conduit auditif externe** (repère du
   trou de Monro), comme le zéro de la pression artérielle (@sec-monitorage).
 - La **hauteur** prescrite est la hauteur du point d'écoulement de la chambre au-dessus de ce
-  zéro. Le LCS ne s'écoule que si la pression dans le ventricule dépasse cette hauteur :
+  zéro. Le LCR ne s'écoule que si la pression dans le ventricule dépasse cette hauteur :
   **la hauteur est un seuil de pression**. 1 mmHg = 1,36 cmH~2~O ; une DVE à +15 cmH~2~O
   draine au-delà d'environ 11 mmHg.
-- Les plexus choroïdes produisent environ **20 mL de LCS par heure** (@sec-anatomie) : un
+- Les plexus choroïdes produisent environ **20 mL de LCR par heure** (@sec-anatomie) : un
   débit très supérieur pendant plusieurs heures traduit un hyperdrainage ou un siphonnage ; un
   débit nul, une obstruction ou une hauteur trop haute.
 
+![Montage d'une DVE. Le zéro est au niveau du conduit auditif externe (CAE) ; le LCR ne s'écoule
+que si la pression ventriculaire dépasse la hauteur du point d'écoulement, ici +15 cmH~2~O,
+soit environ 11 mmHg. Le capteur mesure la PIC quand la dérivation est fermée vers la chambre.
+Schéma.](../figures/dve){#fig-dve width=95%}
+
 La DVE est à la fois un **monitorage** (la PIC, quand elle est fermée) et un **traitement**
-(le drainage de l'hydrocéphalie, ou d'un peu de LCS pour baisser la PIC, @sec-htic). Le
-drainage lombaire externe, utilisé pour les fuites de LCS après une chirurgie de la base du
+(le drainage de l'hydrocéphalie, ou d'un peu de LCR pour baisser la PIC, @sec-htic). Le
+drainage lombaire externe, utilisé pour les fuites de LCR après une chirurgie de la base du
 crâne (@sec-base-du-crane), ne se pose jamais en présence d'une masse ou d'une hydrocéphalie
 obstructive (risque d'engagement, @sec-physiopathologie).
 
@@ -301,7 +307,7 @@ Une DVE se prescrit chaque jour, par écrit :
    dépasse un seuil.
 2. **La hauteur** en cmH~2~O au-dessus du conduit auditif externe.
 3. **Le débit attendu** et les seuils qui imposent d'appeler (débit nul, débit excessif).
-4. **La surveillance** : PIC (DVE fermée), aspect du LCS, oscillations, examen neurologique,
+4. **La surveillance** : PIC (DVE fermée), aspect du LCR, oscillations, examen neurologique,
    pansement.
 
 <!-- TODO-VALIDER : aucun protocole local de surveillance infirmière de la DVE dans les sources : hauteur par défaut hors HSA, seuils de débit horaire et journalier qui déclenchent un appel, fréquence de la mesure de la PIC, conduite en cas de débit nul (A_VALIDER, n° 41). -->
@@ -315,7 +321,7 @@ on lit, puis on rouvre si la prescription le demande (@sec-monitorage).
 ### Mobiliser et transporter un patient porteur de DVE
 
 Toute modification de la position de la tête par rapport à la chambre change la hauteur
-réelle. Si la poche ou la chambre tombe sous le niveau de la tête, le LCS est **siphonné** :
+réelle. Si la poche ou la chambre tombe sous le niveau de la tête, le LCR est **siphonné** :
 le ventricule se vide en quelques minutes.
 
 - **Clamper** la DVE avant toute mobilisation, toilette, transfert, transport au scanner, et
@@ -329,7 +335,7 @@ Consensus de la Neurocritical Care Society sur la DVE [@fried2016] :
 
 - cathéters **imprégnés d'antimicrobiens** dans le cadre d'un protocole de gestion
   (recommandation forte, niveau modéré) ;
-- **pas de prélèvement de LCS systématique** : seulement sur indication clinique
+- **pas de prélèvement de LCR systématique** : seulement sur indication clinique
   (conditionnelle, faible) ; l'IDSA déconseille aussi les prélèvements quotidiens hors
   indication (forte, faible) [@tunkel2017], comme la conférence d'experts française de 2004
   [@sfar_hsa2004] ;
@@ -350,7 +356,7 @@ ascendant** en cas de lésion de la fosse postérieure (@sec-htic) et à un **re
 d'un anévrysme non exclu (@sec-hsa). Céphalées en position assise, débit élevé, ventricules
 fins au scanner : on remonte la DVE.
 
-**L'obstruction.** Pas de LCS, plus d'oscillations, PIC qui monte, patient qui s'aggrave :
+**L'obstruction.** Pas de LCR, plus d'oscillations, PIC qui monte, patient qui s'aggrave :
 caillot, débris, cathéter sorti du ventricule, robinet mal tourné. On vérifie le système de la
 tête à la poche (robinets, coudure, hauteur) et l'on appelle le neurochirurgien. **On ne
 rince pas** une DVE soi-même : l'irrigation est un facteur de risque d'infection
@@ -360,16 +366,16 @@ rince pas** une DVE soi-même : l'irrigation est un facteur de risque d'infectio
 
 **L'infection (ventriculite).** Elle survient dans environ 11 cas pour 1000 jours de
 cathéter. Les facteurs de risque sont le sang intraventriculaire ou sous-arachnoïdien, la
-fracture avec fuite de LCS, la craniotomie, l'irrigation et la durée de drainage
+fracture avec fuite de LCR, la craniotomie, l'irrigation et la durée de drainage
 [@tunkel2017; @lozier2002]. Dans un essai randomisé, les cathéters imprégnés de minocycline
-et de rifampicine divisaient par sept les cultures de LCS positives (1,3 % contre 9,4 %)
+et de rifampicine divisaient par sept les cultures de LCR positives (1,3 % contre 9,4 %)
 [@zabramski2003]. Le changement systématique du cathéter au bout de quelques jours ne
 diminue pas le risque [@lozier2002; @fried2016].
 
 ::: {.callout-warning title="Piège : diagnostiquer une ventriculite"}
 Le diagnostic est difficile : la fièvre a mille causes en neuroréanimation, et le sang dans
-le LCS en modifie la cellularité, la glycorachie et la protéinorachie. Ni un LCS anormal ne
-prouve l'infection, ni un LCS normal ne l'exclut ; un examen direct négatif non plus,
+le LCR en modifie la cellularité, la glycorachie et la protéinorachie. Ni un LCR anormal ne
+prouve l'infection, ni un LCR normal ne l'exclut ; un examen direct négatif non plus,
 surtout sous antibiotique [@tunkel2017]. Ce qui fait suspecter l'infection : une fièvre
 nouvelle, une altération de la vigilance, une cellularité **qui augmente** d'un prélèvement
 à l'autre. Ce qui la prouve : la **culture**.
@@ -389,7 +395,7 @@ nouvelle, une altération de la vigilance, une cellularité **qui augmente** d'u
 ### Le sevrage
 
 La DVE se retire **dès qu'elle n'est plus utile**, car le risque infectieux augmente avec le
-temps [@fried2016]. On commence quand le patient est stable, que le LCS s'éclaircit et que
+temps [@fried2016]. On commence quand le patient est stable, que le LCR s'éclaircit et que
 le débit diminue. Deux stratégies :
 
 - **Sevrage progressif** : on remonte la DVE par paliers sur plusieurs jours, puis on la
@@ -483,14 +489,14 @@ est restée ouverte pendant le trajet, posée sur le lit à côté de ses jambes
 3. Comment explorez-vous la fièvre de J8 ?
 
 ::: {.callout-note title="Réponses" collapse="true"}
-1. La chambre se trouvait bien sous le niveau de la tête : le LCS a été **siphonné**. Risque
+1. La chambre se trouvait bien sous le niveau de la tête : le LCR a été **siphonné**. Risque
    de ventricules collabés, d'hématome sous-dural, d'aggravation neurologique. Scanner (il est
    justement fait) et réglage de la DVE.
 2. **Clamper** la DVE avant la mobilisation et le transport, la fixer au patient, refaire le
    zéro et la hauteur au retour, puis **déclamper** et noter les horaires
    (protocole du service).
 3. Une ventriculite est possible (sang intraventriculaire, J8) mais la fièvre a d'autres
-   causes (pneumopathie, cathéters, fièvre centrale, thrombose). Examen, hémocultures, LCS
+   causes (pneumopathie, cathéters, fièvre centrale, thrombose). Examen, hémocultures, LCR
    prélevé en asepsie sur le site de prélèvement de la ligne (cellularité comparée aux
    précédentes, culture prolongée), imagerie [@tunkel2017]. Si l'infection est probable :
    vancomycine et bêtalactamine antipyocyanique, discussion du changement de DVE avec le
@@ -502,11 +508,11 @@ est restée ouverte pendant le trajet, posée sur le lit à côté de ses jambes
 ::: {.fiche-pratique}
 | Rubrique | Contenu |
 |--|------|
-| Objectifs | Natrémie normale et stable (135–145 mmol/L ; moitié haute chez le TC grave) ; aucune variation rapide ; pas d'hypovolémie ; DVE qui draine ce qui est prescrit, sans infection, retirée dès que possible |
-| Monitorage | Natrémie au moins quotidienne, toutes les 4 à 6 h pendant une correction ou sous desmopressine ; glycémie, osmolalité ; diurèse horaire, densité, bilan entrées-sorties, poids ; natriurèse et osmolalité urinaire ; cortisolémie si hyponatrémie ; DVE : hauteur, débit horaire, aspect du LCS, oscillations, PIC (DVE fermée), pansement |
+| Objectifs | Natrémie normale et stable (135–145 mmol/L ; aucune hyponatrémie chez le TC grave) ; aucune variation rapide ; pas d'hypovolémie ; DVE qui draine ce qui est prescrit, sans infection, retirée dès que possible |
+| Monitorage | Natrémie au moins quotidienne, toutes les 4 à 6 h pendant une correction ou sous desmopressine ; glycémie, osmolalité ; diurèse horaire, densité, bilan entrées-sorties, poids ; natriurèse et osmolalité urinaire ; cortisolémie si hyponatrémie ; DVE : hauteur, débit horaire, aspect du LCR, oscillations, PIC (DVE fermée), pansement |
 | Traitement | Hyponatrémie avec symptômes sévères : NaCl 3 % 150 mL en 20 min, jusqu'à 2 fois, cible + 5 mmol/L ; perte de sel : NaCl 0,9 %, sel, ± fludrocortisone ; diabète insipide : desmopressine 2 µg IV et compensation (protocole local) ; hypernatrémie : eau libre ; DVE : prescription écrite quotidienne (mode, hauteur, débit, seuils d'appel) |
 | Cibles | Hyponatrémie : + 10 mmol/L au maximum les premières 24 h, puis + 8 mmol/L par 24 h ; hypernatrémie : baisse ≤ 12 mmol/L par 24 h ; DVE à +15 cmH~2~O tant qu'un anévrysme rompu n'est pas exclu |
-| Pièges | Pseudo-hyponatrémie (glycémie, mannitol) ; insuffisance corticotrope prise pour une SIADH ; restriction hydrique après une HSA ; correction qui s'emballe à la reprise de la diurèse ; desmopressine avec apports continus ; diabète insipide qui annonce l'engagement ; DVE ouverte lue comme une PIC ; transport sans clampage (siphonnage) ; DVE oubliée clampée ; rinçage de la DVE ; prélèvements de LCS systématiques ; antibiotique pendant toute la durée de la DVE |
+| Pièges | Pseudo-hyponatrémie (glycémie, mannitol) ; insuffisance corticotrope prise pour une SIADH ; restriction hydrique après une HSA ; correction qui s'emballe à la reprise de la diurèse ; desmopressine avec apports continus ; diabète insipide qui annonce l'engagement ; DVE ouverte lue comme une PIC ; transport sans clampage (siphonnage) ; DVE oubliée clampée ; rinçage de la DVE ; prélèvements de LCR systématiques ; antibiotique pendant toute la durée de la DVE |
 | Post-opératoire | Ionogramme de fin de première semaine après chirurgie hypophysaire (SIADH de J7–J10) ; sevrage de la DVE quand le patient est stable ; scanner avant le retrait ; dérivation définitive si hydrocéphalie chronique ; thromboprophylaxie pendant toute l'immobilisation |
 
 : Fiche pratique : dysnatrémies et DVE en réanimation {#tbl-fiche-dysnatremies-dve}

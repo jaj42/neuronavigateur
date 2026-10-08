@@ -21,7 +21,7 @@ for x0, tx, ty, ha in ((10, 10, 6.5, "left"), (78, 77, 50, "right")):
     ax.text(tx, ty, f"même ΔV → ΔP ≈ {p1 - p0:.0f} mmHg", color=INK2, fontsize=8,
             ha=ha, va="top")
 
-for x, y, lab in ((18, 42, "1. compensation\n(LCS et sang veineux\nchassés)"),
+for x, y, lab in ((18, 42, "1. compensation\n(LCR et sang veineux\nchassés)"),
                   (50, 60, "2. compliance\népuisée"),
                   (68, 68, "3. décompensation")):
     ax.text(x, y, lab, ha="center", va="top", color=BLUE, fontsize=8, fontweight="bold")

@@ -113,20 +113,21 @@ proximale, aggravation de 2 points ou plus après thrombolyse) sont au @sec-avc.
 
 ## L'échelle de Rankin modifiée
 
-L'échelle de Rankin modifiée (mRS) cote le handicap. C'est le critère de jugement habituel des
-essais d'AVC (@sec-avc).
+L'échelle de Rankin modifiée (mRS) cote le handicap en six grades, de 0 à 5
+[@vanswieten1988] ; les essais d'AVC, dont elle est le critère de jugement habituel, ajoutent
+le grade 6 pour le décès (@sec-avc).
 
 | mRS | Définition |
 |:-:|------|
 | 0 | Aucun symptôme |
-| 1 | Pas de handicap notable malgré des symptômes |
-| 2 | Handicap léger : ne peut plus faire tout ce qu'il faisait avant |
+| 1 | Pas de handicap notable malgré des symptômes : fait tout ce qu'il faisait avant |
+| 2 | Handicap léger : ne peut plus faire tout ce qu'il faisait avant, mais s'occupe de ses affaires sans aide |
 | 3 | Handicap modéré : a besoin d'aide, mais marche sans assistance |
-| 4 | Handicap modérément sévère : ne marche pas et ne subvient pas à ses besoins sans assistance |
+| 4 | Handicap modérément sévère : ne marche pas sans assistance et ne subvient pas à ses besoins corporels sans aide |
 | 5 | Handicap sévère : alité, incontinent, soins infirmiers permanents |
-| 6 | Décès |
+| 6 | Décès (ajouté dans les essais) |
 
-: Échelle de Rankin modifiée [@iyer2009] {#tbl-rankin}
+: Échelle de Rankin modifiée [@vanswieten1988] {#tbl-rankin}
 
 ## Les autres échelles du livre
 

@@ -1,6 +1,8 @@
 # Avant-propos {.unnumbered}
 
-Ce livret accompagne vos premières semaines en neuro-anesthésie-réanimation. Il part de
+*Le Neuronavigateur* accompagne vos premières semaines en neuro-anesthésie-réanimation.
+Comme la neuronavigation guide le chirurgien dans le cerveau, ce livret veut vous aider à vous
+repérer dans une spécialité qui a ses propres règles. Il part de
 l'anatomie et de la physiologie, qui servent à tout comprendre ensuite, avant de passer aux
 situations concrètes du bloc opératoire, de la neuroradiologie interventionnelle et de la
 réanimation.

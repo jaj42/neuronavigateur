@@ -1,0 +1,45 @@
+{
+  "file_name": "autoregulation-drummond-anesthesiology1997.pdf",
+  "num_pages": 3,
+  "total_token_count": 5851,
+  "total_chunks": 45,
+  "total_images": 0,
+  "pages": [
+    {
+      "page_num": 0,
+      "page_box": [
+        0,
+        0,
+        1532,
+        2120
+      ],
+      "token_count": 2170,
+      "num_chunks": 23,
+      "num_images": 0
+    },
+    {
+      "page_num": 1,
+      "page_box": [
+        0,
+        0,
+        1532,
+        2126
+      ],
+      "token_count": 2692,
+      "num_chunks": 17,
+      "num_images": 0
+    },
+    {
+      "page_num": 2,
+      "page_box": [
+        0,
+        0,
+        1532,
+        2120
+      ],
+      "token_count": 989,
+      "num_chunks": 5,
+      "num_images": 0
+    }
+  ]
+}

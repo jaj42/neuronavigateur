@@ -18,12 +18,13 @@ L'hémorragie sous-arachnoïdienne (HSA) anévrysmale est l'irruption de sang ar
 espaces sous-arachnoïdiens (citernes de la base, vallée sylvienne, sillons de la convexité) à
 la rupture d'un anévrysme du polygone de Willis (@fig-willis). Elle touche des sujets jeunes,
 50 ans en moyenne, plus souvent des femmes (60 %) ; ses facteurs de risque sont
-l'**hypertension artérielle** et le **tabagisme** [@sfar_hsa2004]. Son incidence en France est
-de 5 à 7 pour 100 000 habitants par an. Selon le protocole du service, la mortalité globale
+l'**hypertension artérielle** et le **tabagisme** ; son incidence en France est de 5 à 7 pour
+100 000 habitants par an [@sfar_hsa2004]. Selon le protocole du service, la mortalité globale
 avoisine 40 %, dont une partie avant l'arrivée à l'hôpital, et plus d'un quart des survivants
 gardent des séquelles invalidantes.
 
-Pour le réanimateur, l'HSA se déroule en trois temps, et chaque temps a sa complication :
+Pour le réanimateur, l'HSA se déroule en trois temps, et chaque temps a sa complication
+(@tbl-calendrier-hsa, @fig-calendrier-hsa) :
 
 | Période | Complication dominante | Ce qu'on fait |
 |--|----|-----|
@@ -33,6 +34,12 @@ Pour le réanimateur, l'HSA se déroule en trois temps, et chaque temps a sa com
 | Après J14 | Hydrocéphalie chronique (dérivation définitive) ; séquelles cognitives | Sevrage de la DVE, rééducation |
 
 : Le calendrier de l'HSA anévrysmale {#tbl-calendrier-hsa}
+
+![Calendrier de l'HSA anévrysmale. Resaignement maximal dans les 24 premières heures (protocole
+du service) et exclusion de l'anévrysme dans les 24 h [@hoh2023] ; vasospasme angiographique de
+J4 à J14 [@sfar_hsa2004], pic vers J8–J10 (protocole) ; hyponatrémie surtout de J4 à J10 ;
+nimodipine 60 mg toutes les 4 h pendant 21 jours [@pickard1989; @hoh2023]. Les bandes grises
+délimitent les trois périodes du tableau.](../figures/calendrier-hsa){#fig-calendrier-hsa width=100%}
 
 Ce chapitre suit le protocole du service et les recommandations internationales de 2023 :
 celles de l'AHA/ASA [@hoh2023], dont on donne la **classe** (1 : recommandé ; 2a : raisonnable ;
@@ -80,8 +87,9 @@ les grades III à V [@sfar_hsa2004].
 
 : Échelle WFNS {#tbl-wfns}
 
-L'échelle de Hunt et Hess, plus ancienne et plus subjective, se rencontre encore dans les
-comptes rendus ; la WFNS lui est préférée [@sfar_hsa2004].
+L'échelle de Hunt et Hess, plus ancienne et fondée sur une description clinique (céphalée,
+somnolence, coma), se rencontre encore dans les comptes rendus ; la WFNS lui est préférée
+[@sfar_hsa2004].
 
 ### Le scanner et l'échelle de Fisher modifiée
 
@@ -115,16 +123,15 @@ facteurs de risque, l'échelle modifiée restait prédictive, l'échelle de Fish
 
 L'**angioscanner** recherche l'anévrysme : image d'addition arrondie au temps artériel, siégeant
 dans 90 % des cas sur la partie antérieure du polygone (terminaison carotidienne, artère
-cérébrale antérieure, communicante antérieure, artère cérébrale moyenne) selon le protocole du
-service. L'**artériographie**,
+cérébrale antérieure, communicante antérieure) selon le protocole du service. L'**artériographie**,
 en NRI, précise l'anatomie et permet souvent de traiter dans le même temps.
 
-La **ponction lombaire** n'a aucune indication quand le scanner montre l'HSA ; elle est même
-dangereuse en cas d'hématome avec effet de masse ou d'hydrocéphalie (risque d'engagement)
-[@sfar_hsa2004]. Elle garde une place quand le scanner est normal : elle est recommandée si le
+La **ponction lombaire** n'a aucune indication quand le scanner montre l'HSA [@sfar_hsa2004] ;
+le protocole du service la contre-indique en cas d'hématome avec effet de masse ou
+d'hydrocéphalie aiguë (risque d'engagement). Elle garde une place quand le scanner est normal : elle est recommandée si le
 patient consulte **plus de 6 heures** après le début de la céphalée ou s'il a un nouveau déficit
 (classe 1) ; avant 6 heures et sans déficit, un scanner de bonne qualité lu par un
-neuroradiologue suffit raisonnablement (classe 2a) [@hoh2023]. Le LCS est uniformément rosé sur
+neuroradiologue suffit raisonnablement (classe 2a) [@hoh2023]. Le LCR est uniformément rosé sur
 les tubes successifs, avec un surnageant **xanthochromique**, ce qui le distingue d'une ponction
 traumatique (protocole du service).
 
@@ -195,14 +202,14 @@ le traumatisme crânien (@sec-tc-grave).
 
 ### L'hydrocéphalie aiguë et la DVE
 
-Le sang dans les espaces sous-arachnoïdiens et les ventricules bloque la résorption du LCS :
+Le sang dans les espaces sous-arachnoïdiens et les ventricules bloque la résorption du LCR :
 une **hydrocéphalie aiguë** complique 15 à 25 % des HSA selon le protocole (15 à 87 % selon les
 séries citées par l'AHA [@hoh2023]), plus souvent en cas d'hémorragie
-intraventriculaire ou d'anévrysme de la circulation postérieure. Elle aggrave la conscience et
+intraventriculaire ou d'anévrysme de la circulation postérieure [@sfar_hsa2004]. Elle aggrave la conscience et
 le risque ischémique. Au scanner, les premiers signes sont discrets : dilatation des cornes
 temporales, augmentation de l'index bicaudé [@sfar_hsa2004].
 
-Une hydrocéphalie aiguë symptomatique impose une **dérivation du LCS en urgence**, par DVE ou
+Une hydrocéphalie aiguë symptomatique impose une **dérivation du LCR en urgence**, par DVE ou
 drainage lombaire (classe 1) [@hoh2023] ; à la phase aiguë, avant l'exclusion, c'est la DVE.
 Trois règles, propres à l'anévrysme non exclu :
 
@@ -325,8 +332,8 @@ les infarctus cérébraux (22 % contre 33 %) et les mauvais devenirs (20 % contr
   [@sfar_hsa2004], mais l'intérêt d'une durée courte n'est pas établi [@treggiari2023].
 - **Voie intraveineuse** (1 à 2 mg/h selon le poids) : alternative courante en France en 2004,
   avec davantage d'hypotension, ce qui impose d'augmenter progressivement la dose
-  [@sfar_hsa2004]. La NCS juge les preuves insuffisantes pour les inhibiteurs calciques autres que
-  la nimodipine orale par voie IV, et recommande **contre** la nicardipine IV en prévention
+  [@sfar_hsa2004]. La NCS recommande **contre** la nicardipine IV en prévention et juge les preuves
+  insuffisantes pour les autres inhibiteurs calciques par voie IV ou intraventriculaire
   [@treggiari2023].
 - Son effet indésirable est l'**hypotension**, qui doit être corrigée [@sfar_hsa2004]. La
   meilleure conduite (fractionner, réduire ou suspendre la dose) n'est pas établie
@@ -363,7 +370,7 @@ Ce qui n'a **pas** fait ses preuves, et ne se prescrit pas en routine :
 
 : Ce qui ne prévient pas l'ischémie retardée {#tbl-echecs-hsa}
 
-Le **drainage lombaire** du LCS est une piste récente : dans l'essai EARLYDRAIN (287 patients),
+Le **drainage lombaire** du LCR est une piste récente : dans l'essai EARLYDRAIN (287 patients),
 un drain lombaire posé **après l'exclusion** (5 mL/h) réduisait les infarctus secondaires (28,5 %
 contre 39,9 %) et les devenirs défavorables à 6 mois (32,6 % contre 44,8 %) [@wolf2023].
 L'AHA note que le drainage lombaire réduit l'ischémie retardée, sans en faire une
@@ -380,9 +387,10 @@ L'ischémie retardée se cherche **chaque jour**, de J3 à J14 :
   s'installe en quelques minutes ou en quelques heures ; elle s'accompagne souvent de fièvre,
   d'HTA, d'hyperleucocytose, d'hyponatrémie [@sfar_hsa2004] ;
 - le **Doppler transcrânien** (classe 2a) [@hoh2023], quotidien [@sfar_hsa2004] : vasospasme de
-  l'ACM pour une Vm ≥ 120 cm/s avec un **index de Lindegaard** ≥ 3 (qui le distingue de
-  l'hyperhémie) ; un index > 6 signe un vasospasme sévère ; une hausse de plus de 50 cm/s par
-  jour annonce un déficit [@hoh2023; @sfar_hsa2004; @lindegaard1989] (@sec-dtc, @fig-dtc). Seule
+  l'ACM pour une Vm ≥ 120 cm/s avec un **index de Lindegaard** > 3 (≥ 3 pour l'AHA), qui le
+  distingue de l'hyperhémie [@hoh2023; @sfar_hsa2004] ; un index > 6 signe un vasospasme
+  sévère ; une hausse de plus de 50 cm/s par jour annonce un déficit [@sfar_hsa2004]
+  (@sec-dtc, @fig-dtc). Seule
   l'ACM est explorée de façon fiable [@sfar_hsa2004] ;
 - l'**angioscanner** et le **scanner de perfusion**, en cas de suspicion ou d'examen
   ininterprétable (classe 2a) ;
@@ -405,7 +413,8 @@ L'ischémie retardée symptomatique est une urgence : chaque heure compte.
    pour la recommander ou la déconseiller, et demande de l'adapter au profil hémodynamique de
    chaque patient [@treggiari2023]. Dans les séries observationnelles, environ 80 % des patients
    s'améliorent ; le seul essai randomisé, HIMALAIA, arrêté prématurément (41 patients), n'a pas
-   montré de bénéfice et a trouvé plus d'effets indésirables graves [@gathier2018; @hoh2023].
+   montré de bénéfice, avec une tendance à plus d'effets indésirables graves (RR 2,1, non
+   significatif) [@gathier2018; @hoh2023].
    Aucune cible n'est validée ; la conférence française admettait une PAM jusqu'à 100–120 mmHg
    en l'absence d'infarctus constitué, et la limitait en cas d'infarctus (risque de
    transformation hémorragique) [@sfar_hsa2004]. On l'interrompt si l'examen ne s'améliore pas.
@@ -416,8 +425,9 @@ L'ischémie retardée symptomatique est une urgence : chaque heure compte.
    urgence chez un patient fragile : PA maintenue, normocapnie, attention à l'hypotension et à la
    hausse de PIC pendant la perfusion du vasodilatateur [@hoh2023] (@sec-nri).
 
-La **milrinone intraveineuse** est utilisée par certaines équipes : les données, limitées et non
-randomisées, sont « prometteuses » mais demandent confirmation [@hoh2023].
+La **milrinone intraveineuse** est utilisée par certaines équipes pour prévenir l'ischémie
+retardée : les données, limitées et non randomisées, sont « prometteuses » mais demandent
+confirmation [@hoh2023].
 
 ::: {.callout-warning title="Piège"}
 **Monter la PA chez un patient dont l'anévrysme n'est pas exclu**, ou qui a un autre anévrysme
@@ -538,7 +548,7 @@ index de Lindegaard 5.
 ::: {.callout-note title="Réponses" collapse="true"}
 1. Une **ischémie cérébrale retardée** sur vasospasme de l'ACM gauche : déficit après J3,
    territoire concordant, accélération Doppler (> 50 cm/s en 24 h, Vm ≥ 120 cm/s, Lindegaard
-   ≥ 3) [@hoh2023; @sfar_hsa2004]. Il faut éliminer une hydrocéphalie, un resaignement, une
+   > 3) [@hoh2023; @sfar_hsa2004]. Il faut éliminer une hydrocéphalie, un resaignement, une
    crise : **scanner** (avec angioscanner et perfusion), EEG au moindre doute.
 2. **Non** : diurèse abondante, natriurèse, fièvre et probable hypovolémie évoquent un
    **syndrome de perte de sel**. La restriction hydrique aggraverait l'hypovolémie et l'ischémie.
@@ -558,7 +568,7 @@ index de Lindegaard 5.
 | Rubrique | Contenu |
 |--|------|
 | Objectifs | Pas de resaignement : PA contrôlée, exclusion de l'anévrysme dans les 24 h ; hydrocéphalie drainée ; dépister et traiter l'ischémie retardée de J3 à J14 ; aucune ACSOS |
-| Monitorage | Glasgow, déficit, langage, pupilles répétés ; grade WFNS et Fisher modifié notés ; PA invasive chez le patient grave ; Doppler transcrânien quotidien (Vm ACM ≥ 120 cm/s et Lindegaard ≥ 3 : vasospasme) ; angioscanner et perfusion si doute ; PIC par la DVE ; EEG continu si haut grade ou conscience altérée ; natrémie et bilan entrées-sorties quotidiens ; troponine, ECG, échocardiographie si besoin |
+| Monitorage | Glasgow, déficit, langage, pupilles répétés ; grade WFNS et Fisher modifié notés ; PA invasive chez le patient grave ; Doppler transcrânien quotidien (Vm ACM ≥ 120 cm/s et Lindegaard > 3 : vasospasme) ; angioscanner et perfusion si doute ; PIC par la DVE ; EEG continu si haut grade ou conscience altérée ; natrémie et bilan entrées-sorties quotidiens ; troponine, ECG, échocardiographie si besoin |
 | Induction et entretien | Ni poussée hypertensive ni hypotension : prévenir la réponse aux stimulations ; cathéter artériel avant l'induction si grave ; anesthésie intraveineuse si HTIC, pas de forts bolus de morphinique ; normocapnie ; glycémie surveillée ; immobilité en NRI ; DVE sans drainage sauf demande du chirurgien ; clampage temporaire le plus bref possible, sans hypotension ; pas d'hypothermie de routine |
 | Cibles | Avant exclusion : ni HTA, ni hypotension, ni variabilité, PAM jamais < 65 mmHg, baisse progressive d'une PAS > 180–200 mmHg (cible locale à préciser) ; après exclusion : euvolémie, pas d'HTA prophylactique, HTA induite seulement si ischémie retardée ; natrémie 135–145 mmol/L ; normocapnie ; pas de fièvre ; ni hyper- ni hypoglycémie ; Hb : pas de seuil validé (proposition ≈ 8–9 g/dL) ; DVE à +15 cmH~2~O avant exclusion ; nimodipine entérale 60 mg × 6/j pendant 21 j |
 | Pièges | HTA de Cushing baissée brutalement ; DVE à 0 cmH~2~O avant exclusion ; DVE posée après l'héparine ; hypervolémie (« triple H ») ; restriction hydrique sur une hyponatrémie de perte de sel ; aggravation après J3 attribuée à la fatigue ; HTA induite sur un anévrysme non exclu ; hypotension sous nimodipine non corrigée ; phénytoïne en prophylaxie ; magnésium, statine, nicardipine IV, acide tranexamique en routine |

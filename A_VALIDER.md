@@ -21,13 +21,13 @@ Types :
 | 5 Monitorage | `05-monitorage.qmd` | 6 |
 | 6 Préop | `06-preop.qmd` | 8 |
 | 7 Craniotomie | `07-craniotomie.qmd` | 1, 2, 3, 13, 16, 17 |
-| 8 Fosse postérieure | `08-fosse-posterieure.qmd` | 18 |
+| 8 Fosse postérieure | `08-fosse-posterieure.qmd` | 18 (tranché, plus de commentaire) |
 | 9 Chirurgie éveillée | `09-chirurgie-eveillee.qmd` | 19, 20 |
 | 10 Épilepsie | `10-epilepsie.qmd` | 16, 21, 22, 23 |
 | 11 Base du crâne | `11-base-du-crane.qmd` | 24, 25, 26, 27 |
 | 12 Vasculaire programmée | `12-vasculaire.qmd` | 4, 5, 28, 29, 30 |
 | 13 Trijumeau | `13-trijumeau.qmd` | 31 |
-| 14 NRI | `14-nri.qmd` | 12, 14, 15, 32, 33 |
+| 14 NRI | `14-nri.qmd` | 12, 14, 15, 32, 33, 39 |
 | 15 HTIC | `15-htic.qmd` | 3, 4, 6, 7, 34, 35, 36 |
 | 16 TC grave | `16-tc-grave.qmd` | 4, 36, 37 |
 | 17 HSA | `17-hsa.qmd` | 4, 9, 10, 38 |
@@ -78,6 +78,8 @@ Ceux qui touchent directement une dose, une cible ou une indication écrite dans
 - **Livre** (ch. 12) : d'après la littérature seulement (Bebawy 2010 : 0,3–0,4 mg/kg de poids idéal ; Guinn 2011), avec un encadré « piège » signalant l'absence de protocole local.
 - **Question** : l'adénosine est-elle utilisée ? Dose de départ, prérequis (palettes, rythme), qui décide ?
 - **Décision** : ☐ non utilisée (retirer la section) ☐ utilisée, protocole : ……
+- **Ajout (audit 7.3)** : le protocole ne décrit pas non plus la conduite à tenir devant une rupture peropératoire, ni le moment de pose du KTA. Le livre propose : KTA avant l'induction si le risque de rupture est élevé ; appel à l'aide, transfusion, baisse tensionnelle brève à la demande du chirurgien jusqu'au clampage, puis pression normale ou haute, anesthésie approfondie, normocapnie. Les deux sont étiquetés « pratique proposée ».
+- **Décision (rupture, KTA)** : ☐ validé ☐ autre : ……
 
 ### n° 6. Seuil d'HTIC 15 mmHg (écart)
 - **Protocole** `htic` : HTIC définie par PIC > 15 mmHg.
@@ -152,7 +154,7 @@ Ceux qui touchent directement une dose, une cible ou une indication écrite dans
 - **Protocole** : aucun ; `craniotomie` cite seulement les « risques liés à la position assise d'embolie gazeuse, hypovolémie relative ».
 - **Livre** (ch. 8) : écrit d'après la littérature (Porter 1999, Mirski 2007, Fathi 2009…).
 - **Questions** : le service pratique-t-il la position assise ? Dépistage du FOP (ETT de contraste ou ETO) ? ETO peropératoire disponible ? Type de KTC (multiperforé, position) ?
-- **Décision** : ……
+- **Décision** : tranché par l'auteur (étape 10 du plan, 2026-10-07) : la position assise est abandonnée chez l'adulte en France. Le chapitre 8 présente les positions latérale, trois-quarts ventrale et ventrale ; la position assise (FOP, ETO, KTC multiperforé, PEP, manœuvre de Durant) est réduite à un encadré « Pour aller plus loin : la position assise, pour la culture ». L'embolie gazeuse reste traitée pour la tête en proclive et les plaies de sinus (Mirski 2007, Rath 2007). Commentaire `TODO-VALIDER` retiré. Reste à confirmer, si besoin : le doppler précordial est-il disponible au bloc de neurochirurgie (le livre le propose quand la tête est nettement au-dessus du cœur, d'après Mirski 2007) ?
 
 ### n° 19. G30 % en chirurgie éveillée (précision)
 - **Protocole** `eveillee` : « Si somnolence ou ralentissement : G30 % 1 ampoule IVL dans pochon 100 ml de sérum phy », sans indication précisée.
@@ -178,9 +180,9 @@ Ceux qui touchent directement une dose, une cible ou une indication écrite dans
 
 ### n° 23. Prévention de la MTEV après cortectomie (écart)
 - **Protocole** `cortectomie` : « bas anti-thrombose », HBPM préventive à J2 « si aucune complication après scanner ».
-- **Références** : RFE GIHP 2024 : CPI, HBPM à H24, pas de bas de contention en prévention ; le ch. 7 (craniotomie) écrit HBPM à H24.
+- **Références** : RFE GIHP 2024 : pas de schéma propre à la chirurgie intracrânienne ; anticoagulant préventif entre H12 et H24 en chirurgie programmée (GRADE 2+), CPI si anticoagulant contre-indiqué (1+) ou en association si très haut risque (2+), pas de bas de contention (1−) ; le protocole `craniotomie` et le ch. 7 : CPI et HBPM à H24.
 - **Livre** (ch. 10) : donne le protocole et la RFE.
-- **Décision** : ☐ aligner sur la RFE (CPI, H24) ☐ garder J2 ☐ autre : ……
+- **Décision** : ☐ aligner sur `craniotomie` (CPI, H24) ☐ garder J2 ☐ autre : ……
 
 ### n° 24. Antibioprophylaxie en voie endonasale (écart)
 - **Protocole** `endonasal` : amoxicilline-acide clavulanique (vancomycine si SARM, avis infectiologique si BLSE).
@@ -244,7 +246,7 @@ Ceux qui touchent directement une dose, une cible ou une indication écrite dans
 ### n° 34. Objectif de bouffées-suppressions dans l'HTIC (écart)
 - **Protocole** `htic` : « Sédation : monitorage par EEG et viser Burst Suppression ».
 - **Références** : SIBICC 2019 (tableau 1) : pas de propofol à forte dose pour obtenir des bouffées-suppressions (syndrome de perfusion du propofol) ; coma barbiturique au palier 3 (dose test, EEG, pas d'augmentation une fois les bouffées-suppressions obtenues) ; Cochrane barbituriques (Roberts 2012) : pas de bénéfice sur le devenir, hypotension chez 1 patient sur 4.
-- **Livre** (ch. 15) : objectif local présenté comme un dernier recours, par barbituriques.
+- **Livre** (ch. 15) : objectif local cité ; SIBICC rappelé : propofol à forte dose déconseillé, barbituriques au palier 3 titrés sur la PIC (les bouffées-suppressions sont un plafond de dose, pas une cible).
 - **Question** : quel agent, à quelle étape ?
 - **Décision** : ……
 
@@ -281,11 +283,12 @@ Vérifié sur AHA 2026, ESO 2021–2025 et RPP SFAR 2022.
 - **(a) Surveillance** : `avc` /30 min pendant 2 h, /h jusqu'à H6, /2 h jusqu'à H24 ; AHA 2026 (tableau 7) : /15 min pendant et 2 h après, /30 min pendant 6 h, /h jusqu'à H24. ☐ aligner ☐ garder
 - **(b) Nicardipine** : « 1 amp de 10mg/ml dans 40ml » à corriger (ampoule de 10 mg/10 mL, soit 10 mg dans 50 mL = 0,2 mg/mL, cohérent avec « 1 mg/h = 5 mL/h ») ; dose de départ non précisée : ……
 - **(c)** Seuil d'appel « PAS < 85 mmHg » très bas : ……
-- **(d) Après thrombectomie** : la feuille sert aussi, mais sa titration (PAS 170–180, arrêt < 160) ne correspond pas à la RPP SFAR 2022 après TICI ≥ 2b (130–160) ; AHA 2026 (classe 3, délétère) et ESO 2025 (forte) déconseillent une cible < 140 mmHg ; le livre propose 140–160 mmHg après bonne recanalisation, 140–180 sinon. Cible locale : ……
+- **(d) Après thrombectomie** : la feuille sert aussi, mais sa titration (PAS 170–180, arrêt < 160) ne correspond pas à la RPP SFAR 2022 après TICI ≥ 2b (130–160) ; AHA 2026 (classe 3, délétère) et ESO 2025 (forte) déconseillent une cible < 140 mmHg ; le livre propose 140–160 mmHg après bonne recanalisation, 140–180 sinon, au ch. 18, au ch. 14 (texte, cas clinique et fiche pratique, alignés à l'étape 7.6) et dans les fiches mémo. Cible locale : ……
 - **(e) Ténectéplase** : protocole écrit pour l'altéplase seulement ; AHA 2026 : ténectéplase 0,25 mg/kg (max 25 mg) au même niveau (classe 1) ; ESO 2023 : préférée avant thrombectomie. ☐ ajouter
 - **(f)** Aucun protocole pour l'hémorragie après thrombolyse (AHA : cryoprécipité pour fibrinogène ≥ 1,5 g/L, acide tranexamique 1 g ; produit local : concentré de fibrinogène ?) ni pour l'angio-œdème : ……
 - **(g)** Rien sur l'imagerie de H24 avant les antithrombotiques, le test de déglutition, la prévention de la MTEV : ……
 - **(h)** Aucun protocole pour l'infarctus sylvien malin : ……
+- **(i) Position** : `avc` écrit « Position 0° > Position décubitus dorsal (strict) ou Position 30° ». Si « > » marque une préférence pour 0°, écart avec l'AHA 2026 (0° en routine : classe 3, sans bénéfice ; HeadPoST : décubitus strict sans effet sur le handicap) ; le livre (ch. 18) écrit « les deux se valent ». ☐ 0° ou 30° indifférent ☐ autre : ……
 
 ### n° 40. Dysnatrémies (lacune, proposition)
 - **(a) NaCl 3 %** : le guide européen (Spasovski 2014) recommande des poches prêtes de 150 mL ; la recette de SSH de l'HTIC (≈ 6,9 g NaCl) n'est pas équivalente (150 mL de NaCl 3 % = 4,5 g). Disponibilité locale ou recette validée par la pharmacie : ……

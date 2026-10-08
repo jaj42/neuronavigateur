@@ -44,9 +44,11 @@ La pupillométrie automatisée mesure la taille de la pupille et la vitesse de s
 à un flash calibré. Elle en tire un indice, le **NPi** (*Neurological Pupil index*), de 0 à 5 ;
 une valeur **inférieure à 3** est anormale. Dans une cohorte de 514 cérébrolésés (TC, HSA,
 hématome), la fréquence des NPi anormaux était associée à la mortalité et au mauvais devenir
-neurologique [@oddo2023]. Plus reproductible que la lampe de poche, la pupillométrie est
-recommandée pour juger d'une mydriase bilatérale avant une décision neurochirurgicale chez le
-traumatisé crânien grave [@sfnc_tce2025].
+neurologique [@oddo2023]. Plus reproductible que la lampe de poche, la pupillométrie est la
+méthode que les experts français suggèrent pour évaluer une mydriase bilatérale aréactive
+avant une craniotomie urgente chez le traumatisé crânien grave ; cette mydriase est un facteur
+de mauvais pronostic, mais ne contre-indique pas le geste à elle seule (R3, avis d'experts)
+[@sfnc_tce2025].
 
 ## La pression intracrânienne
 
@@ -55,7 +57,7 @@ traumatisé crânien grave [@sfnc_tce2025].
 | | Dérivation ventriculaire externe (DVE) | Capteur intraparenchymateux |
 |--|-----|-----|
 | Principe | Cathéter dans le ventricule latéral, relié à un capteur externe par une colonne de liquide | Fibre optique ou jauge de contrainte à l'extrémité d'un cathéter, dans la substance blanche frontale |
-| Atouts | Référence ; mesure globale ; **thérapeutique** (drainage du LCS) ; zéro refaisable à tout moment | Pose facile, même si les ventricules sont collabés ; mesure continue même pendant un drainage |
+| Atouts | Référence ; mesure globale ; **thérapeutique** (drainage du LCR) ; zéro refaisable à tout moment | Pose facile, même si les ventricules sont collabés ; mesure continue même pendant un drainage |
 | Limites | Pose difficile si ventricules petits ou déviés (échec ≈ 10 %) ; ne mesure que **clampée** | Zéro fait **avant** l'insertion, impossible à refaire : dérive au fil des jours ; mesure locale |
 | Infection | ≈ 10 % | ≈ 2,5 % |
 | Hémorragie | 2 à 4 % | 0 à 1 % |
@@ -85,8 +87,8 @@ La PIC normale de l'adulte couché est de **5 à 15 mmHg**. Le seuil de traiteme
 recommandations françaises, qui demandent de commencer à réfléchir dès 20 mmHg
 [@sfar_tcgrave2016].
 <!-- TODO-VALIDER : le protocole local htic définit l'HTIC par une PIC > 15 mmHg ; BTF 2016 : 22 mmHg ; SFAR 2016 : 20-25 mmHg (A_VALIDER n° 6). -->
-Le risque de mauvais devenir est multiplié par 3 environ entre 20 et 40 mmHg, et par 7
-au-delà [@sfar_tcgrave2016]. Mais un chiffre isolé compte moins que :
+Entre 20 et 40 mmHg, le risque de décès ou de mauvais devenir neurologique est multiplié par 3
+environ ; au-delà de 40 mmHg, la mortalité est multipliée par 7 [@sfar_tcgrave2016]. Mais un chiffre isolé compte moins que :
 
 - la **durée** passée au-dessus du seuil (la « dose » d'HTIC) ;
 - la **PPC** qui en résulte (PPC = PAM − PIC, cible 60 à 70 mmHg en l'absence de monitorage
@@ -115,8 +117,9 @@ dit qu'un chiffre ne soigne pas, et que c'est la façon de s'en servir qui compt
 
 ### L'onde de PIC
 
-Agrandie, la courbe de PIC n'est pas plate : chaque systole y imprime une onde à trois
-pics (@fig-onde-pic) [@czosnyka2004].
+Agrandie, la courbe de PIC n'est pas plate : chaque systole y imprime une onde pulsatile, dont
+l'amplitude augmente avec la PIC moyenne [@czosnyka2004]. Sa forme classique compte trois pics
+(@fig-onde-pic).
 
 - **P1** (onde de percussion) : l'onde artérielle transmise par les plexus choroïdes et les
   grosses artères.
@@ -130,16 +133,18 @@ dépasse P1, parfois avant que la PIC moyenne ne soit franchement
 Une onde où **P2 dépasse P1** signale un cerveau en haut de la courbe de
 Langfitt (@fig-langfitt) : le prochain millilitre fera monter la PIC.
 
-Sur des enregistrements plus longs, on voit aussi des **ondes lentes** décrites par Lundberg
-[@czosnyka2004] :
+Sur des enregistrements plus longs, on voit aussi des ondes d'origine vasculaire, décrites
+d'abord par Lundberg [@czosnyka2004] :
 
-- les **ondes A** (ou ondes en plateau) : la PIC monte brutalement à 50 mmHg ou plus et y reste
-  5 à 20 minutes, puis redescend. Elles traduisent la cascade vasodilatatrice de Rosner
-  chez un patient à compliance basse et à autorégulation conservée (@sec-physiologie) ; une
-  remontée de la PAM les interrompt souvent ;
-- les **ondes B** : oscillations de quelques mmHg, une demi à deux fois par minute, liées aux
-  variations du volume sanguin cérébral (respiration, tonus vasomoteur). Ce sont elles
-  qu'exploite le PRx.
+- les **ondes A** (ou ondes en plateau) : la PIC monte brutalement à des valeurs élevées, y
+  reste plusieurs minutes, puis redescend, souvent sous son niveau de départ. Elles
+  surviennent quand la réserve de compliance est basse et traduisent une vasodilatation
+  maximale [@czosnyka2004], c'est-à-dire la cascade vasodilatatrice de Rosner chez un patient à
+  autorégulation conservée (@sec-physiologie) ; une remontée de la PAM les interrompt souvent
+  [@rosner1995] ;
+- les **ondes B** (ou ondes lentes) : oscillations d'une période de 20 secondes à 3 minutes,
+  liées aux variations du volume sanguin cérébral (tonus vasomoteur) [@czosnyka2004]. Ce sont
+  elles qu'exploite le PRx.
 
 ## Le Doppler transcrânien {#sec-dtc}
 
@@ -170,7 +175,7 @@ patients reste trop grand pour qu'un IP remplace un capteur.
 Les seuils d'alerte retenus chez le traumatisé crânien grave à l'arrivée sont un **IP > 1,4**
 et une **Vd < 20 à 25 cm/s** [@ract2007; @sfar_tcgrave2016]. Dans l'étude de Ract, ces
 patients recevaient immédiatement osmothérapie et noradrénaline jusqu'à normalisation du
-Doppler, avant même le scanner [@ract2007]. Le protocole local retient IP > 1,4 et
+Doppler, dès l'admission et sans attendre le monitorage invasif [@ract2007]. Le protocole local retient IP > 1,4 et
 Vd < 25 cm/s, et propose de titrer la PAM au DTC : on monte la pression jusqu'à ce que la Vm
 se stabilise et que la Vd dépasse 25 cm/s (@sec-htic).
 
@@ -185,11 +190,11 @@ minutes, on l'abandonne pour les autres outils [@sfar_tcgrave2016].
 ### Le vasospasme
 
 Après une HSA, le rétrécissement des artères fait **monter toutes les vitesses**. On parle de
-vasospasme de l'ACM au-delà d'une Vm de **120 cm/s** [@sfar_hsa2004; @hoh2023]. Pour distinguer un vasospasme d'une **hyperhémie** (débit élevé dans une artère
+vasospasme de l'ACM au-delà d'une Vm de **120 cm/s** [@sfar_hsa2004]. Pour distinguer un vasospasme d'une **hyperhémie** (débit élevé dans une artère
 de calibre normal : fièvre, anémie, hypercapnie, noradrénaline), on rapporte la Vm de l'ACM à
-celle de la carotide interne extracrânienne : c'est l'**indice de Lindegaard**. Il est
-inférieur à 3 dans l'hyperhémie, supérieur à 3 dans le vasospasme (et à 6 quand il est
-sévère) [@lindegaard1989; @sfar_hsa2004]. La surveillance du vasospasme est détaillée au @sec-hsa.
+celle de la carotide interne extracrânienne : c'est l'**indice de Lindegaard**
+[@lindegaard1989]. Il est inférieur à 3 dans l'hyperhémie, supérieur à 3 dans le vasospasme
+(et à 6 quand il est sévère) [@sfar_hsa2004]. La surveillance du vasospasme est détaillée au @sec-hsa.
 
 ### Limites
 
@@ -206,9 +211,9 @@ continu sur une fenêtre glissante de quelques minutes (40 moyennes de 5 seconde
 
 - **PRx négatif ou proche de 0** : quand la PAM monte, la PIC baisse ou ne bouge pas ; les
   artérioles se contractent : **autorégulation conservée** ;
-- **PRx positif** (au-delà de 0,2 à 0,25) : la PIC suit passivement la PAM ; le lit vasculaire
-  est passif : **autorégulation altérée**. Un PRx durablement positif est associé à une
-  mortalité plus élevée [@czosnyka1997].
+- **PRx positif** : la PIC suit passivement la PAM ; le lit vasculaire est passif :
+  **autorégulation altérée**. Un PRx positif est associé à une PIC élevée et à un mauvais
+  devenir à 6 mois [@czosnyka1997].
 
 Si l'on range les valeurs de PRx des dernières heures par classes de PPC, on obtient souvent
 une **courbe en U** (@fig-prx). Son minimum est la **PPC optimale** (PPCopt) : la pression de
@@ -270,15 +275,17 @@ cérébral de la SvO~2~ : un reflet **global** de l'équilibre entre apport et c
 d'O~2~.
 
 - **55 à 75 %** : normal.
-- **Moins de 50 à 55 %** : le cerveau extrait plus d'oxygène qu'il n'en reçoit. Cherchez une
+- **Moins de 50 à 55 %** : le cerveau extrait plus d'oxygène qu'il n'en reçoit (la Brain
+  Trauma Foundation retient < 50 % comme seuil à éviter, niveau III [@carney2017]). Cherchez une
   hypotension, une HTIC, une hypocapnie excessive, une anémie, une hypoxémie, une crise.
 - **Plus de 75 à 80 %** : hyperhémie (le débit dépasse les besoins), ou cerveau qui ne consomme
   plus (lésions étendues, mort cellulaire).
 
 Chez 116 traumatisés crâniens graves, les épisodes de désaturation (SvjO~2~ < 50 % plus de
 10 minutes) étaient associés à un mauvais devenir : 90 % de mauvais devenir après plusieurs
-épisodes, contre 55 % sans épisode [@gopinath1994]. La SvjO~2~ donne parfois l'alarme avant la
-mydriase [@payen2007], et elle permet de vérifier qu'une hyperventilation brève ne rend pas
+épisodes, contre 55 % sans épisode [@gopinath1994]. La SvjO~2~ détecte tôt les épisodes
+d'ischémie secondaire, souvent brefs et invisibles sans mesure continue [@gopinath1994;
+@payen2007], et elle permet de vérifier qu'une hyperventilation brève ne rend pas
 le cerveau ischémique. Ses limites : une mesure globale qui ignore une ischémie focale, une
 contamination par le sang extracrânien si le cathéter est trop bas, des recalibrations
 fréquentes. On la pose du côté dominant du drainage veineux (souvent la droite,

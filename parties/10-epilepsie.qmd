@@ -48,7 +48,7 @@ C'est une chirurgie fonctionnelle et programmée : le risque accepté doit reste
 | Anesthésie | AIVOC propofol et rémifentanil ; **curare à l'induction seulement** | AIVOC propofol et rémifentanil | Anesthésie générale standard |
 | Abords | 2 VVP, **KTA**, sonde urinaire | 1 VVP, sonde urinaire | Standard |
 | Réveil | SSPI puis **USC de neurochirurgie** (Chippault) | **SSPI 2**, enregistrement EEG dès le réveil, puis chambre EEG-vidéo de l'USC | SSPI |
-| Risque propre | Ceux de la craniotomie ; déficit selon la zone | Hématome, infection, fuite de LCS (≈ 1 % au total) | **Bradycardie, asystolie** au test peropératoire ; paralysie récurrentielle |
+| Risque propre | Ceux de la craniotomie ; déficit selon la zone | Hématome, infection : 1,3 % au total [@mullin2016] | **Bradycardie, asystolie** au test peropératoire ; paralysie récurrentielle |
 
 : Les interventions de chirurgie de l'épilepsie (protocole du service) {#tbl-interventions-epilepsie}
 
@@ -86,16 +86,16 @@ sevrage.
 
 Pendant la chirurgie de résection, l'équipe peut enregistrer l'activité électrique directement
 à la surface du cortex (**électrocorticographie**, ECoG) pour délimiter la zone qui produit des
-pointes et vérifier la résection, et **stimuler le cortex** pour repérer les zones motrices
-[@chui2013]. Or presque tous les agents anesthésiques modifient l'EEG : à dose suffisante, ils
+pointes et vérifier la résection [@chui2013], et **stimuler le cortex** pour repérer les zones
+motrices. Or presque tous les agents anesthésiques modifient l'EEG : à dose suffisante, ils
 suppriment les pointes, et certains en font apparaître ailleurs. Une revue de 58 études conclut
 [@kacarbayram2021] :
 
 - **rémifentanil** et **dexmédétomidine** : données favorables, peu d'effet sur l'ECoG ;
 - **propofol**, **sévoflurane** et **isoflurane** : données insuffisantes ou contradictoires ;
-  l'effet dépend de la dose, la suppression des pointes est nette aux fortes concentrations ;
-- **à éviter** : protoxyde d'azote, étomidate, kétamine, thiopental, midazolam, fentanyl et
-  alfentanil, qui suppriment ou au contraire induisent des pointes trompeuses.
+  la dose doit être titrée avec soin, en dialogue avec le neurophysiologiste ;
+- **à éviter**, pour leurs effets indésirables sur le tracé : protoxyde d'azote, étomidate,
+  kétamine, thiopental, midazolam, fentanyl et alfentanil.
 
 ### Le protocole du service
 
@@ -125,8 +125,8 @@ un bolus de propofol l'arrête. Prévenez le neurophysiologiste : la crise rense
 ::: {.callout-note title="Pour aller plus loin : l'activation pharmacologique" collapse="true"}
 Quand l'ECoG est pauvre en pointes, certaines équipes provoquent l'activité épileptique par un
 médicament administré en bolus (**activation pharmacologique**) [@chui2013]. Les agents
-utilisés sont justement ceux que l'on évite le reste du temps parce qu'ils font apparaître des
-pointes, comme l'alfentanil [@kacarbayram2021]. Cette activation n'est faite qu'à la demande explicite du
+utilisés sont justement parmi ceux que l'on évite le reste du temps parce qu'ils perturbent le
+tracé. Cette activation n'est faite qu'à la demande explicite du
 neurophysiologiste, au moment qu'il choisit, et elle expose à une crise peropératoire. Elle n'est
 pas pratiquée de façon systématique dans le service.
 :::
@@ -148,7 +148,7 @@ d'enregistrement dès son arrivée.
 
 Le nerf vague gauche est choisi parce qu'il innerve moins le nœud sinusal que le droit. Au moment
 du **test de l'électrode** au bloc, une bradycardie sévère, voire une **asystolie**, peut
-survenir, par diffusion du courant aux branches cardiaques. Le fabricant l'estimait à environ un
+survenir, peut-être par diffusion du courant aux branches cardiaques du nerf. Le fabricant l'estimait à environ un
 cas sur 875 implantations (0,1 %) [@asconape1999]. Avant le test : scope visible, **atropine
 prête**, et accord avec le chirurgien pour arrêter la stimulation immédiatement. Après
 l'implantation, les stimulations peuvent modifier la voix, faire tousser ou donner une gêne
@@ -187,15 +187,18 @@ sont incertaines. Il est sédatif : un patient trop somnolent sous Rivotril doit
 (le protocole permet de l'adapter), après avoir éliminé une complication.
 
 ::: {.callout-note title="Ce que disent les recommandations : thrombose après craniotomie"}
-Les recommandations du GIHP 2024 proposent, après chirurgie intracrânienne, la compression
-pneumatique intermittente et une HBPM préventive à partir de la 24^e^ heure si le contrôle
-neurochirurgical le permet ; les bas de contention ne sont pas recommandés en prévention
-[@gihp_mtev2024]. Le protocole `cortectomie` du service prévoit des bas anti-thrombose et
-l'HBPM à J2, après un scanner sans complication. Appliquez la prescription du neurochirurgien et
+Les recommandations du GIHP 2024 n'ont pas de schéma propre à la chirurgie intracrânienne. En
+chirurgie programmée, elles font débuter l'anticoagulant préventif entre la 12^e^ et la 24^e^
+heure (GRADE 2+) ; elles recommandent la compression pneumatique intermittente quand les
+anticoagulants sont contre-indiqués (GRADE 1+) et proposent de l'y associer en cas de très haut
+risque (GRADE 2+) ; les bas de contention ne sont pas recommandés en prévention (GRADE 1−)
+[@gihp_mtev2024]. Le protocole `craniotomie` du service associe la compression pneumatique et
+une HBPM à H24 ; le protocole `cortectomie` prévoit des bas anti-thrombose et l'HBPM à J2, après
+un scanner sans complication. Appliquez la prescription du neurochirurgien et
 discutez-la avec lui (@sec-preop).
 :::
 
-<!-- TODO-VALIDER : `cortectomie` : « bas anti-thrombose », HBPM préventive à J2 « si aucune complication après scanner » vs RFE GIHP 2024 (CPI, HBPM à H24, pas de bas de contention en prévention) ; harmoniser avec la craniotomie (A_VALIDER n° 23). -->
+<!-- TODO-VALIDER : `cortectomie` : « bas anti-thrombose », HBPM préventive à J2 « si aucune complication après scanner » vs RFE GIHP 2024 (anticoagulant préventif entre H12 et H24 en chirurgie programmée, pas de bas de contention en prévention) et protocole `craniotomie` (CPI, HBPM à H24) ; harmoniser (A_VALIDER n° 23). -->
 
 ### La fièvre postopératoire
 
@@ -229,9 +232,9 @@ défaillance vitale.
 ### Conduite à tenir devant une crise généralisée
 
 1. **Noter l'heure de début.** Une crise tonico-clonique qui dure plus de **5 minutes** est un
-   **état de mal** et se traite comme tel ; au-delà de 30 minutes, elle expose à des lésions
+   **état de mal** et se traite comme tel [@srlf_eme2008] ; au-delà de 30 minutes, elle expose à des lésions
    neuronales durables [@trinka2015]. L'état de mal comprend aussi les crises qui se répètent
-   sans retour à la conscience entre elles. À l'inverse, un réveil lent après une crise unique
+   sans retour à la conscience entre elles [@srlf_eme2008]. À l'inverse, un réveil lent après une crise unique
    (phase postcritique) n'appelle pas d'antiépileptique supplémentaire.
 2. **Protéger le patient** : position latérale de sécurité, liberté des voies aériennes,
    barrières, canule oropharyngée à portée de main, **oxygène**.
@@ -259,7 +262,7 @@ Le traitement de l'état de mal tonico-clonique généralisé se fait par palier
 
 | Délai | Traitement |
 |--|--------|
-| 5 min | **Benzodiazépine** IV lente : clonazépam 0,015 mg/kg (1 mg chez l'adulte), à répéter une fois à 5 min si la crise persiste [@srlf_eme2008] |
+| 5 min | **Benzodiazépine** IV lente : clonazépam 0,015 mg/kg (environ 1 mg chez l'adulte), à répéter une fois à 5 min si la crise persiste [@srlf_eme2008] |
 | Échec des benzodiazépines | **Un antiépileptique de deuxième ligne** IV en 10 min : lévétiracétam 60 mg/kg (max 4500 mg), fosphénytoïne 20 mg EP/kg (max 1500 mg EP), ou valproate 40 mg/kg (max 3000 mg) [@kapur2019] |
 | Persistance | **État de mal réfractaire** : anesthésie générale (propofol, midazolam ou thiopental), intubation en séquence rapide, réanimation, EEG continu [@srlf_eme2008] |
 
@@ -321,7 +324,7 @@ minutes après le réveil, il présente une crise tonico-clonique généralisée
 
 1. **Non, pas d'emblée** : la crise est l'objet de l'enregistrement. Notez l'heure, protégez le
    patient (PLS, oxygène, barrières), appelez l'équipe d'enregistrement et le neurologue.
-2. Une crise généralisée de plus de 5 minutes est un **état de mal** [@trinka2015] : la règle
+2. Une crise généralisée de plus de 5 minutes est un **état de mal** [@srlf_eme2008; @trinka2015] : la règle
    « pas de benzodiazépine » cède. Clonazépam 1 mg IV lente, glycémie capillaire, gaz du sang,
    appel du neurologue et du neurochirurgien ; si la crise persiste après la deuxième dose, un
    antiépileptique de deuxième ligne [@kapur2019] ; scanner pour éliminer un hématome sur le

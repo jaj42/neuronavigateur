@@ -2,7 +2,7 @@
 
 ::: {.callout-important title="Objectifs"}
 - Reconnaître une HTIC qui menace le patient, à l'examen, au scanner, au Doppler et à la PIC.
-- Agir sur chacun des volumes intracrâniens (sang artériel, sang veineux, eau, LCS), dans le
+- Agir sur chacun des volumes intracrâniens (sang artériel, sang veineux, eau, LCR), dans le
   bon ordre et sans créer d'ischémie.
 - Prescrire une osmothérapie d'urgence et en connaître les limites.
 - Anesthésier un patient pour une chirurgie de décompression en urgence, y compris sous
@@ -14,13 +14,13 @@
 ## Une urgence qui se compte en minutes
 
 La boîte crânienne et la dure-mère sont inextensibles. Tout volume qui s'ajoute (hématome,
-œdème, hydrocéphalie, tumeur, abcès) est d'abord compensé par la chasse du LCS et du sang
+œdème, hydrocéphalie, tumeur, abcès) est d'abord compensé par la chasse du LCR et du sang
 veineux, puis, la compliance épuisée, fait monter la PIC de plus en plus vite
 (@fig-langfitt). Les définitions, les causes et les signes cliniques ont été vus au
 @sec-physiopathologie ; ce chapitre traite de ce qu'on **fait**.
 
 Le seuil de traitement retenu par les recommandations est une PIC de **20 à 25 mmHg**
-[@sfar_tcgrave2016], 22 mmHg pour la Brain Trauma Foundation [@carney2017]. Le protocole du
+[@sfar_tcgrave2016], 22 mmHg pour la Brain Trauma Foundation (niveau IIB) [@carney2017]. Le protocole du
 service parle d'HTIC dès 15 mmHg chez l'adulte : c'est la limite haute de la normale, un
 signal pour réfléchir plutôt qu'un seuil d'escalade thérapeutique.
 
@@ -45,7 +45,7 @@ hydrocéphalie) règle le problème. Les deux se mènent **en même temps**.
 | Scanner | **Citernes de la base effacées**, déviation de la ligne médiane > 5 mm, ventricules collabés ou au contraire dilatés (hydrocéphalie), lésion de plus de 25 mL |
 | Doppler transcrânien | **IP > 1,4**, **Vd < 25 cm/s** (protocole du service) ; flux systolique pur ou flux oscillant = arrêt circulatoire imminent |
 | PIC | > 20–22 mmHg durablement, onde à P2 > P1, plateaux (ondes A de Lundberg) |
-| Monitorage de l'oxygénation | PtiO~2~ < 20 mmHg, SvjO~2~ < 55 % |
+| Monitorage de l'oxygénation | PtiO~2~ < 20 mmHg, SvjO~2~ < 50–55 % |
 
 : Signes d'une HTIC menaçante (@sec-monitorage) {#tbl-signes-htic}
 
@@ -62,7 +62,7 @@ nouvelle est un engagement jusqu'à preuve du contraire.
 
 ## Raisonner par compartiment
 
-Le crâne contient trois volumes (@sec-physiologie) : le parenchyme et son eau (80 %), le LCS
+Le crâne contient trois volumes (@sec-physiologie) : le parenchyme et son eau (80 %), le LCR
 (10 %) et le sang (10 %, dont l'essentiel est veineux). Le protocole du service organise le
 traitement de l'HTIC autour d'eux : pour baisser la PIC, il faut réduire l'un des volumes,
 **le plus vite possible et sans créer d'ischémie**.
@@ -72,7 +72,7 @@ traitement de l'HTIC autour d'eux : pour baisser la PIC, il faut réduire l'un d
 | Sang artériel | PAM dans la cible (ni trop basse, ni trop haute) ; baisse de la CMRO~2~ (sédation, crises, fièvre) ; normocapnie | Minutes |
 | Sang veineux | Tête à 30°, cou dans l'axe, jugulaires libres ; pression intrathoracique basse | Immédiat |
 | Eau du parenchyme | Osmothérapie ; corticoïdes pour l'œdème tumoral seulement | 10 à 15 min (osmothérapie) ; 48 h (corticoïdes) |
-| LCS | Dérivation ventriculaire externe | Immédiat une fois posée |
+| LCR | Dérivation ventriculaire externe | Immédiat une fois posée |
 | Volume surajouté | Chirurgie : évacuation, décompression | Le temps d'aller au bloc |
 
 : Les leviers de l'HTIC, compartiment par compartiment {#tbl-leviers-htic}
@@ -83,7 +83,7 @@ Avant tout traitement spécifique, corrigez ce qui fait monter la PIC sans lési
 Une HTIC « réfractaire » est souvent une HTIC mal installée, mal ventilée ou mal sédatée.
 
 1. **Les voies aériennes et la ventilation** : intubation si le Glasgow est ≤ 8 ou si le
-   patient ne protège pas ses voies aériennes ; SpO~2~ ≥ 95 %, **PaCO~2~ 35 à 40 mmHg**
+   patient ne protège pas ses voies aériennes ; SpO~2~ ≥ 94 % [@hawryluk2019], **PaCO~2~ 35 à 40 mmHg**
    contrôlée par gaz du sang (@sec-craniotomie pour le gradient PaCO~2~-EtCO~2~).
 2. **La pression artérielle** : pas d'hypotension, jamais (@tbl-acsos). Noradrénaline plutôt
    que remplissage massif.
@@ -92,8 +92,8 @@ Une HTIC « réfractaire » est souvent une HTIC mal installée, mal ventilée o
 4. **La sédation et l'analgésie** : pas de toux, pas d'effort contre le respirateur, pas de
    douleur.
 5. **La température** : traiter toute fièvre.
-6. **La natrémie et la glycémie** : natrémie normale haute, pas de soluté hypotonique ;
-   glycémie contrôlée.
+6. **La natrémie et la glycémie** : natrémie 135–145 mmol/L sans hyponatrémie [@hawryluk2019],
+   pas de soluté hypotonique ; glycémie contrôlée.
 7. **Les crises** : y penser devant toute HTIC inexpliquée, même sans clonies (EEG).
 
 Puis on agit compartiment par compartiment, et on cherche la cause : **tout patient qui
@@ -140,8 +140,8 @@ une PAM très haute passe directement dans les capillaires et aggrave l'œdème 
 la controverse entre Rosner et Lund (voir plus loin) tient dans cette phrase.
 
 ::: {.callout-tip title="Astuce"}
-**Le test de la PAM.** Chez un patient stable, montez la PAM de 10 à 15 mmHg en quelques
-minutes (noradrénaline), sans rien changer d'autre, et regardez la PIC. Si elle **baisse**,
+**Le test de la PAM.** Chez un patient stable, montez la PAM de 10 mmHg (noradrénaline),
+pendant 20 minutes au plus, sans rien changer d'autre, et regardez la PIC. Si elle **baisse**,
 l'autorégulation fonctionne : une PPC plus haute aidera. Si elle **monte** ou suit la PAM,
 l'autorégulation est altérée : redescendez. Ce test a été formalisé par le consensus SIBICC
 sous le nom de *MAP Challenge* [@hawryluk2019] ; le PRx en est la version continue
@@ -153,12 +153,14 @@ sous le nom de *MAP Challenge* [@hawryluk2019] ; le PRx en est la version contin
 Grâce au couplage débit-métabolisme, baisser la CMRO~2~ fait baisser le débit et le volume
 sanguin cérébral, donc la PIC (@sec-physiologie).
 
-- **La sédation** : propofol ou midazolam, associés à un morphinique, en évitant les bolus qui
-  font chuter la PAM [@sfar_tcgrave2016]. Le protocole du service propose d'approfondir la
-  sédation sous contrôle de l'EEG jusqu'aux **bouffées-suppressions** (*burst suppression*).
-  Cet objectif relève des traitements de dernier recours : le consensus SIBICC déconseille le
-  propofol à forte dose pour l'atteindre (risque de syndrome de perfusion du propofol) et le
-  réserve aux **barbituriques** (thiopental), après une dose test, au palier 3
+- **La sédation** : propofol ou midazolam, associés à un morphinique ; aucun agent n'a fait la
+  preuve de sa supériorité, et la priorité est d'éviter les bolus qui font chuter la PAM
+  [@sfar_tcgrave2016]. Le protocole du service propose d'approfondir la sédation sous contrôle
+  de l'EEG jusqu'aux **bouffées-suppressions** (*burst suppression*). Le consensus SIBICC
+  déconseille le propofol à forte dose pour les obtenir (risque de syndrome de perfusion du
+  propofol). Au palier 3, il propose les **barbituriques** (thiopental), décidés sur une dose
+  test et poursuivis sous EEG, mais leur objectif est le contrôle de la PIC, pas les
+  bouffées-suppressions : la dose n'est pas augmentée une fois celles-ci obtenues
   [@hawryluk2019]. Les barbituriques baissent la PIC, mais n'améliorent pas le devenir et
   provoquent une hypotension chez un patient sur quatre [@roberts2012].
 - **Les crises d'épilepsie**, cliniques ou non, augmentent la CMRO~2~ : EEG devant toute HTIC
@@ -167,7 +169,7 @@ sanguin cérébral, donc la PIC (@sec-physiologie).
   crânien grave, voire 34 à 35 °C si l'HTIC résiste au traitement médical
   [@sfar_tcgrave2016]. L'hypothermie profonde n'améliore pas le devenir (@sec-tc-grave).
 
-<!-- TODO-VALIDER : le protocole htic vise le burst suppression sous sédation ; SIBICC 2019 déconseille le propofol à forte dose pour obtenir des bouffées-suppressions et réserve cet objectif aux barbituriques (palier 3) (A_VALIDER n° 34). -->
+<!-- TODO-VALIDER : le protocole htic vise le burst suppression sous sédation ; SIBICC 2019 déconseille le propofol à forte dose pour obtenir des bouffées-suppressions ; au palier 3, barbituriques titrés sur la PIC, sans dépasser la dose qui donne des bouffées-suppressions (A_VALIDER n° 34). -->
 
 ### Le CO~2~ : pas d'hypocapnie
 
@@ -239,11 +241,11 @@ avec le neurochirurgien ; en cas de suspicion de **lymphome**, elle peut faire d
 tumeur et rendre la biopsie non contributive.
 :::
 
-## Le LCS : la dérivation ventriculaire externe
+## Le LCR : la dérivation ventriculaire externe
 
 - **Hydrocéphalie** : la dérivation est une indication certaine, et urgente.
 - **Sans hydrocéphalie**, elle se discute aussi : sur la partie raide de la courbe
-  pression-volume, soustraire quelques millilitres de LCS fait beaucoup baisser la PIC
+  pression-volume, soustraire quelques millilitres de LCR fait beaucoup baisser la PIC
   (@fig-langfitt). Les recommandations la proposent après échec de l'optimisation des ACSOS et
   de la sédation (GRADE 2+, R4.1) [@sfar_tcgrave2016].
 - **Contre-indication** : un risque d'aggraver la déviation ou l'engagement (masse
@@ -251,7 +253,7 @@ tumeur et rendre la biopsie non contributive.
   trop rapide peut provoquer un **engagement ascendant**).
 
 La gestion de la DVE au quotidien (hauteur, débit, infection) est traitée au
-@sec-dysnatremies-dve. L'**acétazolamide**, qui réduit la production de LCS, n'a pas sa place
+@sec-dysnatremies-dve. L'**acétazolamide**, qui réduit la production de LCR, n'a pas sa place
 dans l'HTIC aiguë ; il fausserait en outre les épreuves de clampage de la dérivation.
 
 ## La chirurgie de décompression
@@ -295,7 +297,7 @@ R2.1.2) [@sfmu_anticoagurgence2024] :
 
 - **AVK** : si l'INR est > 1,2, concentrés de complexe prothrombinique (CCP, dose selon l'INR,
   ou 25 UI/kg si l'INR n'est pas disponible) **et vitamine K 10 mg** (GRADE 1+, R2.3.3) ;
-  contrôle de l'INR dans les 30 minutes ;
+  contrôle de l'INR dans les 30 minutes (GRADE 2+, R2.3.4) ;
 - **dabigatran** : idarucizumab 5 g (GRADE 2+, R2.4.3) ;
 - **anti-Xa** (rivaroxaban, apixaban, édoxaban) : **CCP 50 UI/kg** sans délai (avis
   d'experts, R2.5.3) ;
@@ -303,9 +305,10 @@ R2.1.2) [@sfmu_anticoagurgence2024] :
 :::
 
 **L'antiagrégant se neutralise si l'on opère.** Avant une neurochirurgie intracrânienne
-urgente, sous aspirine, clopidogrel ou bithérapie, il est proposé de neutraliser
-l'antiagrégant par une **transfusion plaquettaire** (0,5 à 0,7 × 10^11^ plaquettes pour 10 kg)
-[@gihp_aapurgence2018]. Sans chirurgie, c'est l'inverse : dans l'essai PATCH (190 hématomes
+urgente, il est proposé de neutraliser l'antiagrégant par une **transfusion plaquettaire** :
+0,5 à 0,7 × 10^11^ plaquettes pour 10 kg sous aspirine, une dose au moins double sous
+clopidogrel ou prasugrel ; sous ticagrélor pris depuis moins de 24 heures, la transfusion aux
+doses habituelles est inefficace [@gihp_aapurgence2018]. Sans chirurgie, c'est l'inverse : dans l'essai PATCH (190 hématomes
 intracérébraux sous antiagrégant, Glasgow ≥ 8, sans chirurgie), la transfusion plaquettaire a
 **augmenté** la mortalité et la dépendance à 3 mois [@baharoglu2016]. Le protocole du service
 en tire une règle simple : **pas de plaquettes chez un cérébrolésé sous antiagrégant si aucune
@@ -342,24 +345,28 @@ risqués [@hawryluk2019]. Sa logique vaut pour toute HTIC.
 
 | Palier | Contenu | Commentaire |
 |--|------|-----|
-| 0 : socle | Tête à 30–45°, sédation-analgésie de confort, pas de fièvre (> 38 °C), SpO~2~ et PaCO~2~ normales, PPC ≥ 60 mmHg, Hb et natrémie surveillées | Pour tout patient, quelle que soit la PIC |
-| 1 | PPC 60–70 mmHg ; sédation approfondie ; PaCO~2~ dans le bas de la normale ; osmothérapie en bolus ; drainage du LCS par la DVE ; EEG | Seuils : PIC 22, PPC 60 |
+| 0 : socle | Tête à 30–45°, sédation-analgésie de confort, pas de fièvre (> 38 °C), SpO~2~ ≥ 94 %, EtCO~2~ monitorée, PPC ≥ 60 mmHg, Hb > 7 g/dL, pas d'hyponatrémie | Pour tout patient, quelle que soit la PIC |
+| 1 | PPC 60–70 mmHg ; sédation approfondie ; PaCO~2~ dans le bas de la normale (35–38 mmHg) ; osmothérapie en bolus ; drainage du LCR par la DVE ; EEG | Seuils : PIC 22, PPC 60 |
 | 2 | Hypocapnie modérée (PaCO~2~ 32–35 mmHg) ; curarisation, gardée seulement si elle est efficace ; test de la PAM et PPC plus haute si l'autorégulation est conservée | Réévaluer : scanner, chirurgie ? |
-| 3 | Barbituriques (après dose test, EEG) ; hypothermie modérée (35–36 °C) ; craniectomie décompressive | Risques élevés ; discussion multidisciplinaire |
+| 3 | Barbituriques (après dose test, titrés sur la PIC, EEG) ; hypothermie modérée (35–36 °C) ; craniectomie décompressive | Risques élevés ; discussion multidisciplinaire |
 
 : Paliers de traitement de l'HTIC (consensus SIBICC, simplifié) [@hawryluk2019] {#tbl-paliers-htic}
 
 Le consensus liste aussi ce qu'il **ne faut pas faire** en routine : mannitol en perfusion
-continue, osmothérapie à heures fixes, drainage lombaire du LCS, furosémide, corticoïdes,
+continue, osmothérapie à heures fixes, drainage lombaire du LCR, furosémide, corticoïdes,
 hypothermie sous 35 °C, propofol à forte dose pour obtenir des bouffées-suppressions, PaCO~2~
 sous 30 mmHg et PPC au-dessus de 90 mmHg [@hawryluk2019].
 
-À chaque changement de palier, posez-vous trois questions : les ACSOS sont-elles vraiment
+À chaque changement de palier, posez-vous trois questions (@fig-algo-htic) : les ACSOS sont-elles vraiment
 corrigées ? Le capteur dit-il vrai ? Y a-t-il une **cause chirurgicale** nouvelle (hématome,
 contusion qui gonfle, hydrocéphalie) ? Un palier ne se gravit pas pendant des heures : si la
 PIC ne répond pas, on monte, et on peut sauter un palier (une craniectomie d'emblée chez un
 patient avec une déviation majeure et une PIC très haute). Les essais de la craniectomie
 décompressive et de l'hypothermie sont détaillés au @sec-tc-grave.
+
+![Devant une PIC élevée : trois vérifications, puis les paliers du consensus SIBICC, écrits pour
+le traumatisé crânien monitoré [@hawryluk2019]. Seuils : PIC 22 mmHg, PPC 60 mmHg. La
+craniectomie d'emblée reste possible quand la situation l'impose.](../figures/algo-htic){#fig-algo-htic width=100%}
 
 ## Rosner, Lund et la PPC optimale
 
@@ -422,11 +429,14 @@ Ici, l'obstacle est sur le **drainage veineux** : le sang entre mais sort mal. M
 augmente le débit d'entrée et peut **aggraver l'œdème et l'HTIC**. La cible de PAM se discute
 au cas par cas, guidée par le monitorage multimodal.
 
-Le traitement est l'**anticoagulation curative** (héparine, de préférence HBPM), **même en
-présence d'un saignement intracrânien**, qui est ici la conséquence de la thrombose et non sa
-contre-indication [@ferro2017]. La craniectomie décompressive est recommandée pour éviter le
-décès par engagement ; les corticoïdes et l'acétazolamide ne sont pas recommandés
-[@ferro2017].
+Le traitement est l'**anticoagulation curative** par héparine, **même en présence d'un
+saignement intracrânien**, qui est ici la conséquence de la thrombose et non sa
+contre-indication (recommandation forte) ; l'HBPM est préférée à l'HNF, sauf si une
+réversion rapide peut être nécessaire, avant une neurochirurgie par exemple (recommandation
+faible) [@ferro2017]. La chirurgie de décompression est recommandée devant des lésions
+parenchymateuses avec un engagement imminent, pour éviter le décès (recommandation forte) ;
+les corticoïdes (hors maladie de Behçet ou autre maladie inflammatoire) et l'acétazolamide
+sont déconseillés (recommandation faible) [@ferro2017].
 
 ::: {.callout-warning title="Piège"}
 Un hématome lobaire atypique, des céphalées progressives chez une jeune femme sous
@@ -480,7 +490,7 @@ de la ligne médiane de 10 mm. Le neurochirurgien prévoit une craniotomie en ur
 | Objectifs | Réduire le volume intracrânien sans créer d'ischémie ; traiter la cause sans délai (chirurgie, DVE) ; aucune ACSOS |
 | Monitorage | Pupilles, Glasgow, PA invasive (zéro au conduit auditif externe), Doppler transcrânien répété (IP > 1,4, Vd < 25 cm/s), PIC si possible ; EEG si HTIC inexpliquée ; natrémie et osmolarité après chaque osmothérapie |
 | Induction et entretien | Séquence rapide sans hypotension ni hypertension (kétamine possible) ; propofol en AIVOC + morphinique, pas d'halogéné ; monitorage sans retarder la chirurgie ; réversion des anticoagulants sans attendre la biologie ; plaquettes si chirurgie sous antiagrégant |
-| Cibles | PPC 60–70 mmHg (Vd > 25 cm/s au Doppler) ; PAS > 110 mmHg sans monitorage ; PaCO~2~ 35–40 mmHg ; SpO~2~ ≥ 95 % ; normothermie (35–37 °C) ; natrémie normale haute ; tête à 30° |
+| Cibles | PPC 60–70 mmHg (Vd > 25 cm/s au Doppler) ; PAS > 110 mmHg sans monitorage ; PaCO~2~ 35–40 mmHg ; SpO~2~ ≥ 94 % ; normothermie (35–37 °C) ; natrémie 135–145 mmol/L sans hyponatrémie ; tête à 30° |
 | Pièges | Hypocapnie prolongée ; HTA de Cushing traitée ; jugulaires comprimées ; osmothérapie en continu ou à heures fixes ; corticoïdes hors œdème tumoral ; DVE dans une HTIC de fosse postérieure (engagement ascendant) ; collapsus à l'ouverture de la dure-mère ; PAM haute dans une thrombose veineuse ; plaquettes sans chirurgie |
 | Post-opératoire | Réanimation ou USC de neurochirurgie (Chippault) ; examen répété, tout patient qui s'aggrave repasse au scanner ; paliers si la PIC remonte (@tbl-paliers-htic) ; DVE (@sec-dysnatremies-dve) ; reprise des antithrombotiques en réunion multidisciplinaire |
 
