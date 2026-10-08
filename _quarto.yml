@@ -15,6 +15,9 @@ book:
   author: "Jona JOACHIM"
   date: today
   date-format: "MMMM YYYY"
+  site-url: https://jaj42.github.io/neuronavigateur/
+  repo-url: https://github.com/jaj42/neuronavigateur
+  downloads: [pdf]
   chapters:
     - index.qmd
     - part: "Bases"
