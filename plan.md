@@ -12,7 +12,7 @@ Author: Jona JOACHIM.
 User decisions: rewrite the protocols into teaching chapters, each ending in a "fiche pratique"; remove personal names and phone numbers but keep the local workflow; A4 with LaTeX (lualatex, installed) plus an HTML output; figures generated in the repo plus Wikimedia CC images with attribution.
 
 ## Working conventions
-- **Git:** commit directly on the main branch (`master`; there is no `main`). No feature branches.
+- **Git:** commit directly on the main branch (`main`, renamed from `master` when the repo moved to GitHub). No feature branches. Each push to `main` runs `.github/workflows/publish.yml`, which renders PDF + HTML and deploys them to GitHub Pages (https://jaj42.github.io/neuronavigateur/).
 - **No em dash** (U+2014) anywhere: book content, notes, comments, commit messages, this plan. Use a colon, a semicolon, commas or parentheses instead. En dashes in numeric ranges (60–70 mmHg) are fine.
 - **Sources that cannot be fetched:** if a full text cannot be downloaded (Cloudflare or 403: ahajournals.org, journals.sagepub.com, link.springer.com, academic.oup.com, eje.bioscientifica.com, neurocriticalcare.org, journals.lww.com and pubs.asahq.org (*Anesthesiology*, *J Neurosurg Anesthesiol*), onlinelibrary.wiley.com (*Epilepsia*)), stop and tell the user, who downloads the PDF into `sources/papers/`. Never substitute abstracts, surveys or third-party summaries for the text being cited.
 - **Vocabulary:** write « liquide céphalo-rachidien (LCR) », the usage in the unit, never « LCS » or « liquide cérébrospinal ».
