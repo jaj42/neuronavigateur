@@ -357,6 +357,34 @@ continue, osmothérapie à heures fixes, drainage lombaire du LCR, furosémide, 
 hypothermie sous 35 °C, propofol à forte dose pour obtenir des bouffées-suppressions, PaCO~2~
 sous 30 mmHg et PPC au-dessus de 90 mmHg [@hawryluk2019].
 
+::: {.callout-note title="Pour aller plus loin : le drainage lombaire dans l'HTIC" collapse="true"}
+Le drainage lombaire externe évite de traverser le cerveau et se pose même quand les
+ventricules sont trop fins pour une DVE. Son danger est l'**engagement amygdalien** : on
+crée un gradient de pression entre le crâne et le canal rachidien (@sec-physiopathologie).
+C'est pourquoi le consensus SIBICC ne le recommande pas en routine [@hawryluk2019].
+
+Certaines équipes françaises l'utilisent pourtant chez le traumatisé crânien, dans des
+conditions strictes [@dagod2025; @perrault2026] :
+
+- **critères de sécurité** : citernes de la base visibles, déviation de la ligne médiane
+  < 10 mm, pas de lésion expansive focale, pas d'engagement ; jamais devant une
+  hydrocéphalie obstructive ou une masse ;
+- **pose** en décubitus latéral, cathéter monté vite dès le reflux de LCR pour en perdre le
+  moins possible ; zéro au conduit auditif externe, comme une DVE ;
+- **réglage** : départ à +15 mmHg ; si la PIC reste au-dessus de 20 mmHg, on abaisse de
+  5 mmHg ; si elle passe sous 10 mmHg, on arrête le drainage ; si le débit dépasse 10 mL/h,
+  on remonte de 5 mmHg ;
+- **toute modification pupillaire** : arrêt immédiat du drainage et scanner.
+
+Dans la cohorte rétrospective de Montpellier (90 traumatisés crâniens en HTIC, dont 50
+drainés), le drainage lombaire raccourcissait l'HTIC et s'associait à un meilleur devenir
+à 6 mois ; un patient s'est engagé après la pose, deux ont fait une méningite
+[@dagod2025]. Ce sont des données observationnelles d'un seul centre : la décision se prend
+avec le neurochirurgien, au cas par cas.
+:::
+
+<!-- TODO-VALIDER : drainage lombaire externe dans l'HTIC (Dagod 2025, Perrault 2026) contre SIBICC (à ne pas faire en routine) : le service l'utilise-t-il, avec quels critères ? (A_VALIDER, n° 42 c). -->
+
 À chaque changement de palier, posez-vous trois questions (@fig-algo-htic) : les ACSOS sont-elles vraiment
 corrigées ? Le capteur dit-il vrai ? Y a-t-il une **cause chirurgicale** nouvelle (hématome,
 contusion qui gonfle, hydrocéphalie) ? Un palier ne se gravit pas pendant des heures : si la

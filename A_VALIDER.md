@@ -28,11 +28,11 @@ Types :
 | 12 Vasculaire programmée | `12-vasculaire.qmd` | 4, 5, 28, 29, 30 |
 | 13 Trijumeau | `13-trijumeau.qmd` | 31 |
 | 14 NRI | `14-nri.qmd` | 12, 14, 15, 32, 33, 39 |
-| 15 HTIC | `15-htic.qmd` | 3, 4, 6, 7, 34, 35, 36 |
+| 15 HTIC | `15-htic.qmd` | 3, 4, 6, 7, 34, 35, 36, 42 |
 | 16 TC grave | `16-tc-grave.qmd` | 4, 36, 37 |
 | 17 HSA | `17-hsa.qmd` | 4, 9, 10, 38 |
 | 18 AVC | `18-avc.qmd` | 11, 39 |
-| 19 Dysnatrémies, DVE | `19-dysnatremies-dve.qmd` | 40, 41 |
+| 19 Dysnatrémies, DVE | `19-dysnatremies-dve.qmd` | 40, 41, 42 |
 
 Les **fiches mémo** (annexe) reprennent des valeurs de ces chapitres et signalent les valeurs locales : toute décision ci-dessous doit aussi y être reportée.
 
@@ -46,7 +46,8 @@ Ceux qui touchent directement une dose, une cible ou une indication écrite dans
 - n° 36 indications de l'acide tranexamique ;
 - n° 38 cible tensionnelle et nimodipine dans l'HSA ;
 - n° 39 surveillance et cible tensionnelle après thrombolyse et thrombectomie, dilution de la nicardipine ;
-- n° 41 antibioprophylaxie et surveillance de la DVE.
+- n° 41 antibioprophylaxie et surveillance de la DVE ;
+- n° 42 a unité et hauteur de la DVE avant exclusion d'un anévrysme.
 
 ## Liste des points
 
@@ -300,6 +301,13 @@ Aucun protocole local hors `hsa` (+15 cmH~2~O, clampage pour les transferts et l
 - **(a) Antibioprophylaxie à la pose** : SFAR 2023 aucune (avis d'experts) ; NCS 2016 dose unique (conditionnelle) ; IDSA 2017 recommandée (forte). Cathéters imprégnés utilisés (NCS : forte) ? ……
 - **(b) Surveillance infirmière** : hauteur par défaut hors HSA ; seuils de débit horaire et journalier qui déclenchent un appel ; fréquence de mesure de la PIC ; conduite en cas de débit nul : ……
 - **(c) Sevrage** : progressif ou clampage direct, seuil de PIC de réouverture, scanner avant retrait ; délai entre HBPM et retrait : ……
+
+### n° 42. DVE et drainage lombaire : apports de la revue Perrault 2026 (écart, lacune)
+Source : Perrault et al., *Anesth Reanim* 2026 (CHU d'Angers), `sources/papers/dve-perrault-anrea2026.pdf`.
+
+- **(a) Unité et hauteur avant exclusion** : le livre et le protocole `hsa` écrivent +15 cmH~2~O (≈ 11 mmHg) ; la revue propose une contre-pression de +15 à 20 mmHg (≈ 20 à 27 cmH~2~O). La conférence d'experts SFAR 2004 (zéro à 15 cm du CAE, contre-pression ≈ 11 mmHg) et l'enquête de Chung 2017 (hauteur médiane 18 cmH~2~O avant exclusion) vont dans le sens du livre. Unité utilisée sur les échelles du service : ☐ cmH~2~O ☐ mmHg ; hauteur avant exclusion : ……
+- **(b) Désobstruction** : le livre dit « on ne rince pas une DVE soi-même » (IDSA : l'irrigation est un facteur de risque d'infection) ; la revue décrit un rinçage après scanner (purge vers la poche, au plus 1 mL vers le ventricule, jamais d'aspiration). Geste pratiqué dans le service ? Par qui ? ……
+- **(c) Drainage lombaire dans l'HTIC** (ch. 15) : SIBICC le range parmi ce qu'il ne faut pas faire en routine ; la revue et la cohorte de Montpellier (Dagod 2025) décrivent des critères et des réglages en mmHg. Le livre les donne dans un encadré « Pour aller plus loin ». Utilisé dans le service ? ☐ non, retirer l'encadré ☐ oui, critères : ……
 
 ## Choix de mise en forme à trancher
 

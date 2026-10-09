@@ -1,0 +1,426 @@
+![Check for updates icon](e57f0f727b6f45e20b6fe5d8397ecc0b_3_img.webp)
+
+# Dérivation ventriculaire externe : gestion au quotidien
+
+Tristan Perrault<sup>1</sup>, Henri Lomo<sup>1</sup>, Thomas Gaillard<sup>1</sup>, Jean-Michel Lemée<sup>2</sup>, Sigismond Lasocki<sup>1</sup>
+
+Disponible sur internet le :  
+6 avril 2026
+
+1. CHU d'Angers, département d'anesthésie réanimation, Angers, France  
+2. CHU d'Angers, service de neurochirurgie, Angers, France
+
+## Correspondance :
+
+Sigismond Lasocki, CHU d'Angers, département anesthésie réanimation, Angers, France.  
+[sigismond@lasocki.com](mailto:sigismond@lasocki.com)
+
+## Mots clés
+
+Dérivation ventriculaire externe  
+Liquide céphalo-spinal  
+Hypertension intracrânienne  
+Hydrocéphalie  
+Dérivation lombaire externe
+
+## Keywords
+
+External ventricular shunt  
+Cerebrospinal fluid  
+Intracranial hypertension  
+Hydrocephalus  
+External lumbar shunt
+
+## Résumé
+
+La dérivation ventriculaire externe (DVE) est largement utilisée en neurochirurgie et en neuro-réanimation pour le traitement des hydrocéphalies aiguës et le contrôle de l'hypertension intracrânienne. Elle permet le drainage du liquide cérébro-spinal (LCS) et la mesure de la pression intracrânienne, mais expose à des complications fréquentes, notamment infectieuses, hémorragiques et mécaniques. Cette revue décrit les bases anatomiques et physiologiques de la circulation du LCS, les principales indications de dérivation en soins critiques, ainsi que les modalités pratiques de pose et de gestion quotidienne des DVE. Les principes de réglage du niveau de drainage, les stratégies de drainage continu ou intermittent, la surveillance clinique et technique, ainsi que les modalités de sevrage sont détaillés. Les complications liées à la DVE sont analysées, avec un focus sur les infections neuroméningées, leur diagnostic souvent difficile et leur prise en charge thérapeutique. Enfin, la dérivation lombaire externe est abordée comme une alternative à la DVE dans des situations sélectionnées, en particulier chez les patients présentant une hémorragie sous-arachnoïdienne anévrysmale après sécurisation de l'anévrisme. Bien que prometteuse, son utilisation doit rester prudente en raison du risque d'engagement cérébral et nécessite une décision multidisciplinaire.
+
+## Summary
+
+### External ventricular shunt: Day-to-day management
+
+*External ventricular drainage (EVD) is widely used in neurosurgery and neurocritical care for the management of acute hydrocephalus and intracranial hypertension. It allows cerebrospinal fluid (CSF) diversion and intracranial pressure monitoring but is associated with significant morbidity, particularly infectious, hemorrhagic, and mechanical complications. This review summarizes the anatomical and physiological principles of CSF circulation, the main indications for CSF diversion in critical care, and the practical aspects of EVD placement and daily management. Key elements**include drainage level adjustment, continuous versus intermittent drainage strategies, monitoring, and weaning procedures. The most frequent complications related to EVD use are discussed, with particular emphasis on CSF infections, their diagnostic challenges, and therapeutic management. Finally, external lumbar drainage is presented as a potential alternative to EVD in selected patients, particularly following aneurysmal subarachnoid hemorrhage after aneurysm securing. Although ELD may reduce delayed cerebral ischemia by enhancing CSF clearance, its use requires careful patient selection due to the risk of transtentorial or tonsillar herniation.*
+
+## Introduction
+
+La Dérivation Ventriculaire Externe (DVE) est fréquemment utilisée chez les patients de neurochirurgie, et est également très courante pour les patients de neuro-réanimation, quel que soit leur motif d'admission. La première DVE a été posée par le neurochirurgien français, Claude-Nicolas Le Cat en 1744 pour traiter une hydrocéphalie congénitale [1]. La mise en place d'une DVE reste un geste neurochirurgical, permettant de drainer en urgence le liquide cérébro-spinal (LCS) afin de traiter les hydrocéphalies aiguës obstructives et/ou d'aider à contrôler la pression intracrânienne (tout en permettant sa mesure) [2-4]. Pour autant, la DVE est associée à une morbid mortalité importante, notamment infectieuse, surtout si elle est mal manipulée ou mal réglée [5]. Connaître les indications de pose, les modalités de surveillance et de prescription, et les complications liées à la pose ou à la manipulation d'une DVE est donc important dans la pratique quotidienne. Par ailleurs, plus récemment, la dérivation lombaire du liquide cérébro-spinal a également été proposée [6]. Dans cette revue, nous reviendrons brièvement sur l'anatomie et la physiologie de la circulation du LCS, avant de décrire les principaux aspects de la gestion des DVE et des complications ; enfin, nous ferons un focus sur les dérivations lombaires externes (DLE).
+
+## Anatomie et physiologie du LCS
+
+Le liquide cérébro-spinal est un liquide propre au système nerveux central. Il est produit très majoritairement dans les ventricules cérébraux latéraux, au niveau des plexus choroïdes, mais également en plus faible quantité par le tissu interstitiel cérébral et dans les organes circumventriculaires [7]. C'est un liquide issu de l'ultrafiltration du plasma, donc acellulaire, mais
+
+aussi de sécrétions actives d'ions dans ce liquide, via des capillaires fenêtrés et des cellules épithéliales spécialisées au sein des plexus choroïdes. Ainsi, les teneurs en sodium et en potassium sont légèrement inférieures à celles du plasma (respectivement 130 mmol/L et 3 mmol/L), alors que la teneur en chlore est plus élevée (120-130 mmol/L). La teneur en protéines est, quant à elle, très faible, environ 0,25 g/L. Le pH est semblable à celui du plasma.
+
+Le LCS circule dans le système ventriculaire, qui comporte quatre cavités, communicantes entre elles (figure 1).
+
+Les principaux sites de résorption du LCS sont les granulations de Pacchioni, les villosités arachnoïdiennes médullaires, les gaines des nerfs rachidiens, les points de pénétration des vaisseaux dans le parenchyme cérébral (espaces de Virchow-Robin) et le système lymphatique dural. Les granulations de Pacchioni se comportent comme des valves unidirectionnelles, avec un gradient de pression de l'espace sous-arachnoïdien vers les sinus veineux de la dure-mère (pression intracrânienne > pression veineuse), confluent ensuite vers les veines jugulaires internes. Il est à noter également que la pression oncotique du sang veineux est supérieure à celle du LCS.
+
+Le volume total de LCS est d'environ 135 mL (dont 35 mL en intraventriculaire et 100 mL en sous-arachnoïdien et périmédullaire) et près de 650 mL de LCS sont produits chaque jour, à raison d'environ 25 à 30 mL/h en conditions physiologiques, assurant ainsi un renouvellement constant et pluriquotidien.
+
+Le LCS assure plusieurs rôles :
+
+- • maintien de l'équilibre hydrique et électrolytique du tissu cérébral ;
+- • protection mécanique comme un « coussin hydraulique » autour du cerveau ;
+- • participation à l'équilibre de la pression intracrânienne, en étant rapidement et facilement mobilisable en périmédullaire en condition physiologique.
+
+Le LCS intervient également dans l'épuration des déchets métaboliques neuronaux : des découvertes relativement récentes ont décrit la présence d'un système de circulation intracérébrale de LCS, baptisé « système glymphatique ». L'injection d'un traceur fluorescent dans le LCS révèle une diffusion du LCS à l'ensemble du parenchyme cérébral, par vagues, donnant un aspect « pulsé » à cette diffusion. Cette pénétration du LCS se fait via les espaces périvasculaires de Virchow-Robin, suivant un gradient
+
+## Glossaire
+
+<table>
+<tr>
+<td><b>DLE</b></td>
+<td>dérivation lombaire externe</td>
+</tr>
+<tr>
+<td><b>DVA</b></td>
+<td>dérivation ventriculo-atriale</td>
+</tr>
+<tr>
+<td><b>DVE</b></td>
+<td>dérivation ventriculaire externe</td>
+</tr>
+<tr>
+<td><b>DVP</b></td>
+<td>dérivation ventriculo-péritonéale</td>
+</tr>
+<tr>
+<td><b>HSA</b></td>
+<td>hémorragie sous-arachnoïdienne</td>
+</tr>
+<tr>
+<td><b>HTIC</b></td>
+<td>hypertension intracrânienne</td>
+</tr>
+<tr>
+<td><b>IDSA</b></td>
+<td><i>Infectious Diseases Society of America</i></td>
+</tr>
+<tr>
+<td><b>LCS</b></td>
+<td>liquide céphalo-spinal</td>
+</tr>
+</table>![Anatomical diagram of the human brain showing the cerebrospinal fluid (LCS) circulation system. The diagram is a sagittal section of the brain. Arrows indicate the flow of cerebrospinal fluid (LCS) from the brain's ventricles through the aqueduct of Sylvius and the central canal to the spinal cord. Key structures labeled include: 1. Plexus choroïde (choroid plexus) in the lateral ventricles; 2. Foramen interventriculaire (interventricular foramen) and Troisième ventricule (third ventricle); 3. Aqueduc cérébral (cerebral aqueduct) connecting the third and fourth ventricles; 4. Quatrième ventricule (fourth ventricle); 5. Ouverture médiane (median aperture) and Ouverture latérale (lateral aperture) leading to the Canal central (central canal); 6. Granulatio arachnoïdienne (arachnoid granulations) where the fluid is absorbed into the subarachnoid space (Espace sous-arachnoïdien) and the Dure-mère méningée (meningeal dura mater). The Sinus sagittal supérieur (superior sagittal sinus) is also shown at the top.](36c7f57e37b1396569252513e49f4f71_3_img.webp)
+FIGURE 1**Anatomie et circulation du LCS au sein du système ventriculaire.**
+
+(D'après Mary Ann Clark, Texas Wesleyan University, Matthew Douglas, Grand Rapids Community College, Jung Choi, Georgia Institute of Technology, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons).
+
+Le LCS est produit dans les ventricules latéraux par les plexus choroïdes (1), composés d'une partie frontale et d'une partie occipitale, à la partie médiale des deux hémisphères cérébraux ; Il s'écoule librement dans le troisième ventricule (2), situé entre les deux ventricules latéraux, en passant par le foramen interventriculaire de Monro. Puis par l'aqueduc du mésencéphale de Sylvius (3) dans le quatrième ventricule, à la face postérieure du tronc cérébral (à cheval sur le pont et la moelle allongée). Il gagne l'espace sous-arachnoïdien par les foramens médian et latéral du V4 (trous de Magendie et de Luschka, 5), ainsi que l'espace péri-médullaire. Il est ensuite résorbé au niveau des granulations arachnoïdiennes (6).
+
+LCS : liquide céphalo-spinal
+
+artério-veineux. Le passage intra-parenchymateux du LCS permet de drainer les métabolites intra-parenchymateux neurotoxiques, particulièrement lors des phases de sommeil [8]. Un dysfonctionnement du système glymphatique pourrait être impliqué dans diverses pathologies telles que l'ischémie cérébrale retardée lors d'une hémorragie sous-arachnoïdienne (HSA), dont l'accumulation de métabolites intra-parenchymateux contribuerait à l'apparition de l'ischémie, ou encore dans la sclérose latérale amyotrophique, dans la maladie d'Alzheimer ou de Parkinson.
+
+**Indications à la dérivation du LCS**
+
+Dans le cadre de la neuro-réanimation, plusieurs situations peuvent conduire à dériver le LCS :
+
+- • en cas d'hypertension intracrânienne (HTIC) non contrôlée malgré les thérapeutiques médicamenteuses, avec ou sans
+
+dilatation des ventricules, dans le cadre d'un traumatisme crânien, d'un AVC hémorragique... ;
+
+- • en cas d'hydrocéphalie aiguë, par exemple dans le contexte d'hémorragie sous-arachnoïdienne avec hémorragie ventriculaire, de tumeur de fosse postérieure avec compression du 4<sup>e</sup> ventricule et des voies d'écoulement naturelles du LCS, ou bien cas de dysfonction d'une dérivation ventriculo-péritonéale déjà en place ;
+- • l'indication d'un drainage prophylactique du LCS en cas d'HSA, par voie lombaire, est discutée depuis la publication d'un essai multicentrique randomisé (étude EARLYDRAIN) [9].
+
+**Dérivation ventriculaire externe : matériel et pose****Description du matériel**
+
+La dérivation du LCS nécessite plusieurs éléments (figure 2) :
+
+![Logo of SFAR (Société Française de Réanimation et de Soins Intensifs)](36c7f57e37b1396569252513e49f4f71_18_img.webp)![Figure 2: Point d'insertion et schéma d'un système de DVE. A. Repère anatomique pour l'introduction du cathéter de DVE (étoile : point de Kocher). B. Schématisation du système de DVE : tubulure reliée au cathéter (1) ; plusieurs robinets et clamps (2) permettant des prélèvements, des injections ou de clamber la DVE ; échelle graduée (3) permettant de régler le niveau de DVE en mmHg ou cmH2O selon les habitudes du centre ; chambre de recueil graduée pour surveiller la production horaire de DVE (4), amovible le long de l'échelle graduée au niveau de drainage souhaité ; laser (5) permettant de positionner le 0 de l'échelle graduée au niveau du conduit auditif externe ; poche de recueil et d'évacuation du LCS (6).](41fc62c78d94770bcafd824d4a127450_3_img.webp)
+FIGURE 2**Point d'insertion et schéma d'un système de DVE.**
+
+A. Repère anatomique pour l'introduction du cathéter de DVE (étoile : point de Kocher).
+
+B. Schématisation du système de DVE : tubulure reliée au cathéter (1) ; plusieurs robinets et clamps (2) permettant des prélèvements, des injections ou de clamber la DVE ; échelle graduée (3) permettant de régler le niveau de DVE en mmHg ou  $\text{cmH}_2\text{O}$  selon les habitudes du centre ; chambre de recueil graduée pour surveiller la production horaire de DVE (4), amovible le long de l'échelle graduée au niveau de drainage souhaité ; laser (5) permettant de positionner le 0 de l'échelle graduée au niveau du conduit auditif externe ; poche de recueil et d'évacuation du LCS (6).
+
+DVE : dérivation ventriculaire externe ; LCS : liquide céphalo-spinal
+
+- • un cathéter en silicone, implanté chirurgicalement dans les ventricules cérébraux. Il existe plusieurs types de cathéters, avec des tailles différentes en fonction de l'indication. Les cathéters sont pourvus d'un orifice à l'extrémité ainsi que de plusieurs œillets latéraux, en diamètre et en nombre différents en fonction de la taille du cathéter. Chez l'adulte, les cathéters ont des diamètres internes allant de 1,5 à 2,3 mm (cathéter type Kubala®), les diamètres les plus gros ont des fenestrations plus grandes permettant de drainer efficacement les LCS très hémorragiques en limitant les obstructions du cathéter [10]. Les cathéters peuvent également être recouverts d'antibiotiques (rifampicine, minocycline, clindamycine...) ou d'argent pour limiter la colonisation et l'infection des DVE, mais les études disponibles sont discordantes sur leur efficacité [11] ;
+- • une tubulure reliant le cathéter au dispositif de recueil, souvent avec des robinets permettant de prélever du LCS pour l'envoi en biochimie ou en bactériologie, ou bien pour brancher une tête de pression permettant la mesure de la PIC, ou bien encore pour réaliser des injections ;
+- • une poche de recueil graduée permettant de mesurer le débit de production du LCS ;
+- • une échelle de réglage graduée (souvent avec deux colonnes de réglage, soit en  $\text{cmH}_2\text{O}$  soit en mmHg) ;
+
+- • parfois avec un laser permettant d'ajuster le niveau 0 ;
+- • une poche d'évacuation du LCS recueillie.
+
+**Technique de pose**
+
+Il s'agit d'un geste neurochirurgical, avec mise en place de matériel directement en intraventriculaire via une incision crânienne : la pose doit donc être parfaitement stérile. Elle peut se faire au bloc opératoire ou en réanimation. Comme pour tout geste neurochirurgical, le contrôle des paramètres de la coagulation est impératif avant la réalisation du geste, notamment en cas d'anticoagulation ou d'antiagrégation plaquettaire.
+
+Le choix du côté de la DVE se fera selon les données scanographiques et l'avis du neurochirurgien. Dans la mesure du possible et sauf contre-indication, comme une déformation du ventricule latéral liée à la lésion ou un saignement intraventriculaire abondant, la DVE est mise en place du côté droit pour épargner le lobe frontal gauche, siège du langage chez la majorité des patients.
+
+La pose peut se faire à l'aide de repères anatomiques externes ; après tonte et désinfection du scalp, les repères usuels sont les suivants : en partant du point nasal (ou nasion, suture entre les deux os nasaux et l'os frontal), on remonte à 11 cm sur la ligne médiane vers le vertex ; puis depuis ce point, on mesure 2 à3 cm de manière latérale à la ligne médiane en avant de la suture coronale (point de Kocher, *figure 2*).
+
+Un trou de trépan est réalisé et le cathéter de DVE est dirigé vers la corne frontale du ventricule homolatéral à l'incision en visant l'orifice de Monro (communication entre le 3<sup>e</sup> ventricule et le 4<sup>e</sup> ventricule). Le cathéter est dirigé en direction du cantus interne de l'œil homolatéral dans le plan coronal et 1 cm en avant du tragus dans le plan sagittal, jusqu'à une profondeur de 7 cm maximum pour minimiser le risque d'erreur de trajet et de lésion des noyaux gris centraux. Le cathéter est ensuite tunnelisé à distance de la cicatrice pour réduire le risque infectieux et sécurisé à l'aide de fils pour minimiser le risque de mobilisation secondaire de la DVE, avant d'être connecté au dispositif de recueil.
+
+Il est également possible de faire appel à une pose guidée par l'imagerie, notamment depuis quelques années, les systèmes de neuronavigation couplés au scanner : les études récentes retrouvent un meilleur positionnement du cathéter comparé à la pose non guidée par l'imagerie, ainsi qu'un nombre réduit de tentatives de pose [12]. Ces techniques guidées peuvent être indispensables en cas d'HTIC chez un patient avec des ventricules peu ou pas dilatés, par exemple pour le contrôle de l'HTIC chez un patient cérébrolisé sans hydrocéphalie ou pour les patients ayant une déviation de la structure ventriculaire liée à une lésion cérébrale.
+
+La cicatrice et une partie du cathéter sont protégées par un pansement de tête type capeline, qu'il convient de refaire régulièrement (toutes les 48 à 72 h en fonction des centres).
+
+## Gestion de la DVE en soins critiques
+
+### Mesures générales
+
+Le réglage du niveau de drainage de la DVE est une prescription médicale qui dépend de la situation clinique. Chaque modification du seuil de drainage de la DVE doit faire l'objet d'une prescription médicale tracée dans le dossier. Le niveau de la DVE (*i.e.*, hauteur par rapport au « niveau 0 ») conditionne le débit du drainage de LCS. Le niveau 0 correspond au foramen interventriculaire de Monro et se situe de façon approximative en regard du conduit auditif externe. À chaque mobilisation du patient ou du lit, le niveau de drainage doit être vérifié : une poche de recueil trop haute entraîne une inefficacité du drainage avec une hydrocéphalie ou une pneumencéphalie potentielle par reflux de l'air contenu dans la poche de recueil et/ou HTIC, alors qu'une poche trop basse peut conduire à un surdrainage et à un syndrome d'hypotension du LCS avec un risque d'hématome sous-dural notamment [13].
+
+### Réglage du niveau de drainage
+
+Le choix du niveau de drainage (ou « hauteur de DVE ») varie selon les différentes situations cliniques :
+
+- • dans le cadre d'une hémorragie méningée avec hydrocéphalie et un anévrisme non sécurisé, il faut plutôt prescrire un seuil
+
+de drainage plus haut (+15/20 mmHg), appelé en « contre-pression » pour ne pas surdrainer le LCS, diminuer la PIC et abaisser le gradient transmurale de l'anévrysme, au risque d'entraîner un resaignement ; au contraire, une fois l'anévrysme sécurisé, on peut baisser le niveau à 10 mmHg ou moins pour drainer efficacement les ventricules, et réduire la présence de sang dans les ventricules ;
+
+- • dans le cadre de l'HTIC, la DVE pourra être mise en « contre-pression » (+15-20 mmHg) en cas d'un processus expansif (hématome, tumeur, etc.) contralatéral, dont le risque est d'aggraver l'engagement sous-falcique en diminuant la quantité de LCS qui fait contre-pression.
+
+Dans tous les cas, la réflexion devra se faire sur les données cliniques et d'imagerie et en coordination pluridisciplinaire anesthésie-réanimation/neurochirurgie.
+
+### Surveillance
+
+La perméabilité du système doit être contrôlée régulièrement : une DVE produit un écoulement de LCS continu visible et pulsatile au niveau de la poche de recueil. Le débit varie selon le niveau de drainage, mais une baisse du débit doit évoquer une obstruction et/ou une mobilisation du cathéter, sauf si la PIC mesurée par le capteur est égale à la hauteur de réglage de la DVE, ce qui correspond à une PIC contrôlée. Une autre cause fréquente est un clamping de la DVE lors d'une mobilisation de type transport avec oubli de déclamping.
+
+La productivité des 24 h doit être relevée. L'aspect macroscopique du LCS varie selon la pathologie (eau de roche, citrin, rosée, hémorragique, purulent...) et son évolution doit être surveillée. Une modification de l'aspect macroscopique du LCS peut faire suspecter un resaignement, un début d'infection, etc.
+
+### Drainage intermittent ou continu
+
+Deux méthodes de drainage sont décrites dans la littérature : le drainage intermittent et le drainage continu.
+
+- • de nombreux centres préfèrent un drainage continu du LCS par ouverture permanente de la DVE. Cette préférence s'explique par la volonté de minimiser les épisodes d'HTIC et de drainer le sang des espaces sous-arachnoïdiens, pourvoyeur de vasospasme. L'écoulement continu pourrait aussi limiter le risque d'obstruction du cathéter. Avec un seuil de drainage correspondant à la PIC physiologique (10-15 mmHg), le drainage du LCS s'autorégule et s'arrête spontanément lorsque la PIC devient inférieure ou égale au seuil de réglage de la DVE ;
+- • le drainage intermittent consiste à maintenir clampée la DVE et à l'ouvrir uniquement lors d'épisodes d'HTIC. Dans l'HSA, cette méthode minimise théoriquement les variations de pression transmurale et donc le risque de resaignement d'un anévrisme non sécurisé [14]. Bien que cette méthode semble diminuer le risque d'infection et d'obstruction de DVE [15], elle reste minoritaire dans la pratique (20 % des centres) [16].## Modalité de sevrage
+
+La DVE n'est qu'une méthode de drainage transitoire du LCS et les patients subiront une épreuve de sevrage de DVE avec clamping permettant son retrait ou confirmant une dépendance au drainage et la nécessité de la mise en place d'une dérivation interne du LCS de type dérivation ventriculo-péritonéale (DVP) ou ventriculo-atriale (DVA). La *Neurocritical Care Society* recommande « un sevrage de la DVE « aussi rapidement que cliniquement possible » [17], mais en l'absence de recommandations définitives sur les modalités du sevrage, l'approche optimale reste controversée. Dans une cohorte française récente, nous avons observé une disparité de pratiques entre un sevrage progressif (par élévation progressive du niveau de DVE, avant de réaliser une épreuve de clamping) et un sevrage « direct » (par clamping de la DVE, quel que soit son niveau)[18]. Plusieurs questions se posent pour la réalisation de ce sevrage.
+
+### Quand ?
+
+Une tentative de sevrage est habituellement débutée lorsque l'état neurologique du patient s'améliore et que la pression intracrânienne reste basse sous sédation minimale. Différents facteurs sont évalués quotidiennement avant d'envisager un sevrage de la DVE : le débit de LCS, le niveau de la DVE, l'aspect du LCS ou la présence d'une hémorragie intraventriculaire... Sans preuve scientifique probante. Une étude française a récemment montré que le niveau et la durée de portage de la DVE avant clamping étaient associés à une augmentation de l'échec de clamping [18].
+
+### Comment ?
+
+Deux stratégies de sevrage de DVE sont proposées. Le sevrage progressif implique une augmentation graduelle et quotidienne du niveau de la DVE, tandis que le sevrage rapide consiste en un clamping d'emblée de la DVE.
+
+- • le sevrage progressif, privilégié dans 80 % des centres, vise à rétablir une circulation normale du LCS en remettant progressivement en charge les circuits physiologiques de drainage du LCS, tout en minimisant les risques d'élévation brutale de la PIC. Il expose cependant à la prolongation du maintien de la DVE, augmentant ainsi le risque infectieux et la durée d'hospitalisation ;
+- • le sevrage rapide semble réduire la durée de DVE, permettant une hospitalisation plus courte. Néanmoins, il expose à un risque accru de dégradation neurologique et d'échec à l'épreuve de clamping. Une étude randomisée est en cours pour évaluer cette stratégie [19].
+
+La procédure comprend une épreuve de clamping, qui consiste à clamer la DVE durant 24 à 48 h puis, en l'absence de dégradation neurologique ou d'augmentation de la PIC, de retirer la DVE après contrôle scanographique confirmant l'absence de dilatation ventriculaire.
+
+L'enjeu de ces épreuves de sevrage est également d'identifier les patients qui nécessiteront un shunt permanent. Ils
+
+représentent 15 à 30 % des patients porteurs de DVE [20,21]. Les facteurs de risque d'un shunt permanent sont notamment bien décrits pour les patients admis pour une HSA, avec :
+
+- • l'âge > 50 ans ;
+- • l'infection de DVE ;
+- • la pose d'une DVE pour hydrocéphalie aiguë ;
+- • le resaignement d'un anévrisme ;
+- • la présence d'une ventilation mécanique avec un score de Glasgow < 8 ;
+- • la présence d'une hémorragie intraventriculaire ou intraparenchymateuse ;
+- • le sexe féminin ;
+- • le grade de Fisher  $\geq 3$  ou de Hunt et Ress  $\geq 3$  ;
+- • la présence d'un vasospasme ;
+- • la localisation postérieure d'un anévrisme ou sur la communicante antérieure.
+
+Un score spécifique pour le risque d'hydrocéphalie chronique post-HSA, nécessitant une dérivation interne du LCS, a été développé : le score Chess [22]. Ce score sur 8 points, prend en compte :
+
+- • un score de Hunt et Hess  $\geq 4$  (1 point) ;
+- • anévrisme de localisation postérieure (1 point) ;
+- • la présence d'une hémorragie ventriculaire sur le premier scanner (1 point) ;
+- • la présence d'une ischémie précoce sur les scanner de suivi (1 point) ;
+- • la présence d'une hydrocéphalie aiguë nécessitant un geste de dérivation (4 points).
+
+Par définition, un patient ayant une DVE a un score minimal de 4 avec la mise en place de la DVE, et un score  $\geq 6$  est associé à une augmentation du risque de shunt-dépendance par 6, alors que 85 % des patients ayant un score < 6 n'ont pas besoin d'internalisation de leur DVE. C'est un score simple qui permet de prédire le risque de shunt-dépendance de manière précoce.
+
+## Complications de la DVE
+
+Les complications liées à l'utilisation d'un système de dérivation externe du LCS sont relativement fréquentes et exposent les patients à une augmentation de la morbidité.
+
+Les principales complications sont résumées dans le *tableau 1*.
+
+### Complications hémorragiques
+
+La pose de DVE peut entraîner une hémorragie intra-parenchymateuse sur le trajet du cathéter dans 7 à 30 % des cas [17]. Dans la méta-analyse de Mahto *et al.*, le principal facteur de risque d'une hémorragie intra-parenchymateuse est la présence d'une anticoagulation ou d'une antiagrégation [23] ; une étude récente retrouve également la présence d'une anticoagulation ou d'une antiagrégation comme facteur de risque d'hémorragie, ainsi que la taille du cathéter de DVE [24]. Ces hémorragies sont pour la plupart objectivées sur desTABLEAU IRésumé des principales complications, les signes devant les faire évoquer et les mesures à prendre
+
+<table border="1">
+<thead>
+<tr>
+<th>Complication</th>
+<th>Signes ou événements</th>
+<th>Conduite à tenir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>Hémorragie sur le trajet de DVE</b></td>
+<td>Dans moins de 3 % des cas : nouveaux signes neurologique, déficit ou augmentation de la PIC</td>
+<td>La plupart du temps : pas de thérapeutiques particulières<br/>Discuter geste neurochirurgicale ou retrait de la DVE au cas par cas</td>
+</tr>
+<tr>
+<td><b>Occlusion de DVE</b></td>
+<td>Arrêt de la productivité de LCS et absence pulsatile, fuite de LCS au point de ponction</td>
+<td>Vérifier les clamps et robinets sur la tubulure, vérifier l'absence de pli de la tubulure sous le pansement de tête<br/>En cas d'un obstacle dans la lumière de la tubulure visible : rincer la tubulure avec du sérum physiologique de manière stérile en direction de la poche de recueil<br/>Si suspicion d'obstruction ou de mauvaise position du cathéter : faire un scanner en urgence. Discuter le changement de la DVE ou l'injection de sérum physiologique de manière stérile en direction des ventricules uniquement si tous les œillets du cathéter sont en intraventriculaire</td>
+</tr>
+<tr>
+<td><b>Occlusion sur un caillot intraventriculaire</b></td>
+<td>Arrêt de productivité du LCS, absence pulsatile, LCS hémorragique, hématome intraventriculaire</td>
+<td>Refaire un scanner en urgence ; si DVE en place, discuter fibrinolyse in situ ou changement de DVE pour un plus gros calibre</td>
+</tr>
+<tr>
+<td><b>Infection de DVE</b></td>
+<td>Fièvre, nouveaux signes neurologiques, aspects purulents du LCS</td>
+<td>Prélèvements de LCS, envoi en culture, discuter recherche d'ARN 16S si antibiothérapie préalable, dosage de lactate sur le LCS, dosage procalcitonine sur le LCS, compte des éléments nucléés ;<br/>Antibiothérapie probabiliste ciblant les cocci gram+ (vancomycine ou linezolid ou daptomycine) et les bacilles gram- dont les entérobactéries et <i>Pseudomonas aeruginosa</i> (ceftazidime ou céfépime ou méropénème) ;<br/>discuter injection intraventriculaire d'antibiotique ;<br/>discuter retrait ou changement de DVE</td>
+</tr>
+</tbody>
+</table>
+
+scanners faits à 24 h de la pose de DVE. Un contrôle scannerographique sera réalisé en cas de dégradation neurologique postopératoire ou d'une élévation de la PIC ; néanmoins, on estime que moins de 3 % de ces hémorragies ont un retentissement clinique [25].
+
+### Obstruction de la DVE
+
+L'arrêt brutal d'écoulement du LCS, une élévation de la PIC, une dégradation de l'état de conscience ou une anomalie pupillaire doit faire suspecter une obstruction de la DVE. La vérification de l'absence de plicature du cathéter ou de clamping (sous la capeline) est urgente. Si le cathéter n'est pas coudé, il peut s'agir d'une obstruction endoluminale ou d'une mobilisation du cathéter en dehors des ventricules ; un scanner cérébral doit être réalisé pour vérifier le bon positionnement du cathéter et s'assurer que tous les œillets latéraux sont bien dans les ventricules.
+
+Si le cathéter est en place avec l'ensemble des œillets en position intraventriculaire, et qu'une obstruction est suspectée, une manœuvre de désobstruction peut être réalisée. Elle se fait en se raccordant au robinet le plus proximal, puis en injectant 5 mL de sérum physiologique en direction du sac de recueil pour purger le cathéter dans sa portion distale, puis en injectant progressivement au maximum 1 mL en direction de la dérivation ventriculaire, tout en surveillant la PIC. Une fois le geste
+
+réalisé, la DVE est déclampée et le fonctionnement de la DVE est contrôlé. Il ne doit jamais être effectué de manœuvre d'aspiration lors de cette procédure. Toute manipulation de la DVE doit s'effectuer de la manière la plus stérile possible, car chaque manipulation de la DVE augmente drastiquement le risque d'infection neuroméningée.
+
+En cas d'obstruction liée à un caillot intraventriculaire, une fibrinolyse locale peut être discutée. Dans l'étude CLEAR III, 1 mg de rtPA dans 1 mL de solution était administré via la DVE, suivi d'une injection de 3 mL de sérum physiologique en direction des ventricules ; le circuit de DVE était alors clampé pendant 1 h, puis ouvert pour drainer le LCS [26]. Cette étude visait à évaluer l'impact d'une fibrinolyse in situ via les cathéters de DVE dans les hémorragies intraventriculaires non traumatiques, comparé à l'injection d'un placebo ; elle n'a pas montré d'amélioration de la récupération neurologique chez les patients recevant une fibrinolyse, mais sans augmentation du risque hémorragique par ailleurs. Une méta-analyse plus récente montre en revanche une amélioration de la mortalité dans les hémorragies intraventriculaires lorsqu'on utilise la rtPA, avec un profil de sécurité satisfaisant [27].
+
+En cas de mobilisation du cathéter hors des structures ventriculaires ou d'échec de la manœuvre de désobstruction, la pose d'une nouvelle dérivation ventriculaire externe doit être discutée chez le patient qui reste shunt-dépendant.## Infection de DVE
+
+L'infection du LCS liée au drainage ventriculaire externe est relativement fréquente (5 à 20 %) et est associée à une augmentation de la mortalité. La durée de portage de DVE, la fréquence des prélèvements, la fuite de LCS sont des facteurs associés à l'augmentation des infections neuroméningées [28-30]. Bien que la relation entre la durée du portage de DVE et le risque d'infection soit controversée, la plupart des études considèrent qu'une durée supérieure à 15 j constitue un facteur de risque important d'infection.
+
+Son diagnostic est difficile : les manifestations cliniques sont variables et peu spécifiques. Elle sera évoquée face à une dégradation neurologique, une hyperthermie ou un syndrome inflammatoire biologique. Contrairement aux micro-organismes responsables de méningites bactériennes, ce sont les staphylocoques à coagulase négative et *Propionibacterium acnes* qui sont principalement isolés dans ces infections, ainsi que les entérobactéries et *Pseudomonas aeruginosa* [31]. Le diagnostic d'infection de DVE est difficile, car les paramètres usuels sont perturbés par l'inflammation aseptique liée à la présence de la DVE ou à la présence de sang dans les ventricules, par exemple. L'*Infectious Diseases Society of America* (IDSA) a émis des recommandations sur les infections méningées liées aux soins, notamment sur DVE [29].
+
+Il ressort de ces recommandations que :
+
+- • la normalité des paramètres habituels (protéinorachie, glycorachie, nombre d'éléments nucléés) ne permet pas d'éliminer l'infection, et la perturbation de ces éléments ne permet pas non plus d'affirmer l'infection. Néanmoins, un compte élevé d'éléments nucléés dans le LCS est associé à l'infection de DVE, sans pouvoir établir un seuil limite ;
+- • la lactatorachie a une bonne valeur prédictive négative lorsqu'elle est inférieure à 3,5 mmol/L, et une bonne valeur prédictive positive lorsqu'elle est supérieure à 4 mmol/L, chez des patients suspects d'infections neuroméningées ; le dosage de la procalfitonine dans le LCS associé à la lactatorachie semble également augmenter la VPP [32]. Une méta-analyse récente indique l'intérêt du dosage de la procalfitonine dans le LCS pour confirmer l'étiologie bactérienne d'une inflammation du LCS post-intervention chirurgicale, avec une sensibilité de 82 % et une spécificité de 81 % (contre seulement 60 et 61 % respectivement pour la procalfitonine plasmatique) ; il faut néanmoins préciser que les études étaient très hétérogènes, avec des biais importants pour certaines [33] ;
+- • la présence de germes à la coloration de Gram est en revanche toujours anormale dans ce contexte, et c'est surtout la culture positive de LCS qui affirme le diagnostic ;
+- • en cas d'antibiothérapie préalable, une recherche d'ARN 16S dans le LCS peut être utile pour confirmer le diagnostic et identifier le germe responsable.
+
+L'imagerie peut également aider au diagnostic, soit avec un scanner injecté, soit avec une IRM au gadolinium, en montrant un aspect de ventriculite.
+
+L'antibiothérapie, intraveineuse, doit cibler en priorité les germes commensaux cutanés et les entérobactéries ; aussi, l'IDSA recommande une antibiothérapie probabiliste par vancomycine ou linezolid ou daptomycine, associée à une bêta-lactamine couvrant les *Pseudomonas*, au choix parmi ceftazidime, céfepime ou méropénème. L'antibiothérapie est à adapter à l'écosystème local et à la présence d'un germe résistant dans les antécédents microbiologiques du patient.
+
+Il est également possible de réaliser des injections intraventriculaires d'antibiotiques, notamment chez les patients ayant une mauvaise évolution neurologique ou pour lesquels la culture du LCS ne se stérilise pas malgré une antibiothérapie à fortes doses, ou bien pour des germes résistants notamment aux carbapénèmes [34]. Les molécules qui peuvent être administrées en intrathécale sont la vancomycine (5 à 20 mg/j), l'amikacine (30 mg/j), la gentamicine (8 mg/j), la colistine (10 mg/j). Après injection dans la DVE, celle-ci est laissée clampée environ 1 h. La durée totale d'antibiothérapie intrathécale retrouvée dans les études varie, mais se situe entre 3 et 5 j, jusqu'à 3 semaines [35]. Après adaptation aux résultats microbiologiques, la durée d'antibiothérapie intraveineuse est habituellement de 14 à 21 j après la stérilisation du LCS. Le retrait ou le changement de la DVE est également à discuter.
+
+## Surdrainage
+
+Le sur-drainage est un autre risque de la DVE, pouvant entraîner un « collapsus » des ventricules, la majoration d'un engagement sous-falcorien et l'apparition de collections sous-durales ; néanmoins, les conséquences à court ou à long terme de ce sur-drainage dans le contexte de la DVE pour hydrocéphalie aiguë sont moins bien décrites que pour les hydrocéphalies chroniques.
+
+## La dérivation lombaire externe
+
+La dérivation lombaire externe a été développée en 1963 et est devenue une méthode courante de dérivation du LCS dans divers contextes : chirurgie de la base du crâne, évaluation de l'hydrocéphalie à pression normale et chirurgie thoraco-abdominale de l'aorte pour réduire le risque d'ischémie médullaire. Son utilisation pour le contrôle de la PIC est moins fréquente en raison de ses complications potentielles.
+
+Le drainage lombaire représente une alternative à la pose de DVE car il évite le passage d'un cathéter à travers le parenchyme cérébral. La pose d'une DLE peut également s'avérer plus simple chez les patients avec des ventricules latéraux « fentes » qui rendent la pose de DVE difficile. Par ailleurs, la redistribution du LCS des ventricules latéraux vers les espaces sous-tentoriels et les citernes sous-arachnoïdiennes fait du drainage lombaire une alternative intéressante à la DVE. Bien que cette techniquepermette de contrôler la pression intracrânienne, les inquiétudes concernant sa sécurité d'utilisation résident dans ses complications potentielles, notamment le risque d'engagement tonsillaire iatrogène dû à l'augmentation du gradient de pression entre les espaces périmédullaires et le compartiment intracrânien.
+
+Les contre-indications absolues sont la présence d'une hydrocéphalie obstructive ou d'une lésion cérébrale (tumeur, hématome) entraînant une hypertension intracrânienne. Dans ces situations, le risque d'engagement tonsillaire est majeur en cas de pose d'une DLE. Au vu du risque encouru, l'indication de la pose d'une DLE doit être le fruit d'une décision pluridisciplinaire entre les équipes d'anesthésie-réanimation et de neurochirurgie.
+
+Il s'agit d'un cathéter en silicone d'un diamètre interne entre 1 et 1,6 mm, inséré dans l'espace périmédullaire en dessous du cône terminal (entre L3 et S1) via une aiguille de Tuohy, comme pour les péridurales, nécessitant pour ce geste le franchissement de la dure-mère. Après s'être assuré d'un reflux spontané de LCS par l'aiguille, il faut mettre en place 3 à 4 cm de cathéter dans l'espace péri-médullaire, et tunnéliser le cathéter sous la peau, avant de le relier à un système de recueil du LCS comme pour les DVE. Le réglage du niveau 0 est identique à la DVE, au niveau du conduit auditif externe. Le choix du niveau de drainage diffère ensuite selon l'indication de la DLE.
+
+### Pose de DLE pour HTIC
+
+#### Indication et critères de sécurité
+
+Les critères de mise en place d'une DLE sont décrits dans plusieurs études et comprennent la présence de citernes de la base discernables, un déplacement de la ligne médiane inférieure à 10 mm, l'absence de lésion expansive focale et l'absence d'engagement cérébral.
+
+#### Condition de pose
+
+Afin d'éviter les risques d'hypotension cérébrale à la pose, la pose doit être réalisée en décubitus latéral pour limiter le gradient de pression, puis le cathéter doit être inséré rapidement après obtention d'un reflux de LCS afin de réduire le volume drainé.
+
+#### Réglages et gestion
+
+Le repère pour le niveau 0 de la DLE est le même que pour une DVE (i.e., le tragus de l'oreille). La stratégie de drainage consiste à placer le niveau de la DLE à +15 mmHg au-dessus du tragus pour assurer un drainage continu, puis à ajuster le niveau en fonction des objectifs de PIC. Si la PIC reste supérieure
+
+à 20 mmHg, le gradient est augmenté en abaissant le niveau de drainage de 5 mmHg. Si la PIC chute en dessous de 10 mmHg le drainage est interrompu.
+
+En cas de modification pupillaire, le drainage est immédiatement interrompu et un scanner cérébral est réalisé en urgence. Le débit doit être surveillé de façon horaire et le niveau doit être augmenté de 5 mmHg en cas de débit supérieur à 10 mL/h et à l'abaisser en cas de diminution du débit associée à une augmentation de la PIC [36].
+
+### Pose de DLE pour HSA
+
+Des études récentes ont également mis en lumière l'intérêt des DLE pour réduire les vasospasmes symptomatiques et l'ischémie cérébrale retardée, en drainant le sang et ses produits de dégradation suite à une hémorragie méningée anévrysmale, et ce sans majorer le risque de complications par rapport à la DVE [6,37].
+
+La pose d'une DLE est donc à discuter chez ces patients.
+
+Dans l'étude Early Drain [9], les patients du groupe DLE avaient des niveaux de DLE réglés pour obtenir un drainage constant de 5 mL/h, avec une durée de drainage d'au moins 4 j et d'au plus 10 j. La DLE était posée après la sécurisation de l'anévrisme et un scanner de contrôle à 24 h de la sécurisation. Dans une méta-analyse plus récente [37], la durée moyenne de portage des DLE était de 8j.
+
+### Conclusion
+
+La DVE est fréquente en neuro-réanimation, et permet de traiter l'HTIC ou les hydrocéphalies aiguës. Néanmoins, sa pose comme sa manipulation exposent les patients à une morbi-mortalité élevée. La bonne gestion et la bonne surveillance de ce dispositif sont donc primordiales à réaliser en collaboration pluridisciplinaire avec les neurochirurgiens. La question de son sevrage doit se poser quotidiennement pour diminuer sa durée de portage sans augmenter le risque d'échec de retrait de DVE et de la pose d'un nouveau dispositif.
+
+La DLE se développe de plus en plus ces dernières années et peut représenter une alternative à la DVE et semble particulièrement intéressante dans les HSA anévrysmales ; néanmoins, d'autres études sont nécessaires pour établir sa place dans la prise en charge des patients en réanimation et en soins critiques.
+
+Déclaration de liens d'intérêts : les auteurs déclarent ne pas avoir de liens d'intérêts.Références
+
+[1] Kompanje EJ, Delwel EJ. The first description of a device for repeated external ventricular drainage in the treatment of congenital hydrocephalus, invented in 1744 by Claude-Nicolas Le Cat. *Pediatr Neurosurg* 2003;39(1):10-3.
+
+[2] Bertuccio A, Marasco S, Longhitano Y, Romenskaya T, Elia A, Mezzini G, et al. External ventricular drainage: a practical guide for neuro-anesthesiologists. *Clin Pract* 2023;13(1):219-29.
+
+[3] Srinivasan VM, O'Neill BR, Jho D, Whiting DM, Oh MY. The history of external ventricular drainage. *J Neurosurg* 2014;120(1):228-36.
+
+[4] Edwards RJ, Wildman J. Temporary drainage of cerebrospinal fluid for diagnosis and treatment of hydrocephalus. *Neurosurg Clin N Am* 2025;36(2):233-46.
+
+[5] Chung DY, Thompson BB, Kumar MA, Mahta A, Rao SS, Lai JH, et al. Association of external ventricular drain wean strategy with shunt placement and length of stay in subarachnoid hemorrhage: a prospective multicenter study. *Neurocrit Care* 2022;36(2):536-45.
+
+[6] Musmar B, Abdalrazeq H, Roy JM, Salim HA, Pontarelli MK, Adeeb N, et al. Outcomes of external ventricular drainage and lumbar drainage in aneurysmal subarachnoid hemorrhage: a systematic review and meta-analysis. *Int J Stroke* 2025;10:1201-13.
+
+[7] Sakka L, Coll G, Chazal J. Anatomy and physiology of cerebrospinal fluid. *Eur Ann Otorhinolaryngol Head Neck Dis* 2011;128(6):309-16.
+
+[8] Hauglund NL, Andersen M, Tokarska K, Radovanovic T, Kjaerby C, Sorensen FL, et al. Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep. *Cell* 2025;188(3):606-622.e17.
+
+[9] Wolf S, Mielke D, Barner C, Malinova V, Kerz T, Wostrack M, et al. Effectiveness of lumbar cerebrospinal fluid drain among patients with aneurysmal subarachnoid hemorrhage: a randomized clinical trial. *JAMA Neurol* 2023;80(8):833-42.
+
+[10] Gilard V, Djoubairou BQ, Lepetit A, Metayer T, Gakuba C, Gourio C, et al. Small versus large catheters for ventriculostomy in the management of intraventricular hemorrhage. *World Neurosurg* 2017;97:117-22.
+
+[11] Diop S, Roujansky A, Kallel H, Mounier R. Prevention of ventriculostomy related infection: effectiveness of impregnated biomaterial. *Int J Mol Sci* 2023;24(5):4819.
+
+[12] AlAzri A, Mok K, Chankowsky J, Mullah M, Marcoux J. Placement accuracy of external ventricular drain when comparing free-hand insertion to neuronavigation guidance in severe traumatic brain injury. *Acta Neurochir (Wien)* 2017;159(8):1399-411.
+
+[13] Pedersen SH, Prein TH, Ammar A, Grotenhuis A, Hamilton MG, Hansen TS, et al. How to define CSF overdrainage: a systematic literature review. *Acta Neurochir (Wien)* 2023;165(2):429-41.
+
+[14] Olson DM, Zomorodi M, Britz GW, Zomorodi AR, Amato A, Graffagnino C. Continuous cerebral spinal fluid drainage associated with complications in patients admitted with subarachnoid hemorrhage. *J Neurosurg* 2013;119(4):974-80.
+
+[15] Palasz J, D'Antona L, Farrell S, Elborady MA, Watkins LD, Toma AK. External ventricular drain management in subarachnoid hemorrhage: a systematic review and meta-analysis. *Neurosurg Rev* 2022;45(1):365-73.
+
+[16] Chung DY, Leslie-Mazwi TM, Patel AB, Rordorf GA. Management of external ventricular drains after subarachnoid hemorrhage: a multi-institutional survey. *Neurocrit Care* 2017;26(3):356-61.
+
+[17] Fried HI, Nathan BR, Rowe AS, Zabramski JM, Andaluz N, Bhimraj A, et al. The Insertion and management of external ventricular drains: an evidence-based Consensus Statement: a statement for healthcare professionals from the Neurocritical Care Society. *Neurocrit Care* 2016;24(1):61-81.
+
+[18] Lomo H, Brasselet J, Gohel H, Praud S, Roux V, Faule J, et al. Weaning from external ventricular drainage after non-traumatic subarachnoid hemorrhage: rapid vs. gradual weaning and predicting closure trial failure. The SEVDVE retrospective multicenter cohort study. *Anaesth Crit Care Pain Med* 2025;44(3):101508.
+
+[19] Capion T, Lilja-Cyron A, Olsen MH, Juhler M, Moller K, Sorteberg A, et al. Prompt closure versus gradual weaning of external ventricular drainage for hydrocephalus following aneurysmal subarachnoid haemorrhage: protocol for the DRAIN randomised clinical trial. *Acta Anaesthesiol Scand* 2023;67(8):1121-7.
+
+[20] Chen L, Meng Y, Xue Q, Zhao Y, Zhou X, Hu K, et al. Risk factors of shunt-dependent hydrocephalus after subarachnoid hemorrhage: a systematic review and meta-analysis based on observational cohort studies. *Neurosurg Rev* 2024;47(1):421.
+
+[21] Xie Z, Hu X, Zan X, Lin S, Li H, You C. Predictors of shunt-dependent hydrocephalus after aneurysmal subarachnoid hemorrhage? A systematic review and meta-analysis. *World Neurosurg* 2017;106:844-860.e6.
+
+[22] Jabbarli R, Bohrer AM, Pierscianek D, Muller D, Wrede KH, Dammann P, et al. The CHESS score: a simple tool for early prediction of shunt dependency after aneurysmal subarachnoid hemorrhage. *Eur J Neurol* 2016;23(5):912-8.
+
+[23] Mahto N, Owodunni OP, Okakpu U, Kazim SF, Varela S, Varela Y, et al. Postprocedural complications of external ventricular drains: a meta-analysis evaluating the absolute risk of hemorrhages, infections, and revisions. *World Neurosurg* 2023;171:41-64.
+
+[24] Gutierrez-Gonzalez R, Mediavilla T, Ortega-Angulo C, Kalantari T, Zamarron A. Risk factors for complications in bolt-connected external ventricular drains. *Neurol Neurochir Pol* 2025;59(4):420-30.
+
+[25] Dey M, Stadnik A, Riad F, Zhang L, McBee N, Kase C, et al. Bleeding and infection with external ventricular drainage: a systematic review in comparison with adjudicated adverse events in the ongoing Clot Lysis Evaluating Accelerated Resolution of Intraventricular Hemorrhage Phase III (CLEAR-III IHV) trial. *Neurosurgery* 2015;76(3):291-300 [discussion 1].
+
+[26] Hanley DF, Lane K, McBee N, Ziai W, Tuhrim S, Lees KR, et al. Thrombolytic removal of intraventricular haemorrhage in treatment of severe stroke: results of the randomised, multicentre, multiregion, placebo-controlled CLEAR III trial. *Lancet* 2017;389(10069):603-11.
+
+[27] Bolentine FS, Portela E, Rodrigues IS, Araujo L, Silva A, Pipek LZ, et al. Analysis of thrombolytic agents in intraventricular hemorrhage: a systematic review and meta-analysis. *Turk Neurosurg* 2024;34(4):543-53.
+
+[28] van de Beek D, Drake JM, Tunkel AR. Nosocomial bacterial meningitis. *N Engl J Med* 2010;362(2):146-54.
+
+[29] Tunkel AR, Hasbun R, Bhimraj A, Byers K, Kaplan SL, Scheld WM, et al. 2017 Infectious Diseases Society of America's Clinical Practice Guidelines for healthcare-associated ventriculitis and meningitis. *Clin Infect Dis* 2017;64(6):e34-65.
+
+[30] Hoefnagel D, Dammers R, Ter Laak-Poort MP, Avezaat CJ. Risk factors for infections related to external ventricular drainage. *Acta Neurochir (Wien)* 2008;150(3):209-14 [discussion 14].
+
+[31] Dorresteijn K, Brouwer MC, Jellema K, van de Beek D. Bacterial external ventricular catheter-associated infection. *Expert Rev Anti Infect Ther* 2020;18(3):219-29.
+
+[32] Li Y, Zhang G, Ma R, Du Y, Zhang L, Li F, et al. The diagnostic value of cerebrospinal fluids procalcitonin and lactate for the differential diagnosis of post-neurosurgical bacterial meningitis and aseptic meningitis. *Clin Biochem* 2015;48(12):50-4.
+
+[33] Biasucci DG, Sergi PG, Bilotta F, Dauri M. Diagnostic accuracy of procalcitonin in bacterial infections of the CNS: an updated systematic review, meta-analysis, and meta-regression. *Crit Care Med* 2024;52(1):112-24.
+
+[34] Karvouniaris M, Brotis AG, Tsiamalou P, Fountas KN. The role of intraventricular antibiotics in the treatment of nosocomial ventriculitis/meningitis from gram-negative![Teal square logo](9cdff74346096042c5a942f97219595d_2_img.webp)
+
+pathogens: a systematic review and meta-analysis. *World Neurosurg* 2018;120:e637-50.
+
+[35] Karvouniaris M, Brotis A, Tsiakos K, Palli E, Koulenti D. Current perspectives on the diagnosis and management of healthcare-associated ventriculitis and meningitis. *Infect Drug Resist* 2022;15:697-721.
+
+[36] Dagod G, Laurens M, Roustan JP, Deras P, Courvalin E, Girard M, et al. Impact of lumbar cerebrospinal fluid drainage to control intracranial hypertension in patients with severe traumatic brain injury: a retrospective monocentric cohort. *Crit Care* 2025;29:2.
+
+[37] Lee KS, Chari A, Motiwala M, Khan NR, Arthur AS, Lawton MT. Effectiveness of cerebrospinal fluid lumbar drainage among patients with aneurysmal subarachnoid hemorrhage: an updated systematic review and meta-analysis. *World Neurosurg* 2024;183:246-253.e12.

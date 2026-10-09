@@ -263,10 +263,15 @@ cmH~2~O, elle-même reliée à une **poche**. Le système est clos (@fig-dve).
   débit très supérieur pendant plusieurs heures traduit un hyperdrainage ou un siphonnage ; un
   débit nul, une obstruction ou une hauteur trop haute.
 
-![Montage d'une DVE. Le zéro est au niveau du conduit auditif externe (CAE) ; le LCR ne s'écoule
-que si la pression ventriculaire dépasse la hauteur du point d'écoulement, ici +15 cmH~2~O,
-soit environ 11 mmHg. Le capteur mesure la PIC quand la dérivation est fermée vers la chambre.
-Schéma.](../figures/dve){#fig-dve width=95%}
+![Pose et montage d'une DVE. **A.** Point de Kocher (étoile) : 11 cm en arrière du nasion
+sur la ligne médiane, puis 2 à 3 cm en dehors, en avant de la suture coronale. **B.** Cathéter
+dans la corne frontale du ventricule latéral (1) ; robinets et clamps pour les prélèvements,
+les injections, le capteur de PIC et le clampage (2) ; échelle graduée (3) ; chambre de recueil
+graduée (4), que l'on fait coulisser le long de l'échelle jusqu'à la hauteur prescrite ; laser
+(5) qui aligne le zéro de l'échelle sur le conduit auditif externe (repère du trou de Monro) ;
+poche de recueil (6). Le LCR ne s'écoule que si la pression ventriculaire dépasse la hauteur
+du point d'écoulement de la chambre : l'échelle n'indique pas son unité, d'où le piège
+cmH~2~O ou mmHg. Perrault et al. 2026 [@perrault2026], CC BY 4.0.](../figures/articles/dve-montage.jpg){#fig-dve width=95%}
 
 La DVE est à la fois un **monitorage** (la PIC, quand elle est fermée) et un **traitement**
 (le drainage de l'hydrocéphalie, ou d'un peu de LCR pour baisser la PIC, @sec-htic). Le
@@ -277,8 +282,12 @@ obstructive (risque d'engagement, @sec-physiopathologie).
 ### La pose
 
 La pose est un geste neurochirurgical, au bloc ou au lit selon la situation du patient
-(recommandation conditionnelle, faible niveau de preuve) [@fried2016]. Pour l'anesthésiste,
-trois points :
+(recommandation conditionnelle, faible niveau de preuve) [@fried2016]. Le point de Kocher se
+trouve à 11 cm du nasion sur la ligne médiane, puis 2 à 3 cm en dehors, en avant de la suture
+coronale ; le cathéter vise le trou de Monro, à 7 cm de profondeur au plus. On pose à droite
+sauf contre-indication, pour épargner l'hémisphère du langage. La neuronavigation améliore
+la position du cathéter quand les ventricules sont petits ou déviés [@perrault2026]. Pour
+l'anesthésiste, trois points :
 
 - **L'hémostase** : hors extrême urgence, la coagulopathie et les antithrombotiques sont
   corrigés avant la pose, selon le protocole de l'établissement [@fried2016]. Le protocole
@@ -309,6 +318,24 @@ Une DVE se prescrit chaque jour, par écrit :
 3. **Le débit attendu** et les seuils qui imposent d'appeler (débit nul, débit excessif).
 4. **La surveillance** : PIC (DVE fermée), aspect du LCR, oscillations, examen neurologique,
    pansement.
+
+Le drainage **continu** est la règle dans la plupart des centres : dans une enquête menée
+auprès de 45 réanimations neurologiques, 81 % gardaient la DVE ouverte avant l'exclusion de
+l'anévrysme et 94 % après, à une hauteur médiane de 18 puis 11 cmH~2~O [@chung2017]. Le
+drainage **intermittent** (DVE fermée, ouverte quand la PIC dépasse un seuil) est pourtant
+associé, dans une méta-analyse d'études surtout observationnelles d'HSA, à moins
+d'infections (RR 0,20) et moins d'obstructions (RR 0,45) [@palasz2022].
+
+::: {.callout-warning title="Piège : cmH~2~O ou mmHg ?"}
+Les échelles des DVE portent souvent deux graduations, et les centres n'utilisent pas la
+même [@perrault2026]. 15 cmH~2~O font 11 mmHg ; 15 mmHg font 20 cmH~2~O. Une revue française
+récente propose une contre-pression de +15 à 20 mmHg avant l'exclusion d'un anévrysme
+[@perrault2026], ce livre (comme les hauteurs relevées dans l'enquête ci-dessus) +15
+cmH~2~O : presque le simple et le double. **Écrivez toujours l'unité** sur la prescription,
+et vérifiez sur quelle colonne de l'échelle la chambre est réglée.
+:::
+
+<!-- TODO-VALIDER : unité de la hauteur de DVE dans le service (cmH2O ou mmHg) et hauteur de contre-pression avant exclusion : +15 cmH2O (livre, protocole `hsa`) contre +15 à 20 mmHg (Perrault 2026) (A_VALIDER, n° 42 a). -->
 
 <!-- TODO-VALIDER : aucun protocole local de surveillance infirmière de la DVE dans les sources : hauteur par défaut hors HSA, seuils de débit horaire et journalier qui déclenchent un appel, fréquence de la mesure de la PIC, conduite en cas de débit nul (A_VALIDER, n° 41). -->
 
@@ -358,9 +385,22 @@ fins au scanner : on remonte la DVE.
 
 **L'obstruction.** Pas de LCR, plus d'oscillations, PIC qui monte, patient qui s'aggrave :
 caillot, débris, cathéter sorti du ventricule, robinet mal tourné. On vérifie le système de la
-tête à la poche (robinets, coudure, hauteur) et l'on appelle le neurochirurgien. **On ne
-rince pas** une DVE soi-même : l'irrigation est un facteur de risque d'infection
-[@lozier2002; @tunkel2017].
+tête à la poche (robinets, coudure sous la capeline, hauteur) et l'on appelle le
+neurochirurgien. **On ne rince pas** une DVE soi-même : l'irrigation est un facteur de risque
+d'infection [@lozier2002; @tunkel2017]. Un scanner vérifie la position du cathéter. Si tous ses
+orifices sont dans le ventricule, une désobstruction peut être décidée : quelques millilitres
+de sérum physiologique vers la poche pour purger la ligne, puis au plus 1 mL vers le
+ventricule en surveillant la PIC, en asepsie stricte et **sans jamais aspirer**
+[@perrault2026]. Sinon, la DVE est changée.
+
+<!-- TODO-VALIDER : désobstruction d'une DVE (rinçage vers le ventricule, Perrault 2026) : geste autorisé dans le service ? par qui (neurochirurgien seul) ? (A_VALIDER, n° 42 b). -->
+
+Quand c'est un **caillot intraventriculaire** qui bouche la DVE, une fibrinolyse in situ se
+discute avec le neurochirurgien. Dans l'essai CLEAR III (500 hémorragies intraventriculaires
+non traumatiques), l'altéplase injectée par la DVE (1 mg toutes les 8 h, jusqu'à 12 doses) ne
+changeait pas la proportion de bons devenirs (mRS ≤ 3 : 48 % contre 45 %) ; elle réduisait la
+mortalité à 6 mois (18 % contre 29 %), au prix de plus de survivants très dépendants (mRS 5 :
+17 % contre 9 %), sans plus de saignements symptomatiques [@hanley2017].
 
 **L'hémorragie** : à la pose (voir plus haut) ou au retrait ; scanner à toute aggravation.
 
@@ -384,12 +424,44 @@ nouvelle, une altération de la vigilance, une cellularité **qui augmente** d'u
   hémocultures ; prélèvements avant l'antibiotique si l'état du patient le permet.
 - Demander une culture prolongée (au moins 10 jours) pour les germes lents
   (*Cutibacterium acnes*) [@tunkel2017].
+- Les **marqueurs** aident sans trancher (IDSA, faible) [@tunkel2017]. Un **lactate** du LCR
+  ≥ 4 mmol/L est très évocateur après une neurochirurgie (sensibilité 88 %, spécificité
+  98 % dans une étude), mais l'HSA et la lésion cérébrale l'élèvent aussi, et la sédation le
+  baisse. La **procalcitonine du LCR** fait mieux que celle du sang chez le patient
+  neurochirurgical (sensibilité 82 % et spécificité 81 %, contre 65 % et 61 %), avec des
+  études hétérogènes [@biasucci2024]. Sous antibiotique, une **PCR** (ARN 16S) sur le LCR
+  peut identifier le germe [@tunkel2017]. Le scanner injecté ou l'IRM peuvent montrer une
+  ventriculite [@perrault2026].
 - Traitement probabiliste : **vancomycine et bêtalactamine antipyocyanique** (céfépime,
   ceftazidime ou méropénème), selon l'écologie locale [@tunkel2017], puis adaptation à
   l'antibiogramme ; **retrait ou changement de la DVE infectée** (forte) ; antibiotique
   intraventriculaire si l'infection répond mal au traitement intraveineux ou si le germe est
   multirésistant, avec l'infectiologue (DVE clampée 15 à 60 min après l'injection)
-  [@tunkel2017; @fried2016] ; durée de 10 à 14 jours le plus souvent [@tunkel2017].
+  [@tunkel2017; @fried2016].
+- Durée : 10 jours pour un staphylocoque à coagulase négative ou un *C. acnes* peu
+  symptomatique, 10 à 14 jours sinon (21 jours pour les bacilles à Gram négatif selon
+  certains experts), et 10 à 14 jours après la dernière culture positive si les cultures
+  restent positives [@tunkel2017].
+:::
+
+::: {.callout-note title="Pour aller plus loin : les antibiotiques intraventriculaires" collapse="true"}
+Doses quotidiennes chez l'adulte proposées par l'IDSA, sans données qui fixent la dose
+exacte [@tunkel2017] :
+
+| Molécule | Dose intraventriculaire par jour |
+|----|----|
+| Vancomycine | 5–20 mg (10 ou 20 mg dans la plupart des études) |
+| Gentamicine | 4–8 mg |
+| Amikacine | 5–50 mg (30 mg habituellement) |
+| Colistine (colistiméthate) | 10 mg |
+
+: Antibiotiques intraventriculaires chez l'adulte (IDSA 2017) {#tbl-atb-ivt}
+
+La dose s'adapte au volume des ventricules (fentes : vancomycine 5 mg ; dilatés : 15 à 20 mg)
+et la fréquence au débit de la DVE (tous les 3 jours sous 50 mL/24 h, un jour sur deux
+entre 50 et 100 mL, tous les jours entre 100 et 150 mL). L'objectif est une concentration
+dans le LCR de 10 à 20 fois la CMI du germe (forte, faible) [@tunkel2017]. La prescription se
+fait avec l'infectiologue et la pharmacie.
 :::
 
 ### Le sevrage
@@ -410,7 +482,19 @@ rapide à moins de dérivations définitives, moins de DVE dysfonctionnelles et 
 courts [@rao2020; @chung2022]. Dans une cohorte française de 407 HSA (cinq centres), le
 clampage direct échouait plus souvent (46 % contre 35 %) mais raccourcissait les séjours ; un
 échec du clampage était associé à un drainage et à un séjour en réanimation plus longs
-[@lomo2025]. La NCS 2023 ne tranche pas pour l'HSA (@sec-hsa) [@treggiari2023].
+[@lomo2025]. La NCS 2023 ne tranche pas pour l'HSA (@sec-hsa) [@treggiari2023] ; l'essai
+randomisé DRAIN (clampage direct contre sevrage progressif après HSA) est en cours
+[@capion2024].
+
+L'épreuve de **clampage** dure habituellement 24 à 48 h ; sans aggravation neurologique ni
+montée de la PIC, la DVE est retirée après un scanner qui ne montre pas de dilatation
+ventriculaire [@perrault2026]. Ces épreuves repèrent aussi les patients qui auront besoin
+d'une **dérivation définitive**, 15 à 30 % des porteurs de DVE [@perrault2026]. Après une
+HSA, le **score CHESS** (0 à 8 points) l'annonce dès les premiers jours : Hunt et Hess ≥ IV
+(1 point), anévrysme de la circulation postérieure (1), hémorragie intraventriculaire (1),
+infarctus précoce au scanner de contrôle (1), hydrocéphalie aiguë (4). Un score ≥ 6 désigne
+les patients à haut risque de dépendance à la dérivation [@jabbarli2016]. Un patient porteur
+d'une DVE pour hydrocéphalie aiguë part donc de 4.
 
 En 2004, les experts français proposaient de sevrer en dehors du sevrage ventilatoire et du
 vasospasme, de surveiller la PIC pendant 48 h après le clampage (ondes en plateau,

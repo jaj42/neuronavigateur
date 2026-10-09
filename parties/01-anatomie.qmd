@@ -167,7 +167,7 @@ Trois conséquences pratiques :
 Le LCR est produit à environ 70 % par les **plexus choroïdes**, surtout ceux des ventricules
 latéraux, au rythme de 20 mL/h, soit **500 à 600 mL par jour**. Le volume total n'étant que de
 150 mL environ (dont une centaine dans le crâne), il est renouvelé trois à quatre fois par jour.
-Il suit un trajet fixe (@fig-ventricules) :
+Il suit un trajet fixe (@fig-lcr-circulation ; @fig-ventricules pour la forme des ventricules) :
 
 1. **ventricules latéraux** (un par hémisphère, avec une corne frontale, une corne occipitale
    et une **corne temporale** qui descend profondément dans le lobe temporal) ;
@@ -177,8 +177,16 @@ Il suit un trajet fixe (@fig-ventricules) :
 4. **aqueduc cérébral (de Sylvius)**, étroit et facile à obstruer ;
 5. **quatrième ventricule**, dans la fosse postérieure, qui s'ouvre vers les citernes et
    l'espace sous-arachnoïdien périmédullaire ;
-6. **résorption** dans le sang veineux par les **granulations arachnoïdiennes**, surtout le long
+6. **résorption** dans le sang veineux par les **granulations (ou villosités) arachnoïdiennes de Pacchioni**, surtout le long
    du sinus sagittal supérieur (@fig-meninges).
+
+![Circulation du LCR, coupe sagittale médiane (les numéros de la figure ne sont pas ceux de
+la liste) : production par les plexus choroïdes des ventricules latéraux (1) ; passage par le foramen
+interventriculaire de Monro vers le troisième ventricule (2), puis par l'aqueduc cérébral (3)
+vers le quatrième ventricule (4) ; sortie par ses ouvertures médiane (Magendie) et latérales
+(Luschka) vers l'espace sous-arachnoïdien et périmédullaire (5) ; résorption par les
+granulations arachnoïdiennes dans le sinus sagittal supérieur (6). Perrault et al. 2026
+[@perrault2026], d'après Clark, Douglas et Choi (OpenStax), CC BY 4.0.](../figures/articles/lcr-circulation.jpg){#fig-lcr-circulation width=95%}
 
 ![Système ventriculaire, vues latérale et antérieure (légendes en anglais) : ventricules
 latéraux, foramen interventriculaire (de Monro), troisième ventricule, aqueduc cérébral (de

@@ -202,12 +202,20 @@ le traumatisme crânien (@sec-tc-grave).
 
 ### L'hydrocéphalie aiguë et la DVE
 
-Le sang dans les espaces sous-arachnoïdiens et les ventricules bloque la résorption du LCR :
+Le sang dans les espaces sous-arachnoïdiens et les ventricules bloque l'écoulement et la
+résorption du LCR (@fig-lcr-hsa) :
 une **hydrocéphalie aiguë** complique 15 à 25 % des HSA selon le protocole (15 à 87 % selon les
 séries citées par l'AHA [@hoh2023]), plus souvent en cas d'hémorragie
 intraventriculaire ou d'anévrysme de la circulation postérieure [@sfar_hsa2004]. Elle aggrave la conscience et
 le risque ischémique. Au scanner, les premiers signes sont discrets : dilatation des cornes
 temporales, augmentation de l'index bicaudé [@sfar_hsa2004].
+
+![Où le sang bloque le LCR après une HSA. Un caillot dans le troisième ventricule (2),
+l'aqueduc (3) ou le quatrième ventricule (4) fait une hydrocéphalie obstructive : les
+ventricules en amont se dilatent. Le sang des citernes et de l'espace sous-arachnoïdien (5)
+encrasse les granulations arachnoïdiennes de Pacchioni (6) : la résorption baisse, et l'hydrocéphalie est
+communicante. Les deux mécanismes s'associent souvent (@sec-anatomie). Perrault et al. 2026
+[@perrault2026], d'après Clark, Douglas et Choi (OpenStax), CC BY 4.0.](../figures/articles/lcr-circulation.jpg){#fig-lcr-hsa width=85%}
 
 Une hydrocéphalie aiguë symptomatique impose une **dérivation du LCR en urgence**, par DVE ou
 drainage lombaire (classe 1) [@hoh2023] ; à la phase aiguë, avant l'exclusion, c'est la DVE.

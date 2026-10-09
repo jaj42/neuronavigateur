@@ -1,7 +1,14 @@
 # Crédits des images {#sec-credits-images}
 
-Les courbes et schémas sans mention de source (autorégulation, réactivité au CO~2~, courbe de Langfitt, onde de PIC, Doppler transcrânien, PRx et PPC optimale, Lund et Rosner, arbre des dysnatrémies, cascades de Rosner, montage de la DVE, calendrier de l'HSA, algorithme de l'HTIC, diabète insipide triphasique, pression transmurale, cœur et pénombre, cerveau tendu, clampage temporaire, déroulé de la chirurgie éveillée) sont des figures originales, générées à partir des scripts du dossier `figures/src/`. Ce sont des schémas pédagogiques : les valeurs sont typiques, pas des mesures, sauf quand la légende cite une source.
+Les courbes et schémas sans mention de source (autorégulation, réactivité au CO~2~, courbe de Langfitt, onde de PIC, Doppler transcrânien, PRx et PPC optimale, Lund et Rosner, arbre des dysnatrémies, cascades de Rosner, calendrier de l'HSA, algorithme de l'HTIC, diabète insipide triphasique, pression transmurale, cœur et pénombre, cerveau tendu, clampage temporaire, déroulé de la chirurgie éveillée) sont des figures originales, générées à partir des scripts du dossier `figures/src/`. Ce sont des schémas pédagogiques : les valeurs sont typiques, pas des mesures, sauf quand la légende cite une source.
 
 Les illustrations anatomiques proviennent de Wikimedia Commons et sont réutilisées selon leur licence.
+
+Deux illustrations viennent de la revue de Perrault et al., « Dérivation ventriculaire externe : gestion au quotidien », *Anesthésie & Réanimation* 2026;12:287–297 (doi:10.1016/j.anrea.2026.02.003), publiée en accès libre sous licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) et réutilisée sans modification :
+
+| Figure | Source | Licence |
+|----|----|----|
+| Circulation du LCR (@fig-lcr-circulation, @fig-lcr-hsa) | Perrault et al. 2026, figure 1, d'après Mary Ann Clark, Matthew Douglas et Jung Choi (OpenStax), via Wikimedia Commons | CC BY 4.0 |
+| Pose et montage d'une DVE (@fig-dve) | Perrault et al. 2026, figure 2 | CC BY 4.0 |
 
 {{< include _credits-wikimedia.md >}}
